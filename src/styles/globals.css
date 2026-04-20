@@ -1,0 +1,767 @@
+@import 'tailwindcss';
+
+/* ──── Geist Mono (CDN-loaded via <link> in index.html as fallback) ──── */
+@font-face {
+  font-family: 'GeistMono';
+  src: url('https://cdn.jsdelivr.net/npm/geist@1.3.1/dist/fonts/geist-mono/GeistMono-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GeistMono';
+  src: url('https://cdn.jsdelivr.net/npm/geist@1.3.1/dist/fonts/geist-mono/GeistMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GeistMono';
+  src: url('https://cdn.jsdelivr.net/npm/geist@1.3.1/dist/fonts/geist-mono/GeistMono-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+}
+
+/* ────────────────── xAI Design Tokens ──────────────────────────────────────── */
+@theme {
+  --font-sans: 'Inter Variable', 'SF Pro Display', -apple-system, system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'GeistMono', ui-monospace, 'SF Mono', 'Roboto Mono', Menlo, Monaco, monospace;
+
+  /* ─── Backgrounds ─── */
+  --color-xai-bg: #1f2228;
+  --color-xai-bg-elevated: #272b31;
+  --color-xai-bg-surface: #2c3038;
+
+  /* ─── Text ─── */
+  --color-xai-text: #ffffff;
+  --color-xai-text-2: rgba(255, 255, 255, 0.7);
+  --color-xai-text-3: rgba(255, 255, 255, 0.5);
+  --color-xai-text-4: rgba(255, 255, 255, 0.3);
+
+  /* ─── Borders ─── */
+  --color-xai-border: rgba(255, 255, 255, 0.1);
+  --color-xai-border-strong: rgba(255, 255, 255, 0.2);
+
+  /* ─── Surfaces ─── */
+  --color-xai-surface: rgba(255, 255, 255, 0.03);
+  --color-xai-surface-hover: rgba(255, 255, 255, 0.06);
+
+  /* ─── Accent (used sparingly) ─── */
+  --color-xai-accent: rgb(59, 130, 246);
+
+  /* ─── Platform colors ─── */
+  --color-amd: #ed1c24;
+  --color-intel: #0071c5;
+
+  /* ─── Budget tier colors ─── */
+  --color-tier-low: #cd7f32;
+  --color-tier-mid: #c0c0c0;
+  --color-tier-high: #ffd700;
+}
+
+/* ────────────────── Base ───────────────────────────────────────────────────── */
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--color-xai-bg);
+  color: var(--color-xai-text);
+  font-family: var(--font-sans);
+  font-feature-settings: 'cv01', 'ss03';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ────────────────── xAI Card ──────────────────────────────────────────────── */
+.xai-card {
+  background: var(--color-xai-surface);
+  border: 1px solid var(--color-xai-border);
+  padding: 1.5rem;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.xai-card:hover {
+  background: var(--color-xai-surface-hover);
+  border-color: var(--color-xai-border-strong);
+}
+
+.xai-card-active {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: var(--color-xai-border-strong);
+}
+
+/* ────────────────── xAI Buttons ───────────────────────────────────────────── */
+.xai-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  font-weight: 400;
+  letter-spacing: 0.0875rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.xai-btn-primary {
+  background: var(--color-xai-text);
+  color: var(--color-xai-bg);
+}
+
+.xai-btn-primary:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.xai-btn-ghost {
+  background: transparent;
+  color: var(--color-xai-text);
+  border: 1px solid var(--color-xai-border-strong);
+}
+
+.xai-btn-ghost:hover {
+  background: var(--color-xai-surface);
+}
+
+.xai-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* ────────────────── xAI Input ─────────────────────────────────────────────── */
+.xai-input {
+  background: transparent;
+  border: 1px solid var(--color-xai-border-strong);
+  padding: 0.75rem 1rem;
+  color: var(--color-xai-text);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.xai-input:focus {
+  border-color: var(--color-xai-accent);
+}
+
+.xai-input::placeholder {
+  color: var(--color-xai-text-4);
+}
+
+/* ────────────────── xAI Tag ───────────────────────────────────────────────── */
+.xai-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--color-xai-border-strong);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.0625rem;
+  color: var(--color-xai-text-2);
+}
+
+.xai-tag-accent {
+  border-color: var(--color-xai-accent);
+  color: var(--color-xai-accent);
+}
+
+/* ────────────────── Platform Colors ───────────────────────────────────────── */
+.platform-amd { border-color: var(--color-amd) !important; }
+.platform-amd:hover { background: rgba(237, 28, 36, 0.05) !important; }
+.platform-intel { border-color: var(--color-intel) !important; }
+.platform-intel:hover { background: rgba(0, 113, 197, 0.05) !important; }
+
+/* ────────────────── Progress Bar ──────────────────────────────────────────── */
+.xai-progress {
+  height: 2px;
+  background: var(--color-xai-border);
+}
+
+.xai-progress-fill {
+  height: 100%;
+  background: var(--color-xai-text);
+  transition: width 0.4s ease;
+}
+
+/* ────────────────── Score Ring (SVG) ──────────────────────────────────────── */
+.score-ring {
+  transform: rotate(-90deg);
+}
+
+.score-ring-track {
+  fill: none;
+  stroke: var(--color-xai-border);
+  stroke-width: 4;
+}
+
+.score-ring-value {
+  fill: none;
+  stroke: var(--color-xai-text);
+  stroke-width: 4;
+  stroke-linecap: square;
+  transition: stroke-dashoffset 0.6s ease;
+}
+
+/* ────────────────── Scrollbar ─────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--color-xai-bg); }
+::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.1); }
+::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.2); }
+
+/* ═══════════════════════════════════════════════════════════════════════════ */
+/* 3D PC Scene                                                               */
+/* ═══════════════════════════════════════════════════════════════════════════ */
+
+.pc-scene {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* ─── Floating particles ─── */
+.pc-particles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.pc-particle {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  animation: particle-float linear infinite;
+}
+
+@keyframes particle-float {
+  0%   { transform: translateY(0) scale(1);   opacity: 0; }
+  10%  { opacity: 0.4; }
+  90%  { opacity: 0.4; }
+  100% { transform: translateY(-120px) scale(0); opacity: 0; }
+}
+
+/* ─── Isometric viewport ─── */
+.pc-viewport {
+  perspective: 900px;
+  perspective-origin: 50% 40%;
+}
+
+.pc-isometric {
+  position: relative;
+  width: 280px;
+  height: 340px;
+  transform: rotateX(55deg) rotateZ(-45deg);
+  transform-style: preserve-3d;
+}
+
+/* ─── Grid floor ─── */
+.pc-floor {
+  position: absolute;
+  width: 320px;
+  height: 380px;
+  top: -20px;
+  left: -20px;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* ─── Base part styles ─── */
+.pc-part {
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1),
+              opacity 0.6s ease;
+  opacity: 0.25;
+}
+
+.pc-part.assembled {
+  opacity: 1;
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.1));
+}
+
+/* ─── Case frame ─── */
+.pc-case-frame {
+  position: absolute;
+  inset: 20px;
+  transform-style: preserve-3d;
+  transition: opacity 0.8s ease;
+  opacity: 0.1;
+}
+
+.pc-case-frame.assembled {
+  opacity: 0.6;
+}
+
+.pc-case-panel {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.pc-case-left {
+  width: 240px;
+  height: 300px;
+  left: 0;
+  top: 0;
+  transform: translateZ(-2px);
+}
+
+.pc-case-right {
+  width: 2px;
+  height: 300px;
+  right: 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.pc-case-back {
+  width: 240px;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.pc-case-bottom {
+  width: 240px;
+  height: 2px;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.pc-case-led {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: all 0.8s ease;
+}
+
+.pc-case-frame.assembled .pc-case-led {
+  background: #10b981;
+  box-shadow: 0 0 12px #10b981, 0 0 24px rgba(16, 185, 129, 0.3);
+  animation: led-pulse 2s ease-in-out infinite;
+}
+
+@keyframes led-pulse {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.5; }
+}
+
+/* ─── Motherboard ─── */
+.pc-motherboard {
+  left: 30px;
+  top: 40px;
+  width: 180px;
+  height: 220px;
+  transform: translateZ(4px) translateY(-30px);
+}
+
+.pc-motherboard.assembled {
+  transform: translateZ(4px) translateY(0);
+}
+
+.pc-mobo-pcb {
+  position: absolute;
+  inset: 0;
+  background: rgba(16, 60, 16, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.pc-mobo-slot {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  width: 16px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pc-mobo-slot-2 {
+  top: 72px;
+}
+
+.pc-mobo-chipset {
+  position: absolute;
+  left: 30px;
+  bottom: 40px;
+  width: 30px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* ─── CPU ─── */
+.pc-cpu {
+  left: 55px;
+  top: 60px;
+  width: 44px;
+  height: 44px;
+  transform: translateZ(10px) translateY(-60px) scale(0.7);
+}
+
+.pc-cpu.assembled {
+  transform: translateZ(10px) translateY(0) scale(1);
+}
+
+.pc-cpu-die {
+  position: absolute;
+  inset: 4px;
+  background: rgba(180, 160, 100, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pc-cpu-ihs {
+  position: absolute;
+  inset: 0;
+  background: rgba(200, 200, 200, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* ─── CPU Cooler ─── */
+.pc-cooler {
+  left: 48px;
+  top: 52px;
+  width: 56px;
+  height: 56px;
+  transform: translateZ(16px) translateY(-80px) scale(0.5);
+}
+
+.pc-cooler.assembled {
+  transform: translateZ(16px) translateY(0) scale(1);
+}
+
+.pc-fan-blade {
+  position: absolute;
+  inset: 6px;
+  background: rgba(60, 60, 60, 0.4);
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.pc-fan-ring {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ─── RAM ─── */
+.pc-ram {
+  right: 14px;
+  top: 35px;
+  width: 20px;
+  height: 100px;
+  transform: translateZ(8px) translateY(-50px);
+}
+
+.pc-ram.assembled {
+  transform: translateZ(8px) translateY(0);
+}
+
+.pc-ram-stick {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 8px;
+  height: 100%;
+  background: rgba(20, 20, 20, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pc-ram-stick-2 {
+  left: 10px;
+}
+
+.pc-ram-led, .pc-ram-led-2 {
+  position: absolute;
+  top: 4px;
+  width: 6px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.pc-ram-led { left: 1px; }
+.pc-ram-led-2 { left: 11px; }
+
+.pc-ram.assembled .pc-ram-led,
+.pc-ram.assembled .pc-ram-led-2 {
+  background: rgba(59, 130, 246, 0.6);
+  box-shadow: 0 0 6px rgba(59, 130, 246, 0.4);
+  animation: led-pulse 1.5s ease-in-out infinite;
+}
+
+/* ─── GPU ─── */
+.pc-gpu {
+  left: 30px;
+  top: 160px;
+  width: 180px;
+  height: 40px;
+  transform: translateZ(12px) translateX(-40px) translateY(30px);
+}
+
+.pc-gpu.assembled {
+  transform: translateZ(12px) translateX(0) translateY(0);
+}
+
+.pc-gpu-body {
+  position: absolute;
+  inset: 0;
+  background: rgba(40, 40, 40, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pc-gpu-fan {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 5px;
+  left: 15px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(80, 80, 80, 0.3);
+}
+
+.pc-gpu-fan-2 { left: 55px; }
+
+.pc-gpu-led {
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  width: 40px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.pc-gpu.assembled .pc-gpu-led {
+  background: rgba(59, 130, 246, 0.5);
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+}
+
+/* ─── Storage ─── */
+.pc-storage {
+  left: 35px;
+  bottom: 50px;
+  width: 50px;
+  height: 22px;
+  transform: translateZ(6px) translateY(20px) scaleX(0.8);
+}
+
+.pc-storage.assembled {
+  transform: translateZ(6px) translateY(0) scaleX(1);
+}
+
+.pc-ssd-body {
+  position: absolute;
+  inset: 0;
+  background: rgba(50, 50, 50, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.pc-ssd-label {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* ─── PSU ─── */
+.pc-psu {
+  right: 30px;
+  bottom: 25px;
+  width: 70px;
+  height: 50px;
+  transform: translateZ(3px) translateY(25px) scale(0.8);
+}
+
+.pc-psu.assembled {
+  transform: translateZ(3px) translateY(0) scale(1);
+}
+
+.pc-psu-body {
+  position: absolute;
+  inset: 0;
+  background: rgba(30, 30, 30, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.pc-psu-fan {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.pc-psu-label {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 10px;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.pc-psu.assembled .pc-psu-label {
+  background: rgba(16, 185, 129, 0.5);
+  box-shadow: 0 0 6px rgba(16, 185, 129, 0.3);
+}
+
+/* ─── Cables ─── */
+.pc-cables {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+  animation: cable-fade-in 0.8s ease forwards;
+}
+
+@keyframes cable-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.pc-cable {
+  position: absolute;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.pc-cable-1 { left: 70px; top: 80px; width: 80px; transform: translateZ(11px) rotate(10deg); }
+.pc-cable-2 { right: 40px; bottom: 60px; width: 60px; transform: translateZ(8px) rotate(-15deg); }
+.pc-cable-3 { left: 50px; bottom: 80px; width: 100px; transform: translateZ(5px) rotate(5deg); }
+
+/* ─── Power-on glow ─── */
+.pc-power-glow {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) translateZ(20px);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.03) 0%,
+    transparent 70%
+  );
+  animation: glow-breathe 3s ease-in-out infinite;
+}
+
+@keyframes glow-breathe {
+  0%, 100% { opacity: 0.4; transform: translate(-50%, -50%) translateZ(20px) scale(1); }
+  50%      { opacity: 1;   transform: translate(-50%, -50%) translateZ(20px) scale(1.1); }
+}
+
+/* ─── Status text ─── */
+.pc-status {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════ */
+/* Wizard Modal                                                               */
+/* ═══════════════════════════════════════════════════════════════════════════ */
+
+.wizard-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.wizard-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(31, 34, 40, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  animation: backdrop-in 0.3s ease forwards;
+}
+
+@keyframes backdrop-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.wizard-container {
+  position: relative;
+  width: 100%;
+  max-width: 64rem;
+  max-height: calc(100vh - 4rem);
+  background: var(--color-xai-bg);
+  border: 1px solid var(--color-xai-border);
+  display: flex;
+  flex-direction: column;
+  animation: modal-slide-up 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes modal-slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.wizard-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid var(--color-xai-border);
+  color: var(--color-xai-text-3);
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.wizard-close:hover {
+  background: var(--color-xai-surface);
+  color: var(--color-xai-text);
+  border-color: var(--color-xai-border-strong);
+}
+
+.wizard-content {
+  padding: 2rem;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.wizard-content::-webkit-scrollbar { width: 3px; }
+.wizard-content::-webkit-scrollbar-track { background: transparent; }
+.wizard-content::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+}

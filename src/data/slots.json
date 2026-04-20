@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.0",
+  "slots": [
+    { "id": "cpu", "category": "cpu", "label": "CPU", "required": true, "order": 0 },
+    { "id": "motherboard", "category": "motherboard", "label": "Motherboard", "required": true, "order": 1 },
+    { "id": "ram", "category": "ram", "label": "Memory", "required": true, "order": 2 },
+    { "id": "gpu", "category": "gpu", "label": "Graphics Card", "required": false, "order": 3 },
+    { "id": "storage", "category": "storage", "label": "Storage", "required": true, "order": 4 },
+    { "id": "psu", "category": "psu", "label": "Power Supply", "required": true, "order": 5 },
+    { "id": "case", "category": "case", "label": "Case", "required": false, "order": 6 }
+  ]
+}

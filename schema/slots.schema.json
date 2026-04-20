@@ -1,0 +1,49 @@
+{
+  "$id": "https://pcbuilder.local/schema/slots.json",
+  "title": "SlotDefinitions",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "slots"],
+  "properties": {
+    "schemaVersion": { "type": "string", "const": "1.0" },
+    "slots": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/slotDefinition" }
+    }
+  },
+  "$defs": {
+    "slotDefinition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "category", "label"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Unique identifier for the slot"
+        },
+        "category": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Category key matching catalog shard files"
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Human-readable display name"
+        },
+        "required": {
+          "type": "boolean",
+          "default": false,
+          "description": "Whether this slot must be filled for a valid build"
+        },
+        "order": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Display order in the build summary"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "$id": "https://pcbuilder.local/schema/catalog-shard.json",
+  "title": "CatalogShardFile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "category", "items"],
+  "properties": {
+    "schemaVersion": { "type": "string", "const": "1.0" },
+    "category": { "type": "string", "minLength": 1 },
+    "items": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/part" }
+    }
+  },
+  "$defs": {
+    "part": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name", "category", "specs"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "category": { "type": "string", "minLength": 1 },
+        "specs": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        },
+        "imageUrl": {
+          "anyOf": [{ "type": "string", "minLength": 1 }, { "type": "null" }]
+        }
+      }
+    }
+  }
+}

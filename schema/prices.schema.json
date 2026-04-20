@@ -1,0 +1,58 @@
+{
+  "$id": "https://pcbuilder.local/schema/prices.json",
+  "title": "PriceManifestOrPriceList",
+  "oneOf": [
+    { "$ref": "#/$defs/priceManifest" },
+    { "$ref": "#/$defs/priceList" }
+  ],
+  "$defs": {
+    "priceManifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["version", "updatedAt", "shards"],
+      "properties": {
+        "version": { "type": "string", "minLength": 1 },
+        "updatedAt": { "type": "string", "minLength": 1 },
+        "shards": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/shardRef" }
+        }
+      }
+    },
+    "shardRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key"],
+      "properties": {
+        "key": { "type": "string", "minLength": 1 },
+        "sha256": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      }
+    },
+    "priceList": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schemaVersion", "entries"],
+      "properties": {
+        "schemaVersion": { "type": "string", "const": "1.0" },
+        "entries": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/priceEntry" }
+        }
+      }
+    },
+    "priceEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["partId", "amountPhp"],
+      "properties": {
+        "partId": { "type": "string", "minLength": 1 },
+        "amountPhp": { "type": "number", "minimum": 0 },
+        "retailer": { "type": "string" },
+        "productUrl": { "type": "string" },
+        "observedAt": { "type": "string" }
+      }
+    }
+  }
+}
