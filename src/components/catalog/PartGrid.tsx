@@ -1,5 +1,5 @@
 import { PartCard } from './PartCard'
-import type { Part, PriceEntry } from '../../lib/types'
+import type { Part } from '../../lib/types'
 
 interface PartGridProps {
   parts: Part[]

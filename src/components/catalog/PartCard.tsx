@@ -1,14 +1,10 @@
+import type { Part } from '../../lib/types'
+
 interface PartCardProps {
-  part: {
-    id: string
-    name: string
-    category: string
-    specs: Record<string, string>
-    imageUrl?: string
-  }
+  part: Part
   priceLabel?: string
   blueprint?: boolean
-  onAddToBuild?: (part: unknown) => void
+  onAddToBuild?: (part: Part) => void
   isSelected?: boolean
 }
 

@@ -1,7 +1,7 @@
 import cpusFixture from '../../data-fixtures/catalog/cpus.sample.json'
 import entriesFixture from '../../data-fixtures/prices/entries.sample.json'
 import { z } from 'zod'
-import type { Part, PriceEntry, PriceListFile } from './types'
+import type { Part, PriceEntry } from './types'
 
 // ─── Fixture Validation Schemas ──────────────────────────────────────────────
 

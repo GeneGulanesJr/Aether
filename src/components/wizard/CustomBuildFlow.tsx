@@ -1,11 +1,9 @@
 import type { Part, BuildSlotCategory } from '../../lib/types'
 import type { Platform, SocketOption, WizardState } from '../../lib/buildWizard'
 import {
-  SOCKET_OPTIONS,
   getSocketsForPlatform,
   isPartCompatible,
   PART_STEPS,
-  nextCustomStep,
 } from '../../lib/buildWizard'
 
 // ═════════════════════════════════════════════════════════════════════════════

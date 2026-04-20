@@ -12,7 +12,6 @@ import {
   prevCustomStep,
   buildScore,
   getSocketsForPlatform,
-  isPartCompatible,
 } from '../lib/buildWizard'
 import { useCatalogData } from '../hooks/useCatalogData'
 import { PcScene } from '../components/scene/PcScene'
@@ -62,14 +61,6 @@ export function BuilderPage() {
 
   // ─── Guided: back / next ────────────────────────────────────────────────
 
-  const guidedBack = useCallback(() => {
-    setState((prev) => {
-      const p = prevGuidedStep(prev.step)
-      if (!p) return { ...INITIAL_STATE }
-      return { ...prev, step: p }
-    })
-  }, [])
-
   const guidedNext = useCallback(() => {
     setState((prev) => {
       const n = nextGuidedStep(prev.step)
@@ -80,14 +71,6 @@ export function BuilderPage() {
   }, [])
 
   // ─── Custom: back / next ────────────────────────────────────────────────
-
-  const customBack = useCallback(() => {
-    setState((prev) => {
-      const p = prevCustomStep(prev.step)
-      if (!p) return { ...prev, step: 'custom_platform' }
-      return { ...prev, step: p }
-    })
-  }, [])
 
   const customNext = useCallback(() => {
     setState((prev) => {
