@@ -1,3 +1,4 @@
+import { useMemo } from 'react'
 import type { Part, BuildSlotCategory } from '../../lib/types'
 import type { Platform, SocketOption, WizardState } from '../../lib/buildWizard'
 import {
@@ -18,24 +19,25 @@ interface PlatformSelectProps {
 export function CustomPlatformSelect({ onSelect, onBack }: PlatformSelectProps) {
   return (
     <div>
-      <button onClick={onBack} className="xai-btn xai-btn-ghost mb-6">← BACK</button>
-      <p className="font-mono text-xs text-xai-text-3 uppercase tracking-widest mb-2">
+      <button onClick={onBack} className="xai-btn xai-btn-ghost mb-8">← BACK</button>
+      <p className="font-mono text-[0.625rem] text-xai-text-4 uppercase tracking-[0.2em] mb-1">
         Custom Build · Step 1
       </p>
-      <h2 className="text-xai-text" style={{ fontSize: '1.5rem', fontWeight: 400 }}>
+      <h2 className="xai-heading text-xai-text">
         Pick your platform
       </h2>
-      <p className="mt-1 text-xai-text-2 text-sm" style={{ lineHeight: 1.6 }}>
+      <p className="mt-2 text-xai-text-3 text-sm leading-[1.6]">
         This determines which CPUs and motherboards you can choose from.
       </p>
 
-      <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
+      <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
         <button
           onClick={() => onSelect('amd')}
-          className="xai-card text-left platform-amd"
+          className="xai-card-lg text-left platform-amd"
+          aria-label="Select AMD platform — Ryzen processors with AM4 and AM5 sockets"
         >
-          <p className="font-mono text-lg" style={{ color: 'var(--color-amd)' }}>
-            🔴 AMD
+          <p className="font-mono text-lg text-amd">
+            <span aria-hidden="true">🔴 </span>AMD
           </p>
           <p className="font-mono text-xs text-xai-text mt-1">Ryzen™ Processors</p>
           <p className="text-xai-text-3 text-xs mt-2 leading-snug">
@@ -51,10 +53,11 @@ export function CustomPlatformSelect({ onSelect, onBack }: PlatformSelectProps) 
 
         <button
           onClick={() => onSelect('intel')}
-          className="xai-card text-left platform-intel"
+          className="xai-card-lg text-left platform-intel"
+          aria-label="Select Intel platform — Core processors with LGA 1700 and 1851 sockets"
         >
-          <p className="font-mono text-lg" style={{ color: 'var(--color-intel)' }}>
-            🔵 Intel
+          <p className="font-mono text-lg text-intel">
+            <span aria-hidden="true">🔵 </span>Intel
           </p>
           <p className="font-mono text-xs text-xai-text mt-1">Core™ Processors</p>
           <p className="text-xai-text-3 text-xs mt-2 leading-snug">
@@ -84,28 +87,30 @@ interface SocketSelectProps {
 
 export function CustomSocketSelect({ platform, onSelect, onBack }: SocketSelectProps) {
   const sockets = getSocketsForPlatform(platform)
-  const platformLabel = platform === 'amd' ? '🔴 AMD' : '🔵 Intel'
+  const platformLabel = platform === 'amd' ? 'AMD' : 'Intel'
 
   return (
     <div>
-      <button onClick={onBack} className="xai-btn xai-btn-ghost mb-6">← BACK</button>
-      <p className="font-mono text-xs text-xai-text-3 uppercase tracking-widest mb-2">
+      <button onClick={onBack} className="xai-btn xai-btn-ghost mb-8">← BACK</button>
+      <p className="font-mono text-[0.625rem] text-xai-text-4 uppercase tracking-[0.2em] mb-1">
         Custom Build · Step 2
       </p>
-      <h2 className="text-xai-text" style={{ fontSize: '1.5rem', fontWeight: 400 }}>
+      <h2 className="xai-heading-lg text-xai-text">
         Choose your socket
       </h2>
-      <p className="mt-1 text-xai-text-2 text-sm" style={{ lineHeight: 1.6 }}>
+      <p className="mt-2 text-xai-text-3 text-sm leading-[1.6]">
+        <span aria-hidden="true">{platform === 'amd' ? '🔴' : '🔵'} </span>
         {platformLabel} — select the generation and RAM type for your build.
         This locks in CPU and motherboard compatibility.
       </p>
 
-      <div className="mt-6 grid grid-cols-1 gap-3">
+      <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2">
         {sockets.map((socket) => (
           <button
             key={socket.id}
             onClick={() => onSelect(socket)}
             className="xai-card text-left"
+            aria-label={`${socket.label} — ${socket.generation}, ${socket.ramType}`}
           >
             <div className="flex items-center justify-between mb-2">
               <p className="font-mono text-base text-xai-text">{socket.label}</p>
@@ -155,17 +160,30 @@ export function CustomPartsSelect({
     Object.keys(state.selectedParts) as BuildSlotCategory[]
   )
 
+  // Memoize compatible parts per category — avoids O(n * 7) filter on every render
+  const compatibleByCategory = useMemo(() => {
+    const map = new Map<BuildSlotCategory, Part[]>()
+    for (const step of PART_STEPS) {
+      const category = step.category!
+      map.set(
+        category,
+        parts.filter((p) => p.category === category && isPartCompatible(p, category, socket))
+      )
+    }
+    return map
+  }, [parts, socket])
+
   return (
     <div>
-      <button onClick={onBack} className="xai-btn xai-btn-ghost mb-6">← BACK</button>
+      <button onClick={onBack} className="xai-btn xai-btn-ghost mb-8">← BACK</button>
 
-      <p className="font-mono text-xs text-xai-text-3 uppercase tracking-widest mb-2">
+      <p className="font-mono text-[0.625rem] text-xai-text-4 uppercase tracking-[0.2em] mb-1">
         Custom Build · Step 3
       </p>
-      <h2 className="text-xai-text" style={{ fontSize: '1.5rem', fontWeight: 400 }}>
+      <h2 className="xai-heading-lg text-xai-text">
         Select your parts
       </h2>
-      <p className="mt-1 text-xai-text-2 text-sm" style={{ lineHeight: 1.6 }}>
+      <p className="mt-2 text-xai-text-3 text-sm leading-[1.6]">
         Pick components in any order. Only parts compatible with{' '}
         <span className="text-xai-text font-mono">{socket.label}</span> are shown.
       </p>
@@ -173,7 +191,7 @@ export function CustomPartsSelect({
       {/* Socket info bar */}
       <div className="mt-4 flex flex-wrap items-center gap-2">
         <span className="xai-tag">
-          {state.platform === 'amd' ? '🔴' : '🔵'} {state.platform?.toUpperCase()}
+          <span aria-hidden="true">{state.platform === 'amd' ? '🔴' : '🔵'}</span> {state.platform?.toUpperCase()}
         </span>
         <span className="xai-tag xai-tag-accent">{socket.label}</span>
         <span className="xai-tag">{socket.ramType}</span>
@@ -183,21 +201,19 @@ export function CustomPartsSelect({
       </div>
 
       {/* Category sections */}
-      <div className="mt-6 space-y-6">
+      <div className="mt-8 space-y-8">
         {PART_STEPS.map((step) => {
           const category = step.category!
           const selectedPart = state.selectedParts[category]
 
-          // Filter compatible parts
-          const compatible = parts.filter((p) =>
-            p.category === category && isPartCompatible(p, category, socket)
-          )
+          // Filter compatible parts — memoized above
+          const compatible = compatibleByCategory.get(category) ?? []
 
           return (
             <section key={step.id}>
               <div className="flex items-center justify-between mb-3">
                 <div className="flex items-center gap-2">
-                  <span className="text-sm">{step.icon}</span>
+                  <span className="text-sm" aria-hidden="true">{step.icon}</span>
                   <h3 className="font-mono text-xs text-xai-text uppercase tracking-wider">
                     {step.label}
                   </h3>
@@ -207,12 +223,13 @@ export function CustomPartsSelect({
                 </div>
                 {selectedPart && (
                   <div className="flex items-center gap-2">
-                    <span className="font-mono text-xs text-xai-text truncate max-w-[200px]">
+                    <span className="font-mono text-xs text-xai-text truncate max-w-[180px] sm:max-w-none">
                       {selectedPart.name}
                     </span>
                     <button
                       onClick={() => onRemovePart(category)}
-                      className="xai-btn xai-btn-ghost text-[0.625rem] py-0.5 px-1.5"
+                      className="xai-btn xai-btn-ghost text-[0.625rem] py-1.5 px-3"
+                      aria-label={`Remove ${selectedPart.name}`}
                     >
                       REMOVE
                     </button>
@@ -222,8 +239,8 @@ export function CustomPartsSelect({
 
               {/* Selected part card */}
               {selectedPart && (
-                <div className="xai-card xai-card-active mb-2">
-                  <div className="flex justify-between">
+                <div className="xai-card xai-card-active mb-2" role="status" aria-label={`${selectedPart.name} selected`}>
+                  <div className="flex flex-col gap-1 sm:flex-row sm:justify-between">
                     <p className="font-mono text-sm text-xai-text">{selectedPart.name}</p>
                     {priceByPartId?.[selectedPart.id] && (
                       <span className="font-mono text-sm text-xai-text">
@@ -252,7 +269,7 @@ export function CustomPartsSelect({
                           onClick={() => onSelectPart(category, part)}
                           className="xai-card text-left"
                         >
-                          <p className="text-xai-text text-sm" style={{ fontWeight: 500 }}>
+                          <p className="text-xai-text text-sm font-normal">
                             {part.name}
                           </p>
                           <div className="mt-1.5 space-y-0.5">
@@ -289,7 +306,7 @@ export function CustomPartsSelect({
       </div>
 
       {/* Review button */}
-      <div className="flex items-center justify-between mt-8 border-t border-xai-border pt-6">
+      <div className="flex items-center justify-between mt-10 border-t border-xai-border pt-6">
         <div />
         <button
           onClick={onReview}

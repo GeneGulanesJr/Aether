@@ -85,6 +85,19 @@ const priceManifestSchema = z.object({
   shards: z.array(shardRefSchema).min(1),
 })
 
+const priceEntrySchema = z.object({
+  partId: z.string().min(1),
+  amountPhp: z.number().min(0),
+  retailer: z.string().optional(),
+  productUrl: z.string().url().optional(),
+  observedAt: z.string().optional(),
+})
+
+const priceShardSchema = z.object({
+  schemaVersion: z.string(),
+  entries: z.array(priceEntrySchema),
+})
+
 // ─── Generic Fetcher ─────────────────────────────────────────────────────────
 
 /**
@@ -136,12 +149,17 @@ async function fetchJson<T>(path: string, schema: z.ZodSchema<T>): Promise<T> {
 
 // ─── Exported API ────────────────────────────────────────────────────────────
 
-/** Loads `prices/manifest.json` from R2 public origin. */
+/** Loads `manifest.json` from R2 public origin. */
 export async function fetchPriceManifest() {
-  return fetchJson('prices/manifest.json', priceManifestSchema)
+  return fetchJson('manifest.json', priceManifestSchema)
 }
 
 /** Loads a catalog shard by object key, e.g. `catalog/cpus.json`. */
 export async function fetchCatalogShard(key: string) {
   return fetchJson(key, catalogShardSchema)
+}
+
+/** Loads a price shard by object key, e.g. `prices/entries.json`. */
+export async function fetchPriceShard(key: string) {
+  return fetchJson(key, priceShardSchema)
 }

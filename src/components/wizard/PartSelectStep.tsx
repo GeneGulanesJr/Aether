@@ -40,34 +40,34 @@ export function PartSelectStep({
   return (
     <div>
       {/* Header */}
-      <button onClick={onBack} className="xai-btn xai-btn-ghost mb-6">
+      <button onClick={onBack} className="xai-btn xai-btn-ghost mb-8">
         ← BACK
       </button>
 
-      <div className="flex items-start justify-between mb-6">
+      <div className="flex flex-col gap-2 mb-8 sm:flex-row sm:items-start sm:justify-between">
         <div>
-          <p className="font-mono text-xs text-xai-text-3 uppercase tracking-wider mb-1">
-            STEP {step.icon}
+          <p className="font-mono text-[0.625rem] text-xai-text-4 uppercase tracking-[0.2em] mb-1">
+            STEP <span aria-hidden="true">{step.icon}</span> <span className="sr-only">{step.label}</span>
           </p>
-          <h2 className="text-xai-text" style={{ fontSize: '1.5rem', fontWeight: 400 }}>
+          <h2 className="xai-heading text-xai-text">
             {step.label}
           </h2>
-          <p className="text-xai-text-3 mt-1">{step.subtitle}</p>
+          <p className="text-xai-text-3 text-xs mt-1">{step.subtitle}</p>
         </div>
-        <div className="xai-tag">
-          {platform === 'amd' ? '🔴' : '🔵'} {platform.toUpperCase()}
+        <div className="xai-tag shrink-0">
+          <span aria-hidden="true">{platform === 'amd' ? '🔴' : '🔵'}</span> {platform.toUpperCase()}
         </div>
       </div>
 
       {/* Selected part preview */}
       {selectedPart && (
-        <div className="xai-card xai-card-active mb-6">
-          <div className="flex items-center justify-between">
+        <div className="xai-card xai-card-active mb-6" role="status" aria-label={`${selectedPart.name} selected`}>
+          <div className="flex flex-col gap-1.5 sm:flex-row sm:items-center sm:justify-between">
             <div>
-              <p className="font-mono text-xs text-xai-text-3 uppercase tracking-wider">
+              <p className="font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-wider">
                 Selected
               </p>
-              <p className="font-mono text-sm text-xai-text mt-1">{selectedPart.name}</p>
+              <p className="font-mono text-sm text-xai-text mt-0.5">{selectedPart.name}</p>
             </div>
             <div className="flex items-center gap-2">
               {priceByPartId?.[selectedPart.id] && (
@@ -75,7 +75,11 @@ export function PartSelectStep({
                   {priceByPartId[selectedPart.id]}
                 </span>
               )}
-              <button onClick={onRemove} className="xai-btn xai-btn-ghost text-xs py-1 px-2">
+              <button
+                onClick={onRemove}
+                className="xai-btn xai-btn-ghost text-xs py-1.5 px-3"
+                aria-label={`Remove ${selectedPart.name}`}
+              >
                 REMOVE
               </button>
             </div>
@@ -85,7 +89,7 @@ export function PartSelectStep({
 
       {/* Parts grid */}
       {displayParts.length > 0 ? (
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
           {displayParts.map((part) => {
             const isSelected = selectedPart?.id === part.id
             return (
@@ -93,28 +97,27 @@ export function PartSelectStep({
                 key={part.id}
                 onClick={() => onSelect(part)}
                 className={`xai-card text-left ${isSelected ? 'xai-card-active' : ''}`}
+                aria-label={`Select ${part.name}${isSelected ? ', currently selected' : ''}`}
+                aria-pressed={isSelected}
               >
-                <p
-                  className="text-xai-text"
-                  style={{ fontWeight: 500, fontSize: '0.875rem' }}
-                >
+                <p className="text-xai-text text-sm font-normal">
                   {part.name}
                 </p>
-                <div className="mt-2 space-y-0.5">
+                <div className="mt-1.5 space-y-0.5">
                   {Object.entries(part.specs).slice(0, 4).map(([k, v]) => (
-                    <div key={k} className="flex justify-between">
-                      <span className="font-mono text-xs text-xai-text-4">{k}</span>
-                      <span className="font-mono text-xs text-xai-text-2">{v}</span>
+                    <div key={k} className="flex justify-between gap-2">
+                      <span className="font-mono text-[0.5625rem] text-xai-text-4 shrink-0">{k}</span>
+                      <span className="font-mono text-[0.5625rem] text-xai-text-2 text-right truncate">{v}</span>
                     </div>
                   ))}
                 </div>
                 {priceByPartId?.[part.id] && (
-                  <p className="font-mono text-sm text-xai-text mt-3">
+                  <p className="font-mono text-sm text-xai-text mt-2">
                     {priceByPartId[part.id]}
                   </p>
                 )}
                 {isSelected && (
-                  <p className="font-mono text-xs text-[var(--color-xai-accent)] mt-2 uppercase tracking-wider">
+                  <p className="font-mono text-[0.5625rem] text-[var(--color-xai-accent)] mt-1.5 uppercase tracking-wider">
                     ✓ selected
                   </p>
                 )}
@@ -134,7 +137,7 @@ export function PartSelectStep({
       )}
 
       {/* Navigation */}
-      <div className="flex items-center justify-between mt-8 border-t border-xai-border pt-6">
+      <div className="flex items-center justify-between mt-10 border-t border-xai-border pt-6">
         <div />
         <div className="flex gap-3">
           {!step.required && (

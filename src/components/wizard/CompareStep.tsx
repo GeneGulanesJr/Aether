@@ -16,30 +16,29 @@ export function CompareStep({ budget, useCase, onSelect, onBack }: CompareStepPr
   return (
     <div>
       {/* ── Header ── */}
-      <div className="mb-8">
+      <div className="mb-10">
         <button
           onClick={onBack}
-          className="xai-btn xai-btn-ghost mb-6"
+          className="xai-btn xai-btn-ghost mb-8"
         >
           ← BACK
         </button>
-        <p className="font-mono text-xs text-xai-text-3 tracking-wider uppercase mb-2">
+        <p className="font-mono text-[0.625rem] text-xai-text-4 tracking-[0.2em] uppercase mb-1">
           {budgetLabel} · {useCaseLabel}
         </p>
         <h2
-          className="text-xai-text"
-          style={{ fontSize: '1.875rem', fontWeight: 400, lineHeight: 1.2 }}
+          className="xai-heading-lg text-xai-text"
         >
           Choose your platform
         </h2>
-        <p className="mt-2 text-xai-text-2" style={{ fontSize: '1rem', lineHeight: 1.5 }}>
+        <p className="mt-2 text-xai-text-3 text-sm max-w-lg">
           Side-by-side recommended builds for your budget and use case.
           Pick the one that fits your style.
         </p>
       </div>
 
       {/* ── Comparison Grid ── */}
-      <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-2" role="group" aria-label="Platform comparison">
         <BuildColumn
           build={amd}
           useCase={useCase}
@@ -67,41 +66,39 @@ function BuildColumn({
   onSelect: () => void
 }) {
   const isBest = build.bestFor.includes(useCase)
-  const platformColor = build.platform === 'amd' ? 'var(--color-amd)' : 'var(--color-intel)'
 
   return (
-    <div className={`xai-card flex flex-col ${build.platform === 'amd' ? 'platform-amd' : 'platform-intel'}`}>
+    <div className={`xai-card-lg flex flex-col ${build.platform === 'amd' ? 'platform-amd' : 'platform-intel'}`} aria-label={`${build.platform.toUpperCase()} build: ${build.tagline}`}>
       {/* Platform header */}
-      <div className="flex items-center justify-between mb-4">
-        <div className="flex items-center gap-3">
+      <div className="flex flex-wrap items-center justify-between gap-2 mb-4">
+        <div className="flex items-center gap-2">
           <span
-            className="font-mono text-xs uppercase tracking-wider"
-            style={{ color: platformColor }}
+            className={`font-mono text-xs uppercase tracking-wider ${build.platform === 'amd' ? 'text-amd' : 'text-intel'}`}
           >
-            {build.platform === 'amd' ? '🔴' : '🔵'} {build.platform.toUpperCase()}
+            <span aria-hidden="true">{build.platform === 'amd' ? '🔴' : '🔵'}</span> {' '}{build.platform.toUpperCase()}
           </span>
           <span className="xai-tag">{build.label}</span>
         </div>
         {isBest && (
-          <span className="xai-tag xai-tag-accent">
+          <span className="xai-tag xai-tag-accent whitespace-nowrap">
             ★ RECOMMENDED
           </span>
         )}
       </div>
 
-      <p className="text-xai-text-2 text-sm mb-4">{build.tagline}</p>
+      <p className="text-xai-text-3 text-xs mb-4 leading-snug">{build.tagline}</p>
 
       {/* Parts spec sheet */}
-      <div className="flex-1 mb-6">
+      <div className="flex-1 mb-4">
         <SpecSheet parts={build.parts} />
       </div>
 
       {/* Highlights */}
-      <div className="mb-6">
-        <p className="font-mono text-xs text-xai-text-4 uppercase tracking-wider mb-2">
+      <div className="mb-4">
+        <p className="font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-wider mb-1.5">
           Highlights
         </p>
-        <ul className="space-y-1">
+        <ul className="space-y-0.5">
           {build.highlights.map((h) => (
             <li key={h} className="font-mono text-xs text-xai-text-2 flex items-center gap-2">
               <span className="text-xai-text-4">→</span> {h}
@@ -111,12 +108,12 @@ function BuildColumn({
       </div>
 
       {/* Score + Price + CTA */}
-      <div className="flex items-center justify-between border-t border-xai-border pt-4">
+      <div className="flex flex-col gap-3 border-t border-xai-border pt-4 sm:flex-row sm:items-center sm:justify-between">
         <div>
-          <p className="font-mono text-2xl text-xai-text" style={{ fontWeight: 300 }}>
+          <p className="xai-price font-mono text-2xl text-xai-text">
             {build.estimatedTotal}
           </p>
-          <p className="font-mono text-xs text-xai-text-4 mt-0.5">
+          <p className="font-mono text-[0.5625rem] text-xai-text-4 mt-0.5 whitespace-nowrap">
             BUILD SCORE: {build.score}/100
           </p>
         </div>
@@ -144,14 +141,14 @@ function SpecSheet({ parts }: { parts: Record<string, { name: string; specs: Rec
   return (
     <div>
       {Object.entries(parts).map(([key, part]) => (
-        <div key={key} className="border-b border-xai-border py-2 last:border-0">
-          <p className="font-mono text-[0.625rem] text-xai-text-4 uppercase tracking-wider">
+        <div key={key} className="border-b border-xai-border py-1.5 last:border-0">
+          <p className="font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-wider">
             {CATEGORY_LABELS[key] ?? key.toUpperCase()}
           </p>
-          <p className="font-mono text-xs text-xai-text mt-0.5">{part.name}</p>
-          <div className="flex flex-wrap gap-x-4 gap-y-0 mt-0.5">
+          <p className="font-mono text-xs text-xai-text mt-0">{part.name}</p>
+          <div className="flex flex-wrap gap-x-4 gap-y-0 mt-0">
             {Object.entries(part.specs).map(([k, v]) => (
-              <span key={k} className="font-mono text-[0.625rem] text-xai-text-3">
+              <span key={k} className="font-mono text-[0.5625rem] text-xai-text-3 whitespace-nowrap">
                 {k}: <span className="text-xai-text-2">{v}</span>
               </span>
             ))}

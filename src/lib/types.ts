@@ -72,6 +72,7 @@ export type CatalogLoadingState = 'idle' | 'loading' | 'error' | 'success'
 export interface PartFilters {
   search: string
   category: string
+  brand: string
   socket: string
   priceMin: string
   priceMax: string

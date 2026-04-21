@@ -31,42 +31,18 @@ export class ErrorBoundary extends Component<Props, State> {
       }
 
       return (
-        <div
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            justifyContent: 'center',
-            minHeight: '100vh',
-            padding: '2rem',
-            fontFamily: "'Inter Variable', system-ui, sans-serif",
-            fontFeatureSettings: "'cv01', 'ss03'",
-            color: '#d0d6e0',
-            backgroundColor: '#08090a',
-          }}
-        >
-          <h1 style={{ fontSize: '1.5rem', marginBottom: '1rem', color: '#f7f8f8', fontWeight: 590 }}>
+        <div className="xai-error-boundary">
+          <h1 className="font-mono text-2xl font-light tracking-tight">
             Something went wrong
           </h1>
-          <p style={{ marginBottom: '1.5rem', color: '#8a8f98' }}>
+          <p className="mt-4 max-w-md text-center text-sm text-xai-text-2 leading-relaxed">
             {this.state.error?.message || 'An unexpected error occurred'}
           </p>
           <button
             onClick={() => window.location.reload()}
-            style={{
-              padding: '0.5rem 1rem',
-              fontSize: '0.875rem',
-              fontWeight: 510,
-              backgroundColor: '#5e6ad2',
-              color: '#ffffff',
-              border: 'none',
-              borderRadius: '6px',
-              cursor: 'pointer',
-              fontFamily: "'Inter Variable', system-ui, sans-serif",
-              fontFeatureSettings: "'cv01', 'ss03'",
-            }}
+            className="xai-btn xai-btn-primary mt-6"
           >
-            Reload Page
+            RELOAD PAGE
           </button>
         </div>
       )

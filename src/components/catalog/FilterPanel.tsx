@@ -5,7 +5,6 @@
  * Can be used standalone (internal state) or controlled (external state).
  */
 
-import { useMemo } from 'react'
 import { usePartFilters } from '../../hooks/usePartFilters'
 import type { Part, PartFilters } from '../../lib/types'
 
@@ -38,36 +37,106 @@ export function FilterPanel(props: FilterPanelProps) {
   const setFilter = isControlled(props) ? props.onFilterChange : internalFilters.setFilter
   const clearFilters = isControlled(props) ? props.onClearFilters : internalFilters.clearFilters
   const hasActiveFilters = isControlled(props)
-    ? Boolean(filters.search || filters.category || filters.socket || filters.priceMin || filters.priceMax)
+    ? Boolean(filters.search || filters.category || filters.brand || filters.socket || filters.priceMin || filters.priceMax)
     : internalFilters.hasActiveFilters
   const filteredCount = internalFilters.filteredCount
   const totalCount = internalFilters.totalCount
 
-  // Extract filter options from parts data
-  const { categories, sockets } = useMemo(() => {
-    const categoryCounts = new Map<string, number>()
-    const socketCounts = new Map<string, number>()
+  // Use options from the hook
+  const { brands, sockets } = internalFilters.options
 
-    for (const part of props.parts) {
-      const cat = part.category || 'Unknown'
-      categoryCounts.set(cat, (categoryCounts.get(cat) ?? 0) + 1)
+  // Compact horizontal layout for inline (controlled) use
+  if (isControlled(props)) {
+    return (
+      <div className="flex items-center gap-2 flex-wrap">
+        {/* Search */}
+        <input
+          id="filter-search"
+          type="search"
+          placeholder="Search..."
+          value={filters.search}
+          onChange={(e) => setFilter('search', e.target.value)}
+          className="xai-input w-36 !py-1 !px-2 !text-[0.5625rem]"
+          aria-label="Search parts"
+        />
 
-      const socket = part.specs?.socket || ''
-      if (socket) {
-        socketCounts.set(socket, (socketCounts.get(socket) ?? 0) + 1)
-      }
-    }
+        {/* Brand */}
+        {brands.length > 1 && (
+          <select
+            id="filter-brand"
+            value={filters.brand}
+            onChange={(e) => setFilter('brand', e.target.value)}
+            className="xai-input !py-1 !px-2 !text-[0.5625rem]"
+            aria-label="Filter by brand"
+          >
+            <option value="">Brand</option>
+            {brands.map((opt) => (
+              <option key={opt.value} value={opt.value}>
+                {opt.label}
+              </option>
+            ))}
+          </select>
+        )}
 
-    return {
-      categories: Array.from(categoryCounts.entries())
-        .map(([value, count]) => ({ value, label: value, count }))
-        .sort((a, b) => a.label.localeCompare(b.label)),
-      sockets: Array.from(socketCounts.entries())
-        .map(([value, count]) => ({ value, label: value, count }))
-        .sort((a, b) => a.label.localeCompare(b.label)),
-    }
-  }, [props.parts])
+        {/* Socket */}
+        {sockets.length > 1 && (
+          <select
+            id="filter-socket"
+            value={filters.socket}
+            onChange={(e) => setFilter('socket', e.target.value)}
+            className="xai-input !py-1 !px-2 !text-[0.5625rem]"
+            aria-label="Filter by socket"
+          >
+            <option value="">Socket</option>
+            {sockets.map((opt) => (
+              <option key={opt.value} value={opt.value}>
+                {opt.label}
+              </option>
+            ))}
+          </select>
+        )}
 
+        {/* Price range */}
+        <div className="flex items-center gap-1">
+          <span className="font-mono text-[0.5rem] text-xai-text-4">₱</span>
+          <input
+            type="number"
+            placeholder="Min"
+            value={filters.priceMin}
+            onChange={(e) => setFilter('priceMin', e.target.value)}
+            className="xai-input w-20 !py-1 !px-2 !text-[0.5625rem]"
+            aria-label="Minimum price"
+          />
+          <span className="font-mono text-[0.5rem] text-xai-text-4">–</span>
+          <input
+            type="number"
+            placeholder="Max"
+            value={filters.priceMax}
+            onChange={(e) => setFilter('priceMax', e.target.value)}
+            className="xai-input w-20 !py-1 !px-2 !text-[0.5625rem]"
+            aria-label="Maximum price"
+          />
+        </div>
+
+        {/* Results count */}
+        <span className="font-mono text-[0.5rem] text-xai-text-4 ml-auto">
+          <span className="text-xai-accent">{filteredCount}</span>/{totalCount}
+        </span>
+
+        {/* Clear */}
+        {hasActiveFilters && (
+          <button
+            onClick={clearFilters}
+            className="font-mono text-[0.5rem] text-xai-accent uppercase tracking-wider hover:text-xai-text transition-colors"
+          >
+            Clear
+          </button>
+        )}
+      </div>
+    )
+  }
+
+  // Standalone card layout
   return (
     <section
       aria-label="Filter parts"
@@ -102,31 +171,34 @@ export function FilterPanel(props: FilterPanelProps) {
           value={filters.search}
           onChange={(e) => setFilter('search', e.target.value)}
           className="xai-input w-full"
+          aria-describedby="filter-search-help"
         />
       </div>
 
-      {/* Category */}
-      <div className="mt-3">
-        <label
-          htmlFor="filter-category"
-          className="mb-1 block font-mono text-[0.625rem] text-xai-text-4 uppercase"
-        >
-          Category
-        </label>
-        <select
-          id="filter-category"
-          value={filters.category}
-          onChange={(e) => setFilter('category', e.target.value)}
-          className="xai-input w-full"
-        >
-          <option value="">All categories</option>
-          {categories.map((opt) => (
-            <option key={opt.value} value={opt.value}>
-              {opt.label} ({opt.count})
-            </option>
-          ))}
-        </select>
-      </div>
+      {/* Brand */}
+      {brands.length > 1 && (
+        <div className="mt-3">
+          <label
+            htmlFor="filter-brand"
+            className="mb-1 block font-mono text-[0.625rem] text-xai-text-4 uppercase"
+          >
+            Brand
+          </label>
+          <select
+            id="filter-brand"
+            value={filters.brand}
+            onChange={(e) => setFilter('brand', e.target.value)}
+            className="xai-input w-full"
+          >
+            <option value="">All brands</option>
+            {brands.map((opt) => (
+              <option key={opt.value} value={opt.value}>
+                {opt.label} ({opt.count})
+              </option>
+            ))}
+          </select>
+        </div>
+      )}
 
       {/* Socket */}
       {sockets.length > 0 && (
@@ -152,6 +224,32 @@ export function FilterPanel(props: FilterPanelProps) {
           </select>
         </div>
       )}
+
+      {/* Price range */}
+      <div className="mt-3">
+        <label className="mb-1 block font-mono text-[0.625rem] text-xai-text-4 uppercase">
+          Price Range (₱)
+        </label>
+        <div className="flex items-center gap-2">
+          <input
+            type="number"
+            placeholder="Min"
+            value={filters.priceMin}
+            onChange={(e) => setFilter('priceMin', e.target.value)}
+            className="xai-input w-full"
+            aria-label="Minimum price"
+          />
+          <span className="font-mono text-[0.625rem] text-xai-text-4">–</span>
+          <input
+            type="number"
+            placeholder="Max"
+            value={filters.priceMax}
+            onChange={(e) => setFilter('priceMax', e.target.value)}
+            className="xai-input w-full"
+            aria-label="Maximum price"
+          />
+        </div>
+      </div>
 
       {/* Results count */}
       <p className="mt-3 font-mono text-[0.625rem] text-xai-text-4">

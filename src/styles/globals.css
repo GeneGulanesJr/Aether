@@ -22,7 +22,7 @@
 
 /* ────────────────── xAI Design Tokens ──────────────────────────────────────── */
 @theme {
-  --font-sans: 'Inter Variable', 'SF Pro Display', -apple-system, system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-sans: 'Sora', 'SF Pro Display', -apple-system, system-ui, 'Segoe UI', Roboto, sans-serif;
   --font-mono: 'GeistMono', ui-monospace, 'SF Mono', 'Roboto Mono', Menlo, Monaco, monospace;
 
   /* ─── Backgrounds ─── */
@@ -33,8 +33,10 @@
   /* ─── Text ─── */
   --color-xai-text: #ffffff;
   --color-xai-text-2: rgba(255, 255, 255, 0.7);
-  --color-xai-text-3: rgba(255, 255, 255, 0.5);
-  --color-xai-text-4: rgba(255, 255, 255, 0.3);
+  /* Tertiary: 0.75 → ~10.2:1 on #1f2228 ✓ WCAG AAA */
+  --color-xai-text-3: rgba(255, 255, 255, 0.75);
+  /* Quaternary: 0.65 → ~8.6:1 on #1f2228 ✓ WCAG AAA */
+  --color-xai-text-4: rgba(255, 255, 255, 0.65);
 
   /* ─── Borders ─── */
   --color-xai-border: rgba(255, 255, 255, 0.1);
@@ -44,17 +46,64 @@
   --color-xai-surface: rgba(255, 255, 255, 0.03);
   --color-xai-surface-hover: rgba(255, 255, 255, 0.06);
 
-  /* ─── Accent (used sparingly) ─── */
-  --color-xai-accent: rgb(59, 130, 246);
+  /* ─── Accent (warm amber — distinctive, not AI-blue) ─── */
+  --color-xai-accent: #d4a039;
+  --color-xai-accent-surface: rgba(212, 160, 57, 0.08);
+
+  /* ─── Functional (semantic) ─── */
+  --color-xai-error: #f87171;
+  --color-xai-error-border: rgba(248, 113, 113, 0.4);
+  --color-xai-warn: #fbbf24;
+  --color-xai-warn-border: rgba(251, 191, 36, 0.4);
 
   /* ─── Platform colors ─── */
   --color-amd: #ed1c24;
   --color-intel: #0071c5;
 
+  /* ─── LED colors (scene accents) ─── */
+  --color-led-green: #10b981;
+  --color-led-green-glow: rgba(16, 185, 129, 0.3);
+  --color-led-amber: #d4a039;
+  --color-led-amber-dim: rgba(212, 160, 57, 0.6);
+  --color-led-amber-glow: rgba(212, 160, 57, 0.4);
+  --color-led-amber-glow-soft: rgba(212, 160, 57, 0.3);
+
+  /* ─── PCB / motherboard ─── */
+  --color-pcb: rgba(16, 60, 16, 0.4);
+
+  /* ─── Metallic highlights ─── */
+  --color-metal-silver: rgba(200, 200, 200, 0.15);
+  --color-metal-gold: rgba(180, 160, 100, 0.3);
+
+  /* ─── Scene particles & glow ─── */
+  --color-particle: rgba(255, 255, 255, 0.15);
+  --color-scene-glow: rgba(255, 255, 255, 0.06);
+  --color-power-glow: rgba(255, 255, 255, 0.06);
+
+  /* ─── Grid floor ─── */
+  --color-scene-grid: rgba(255, 255, 255, 0.06);
+
   /* ─── Budget tier colors ─── */
   --color-tier-low: #cd7f32;
   --color-tier-mid: #c0c0c0;
   --color-tier-high: #ffd700;
+
+  /* ─── Animation timing tokens ─── */
+  --duration-instant: 0.01ms;
+  --duration-fast: 150ms;
+  --duration-normal: 200ms;
+  --duration-slow: 300ms;
+  --duration-slower: 400ms;
+  --duration-emphasis: 600ms;
+  --duration-scene: 800ms;
+  --ease-default: ease;
+  --ease-emphasis: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-modal: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ────────────────── Color Scheme ───────────────────────────────────────────── */
+:root {
+  color-scheme: dark;
 }
 
 /* ────────────────── Base ───────────────────────────────────────────────────── */
@@ -70,19 +119,33 @@ body {
 }
 
 /* ────────────────── xAI Card ──────────────────────────────────────────────── */
+
+/* Dense card — for data sheets, spec rows, sidebar panels */
 .xai-card {
   background: var(--color-xai-surface);
   border: 1px solid var(--color-xai-border);
-  padding: 1.5rem;
-  transition: border-color 0.2s ease, background 0.2s ease;
+  border-radius: 0;
+  padding: 1rem;
+  transition: border-color var(--duration-normal) var(--ease-default), background var(--duration-normal) var(--ease-default);
 }
 
-.xai-card:hover {
-  background: var(--color-xai-surface-hover);
+/* Spacious card — for choices, call-to-action options */
+.xai-card-lg {
+  background: var(--color-xai-surface);
+  border: 1px solid var(--color-xai-border);
+  border-radius: 0;
+  padding: 1.5rem;
+  transition: border-color var(--duration-normal) var(--ease-default), background var(--duration-normal) var(--ease-default);
+}
+
+.xai-card:hover,
+.xai-card-lg:hover {
+  opacity: 0.92;
   border-color: var(--color-xai-border-strong);
 }
 
-.xai-card-active {
+.xai-card-active,
+.xai-card-lg.xai-card-active {
   background: rgba(255, 255, 255, 0.06);
   border-color: var(--color-xai-border-strong);
 }
@@ -94,13 +157,16 @@ body {
   justify-content: center;
   gap: 0.5rem;
   padding: 0.75rem 1.5rem;
+  min-height: 44px;
   font-family: var(--font-mono);
   font-size: 0.875rem;
   font-weight: 400;
   letter-spacing: 0.0875rem;
   text-transform: uppercase;
+  white-space: nowrap;
+  border-radius: 0;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all var(--duration-normal) var(--ease-default);
 }
 
 .xai-btn-primary {
@@ -109,7 +175,7 @@ body {
 }
 
 .xai-btn-primary:hover {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.5);
 }
 
 .xai-btn-ghost {
@@ -119,7 +185,8 @@ body {
 }
 
 .xai-btn-ghost:hover {
-  background: var(--color-xai-surface);
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
 }
 
 .xai-btn:disabled {
@@ -127,23 +194,73 @@ body {
   cursor: not-allowed;
 }
 
+.xai-btn:focus-visible {
+  outline: 2px solid var(--color-xai-accent);
+  outline-offset: 2px;
+}
+
+.xai-card:focus-visible,
+.xai-card-lg:focus-visible {
+  outline: 2px solid var(--color-xai-accent);
+  outline-offset: 2px;
+}
+
 /* ────────────────── xAI Input ─────────────────────────────────────────────── */
 .xai-input {
   background: transparent;
   border: 1px solid var(--color-xai-border-strong);
+  border-radius: 0;
   padding: 0.75rem 1rem;
   color: var(--color-xai-text);
   font-family: var(--font-sans);
   font-size: 1rem;
   outline: none;
-  transition: border-color 0.2s ease;
+  transition: border-color var(--duration-normal) var(--ease-default);
 }
 
 .xai-input:focus {
   border-color: var(--color-xai-accent);
+  outline: 2px solid var(--color-xai-accent);
+  outline-offset: 2px;
 }
 
 .xai-input::placeholder {
+  color: var(--color-xai-text-4);
+}
+
+/* ── Input error states ── */
+.xai-input-error,
+.xai-input[aria-invalid="true"] {
+  border-color: var(--color-xai-error-border);
+}
+
+.xai-input-error:focus,
+.xai-input[aria-invalid="true"]:focus {
+  border-color: var(--color-xai-error);
+  outline: 2px solid var(--color-xai-error-border);
+  outline-offset: 2px;
+}
+
+.xai-error-text {
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  color: var(--color-xai-error);
+  text-transform: uppercase;
+  letter-spacing: 0.0625rem;
+  margin-top: 0.25rem;
+}
+
+/* ── Dark-mode native select dropdowns ── */
+select.xai-input {
+  color-scheme: dark;
+}
+
+select.xai-input option {
+  background: var(--color-xai-bg-elevated);
+  color: var(--color-xai-text);
+}
+
+select.xai-input option:disabled {
   color: var(--color-xai-text-4);
 }
 
@@ -154,11 +271,13 @@ body {
   gap: 0.375rem;
   padding: 0.25rem 0.5rem;
   border: 1px solid var(--color-xai-border-strong);
+  border-radius: 0;
   font-family: var(--font-mono);
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.0625rem;
   color: var(--color-xai-text-2);
+  white-space: nowrap;
 }
 
 .xai-tag-accent {
@@ -166,11 +285,17 @@ body {
   color: var(--color-xai-accent);
 }
 
+.xai-tag:focus-visible {
+  outline: 2px solid var(--color-xai-accent);
+  outline-offset: 2px;
+}
+
 /* ────────────────── Platform Colors ───────────────────────────────────────── */
-.platform-amd { border-color: var(--color-amd) !important; }
-.platform-amd:hover { background: rgba(237, 28, 36, 0.05) !important; }
-.platform-intel { border-color: var(--color-intel) !important; }
-.platform-intel:hover { background: rgba(0, 113, 197, 0.05) !important; }
+/* Platform colors — higher specificity instead of !important */
+.xai-card.platform-amd, .xai-card-lg.platform-amd { border-color: var(--color-amd); }
+.xai-card.platform-amd:hover, .xai-card-lg.platform-amd:hover { background: rgba(237, 28, 36, 0.05); }
+.xai-card.platform-intel, .xai-card-lg.platform-intel { border-color: var(--color-intel); }
+.xai-card.platform-intel:hover, .xai-card-lg.platform-intel:hover { background: rgba(0, 113, 197, 0.05); }
 
 /* ────────────────── Progress Bar ──────────────────────────────────────────── */
 .xai-progress {
@@ -181,7 +306,7 @@ body {
 .xai-progress-fill {
   height: 100%;
   background: var(--color-xai-text);
-  transition: width 0.4s ease;
+  transition: width var(--duration-slower) var(--ease-default);
 }
 
 /* ────────────────── Score Ring (SVG) ──────────────────────────────────────── */
@@ -200,7 +325,7 @@ body {
   stroke: var(--color-xai-text);
   stroke-width: 4;
   stroke-linecap: square;
-  transition: stroke-dashoffset 0.6s ease;
+  transition: stroke-dashoffset var(--duration-emphasis) var(--ease-default);
 }
 
 /* ────────────────── Scrollbar ─────────────────────────────────────────────── */
@@ -221,6 +346,7 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  contain: layout style;
 }
 
 /* ─── Floating particles ─── */
@@ -232,18 +358,24 @@ body {
 
 .pc-particle {
   position: absolute;
-  width: 2px;
-  height: 2px;
-  background: rgba(255, 255, 255, 0.15);
+  width: 6px;
+  height: 6px;
+  background: rgba(212, 160, 57, 0.7);
   border-radius: 50%;
-  animation: particle-float linear infinite;
+  box-shadow: 0 0 12px rgba(212, 160, 57, 0.5), 0 0 4px rgba(255, 255, 255, 0.4);
+  will-change: transform, opacity;
+  animation-name: particle-float;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 @keyframes particle-float {
   0%   { transform: translateY(0) scale(1);   opacity: 0; }
-  10%  { opacity: 0.4; }
-  90%  { opacity: 0.4; }
-  100% { transform: translateY(-120px) scale(0); opacity: 0; }
+  5%   { opacity: 0.9; }
+  50%  { transform: translateY(-120px) translateX(30px) scale(0.8); opacity: 0.7; }
+  85%  { opacity: 0.4; }
+  100% { transform: translateY(-240px) translateX(-20px) scale(0.2); opacity: 0; }
 }
 
 /* ─── Isometric viewport ─── */
@@ -256,8 +388,27 @@ body {
   position: relative;
   width: 280px;
   height: 340px;
-  transform: rotateX(55deg) rotateZ(-45deg);
+  transform: rotateX(55deg) rotateZ(-45deg) scale(var(--scene-scale, 1));
   transform-style: preserve-3d;
+}
+
+/* ─── Responsive scene scaling ─── */
+@media (max-width: 480px) {
+  .pc-isometric {
+    --scene-scale: 0.7;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 639px) {
+  .pc-isometric {
+    --scene-scale: 0.8;
+  }
+}
+
+@media (min-width: 1024px) {
+  .pc-isometric {
+    --scene-scale: 1.1;
+  }
 }
 
 /* ─── Grid floor ─── */
@@ -268,8 +419,8 @@ body {
   top: -20px;
   left: -20px;
   background-image:
-    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+    linear-gradient(var(--color-scene-grid) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.07) 1px, transparent 1px);
   background-size: 20px 20px;
 }
 
@@ -277,14 +428,14 @@ body {
 .pc-part {
   position: absolute;
   transform-style: preserve-3d;
-  transition: transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1),
-              opacity 0.6s ease;
-  opacity: 0.25;
+  transition: transform var(--duration-scene) var(--ease-emphasis),
+              opacity var(--duration-emphasis) var(--ease-default);
+  opacity: 0.45;
 }
 
 .pc-part.assembled {
   opacity: 1;
-  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.1));
+  filter: drop-shadow(0 0 8px var(--color-xai-text-3));
 }
 
 /* ─── Case frame ─── */
@@ -292,18 +443,18 @@ body {
   position: absolute;
   inset: 20px;
   transform-style: preserve-3d;
-  transition: opacity 0.8s ease;
-  opacity: 0.1;
+  transition: opacity var(--duration-scene) var(--ease-default);
+  opacity: 0.3;
 }
 
 .pc-case-frame.assembled {
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .pc-case-panel {
   position: absolute;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .pc-case-left {
@@ -346,13 +497,13 @@ body {
   height: 4px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.2);
-  transition: all 0.8s ease;
+  transition: all var(--duration-scene) var(--ease-default);
 }
 
 .pc-case-frame.assembled .pc-case-led {
-  background: #10b981;
-  box-shadow: 0 0 12px #10b981, 0 0 24px rgba(16, 185, 129, 0.3);
-  animation: led-pulse 2s ease-in-out infinite;
+  background: var(--color-led-green);
+  box-shadow: 0 0 12px var(--color-led-green), 0 0 24px var(--color-led-green-glow);
+  animation: led-pulse var(--duration-slow) var(--ease-default) infinite
 }
 
 @keyframes led-pulse {
@@ -376,8 +527,8 @@ body {
 .pc-mobo-pcb {
   position: absolute;
   inset: 0;
-  background: rgba(16, 60, 16, 0.4);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(16, 60, 16, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .pc-mobo-slot {
@@ -420,14 +571,14 @@ body {
 .pc-cpu-die {
   position: absolute;
   inset: 4px;
-  background: rgba(180, 160, 100, 0.3);
+  background: var(--color-metal-gold);
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .pc-cpu-ihs {
   position: absolute;
   inset: 0;
-  background: rgba(200, 200, 200, 0.15);
+  background: var(--color-metal-silver);
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
@@ -499,9 +650,9 @@ body {
 
 .pc-ram.assembled .pc-ram-led,
 .pc-ram.assembled .pc-ram-led-2 {
-  background: rgba(59, 130, 246, 0.6);
-  box-shadow: 0 0 6px rgba(59, 130, 246, 0.4);
-  animation: led-pulse 1.5s ease-in-out infinite;
+  background: var(--color-led-amber-dim);
+  box-shadow: 0 0 6px var(--color-led-amber-glow);
+  animation: led-pulse var(--duration-slow) var(--ease-default) var(--ease-default) infinite;
 }
 
 /* ─── GPU ─── */
@@ -547,8 +698,8 @@ body {
 }
 
 .pc-gpu.assembled .pc-gpu-led {
-  background: rgba(59, 130, 246, 0.5);
-  box-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+  background: var(--color-led-amber);
+  box-shadow: 0 0 10px var(--color-led-amber-glow-soft);
 }
 
 /* ─── Storage ─── */
@@ -621,8 +772,8 @@ body {
 }
 
 .pc-psu.assembled .pc-psu-label {
-  background: rgba(16, 185, 129, 0.5);
-  box-shadow: 0 0 6px rgba(16, 185, 129, 0.3);
+  background: var(--color-led-green);
+  box-shadow: 0 0 6px var(--color-led-green-glow);
 }
 
 /* ─── Cables ─── */
@@ -630,7 +781,7 @@ body {
   position: absolute;
   inset: 0;
   transform-style: preserve-3d;
-  animation: cable-fade-in 0.8s ease forwards;
+  animation: cable-fade-in var(--duration-scene) var(--ease-default) forwards;
 }
 
 @keyframes cable-fade-in {
@@ -656,12 +807,13 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%) translateZ(20px);
+  will-change: transform, opacity;
   background: radial-gradient(
     circle,
-    rgba(255, 255, 255, 0.03) 0%,
+    rgba(212, 160, 57, 0.04) 0%,
     transparent 70%
   );
-  animation: glow-breathe 3s ease-in-out infinite;
+  animation: glow-breathe var(--duration-scene) var(--ease-default) infinite;
 }
 
 @keyframes glow-breathe {
@@ -689,7 +841,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 0.5rem;
+  overflow: hidden;
+}
+
+@media (min-width: 640px) {
+  .wizard-overlay {
+    padding: 1rem;
+  }
 }
 
 .wizard-backdrop {
@@ -698,7 +857,7 @@ body {
   background: rgba(31, 34, 40, 0.85);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  animation: backdrop-in 0.3s ease forwards;
+  animation: backdrop-in var(--duration-slow) var(--ease-default) forwards;
 }
 
 @keyframes backdrop-in {
@@ -709,13 +868,19 @@ body {
 .wizard-container {
   position: relative;
   width: 100%;
-  max-width: 64rem;
-  max-height: calc(100vh - 4rem);
+  max-width: 72rem;
+  height: calc(100dvh - 1rem);
   background: var(--color-xai-bg);
   border: 1px solid var(--color-xai-border);
   display: flex;
   flex-direction: column;
-  animation: modal-slide-up 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation: modal-slide-up var(--duration-slower) var(--ease-modal) forwards;
+}
+
+@media (min-width: 640px) {
+  .wizard-container {
+    height: calc(100dvh - 4rem);
+  }
 }
 
 @keyframes modal-slide-up {
@@ -733,19 +898,27 @@ body {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  width: 2rem;
-  height: 2rem;
+  width: 2.75rem;
+  height: 2.75rem;
   display: flex;
   align-items: center;
   justify-content: center;
   background: transparent;
   border: 1px solid var(--color-xai-border);
+  border-radius: 0;
   color: var(--color-xai-text-3);
   font-family: var(--font-mono);
   font-size: 0.75rem;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all var(--duration-normal) var(--ease-default);
   z-index: 10;
+}
+
+.wizard-close:focus-visible {
+  outline: 2px solid var(--color-xai-accent);
+  outline-offset: 2px;
+  color: var(--color-xai-text);
+  border-color: var(--color-xai-border-strong);
 }
 
 .wizard-close:hover {
@@ -755,13 +928,162 @@ body {
 }
 
 .wizard-content {
-  padding: 2rem;
-  overflow-y: auto;
+  padding: 1.25rem;
+  overflow: hidden;
   flex: 1;
+  min-height: 0;
 }
 
-.wizard-content::-webkit-scrollbar { width: 3px; }
-.wizard-content::-webkit-scrollbar-track { background: transparent; }
-.wizard-content::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.1);
+@media (min-width: 640px) {
+  .wizard-content {
+    padding: 1.5rem 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wizard-content {
+    padding: 2rem 2.5rem;
+  }
+}
+
+/* wizard-content: no scrollbar — content must fit viewport */
+
+/* ────────────────── Spacing Tokens ─────────────────────────────────────────── */
+/* 4pt base scale: 4, 8, 12, 16, 24, 32, 48, 64, 96                        */
+/* Named by semantic role, not pixel value.                                  */
+
+:root {
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-base: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 96px;
+
+  /* Section rhythm — the big jumps that create deliberate breath */
+  --section-gap: 64px;
+}
+
+/* ────────────────── xAI Typography Utilities ─────────────────────────────── */
+/* Design system composition classes — replace repeated inline styles.       */
+/* These encode the xAI design spec for headings, display text, and bodies.  */
+
+.xai-heading {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.xai-heading-lg {
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.xai-display-hero {
+  font-family: var(--font-mono);
+  font-size: clamp(3rem, 12vw, 9rem);
+  font-weight: 300;
+  letter-spacing: -0.04em;
+  line-height: 0.95;
+}
+
+.xai-price {
+  font-family: var(--font-mono);
+  font-weight: 300;
+}
+
+/* ────────────────── Blueprint Grid ─────────────────────────────────────────── */
+.blueprint-grid {
+  background-image:
+    linear-gradient(rgba(212, 160, 57, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(212, 160, 57, 0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* ────────────────── Error Boundary ──────────────────────────────────────────── */
+.xai-error-boundary {
+  display: flex;
+  min-height: 100dvh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: var(--color-xai-bg);
+  color: var(--color-xai-text);
+}
+
+/* ──── Reduce Motion ──── */
+@media (prefers-reduced-motion: reduce) {
+  /* ── Functional animations: preserve as gentle opacity pulse ── */
+  .animate-pulse {
+    animation: motion-safe-pulse var(--duration-slow) var(--ease-default) infinite !important;
+  }
+
+  @keyframes motion-safe-pulse {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 0.8; }
+  }
+}
+
+/* ──── Mobile button sizing ──── */
+@media (max-width: 639px) {
+  .xai-btn {
+    /* 0.75rem 1rem keeps touch target ≥ 44px via min-height below */
+    padding: 0.75rem 1rem;
+    font-size: 0.75rem;
+    min-height: 44px;
+  }
+
+  .xai-card {
+    padding: 0.75rem;
+  }
+
+  .xai-card-lg {
+    padding: 1rem;
+  }
+
+  .wizard-close {
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 2.75rem;
+    height: 2.5rem;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════ */
+/* Desktop OS Shell                                                          */
+/* ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ─── Window transitions ─── */
+@keyframes window-open {
+  from {
+    opacity: 0;
+    transform: translate3d(var(--win-x, 0), var(--win-y, 0), 0) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(var(--win-x, 0), var(--win-y, 0), 0) scale(1);
+  }
+}
+
+/* ─── Window body scrollbar (narrow, dark) ─── */
+[data-window-body] ::-webkit-scrollbar { width: 3px; }
+[data-window-body] ::-webkit-scrollbar-track { background: transparent; }
+[data-window-body] ::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.08); }
+[data-window-body] ::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.15); }
+
+/* ─── Desktop icon hover highlight ─── */
+[data-desktop-icon] {
+  transition: background var(--duration-fast) var(--ease-default);
+}
+[data-desktop-icon]:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+[data-desktop-icon]:focus-visible {
+  outline: 2px solid var(--color-xai-accent);
+  outline-offset: 2px;
 }

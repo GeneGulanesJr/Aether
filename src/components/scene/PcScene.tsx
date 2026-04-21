@@ -1,9 +1,9 @@
-import type { BuildSlotCategory } from '../../lib/types'
-import type { WizardState } from '../../lib/buildWizard'
+import { memo, useMemo } from 'react'
+import type { BuildSlotCategory, Part } from '../../lib/types'
 import { PART_STEPS } from '../../lib/buildWizard'
 
 interface PcSceneProps {
-  state: WizardState
+  selectedParts: Partial<Record<BuildSlotCategory, Part>>
 }
 
 /**
@@ -13,27 +13,34 @@ interface PcSceneProps {
  * Parts "fly in" and assemble when selected in the wizard.
  * Uses CSS perspective + isometric rotation for the 3D effect.
  */
-export function PcScene({ state }: PcSceneProps) {
+export const PcScene = memo(function PcScene({ selectedParts }: PcSceneProps) {
   const filled = new Set<BuildSlotCategory>(
-    Object.keys(state.selectedParts) as BuildSlotCategory[]
+    Object.keys(selectedParts) as BuildSlotCategory[]
+  )
+
+  /* Pre-compute particle positions once — avoids Math.random() on every render */
+  const particles = useMemo(
+    () =>
+      Array.from({ length: 20 }, (_, i) => (
+        <span
+          key={`p-${i}`}
+          className="pc-particle"
+          style={{
+            left: `${((i * 37 + 13) % 100)}%`,
+            top: `${((i * 53 + 7) % 100)}%`,
+            animationDelay: `${((i * 3 + 1) % 4)}s`,
+            animationDuration: `${3 + ((i * 5) % 4)}s`,
+          }}
+        />
+      )),
+    [],
   )
 
   return (
     <div className="pc-scene">
-      {/* Ambient floating particles */}
+      {/* Ambient floating particles — positions memoised to avoid layout thrash on re-render */}
       <div className="pc-particles">
-        {Array.from({ length: 20 }).map((_, i) => (
-          <span
-            key={i}
-            className="pc-particle"
-            style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 8}s`,
-              animationDuration: `${6 + Math.random() * 6}s`,
-            }}
-          />
-        ))}
+        {particles}
       </div>
 
       {/* 3D isometric viewport */}
@@ -128,4 +135,4 @@ export function PcScene({ state }: PcSceneProps) {
       </div>
     </div>
   )
-}
+})

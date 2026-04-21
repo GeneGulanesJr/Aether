@@ -8,13 +8,16 @@ export function BuildSummaryPanel({ slots }: BuildSummaryPanelProps) {
   const filled = slots.filter((s) => s.part !== null).length
 
   return (
-    <aside className="xai-card flex flex-col gap-4">
+    <aside
+      className="xai-card flex flex-col gap-4 border border-xai-border"
+      style={{ boxShadow: 'none' }}
+    >
       <p className="font-mono text-xs text-xai-text-3 uppercase tracking-wider">
         Build summary
       </p>
-      <p className="font-mono text-2xl text-xai-text" style={{ fontWeight: 300 }}>
+      <p className="xai-price font-mono text-2xl text-xai-text">
         {filled}{' '}
-        <span className="font-mono text-sm text-xai-text-3" style={{ fontWeight: 400 }}>
+        <span className="font-mono text-sm text-xai-text-3">
           / {slots.length} slots
         </span>
       </p>
@@ -25,7 +28,7 @@ export function BuildSummaryPanel({ slots }: BuildSummaryPanelProps) {
             className="flex justify-between gap-2 border-b border-xai-border py-2 last:border-0"
           >
             <span className="font-mono text-xs text-xai-text-3 capitalize">{slot.category}</span>
-            <span className="font-mono text-xs text-xai-text truncate text-right max-w-[200px]">
+            <span className="font-mono text-xs text-xai-text truncate text-right max-w-[150px] sm:max-w-[180px] md:max-w-[200px]">
               {slot.part?.name ?? '—'}
             </span>
           </li>
@@ -34,7 +37,7 @@ export function BuildSummaryPanel({ slots }: BuildSummaryPanelProps) {
       <div className="mt-1 border border-xai-border bg-xai-bg-surface p-3">
         <p className="text-sm text-xai-text-3">
           Total{' '}
-          <span className="font-mono text-lg text-xai-text" style={{ fontWeight: 300 }}>
+          <span className="xai-price font-mono text-lg text-xai-text">
             ₱0
           </span>
         </p>

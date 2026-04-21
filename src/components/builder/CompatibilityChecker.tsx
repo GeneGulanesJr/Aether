@@ -1,6 +1,6 @@
 /**
  * Compatibility checker — warns about build conflicts.
- * xAI theme: warn/error with amber/red accent borders.
+ * xAI theme: warn/error with semantic functional tokens.
  */
 
 import type { BuildSlot } from '../../lib/types'
@@ -59,7 +59,7 @@ export function CompatibilityChecker({ slots }: CompatibilityCheckerProps) {
 
   return (
     <div className="flex flex-col gap-2">
-      <p className="font-mono text-[0.625rem] text-xai-text-4 uppercase tracking-wider">
+      <p className="font-mono text-[0.625rem] text-xai-text-3 uppercase tracking-wider">
         Compatibility
       </p>
       {issues.map((issue, i) => (
@@ -67,7 +67,7 @@ export function CompatibilityChecker({ slots }: CompatibilityCheckerProps) {
           key={i}
           className="xai-card"
           style={{
-            borderColor: issue.severity === 'error' ? 'rgba(239, 68, 68, 0.4)' : 'rgba(245, 158, 11, 0.4)',
+            borderColor: issue.severity === 'error' ? 'var(--color-xai-error-border)' : 'var(--color-xai-warn-border)',
           }}
         >
           <div className="flex items-start gap-2">
@@ -75,7 +75,7 @@ export function CompatibilityChecker({ slots }: CompatibilityCheckerProps) {
             <svg
               viewBox="0 0 24 24"
               className={`mt-0.5 h-3.5 w-3.5 shrink-0 ${
-                issue.severity === 'error' ? 'text-red-400' : 'text-amber-400'
+                issue.severity === 'error' ? 'text-xai-error' : 'text-xai-warn'
               }`}
               fill="none"
               stroke="currentColor"
@@ -86,7 +86,7 @@ export function CompatibilityChecker({ slots }: CompatibilityCheckerProps) {
             <div>
               <p
                 className={`font-mono text-xs ${
-                  issue.severity === 'error' ? 'text-red-400' : 'text-amber-400'
+                  issue.severity === 'error' ? 'text-xai-error' : 'text-xai-warn'
                 }`}
               >
                 {issue.message}
