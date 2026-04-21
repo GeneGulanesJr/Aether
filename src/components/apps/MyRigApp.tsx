@@ -4,7 +4,7 @@
  */
 
 import { useCallback } from 'react'
-import type { PriceEntry, BuildSlotCategory } from '../../lib/types'
+import type { PriceEntry } from '../../lib/types'
 import type { UseBuildResult } from '../../hooks/useBuild'
 import { CompatibilityChecker } from '../builder/CompatibilityChecker'
 import { useWindowManager } from '../../lib/windowManager'
@@ -27,7 +27,7 @@ const CATEGORY_ICONS: Record<string, string> = {
   monitor: '🖥️',
 }
 
-export function MyRigApp({ build, priceEntries }: MyRigAppProps) {
+export function MyRigApp({ build }: MyRigAppProps) {
   const { openWindow } = useWindowManager()
 
   const handleBrowseCategory = useCallback((category: string) => {

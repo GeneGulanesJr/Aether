@@ -28,9 +28,11 @@ interface MarketplaceAppProps {
   build: UseBuildResult
   initialCategory?: string
   initialSearch?: string
+  /** Called after a part is added to the build (e.g. to close the marketplace) */
+  onPartAdded?: () => void
 }
 
-export function MarketplaceApp({ parts, priceByPartId, priceEntries, build, initialCategory, initialSearch }: MarketplaceAppProps) {
+export function MarketplaceApp({ parts, priceByPartId, priceEntries, build, initialCategory, initialSearch, onPartAdded }: MarketplaceAppProps) {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(initialCategory ?? null)
 
   const categoryParts = useMemo(() => {
@@ -129,7 +131,10 @@ export function MarketplaceApp({ parts, priceByPartId, priceEntries, build, init
                 key={part.id}
                 part={part}
                 priceLabel={priceByPartId[part.id]}
-                onAddToBuild={() => build.addPart(part, priceEntries.find(e => e.partId === part.id))}
+                onAddToBuild={() => {
+                  build.addPart(part, priceEntries.find(e => e.partId === part.id))
+                  onPartAdded?.()
+                }}
                 isSelected={build.isSlotFilled(part.category as BuildSlotCategory)}
               />
             ))}

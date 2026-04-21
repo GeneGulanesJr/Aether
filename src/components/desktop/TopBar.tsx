@@ -10,7 +10,7 @@ interface TopBarProps {
   onSearch?: (query: string) => void
 }
 
-export function TopBar({ onSearch }: TopBarProps) {
+export function TopBar(_props: TopBarProps) {
   const [searchQuery, setSearchQuery] = useState('')
   const inputRef = useRef<HTMLInputElement>(null)
   const { openWindow } = useWindowManager()

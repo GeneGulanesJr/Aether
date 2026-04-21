@@ -6,7 +6,7 @@ import { useCallback } from 'react'
 import { useWindowManager } from '../../lib/windowManager'
 
 export function Taskbar() {
-  const { state, restoreWindow, minimizeWindow, focusWindow } = useWindowManager()
+  const { state, restoreWindow, focusWindow } = useWindowManager()
 
   const handleWindowClick = useCallback((id: string, minimized: boolean) => {
     if (minimized) {

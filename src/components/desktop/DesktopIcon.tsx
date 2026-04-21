@@ -12,14 +12,17 @@ interface DesktopIconProps {
   appType: AppType
   windowTitle: string
   payload?: Record<string, unknown>
+  /** Called after opening the primary window (e.g. to open a companion window) */
+  onOpen?: () => void
 }
 
-export function DesktopIcon({ icon, label, appType, windowTitle, payload }: DesktopIconProps) {
+export function DesktopIcon({ icon, label, appType, windowTitle, payload, onOpen }: DesktopIconProps) {
   const { openWindow } = useWindowManager()
 
   const handleClick = useCallback(() => {
     openWindow(appType, windowTitle, payload)
-  }, [appType, windowTitle, payload, openWindow])
+    onOpen?.()
+  }, [appType, windowTitle, payload, openWindow, onOpen])
 
   return (
     <button

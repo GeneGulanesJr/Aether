@@ -3,7 +3,7 @@
  * Renders: R3F background scene, desktop icons, windows, top bar, taskbar.
  */
 
-import { Suspense, lazy } from 'react'
+import { Suspense, lazy, useCallback } from 'react'
 import { WindowManagerProvider, useWindowManager } from '../../lib/windowManager'
 import { DesktopIcon } from './DesktopIcon'
 import { Window } from './Window'
@@ -30,7 +30,26 @@ interface DesktopProps {
 }
 
 function DesktopInner({ parts, priceByPartId, priceEntries, build }: DesktopProps) {
-  const { state, closeWindow } = useWindowManager()
+  const { state, closeWindow, openWindow, updatePosition, getWindowByType } = useWindowManager()
+
+  // Open marketplace companion window, positioned to the right
+  const openMarketplaceCompanion = useCallback(() => {
+    const existing = getWindowByType('marketplace')
+    if (existing) {
+      closeWindow(existing.id)
+    }
+    const winId = openWindow('marketplace', 'Marketplace')
+    // Position to right side of viewport
+    const margin = 16
+    const marketplaceWidth = Math.max(640, Math.round(window.innerWidth * 0.55))
+    updatePosition(winId, window.innerWidth - marketplaceWidth - margin, 44)
+  }, [openWindow, updatePosition, getWindowByType, closeWindow])
+
+  // Close marketplace after part selection
+  const closeMarketplace = useCallback(() => {
+    const win = getWindowByType('marketplace')
+    if (win) closeWindow(win.id)
+  }, [getWindowByType, closeWindow])
 
   const renderWindowContent = (win: typeof state.windows[0]) => {
     switch (win.appType) {
@@ -43,6 +62,7 @@ function DesktopInner({ parts, priceByPartId, priceEntries, build }: DesktopProp
             build={build}
             initialCategory={win.payload?.category as string | undefined}
             initialSearch={win.payload?.search as string | undefined}
+            onPartAdded={closeMarketplace}
           />
         )
       case 'my-rig':
@@ -91,6 +111,7 @@ function DesktopInner({ parts, priceByPartId, priceEntries, build }: DesktopProp
             label="New Build"
             appType="my-rig"
             windowTitle="My Rig"
+            onOpen={openMarketplaceCompanion}
           />
           <DesktopIcon
             icon="📦"

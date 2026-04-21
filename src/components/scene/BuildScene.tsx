@@ -7,7 +7,7 @@
  * - Falls back gracefully when WebGL is unavailable
  */
 
-import { useRef, useState, useCallback, Component, type ReactNode } from 'react'
+import { useRef, Component, type ReactNode } from 'react'
 import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { ContactShadows, Environment } from '@react-three/drei'
 import * as THREE from 'three'
