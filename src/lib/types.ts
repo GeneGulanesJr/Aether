@@ -20,6 +20,43 @@ export interface Part {
   imageUrl?: string | null
 }
 
+/**
+ * Read a spec value from a Part's specs, checking both the human-labeled
+ * (capitalized) key and the raw (lowercase/snake_case) key.
+ * Handles the relabeling done by enrich-catalog.js (e.g., "TDP" vs "tdp").
+ *
+ * Maps canonical names to their possible key variants:
+ *   socket  → ["Socket", "socket"]
+ *   cores   → ["Cores", "cores", "# of Cores"]
+ *   threads → ["Threads", "threads", "# of Threads"]
+ *   tdp     → ["TDP", "tdp"]
+ *   ram     → ["Memory", "ram", "ram_type"]
+ *   vram    → ["VRAM", "vram"]
+ *   type    → ["Type", "type"]
+ */
+const SPEC_KEY_VARIANTS: Record<string, string[]> = {
+  socket:  ['Socket', 'socket'],
+  cores:   ['Cores', 'cores', '# of Cores'],
+  threads: ['Threads', 'threads', '# of Threads'],
+  tdp:     ['TDP', 'tdp'],
+  ram:     ['Memory', 'ram', 'ram_type'],
+  vram:    ['VRAM', 'vram'],
+  type:    ['Type', 'type'],
+  chipset: ['Chipset', 'chipset'],
+  brand:   ['Brand', 'brand'],
+}
+
+export function getSpec(specs: Record<string, string>, key: string): string {
+  const variants = SPEC_KEY_VARIANTS[key]
+  if (variants) {
+    for (const v of variants) {
+      if (specs[v] !== undefined && specs[v] !== '') return specs[v]
+    }
+  }
+  // Fall back to the key itself (try both cases)
+  return specs[key] ?? specs[key.toLowerCase()] ?? specs[key.charAt(0).toUpperCase() + key.slice(1)] ?? ''
+}
+
 export interface PriceEntry {
   partId: string
   amountPhp: number
@@ -28,17 +65,11 @@ export interface PriceEntry {
   observedAt?: string
 }
 
-export interface PriceShardRef {
-  /** R2 object key relative to bucket root, e.g. `catalog/cpus.json` */
-  key: string
-  sha256?: string
-  updatedAt?: string
-}
-
-export interface PriceManifest {
-  version: string
+/** Manifest computed from D1 — available categories and retailers. */
+export interface Manifest {
+  categories: string[]
+  retailers: string[]
   updatedAt: string
-  shards: PriceShardRef[]
 }
 
 /** Shard file listing PHP offers for parts (separate from manifest). */
@@ -76,4 +107,5 @@ export interface PartFilters {
   socket: string
   priceMin: string
   priceMax: string
+  coreCount: string
 }

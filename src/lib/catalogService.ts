@@ -1,7 +1,7 @@
 import { buildPriceMap } from './priceUtils'
-import { fetchCatalogShard, fetchPriceManifest, fetchPriceShard, DataClientError } from './dataClient'
+import { fetchCatalog, fetchPrices, fetchManifest, ApiClientError } from './apiClient'
 import { parseCatalogFixture, parsePriceFixture } from './catalogParsers'
-import type { Part, PriceEntry, PriceListFile } from './types'
+import type { Part, PriceEntry, PriceListFile, Manifest } from './types'
 
 export interface CatalogServiceResult {
   parts: Part[]
@@ -15,15 +15,15 @@ export interface FixtureCatalogResult extends CatalogServiceResult {
   mode: 'fixture'
 }
 
-export interface R2CatalogResult extends CatalogServiceResult {
-  mode: 'r2'
+export interface ApiCatalogResult extends CatalogServiceResult {
+  mode: 'api'
 }
 
-export type CatalogServiceResultUnion = FixtureCatalogResult | R2CatalogResult
+export type CatalogServiceResultUnion = FixtureCatalogResult | ApiCatalogResult
 
 /** Extract error message from known error types. */
 function getErrorMessage(error: unknown): string {
-  if (error instanceof DataClientError) {
+  if (error instanceof ApiClientError) {
     return `${error.kind} error: ${error.message}`
   }
   if (error instanceof Error) {
@@ -41,46 +41,30 @@ export function loadFixtureCatalog(): FixtureCatalogResult {
     priceByPartId: buildPriceMap(prices),
     priceEntries: prices.entries,
     statusMessage:
-      'Fixture mode (set VITE_R2_BASE_URL to load manifest + shards from R2).',
+      'Fixture mode (set VITE_API_URL to load data from the Worker API).',
     mode: 'fixture',
     loadingState: 'success' as const,
   }
 }
 
-function isCatalogShard(key: string): boolean {
-  return key.startsWith('catalog/') && key.endsWith('.json')
-}
+/** Load catalog data from the Worker API (backed by D1). */
+export async function loadApiCatalog(): Promise<ApiCatalogResult> {
+  const catalog = await fetchCatalog()
+  const priceResponse = await fetchPrices()
+  const manifest = await fetchManifest()
 
-function isPriceShard(key: string): boolean {
-  return key.startsWith('prices/') && key.endsWith('.json') && !key.endsWith('manifest.json')
-}
-
-/** Load catalog data from R2 (manifest + all shards). */
-export async function loadR2Catalog(): Promise<R2CatalogResult> {
-  const manifest = await fetchPriceManifest()
-
-  const catalogKeys = manifest.shards.map((s) => s.key).filter(isCatalogShard)
-  const priceKeys = manifest.shards.map((s) => s.key).filter(isPriceShard)
-
-  const [catalogResults, priceResults] = await Promise.all([
-    Promise.all(catalogKeys.map((key) => fetchCatalogShard(key))),
-    Promise.all(priceKeys.map((key) => fetchPriceShard(key))),
-  ])
-
-  const parts = catalogResults.flatMap((shard) => shard.items)
-  const entries = priceResults.flatMap((shard) => shard.entries)
-
+  const entries = priceResponse.entries
   const priceListFile: PriceListFile = {
     schemaVersion: '1.0',
     entries,
   }
 
   return {
-    parts,
+    parts: catalog.items,
     priceByPartId: buildPriceMap(priceListFile),
     priceEntries: entries,
-    statusMessage: `R2 manifest v${manifest.version} — ${parts.length} parts, ${entries.length} prices.`,
-    mode: 'r2',
+    statusMessage: `API — ${manifest.categories.length} categories, ${catalog.items.length} parts, ${entries.length} prices.`,
+    mode: 'api',
     loadingState: 'success' as const,
   }
 }

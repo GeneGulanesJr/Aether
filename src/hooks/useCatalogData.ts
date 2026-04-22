@@ -1,149 +1,203 @@
+/**
+ * Catalog data hook — static parts + snapshot prices + optional live prices.
+ *
+ * Parts (CPU, Motherboard, GPU) are bundled at build time from src/data/*.json.
+ * Prices default to a bundled snapshot (src/data/prices_snapshot.json) — zero network calls.
+ * Live prices are fetched on demand from the Worker API (D1) via fetchLivePrices().
+ */
+
+import { useState, useCallback, useEffect } from 'react'
 import { useQuery } from '@tanstack/react-query'
-import { fetchCatalogShard, fetchPriceManifest, fetchPriceShard } from '../lib/dataClient'
+import { fetchPrices } from '../lib/apiClient'
 import { buildPriceMap } from '../lib/priceUtils'
 import { getDataSourceMode } from '../lib/env'
-import { parseCatalogFixture, parsePriceFixture } from '../lib/catalogParsers'
+import { parsePriceFixture } from '../lib/catalogParsers'
 import { getErrorMessage } from '../lib/errors'
 import type { Part, PriceEntry, PriceListFile } from '../lib/types'
 
-export { DEFAULT_SLOTS } from '../lib/slots'
+// ── Dynamic catalog imports (deferred off critical path) ──
+// These JSON files total ~3 MB — loaded asynchronously after first paint.
 
-export type DataSourceMode = 'fixture' | 'r2'
+async function loadStaticParts(): Promise<Part[]> {
+  const [cpu, motherboard, gpu] = await Promise.all([
+    import('../data/catalog_cpu.json'),
+    import('../data/catalog_motherboard.json'),
+    import('../data/catalog_gpu.json'),
+  ])
+  return [
+    ...(cpu as unknown as { items: Part[] }).items,
+    ...(motherboard as unknown as { items: Part[] }).items,
+    ...(gpu as unknown as { items: Part[] }).items,
+  ]
+}
+
+async function loadSnapshotPrices(): Promise<{ entries: PriceEntry[]; map: Record<string, string> }> {
+  const { default: priceSnapshot } = await import('../data/prices_snapshot.json')
+  const entries = (priceSnapshot as { entries: PriceEntry[] }).entries
+  return { entries, map: buildPriceMap({ schemaVersion: '1.0', entries }) }
+}
+
+// ── Types ──
+
+export type DataSourceMode = 'fixture' | 'api'
+export type LivePriceState = 'idle' | 'loading' | 'success' | 'error'
 
 export interface CatalogData {
   parts: Part[]
-  priceByPartId: Record<string, string> | undefined
-  /** Raw price entries for build calculations */
+  /** Snapshot prices (always available, estimated) */
+  priceByPartId: Record<string, string>
+  /** Raw snapshot price entries */
   priceEntries: PriceEntry[]
+  /** Live prices from Worker API (undefined until fetchLivePrices is called) */
+  livePriceByPartId: Record<string, string> | undefined
+  /** Raw live price entries */
+  livePriceEntries: PriceEntry[]
+  /** Status of live price fetch */
+  livePriceState: LivePriceState
+  /** Error message if live fetch failed */
+  livePriceError: string | undefined
+  /** Trigger live price fetch */
+  fetchLivePrices: () => void
+  /** Whether live prices are being fetched */
+  isLivePriceLoading: boolean
   statusMessage: string
   mode: DataSourceMode
   loadingState: 'idle' | 'loading' | 'error' | 'success'
 }
 
-/** R2 shard keys that are catalog shards (contain parts). */
-function isCatalogShard(key: string): boolean {
-  return key.startsWith('catalog/') && key.endsWith('.json')
-}
+// ── Hook ──
 
-/** R2 shard keys that are price shards (contain price entries). */
-function isPriceShard(key: string): boolean {
-  return key.startsWith('prices/') && key.endsWith('.json') && !key.endsWith('manifest.json')
-}
-
-/**
- * Fetches catalog data and prices.
- * Dynamically loads all catalog + price shards listed in the R2 manifest.
- * Returns parts, formatted prices, and raw price entries for calculations.
- */
 export function useCatalogData(): CatalogData {
-  const mode = getDataSourceMode()
+  const mode = getDataSourceMode() === 'api' ? 'api' : 'fixture'
+  const [liveEnabled, setLiveEnabled] = useState(false)
 
-  // Step 1: fetch manifest (only in R2 mode)
-  const manifestQuery = useQuery({
-    queryKey: ['r2', 'manifest'],
-    queryFn: fetchPriceManifest,
-    enabled: mode === 'r2',
-  })
+  // ── Async data state (populated after initial paint) ──
+  const [staticParts, setStaticParts] = useState<Part[]>([])
+  const [snapshotEntries, setSnapshotEntries] = useState<PriceEntry[]>([])
+  const [snapshotPriceMap, setSnapshotPriceMap] = useState<Record<string, string>>({})
+  const [dataLoading, setDataLoading] = useState(true)
 
-  // Step 2: fetch all catalog + price shards once manifest is available
-  const shardsQuery = useQuery({
-    queryKey: ['r2', 'shards', manifestQuery.data?.version],
-    queryFn: async () => {
-      const manifest = manifestQuery.data!
-      const catalogKeys = manifest.shards
-        .map((s) => s.key)
-        .filter(isCatalogShard)
-      const priceKeys = manifest.shards
-        .map((s) => s.key)
-        .filter(isPriceShard)
+  // Load JSON chunks asynchronously — keeps ~3 MB off the critical path
+  useEffect(() => {
+    let cancelled = false
+    Promise.all([loadStaticParts(), loadSnapshotPrices()]).then(
+      ([parts, snapshot]) => {
+        if (!cancelled) {
+          setStaticParts(parts)
+          setSnapshotEntries(snapshot.entries)
+          setSnapshotPriceMap(snapshot.map)
+          setDataLoading(false)
+        }
+      },
+    )
+    return () => { cancelled = true }
+  }, [])
 
-      const [catalogResults, priceResults] = await Promise.all([
-        Promise.all(catalogKeys.map((key) => fetchCatalogShard(key))),
-        Promise.all(priceKeys.map((key) => fetchPriceShard(key))),
-      ])
+  const fetchLivePrices = useCallback(() => {
+    setLiveEnabled(true)
+  }, [])
 
-      const parts = catalogResults.flatMap((shard) => shard.items)
-      const entries = priceResults.flatMap((shard) => shard.entries)
+  // ─── Fixture mode (offline / dev) ──────────────────────────────────────
 
-      return { parts, entries }
-    },
-    enabled: mode === 'r2' && manifestQuery.isSuccess,
-  })
-
-  // ─── Fixture mode ──────────────────────────────────────────────────────
   if (mode === 'fixture') {
-    const catalog = parseCatalogFixture()
+    if (dataLoading) {
+      return {
+        parts: [],
+        priceByPartId: {},
+        priceEntries: [],
+        livePriceByPartId: undefined,
+        livePriceEntries: [],
+        livePriceState: 'idle' as const,
+        livePriceError: undefined,
+        fetchLivePrices: () => {},
+        isLivePriceLoading: false,
+        statusMessage: 'Loading catalog data…',
+        mode,
+        loadingState: 'loading' as const,
+      }
+    }
     const prices: PriceListFile = parsePriceFixture()
     return {
-      parts: catalog.items,
+      parts: staticParts,
       priceByPartId: buildPriceMap(prices),
       priceEntries: prices.entries,
+      livePriceByPartId: undefined,
+      livePriceEntries: [],
+      livePriceState: 'idle' as const,
+      livePriceError: undefined,
+      fetchLivePrices: () => {},
+      isLivePriceLoading: false,
       statusMessage:
-        'Fixture mode (set VITE_R2_BASE_URL to load manifest + shards from R2).',
+        'Fixture mode — parts bundled, prices from sample data.',
       mode,
       loadingState: 'success' as const,
     }
   }
 
-  // ─── R2 loading states ─────────────────────────────────────────────────
-  if (manifestQuery.isLoading || shardsQuery.isLoading) {
+  // ─── API mode — snapshot prices by default, live on demand ─────────────
+
+  const livePricesQuery = useQuery({
+    queryKey: ['api', 'prices', 'live'],
+    queryFn: async () => {
+      const response = await fetchPrices()
+      return response.entries
+    },
+    enabled: liveEnabled,
+  })
+
+  // Live price state
+  let livePriceState: LivePriceState = 'idle'
+  let livePriceByPartId: Record<string, string> | undefined = undefined
+  let livePriceEntries: PriceEntry[] = []
+  let livePriceError: string | undefined = undefined
+  const isLivePriceLoading = livePricesQuery.isLoading
+
+  if (liveEnabled) {
+    if (livePricesQuery.isError) {
+      livePriceState = 'error'
+      livePriceError = getErrorMessage(livePricesQuery.error)
+    } else if (livePricesQuery.data) {
+      livePriceState = 'success'
+      livePriceEntries = livePricesQuery.data
+      livePriceByPartId = buildPriceMap({
+        schemaVersion: '1.0',
+        entries: livePriceEntries,
+      })
+    } else if (isLivePriceLoading) {
+      livePriceState = 'loading'
+    }
+  }
+
+  // Return loading state while JSON chunks are being fetched
+  if (dataLoading) {
     return {
       parts: [],
-      priceByPartId: undefined,
+      priceByPartId: {},
       priceEntries: [],
-      statusMessage: '',
+      livePriceByPartId: undefined,
+      livePriceEntries: [],
+      livePriceState: 'idle' as const,
+      livePriceError: undefined,
+      fetchLivePrices,
+      isLivePriceLoading: false,
+      statusMessage: 'Loading catalog data…',
       mode,
       loadingState: 'loading' as const,
     }
   }
 
-  if (manifestQuery.isError) {
-    return {
-      parts: [],
-      priceByPartId: undefined,
-      priceEntries: [],
-      statusMessage: `Manifest error: ${getErrorMessage(manifestQuery.error)}`,
-      mode,
-      loadingState: 'error' as const,
-    }
-  }
-
-  if (shardsQuery.isError) {
-    return {
-      parts: [],
-      priceByPartId: undefined,
-      priceEntries: [],
-      statusMessage: `Shard error: ${getErrorMessage(shardsQuery.error)}`,
-      mode,
-      loadingState: 'error' as const,
-    }
-  }
-
-  const manifest = manifestQuery.data
-  const shards = shardsQuery.data
-
-  if (!manifest || !shards) {
-    return {
-      parts: [],
-      priceByPartId: undefined,
-      priceEntries: [],
-      statusMessage: 'Waiting for R2 data…',
-      mode,
-      loadingState: 'idle' as const,
-    }
-  }
-
-  // Build price map from raw entries
-  const priceListFile: PriceListFile = {
-    schemaVersion: '1.0',
-    entries: shards.entries,
-  }
-
+  // Always return snapshot prices — never undefined in API mode
   return {
-    parts: shards.parts,
-    priceByPartId: buildPriceMap(priceListFile),
-    priceEntries: shards.entries,
-    statusMessage: `R2 manifest v${manifest.version} — ${shards.parts.length} parts, ${shards.entries.length} prices.`,
+    parts: staticParts,
+    priceByPartId: snapshotPriceMap,
+    priceEntries: snapshotEntries,
+    livePriceByPartId,
+    livePriceEntries,
+    livePriceState,
+    livePriceError,
+    fetchLivePrices,
+    isLivePriceLoading,
+    statusMessage: `${staticParts.length} parts (bundled), ${snapshotEntries.length} estimated prices.`,
     mode,
     loadingState: 'success' as const,
   }
