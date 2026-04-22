@@ -1,16 +1,12 @@
 /**
- * Snapshot prices from R2 into a bundled JSON file.
+ * Snapshot prices from the Worker API (D1) into a bundled JSON file.
  *
  * Usage:
- *   VITE_R2_BASE_URL=https://pub-xxx.r2.dev node scripts/snapshot-prices.mjs
- *
- * Or add to package.json:
- *   "snapshot:prices": "VITE_R2_BASE_URL=$VITE_R2_BASE_URL node scripts/snapshot-prices.mjs"
+ *   D2_API_URL=https://pcbuilderv2.your-account.workers.dev node scripts/snapshot-prices.mjs
  *
  * The script:
- *   1. Fetches manifest.json from R2
- *   2. Fetches all price shards
- *   3. Merges entries and writes src/data/prices_snapshot.json
+ *   1. Fetches prices from the Worker API
+ *   2. Writes src/data/prices_snapshot.json
  */
 
 import { writeFileSync } from 'node:fs'
@@ -21,18 +17,15 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const PROJECT_ROOT = resolve(__dirname, '..')
 const OUTPUT_PATH = resolve(PROJECT_ROOT, 'src/data/prices_snapshot.json')
 
-const r2Base = process.env.VITE_R2_BASE_URL?.replace(/\/+$/, '')
-if (!r2Base) {
-  console.error('Error: VITE_R2_BASE_URL is not set.')
-  console.error('Usage: VITE_R2_BASE_URL=https://pub-xxx.r2.dev node scripts/snapshot-prices.mjs')
+const apiUrl = process.env.D2_API_URL?.replace(/\/+$/, '')
+if (!apiUrl) {
+  console.error('Error: D2_API_URL is not set.')
+  console.error('Usage: D2_API_URL=https://pcbuilderv2.workers.dev node scripts/snapshot-prices.mjs')
   process.exit(1)
 }
 
-function joinUrl(base, path) {
-  return `${base}/${path.startsWith('/') ? path.slice(1) : path}`
-}
-
-async function fetchJson(url) {
+async function fetchJson(path) {
+  const url = `${apiUrl}${path}`
   const res = await fetch(url)
   if (!res.ok) {
     throw new Error(`HTTP ${res.status} ${res.statusText}: ${url}`)
@@ -41,29 +34,18 @@ async function fetchJson(url) {
 }
 
 async function main() {
-  console.log(`Fetching prices from ${r2Base}...`)
+  console.log(`Fetching prices from ${apiUrl}...`)
 
-  // 1. Fetch manifest
-  const manifest = await fetchJson(joinUrl(r2Base, 'manifest.json'))
-  console.log(`Manifest version: ${manifest.version}`)
-
-  // 2. Filter price shards
-  const priceKeys = manifest.shards
-    .map((s) => s.key)
-    .filter((k) => k.startsWith('prices/') && k.endsWith('.json') && !k.endsWith('manifest.json'))
-
-  console.log(`Found ${priceKeys.length} price shard(s): ${priceKeys.join(', ')}`)
-
-  // 3. Fetch all shards in parallel
-  const shards = await Promise.all(priceKeys.map((key) => fetchJson(joinUrl(r2Base, key))))
-  const entries = shards.flatMap((shard) => shard.entries)
+  const priceResponse = await fetchJson('/api/prices')
+  const entries = priceResponse.entries
 
   console.log(`Total price entries: ${entries.length}`)
 
-  // 4. Write snapshot
+  const manifest = await fetchJson('/api/manifest')
+
   const snapshot = {
     schemaVersion: '1.0',
-    snapshotVersion: manifest.version,
+    snapshotVersion: manifest.updatedAt,
     capturedAt: new Date().toISOString(),
     entries,
   }

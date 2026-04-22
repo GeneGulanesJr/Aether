@@ -5,12 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:worker": "wrangler dev --local",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "typecheck": "tsc -b --noEmit",
     "validate:schemas": "node scripts/validate-schemas.mjs",
-    "snapshot:prices": "node scripts/snapshot-prices.mjs"
+    "snapshot:prices": "D2_API_URL=$D2_API_URL node scripts/snapshot-prices.mjs",
+    "seed:d2": "D2_API_URL=$D2_API_URL D2_API_KEY=$D2_API_KEY node scripts/seed-d2.mjs",
+    "deploy": "wrangler deploy",
+    "d1:migrate": "wrangler d1 execute pcbuilder-db --remote --file=migrations/0001_initial.sql"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",
