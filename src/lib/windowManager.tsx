@@ -9,7 +9,7 @@ import { createContext, useContext, useReducer, useCallback, type ReactNode } fr
 
 // ── Types ──
 
-export type AppType = 'marketplace' | 'my-rig' | 'part-properties' | 'terminal'
+export type AppType = 'marketplace' | 'my-rig' | 'part-properties' | 'terminal' | 'doom-game'
 
 export interface WindowState {
   id: string
@@ -54,6 +54,7 @@ function getDefaultSize(appType: AppType): { width: number; height: number } {
     'my-rig':       { vw: 0.35, vh: 0.70, minW: 420, minH: 520 },
     'part-properties': { vw: 0.40, vh: 0.60, minW: 500, minH: 450 },
     terminal:       { vw: 0.45, vh: 0.50, minW: 560, minH: 360 },
+    'doom-game':    { vw: 0.75, vh: 0.80, minW: 640, minH: 480 },
   }
 
   const s = sizes[appType]

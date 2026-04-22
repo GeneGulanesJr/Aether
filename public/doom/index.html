@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Doom Lite — PC Builder Benchmark</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="public/style.css" type="text/css" />
+    <link rel="shortcut icon" href="public/icon.png" type="image/png" />
+
+    <style>
+      /* PC Builder: Performance label banner */
+      #perf-label {
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        color: #0f0;
+        font-family: 'Courier New', monospace;
+        font-size: 1rem;
+        padding: 0.4rem 0.8rem;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 1px solid #0f0;
+        border-radius: 4px;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        display: none;
+        z-index: 10;
+      }
+      #perf-label.visible {
+        display: block;
+      }
+      /* Quality tier color coding */
+      #perf-label.tier-0 { color: #f44; border-color: #f44; }
+      #perf-label.tier-1 { color: #fa4; border-color: #fa4; }
+      #perf-label.tier-2 { color: #ff0; border-color: #ff0; }
+      #perf-label.tier-3 { color: #4f4; border-color: #4f4; }
+      #perf-label.tier-4 { color: #0ff; border-color: #0ff; }
+    </style>
+
+    <script src="src/main.mjs" type="module"></script>
+    <script>
+      // Show the perf label if a label param is provided
+      window.addEventListener('DOMContentLoaded', () => {
+        const params = new URLSearchParams(window.location.search)
+        const label = params.get('label')
+        const tier = params.get('tier')
+        const el = document.getElementById('perf-label')
+        if (label && el) {
+          el.textContent = label
+          el.classList.add('visible')
+          if (tier !== null) el.classList.add('tier-' + tier)
+        }
+      })
+    </script>
+  </head>
+
+  <body>
+    <canvas></canvas>
+    <div id="loading">🚀 Loading...</div>
+    <div id="overlay">
+      Doom Lite — PC Builder Edition
+      <br />
+      WASD to move · Q/E to strfe · R/F look up/down
+      <br />
+      <span id="version"></span>
+    </div>
+    <div id="perf-label"></div>
+  </body>
+</html>

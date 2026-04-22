@@ -9,7 +9,7 @@ const queryClient = new QueryClient({
     queries: {
       /**
        * Retry failed requests up to 2 times.
-       * Avoids hammering R2 on transient network issues.
+       * Avoids hammering the API on transient network issues.
        */
       retry: 2,
       /**

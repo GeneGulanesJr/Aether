@@ -5,19 +5,21 @@ type PartCardProps = {
   priceLabel?: string
   blueprint?: boolean
   onAddToBuild?: (part: Part) => void
+  onPreview?: () => void
   isSelected?: boolean
 }
 
-export function PartCard({ part, priceLabel, blueprint, onAddToBuild, isSelected }: PartCardProps) {
+export function PartCard({ part, priceLabel, blueprint, onAddToBuild, onPreview, isSelected }: PartCardProps) {
   const specEntries = Object.entries(part.specs).slice(0, 2)
 
   return (
     <article
       className={[
-        'xai-card group cursor-default !p-2',
+        'xai-card group cursor-pointer !p-2',
         isSelected ? 'xai-card-active' : '',
         blueprint ? 'xai-card-active' : '',
       ].join(' ')}
+      onClick={onPreview}
       aria-label={`${part.name} — ${part.category}`}
     >
       <div className="flex gap-2">
@@ -60,8 +62,8 @@ export function PartCard({ part, priceLabel, blueprint, onAddToBuild, isSelected
 
         {onAddToBuild && (
           <button
-            className="xai-btn xai-btn-ghost !text-[0.5rem] !py-0.5 !px-2"
-            onClick={() => onAddToBuild(part)}
+            className="xai-btn xai-btn-ghost !text-[0.5rem] min-h-[1.75rem] !px-2"
+            onClick={(e) => { e.stopPropagation(); onAddToBuild(part) }}
             aria-label={isSelected ? `${part.name} selected` : `Add ${part.name} to build`}
             aria-pressed={isSelected}
           >

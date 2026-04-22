@@ -1,4 +1,4 @@
-import { useState, useCallback, useMemo, useRef, useEffect, lazy, Suspense } from 'react'
+import { useState, useCallback, useMemo, useEffect, lazy, Suspense } from 'react'
 import type { Part, BuildSlotCategory } from '../lib/types'
 import type { WizardState, Platform, BudgetTier, UseCase, SocketOption } from '../lib/buildWizard'
 import {
@@ -28,13 +28,17 @@ const CustomPartsSelect = lazy(() => import('../components/wizard/CustomBuildFlo
 
 export function BuilderPage() {
   const [state, setState] = useState<WizardState>(INITIAL_STATE)
-  const [modalOpen, setModalOpen] = useState(false)
+  const [modalOpen, setModalOpen] = useState(true)
   const [mobileQuestOpen, setMobileQuestOpen] = useState(false)
-  const { parts, priceByPartId } = useCatalogData()
+  const {
+    parts,
+    priceByPartId,
+    livePriceByPartId,
+    livePriceState,
+    livePriceError,
+    fetchLivePrices,
+  } = useCatalogData()
   const sound = useSound()
-  const startButtonRef = useRef<HTMLButtonElement>(null)
-
-  const isWizardActive = state.step !== 'welcome'
 
   // Resolve the active socket object when in custom mode
   const activeSocket = useMemo(() => {
@@ -44,21 +48,10 @@ export function BuilderPage() {
 
   // ─── Modal open/close ───────────────────────────────────────────────────
 
-  const openModal = useCallback(() => setModalOpen(true), [])
   const closeModal = useCallback(() => {
     setModalOpen(false)
     setMobileQuestOpen(false)
-    // Return focus to the start/continue button when modal closes
-    requestAnimationFrame(() => startButtonRef.current?.focus())
   }, [])
-
-  // ─── Mode selection ─────────────────────────────────────────────────────
-
-  const startBuild = useCallback(() => {
-    sound.click()
-    setState({ ...INITIAL_STATE, step: 'mode', startedAt: Date.now() })
-    openModal()
-  }, [openModal, sound])
 
   const chooseGuided = useCallback(() => {
     sound.pop()
@@ -139,19 +132,16 @@ export function BuilderPage() {
 
   const restart = useCallback(() => {
     setState(INITIAL_STATE)
-    setModalOpen(false)
+    setModalOpen(true)
     setMobileQuestOpen(false)
-    requestAnimationFrame(() => startButtonRef.current?.focus())
   }, [])
 
   // ─── Back from first step of each mode goes to mode picker ──────────────
 
   const goBackFromModeOrFirstStep = useCallback(() => {
     setState((prev) => {
-      // If on mode picker, close modal
+      // If on mode picker, reset to initial state
       if (prev.step === 'mode') {
-        setModalOpen(false)
-        requestAnimationFrame(() => startButtonRef.current?.focus())
         return { ...INITIAL_STATE }
       }
       // If on first step of guided/custom, go back to mode picker
@@ -178,82 +168,46 @@ export function BuilderPage() {
   const score = useMemo(() => buildScore(state.selectedParts), [state.selectedParts])
   const filledCount = useMemo(() => Object.keys(state.selectedParts).length, [state.selectedParts])
 
+  // Budget-aware part filtering for guided mode
+  const budgetFilter = useMemo(() => {
+    const tier = state.budget
+    if (tier === 'low') return 15000
+    if (tier === 'mid') return 40000
+    return Infinity // high = no filter
+  }, [state.budget])
+
+  const guidedParts = useMemo(() => {
+    if (budgetFilter === Infinity) return parts
+    return parts.filter((p) => {
+      const raw = priceByPartId?.[p.id]
+      if (!raw) return true // no price info — include by default
+      const num = Number(raw.replace(/[^0-9.]/g, ''))
+      return isNaN(num) || num <= budgetFilter
+    })
+  }, [parts, priceByPartId, budgetFilter])
+
   // Close mobile quest log when modal closes
   useEffect(() => {
     if (!modalOpen) setMobileQuestOpen(false)
   }, [modalOpen])
 
+  // Auto-fetch live prices when reaching review step
+  useEffect(() => {
+    if (state.step === 'review') {
+      fetchLivePrices()
+    }
+  }, [state.step, fetchLivePrices])
+
   return (
-    <div className="relative flex flex-1 flex-col">
+    <main className="relative flex flex-1 flex-col">
       {/* ══════════ 3D Scene Background ══════════ */}
       <div className="absolute inset-0 z-0" aria-hidden="true">
         <PcScene selectedParts={state.selectedParts} />
       </div>
 
-      {/* ========== Landing ========== */}
-      <div className="relative z-10 flex flex-1 flex-col items-center justify-start px-4 pt-[12vh] sm:pt-[15vh] lg:pt-[18vh]">
-        <div className="text-center max-w-3xl mx-auto">
-          <p className="font-mono text-xs text-xai-text-3 uppercase tracking-[0.2em] mb-3">
-            PC Builder PH
-          </p>
-          <h1 className="xai-display-hero text-xai-text leading-none">
-            BUILD<br />YOUR RIG
-          </h1>
-          <p className="mt-4 text-xai-text-2 text-sm sm:text-base leading-[1.6] max-w-md mx-auto">
-            Pick parts. Check compatibility. Get a build score.<br className="hidden sm:inline" />
-            Prices in Philippine Peso.
-          </p>
-
-          <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:gap-4">
-            <button
-              ref={startButtonRef}
-              onClick={startBuild}
-              className="xai-btn xai-btn-primary"
-              aria-label="Start building your PC"
-            >
-              START BUILD
-            </button>
-            {isWizardActive && (
-              <button
-                onClick={openModal}
-                className="xai-btn xai-btn-ghost"
-              >
-                CONTINUE →
-              </button>
-            )}
-          </div>
-
-          {isWizardActive && (
-            <span
-              className="block mt-2 font-mono text-xs text-xai-text-3"
-              aria-label={`${filledCount} of ${PART_STEPS.length} parts selected, build score ${score} percent`}
-            >
-              {filledCount}/{PART_STEPS.length} parts · {score}%
-            </span>
-          )}
-        </div>
-
-        {/* Feature hints — pull the eye and add structure below the fold */}
-        <div className="mt-auto w-full max-w-2xl mx-auto pb-8 sm:pb-12">
-          <div className="grid grid-cols-3 gap-x-6 gap-y-2 text-center">
-            {[
-              { icon: '🗺️', label: 'GUIDED', desc: 'Answer a few questions' },
-              { icon: '🔧', label: 'CUSTOM', desc: 'Pick your own parts' },
-              { icon: '⚡', label: 'SCORED', desc: 'Rate your build' },
-            ].map((f) => (
-              <div key={f.label} className="py-3">
-                <span className="block text-lg" aria-hidden="true">{f.icon}</span>
-                <p className="font-mono text-[0.625rem] text-xai-text uppercase tracking-widest mt-1">{f.label}</p>
-                <p className="text-[0.6875rem] text-xai-text-3 mt-0.5 leading-snug">{f.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
       {/* ══════════ Wizard Modal ══════════ */}
       <WizardModal isOpen={modalOpen} onClose={closeModal}>
-        <Suspense fallback={<div className="flex min-h-[200px] items-center justify-center"><div className="xai-progress w-24"><div className="xai-progress-fill" style={{ width: '40%' }} /></div></div>}>
+        <Suspense fallback={<div className="flex min-h-[200px] items-center justify-center"><div className="xai-progress w-24"><div className="xai-progress-fill" style={{ transform: 'scaleX(0.4)' }} /></div></div>}>
         {/* Live region for step changes */}
         <div className="sr-only" aria-live="assertive" aria-atomic="true">
           {state.step === 'mode' && 'Choose your build mode'}
@@ -300,7 +254,7 @@ export function BuilderPage() {
                 <PartSelectStep
                   step={stepInfo}
                   platform={state.platform}
-                  parts={parts}
+                  parts={state.mode === 'guided' ? guidedParts : parts}
                   selectedPart={state.selectedParts[category] ?? null}
                   priceByPartId={priceByPartId}
                   onSelect={(part) => selectPart(category, part)}
@@ -341,13 +295,21 @@ export function BuilderPage() {
 
             {/* ── Shared Review ── */}
             {state.step === 'review' && (
-              <ReviewStep state={state} onRestart={restart} />
+              <ReviewStep
+                state={state}
+                onRestart={restart}
+                priceByPartId={livePriceByPartId ?? priceByPartId}
+                isEstimated={livePriceByPartId === undefined}
+                livePriceState={livePriceState}
+                livePriceError={livePriceError}
+                onFetchLivePrices={fetchLivePrices}
+              />
             )}
           </div>
 
           {/* Desktop sidebar */}
           <div className="hidden w-72 shrink-0 lg:flex lg:flex-col" aria-label="Build progress sidebar">
-            <QuestLog state={state} />
+            <QuestLog state={state} priceByPartId={priceByPartId} />
           </div>
         </div>
 
@@ -355,7 +317,7 @@ export function BuilderPage() {
         <div className="lg:hidden">
           <button
             onClick={() => setMobileQuestOpen((v) => !v)}
-            className="fixed bottom-4 right-4 z-50 flex items-center gap-2 border border-xai-border bg-xai-bg/90 px-3 py-2 backdrop-blur-sm font-mono text-[0.625rem] uppercase tracking-wider text-xai-text-3 transition-colors hover:border-xai-border-strong hover:text-xai-text focus-visible:outline-2 focus-visible:outline-xai-accent focus-visible:outline-offset-2"
+            className="fixed bottom-4 right-4 z-50 flex items-center gap-2 border border-xai-border bg-xai-bg/90 px-3 py-2.5 backdrop-blur-sm font-mono text-[0.625rem] uppercase tracking-wider text-xai-text-3 transition-colors hover:border-xai-border-strong hover:text-xai-text focus-visible:outline-2 focus-visible:outline-xai-accent focus-visible:outline-offset-2 min-h-[44px]"
             aria-expanded={mobileQuestOpen}
             aria-controls="mobile-quest-drawer"
             aria-label="Toggle build progress panel"
@@ -375,22 +337,22 @@ export function BuilderPage() {
 
           {/* Always mounted — CSS toggles visibility to avoid mount/unmount churn */}
           <div
-            className={`fixed inset-0 z-40 bg-black/40 transition-opacity duration-200 ${mobileQuestOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
+            className={`fixed inset-0 z-40 bg-xai-bg/40 transition-opacity duration-200 ${mobileQuestOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
             onClick={() => setMobileQuestOpen(false)}
             aria-hidden="true"
           />
           <aside
             id="mobile-quest-drawer"
-            className={`fixed bottom-14 right-4 z-50 w-72 max-h-[60vh] overflow-y-auto border border-xai-border bg-xai-bg shadow-2xl transition-all duration-200 ${mobileQuestOpen ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 translate-y-2 pointer-events-none'}`}
+            className={`fixed bottom-14 right-4 z-50 w-72 max-h-[60vh] overflow-y-auto border border-xai-border bg-xai-bg transition-all duration-200 ${mobileQuestOpen ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 translate-y-2 pointer-events-none'}`}
             role="complementary"
             aria-label="Build progress"
           >
-            <QuestLog state={state} />
+            <QuestLog state={state} priceByPartId={priceByPartId} />
           </aside>
         </div>
         </Suspense>
       </WizardModal>
-    </div>
+    </main>
   )
 }
 

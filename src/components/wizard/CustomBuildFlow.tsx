@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import type { Part, BuildSlotCategory } from '../../lib/types'
 import type { Platform, SocketOption, WizardState } from '../../lib/buildWizard'
 import {
@@ -6,6 +6,7 @@ import {
   isPartCompatible,
   PART_STEPS,
 } from '../../lib/buildWizard'
+import { simplifyPartName, type SortField } from '../../hooks/usePartFilters'
 
 // ═════════════════════════════════════════════════════════════════════════════
 // Platform Selection
@@ -160,18 +161,58 @@ export function CustomPartsSelect({
     Object.keys(state.selectedParts) as BuildSlotCategory[]
   )
 
+  // Global sort for all category sections
+  const [sortField, setSortField] = useState<SortField>('name')
+  const [sortDir, setSortDir] = useState<'asc' | 'desc'>('asc')
+  const [searchQuery, setSearchQuery] = useState('')
+
+  const toggleSort = (field: SortField) => {
+    if (sortField === field) {
+      setSortDir(d => d === 'asc' ? 'desc' : 'asc')
+    } else {
+      setSortField(field)
+      setSortDir('asc')
+    }
+  }
+
   // Memoize compatible parts per category — avoids O(n * 7) filter on every render
   const compatibleByCategory = useMemo(() => {
     const map = new Map<BuildSlotCategory, Part[]>()
     for (const step of PART_STEPS) {
       const category = step.category!
-      map.set(
-        category,
-        parts.filter((p) => p.category === category && isPartCompatible(p, category, socket))
-      )
+      let partsForCat = parts.filter((p) => p.category === category && isPartCompatible(p, category, socket))
+
+      // Apply search filter
+      if (searchQuery) {
+        const q = searchQuery.toLowerCase()
+        partsForCat = partsForCat.filter((p) =>
+          p.name.toLowerCase().includes(q)
+        )
+      }
+
+      // Sort parts
+      const dir = sortDir === 'asc' ? 1 : -1
+      partsForCat.sort((a, b) => {
+        switch (sortField) {
+          case 'name': return dir * a.name.localeCompare(b.name)
+          case 'price': {
+            const pa = parseFloat((priceByPartId?.[a.id] ?? '').replace(/[\u20b1,\s]/g, '')) || Infinity
+            const pb = parseFloat((priceByPartId?.[b.id] ?? '').replace(/[\u20b1,\s]/g, '')) || Infinity
+            return dir * (pa - pb)
+          }
+          case 'cores': {
+            const ca = parseInt(a.specs?.cores) || 0
+            const cb = parseInt(b.specs?.cores) || 0
+            return dir * (ca - cb)
+          }
+          default: return 0
+        }
+      })
+
+      map.set(category, partsForCat)
     }
     return map
-  }, [parts, socket])
+  }, [parts, socket, searchQuery, sortField, sortDir, priceByPartId])
 
   return (
     <div>
@@ -198,6 +239,42 @@ export function CustomPartsSelect({
         <span className="font-mono text-xs text-xai-text-4">
           {selectedCategories.size}/{PART_STEPS.length} selected
         </span>
+      </div>
+
+      {/* Sort + Search controls — single row */}
+      <div className="mt-4 flex items-center gap-2 flex-wrap">
+        <input
+          type="search"
+          placeholder="Search..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          className="xai-input !py-1 !px-2 !text-[0.5625rem] w-36"
+          aria-label="Search parts"
+        />
+        {searchQuery && (
+          <button
+            onClick={() => setSearchQuery('')}
+            className="font-mono text-[0.5rem] text-xai-accent uppercase tracking-wider hover:text-xai-text transition-colors"
+          >
+            Clear
+          </button>
+        )}
+        <span className="font-mono text-[0.4375rem] text-xai-text-4 mx-1">|</span>
+        {([['name', 'Name'], ['price', 'Price'], ['cores', 'Cores']] as [SortField, string][]).map(([field, label]) => {
+          const isActive = sortField === field
+          return (
+            <button
+              key={field}
+              onClick={() => toggleSort(field)}
+              className={[
+                'font-mono text-[0.5rem] uppercase tracking-wider transition-colors',
+                isActive ? 'text-xai-accent' : 'text-xai-text-4 hover:text-xai-text',
+              ].join(' ')}
+            >
+              {label}{isActive && <span className="ml-0.5">{sortDir === 'asc' ? '↑' : '↓'}</span>}
+            </button>
+          )
+        })}
       </div>
 
       {/* Category sections */}
@@ -237,58 +314,44 @@ export function CustomPartsSelect({
                 )}
               </div>
 
-              {/* Selected part card */}
-              {selectedPart && (
-                <div className="xai-card xai-card-active mb-2" role="status" aria-label={`${selectedPart.name} selected`}>
-                  <div className="flex flex-col gap-1 sm:flex-row sm:justify-between">
-                    <p className="font-mono text-sm text-xai-text">{selectedPart.name}</p>
-                    {priceByPartId?.[selectedPart.id] && (
-                      <span className="font-mono text-sm text-xai-text">
-                        {priceByPartId[selectedPart.id]}
-                      </span>
-                    )}
-                  </div>
-                  <div className="mt-1 flex flex-wrap gap-x-4">
-                    {Object.entries(selectedPart.specs).slice(0, 4).map(([k, v]) => (
-                      <span key={k} className="font-mono text-[0.625rem] text-xai-text-3">
-                        {k}: <span className="text-xai-text-2">{v}</span>
-                      </span>
-                    ))}
-                  </div>
+              {/* Compatible parts list */}
+              {compatible.length > 0 ? (
+                <div className="divide-y divide-xai-border">
+                  {compatible.map((part) => {
+                    const isSelected = selectedPart?.id === part.id
+                    // Skip metadata fields, show only technical specs
+                    const techSpecs = Object.entries(part.specs)
+                      .filter(([k]) => !['brand', 'sku', 'availability'].includes(k))
+                      .slice(0, 2)
+                    return (
+                      <button
+                        key={part.id}
+                        onClick={() => onSelectPart(category, part)}
+                        className={`flex w-full items-center gap-3 py-2.5 px-1 text-left transition-colors hover:bg-xai-hover ${isSelected ? 'bg-xai-hover' : ''}`}
+                      >
+                        {isSelected && (
+                          <span className="font-mono text-[0.5625rem] text-[var(--color-xai-accent)] uppercase tracking-wider shrink-0">✓</span>
+                        )}
+                        <p className="text-xai-text text-sm font-normal truncate flex-1">
+                          {simplifyPartName(part.name, part.category)}
+                        </p>
+                        <div className="flex items-center gap-2 shrink-0">
+                          {techSpecs.map(([k, v]) => (
+                            <span key={k} className="font-mono text-[0.5rem] text-xai-text-4 bg-xai-bg px-1.5 py-0.5 rounded">
+                              {v}
+                            </span>
+                          ))}
+                        </div>
+                        {priceByPartId?.[part.id] && (
+                          <span className="font-mono text-sm text-xai-text shrink-0 ml-2">
+                            {priceByPartId[part.id]}
+                          </span>
+                        )}
+                      </button>
+                    )
+                  })}
                 </div>
-              )}
-
-              {/* Compatible parts grid */}
-              {!selectedPart && (
-                <>
-                  {compatible.length > 0 ? (
-                    <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
-                      {compatible.map((part) => (
-                        <button
-                          key={part.id}
-                          onClick={() => onSelectPart(category, part)}
-                          className="xai-card text-left"
-                        >
-                          <p className="text-xai-text text-sm font-normal">
-                            {part.name}
-                          </p>
-                          <div className="mt-1.5 space-y-0.5">
-                            {Object.entries(part.specs).slice(0, 4).map(([k, v]) => (
-                              <div key={k} className="flex justify-between">
-                                <span className="font-mono text-[0.625rem] text-xai-text-4">{k}</span>
-                                <span className="font-mono text-[0.625rem] text-xai-text-2">{v}</span>
-                              </div>
-                            ))}
-                          </div>
-                          {priceByPartId?.[part.id] && (
-                            <p className="font-mono text-sm text-xai-text mt-2">
-                              {priceByPartId[part.id]}
-                            </p>
-                          )}
-                        </button>
-                      ))}
-                    </div>
-                  ) : (
+              ) : (
                     <div className="xai-card text-center py-8">
                       <p className="font-mono text-xs text-xai-text-4 uppercase tracking-wider">
                         No compatible parts available yet
@@ -298,8 +361,6 @@ export function CustomPartsSelect({
                       </p>
                     </div>
                   )}
-                </>
-              )}
             </section>
           )
         })}

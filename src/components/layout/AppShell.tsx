@@ -32,13 +32,11 @@ export function AppShell({ children }: AppShellProps) {
 
       <main
         id="main-content"
-        role="main"
         className="relative mx-auto flex w-full max-w-7xl flex-1 flex-col px-4 py-4 sm:px-6 sm:py-6 lg:px-8"
       >
         {children}
       </main>
       <footer
-        role="contentinfo"
         className="border-t border-xai-border"
       >
         <div className="mx-auto max-w-7xl flex items-center justify-between px-4 py-3 sm:px-6">
@@ -46,7 +44,7 @@ export function AppShell({ children }: AppShellProps) {
             PC Builder PH · {new Date().getFullYear()}
           </p>
           <p className="font-mono text-[0.625rem] text-xai-text-4 uppercase tracking-wider hidden sm:block">
-            Prices in Philippine Peso
+            Rotate or widen for desktop experience
           </p>
         </div>
       </footer>

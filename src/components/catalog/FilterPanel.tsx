@@ -5,6 +5,7 @@
  * Can be used standalone (internal state) or controlled (external state).
  */
 
+import { useId } from 'react'
 import { usePartFilters } from '../../hooks/usePartFilters'
 import type { Part, PartFilters } from '../../lib/types'
 
@@ -37,13 +38,16 @@ export function FilterPanel(props: FilterPanelProps) {
   const setFilter = isControlled(props) ? props.onFilterChange : internalFilters.setFilter
   const clearFilters = isControlled(props) ? props.onClearFilters : internalFilters.clearFilters
   const hasActiveFilters = isControlled(props)
-    ? Boolean(filters.search || filters.category || filters.brand || filters.socket || filters.priceMin || filters.priceMax)
+    ? Boolean(filters.search || filters.category || filters.brand || filters.socket || filters.priceMin || filters.priceMax || filters.coreCount)
     : internalFilters.hasActiveFilters
   const filteredCount = internalFilters.filteredCount
   const totalCount = internalFilters.totalCount
 
   // Use options from the hook
-  const { brands, sockets } = internalFilters.options
+  const { brands, sockets, coreCounts } = internalFilters.options
+
+  // Stable unique IDs per instance (avoids duplicate IDs when both modes mount)
+  const uid = useId()
 
   // Compact horizontal layout for inline (controlled) use
   if (isControlled(props)) {
@@ -51,7 +55,7 @@ export function FilterPanel(props: FilterPanelProps) {
       <div className="flex items-center gap-2 flex-wrap">
         {/* Search */}
         <input
-          id="filter-search"
+          id={uid + '-search'}
           type="search"
           placeholder="Search..."
           value={filters.search}
@@ -63,7 +67,7 @@ export function FilterPanel(props: FilterPanelProps) {
         {/* Brand */}
         {brands.length > 1 && (
           <select
-            id="filter-brand"
+            id={uid + '-brand'}
             value={filters.brand}
             onChange={(e) => setFilter('brand', e.target.value)}
             className="xai-input !py-1 !px-2 !text-[0.5625rem]"
@@ -81,7 +85,7 @@ export function FilterPanel(props: FilterPanelProps) {
         {/* Socket */}
         {sockets.length > 1 && (
           <select
-            id="filter-socket"
+            id={uid + '-socket'}
             value={filters.socket}
             onChange={(e) => setFilter('socket', e.target.value)}
             className="xai-input !py-1 !px-2 !text-[0.5625rem]"
@@ -117,6 +121,24 @@ export function FilterPanel(props: FilterPanelProps) {
             aria-label="Maximum price"
           />
         </div>
+
+        {/* Core count filter */}
+        {coreCounts.length > 1 && (
+          <select
+            id={uid + '-cores'}
+            value={filters.coreCount}
+            onChange={(e) => setFilter('coreCount', e.target.value)}
+            className="xai-input !py-1 !px-2 !text-[0.5625rem]"
+            aria-label="Filter by core count"
+          >
+            <option value="">Cores</option>
+            {coreCounts.map((opt) => (
+              <option key={opt.value} value={opt.value}>
+                {opt.label}
+              </option>
+            ))}
+          </select>
+        )}
 
         {/* Results count */}
         <span className="font-mono text-[0.5rem] text-xai-text-4 ml-auto">
@@ -159,13 +181,13 @@ export function FilterPanel(props: FilterPanelProps) {
       {/* Search */}
       <div className="mt-3">
         <label
-          htmlFor="filter-search"
+          htmlFor={uid + '-search'}
           className="mb-1 block font-mono text-[0.625rem] text-xai-text-4 uppercase"
         >
           Search
         </label>
         <input
-          id="filter-search"
+          id={uid + '-search'}
           type="search"
           placeholder="Search by name..."
           value={filters.search}
@@ -179,13 +201,13 @@ export function FilterPanel(props: FilterPanelProps) {
       {brands.length > 1 && (
         <div className="mt-3">
           <label
-            htmlFor="filter-brand"
+            htmlFor={uid + '-brand'}
             className="mb-1 block font-mono text-[0.625rem] text-xai-text-4 uppercase"
           >
             Brand
           </label>
           <select
-            id="filter-brand"
+            id={uid + '-brand'}
             value={filters.brand}
             onChange={(e) => setFilter('brand', e.target.value)}
             className="xai-input w-full"
@@ -204,13 +226,13 @@ export function FilterPanel(props: FilterPanelProps) {
       {sockets.length > 0 && (
         <div className="mt-3">
           <label
-            htmlFor="filter-socket"
+            htmlFor={uid + '-socket'}
             className="mb-1 block font-mono text-[0.625rem] text-xai-text-4 uppercase"
           >
             Socket
           </label>
           <select
-            id="filter-socket"
+            id={uid + '-socket'}
             value={filters.socket}
             onChange={(e) => setFilter('socket', e.target.value)}
             className="xai-input w-full"
@@ -227,11 +249,12 @@ export function FilterPanel(props: FilterPanelProps) {
 
       {/* Price range */}
       <div className="mt-3">
-        <label className="mb-1 block font-mono text-[0.625rem] text-xai-text-4 uppercase">
+        <span className="mb-1 block font-mono text-[0.625rem] text-xai-text-4 uppercase">
           Price Range (₱)
-        </label>
+        </span>
         <div className="flex items-center gap-2">
           <input
+            id="filter-price-min"
             type="number"
             placeholder="Min"
             value={filters.priceMin}
@@ -241,6 +264,7 @@ export function FilterPanel(props: FilterPanelProps) {
           />
           <span className="font-mono text-[0.625rem] text-xai-text-4">–</span>
           <input
+            id="filter-price-max"
             type="number"
             placeholder="Max"
             value={filters.priceMax}
@@ -250,6 +274,31 @@ export function FilterPanel(props: FilterPanelProps) {
           />
         </div>
       </div>
+
+      {/* Core count */}
+      {coreCounts.length > 1 && (
+        <div className="mt-3">
+          <label
+            htmlFor={uid + '-cores'}
+            className="mb-1 block font-mono text-[0.625rem] text-xai-text-4 uppercase"
+          >
+            Core Count
+          </label>
+          <select
+            id={uid + '-cores'}
+            value={filters.coreCount}
+            onChange={(e) => setFilter('coreCount', e.target.value)}
+            className="xai-input w-full"
+          >
+            <option value="">All core counts</option>
+            {coreCounts.map((opt) => (
+              <option key={opt.value} value={opt.value}>
+                {opt.label} ({opt.count})
+              </option>
+            ))}
+          </select>
+        </div>
+      )}
 
       {/* Results count */}
       <p className="mt-3 font-mono text-[0.625rem] text-xai-text-4">

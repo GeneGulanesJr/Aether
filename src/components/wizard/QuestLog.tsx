@@ -1,16 +1,42 @@
 import type { WizardState } from '../../lib/buildWizard'
 import { PART_STEPS, buildScore } from '../../lib/buildWizard'
+import { formatPhp } from '../../lib/format'
 
 type QuestLogProps = {
   state: WizardState
+  priceByPartId?: Record<string, string>
 }
 
-export function QuestLog({ state }: QuestLogProps) {
+export function QuestLog({ state, priceByPartId }: QuestLogProps) {
   const score = buildScore(state.selectedParts)
   const filledCount = Object.keys(state.selectedParts).length
 
+  // Calculate total build price
+  const totalBuildPrice = priceByPartId
+    ? Object.values(state.selectedParts).reduce((sum, part) => {
+        const priceStr = priceByPartId[part.id]
+        if (priceStr) {
+          const numeric = Number(priceStr.replace(/[₱,\s]/g, ''))
+          return sum + (isNaN(numeric) ? 0 : numeric)
+        }
+        return sum
+      }, 0)
+    : 0
+
   return (
     <aside className="flex flex-col gap-4" aria-label="Build progress log">
+      {/* ── Total Price ── */}
+      {totalBuildPrice > 0 && (
+        <div className="xai-card">
+          <p className="font-mono text-[0.5625rem] text-xai-text-4 tracking-wider uppercase">
+            Total Build Price
+          </p>
+          <p className="mt-1 xai-price font-mono text-2xl text-xai-text">
+            {formatPhp(totalBuildPrice)}
+          </p>
+        </div>
+      )}
+
       {/* ── Build Progress ── */}
       <div className="xai-card">
         <p className="font-mono text-[0.5625rem] text-xai-text-4 tracking-wider uppercase">
@@ -27,7 +53,7 @@ export function QuestLog({ state }: QuestLogProps) {
           aria-valuemax={100}
           aria-label={`Build progress: ${score}%`}
         >
-          <div className="xai-progress-fill" style={{ width: `${score}%` }} />
+          <div className="xai-progress-fill" style={{ transform: `scaleX(${score / 100})` }} />
         </div>
         <p className="mt-1.5 font-mono text-[0.5625rem] text-xai-text-4">
           {filledCount} / {PART_STEPS.length} components

@@ -1,18 +1,45 @@
 import type { WizardState } from '../../lib/buildWizard'
+import type { LivePriceState } from '../../hooks/useCatalogData'
 import { PART_STEPS, buildScore, BUDGET_OPTIONS, USECASE_OPTIONS } from '../../lib/buildWizard'
+import { formatPhp } from '../../lib/format'
 
 interface ReviewStepProps {
   state: WizardState
   onRestart: () => void
+  priceByPartId?: Record<string, string>
+  isEstimated: boolean
+  livePriceState: LivePriceState
+  livePriceError: string | undefined
+  onFetchLivePrices: () => void
 }
 
-export function ReviewStep({ state, onRestart }: ReviewStepProps) {
+export function ReviewStep({
+  state,
+  onRestart,
+  priceByPartId,
+  isEstimated,
+  livePriceState,
+  livePriceError,
+  onFetchLivePrices,
+}: ReviewStepProps) {
   const score = buildScore(state.selectedParts)
   const filledCount = Object.keys(state.selectedParts).length
   const allFilled = filledCount === PART_STEPS.length
   const duration = state.startedAt && state.completedAt
     ? Math.round((state.completedAt - state.startedAt) / 1000)
     : null
+
+  // Calculate total build price
+  const totalBuildPrice = priceByPartId
+    ? Object.values(state.selectedParts).reduce((sum, part) => {
+        const priceStr = priceByPartId[part.id]
+        if (priceStr) {
+          const numeric = Number(priceStr.replace(/[₱,\s]/g, ''))
+          return sum + (isNaN(numeric) ? 0 : numeric)
+        }
+        return sum
+      }, 0)
+    : 0
 
   // Circle math for score ring — radius matches the actual SVG r attribute
   const radius = 27
@@ -43,6 +70,51 @@ export function ReviewStep({ state, onRestart }: ReviewStepProps) {
           </span>
           {state.platform?.toUpperCase()}
         </p>
+        {totalBuildPrice > 0 && (
+          <div className="mt-4">
+            <p className="xai-price font-mono text-3xl text-xai-text">
+              {formatPhp(totalBuildPrice)}
+            </p>
+            {/* Price freshness indicator */}
+            {isEstimated ? (
+              <div className="mt-2 flex flex-col items-center gap-2">
+                <p className="font-mono text-[0.5rem] text-xai-text-4 uppercase tracking-wider">
+                  ⚠ Estimated prices · not live
+                </p>
+                {livePriceState === 'loading' && (
+                  <p className="font-mono text-[0.5rem] text-xai-accent uppercase tracking-wider">
+                    Fetching live prices…
+                  </p>
+                )}
+                {livePriceState === 'error' && (
+                  <div className="flex flex-col items-center gap-1">
+                    <p className="font-mono text-[0.5rem] text-red-400 uppercase tracking-wider">
+                      Live prices failed: {livePriceError}
+                    </p>
+                    <button
+                      onClick={onFetchLivePrices}
+                      className="font-mono text-[0.5rem] text-xai-accent uppercase tracking-wider hover:text-xai-text transition-colors"
+                    >
+                      Retry
+                    </button>
+                  </div>
+                )}
+                {livePriceState === 'idle' && (
+                  <button
+                    onClick={onFetchLivePrices}
+                    className="font-mono text-[0.5rem] text-xai-accent uppercase tracking-wider hover:text-xai-text transition-colors"
+                  >
+                    Fetch live prices →
+                  </button>
+                )}
+              </div>
+            ) : (
+              <p className="font-mono text-[0.5rem] text-xai-accent uppercase tracking-wider mt-2">
+                ✓ Live prices
+              </p>
+            )}
+          </div>
+        )}
       </div>
 
       {/* Score + Stats */}
@@ -90,6 +162,7 @@ export function ReviewStep({ state, onRestart }: ReviewStepProps) {
         <ul className="list-none p-0 m-0">
           {PART_STEPS.map((step) => {
             const part = step.category ? state.selectedParts[step.category] : null
+            const priceStr = part && priceByPartId ? priceByPartId[part.id] : undefined
             return (
               <li key={step.id} className="flex flex-col gap-0.5 border-b border-xai-border py-2 last:border-0 sm:flex-row sm:items-center sm:justify-between sm:gap-3">
                 <div className="flex items-center gap-2 shrink-0">
@@ -98,9 +171,16 @@ export function ReviewStep({ state, onRestart }: ReviewStepProps) {
                     {step.label}
                   </span>
                 </div>
-                <span className={`font-mono text-sm truncate min-w-0 ${part ? 'text-xai-text' : 'text-xai-text-4'}`}>
-                  {part ? part.name : 'Not selected'}
-                </span>
+                <div className="flex items-center gap-3 min-w-0">
+                  <span className={`font-mono text-sm truncate min-w-0 ${part ? 'text-xai-text' : 'text-xai-text-4'}`}>
+                    {part ? part.name : 'Not selected'}
+                  </span>
+                  {priceStr && (
+                    <span className="font-mono text-[0.5625rem] text-xai-text-3 shrink-0">
+                      {priceStr}
+                    </span>
+                  )}
+                </div>
               </li>
             )
           })}

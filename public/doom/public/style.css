@@ -1,0 +1,80 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+#overlay {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5rem;
+  padding: 0.6rem;
+  background-color: rgba(50, 50, 50, 0.7);
+  border-radius: 5px;
+  line-height: 1.9rem;
+}
+
+#loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(36, 221, 166);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 5vw;
+  padding: 3rem;
+  background-color: rgba(50, 50, 50, 0.7);
+  border-radius: 15px;
+  /* line-height: 1.9rem; */
+}
+
+a {
+  color: darkturquoise;
+}
+
+#controls {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: rgb(255, 255, 255);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.5rem;
+  padding: 0.6rem;
+  background-color: rgba(50, 50, 50, 0.7);
+  border-radius: 5px;
+}
+
+.relative-container {
+  position: relative;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+video {
+  display: none;
+}
+
+label {
+  color: rgb(19, 189, 219);
+}
+
+input[type='range'] {
+  margin: 0.5rem 0rem 2rem 0rem;
+  display: block;
+  width: 10rem;
+}

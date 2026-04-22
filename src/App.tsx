@@ -31,14 +31,28 @@ export function App() {
 
   if (loadingState === 'loading') {
     return (
-      <div className="flex min-h-dvh items-center justify-center bg-xai-bg">
-        <div className="xai-progress w-32"><div className="xai-progress-fill" style={{ width: '60%' }} /></div>
+      <div className="flex min-h-dvh flex-col items-center justify-center bg-xai-bg">
+        <p className="font-mono text-[0.625rem] text-xai-text-4 uppercase tracking-[0.2em] mb-6">
+          PC Builder PH
+        </p>
+        <div className="w-40 h-0.5 bg-xai-border overflow-hidden relative">
+          <div
+            className="absolute top-0 left-0 h-full bg-xai-text"
+            style={{
+              width: '75%',
+              animation: 'loader-slide 2s ease-in-out infinite',
+            }}
+          />
+        </div>
+        <p className="mt-4 font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-wider">
+          Fetching catalog…
+        </p>
       </div>
     )
   }
 
   // Even if data fails to load, render the UI with empty state
-  // This lets us build/test the desktop shell without R2 data
+  // This lets us build/test the desktop shell without API data
   const safeParts = parts ?? []
   const safePriceByPartId = priceByPartId ?? {}
   const safePriceEntries = priceEntries ?? []
@@ -46,10 +60,13 @@ export function App() {
   // Desktop OS layout (>768px)
   if (isDesktop) {
     return (
-      <ErrorBoundary>
+      <div className="app-loaded">
+        <ErrorBoundary>
         <Suspense fallback={
-          <div className="flex min-h-dvh items-center justify-center bg-xai-bg">
-            <div className="xai-progress w-32"><div className="xai-progress-fill" style={{ width: '60%' }} /></div>
+          <div className="flex min-h-dvh flex-col items-center justify-center bg-xai-bg">
+            <p className="font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-wider">
+              Loading desktop…
+            </p>
           </div>
         }>
           <Desktop
@@ -67,15 +84,18 @@ export function App() {
           )}
         </Suspense>
       </ErrorBoundary>
+      </div>
     )
   }
 
   // Mobile wizard layout (<768px) — existing flow
   return (
-    <AppShell>
-      <ErrorBoundary>
-        <BuilderPage />
-      </ErrorBoundary>
-    </AppShell>
+    <div className="app-loaded">
+      <AppShell>
+        <ErrorBoundary>
+          <BuilderPage />
+        </ErrorBoundary>
+      </AppShell>
+    </div>
   )
 }

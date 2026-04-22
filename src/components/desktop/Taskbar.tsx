@@ -4,6 +4,7 @@
 
 import { useCallback } from 'react'
 import { useWindowManager } from '../../lib/windowManager'
+import { useClock } from '../../hooks/useClock'
 
 export function Taskbar() {
   const { state, restoreWindow, focusWindow } = useWindowManager()
@@ -26,8 +27,9 @@ export function Taskbar() {
           <button
             key={win.id}
             onClick={() => handleWindowClick(win.id, win.minimized)}
+            aria-label={`${win.minimized ? 'Restore' : 'Focus'} ${win.title}`}
             className={`
-              font-mono text-[0.5625rem] uppercase tracking-wider px-3 py-1.5 border transition-colors
+              font-mono text-[0.5625rem] uppercase tracking-wider px-3 py-1.5 border transition-colors focus-visible:outline-2 focus-visible:outline-xai-accent focus-visible:outline-offset-2
               ${win.minimized
                 ? 'border-xai-border text-xai-text-4 hover:text-xai-text hover:border-xai-border-strong'
                 : 'border-xai-border-strong text-xai-text bg-xai-surface'
@@ -50,8 +52,5 @@ export function Taskbar() {
 }
 
 function TaskbarClock() {
-  const now = new Date()
-  const h = now.getHours().toString().padStart(2, '0')
-  const m = now.getMinutes().toString().padStart(2, '0')
-  return <>{h}:{m}</>
+  return <>{useClock()}</>
 }

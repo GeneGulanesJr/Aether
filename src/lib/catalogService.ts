@@ -1,7 +1,7 @@
 import { buildPriceMap } from './priceUtils'
 import { fetchCatalog, fetchPrices, fetchManifest, ApiClientError } from './apiClient'
 import { parseCatalogFixture, parsePriceFixture } from './catalogParsers'
-import type { Part, PriceEntry, PriceListFile, Manifest } from './types'
+import type { Part, PriceEntry, PriceListFile } from './types'
 
 export interface CatalogServiceResult {
   parts: Part[]

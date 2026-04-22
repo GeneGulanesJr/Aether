@@ -5,6 +5,7 @@
 
 import { useState, useCallback, useRef, type KeyboardEvent } from 'react'
 import { useWindowManager } from '../../lib/windowManager'
+import { useClock } from '../../hooks/useClock'
 
 interface TopBarProps {
   onSearch?: (query: string) => void
@@ -28,9 +29,7 @@ export function TopBar(_props: TopBarProps) {
     }
   }, [handleSubmit])
 
-  const now = new Date()
-  const h = now.getHours().toString().padStart(2, '0')
-  const m = now.getMinutes().toString().padStart(2, '0')
+  const clock = useClock()
 
   return (
     <div className="fixed top-0 left-0 right-0 h-9 bg-xai-bg border-b border-xai-border flex items-center px-3 z-50 gap-4">
@@ -48,13 +47,14 @@ export function TopBar(_props: TopBarProps) {
           onChange={(e) => setSearchQuery(e.target.value)}
           onKeyDown={handleKeyDown}
           placeholder="Search parts..."
-          className="w-full bg-transparent border border-xai-border px-2 py-1 font-mono text-[0.625rem] text-xai-text placeholder:text-xai-text-4 outline-none focus:border-xai-accent transition-colors"
+          aria-label="Search parts"
+          className="w-full bg-transparent border border-xai-border px-2 py-1 font-mono text-[0.625rem] text-xai-text placeholder:text-xai-text-4 outline-none focus:border-xai-accent focus-visible:outline-2 focus-visible:outline-xai-accent focus-visible:outline-offset-2 transition-colors"
         />
       </div>
 
       {/* Clock */}
       <span className="font-mono text-[0.625rem] text-xai-text-4 shrink-0">
-        {h}:{m}
+        {clock}
       </span>
     </div>
   )

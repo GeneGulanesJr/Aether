@@ -1,7 +1,8 @@
 /**
  * Formats a number as Philippine Peso (PHP) currency string.
- * Uses the en-PH locale for proper thousand separator formatting.
+ * Shows ₱ symbol, comma thousands separator, no decimal places (rounded to nearest peso).
+ * Example: 62000 → "₱62,000"
  */
 export function formatPhp(amount: number): string {
-  return `₱${amount.toLocaleString('en-PH')}`
+  return `₱${Math.round(amount).toLocaleString('en-PH')}`
 }

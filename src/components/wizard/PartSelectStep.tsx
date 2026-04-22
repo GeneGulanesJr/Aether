@@ -1,5 +1,7 @@
+import { useState, useMemo } from 'react'
 import type { Part } from '../../lib/types'
 import type { StepInfo, Platform } from '../../lib/buildWizard'
+import { simplifyPartName, usePartFilters, type SortField } from '../../hooks/usePartFilters'
 
 interface PartSelectStepProps {
   step: StepInfo
@@ -35,7 +37,43 @@ export function PartSelectStep({
       })
     : [] // If no real data, show empty (CompareStep already guided them)
 
-  const displayParts = platformParts.length > 0 ? platformParts : parts
+  const sourceParts = platformParts.length > 0 ? platformParts : parts
+  const filters = usePartFilters(sourceParts, { priceByPartId, deduplicate: true })
+
+  // Local sort state
+  const [sortField, setSortField] = useState<SortField>('name')
+  const [sortDir, setSortDir] = useState<'asc' | 'desc'>('asc')
+
+  const sortedParts = useMemo(() => {
+    const sorted = [...filters.filteredParts]
+    const dir = sortDir === 'asc' ? 1 : -1
+    sorted.sort((a, b) => {
+      switch (sortField) {
+        case 'name': return dir * a.name.localeCompare(b.name)
+        case 'price': {
+          const pa = parseFloat((priceByPartId?.[a.id] ?? '').replace(/[\u20b1,\s]/g, '')) || Infinity
+          const pb = parseFloat((priceByPartId?.[b.id] ?? '').replace(/[\u20b1,\s]/g, '')) || Infinity
+          return dir * (pa - pb)
+        }
+        case 'cores': {
+          const ca = parseInt(a.specs?.cores) || 0
+          const cb = parseInt(b.specs?.cores) || 0
+          return dir * (ca - cb)
+        }
+        default: return 0
+      }
+    })
+    return sorted
+  }, [filters.filteredParts, sortField, sortDir, priceByPartId])
+
+  const toggleSort = (field: SortField) => {
+    if (sortField === field) {
+      setSortDir(d => d === 'asc' ? 'desc' : 'asc')
+    } else {
+      setSortField(field)
+      setSortDir('asc')
+    }
+  }
 
   return (
     <div>
@@ -61,13 +99,13 @@ export function PartSelectStep({
 
       {/* Selected part preview */}
       {selectedPart && (
-        <div className="xai-card xai-card-active mb-6" role="status" aria-label={`${selectedPart.name} selected`}>
+        <div className="xai-card xai-card-active mb-6" role="status" aria-label={`${simplifyPartName(selectedPart.name, selectedPart.category)} selected`}>
           <div className="flex flex-col gap-1.5 sm:flex-row sm:items-center sm:justify-between">
             <div>
               <p className="font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-wider">
                 Selected
               </p>
-              <p className="font-mono text-sm text-xai-text mt-0.5">{selectedPart.name}</p>
+              <p className="font-mono text-sm text-xai-text mt-0.5">{simplifyPartName(selectedPart.name, selectedPart.category)}</p>
             </div>
             <div className="flex items-center gap-2">
               {priceByPartId?.[selectedPart.id] && (
@@ -78,7 +116,7 @@ export function PartSelectStep({
               <button
                 onClick={onRemove}
                 className="xai-btn xai-btn-ghost text-xs py-1.5 px-3"
-                aria-label={`Remove ${selectedPart.name}`}
+                aria-label={`Remove ${simplifyPartName(selectedPart.name, selectedPart.category)}`}
               >
                 REMOVE
               </button>
@@ -87,43 +125,132 @@ export function PartSelectStep({
         </div>
       )}
 
-      {/* Parts grid */}
-      {displayParts.length > 0 ? (
-        <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
-          {displayParts.map((part) => {
+      {/* Sort + Filter controls — single row */}
+      <div className="flex items-center gap-2 flex-wrap mb-4">
+        <input
+          type="search"
+          placeholder="Search..."
+          value={filters.filters.search}
+          onChange={(e) => filters.setFilter('search', e.target.value)}
+          className="xai-input !py-1 !px-2 !text-[0.5625rem] w-36"
+          aria-label="Search parts"
+        />
+        {filters.options.brands.length > 1 && (
+          <select
+            value={filters.filters.brand}
+            onChange={(e) => filters.setFilter('brand', e.target.value)}
+            className="xai-input !py-1 !px-2 !text-[0.5625rem]"
+          >
+            <option value="">Brand</option>
+            {filters.options.brands.map((opt) => (
+              <option key={opt.value} value={opt.value}>{opt.label}</option>
+            ))}
+          </select>
+        )}
+        {filters.options.sockets.length > 1 && (
+          <select
+            value={filters.filters.socket}
+            onChange={(e) => filters.setFilter('socket', e.target.value)}
+            className="xai-input !py-1 !px-2 !text-[0.5625rem]"
+          >
+            <option value="">Socket</option>
+            {filters.options.sockets.map((opt) => (
+              <option key={opt.value} value={opt.value}>{opt.label}</option>
+            ))}
+          </select>
+        )}
+        {filters.options.coreCounts.length > 1 && (
+          <select
+            value={filters.filters.coreCount}
+            onChange={(e) => filters.setFilter('coreCount', e.target.value)}
+            className="xai-input !py-1 !px-2 !text-[0.5625rem]"
+          >
+            <option value="">Cores</option>
+            {filters.options.coreCounts.map((opt) => (
+              <option key={opt.value} value={opt.value}>{opt.label}</option>
+            ))}
+          </select>
+        )}
+        <span className="font-mono text-[0.4375rem] text-xai-text-4 mx-1">|</span>
+        {([['name', 'Name'], ['price', 'Price'], ['cores', 'Cores']] as [SortField, string][]).map(([field, label]) => {
+          const isActive = sortField === field
+          return (
+            <button
+              key={field}
+              onClick={() => toggleSort(field)}
+              className={[
+                'font-mono text-[0.5rem] uppercase tracking-wider transition-colors',
+                isActive ? 'text-xai-accent' : 'text-xai-text-4 hover:text-xai-text',
+              ].join(' ')}
+            >
+              {label}{isActive && <span className="ml-0.5">{sortDir === 'asc' ? '\u2191' : '\u2193'}</span>}
+            </button>
+          )
+        })}
+        <span className="font-mono text-[0.5rem] text-xai-text-4 ml-auto">
+          <span className="text-xai-accent">{filters.filteredCount}</span>/{filters.totalCount}
+        </span>
+        {filters.hasActiveFilters && (
+          <button
+            onClick={filters.clearFilters}
+            className="font-mono text-[0.5rem] text-xai-accent uppercase tracking-wider hover:text-xai-text transition-colors"
+          >
+            Clear
+          </button>
+        )}
+      </div>
+
+      {/* Parts list */}
+      {sortedParts.length > 0 ? (
+        <div className="divide-y divide-xai-border">
+          {sortedParts.map((part) => {
             const isSelected = selectedPart?.id === part.id
             return (
               <button
                 key={part.id}
                 onClick={() => onSelect(part)}
-                className={`xai-card text-left ${isSelected ? 'xai-card-active' : ''}`}
-                aria-label={`Select ${part.name}${isSelected ? ', currently selected' : ''}`}
+                className={`flex w-full items-center gap-3 py-2.5 px-1 text-left transition-colors hover:bg-xai-hover ${isSelected ? 'bg-xai-hover' : ''}`}
+                aria-label={`Select ${simplifyPartName(part.name, part.category)}${isSelected ? ', currently selected' : ''}`}
                 aria-pressed={isSelected}
               >
-                <p className="text-xai-text text-sm font-normal">
-                  {part.name}
-                </p>
-                <div className="mt-1.5 space-y-0.5">
-                  {Object.entries(part.specs).slice(0, 4).map(([k, v]) => (
-                    <div key={k} className="flex justify-between gap-2">
-                      <span className="font-mono text-[0.5625rem] text-xai-text-4 shrink-0">{k}</span>
-                      <span className="font-mono text-[0.5625rem] text-xai-text-2 text-right truncate">{v}</span>
-                    </div>
-                  ))}
+                {isSelected && (
+                  <span className="font-mono text-[0.5625rem] text-[var(--color-xai-accent)] uppercase tracking-wider shrink-0">
+                    ✓
+                  </span>
+                )}
+<p className="text-xai-text text-sm font-normal truncate flex-1">
+          {simplifyPartName(part.name, part.category)}
+        </p>
+                <div className="flex items-center gap-2 shrink-0">
+                  {Object.entries(part.specs)
+                    .filter(([k]) => !['brand', 'sku', 'availability'].includes(k))
+                    .slice(0, 2)
+                    .map(([k, v]) => (
+                      <span key={k} className="font-mono text-[0.5rem] text-xai-text-4 bg-xai-bg px-1.5 py-0.5 rounded">
+                        {v}
+                      </span>
+                    ))}
                 </div>
                 {priceByPartId?.[part.id] && (
-                  <p className="font-mono text-sm text-xai-text mt-2">
+                  <span className="font-mono text-sm text-xai-text shrink-0 ml-2">
                     {priceByPartId[part.id]}
-                  </p>
-                )}
-                {isSelected && (
-                  <p className="font-mono text-[0.5625rem] text-[var(--color-xai-accent)] mt-1.5 uppercase tracking-wider">
-                    ✓ selected
-                  </p>
+                  </span>
                 )}
               </button>
             )
           })}
+        </div>
+      ) : filters.hasActiveFilters ? (
+        <div className="xai-card text-center py-12">
+          <p className="font-mono text-xs text-xai-text-4 uppercase tracking-wider">
+            No parts match your filters
+          </p>
+          <button
+            onClick={filters.clearFilters}
+            className="font-mono text-[0.5625rem] text-xai-accent uppercase tracking-wider mt-2 hover:text-xai-text transition-colors"
+          >
+            Clear filters
+          </button>
         </div>
       ) : (
         <div className="xai-card text-center py-12">
@@ -141,8 +268,11 @@ export function PartSelectStep({
         <div />
         <div className="flex gap-3">
           {!step.required && (
-            <button onClick={onNext} className="xai-btn xai-btn-ghost">
-              SKIP
+            <button
+              onClick={() => { onRemove(); onNext(); }}
+              className="xai-btn xai-btn-ghost text-xs py-1.5 px-3"
+            >
+              SKIP THIS STEP
             </button>
           )}
           <button

@@ -3,11 +3,14 @@
  * xAI theme: warn/error with semantic functional tokens.
  */
 
+import { getSpec } from '../../lib/types'
+
 import type { BuildSlot } from '../../lib/types'
+import type { WattageEstimate } from '../../lib/wattageEstimator'
 
 export type CompatibilityIssue = {
   /** Machine-readable issue code */
-  code: 'socket_mismatch' | 'form_factor' | 'wattage_exceeded' | 'ram_gen_mismatch' | 'generic'
+  code: 'socket_mismatch' | 'form_factor' | 'wattage_exceeded' | 'wattage_tight' | 'no_psu' | 'ram_gen_mismatch' | 'generic'
   /** Human-readable description */
   message: string
   /** Severity level */
@@ -23,22 +26,19 @@ type CompatibilityCheckerProps = {
 /**
  * Check compatibility between selected parts.
  * Returns a list of issues found.
- *
- * Scaffold: currently returns placeholder issues for demo purposes.
- * Real implementation would check sockets, form factors, wattage, etc.
  */
 function checkCompatibility(slots: BuildSlot[]): CompatibilityIssue[] {
   const issues: CompatibilityIssue[] = []
   const getPart = (cat: string) =>
     slots.find((s) => s.category === cat)?.part
 
-  // Example: if both CPU and Mobo are selected, check socket match
+  // Socket match
   const cpu = getPart('cpu')
   const mobo = getPart('motherboard')
 
   if (cpu && mobo) {
-    const cpuSocket = cpu.specs?.socket
-    const moboSocket = mobo.specs?.socket
+    const cpuSocket = getSpec(cpu.specs ?? {}, 'socket')
+    const moboSocket = getSpec(mobo.specs ?? {}, 'socket')
     if (cpuSocket && moboSocket && cpuSocket !== moboSocket) {
       issues.push({
         code: 'socket_mismatch',
@@ -47,6 +47,42 @@ function checkCompatibility(slots: BuildSlot[]): CompatibilityIssue[] {
         slots: ['cpu', 'motherboard'],
       })
     }
+  }
+
+  // PSU wattage check
+  // Import is done at the component level to avoid circular deps
+
+  return issues
+}
+
+/**
+ * Add wattage issues to the compatibility list.
+ * Called separately because it needs the WattageEstimate result.
+ */
+export function getWattageIssues(estimate: WattageEstimate): CompatibilityIssue[] {
+  const issues: CompatibilityIssue[] = []
+
+  if (estimate.status === 'danger') {
+    issues.push({
+      code: 'wattage_exceeded',
+      message: `PSU (${estimate.selectedPsuWatts}W) can't handle estimated load (${estimate.totalWatts}W). Need ${estimate.recommendedWatts}W+`,
+      severity: 'error',
+      slots: ['psu'],
+    })
+  } else if (estimate.status === 'warning') {
+    issues.push({
+      code: 'wattage_tight',
+      message: `PSU (${estimate.selectedPsuWatts}W) is running tight. Estimated load ${estimate.totalWatts}W, recommended ${estimate.recommendedWatts}W`,
+      severity: 'warn',
+      slots: ['psu'],
+    })
+  } else if (estimate.status === 'no_psu' && estimate.totalWatts > 0) {
+    issues.push({
+      code: 'no_psu',
+      message: `No PSU selected. Estimated load: ${estimate.totalWatts}W — recommend ${estimate.recommendedWatts}W+`,
+      severity: 'warn',
+      slots: ['psu'],
+    })
   }
 
   return issues
@@ -65,10 +101,7 @@ export function CompatibilityChecker({ slots }: CompatibilityCheckerProps) {
       {issues.map((issue, i) => (
         <div
           key={i}
-          className="xai-card"
-          style={{
-            borderColor: issue.severity === 'error' ? 'var(--color-xai-error-border)' : 'var(--color-xai-warn-border)',
-          }}
+          className={`xai-card ${issue.severity === 'error' ? 'border-xai-error-border' : 'border-xai-warn-border'}`}
         >
           <div className="flex items-start gap-2">
             {/* Icon */}

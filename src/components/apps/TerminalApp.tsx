@@ -5,6 +5,7 @@
 import { useState, useCallback, useRef, useEffect, type KeyboardEvent } from 'react'
 import type { Part, PriceEntry } from '../../lib/types'
 import type { UseBuildResult } from '../../hooks/useBuild'
+import { formatPhp } from '../../lib/format'
 
 interface TerminalAppProps {
   parts: Part[]
@@ -122,13 +123,13 @@ export function TerminalApp({ parts, priceByPartId, priceEntries, build }: Termi
           build.slots.forEach(slot => {
             if (slot.part) {
               const priceStr = slot.part.priceEntry
-                ? ` — ₱${slot.part.priceEntry.amountPhp.toLocaleString()}`
+                ? ` — ${formatPhp(slot.part.priceEntry.amountPhp)}`
                 : ''
               addLine('output', `  ${slot.category}: ${slot.part.name}${priceStr}`)
             }
           })
           addLine('output', `  ─────────────────────────`)
-          addLine('output', `  Total: ₱${build.totalPrice.toLocaleString()} (${build.selectedCount} parts)`)
+          addLine('output', `  Total: ${formatPhp(build.totalPrice)} (${build.selectedCount} parts)`)
         }
         break
       }

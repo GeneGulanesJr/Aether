@@ -8,17 +8,23 @@
     <meta name="description" content="Build your perfect PC with guided recommendations or custom part selection. Prices in Philippine Peso." />
     <meta name="theme-color" content="#1f2228" />
     <title>PC Builder (PH)</title>
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Preload GeistMono woff2 files so CSS @font-face doesn't block render -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/geist@1.3.1/dist/fonts/geist-mono/GeistMono-Light.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/geist@1.3.1/dist/fonts/geist-mono/GeistMono-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/geist@1.3.1/dist/fonts/geist-mono/GeistMono-Medium.woff2" as="font" type="font/woff2" crossorigin />
+    <!-- Defer Sora: load asynchronously via media=print + onload swap -->
     <link
       href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap"
       rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
     />
-    <style>
-      /* Apply Linear OpenType features globally */
-      * { font-feature-settings: 'cv01', 'ss03'; }
-    </style>
+    <noscript><link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    /></noscript>
   </head>
   <body>
     <div id="root"></div>

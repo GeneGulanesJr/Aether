@@ -277,10 +277,37 @@ export function getRecommendations(
 
 // ─── Scoring ─────────────────────────────────────────────────────────────────
 
-export function buildScore(selectedParts: Partial<Record<BuildSlotCategory, Part>>): number {
-  const filled = Object.keys(selectedParts).length
-  const total = PART_STEPS.length
-  return Math.round((filled / total) * 100)
+const WEIGHT_REQUIRED = 2
+const WEIGHT_OPTIONAL = 1
+
+/** Pre-compute weight per step so scoring stays O(n). */
+const STEP_WEIGHTS: number[] = PART_STEPS.map((s) =>
+  s.required ? WEIGHT_REQUIRED : WEIGHT_OPTIONAL,
+)
+
+const WEIGHTED_TOTAL = STEP_WEIGHTS.reduce((a, b) => a + b, 0) // 12
+
+/**
+ * Score a partially-filled build.
+ *
+ * Required slots (cpu, motherboard, ram, storage, psu) count 2× each.
+ * Optional slots (gpu, case) count 1× each.
+ *
+ * Example — only cpu + motherboard filled:
+ *   weighted_filled = 2 + 2 = 4
+ *   score = Math.round((4 / 12) * 100) = 33
+ */
+export function buildScore(
+  selectedParts: Partial<Record<BuildSlotCategory, Part>>,
+): number {
+  let weightedFilled = 0
+  for (let i = 0; i < PART_STEPS.length; i++) {
+    const cat = PART_STEPS[i].category!
+    if (selectedParts[cat]) {
+      weightedFilled += STEP_WEIGHTS[i]
+    }
+  }
+  return Math.round((weightedFilled / WEIGHTED_TOTAL) * 100)
 }
 
 // ─── Step Ordering ───────────────────────────────────────────────────────────

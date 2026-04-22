@@ -7,20 +7,20 @@ function SkeletonCard() {
   return (
     <div className="xai-card">
       {/* Image placeholder */}
-      <div className="mb-3 aspect-square w-full animate-pulse bg-xai-bg-surface" />
+      <div className="mb-3 aspect-square w-full xai-pulse bg-xai-bg-surface" />
       {/* Title placeholder */}
-      <div className="mb-2 h-5 w-3/4 animate-pulse bg-xai-bg-surface" />
+      <div className="mb-2 h-5 w-3/4 xai-pulse bg-xai-bg-surface" />
       {/* Subtitle/category placeholder */}
-      <div className="mb-3 h-4 w-1/2 animate-pulse bg-xai-bg-surface" />
+      <div className="mb-3 h-4 w-1/2 xai-pulse bg-xai-bg-surface" />
       {/* Specs placeholders */}
       <div className="space-y-2">
-        <div className="h-3 w-full animate-pulse bg-xai-bg-surface" />
-        <div className="h-3 w-5/6 animate-pulse bg-xai-bg-surface" />
+        <div className="h-3 w-full xai-pulse bg-xai-bg-surface" />
+        <div className="h-3 w-5/6 xai-pulse bg-xai-bg-surface" />
       </div>
       {/* Price placeholder */}
       <div className="mt-4 flex items-center justify-between">
-        <div className="h-6 w-20 animate-pulse bg-xai-bg-surface" />
-        <div className="h-8 w-24 animate-pulse bg-xai-bg-surface" />
+        <div className="h-6 w-20 xai-pulse bg-xai-bg-surface" />
+        <div className="h-8 w-24 xai-pulse bg-xai-bg-surface" />
       </div>
     </div>
   )
@@ -28,7 +28,7 @@ function SkeletonCard() {
 
 function SkeletonFilterBar() {
   return (
-    <div className="xai-card flex animate-pulse gap-2">
+    <div className="xai-card flex xai-pulse gap-2">
       <div className="h-8 w-20 bg-xai-bg-surface" />
       <div className="h-8 w-24 bg-xai-bg-surface" />
       <div className="h-8 w-28 bg-xai-bg-surface" />
@@ -39,7 +39,7 @@ function SkeletonFilterBar() {
 
 function SkeletonStatusBar() {
   return (
-    <div className="xai-card h-12 animate-pulse">
+    <div className="xai-card h-12 xai-pulse">
       <div className="flex h-full items-center justify-center">
         <div className="h-4 w-48 bg-xai-bg-surface" />
       </div>
@@ -71,7 +71,7 @@ export function CatalogLoadingSkeleton() {
       <SkeletonStatusBar />
       <SkeletonFilterBar />
       <div>
-        <div className="mb-3 h-5 w-32 animate-pulse bg-xai-bg-surface" />
+        <div className="mb-3 h-5 w-32 xai-pulse bg-xai-bg-surface" />
         <CatalogSkeleton />
       </div>
     </div>
