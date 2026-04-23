@@ -27,7 +27,23 @@
         "SKU": "CPU-AMD-000010",
         "Availability": "in_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/Artboard-4-37_a445b72e-286d-4ccb-8ee3-5c570238e6ca.png?v=1741830958"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/Artboard-4-37_a445b72e-286d-4ccb-8ee3-5c570238e6ca.png?v=1741830958",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-6256a37b1b48",
@@ -54,7 +70,23 @@
         "SKU": "CPU-AMD-000009",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/1.CPU-AMD-RYZEN-5-4600G-_4.2GHZ.jpg?v=1694394810"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/1.CPU-AMD-RYZEN-5-4600G-_4.2GHZ.jpg?v=1694394810",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-922aa38fc5c9",
@@ -81,7 +113,23 @@
         "SKU": "CPU-AMD-000011",
         "Availability": "in_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-5-5500GT-_3.6GHZ_-1.jpg?v=1707725974"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-5-5500GT-_3.6GHZ_-1.jpg?v=1707725974",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-06b5c2bf261b",
@@ -108,7 +156,23 @@
         "SKU": "CPU-AMD-000008",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/Artboard-1-55_07c66aae-d402-4821-bc71-0fa425071f0d.png?v=1741830950"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/Artboard-1-55_07c66aae-d402-4821-bc71-0fa425071f0d.png?v=1741830950",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-220c2871b8b5",
@@ -135,7 +199,23 @@
         "SKU": "CPU-AMD-000016",
         "Availability": "in_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-5-5600GT-_3.6GHZ_-1.jpg?v=1707729839"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-5-5600GT-_3.6GHZ_-1.jpg?v=1707729839",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-ad24b16fc92b",
@@ -159,7 +239,23 @@
         "SKU": "CPU-AMD-000005",
         "Availability": "in_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-5-5600X-_3.7GHZ_-1_53ddbd4b-72cf-4d89-b345-0956d91bb746.jpg?v=1752498054"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-5-5600X-_3.7GHZ_-1_53ddbd4b-72cf-4d89-b345-0956d91bb746.jpg?v=1752498054",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-2d1eab1de0ee",
@@ -185,7 +281,23 @@
         "SKU": "CPU-AMD-000024",
         "Availability": "in_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-5-8500G-3.5GHZ_-2.jpg?v=1707721783"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-5-8500G-3.5GHZ_-2.jpg?v=1707721783",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-47f7cafb1367",
@@ -212,7 +324,23 @@
         "SKU": "CPU-AMD-000013",
         "Availability": "in_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-5-8600G_4.3GHZ_-1.jpg?v=1707722668"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-5-8600G_4.3GHZ_-1.jpg?v=1707722668",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-ef4f0747e92b",
@@ -239,7 +367,23 @@
         "SKU": "CPU-AMD-000007",
         "Availability": "in_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/Artboard-2-57.webp?v=1741830908"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/Artboard-2-57.webp?v=1741830908",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-a738789784c0",
@@ -264,7 +408,23 @@
         "SKU": "CPU-AMD-000006",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/Artboard-1-61.png?v=1741933982"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/Artboard-1-61.png?v=1741933982",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-9d7344eaa1db",
@@ -290,7 +450,23 @@
         "SKU": "CPU-AMD-000014",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-7-7700-_3.8GHZ_-1.jpg?v=1707355186"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-7-7700-_3.8GHZ_-1.jpg?v=1707355186",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-97510084c6c8",
@@ -316,7 +492,23 @@
         "SKU": "CPU-AMD-000002",
         "Availability": "in_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/2.CPU-AMD-RYZEN-7-7700X-_4.5GHZ.jpg?v=1741933751"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/2.CPU-AMD-RYZEN-7-7700X-_4.5GHZ.jpg?v=1741933751",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 105,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-1f75a3d28546",
@@ -343,7 +535,23 @@
         "SKU": "CPU-AMD-000017",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-7-8700G-_4.2GHZ_-1.jpg?v=1707724114"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-7-8700G-_4.2GHZ_-1.jpg?v=1707724114",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-e654bf8bb930",
@@ -369,7 +577,23 @@
         "SKU": "CPU-AMD-000034",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMDRYZEN57600_3.8GHZ.jpg?v=1757314707"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMDRYZEN57600_3.8GHZ.jpg?v=1757314707",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-671326f3ac0d",
@@ -395,7 +619,23 @@
         "SKU": "CPU-AMD-000042",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/p1_b5717db9-07a4-409f-b728-53384f361523.jpg?v=1753060533"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/p1_b5717db9-07a4-409f-b728-53384f361523.jpg?v=1753060533",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-a5ad4f4410c4",
@@ -420,7 +660,23 @@
         "SKU": "CPU-AMD-000026",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-7-7800X3D-_4.2GHZ_-1.jpg?v=1723772338"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-7-7800X3D-_4.2GHZ_-1.jpg?v=1723772338",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 120,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-3825d2a82490",
@@ -446,7 +702,23 @@
         "SKU": "CPU-AMD-000030",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-7-9800X3-1.jpg?v=1731893253"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-7-9800X3-1.jpg?v=1731893253",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 120,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-f95511d8f493",
@@ -472,7 +744,23 @@
         "SKU": "CPU-AMD-000062",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN79850X3D_4.7GHZUPTO5.6GHZ_96MBL38MBL28CORES16THREADS1.jpg?v=1770264093"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN79850X3D_4.7GHZUPTO5.6GHZ_96MBL38MBL28CORES16THREADS1.jpg?v=1770264093",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 120,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-824c3a8d0d26",
@@ -498,7 +786,23 @@
         "SKU": "CPU-AMD-000039",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-9-9900X-1.jpg?v=1747638263"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-9-9900X-1.jpg?v=1747638263",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 120,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-229079d4f677",
@@ -524,7 +828,23 @@
         "SKU": "CPU-AMD-000037",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-9-9900X3D-1.jpg?v=1742435641"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-9-9900X3D-1.jpg?v=1742435641",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 120,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-8f48d91cb9bf",
@@ -550,7 +870,23 @@
         "SKU": "CPU-AMD-000038",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-9-9950X3D-1.jpg?v=1742435868"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-AMD-RYZEN-9-9950X3D-1.jpg?v=1742435868",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 170,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-a466b3d32c74",
@@ -579,7 +915,23 @@
         "SKU": "CPU-INTEL-000022",
         "Availability": "in_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I3-14100-1.jpg?v=1706250035"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I3-14100-1.jpg?v=1706250035",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 60,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-884948ea2978",
@@ -607,7 +959,23 @@
         "SKU": "CPU-INTEL-000014",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I5-10400-_2.90GHZ_-1.jpg?v=1700807831"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I5-10400-_2.90GHZ_-1.jpg?v=1700807831",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1200",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-ceb1b6720170",
@@ -637,7 +1005,23 @@
         "SKU": "CPU-INTEL-000026",
         "Availability": "in_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I5-14400-1.jpg?v=1706251052"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I5-14400-1.jpg?v=1706251052",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-2a83c0a54074",
@@ -667,7 +1051,23 @@
         "SKU": "CPU-INTEL-000029",
         "Availability": "in_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I7-14700-1.jpg?v=1706254475"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I7-14700-1.jpg?v=1706254475",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-e34cef295031",
@@ -696,7 +1096,23 @@
         "SKU": "CPU-INTEL-000020",
         "Availability": "in_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/Artboard-2-66.png?v=1682667312"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/Artboard-2-66.png?v=1682667312",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 60,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-237687e66ad4",
@@ -725,7 +1141,23 @@
         "SKU": "CPU-INTEL-000019",
         "Availability": "in_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I5-12400-1_97dc576b-4129-433a-9285-d802a7789e77.jpg?v=1752498066"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I5-12400-1_97dc576b-4129-433a-9285-d802a7789e77.jpg?v=1752498066",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-d858b6fcf416",
@@ -755,7 +1187,23 @@
         "SKU": "CPU-INTEL-000007",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/2.2-9.jpg?v=1703832393"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/2.2-9.jpg?v=1703832393",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-85af561142c7",
@@ -782,7 +1230,23 @@
         "SKU": "CPU-INTEL-000069",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-ULTRA-7-265KF-1.jpg?v=1731897618"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-ULTRA-7-265KF-1.jpg?v=1731897618",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1851",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-b9a483ba81aa",
@@ -810,7 +1274,23 @@
         "SKU": "CPU-INTEL-000001",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/Artboard-1-67.png?v=1682667324"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/Artboard-1-67.png?v=1682667324",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1200",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-0370889f7b66",
@@ -840,7 +1320,23 @@
         "SKU": "CPU-INTEL-000027",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I5-14600K-1.jpg?v=1705977788"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I5-14600K-1.jpg?v=1705977788",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-ba9008a0637a",
@@ -870,7 +1366,23 @@
         "SKU": "CPU-INTEL-000030",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I7-14700K-1.jpg?v=1705980194"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I7-14700K-1.jpg?v=1705980194",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-0d31053b330b",
@@ -900,7 +1412,23 @@
         "SKU": "CPU-INTEL-000033",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I9-14900-1.jpg?v=1706255453"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I9-14900-1.jpg?v=1706255453",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-859894055c47",
@@ -930,7 +1458,23 @@
         "SKU": "CPU-INTEL-000034",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I9-14900K-1.jpg?v=1705981779"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I9-14900K-1.jpg?v=1705981779",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-4fe5d073a420",
@@ -960,7 +1504,23 @@
         "SKU": "CPU-INTEL-000062",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I5-14500-1.jpg?v=1726540282"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I5-14500-1.jpg?v=1726540282",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-860bcf496496",
@@ -990,7 +1550,23 @@
         "SKU": "CPU-INTEL-000018",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/Artboard-1-80_d222558d-646e-423b-9486-b501662e18ee.png?v=1682667265"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/Artboard-1-80_d222558d-646e-423b-9486-b501662e18ee.png?v=1682667265",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-cb6276db113a",
@@ -1018,7 +1594,23 @@
         "SKU": "CPU-INTEL CORE I7-14700F",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I7-14700F-1.jpg?v=1734504466"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-I7-14700F-1.jpg?v=1734504466",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-4e05a48dc20e",
@@ -1047,7 +1639,23 @@
         "SKU": "CPU-INTEL-000078",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CP.jpg?v=1753059598"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CP.jpg?v=1753059598",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1851",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-406768f807d9",
@@ -1076,7 +1684,23 @@
         "SKU": "CPU-INTEL-000067",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-ULTRA-5-245K-1.jpg?v=1731893843"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-ULTRA-5-245K-1.jpg?v=1731893843",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1851",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-bbdc1fd5316a",
@@ -1103,7 +1727,23 @@
         "SKU": "CPU-INTEL-000068",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-ULTRA-5-245KF-1.jpg?v=1731895052"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-ULTRA-5-245KF-1.jpg?v=1731895052",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1851",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-50d884c913b2",
@@ -1132,7 +1772,23 @@
         "SKU": "CPU-INTEL-000074",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-ULTRA-7-265-1.jpg?v=1741570041"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-ULTRA-7-265-1.jpg?v=1741570041",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1851",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-30a735eb4316",
@@ -1161,7 +1817,23 @@
         "SKU": "CPU-INTEL-000065",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-ULTRA-7-265K-1.jpg?v=1731896189"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-ULTRA-7-265K-1.jpg?v=1731896189",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1851",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-pc-express-b8a322a6d04f",
@@ -1190,7 +1862,23 @@
         "SKU": "CPU-INTEL-000064",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-ULTRA-9-285K-1.jpg?v=1731898486"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CPU-INTEL-CORE-ULTRA-9-285K-1.jpg?v=1731898486",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1851",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-0e2ddb5cd132",
@@ -1214,7 +1902,23 @@
         "SKU": "5065",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Athlon_3000G_Vega_3_Socket_Am4_Graphic_Processor-a.jpg?v=1700785914"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Athlon_3000G_Vega_3_Socket_Am4_Graphic_Processor-a.jpg?v=1700785914",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 35,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-c787482d1b28",
@@ -1238,7 +1942,23 @@
         "SKU": "1548",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3-A_f179ed2f-3f97-4a69-aa37-3644b4da7fe8.jpg?v=1678856276"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3-A_f179ed2f-3f97-4a69-aa37-3644b4da7fe8.jpg?v=1678856276",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 35,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-03c8d77eaa93",
@@ -1251,7 +1971,24 @@
         "SKU": "863",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2010-a.jpg?v=1586259914"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2010-a.jpg?v=1586259914",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4",
+            "DDR5"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-c057764ac021",
@@ -1273,7 +2010,25 @@
         "SKU": "750",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1808-a.jpg?v=1586259917"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1808-a.jpg?v=1586259917",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 0,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 0.7,
+        "warnings": [
+          "cpu_tdp_missing"
+        ]
+      }
     },
     {
       "id": "cpu-easypc-feb894d03681",
@@ -1297,7 +2052,23 @@
         "SKU": "4028",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_I3-10100F_Comet_Lake-a.jpg?v=1701833689"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_I3-10100F_Comet_Lake-a.jpg?v=1701833689",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-39a6a01b6d49",
@@ -1319,7 +2090,25 @@
         "SKU": "3911",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3911-a_f93ca437-9028-4141-926b-24163d4c7e23.jpg?v=1628988509"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3911-a_f93ca437-9028-4141-926b-24163d4c7e23.jpg?v=1628988509",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 0,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 0.7,
+        "warnings": [
+          "cpu_tdp_missing"
+        ]
+      }
     },
     {
       "id": "cpu-easypc-0468b74a7485",
@@ -1343,7 +2132,23 @@
         "SKU": "4137",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4137-a.jpg?v=1633327435"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4137-a.jpg?v=1633327435",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-099c38a69a44",
@@ -1367,7 +2172,23 @@
         "SKU": "4501",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/IntelCoreI5-12400FAlderLake2.5GHzMaxTurboFrequency4.40GHz_Performancecores6Socket1700DesktopProcessor-a.jpg?v=1644285365"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/IntelCoreI5-12400FAlderLake2.5GHzMaxTurboFrequency4.40GHz_Performancecores6Socket1700DesktopProcessor-a.jpg?v=1644285365",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-530db694f549",
@@ -1391,7 +2212,23 @@
         "SKU": "4503",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/IntelCoreI5-12400AlderLake2.5GHzIntelUHDGraphics730_MaxTurboFrequency4.40GHzSocket1700DesktopProcessor-a.jpg?v=1644285398"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/IntelCoreI5-12400AlderLake2.5GHzIntelUHDGraphics730_MaxTurboFrequency4.40GHzSocket1700DesktopProcessor-a.jpg?v=1644285398",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-f5471c6a682f",
@@ -1415,7 +2252,23 @@
         "SKU": "4084",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_I3-10100_1200_3.60GHz_Comet_Lake_Socket_Processor-a.jpg?v=1701932204"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_I3-10100_1200_3.60GHz_Comet_Lake_Socket_Processor-a.jpg?v=1701932204",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-b9294feafad3",
@@ -1439,7 +2292,23 @@
         "SKU": "4114",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_I3-10100_Comet_Lake_Socket-a.jpg?v=1702280045"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_I3-10100_Comet_Lake_Socket-a.jpg?v=1702280045",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-036fac16dfc3",
@@ -1463,7 +2332,23 @@
         "SKU": "7325",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/IntelCorei3-12100-a.png?v=1692260632"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/IntelCorei3-12100-a.png?v=1692260632",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-7a9352646579",
@@ -1487,7 +2372,23 @@
         "SKU": "4043",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_I5_-11400_Rocket_Lake_Socket_1200_2.60GHz_Processor-a.jpg?v=1701840412"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_I5_-11400_Rocket_Lake_Socket_1200_2.60GHz_Processor-a.jpg?v=1701840412",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-9a7e3e03366e",
@@ -1500,7 +2401,24 @@
         "SKU": "1468",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3091-b.jpg?v=1586259923"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3091-b.jpg?v=1586259923",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4",
+            "DDR5"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-501911884a93",
@@ -1524,7 +2442,23 @@
         "SKU": "7727",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_I5-12400_Alder_Lake-a.png?v=1698736104"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_I5-12400_Alder_Lake-a.png?v=1698736104",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-26d718f74ae1",
@@ -1548,7 +2482,23 @@
         "SKU": "2579",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/10th_Generation_Intel_Core_I7-10700_1200_2.9GHz_CPU-a.jpg?v=1701138509"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/10th_Generation_Intel_Core_I7-10700_1200_2.9GHz_CPU-a.jpg?v=1701138509",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-c5f163939b10",
@@ -1570,7 +2520,25 @@
         "SKU": "855",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1997-a.jpg?v=1586791703"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1997-a.jpg?v=1586791703",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 0,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 0.7,
+        "warnings": [
+          "cpu_tdp_missing"
+        ]
+      }
     },
     {
       "id": "cpu-easypc-590d48eceef2",
@@ -1594,7 +2562,23 @@
         "SKU": "3948",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/10th_Generation_Intel_Core_I5-10400F_1200_2.9GHz_CPU-a.jpg?v=1700107084"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/10th_Generation_Intel_Core_I5-10400F_1200_2.9GHz_CPU-a.jpg?v=1700107084",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-9851c5d03e66",
@@ -1618,7 +2602,23 @@
         "SKU": "5061",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_i7-12700_Alder_Lake_Socket_LGA_1700_4.90GHz_Processor-a.jpg?v=1703211725"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_i7-12700_Alder_Lake_Socket_LGA_1700_4.90GHz_Processor-a.jpg?v=1703211725",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-9b4d7c7fe670",
@@ -1642,7 +2642,23 @@
         "SKU": "4676",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/11th_Generation_Intel_Core_i5-11400F_1200_2.60GHz_CPU-a.jpg?v=1702873842"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/11th_Generation_Intel_Core_i5-11400F_1200_2.60GHz_CPU-a.jpg?v=1702873842",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-aa9f2636594c",
@@ -1666,7 +2682,23 @@
         "SKU": "3357",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/5149-a.jpg?v=1629737321"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/5149-a.jpg?v=1629737321",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-51ea20f6d420",
@@ -1691,7 +2723,23 @@
         "SKU": "785",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1884-a.jpg?v=1586259920"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1884-a.jpg?v=1586259920",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-cc167aac3aae",
@@ -1703,7 +2751,25 @@
         "SKU": "180",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/450-a.jpg?v=1588506252"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/450-a.jpg?v=1588506252",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1151",
+          "tdpWatts": 0,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 0.7,
+        "warnings": [
+          "cpu_tdp_missing"
+        ]
+      }
     },
     {
       "id": "cpu-easypc-ef287153a1ce",
@@ -1727,7 +2793,23 @@
         "SKU": "8460",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i7-14700_5.4GHz_LGA_1700_Processor-a.png?v=1711095939"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i7-14700_5.4GHz_LGA_1700_Processor-a.png?v=1711095939",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-a688ff9919ba",
@@ -1751,7 +2833,23 @@
         "SKU": "6842",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i5-13400F_-b.jpg?v=1696474605"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i5-13400F_-b.jpg?v=1696474605",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-1f627c13b7b4",
@@ -1775,7 +2873,23 @@
         "SKU": "6627",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_i5-13600KF_Raptor_Lake_Socket_LGA_1700_5.00GHz_Processor-a.jpg?v=1705557860"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_i5-13600KF_Raptor_Lake_Socket_LGA_1700_5.00GHz_Processor-a.jpg?v=1705557860",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-8bc8a86c0f20",
@@ -1799,7 +2913,23 @@
         "SKU": "6281",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_I5-10400_Comet_Lake_-a.jpg?v=1704959509"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_I5-10400_Comet_Lake_-a.jpg?v=1704959509",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-b779d5e29552",
@@ -1823,7 +2953,23 @@
         "SKU": "8459",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i7-14700F_5.4GHz_LGA_1700_Processor-a.png?v=1711095871"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i7-14700F_5.4GHz_LGA_1700_Processor-a.png?v=1711095871",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-edf84f4af2cf",
@@ -1847,7 +2993,23 @@
         "SKU": "7038",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i5-13500-a.jpg?v=1694415635"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i5-13500-a.jpg?v=1694415635",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-de5826783fe6",
@@ -1871,7 +3033,23 @@
         "SKU": "6628",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_i5-13600K_Raptor_Lake_Socket_LGA_1700_5.10GHz_Processor-a.jpg?v=1705557637"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_i5-13600K_Raptor_Lake_Socket_LGA_1700_5.10GHz_Processor-a.jpg?v=1705557637",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-ab4753e8cdeb",
@@ -1895,7 +3073,23 @@
         "SKU": "5872",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/IntelPentiumG64004GHz2C-4TLGA1200Processor-a.jpg?v=1662530643"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/IntelPentiumG64004GHz2C-4TLGA1200Processor-a.jpg?v=1662530643",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-6ffa3a77c27e",
@@ -1919,7 +3113,23 @@
         "SKU": "4577",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_i3-12100F_Alder_Lake_Socket_1700_3.30GHz_Processor-a.jpg?v=1702618588"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_i3-12100F_Alder_Lake_Socket_1700_3.30GHz_Processor-a.jpg?v=1702618588",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-e3d691ff609a",
@@ -1943,7 +3153,23 @@
         "SKU": "2948",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4471-a.jpg?v=1629734464"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4471-a.jpg?v=1629734464",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-dccac4dfb533",
@@ -1967,7 +3193,23 @@
         "SKU": "2537",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3613-a.jpg?v=1593834400"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3613-a.jpg?v=1593834400",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-3fc89825af27",
@@ -1991,7 +3233,23 @@
         "SKU": "6630",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_i7-13700K_Raptor_Lake_Socket_LGA_1700_5.20GHz_Processor-a.jpg?v=1705557436"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_i7-13700K_Raptor_Lake_Socket_LGA_1700_5.20GHz_Processor-a.jpg?v=1705557436",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-a5ee4792abef",
@@ -2015,7 +3273,23 @@
         "SKU": "4666",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/12th_Generation_Intel_Core_i9-12900K_1700_CPU-a.jpg?v=1702871296"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/12th_Generation_Intel_Core_i9-12900K_1700_CPU-a.jpg?v=1702871296",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-2f314d335918",
@@ -2039,7 +3313,23 @@
         "SKU": "4504",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/IntelCoreI5-12500AlderLake3.0GHzIntelUHDGraphics770_MaxTurboFrequency4.60GHzSocket1700DesktopProcessor-a.jpg?v=1644285434"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/IntelCoreI5-12500AlderLake3.0GHzIntelUHDGraphics770_MaxTurboFrequency4.60GHzSocket1700DesktopProcessor-a.jpg?v=1644285434",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-133e9db5edfa",
@@ -2063,7 +3353,23 @@
         "SKU": "2578",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3690-A.jpg?v=1595221608"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3690-A.jpg?v=1595221608",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-c76cfcb9f52b",
@@ -2087,7 +3393,23 @@
         "SKU": "9128",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/IntelCorei7-13700FRaptorLakeSocketLGA17005.20GHzProcessor_2.png?v=1735890413"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/IntelCorei7-13700FRaptorLakeSocketLGA17005.20GHzProcessor_2.png?v=1735890413",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-0217ccfa9c11",
@@ -2100,7 +3422,24 @@
         "SKU": "9635",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/IntelCoreUltra7Processor265KLGA18515.5GhzProcessor_2.png?v=1732600317"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/IntelCoreUltra7Processor265KLGA18515.5GhzProcessor_2.png?v=1732600317",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1851",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4",
+            "DDR5"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-5346731e16ca",
@@ -2124,7 +3463,23 @@
         "SKU": "8458",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i5-14400_4.7GHz_LGA_1700_Processor-a.png?v=1711095780"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i5-14400_4.7GHz_LGA_1700_Processor-a.png?v=1711095780",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-44ef26e02392",
@@ -2148,7 +3503,23 @@
         "SKU": "8457",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i5-14400F_4.7GHz_LGA_1700_Processor-a.png?v=1711095708"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i5-14400F_4.7GHz_LGA_1700_Processor-a.png?v=1711095708",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-4b5dd9c062a6",
@@ -2172,7 +3543,23 @@
         "SKU": "8456",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i3-14100_4.7GHz_LGA_1700_Processor-a.png?v=1711095622"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i3-14100_4.7GHz_LGA_1700_Processor-a.png?v=1711095622",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-1273bab73517",
@@ -2196,7 +3583,23 @@
         "SKU": "8455",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i3-14100F_4.7GHz_LGA_1700_Processor-a.png?v=1711095504"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i3-14100F_4.7GHz_LGA_1700_Processor-a.png?v=1711095504",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-ac55d9255cf8",
@@ -2220,7 +3623,23 @@
         "SKU": "8403",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i9-14900KF_3.2GHz_LGA1700_Processor-a.png?v=1711008547"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i9-14900KF_3.2GHz_LGA1700_Processor-a.png?v=1711008547",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-9a14d0caaf1c",
@@ -2244,7 +3663,23 @@
         "SKU": "8305",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i7-12700_4.9GHz_LGA1700_Socket_DDR4_Processor_TTP-b.png?v=1711008270"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i7-12700_4.9GHz_LGA1700_Socket_DDR4_Processor_TTP-b.png?v=1711008270",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-8afc173381ac",
@@ -2268,7 +3703,23 @@
         "SKU": "8133",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i7-12700_Alder_Lake_4.90_GHz_LGA_1200_Processor_MPK-b.png?v=1707802909"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i7-12700_Alder_Lake_4.90_GHz_LGA_1200_Processor_MPK-b.png?v=1707802909",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-dc74fd91d77e",
@@ -2292,7 +3743,23 @@
         "SKU": "7259",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_I3-10105_Comet_Lake-a.png?v=1699597036"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_I3-10105_Comet_Lake-a.png?v=1699597036",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-8f51a44cd88b",
@@ -2316,7 +3783,23 @@
         "SKU": "7719",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i9-14900K_Raptor_Lake-a.png?v=1699596454"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i9-14900K_Raptor_Lake-a.png?v=1699596454",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-928e46ddb543",
@@ -2340,7 +3823,23 @@
         "SKU": "7718",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i5-14600K_Raptor_Lake-a.png?v=1699596387"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i5-14600K_Raptor_Lake-a.png?v=1699596387",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-90eb5e44e22e",
@@ -2364,7 +3863,23 @@
         "SKU": "7717",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i7-14700K_Raptor_Lake-a.png?v=1699504448"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i7-14700K_Raptor_Lake-a.png?v=1699504448",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-863a4a738aea",
@@ -2388,7 +3903,23 @@
         "SKU": "7223",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/IntelCorei7-11700-a.png?v=1694649902"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/IntelCorei7-11700-a.png?v=1694649902",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-668cf7ebb506",
@@ -2412,7 +3943,23 @@
         "SKU": "7132",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/IntelCorei3-13100F-a.jpg?v=1689653683"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/IntelCorei3-13100F-a.jpg?v=1689653683",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-6f1ff766c4a6",
@@ -2436,7 +3983,23 @@
         "SKU": "6475",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i7-13700KF-a.jpg?v=1694418681"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i7-13700KF-a.jpg?v=1694418681",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-bb61047f5a11",
@@ -2460,7 +4023,23 @@
         "SKU": "7056",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_I3-10100-a.jpg?v=1694502211"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_I3-10100-a.jpg?v=1694502211",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-adc21e4302a5",
@@ -2484,7 +4063,23 @@
         "SKU": "6750",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i9-13900K-a.jpg?v=1696487734"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Intel_Core_i9-13900K-a.jpg?v=1696487734",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-11629126a3bb",
@@ -2508,7 +4103,23 @@
         "SKU": "6638",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_i3-13100_Raptor_Lake_Socket_LGA_1700_3.10GHz_Processor-a.jpg?v=1705558494"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_i3-13100_Raptor_Lake_Socket_LGA_1700_3.10GHz_Processor-a.jpg?v=1705558494",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-78ceb7074b36",
@@ -2532,7 +4143,23 @@
         "SKU": "6636",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_i5-13400_Raptor_Lake_Socket_LGA_1700_2.50GHz_Processor-a.jpg?v=1705558069"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_i5-13400_Raptor_Lake_Socket_LGA_1700_2.50GHz_Processor-a.jpg?v=1705558069",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-d2f6464ae69f",
@@ -2556,7 +4183,23 @@
         "SKU": "6631",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_i7-13700_Raptor_Lake_Socket_LGA_1700_4.90GHz_Processor-a.jpg?v=1705557212"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_i7-13700_Raptor_Lake_Socket_LGA_1700_4.90GHz_Processor-a.jpg?v=1705557212",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-f1569facbeac",
@@ -2580,7 +4223,23 @@
         "SKU": "6629",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/6629-a.jpg?v=1679464572"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/6629-a.jpg?v=1679464572",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-fc29fe1fddb1",
@@ -2593,7 +4252,24 @@
         "SKU": "3895",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3895-a_78e5f814-e030-4648-9305-0037cf16a594.jpg?v=1629741544"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3895-a_78e5f814-e030-4648-9305-0037cf16a594.jpg?v=1629741544",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4",
+            "DDR5"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-d1af183c3ee9",
@@ -2617,7 +4293,23 @@
         "SKU": "5633",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/IntelCoreI5-11400RocketLakeSocket12002.60GHzProcessorTTP-a.jpg?v=1662594482"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/IntelCoreI5-11400RocketLakeSocket12002.60GHzProcessorTTP-a.jpg?v=1662594482",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-b0a5d7ea593a",
@@ -2641,7 +4333,23 @@
         "SKU": "4948",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_i9-12900KS_Alder_Lake-a.jpg?v=1703141420"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_i9-12900KS_Alder_Lake-a.jpg?v=1703141420",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-7a1a85cdb254",
@@ -2665,7 +4373,23 @@
         "SKU": "4665",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4665-a.jpg?v=1648196342"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4665-a.jpg?v=1648196342",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-f5be279057d6",
@@ -2689,7 +4413,23 @@
         "SKU": "4621",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4621-a.jpg?v=1647582193"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4621-a.jpg?v=1647582193",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-1679cc5afd06",
@@ -2713,7 +4453,23 @@
         "SKU": "4505",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/IntelCoreI5-12600AlderLake3.30GHzIntelUHDGraphics770MaxTurboFrequency4.80GHzSocket1700DesktopProcessor-a.jpg?v=1644285564"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/IntelCoreI5-12600AlderLake3.30GHzIntelUHDGraphics770MaxTurboFrequency4.80GHzSocket1700DesktopProcessor-a.jpg?v=1644285564",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-9bc08eea6f05",
@@ -2737,7 +4493,23 @@
         "SKU": "4421",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/12th_Generation_Intel_Core_I5-12600K_3.70GHz_CPU-a.jpg?v=1702534734"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/12th_Generation_Intel_Core_I5-12600K_3.70GHz_CPU-a.jpg?v=1702534734",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-8711f026c68f",
@@ -2761,7 +4533,23 @@
         "SKU": "4158",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4158-a_42f2ed12-cb83-4bb7-aa2c-8103106e240d.jpg?v=1632999880"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4158-a_42f2ed12-cb83-4bb7-aa2c-8103106e240d.jpg?v=1632999880",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-9fa757a5aba2",
@@ -2785,7 +4573,23 @@
         "SKU": "4122",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_I3-10105F_4-core_Comet_Lake-a.jpg?v=1702275693"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Intel_Core_I3-10105F_4-core_Comet_Lake-a.jpg?v=1702275693",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-9bfea48c746d",
@@ -2809,7 +4613,23 @@
         "SKU": "4123",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4123-a_04b4821f-4914-4c10-af68-1f8fd60e0979.jpg?v=1632221026"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4123-a_04b4821f-4914-4c10-af68-1f8fd60e0979.jpg?v=1632221026",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-ce22662d37b6",
@@ -2833,7 +4653,23 @@
         "SKU": "3572",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/IntelCorei9-10850KCometLakeSocket12003.6GHz10-core20threads_Upto5.2GHzUnlocked_IntelUHDGraphics630_IntelTurboBoostMaxTechnology3.0Support_CompatiblewithIntel400serieschipset-c.jpg?v=1629738680"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/IntelCorei9-10850KCometLakeSocket12003.6GHz10-core20threads_Upto5.2GHzUnlocked_IntelUHDGraphics630_IntelTurboBoostMaxTechnology3.0Support_CompatiblewithIntel400serieschipset-c.jpg?v=1629738680",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-510e36dfda4c",
@@ -2857,7 +4693,23 @@
         "SKU": "2947",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4470-a.jpg?v=1629734459"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4470-a.jpg?v=1629734459",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-4d4aba4e602a",
@@ -2881,7 +4733,23 @@
         "SKU": "3129",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4676-a.jpg?v=1629733987"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4676-a.jpg?v=1629733987",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-5354b0409f9e",
@@ -2901,7 +4769,23 @@
         "SKU": "2523",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/683-a.jpg?v=1629729470"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/683-a.jpg?v=1629729470",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM3",
+          "tdpWatts": 95,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-39e2448620b9",
@@ -2926,7 +4810,23 @@
         "SKU": "1414",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2998-a.jpg?v=1588509462"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2998-a.jpg?v=1588509462",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-544660b8593a",
@@ -2939,7 +4839,24 @@
         "SKU": "332",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/875-a.jpg?v=1588506623"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/875-a.jpg?v=1588506623",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4",
+            "DDR5"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-10edd5f37059",
@@ -2952,7 +4869,24 @@
         "SKU": "250",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/679-a.jpg?v=1588506430"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/679-a.jpg?v=1588506430",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4",
+            "DDR5"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-e8d30c6bc384",
@@ -2978,7 +4912,23 @@
         "SKU": "175",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/435-a.jpg?v=1588506241"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/435-a.jpg?v=1588506241",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-996df714b3b1",
@@ -3004,7 +4954,23 @@
         "SKU": "174",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/431-a.jpg?v=1588506239"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/431-a.jpg?v=1588506239",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-648888d69b71",
@@ -3017,7 +4983,24 @@
         "SKU": "727",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1768-a.jpg?v=1588507588"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1768-a.jpg?v=1588507588",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR4",
+            "DDR5"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-322d7db28464",
@@ -3028,7 +5011,26 @@
         "SKU": "316",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/842-a.jpg?v=1588506585"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/842-a.jpg?v=1588506585",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 0,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 0.7,
+        "warnings": [
+          "cpu_socket_missing",
+          "cpu_tdp_missing"
+        ]
+      }
     },
     {
       "id": "cpu-easypc-34b8e5d4b86d",
@@ -3053,7 +5055,23 @@
         "SKU": "1423",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3010-a.jpg?v=1588509484"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3010-a.jpg?v=1588509484",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-805996307bd0",
@@ -3078,7 +5096,23 @@
         "SKU": "930",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Amd_Ryzen_5_3600_Processor_Socket_Am4_4.2ghz-a.jpg?v=1700554491"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Amd_Ryzen_5_3600_Processor_Socket_Am4_4.2ghz-a.jpg?v=1700554491",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-40cf5b0fa507",
@@ -3103,7 +5137,23 @@
         "SKU": "7929",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_7_5700X_Socket_AM4_3.4GHz_Processor_-a.png?v=1701936584"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_7_5700X_Socket_AM4_3.4GHz_Processor_-a.png?v=1701936584",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-5da94d7d4c03",
@@ -3127,7 +5177,23 @@
         "SKU": "4513",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_5600X_Socket_AM4_3.7GHz_with_Wraith_Stealth-a.jpg?v=1705547741"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_5600X_Socket_AM4_3.7GHz_with_Wraith_Stealth-a.jpg?v=1705547741",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-0004edcd452d",
@@ -3152,7 +5218,23 @@
         "SKU": "335",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/883-a.jpg?v=1588506629"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/883-a.jpg?v=1588506629",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-bdf40981bfd6",
@@ -3179,7 +5261,23 @@
         "SKU": "929",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/929-a.jpg?v=1631263376"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/929-a.jpg?v=1631263376",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-f13bfd86e693",
@@ -3206,7 +5304,23 @@
         "SKU": "928",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_3_3200g_Socket_Am4_3.6ghz-a.jpg?v=1700554016"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_3_3200g_Socket_Am4_3.6ghz-a.jpg?v=1700554016",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-ea523122666e",
@@ -3231,7 +5345,23 @@
         "SKU": "5663",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_5600_Socket_Am4_3.5GHz_Processor-a.jpg?v=1703829955"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_5600_Socket_Am4_3.5GHz_Processor-a.jpg?v=1703829955",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-07b78a9f4cc8",
@@ -3257,7 +5387,23 @@
         "SKU": "2725",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_Pro_4650G_Socket_Am4_3.7ghz-a.jpg?v=1701733956"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_Pro_4650G_Socket_Am4_3.7ghz-a.jpg?v=1701733956",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-5f063fe1f42b",
@@ -3284,7 +5430,23 @@
         "SKU": "286",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/773-a.jpg?v=1588506517"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/773-a.jpg?v=1588506517",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-3460786392c0",
@@ -3311,7 +5473,23 @@
         "SKU": "7098",
         "Availability": "in_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMDRyzen75700G-a.png?v=1690800542"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMDRyzen75700G-a.png?v=1690800542",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-e804adf693f9",
@@ -3336,7 +5514,23 @@
         "SKU": "5640",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_5_5500_Socket_Am4_3.6GHz_Processor-a.jpg?v=1703829370"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_5_5500_Socket_Am4_3.6GHz_Processor-a.jpg?v=1703829370",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-2b9236beadd2",
@@ -3361,7 +5555,23 @@
         "SKU": "5618",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_7_5700X_Socket_AM4_3.7GHz_Processor-a.jpg?v=1701316360"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_7_5700X_Socket_AM4_3.7GHz_Processor-a.jpg?v=1701316360",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-8ad887a6a5ca",
@@ -3384,7 +5594,23 @@
         "SKU": "2469",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2469-a.jpg?v=1629729709"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2469-a.jpg?v=1629729709",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-372417392c6a",
@@ -3409,7 +5635,23 @@
         "SKU": "2700",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_3600_Socket_Am4_4.2ghz_Processor-a.jpg?v=1701667742"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_3600_Socket_Am4_4.2ghz_Processor-a.jpg?v=1701667742",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-0bbe99f4a36e",
@@ -3420,7 +5662,26 @@
         "SKU": "684",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/684-a_e6f1ceb3-f858-4a6e-88a9-3f14cf842407.jpg?v=1630738105"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/684-a_e6f1ceb3-f858-4a6e-88a9-3f14cf842407.jpg?v=1630738105",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 0,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 0.7,
+        "warnings": [
+          "cpu_socket_missing",
+          "cpu_tdp_missing"
+        ]
+      }
     },
     {
       "id": "cpu-easypc-cf1af4fa6f81",
@@ -3443,7 +5704,23 @@
         "SKU": "588",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Amd_Athlon_200GE_Vega3_Processor-a.jpg?v=1699490104"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Amd_Athlon_200GE_Vega3_Processor-a.jpg?v=1699490104",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 35,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-2d1b62b21a44",
@@ -3469,7 +5746,23 @@
         "SKU": "3768",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3768-a.jpg?v=1631264173"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3768-a.jpg?v=1631264173",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 35,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-76ad3e5988fd",
@@ -3496,7 +5789,23 @@
         "SKU": "287",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/774-a.jpg?v=1588506520"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/774-a.jpg?v=1588506520",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-b2374836ed69",
@@ -3521,7 +5830,23 @@
         "SKU": "1266",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AmdRyzen53500xProcessorSocketAm43.6ghzwithWraithStealthCooler-a.jpg?v=1629724570"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AmdRyzen53500xProcessorSocketAm43.6ghzwithWraithStealthCooler-a.jpg?v=1629724570",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-6f3b9c90ce46",
@@ -3546,7 +5871,23 @@
         "SKU": "932",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2136-a.jpg?v=1586259898"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2136-a.jpg?v=1586259898",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-d5cfe1f50904",
@@ -3571,7 +5912,23 @@
         "SKU": "4769",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_5600_Socket_Am4_3.5GHz_6_cores-a.jpg?v=1702964907"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_5600_Socket_Am4_3.5GHz_6_cores-a.jpg?v=1702964907",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-0188522afbff",
@@ -3596,7 +5953,23 @@
         "SKU": "4770",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4769-a_5dfeb424-d601-43aa-a86d-9f52a528273d.jpg?v=1678866945"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4769-a_5dfeb424-d601-43aa-a86d-9f52a528273d.jpg?v=1678866945",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-dfbe2d429f5d",
@@ -3622,7 +5995,23 @@
         "SKU": "4964",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_A8-9600_Quad_Core_Socket_Am4_3.1ghz_Processor-c.jpg?v=1700782368"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_A8-9600_Quad_Core_Socket_Am4_3.1ghz_Processor-c.jpg?v=1700782368",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-e39a6374f40b",
@@ -3649,7 +6038,23 @@
         "SKU": "8432",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_3_3200g_Socket_Am4_3.6ghz_with_Radeon_Vega_8_Processor_MPK-a.png?v=1711008703"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_3_3200g_Socket_Am4_3.6ghz_with_Radeon_Vega_8_Processor_MPK-a.png?v=1711008703",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-00e149d5569a",
@@ -3675,7 +6080,23 @@
         "SKU": "2726",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_3_Pro_4350G_Socket_Am4_3.5ghz-a.jpg?v=1701669631"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_3_Pro_4350G_Socket_Am4_3.5ghz-a.jpg?v=1701669631",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-cd030f76af3f",
@@ -3700,7 +6121,23 @@
         "SKU": "931",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2135-a.jpg?v=1629723107"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2135-a.jpg?v=1629723107",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 95,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-025f11bae163",
@@ -3726,7 +6163,23 @@
         "SKU": "10057",
         "Availability": "in_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/10057-a.png?v=1768168684"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/10057-a.png?v=1768168684",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 120,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-dacf025d397b",
@@ -3753,7 +6206,23 @@
         "SKU": "3769",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3769-a.jpg?v=1629798892"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3769-a.jpg?v=1629798892",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-247a3d287193",
@@ -3780,7 +6249,23 @@
         "SKU": "4002",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_7_5700G_Socket_Am4_3.8GHz-a.jpg?v=1701831991"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_7_5700G_Socket_Am4_3.8GHz-a.jpg?v=1701831991",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-7d105aec757d",
@@ -3805,7 +6290,23 @@
         "SKU": "6108",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_4500_Socket_Am4_3.6GHz_box_processor-c.jpg?v=1704690801"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_4500_Socket_Am4_3.6GHz_box_processor-c.jpg?v=1704690801",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-f6645487f9b2",
@@ -3830,7 +6331,23 @@
         "SKU": "245",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/666-a.jpg?v=1587436372"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/666-a.jpg?v=1587436372",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-b1cba72c8fb1",
@@ -3857,7 +6374,23 @@
         "SKU": "9776",
         "Availability": "in_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/9776-a.png?v=1744039856"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/9776-a.png?v=1744039856",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-10ade5d15660",
@@ -3883,7 +6416,23 @@
         "SKU": "2724",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2724-a.jpg?v=1634697344"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2724-a.jpg?v=1634697344",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-0f1deab52d41",
@@ -3910,7 +6459,23 @@
         "SKU": "10110",
         "Availability": "in_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/61Euidn_WPL._AC_SX466.jpg?v=1758071990"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/61Euidn_WPL._AC_SX466.jpg?v=1758071990",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-05a95e90d9db",
@@ -3935,7 +6500,23 @@
         "SKU": "7260",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMDRyzen57500F-a.png?v=1694650148"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMDRyzen57500F-a.png?v=1694650148",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-a91470cb73bb",
@@ -3962,7 +6543,23 @@
         "SKU": "5915",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_4600G_Socket_Am4_3.7GHz_with_Radeon_Graphics_Processor_with_CPU_Cooler_Q100v2_MPK-a.jpg?v=1704248953"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_4600G_Socket_Am4_3.7GHz_with_Radeon_Graphics_Processor_with_CPU_Cooler_Q100v2_MPK-a.jpg?v=1704248953",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-36a71a9be2db",
@@ -3989,7 +6586,23 @@
         "SKU": "4453",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4453-a_fd11038f-d788-4c54-8097-fb7993b286fe.jpg?v=1641178026"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4453-a_fd11038f-d788-4c54-8097-fb7993b286fe.jpg?v=1641178026",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-92b8a272b3f2",
@@ -4014,7 +6627,23 @@
         "SKU": "6703",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_RYZEN_7_7800X3D-a.jpg?v=1696489322"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_RYZEN_7_7800X3D-a.jpg?v=1696489322",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 120,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-16ca7284a072",
@@ -4039,7 +6668,23 @@
         "SKU": "4763",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_3_4100_Socket_Am4_3.8GHz_with_Wraith_Stealth_Cooler_Processor_MPK-a.jpg?v=1702956246"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_3_4100_Socket_Am4_3.8GHz_with_Wraith_Stealth_Cooler_Processor_MPK-a.jpg?v=1702956246",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-dcb22b71ecd3",
@@ -4064,7 +6709,23 @@
         "SKU": "4146",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4146-a_ada28795-f015-4b17-819f-c1ad9a01e852.jpg?v=1634697623"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4146-a_ada28795-f015-4b17-819f-c1ad9a01e852.jpg?v=1634697623",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 35,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-d1ffabcde69c",
@@ -4089,7 +6750,23 @@
         "SKU": "243",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/664-a.jpg?v=1588506415"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/664-a.jpg?v=1588506415",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-4f45070fe27e",
@@ -4116,7 +6793,23 @@
         "SKU": "9086",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/9086_AMD_Ryzen_5_2400g_Socket_Am4_3.6ghz_MPK-b.png?v=1716365263"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/9086_AMD_Ryzen_5_2400g_Socket_Am4_3.6ghz_MPK-b.png?v=1716365263",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-bc1212f9608e",
@@ -4139,7 +6832,23 @@
         "SKU": "6304",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Athlon_200GE_Vega3_Socket_Am4_3.2ghz_Processor_AMD_FAN_MPK-a.jpg?v=1705025138"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Athlon_200GE_Vega3_Socket_Am4_3.2ghz_Processor_AMD_FAN_MPK-a.jpg?v=1705025138",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 35,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-db437b81309d",
@@ -4166,7 +6875,23 @@
         "SKU": "6671",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_5600G_Socket_Am4_3.9GHz_with_Radeon_Vega_7_Processor_with_AMD_OEM_Fan_MPK-a.jpg?v=1705566256"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_5600G_Socket_Am4_3.9GHz_with_Radeon_Vega_7_Processor_with_AMD_OEM_Fan_MPK-a.jpg?v=1705566256",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-5e472271a396",
@@ -4190,7 +6915,23 @@
         "SKU": "2753",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4112-a.jpg?v=1629731956"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4112-a.jpg?v=1629731956",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 95,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-9f6d36e61f3b",
@@ -4214,7 +6955,23 @@
         "SKU": "3288",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_9_5900X_Socket_AM4_3.7GHz_Processor-a.jpg?v=1701325627"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_9_5900X_Socket_AM4_3.7GHz_Processor-a.jpg?v=1701325627",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 105,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-c07bb7c0e567",
@@ -4240,7 +6997,23 @@
         "SKU": "8237",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_7_5700_3.7GHz_AM4_Socket_DDR4_Processor-a.png?v=1707723083"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_7_5700_3.7GHz_AM4_Socket_DDR4_Processor-a.png?v=1707723083",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-8ef2b439b951",
@@ -4266,7 +7039,23 @@
         "SKU": "6837",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_RYZEN_5_7600-a.jpg?v=1696476231"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_RYZEN_5_7600-a.jpg?v=1696476231",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-fdd9b039054a",
@@ -4292,7 +7081,23 @@
         "SKU": "5973",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_RYZEN_5_7600X_LGA_AM5_D5_4.7ghz_Processor-a.jpg?v=1704263900"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_RYZEN_5_7600X_LGA_AM5_D5_4.7ghz_Processor-a.jpg?v=1704263900",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 105,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-02c19a130daa",
@@ -4318,7 +7123,23 @@
         "SKU": "4565",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4565-a_f225eab6-cd1c-4348-a973-6913b6613ec6.jpg?v=1645179813"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4565-a_f225eab6-cd1c-4348-a973-6913b6613ec6.jpg?v=1645179813",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-11013a87bc46",
@@ -4343,7 +7164,23 @@
         "SKU": "949",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/949-a.png?v=1731403754"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/949-a.png?v=1731403754",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 105,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-502989d5577b",
@@ -4368,7 +7205,23 @@
         "SKU": "5647",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_4500_Socket_Am4_3.6GHz-a.jpg?v=1703829721"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_4500_Socket_Am4_3.6GHz-a.jpg?v=1703829721",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-28fecb1a0fd4",
@@ -4393,7 +7246,23 @@
         "SKU": "5639",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMDRyzen34100SocketAm43.8GHzBOX-Processor-a.jpg?v=1662594426"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMDRyzen34100SocketAm43.8GHzBOX-Processor-a.jpg?v=1662594426",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-f941dde4d761",
@@ -4417,7 +7286,23 @@
         "SKU": "6105",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_7_5800X3D_3.6ghz_AM4_Processor-a.jpg?v=1704438653"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_7_5800X3D_3.6ghz_AM4_Processor-a.jpg?v=1704438653",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 105,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-52d33048257a",
@@ -4441,7 +7326,23 @@
         "SKU": "3287",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_9_5950X_Socket_AM4_3.7GHz_Processor-a.jpg?v=1701386469"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_9_5950X_Socket_AM4_3.7GHz_Processor-a.jpg?v=1701386469",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 105,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-5d59f7486dd6",
@@ -4466,7 +7367,23 @@
         "SKU": "2252",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_3500_AM4_Socket_3.6GHz-a.jpg?v=1700796998"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_3500_AM4_Socket_3.6GHz-a.jpg?v=1700796998",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-8851bd3fa23c",
@@ -4492,7 +7409,23 @@
         "SKU": "9614",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMDRYZEN79800X3DAM5D55.2ghzwithRadeonGraphicsprocessor_4.png?v=1732600073"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMDRYZEN79800X3DAM5D55.2ghzwithRadeonGraphicsprocessor_4.png?v=1732600073",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 120,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-76f0a0438343",
@@ -4517,7 +7450,23 @@
         "SKU": "6840",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_RYZEN_9_7900X-c.jpg?v=1696475601"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_RYZEN_9_7900X-c.jpg?v=1696475601",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 170,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-4a59f0592b3e",
@@ -4541,7 +7490,23 @@
         "SKU": "2760",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4119-a.jpg?v=1629731035"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4119-a.jpg?v=1629731035",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 105,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-e11b4ac8434c",
@@ -4564,7 +7529,23 @@
         "SKU": "2322",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3434-a.jpg?v=1629729675"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3434-a.jpg?v=1629729675",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-334b5b3f4e79",
@@ -4589,7 +7570,23 @@
         "SKU": "1255",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2570-a.jpg?v=1689312500"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2570-a.jpg?v=1689312500",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 105,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-bb6d24acdc5a",
@@ -4615,7 +7612,23 @@
         "SKU": "9928",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/9928-a.png?v=1770061764"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/9928-a.png?v=1770061764",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 120,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-d57f2d88073a",
@@ -4640,7 +7653,23 @@
         "SKU": "9279",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMDRyzen95900XTSocketAM43.7GHzProcessor_2.png?v=1732599689"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMDRyzen95900XTSocketAM43.7GHzProcessor_2.png?v=1732599689",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 105,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-71d9666aa0d2",
@@ -4665,7 +7694,23 @@
         "SKU": "9280",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMDRyzen75800XTSocketAM43.8GHzProcessor_6.png?v=1730361266"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMDRyzen75800XTSocketAM43.8GHzProcessor_6.png?v=1730361266",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 105,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-84b5046acbc1",
@@ -4691,7 +7736,23 @@
         "SKU": "9383",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_9_9900X_4.4GHz_AM5_Socket_DDR5_Processor-a.png?v=1726039224"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_9_9900X_4.4GHz_AM5_Socket_DDR5_Processor-a.png?v=1726039224",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 120,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-5f0bcb55cbc5",
@@ -4717,7 +7778,23 @@
         "SKU": "9358",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_9_9950X_4.3GHz_AM5_Socket_DDR5_Processor-a.png?v=1726038980"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_9_9950X_4.3GHz_AM5_Socket_DDR5_Processor-a.png?v=1726038980",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 170,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-12669b0e9197",
@@ -4743,7 +7820,23 @@
         "SKU": "9357",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_7_9700X_3.8GHz_AM5_Socket_DDR5_Processor-a.png?v=1725957241"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_7_9700X_3.8GHz_AM5_Socket_DDR5_Processor-a.png?v=1725957241",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-63f6783b9a0e",
@@ -4769,7 +7862,23 @@
         "SKU": "9356",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_5_9600X_3.9GHz_AM5_Socket_DDR5_Processor-a.png?v=1725957137"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_5_9600X_3.9GHz_AM5_Socket_DDR5_Processor-a.png?v=1725957137",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-dd02dae87b69",
@@ -4796,7 +7905,23 @@
         "SKU": "8241",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_7_8700G_4.2GHz_AM5_Socket_DDR5_Processor-a.png?v=1707723578"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_7_8700G_4.2GHz_AM5_Socket_DDR5_Processor-a.png?v=1707723578",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-bf4adf99b08c",
@@ -4823,7 +7948,23 @@
         "SKU": "8240",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_5_8600G_4.3GHz_AM5_Socket_DDR5_Processor-a.png?v=1707723430"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_5_8600G_4.3GHz_AM5_Socket_DDR5_Processor-a.png?v=1707723430",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-575a40ca0a63",
@@ -4849,7 +7990,23 @@
         "SKU": "8239",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_5_8500G_3.5GHz_AM5_Socket_DDR5_Processor-a.png?v=1707723293"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_5_8500G_3.5GHz_AM5_Socket_DDR5_Processor-a.png?v=1707723293",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-8e0191dd4676",
@@ -4873,7 +8030,23 @@
         "SKU": "8238",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_7_5700X3D_3.0GHz_AM4_Socket_DDR4_Processor-a.png?v=1707723196"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_7_5700X3D_3.0GHz_AM4_Socket_DDR4_Processor-a.png?v=1707723196",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 105,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-70e2851f2169",
@@ -4900,7 +8073,23 @@
         "SKU": "8236",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_5_5600GT_3.6GHz_AM4_Socket_DDR4_Processor-a.png?v=1707723014"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_5_5600GT_3.6GHz_AM4_Socket_DDR4_Processor-a.png?v=1707723014",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-1cd237214caf",
@@ -4924,7 +8113,23 @@
         "SKU": "7788",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_7_5800X_Socket_AM4_3.8GHz_Processor_MPK-a.jpg?v=1702273275"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_Ryzen_7_5800X_Socket_AM4_3.8GHz_Processor_MPK-a.jpg?v=1702273275",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 105,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-2f7571301f93",
@@ -4950,7 +8155,23 @@
         "SKU": "6838",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_RYZEN_9_7950X-a.jpg?v=1694763819"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_RYZEN_9_7950X-a.jpg?v=1694763819",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 170,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-b6218c300780",
@@ -4977,7 +8198,23 @@
         "SKU": "6841",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_RYZEN_3_5300G-a.jpg?v=1696475306"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_RYZEN_3_5300G-a.jpg?v=1696475306",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-019d9402571b",
@@ -5002,7 +8239,23 @@
         "SKU": "6839",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_RYZEN_9_7900X3D-c.jpg?v=1696475881"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/AMD_RYZEN_9_7900X3D-c.jpg?v=1696475881",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 120,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-2055fba2256b",
@@ -5027,7 +8280,23 @@
         "SKU": "5629",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_3600_Socket_Am4_4.2ghz_Processor_with_AMD_Fan-a.jpg?v=1705544512"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Ryzen_5_3600_Socket_Am4_4.2ghz_Processor_with_AMD_Fan-a.jpg?v=1705544512",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-17a385bfb0a4",
@@ -5053,7 +8322,23 @@
         "SKU": "5974",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_RYZEN_7_7700X_LGA_AM5_D5_4.5ghz-a.jpg?v=1704327497"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_RYZEN_7_7700X_LGA_AM5_D5_4.5ghz-a.jpg?v=1704327497",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 105,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-73d0b3b23f49",
@@ -5077,7 +8362,23 @@
         "SKU": "5679",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Athlon_3000G_Vega_3_Socket_Am4_Processor-a.jpg?v=1703830217"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AMD_Athlon_3000G_Vega_3_Socket_Am4_Processor-a.jpg?v=1703830217",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 35,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-3e74c9ae90e5",
@@ -5102,7 +8403,23 @@
         "SKU": "4491",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4491-d_02b1caf1-84eb-444d-9fd6-9b8dc0972469.jpg?v=1643268381"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4491-d_02b1caf1-84eb-444d-9fd6-9b8dc0972469.jpg?v=1643268381",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-28e2bb4659b4",
@@ -5126,7 +8443,25 @@
         "SKU": "4490",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4490-d.jpg?v=1643268403"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4490-d.jpg?v=1643268403",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 35,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 0.7,
+        "warnings": [
+          "cpu_socket_missing"
+        ]
+      }
     },
     {
       "id": "cpu-easypc-d47038ab9e3a",
@@ -5149,7 +8484,25 @@
         "SKU": "2761",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4120-a.jpg?v=1629731040"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4120-a.jpg?v=1629731040",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 105,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 0.7,
+        "warnings": [
+          "cpu_socket_missing"
+        ]
+      }
     },
     {
       "id": "cpu-easypc-1e5783fd68d1",
@@ -5174,7 +8527,23 @@
         "SKU": "1547",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/518-a.jpg?v=1629729010"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/518-a.jpg?v=1629729010",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-b2ff8bb255ac",
@@ -5199,7 +8568,23 @@
         "SKU": "338",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/886-a.jpg?v=1588506636"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/886-a.jpg?v=1588506636",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 105,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-0af543e6b5cd",
@@ -5224,7 +8609,23 @@
         "SKU": "337",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/885-a.jpg?v=1588506634"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/885-a.jpg?v=1588506634",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-56c799995371",
@@ -5249,7 +8650,23 @@
         "SKU": "1268",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2588-a.jpg?v=1588508833"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2588-a.jpg?v=1588508833",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "sTRX4",
+          "tdpWatts": 280,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-64cd08c17af1",
@@ -5274,7 +8691,23 @@
         "SKU": "1267",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2587-a.jpg?v=1588508831"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2587-a.jpg?v=1588508831",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "sTRX4",
+          "tdpWatts": 280,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-774933cea5cf",
@@ -5299,7 +8732,23 @@
         "SKU": "336",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/884-a.jpg?v=1588506632"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/884-a.jpg?v=1588506632",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 95,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-6984dc97830c",
@@ -5323,7 +8772,23 @@
         "SKU": "7134",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/IntelCorei7-12700F-a.jpg?v=1689653740"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/IntelCorei7-12700F-a.jpg?v=1689653740",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-5ec86b96c961",
@@ -5349,7 +8814,23 @@
         "SKU": "3348",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/3348-a.png?v=1750232098"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/3348-a.png?v=1750232098",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "FP8",
+          "tdpWatts": 28,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-625410cf1fbb",
@@ -5375,7 +8856,23 @@
         "SKU": "3347",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/3347-a.png?v=1750232017"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/3347-a.png?v=1750232017",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "FP8",
+          "tdpWatts": 28,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-easypc-4909cdc2b15b",
@@ -5401,7 +8898,23 @@
         "SKU": "9732",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/9732-a.png?v=1743746158"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/9732-a.png?v=1743746158",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-a82e642236c4",
@@ -5427,7 +8940,23 @@
         "Max Temp": "95°C",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-39b7db3d54ca",
@@ -5452,7 +8981,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1200",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-3b9aa6c02daf",
@@ -5474,7 +9019,23 @@
         "Unlocked": "Yes",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-5a384e8a4fb3",
@@ -5501,7 +9062,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1151",
+          "tdpWatts": 51,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-c36c1efc485f",
@@ -5528,7 +9105,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1151",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-e16c5ba3565c",
@@ -5554,7 +9147,23 @@
         "Max Temp": "95°C",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-bfda9b9e7638",
@@ -5582,7 +9191,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 60,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-2a748efa7d2b",
@@ -5610,7 +9235,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 60,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-3d73058ca9de",
@@ -5636,7 +9277,23 @@
         "Max Temp": "95°C",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-89442b8c9109",
@@ -5661,7 +9318,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1200",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-8a702668bec3",
@@ -5686,7 +9359,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1200",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-e9fd7bbd32bd",
@@ -5714,7 +9403,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 60,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-9bd68b6e06a9",
@@ -5742,7 +9447,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-b24bc05e8c95",
@@ -5769,7 +9490,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1200",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-da4f95d7aa65",
@@ -5797,7 +9534,23 @@
         "Series": "Series 2",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1851",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-8cf3284df854",
@@ -5824,7 +9577,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1200",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-c487d0722517",
@@ -5851,7 +9620,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-9fea79d8b292",
@@ -5880,7 +9665,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-dc6ecfa944fc",
@@ -5906,7 +9707,23 @@
         "Series": "Series 2",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1851",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-c1886d7175c5",
@@ -5934,7 +9751,23 @@
         "Series": "Series 2",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1851",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-75f9e0c3ce39",
@@ -5959,7 +9792,23 @@
         "Max Temp": "95°C",
         "Availability": "unknown"
       },
-      "imageUrl": null
+      "imageUrl": null,
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 105,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-b852b273eca1",
@@ -5986,7 +9835,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": "https://villman.com/product_photos/intel_i5-9600k.gif"
+      "imageUrl": "https://villman.com/product_photos/intel_i5-9600k.gif",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1151",
+          "tdpWatts": 95,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-7f4c1a8e037b",
@@ -6013,7 +9878,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": "https://villman.com/product_photos/i710700_kqqwb.gif"
+      "imageUrl": "https://villman.com/product_photos/i710700_kqqwb.gif",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1200",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-cb4bb436aac2",
@@ -6042,7 +9923,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": "https://villman.com/product_photos/ezgif-3-a3ac2dfed07d_id4ho_tqhw9.gif"
+      "imageUrl": "https://villman.com/product_photos/ezgif-3-a3ac2dfed07d_id4ho_tqhw9.gif",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-1410e3576b47",
@@ -6071,7 +9968,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": "https://villman.com/product_photos/ezgif-6-c0552db1737e_drfrh.gif"
+      "imageUrl": "https://villman.com/product_photos/ezgif-6-c0552db1737e_drfrh.gif",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-66d4e0e7e391",
@@ -6100,7 +10013,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": "https://villman.com/product_photos/ezgif-4-7659920198_980y8.gif"
+      "imageUrl": "https://villman.com/product_photos/ezgif-4-7659920198_980y8.gif",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-b4febf514b55",
@@ -6127,7 +10056,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": "https://villman.com/product_photos/10700k_w2v93.gif"
+      "imageUrl": "https://villman.com/product_photos/10700k_w2v93.gif",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1200",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-47b050725e90",
@@ -6152,7 +10097,23 @@
         "Max Temp": "95°C",
         "Availability": "unknown"
       },
-      "imageUrl": "https://villman.com/product_photos/ezgif-2-0e5a6aa994_ly1vy.gif"
+      "imageUrl": "https://villman.com/product_photos/ezgif-2-0e5a6aa994_ly1vy.gif",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM5",
+          "tdpWatts": 105,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-0ba3418fe6ce",
@@ -6178,7 +10139,23 @@
         "Series": "Series 2",
         "Availability": "unknown"
       },
-      "imageUrl": "https://villman.com/product_photos/cu7_etd4q.jpg"
+      "imageUrl": "https://villman.com/product_photos/cu7_etd4q.jpg",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1851",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-edd71ac4f06b",
@@ -6206,7 +10183,23 @@
         "Series": "Series 2",
         "Availability": "unknown"
       },
-      "imageUrl": "https://villman.com/product_photos/cu7_sw72p.jpg"
+      "imageUrl": "https://villman.com/product_photos/cu7_sw72p.jpg",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1851",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-a12ae04be5e4",
@@ -6228,7 +10221,25 @@
         "Max Temp": "95°C",
         "Availability": "unknown"
       },
-      "imageUrl": "https://villman.com/product_photos/3900xt_xxaym.gif"
+      "imageUrl": "https://villman.com/product_photos/3900xt_xxaym.gif",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "AM4",
+          "tdpWatts": 105,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 0.7,
+        "warnings": [
+          "cpu_socket_missing"
+        ]
+      }
     },
     {
       "id": "cpu-villman-9257cd1ab018",
@@ -6255,7 +10266,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": "https://villman.com/product_photos/ezgif-4-0b93ec0e73_i3psu.gif"
+      "imageUrl": "https://villman.com/product_photos/ezgif-4-0b93ec0e73_i3psu.gif",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-94b40280d877",
@@ -6282,7 +10309,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": "https://villman.com/product_photos/gvertgfgf_1600x-ezgif_c4nd0.jpg"
+      "imageUrl": "https://villman.com/product_photos/gvertgfgf_1600x-ezgif_c4nd0.jpg",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-2710b8581df9",
@@ -6309,7 +10352,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": "https://villman.com/product_photos/ezgif-2-268e69088d86_gwscm.gif"
+      "imageUrl": "https://villman.com/product_photos/ezgif-2-268e69088d86_gwscm.gif",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1200",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-30bfc41437d9",
@@ -6338,7 +10397,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": "https://villman.com/product_photos/gif2_95z6o.gif"
+      "imageUrl": "https://villman.com/product_photos/gif2_95z6o.gif",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 65,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-ecbef91a224c",
@@ -6365,7 +10440,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": "https://villman.com/product_photos/gif_zb7zf.gif"
+      "imageUrl": "https://villman.com/product_photos/gif_zb7zf.gif",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": ""
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-91a39612dc48",
@@ -6394,7 +10485,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": "https://villman.com/product_photos/ezgif-4-0b93ec0e73_jq0k5.gif"
+      "imageUrl": "https://villman.com/product_photos/ezgif-4-0b93ec0e73_jq0k5.gif",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-caa54c77d3b1",
@@ -6423,7 +10530,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": "https://villman.com/product_photos/gif_krrwl.gif"
+      "imageUrl": "https://villman.com/product_photos/gif_krrwl.gif",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-7814a97b6a00",
@@ -6450,7 +10573,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": "https://villman.com/product_photos/ezgif-6-08a19267b845_rcx5o.gif"
+      "imageUrl": "https://villman.com/product_photos/ezgif-6-08a19267b845_rcx5o.gif",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1200",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR4"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     },
     {
       "id": "cpu-villman-f1c265a418dc",
@@ -6479,7 +10618,23 @@
         "Series": "N/A",
         "Availability": "unknown"
       },
-      "imageUrl": "https://villman.com/product_photos/gif_8vkes.gif"
+      "imageUrl": "https://villman.com/product_photos/gif_8vkes.gif",
+      "normalized": {
+        "category": "cpu",
+        "data": {
+          "socket": "LGA1700",
+          "tdpWatts": 125,
+          "memoryTypesSupported": [
+            "DDR5"
+          ],
+          "integratedGraphics": true
+        }
+      },
+      "parseMeta": {
+        "parserVersion": "1.0.0",
+        "confidence": 1,
+        "warnings": []
+      }
     }
   ]
 }
