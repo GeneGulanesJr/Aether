@@ -166,7 +166,6 @@ export function BuilderPage() {
   }, [state.step])
 
   const score = useMemo(() => buildScore(state.selectedParts), [state.selectedParts])
-  const filledCount = useMemo(() => Object.keys(state.selectedParts).length, [state.selectedParts])
 
   // Budget-aware part filtering for guided mode
   const budgetFilter = useMemo(() => {

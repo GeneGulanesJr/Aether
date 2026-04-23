@@ -12,7 +12,6 @@
 import { useState, useMemo, useEffect } from 'react'
 import type { Part, PriceEntry, BuildSlotCategory } from '../../lib/types'
 import type { UseBuildResult } from '../../hooks/useBuild'
-import { FilterPanel } from '../catalog/FilterPanel'
 import { usePartFilters, extractModelKey, simplifyPartName, type SortField } from '../../hooks/usePartFilters'
 import { formatPhp } from '../../lib/format'
 
@@ -493,6 +492,15 @@ export function MarketplaceApp({
             ))}
           </select>
         )}
+        <select
+          value={filters.filters.stock}
+          onChange={(e) => filters.setFilter('stock', e.target.value)}
+          className="xai-input !py-1 !px-2 !text-[0.5625rem]"
+        >
+          <option value="">Stock</option>
+          <option value="in_stock">In Stock</option>
+          <option value="out_of_stock">Out of Stock</option>
+        </select>
         <span className="font-mono text-[0.4375rem] text-xai-text-4 mx-1">|</span>
         {([
           ['name', 'Name'],

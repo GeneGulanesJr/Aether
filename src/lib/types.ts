@@ -112,4 +112,5 @@ export interface PartFilters {
   priceMin: string
   priceMax: string
   coreCount: string
+  stock: string
 }

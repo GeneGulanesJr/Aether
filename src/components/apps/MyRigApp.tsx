@@ -169,7 +169,6 @@ export function MyRigApp({ build, parts, priceByPartId, priceEntries, onPreviewP
 
 function Breadcrumb({ view }: { view: Exclude<InlineView, { kind: 'slots' }> }) {
   const categoryLabel = view.category.replace('_', ' ').toUpperCase()
-  const vendorInfo = VENDORS.find((v) => v.id === view.vendor)
   const steps = [
     { label: 'VENDOR', active: view.kind === 'vendor' },
     { label: 'PLATFORM', active: view.kind === 'socket' },

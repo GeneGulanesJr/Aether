@@ -10,6 +10,7 @@ import { Window } from './Window'
 import { WindowErrorBoundary } from './WindowErrorBoundary'
 import { TopBar } from './TopBar'
 import { Taskbar } from './Taskbar'
+import { Onboarding } from './Onboarding'
 import type { Part, PriceEntry } from '../../lib/types'
 import type { UseBuildResult } from '../../hooks/useBuild'
 
@@ -52,11 +53,6 @@ function DesktopInner({ parts, priceByPartId, priceEntries, build }: DesktopProp
     updatePosition(winId, window.innerWidth - marketplaceWidth - margin, 44)
   }, [openWindow, updatePosition, getWindowByType, closeWindow])
 
-  // Close marketplace after part selection
-  const closeMarketplace = useCallback(() => {
-    const win = getWindowByType('marketplace')
-    if (win) closeWindow(win.id)
-  }, [getWindowByType, closeWindow])
 
   const renderWindowContent = (win: typeof state.windows[0]) => {
     switch (win.appType) {
@@ -190,6 +186,9 @@ function DesktopInner({ parts, priceByPartId, priceEntries, build }: DesktopProp
           </Window>
         ))}
       </div>
+
+      {/* Onboarding — shown on first visit with empty build */}
+      {build.selectedCount === 0 && <Onboarding />}
 
       {/* Taskbar */}
       <Taskbar />

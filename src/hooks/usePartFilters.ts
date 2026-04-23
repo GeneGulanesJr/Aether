@@ -287,6 +287,7 @@ export interface PartFilters {
   priceMin: string
   priceMax: string
   coreCount: string
+  stock: string
 }
 
 export type SortField = 'name' | 'price' | 'cores'
@@ -350,6 +351,7 @@ const EMPTY_FILTERS: PartFilters = {
   priceMin: '',
   priceMax: '',
   coreCount: '',
+  stock: '',
 }
 
 const DEFAULT_SORT: SortConfig = { field: 'name', dir: 'asc' }
@@ -478,6 +480,13 @@ export function usePartFilters(parts: Part[], opts?: UsePartFiltersOptions): Use
         return false
       }
 
+      // Stock filter
+      if (filters.stock) {
+        const availability = (getSpec(part.specs, 'availability') || getSpec(part.specs, 'Availability') || '').toLowerCase()
+        if (filters.stock === 'in_stock' && availability !== 'in_stock') return false
+        if (filters.stock === 'out_of_stock' && availability !== 'out_of_stock') return false
+      }
+
       return true
     })
   }, [sourceParts, filters, priceByPartId, priceToNum])
@@ -519,7 +528,7 @@ export function usePartFilters(parts: Part[], opts?: UsePartFiltersOptions): Use
   }, [])
 
   const hasActiveFilters = Boolean(
-    filters.search || filters.category || filters.brand || filters.socket || filters.priceMin || filters.priceMax || filters.coreCount
+    filters.search || filters.category || filters.brand || filters.socket || filters.priceMin || filters.priceMax || filters.coreCount || filters.stock
   )
 
   return {

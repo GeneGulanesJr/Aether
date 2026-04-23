@@ -171,7 +171,6 @@ function estimateCoolerWatts(specs: Record<string, string>): number {
 
 function estimateFanWatts(specs: Record<string, string>): number {
   // Case fans: ~2-5W per fan
-  const name = (specs.name ?? specs.model ?? '').toLowerCase()
   const count = parseInt(specs.count ?? specs.quantity ?? '1') || 1
   return count * 3
 }
