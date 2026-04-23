@@ -456,4 +456,123 @@ function processFile(filename, enrichFn) {
 processFile('catalog_cpu.json', enrichCpu)
 processFile('catalog_motherboard.json', enrichMotherboard)
 processFile('catalog_gpu.json', enrichGpu)
+
+// ═══════════════════════════════════════════════════════════════════════════
+// Normalization pass
+// ═══════════════════════════════════════════════════════════════════════════
+
+console.log('\nRunning normalization pass...')
+
+function addNormalizedFields(items, category) {
+ for (const item of items) {
+   const specs = item.specs || {}
+   const name = item.name || ''
+   try {
+     if (category === 'cpu') {
+       const r = normalizeCpuForEnrich(specs, name)
+       item.normalized = r.normalized
+       item.parseMeta = r.meta
+     } else if (category === 'motherboard') {
+       const r = normalizeMbForEnrich(specs, name)
+       item.normalized = r.normalized
+       item.parseMeta = r.meta
+     } else if (category === 'gpu') {
+       const r = normalizeGpuForEnrich(specs, name)
+       item.normalized = r.normalized
+       item.parseMeta = r.meta
+     }
+   } catch (e) {
+     // Don't break the build for one item
+   }
+ }
+}
+
+function normalizeCpuForEnrich(specs, name) {
+  const warnings = []
+  const socket = specs.Socket || specs.socket || ''
+  const tdpWatts = parseInt((specs.TDP || specs.tdp || '').replace(/[^\d]/g, '')) || 0
+  const memRaw = (specs['Memory Type'] || '').toUpperCase()
+  const memoryType = memRaw.includes('DDR5') ? 'DDR5' : 'DDR4'
+  const igRaw = specs['Integrated GPU'] || ''
+  const integratedGraphics = igRaw && !/none|no|n\/a/i.test(igRaw)
+  const memoryTypesSupported = [memoryType]
+  if (socket === 'AM5' || socket === 'LGA1700' || socket === 'LGA1851') {
+    if (!memoryTypesSupported.includes('DDR5')) memoryTypesSupported.push('DDR5')
+  }
+  if (!socket) warnings.push('cpu_socket_missing')
+  if (tdpWatts === 0) warnings.push('cpu_tdp_missing')
+  return {
+    normalized: {
+      category: 'cpu',
+      data: { socket: socket || 'AM4', tdpWatts, memoryTypesSupported, integratedGraphics }
+    },
+    meta: { parserVersion: '1.0.0', confidence: warnings.length === 0 ? 1 : 0.7, warnings }
+  }
+}
+
+function normalizeMbForEnrich(specs, name) {
+  const warnings = []
+  const socket = specs.socket || specs.Socket || ''
+  const chipset = specs.chipset || specs.Chipset || ''
+  const ramRaw = (specs.ram || '').toUpperCase()
+  const memoryType = ramRaw.includes('DDR5') ? 'DDR5' : 'DDR4'
+  let formFactor = 'ATX'
+  const nameL = name.toLowerCase()
+  if (/mini.?itx/i.test(nameL)) formFactor = 'Mini-ITX'
+  else if (/micro.?atx|m.?atx/i.test(nameL)) formFactor = 'Micro-ATX'
+  else if (/e.?atx/i.test(nameL)) formFactor = 'E-ATX'
+  if (!socket) warnings.push('mb_socket_missing')
+  if (!chipset) warnings.push('mb_chipset_missing')
+  return {
+    normalized: {
+      category: 'motherboard',
+      data: {
+        socket: socket || 'AM4', chipset, formFactor, memoryType,
+        memorySlots: formFactor === 'Mini-ITX' ? 2 : 4,
+        maxMemoryGb: (formFactor === 'Mini-ITX' ? 2 : 4) * 48,
+        m2Slots: 1, sataPorts: 4, pcieX16Slots: 1,
+      }
+    },
+    meta: { parserVersion: '1.0.0', confidence: warnings.length === 0 ? 1 : 0.7, warnings }
+  }
+}
+
+function normalizeGpuForEnrich(specs, name) {
+  const warnings = []
+  const vram = parseInt(specs.vram || specs.VRAM || '') || 0
+  if (vram === 0) warnings.push('gpu_vram_missing')
+  const nameL = name.toLowerCase()
+  let powerDrawWatts = 200
+  if (vram >= 16) powerDrawWatts = 300
+  else if (vram >= 12) powerDrawWatts = 250
+  else if (vram >= 8) powerDrawWatts = 200
+  else if (vram >= 6) powerDrawWatts = 160
+  else powerDrawWatts = 120
+  const powerConnectors = (nameL.includes('4090') || /12vhpwr/i.test(nameL)) ? ['12VHPWR'] : ['8-pin']
+  return {
+    normalized: {
+      category: 'gpu',
+      data: { vramGb: vram, powerDrawWatts, powerConnectors }
+    },
+    meta: { parserVersion: '1.0.0', confidence: warnings.length === 0 ? 1 : 0.7, warnings }
+  }
+}
+
+// Re-read enriched files and add normalized fields
+const cpuOut = JSON.parse(readFileSync(join(DATA, 'catalog_cpu.json'), 'utf-8'))
+const mbOut = JSON.parse(readFileSync(join(DATA, 'catalog_motherboard.json'), 'utf-8'))
+const gpuOut = JSON.parse(readFileSync(join(DATA, 'catalog_gpu.json'), 'utf-8'))
+
+addNormalizedFields(cpuOut.items, 'cpu')
+addNormalizedFields(mbOut.items, 'motherboard')
+addNormalizedFields(gpuOut.items, 'gpu')
+
+writeFileSync(join(DATA, 'catalog_cpu.json'), JSON.stringify(cpuOut, null, 2) + '\n')
+writeFileSync(join(DATA, 'catalog_motherboard.json'), JSON.stringify(mbOut, null, 2) + '\n')
+writeFileSync(join(DATA, 'catalog_gpu.json'), JSON.stringify(gpuOut, null, 2) + '\n')
+
+console.log(`  CPU: ${cpuOut.items.filter(i => i.normalized).length}/${cpuOut.items.length} normalized`)
+console.log(`  MB: ${mbOut.items.filter(i => i.normalized).length}/${mbOut.items.length} normalized`)
+console.log(`  GPU: ${gpuOut.items.filter(i => i.normalized).length}/${gpuOut.items.length} normalized`)
+
 console.log('\nDone.')

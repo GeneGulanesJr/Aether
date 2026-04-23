@@ -4,13 +4,17 @@
  */
 
 import { getSpec } from '../../lib/types'
+import { checkBuildCompatibility } from '../../lib/normalized/compatibility'
 
 import type { BuildSlot } from '../../lib/types'
 import type { WattageEstimate } from '../../lib/wattageEstimator'
 
 export type CompatibilityIssue = {
   /** Machine-readable issue code */
-  code: 'socket_mismatch' | 'form_factor' | 'wattage_exceeded' | 'wattage_tight' | 'no_psu' | 'ram_gen_mismatch' | 'generic'
+  code: 'socket_mismatch' | 'form_factor' | 'wattage_exceeded' | 'wattage_tight'
+    | 'no_psu' | 'ram_gen_mismatch' | 'ram_slot_exceeded' | 'ram_speed_downclock'
+    | 'cooler_socket_mismatch' | 'cooler_height' | 'cooler_height_tight'
+    | 'gpu_case_length' | 'generic'
   /** Human-readable description */
   message: string
   /** Severity level */
@@ -25,14 +29,18 @@ type CompatibilityCheckerProps = {
 
 /**
  * Check compatibility between selected parts.
- * Returns a list of issues found.
+ * Uses normalized fields when available, falls back to raw specs.
  */
 function checkCompatibility(slots: BuildSlot[]): CompatibilityIssue[] {
+  // Try the new normalized engine first
+  const normalizedIssues = checkBuildCompatibility(slots)
+  if (normalizedIssues.length > 0) return normalizedIssues
+
+  // Fallback: raw specs socket check (for parts without normalized data)
   const issues: CompatibilityIssue[] = []
   const getPart = (cat: string) =>
     slots.find((s) => s.category === cat)?.part
 
-  // Socket match
   const cpu = getPart('cpu')
   const mobo = getPart('motherboard')
 
@@ -48,9 +56,6 @@ function checkCompatibility(slots: BuildSlot[]): CompatibilityIssue[] {
       })
     }
   }
-
-  // PSU wattage check
-  // Import is done at the component level to avoid circular deps
 
   return issues
 }

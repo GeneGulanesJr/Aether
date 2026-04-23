@@ -1,4 +1,6 @@
-/** Domain types for PC Builder (PH). Scaffold only — expand in a later phase. */
+import type { NormalizedData, ParseMeta } from './normalized/types'
+
+/** Domain types for PC Builder (PH). */
 
 export type BuildSlotCategory =
   | 'cpu'
@@ -17,6 +19,8 @@ export interface Part {
   name: string
   category: string
   specs: Record<string, string>
+  normalized?: NormalizedData
+  parseMeta?: ParseMeta
   imageUrl?: string | null
 }
 
