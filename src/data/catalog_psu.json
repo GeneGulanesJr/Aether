@@ -1381,39 +1381,6 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/h732_9f953023-62e2-4baf-9e29-8c9000afb804.jpg?v=1676882060"
     },
     {
-      "id": "psu-datablitz-000000001255",
-      "name": "Cooler Master MWE Gold 750 V2 Full Modular Power Supply",
-      "category": "psu",
-      "specs": {
-        "Brand": "Cooler Master",
-        "SKU": "0884102078781",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/mwe-gold-750-v2-full-modular-gallery-1-zoom.jpg?v=1676879376"
-    },
-    {
-      "id": "psu-datablitz-000000002007",
-      "name": "Cooler Master MWE GOLD 850 V2 Full Modular ATX Power Supply",
-      "category": "psu",
-      "specs": {
-        "Brand": "Cooler Master",
-        "SKU": "0884102078606",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/mwe-gold-850-v2-full-modular-gallery-1-image.jpg?v=1676879403"
-    },
-    {
-      "id": "psu-datablitz-000000006d77",
-      "name": "Cooler Master MWE 750 Bronze V2 230V Power Supply",
-      "category": "psu",
-      "specs": {
-        "Brand": "Cooler Master",
-        "SKU": "0884102076848",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/mwe-750-bronze-v2-230v-gallery-1-image.jpg?v=1676879403"
-    },
-    {
       "id": "psu-datablitz-000000007520",
       "name": "Deepcool PF550 ATX Switching Power Supply (R-PF550D-HA0B-US)",
       "category": "psu",

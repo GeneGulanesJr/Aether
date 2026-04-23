@@ -38,24 +38,51 @@ for (let i = 0; i < process.argv.length; i++) {
 }
 
 // ── Category normalization ─────────────────────────────────────────────
-// Mirrors spider-to-d1.mjs category rules.
+// Mirrors spider-to-d1.mjs category rules. ORDER MATTERS - more specific first!
 
 const CATEGORY_RULES = [
-  [/processor/i, 'cpu'], [/cpus?/i, 'cpu'], [/ryzen/i, 'cpu'],
+  // CPU Cooler (check BEFORE CPU to avoid misclassification)
+  [/cooler|cooling/i, 'cpu_cooler'],
+  [/fan/i, 'cpu_cooler'],
+  [/liquid\s*cool/i, 'cpu_cooler'],
+  [/aio/i, 'cpu_cooler'],
+  [/heatsink|heat sink/i, 'cpu_cooler'],
+  // CPU
+  [/processor/i, 'cpu'],
+  [/cpus?/i, 'cpu'],
+  [/ryzen/i, 'cpu'],
   [/intel.*core/i, 'cpu'],
-  [/video\s*card/i, 'gpu'], [/graphic\s*card/i, 'gpu'], [/gpu/i, 'gpu'],
-  [/graphics\s*card/i, 'gpu'], [/vga/i, 'gpu'],
-  [/motherboard/i, 'motherboard'], [/mobo/i, 'motherboard'],
-  [/memory/i, 'ram'], [/ram/i, 'ram'], [/ddr[345]/i, 'ram'],
+  // GPU
+  [/video\s*card/i, 'gpu'],
+  [/graphic\s*card/i, 'gpu'],
+  [/gpu/i, 'gpu'],
+  [/graphics\s*card/i, 'gpu'],
+  [/vga/i, 'gpu'],
+  // Motherboard
+  [/motherboard/i, 'motherboard'],
+  [/mobo/i, 'motherboard'],
+  // RAM
+  [/memory/i, 'ram'],
+  [/ram/i, 'ram'],
+  [/ddr[345]/i, 'ram'],
   [/so-?dimm/i, 'ram'],
-  [/ssd/i, 'storage'], [/hdd/i, 'storage'], [/hard\s*drive/i, 'storage'],
-  [/nvme/i, 'storage'], [/storage/i, 'storage'],
-  [/psu/i, 'psu'], [/power\s*supply/i, 'psu'], [/power\s*unit/i, 'psu'],
-  [/case/i, 'case'], [/chassis/i, 'case'], [/casing/i, 'case'],
-  [/cooler/i, 'cpu_cooler'], [/fan/i, 'cpu_cooler'],
-  [/liquid\s*cool/i, 'cpu_cooler'], [/aio/i, 'cpu_cooler'],
-  [/heatsink/i, 'cpu_cooler'],
-  [/monitor/i, 'monitor'], [/display/i, 'monitor'],
+  // Storage
+  [/ssd/i, 'storage'],
+  [/hdd/i, 'storage'],
+  [/hard\s*drive/i, 'storage'],
+  [/nvme/i, 'storage'],
+  [/storage/i, 'storage'],
+  // PSU
+  [/psu/i, 'psu'],
+  [/power\s*supply/i, 'psu'],
+  [/power\s*unit/i, 'psu'],
+  // Case
+  [/case/i, 'case'],
+  [/chassis/i, 'case'],
+  [/casing/i, 'case'],
+  // Monitor
+  [/monitor/i, 'monitor'],
+  [/display/i, 'monitor'],
 ]
 
 // Categories the frontend cares about
