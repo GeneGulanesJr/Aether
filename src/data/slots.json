@@ -7,6 +7,8 @@
     { "id": "gpu", "category": "gpu", "label": "Graphics Card", "required": false, "order": 3 },
     { "id": "storage", "category": "storage", "label": "Storage", "required": true, "order": 4 },
     { "id": "psu", "category": "psu", "label": "Power Supply", "required": true, "order": 5 },
-    { "id": "case", "category": "case", "label": "Case", "required": false, "order": 6 }
+    { "id": "case", "category": "case", "label": "Case", "required": false, "order": 6 },
+    { "id": "cpu_cooler", "category": "cpu_cooler", "label": "CPU Cooler", "required": false, "order": 7 },
+    { "id": "monitor", "category": "monitor", "label": "Monitor", "required": false, "order": 8 }
   ]
 }

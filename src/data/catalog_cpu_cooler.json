@@ -1,0 +1,3953 @@
+{
+  "schemaVersion": "1.0",
+  "category": "cpu_cooler",
+  "items": [
+    {
+      "id": "cpu_cooler-ben-store-000000007e0b",
+      "name": "Fantech CHIMERA GM241AC 23.6\" Curved Gaming Monitor [144Hz]",
+      "category": "cpu_cooler",
+      "specs": {
+        "SKU": "5478",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/30097-home_default/fantech-chimera-gm241ac-236-curved-gaming-monitor-144-hz-.jpg"
+    },
+    {
+      "id": "cpu_cooler-ben-store-0000000029ba",
+      "name": "Fantech CHIMERA GM242AC 23.6\" Curved Gaming Monitor",
+      "category": "cpu_cooler",
+      "specs": {
+        "SKU": "5477",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/30089-home_default/fantech-chimera-gm242ac-236-curved-gaming-monitor.jpg"
+    },
+    {
+      "id": "cpu_cooler-ben-store-000000002616",
+      "name": "OPOLAR Laptop Fan Cooler with Temperature Display",
+      "category": "cpu_cooler",
+      "specs": {
+        "SKU": "3616",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/17183-home_default/opolar-laptop-fan-cooler-with-temperature-display.jpg"
+    },
+    {
+      "id": "cpu_cooler-ben-store-000000006261",
+      "name": "Fantech NC11 15.6\" Laptop Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "SKU": "6178",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/35019-home_default/fantech-nc11-156-laptop-cooler.jpg"
+    },
+    {
+      "id": "cpu_cooler-ben-store-00000000356b",
+      "name": "Razer Laptop Cooling Pad",
+      "category": "cpu_cooler",
+      "specs": {
+        "SKU": "6651",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/39022-home_default/razer-laptop-cooling-pad.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000001a55",
+      "name": "DarkFlash C6MS 3in1 | 5in1 Aurora Spectrum RGB Fan Pack Case Fans Pink/Neo Mint/Black/White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/01/dfb911483dedbc7c38bc6e869bc3208a-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000003e2b",
+      "name": "Tecware Omni P12 Triple Fan Pack aRGB 3in1 Case Fan Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/01/tecware-omni-p12-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000044ad",
+      "name": "DarkFlash DR12 PRO 3in1 ARGB Fans",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/tpc_20210922042549_1-1-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000004b7c",
+      "name": "IDCooling TF-12025 Single | Triple Fan ARGB Black | White Snow Fans",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/10/tf12025-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000001b9e",
+      "name": "Ocypus Gamma F12 120mm Case Fan – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/10/GAMMA-F12-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000005e6a",
+      "name": "DarkFlash C6 Single Fan (Black)",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/Darkflash-C6-pc-Computer-Case-Fan-RGB-tuning-colorful-fan-4PIN-Adjust-LED-120mm-radiator-argb-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000039e1",
+      "name": "Arctic P12 Slim PWM PST (Black/Black) PWM Static Pressure Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/12/P12-Slim-B-B-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000009e2",
+      "name": "DarkFlash DR12 PRO ARGB Single Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/tpc_20210922042549_0-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000003f6",
+      "name": "ARCTIC F12 PWM PST Case Fan (Black/Black) ACFAN00200A",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/71SMrJGn1gL._AC_SL1500_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000004bc9",
+      "name": "ARCTIC P12 Max 120 mm High-Speed PWM Case Fan – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/02/Arctic-p12-max-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000002e64",
+      "name": "IDCooling DF12025-ARGB Trio Case Fan CPU Cooling Fan Addressable RGB Case Fan 5V ARGB White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2020/11/9586-1-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000033da",
+      "name": "DarkFlash INFINITY 24 A-RGB Cooling Fan 3 in 1 – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/06/Infinity-24-btz-ph-10-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007cf7",
+      "name": "Deepcool FH-04 Fan Hub Control 4PWM Fan Speed Supports 3Pin/4Pin DP-F04PWM-HUB",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/51dSqhkao1L._SL1000_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000003a1e",
+      "name": "DarkFlash DM12F A-RGB Cooling Fan 3 in 1 Pack – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/09/Darkflash-Dm12-f-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000041dd",
+      "name": "Coolman Single Fan Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Coolman-12cm-Single-Fan-Enhance-btz-ph--300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000054ad",
+      "name": "Deepcool FC120 Triple Fan Pack 1800RPM PWM aRGB Case Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2018/10/Untitled-1-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000004ddd",
+      "name": "Deepcool RF120 FS 3in1 Triple Fan Pack DP-FLED3-RF120FS-3P",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/11/deepcool-rf120-fs-3xfan-rgb-led-casing-cooling-11602312525-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000000249",
+      "name": "Deepcool CF120 Plus 3x120MM PWM Fan A-RGB 3 in 1 Pack Fan DP-F12-AR-CF120P-3P",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/11/81FckVoyJL._SL1500_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000001d2f",
+      "name": "IDCooling FS-04 PWM 4 Fan Splitter",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/04/FS-04-PWM-Splitter-New-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000059ec",
+      "name": "Coolman CM-03 Infinity Mirror LED A-RGB Cooling Fans 3 in 1 – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/09/cm-03-infinity-3in1-black-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007df3",
+      "name": "DarkFlash C6 Single Fan (White)",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/735b66385af4abb2eca4aa08816a61b1-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007680",
+      "name": "IDCooling FS-04 ARGB 4 Fan Splitter",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/04/idcooling-fs04-ph-btz-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000036e9",
+      "name": "IDCooling FH07 PWM Fan Hub 7 Ports Splitter",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/12/fh07-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000001c06",
+      "name": "IDCooling AS-120-ARGB Trio K | W Case Fans",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/01/AS-120-ARGB-Trio-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000042f5",
+      "name": "Antec Prizm 120 ARGB 5PCS Plus C 120MM PC Case Fan with Fan Controller",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/01/ADV2D200926XZI2Z-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000047c6",
+      "name": "DeepCool 10 Port FH-10 Fan Hub Control DP-F10PWM-HUB",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/71BIREHK10L._SX450_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000009b8",
+      "name": "Ocypus Beta F12 ARGB PC Case Single Fan or Triple Fan – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/08/Beta-F12-ARGB-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000018d",
+      "name": "Lian Li Strimer Plus Triple V1 | V2 ARGB GPU Power Extension Cable",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/11/Untitled-1-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000002d2c",
+      "name": "ARCTIC P12 PWM PST A-RGB Semi-Passive 120 mm White Case Fans with Digital A-RGB – 3 in 1 Value Pack",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/09/P12-PWM-PST-A-RGB-0dB-White-btz-ph-1-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000004b9e",
+      "name": "Lian Li Strimer Plus Dual 8-Pin V1 | V2 ARGB GPU Power Extension Cable",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/11/strimer-dual-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007989",
+      "name": "Tecware Orbis F3 Triple Fan Pack Starter Kit",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/11/fans-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000004bb0",
+      "name": "Deepcool FL12 120mm 2150 RPM PWM Addressable RGB Case Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Deepcool-FL12-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000000f2e",
+      "name": "NZXT F120 RGB Fans Single | Triple Pack Advanced RGB Lighting Customization Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/nzxt-f120-black-white-e1672851436880-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000004c55",
+      "name": "Montech AX120 120mm PWM Case Fan – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/08/ax120-black-and-white-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000241e",
+      "name": "Coolman CM-03 Infinity Mirror LED A-RGB Cooling Fan – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/09/Cm03-white-and-black-btz-ph--300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000003e67",
+      "name": "ARCTIC BioniX F120 Gaming Case Fan (White/Black) ACFAN00093A",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/61B7j0zK4L._AC_SL1000_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007282",
+      "name": "Ocypus Beta F12 ARGB Reverse Blade Case Single or Triple Fan – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/08/Beta-F12-ARGB-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000001956",
+      "name": "NZXT F140 RGB Core Single Pack | Twin Pack Black | White 140MM RGB Fans + Controller ARGB",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/07/f140-rgb-core-btz-ph-5-64a8dc2a361ac-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000002d80",
+      "name": "Deepcool MF120 GT A-RGB X-Frame Triple Fan Pack Case Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/01/51DnMMBcviS._AC_SL1000_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000006b5b",
+      "name": "DarkFlash INFINITY 34 A-RGB 3 in 1 Cooling Fan – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/01/INF34-A-RGB-Cooling-Fan-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000006c88",
+      "name": "Be Quiet! Light Wings 120MM | 140MM PWM Triple Pack Black ARGB LED Rifle Bearing Tech",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/LIGHT-WINGS-140mm-Pwm-High-Speed-triple-fan-pack-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000039d0",
+      "name": "Deepcool FL12R 120mm 2150 RPM PWM Addressable RGB Reversed Fan Blade Case Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/04/FL12R-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000062cb",
+      "name": "AZZA Hurricane II 4in1 Fan Pack Digital RGB Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/AZZA-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000340a",
+      "name": "Lian Li Strimer L Connect 3 Control Lightning Effects, compatible with Strimer Plus & Strimer Plus V2",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/11/strimer-l-connect-3-control-lightning-effects-compatible-with-strimer-plus-strimer-plus-v2-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000003a23",
+      "name": "Noctua NF-F12 PWM Chromax Black Swap Premium Quiet Fan 4-Pin Cooling Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/03/91MLwJq7isL._AC_SL1500_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000000345",
+      "name": "Thermalright 120mm TL-C12C | TL-C12CW PWM Case Fan – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/08/TL-C12C-EXTREM-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000002d47",
+      "name": "ARCTIC F14 PWM PST CO Case Fan (Black/Black) ACFAN00080A",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/61-PKYf-XXL._AC_SL1200_-1-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007c38",
+      "name": "1stPlayer FC 3 in 1 120mm ARGB Case Fans with Remote and Hub FAN-1PL-FC-3-IN-1-BK | FAN-1PL-FC-3-IN-1-W",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/10/1st-player-FC-case-fans-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000003506",
+      "name": "NZXT AER RGB 2 120MM Single Pack Fan HF-28120-B1/BW",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/05/6153co8RJL._AC_SL1000_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000004ba9",
+      "name": "Phanteks M25-120 | M25-140 Fan High-Airflow Radiator Performance 1800RPM/2000RPM 3 Pack Fans Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/03/Phanteks-M25-120-D-RGB-fan-btz-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000000e64",
+      "name": "Arctic P12 Pro A-RGB 120 mm A-RGB PWM Fan – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/08/P12-Pro-A-RGB-120-mm-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000461f",
+      "name": "Ocypus Gamma F12 Elite ARGB Fan – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/08/Gamma-F12-Elite-ARGB-main-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000452f",
+      "name": "Lian-li Unifan AL V2 120 RGB 120mm Triple Fan Pack – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/UNI-FAN-AL-V2-btz-ph-6-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007cd4",
+      "name": "Ocypus Gamma F12 Uni ARGB 3in1 Cooling Fan – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/Ocypus-Gamma-F12-Uni-ARGB-3-in-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000257a",
+      "name": "DarkFlash C6 Single Fan (Pink)",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/DARKFLASH-PINK-C6-SINGLE-FAN-PACK-A-RGB-SINGLE-MODE-COOLING-FAN_530x@2x-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000003b3f",
+      "name": "Ocypus Delta F12 120MM ARGB PWM FAN – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/10/Delta-F12-ARGB-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000011f2",
+      "name": "ARCTIC BioniX P120 Gaming Case Fan (Grey/White) ACFAN00167A",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/bionix-p120-grey-white-g00-pst-icon-300x300.png"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000031ea",
+      "name": "IDCooling TF-12025-PRO ARGB TRIO Case Fans",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/10/IDcooling-TF-12025-PRO-ARGB-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000004149",
+      "name": "DeepCool SC700 12 Port ARGB Fan Hub R-SC700-BKNSNN-G",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/09/Deepcool-SC700-hub-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000013ac",
+      "name": "Arctic P12 PWM PST A-RGB Cooling Fan (White)",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/07/415227388_1054744209186191_3298970970981869256_n-26-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000048db",
+      "name": "Arctic P12 Pro A-RGB 3 Pack 120 mm A-RGB PWM Fans – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/08/P12-Pro-A-RGB-120-mm-btz-ph-100-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000003f30",
+      "name": "Thermaltake CT120 Black PC Cooling Fan 2 Pack Case Fans",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/04/CT120-PC-Cooling-fan-2-pack-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000005b99",
+      "name": "Ocypus Gamma F12 Elite ARGB 3in1 Fans – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/08/Gamma-F12-Elite-BK-ARGB-3-IN-1-btz-main-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000509b",
+      "name": "Deepcool MF 120GT 3x120MM aRGB LED X Frame Design Wide Range PWM Control 3PCS/Pack DP-GS-F12-AR-MF120GT-3P",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/10/MF120GT-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000005014",
+      "name": "Fractal Design Aspect 12 Single Chassis Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/11/Aspect-12-Black-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000227c",
+      "name": "DeepCool CF140 2in1 PWM Fan Kit 1x140mm DP-FA-RGB-CF140-2",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/07/01-39-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000004f64",
+      "name": "Cooler Master MasterFan MF120 Halo 2 Triple Fan Pack Kit White/Black 120MM ARGB Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/07/MASTERFAN-MF120-HALO²-btz-ph-7-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000000999",
+      "name": "ARCTIC BioniX P140 Gaming Case Fan (Grey/White)",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/61kLWYBTjlL._AC_SL1000_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000067f0",
+      "name": "Montech Z3 PRO ARGB PWM 3 IN 1 Triple Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/06/Z3-pro-3-in-1-btz-ph-1-copy-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007616",
+      "name": "Lian Li UNI FAN SL SL120 V2 Reverse Blade Case Fan – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/12/UNI-FAN-SL120-V2-REVERSE-BLADE-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000006c9",
+      "name": "Thermalright TL-C12C-S | TL-C12CW-S ARGB 120MM PWM Case Fans Triple Pack – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/08/Thermaright-TL-C12C-S-and-TL-C12CW-S-Case-Fans-btz-ph-010-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000005bb9",
+      "name": "Be quiet! Shadow Wings 2 Fan Black/White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2018/10/001-2-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000000e4e",
+      "name": "DarkFlash C6 Single Fan (NeoMint)",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/C6-MT-1-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000003c63",
+      "name": "Noctua NF-P12 Redux PWM High Performance Cooling Fan 3 Pin 900 RPM Grey",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/nfp12-300x300.jpeg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000002b88",
+      "name": "IDCooling AF-127 ARGB Single | Triple Fan ARGB Black | White Snow Premium Cooler and Case Fans",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/11/af-127-ph-btz-655f69fb2231c-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000025fa",
+      "name": "IDCooling TF-12025-ARGB Reverse Single Case Fans – Black | Snow",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/11/TF-12025-ARGB-reverse-btz-ph-black-1-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000070a9",
+      "name": "Aerocool 120mm FRGB Molex Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/f120-FRGB-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007839",
+      "name": "Ocypus Gamma F12 Elite ARGB Reverse Blade 3in1 Fans – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/08/Gamma-F12-Elite-BK-ARGB-3-IN-1-btz-main-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007afb",
+      "name": "Arctic Cooling P12 PWM PST CO (Black/Black) Case Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/07/415227388_1054744209186191_3298970970981869256_n-16-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000028e3",
+      "name": "Cooler Master SickleFlow 140 ARGB 140mm Square Frame Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/SickleFlow-120-ARGB-black-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000002961",
+      "name": "Phanteks M25-140 D-RGB Fan High-Airflow Radiator Performance 1800RPM, ARGB/DRGB Lighting 3 Pack Fans Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/PH-F120M25_DRGB_PWM_BK01_3P-ph-ph-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000003366",
+      "name": "Lian Li UNI FAN TL 120 Wireless ARGB Case Fans 120mm – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/UNI-FAN-TL-Wireless-non-lcd-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000000d38",
+      "name": "IDCooling AF-125-K Single | Trio PWM Case Fans",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/12/AF-125-k-btz-ph-1-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000052c6",
+      "name": "Arctic P14 Pro PST CO 140 mm PWM Fan for Continuous Operation",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/08/P12-Pro-PST-CO-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000106a",
+      "name": "1stPlayer INFINITE SPACE ARGB 120MM Case Fans with Remote and Hub FAN-1PL-FIS-COMBO-BK | FAN-1PL-FIS-COMBO-W",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/11/Infinite-Space-3-in-1-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007a37",
+      "name": "Deepcool FT12 120mm 2150 RPM Low Noise Case Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/08/FT12-black-and-White-BTZ-ph--300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000284e",
+      "name": "Ocypus Delta F12 BK | WH 3-IN-1 120mm PWM Performance Cooling Fans – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/09/Delta-F12-3-IN-1-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000070c",
+      "name": "Thermaltake Pure Plus 12cm RGB Radiator Fan TT Premium Ed. 3-Fan Pack",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2018/11/61Mt3xKAtCL._SL1388_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000037a6",
+      "name": "IDCooling AF-125-W Single | Trio PWM White Case Fans",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/06/AF-125-W-White-Case-Fans-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000050d4",
+      "name": "Lian Li UNI FAN SL Wireless 120 ARGB Case Fans",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/10/UNI-FAN-SL-Wireless-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000006728",
+      "name": "Deepcool Wind Pal Mini Notebook Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/03/61FI621PbtL._SL1500_-2-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000005841",
+      "name": "Deepcool N200 Notebook Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2018/10/01-1-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000004ca8",
+      "name": "Deepcool Multi Core X8 Aluminum panel, 4x100MM Fans, 2 USB Ports Notebook Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/10/multicore-x8-btz-ph-65383896aea6a-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007873",
+      "name": "Redragon Neurolink GCP513 180mm Fan USB Laptop Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2026/03/Redragon-Neurolink-GCP513-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000071cd",
+      "name": "Fantech NS10 Notebook Stand Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Fantech-NS10-Notebook-Stand-Black-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000003c86",
+      "name": "Fantech NC11 Laptop Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/fantech-nc11-156-laptop-cooler-copy-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000392e",
+      "name": "Darkflash G200 Plus Lightstrip with Adjustable Phone Holder Laptop Cooler – Silver",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/09/G200-Plus-Lightstrip-Laptop-Cooler-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000003dac",
+      "name": "Cooler Master Notepal X-Slim II Laptop Cooling Pad",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/Cooler-Master-Notepal-X-Slim-II-Laptop-Cooling-Pad-bermor-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007ba5",
+      "name": "DarkFlash G100 Design Aluminum Laptop Cooler Black | Silver",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/06/darkflash-g100-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000003ebe",
+      "name": "Deepcool Windpal FS up to 17″ Notebook Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/03/81tKSJcs6BL._SL1500_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000000f1a",
+      "name": "Deepcool Multicore X6 Notebook Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/03/41mlaweAADL._SX466_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000510f",
+      "name": "Deepcool N80 RGB Notebook Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2018/10/01-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000001064",
+      "name": "Redragon GCP511 Ingrid Laptop Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/10/GCP511-btz-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000000d81",
+      "name": "Deepcool 4″ N19 – Super Slim Type Laptop Cooler DP-N112-N19BK 1",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/deep-cool-dp-n112-n19bk-l5670878-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000669d",
+      "name": "Cooler Master Notepal X150 Spectrum LED Laptop Cooling Pad",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/Cooler-Master-Notepal-X150-Spectrum-LED-Laptop-Cooling-Pad-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000078af",
+      "name": "Cooler Master Notepal U2 Plus Laptop Cooling Pad Silver",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/Cooler-Master-Notepal-U2-Plus-Laptop-Cooling-Pad-Silver-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000004f34",
+      "name": "Deepcool N1 Black Notebook Cooling Pad",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/06/01-2-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000002d47",
+      "name": "Aula F63 Laptop Cooling Stand",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/Aula-F63-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000005d41",
+      "name": "Redragon GCP500 IVY Laptop Cooler Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/10/GCP500-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000002395",
+      "name": "Deepcool N9 EX Notebook Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/03/f98f2ddd9f404c0ba7e858d59c00d862-1-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000341a",
+      "name": "Deepcool Black Wind Pal Notebook Cooler DP-N242-WPALBK",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/06/01-1-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000025bd",
+      "name": "DEEPCOOL N65 Notebook Cooler Metal Panel Non-slip Pad",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/06/DEEPCOOL-N65-Notebook-Cooler-Metal-Panel-Non-slip-pad-Dual-140mm-fans-USB3-0-Laptop-Cooling.jpg_Q90.jpg_-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000003a53",
+      "name": "Aula F61 Laptop Cooling Stand",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/Aula-F61-btz-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000001f31",
+      "name": "Cooler Master Notepal I100 Silent Laptop Cooling Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/Cooler-Master-Notepal-I100-Silent-Laptop-Cooling-Fan-Photoroom-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007afa",
+      "name": "Cooler Master Notepal L1 Laptop Cooling Pad",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/Cooler-Master-Notepal-L1-Laptop-Cooling-Pad-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000002004",
+      "name": "Cooler Master Notepal X150R Laptop Cooling Pad",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/Cooler-Master-Notepal-X150R-Laptop-Cooling-Pad-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000004973",
+      "name": "UGREEN LP451 40289 Foldable Holder for Laptop Height adjustment Silver",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/UGREEN-LP451-40289-Foldable-Holder-for-Laptop-Height-adjustment-Silver-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000061d4",
+      "name": "Fantech NC20 RGB Laptop Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Fantech-NC20-RGB-Laptop-Cooler-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000008ef",
+      "name": "Redragon Windseeker RGB Turbo Fan Laptop Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/04/RD-GCP12-BTZ1.webp-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000001317",
+      "name": "Razer Protective Sleeve V2 – For 17.3″ Notebooks RC21-01590100-R3M1",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/MAIN@-300x300.png"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000006e70",
+      "name": "NZXT F140P – 140mm Static Pressure Fans – Single White Fluid Dynamic Bearing FDB, PWM Fan, 500 – 1,500 ± 300RPM",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/NZXT-F140P-–-140mm-Static-Pressure-Fans-–-Single-White-Fluid-Dynamic-Bearing-btz-ph-1-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000031a1",
+      "name": "Arctic P8 Slim PWM PST Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/Arctic-slim-fan-btz-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007515",
+      "name": "Arctic P14 PWM PST A-RGB Cooling Fan (3 Pack) – Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/07/415227388_1054744209186191_3298970970981869256_n-25-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000004529",
+      "name": "1stPlayer Diamond M1-D ARGB 3 in 1 120mm Case Fans with Remote and Hub FAN-1PL-M1-D-COMBO-BK | FAN-1PL-M1-D-COMBO-W",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/01/1stplayer-M1-D-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000035cc",
+      "name": "Ocypus Delta F12 BK | WH 120mm PWM Performance Cooling Fan – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/09/Delta-F12-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000005ae9",
+      "name": "Cougar Hydraulic Vortex ARGB FCB 120MM Triple Fan Cooling",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/1-800x800-1-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007e39",
+      "name": "Gamdias AEOLUS M3-1203R 3 Pack Combo Bundle Case Fans",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/08/aeolus-m3-120r-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000003f56",
+      "name": "Thermalright Fan Hub Controller REV .A",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/08/Thermalright-Controller-Rev.A-fan-hub-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000003c50",
+      "name": "Thermalright Fan ARGB Hub Controller REV.A",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/08/ARGB-HUB-Controller-Rev.A-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007f5c",
+      "name": "Fractal Design Aspect 12 RGB 120MM Triple Fan Pack FD-F-AS1-1206",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/01/4178a2892cf4f88adb47707800e0c487-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000001ab8",
+      "name": "NZXT RF-FZ20S-R1 200MM Wide Red LED Fan with Sleeved-Cable",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/06/1470854485_1165555-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000004552",
+      "name": "SilverStone Air Blazer 120i lite 12cm ARGB Fans SST-AB120i-ARGB-3PK",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/61FwWJfqbL._AC_SX679_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000002f87",
+      "name": "DeepCool Rock Master V3.0 Multi I/O & Fan Controller",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/07/image_1024-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000002323",
+      "name": "AD-Link LED 120MM PC Single Case Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/07/Adlink-Led-fans-btz-ph-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000006470",
+      "name": "Cougar Vortex RGB FCB 120mm HDB Colling Fan – 1pc FAN-CGR-VORTEX-FCB-120",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/07/Cougar-Vortex-RGB-FCB-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000047f",
+      "name": "Cougar Vortex RGB FCB 120 Colling Kit 3x-120mm Core Box FAN-CGR-CF-V12SET-FCBRGB",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/07/Cougar-Vortex-RGB-FCB-3-kit-btz-ph-1-copy-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000004115",
+      "name": "Corsair iCUE AF120 RGB SLIM 120mm PWM Fluid Dynamic Bearing Fan Twin Pack – Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/09/CORSAIR-AF120-RGB-SLIM-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007638",
+      "name": "ARCTIC P14 PWM PST A-RGB Semi-Passive 140 mm Case Fan with Digital A-RGB",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/04/P14-PWM-PST-A-RGB-WHITE-btz-phhh-1-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000003c4",
+      "name": "ARCTIC P8 Max Black 80 mm High Speed PWM Fan ACFAN00286A",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/05/P8-Max-Black-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007def",
+      "name": "Arctic BioniX F120 – 120MM eSport Fan (Grey/White)",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/07/415227388_1054744209186191_3298970970981869256_n-17-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007c10",
+      "name": "Arctic P12 PWM PST RGB Cooling Fan (3pcs Value Pack) – Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/07/415227388_1054744209186191_3298970970981869256_n-22-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000001e4",
+      "name": "Deepcool FT9 SLIM 92mm Thin Profile PWM Case Fan R-FT9SLIM-BKWPN1-G",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/09/Deepcool-FT9-slim-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000004718",
+      "name": "1stPlayer Firebase G3 120MM 3 in 1 LED Case Fans with Hub and Remote FAN-1PL-G3-COMBO",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/10/1stplayer-g3-case-fans-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000002c33",
+      "name": "ARCTIC 4-Pin PWM Fan Splitter Cable PST Splitter Cable for Four Fans",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/05/arctic-4-Pin-PWM-Fan-Splitter-Cable-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007a27",
+      "name": "Ocypus Delta EU04 USB 2.0 Internal USB HUB DELTA-EU04-BKN00XXX-GL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/11/OCYPUS-DELTA-EU04-INTERNAL-USB-HUB-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000747e",
+      "name": "Arctic P14 Pro PST 140 mm PWM Single Fan with Cable Splitter – Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/12/P14-Pro-PST-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000006217",
+      "name": "Lian-li ST120 High Static Pressure Fan Cooling Fans",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/11/ST120-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000005b16",
+      "name": "DeepCool FC120 RGB PWM Fan Single Fan R-FC120-BKAMN1-G-1",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/07/01-38-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000004e93",
+      "name": "DeepCool CF120 Plus WH 3x120MM PWM Fan A-RGB 3 in 1 Pack Fan DP-F12-AR-CF120P-WH-3P",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/07/01-41-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000000967",
+      "name": "ARCTIC F14 PWM PST Case Fan (Black/Black)",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/61h9-gOKB8S._AC_SL1200_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000045ef",
+      "name": "DeepCool TF140S 3in1 Beast-Unleashing Radiator Fan Black DP-GS-H14B-TF140S-3P",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/07/01-45-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000057cf",
+      "name": "ARCTIC BioniX P120 Gaming Case Fan (Grey/Black) ACFAN00168A",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/bionix-p120-grey-g00-pst-icon-300x300.png"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000483c",
+      "name": "Lian Li UNI FAN SL120 V2 RGB Black 3X 12CM Fan Pack with Controller UF-SL120V2-3B",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/unifan-v2-black-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000005f79",
+      "name": "ARCTIC P12 PWM PST A-RGB Semi-Passive 120 mm Case Fan White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/09/P12-PWM-PST-A-RGB-0dB-White-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000005fb0",
+      "name": "DeepCool RF140 2in1 RGB PMW Fan DP-FRGB-RF140-2C",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/07/01-37-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000180a",
+      "name": "ARCTIC BioniX F140 Gaming Case Fan (Grey/Black) ACFAN00161A",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/61u1pTkorkL._AC_SL1000_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000006eda",
+      "name": "NZXT Aer P 140MM Static Pressure Fan RF-AP140-FP",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/06/1615573268-aer-p-120gray-front45-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000035ff",
+      "name": "Cooler Master SickleFlow 120 ARGB 3in1 White Square Frame White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/Cooler-Master-SickleFlow-120-ARGB-3in1-White-Square-Frame-White-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000005cb6",
+      "name": "GIGABYTE AORUS EZ CHAIN FAN 120 3-Pack",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/10/AORUS-EZ-CHAIN-FAN-120-triple-pack-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000493c",
+      "name": "ARCTIC BioniX P120 A-RGB Case Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/61BHgFsLSYS._AC_SL1200_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000000979",
+      "name": "DeepCool RGB Remote Controller DP-MG-CTR-RGB-RMT",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/07/0106803_0-300x300.jpeg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000000f1d",
+      "name": "Deepcool MF120 3in1 Smart Fans Built-in 1.670M True Color RGB Lighting System DPGS-FMF120WF-3SW",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2018/11/81QEKgSKqGL._SL1500_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000002d28",
+      "name": "Lian-li Unifan SL140 V2 Single Fan Black | White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/11/Unifan-SL140-Single-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000002252",
+      "name": "ARCTIC BioniX P140 Gaming Case Fan (Grey/Black) ACFAN00159A",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/61ngFSp9GSL._AC_SL1000_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000079e2",
+      "name": "ARCTIC BioniX P140 Gaming Case Fan (White/Black) ACFAN00128A",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/612c0G1ApbL._AC_SL1000_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000004771",
+      "name": "ARCTIC BioniX F140 Gaming Case Fan (White/Black) ACFAN00096A",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/61zyxLzsiNL._AC_SL1200_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000004d87",
+      "name": "ARCTIC BioniX F120 Gaming Case Fan (Grey/Black) ACFAN00163A",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/61kaXr3VML._AC_SL1000_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000006a65",
+      "name": "NZXT F140 RGB Duo Twin Pack | Single Pack Black | White 140MM Duo RGB Fans + Controller ARGB",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/03/1673297670-f120-rgb-duo-triple-pack-with-rgb-controller-left-side-angle-view-white-e1679417414711-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000529d",
+      "name": "DarkFlash Gauss G24 ARGB Triple Fan Pack",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/07/dk-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000001629",
+      "name": "ARCTIC P14 PWM PST Case Fan (White/White)",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/51xl1LZRiJS._AC_SL1200_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000003a75",
+      "name": "DeepCool UH-04 Internal 9-pin USB 2.0 Magnetic Hub R-XE010A-BKNN0-G",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/11/Deepcool-UH-04-btz-ph-1-copy-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000002eda",
+      "name": "Thermaltake SWAFAN 120MM Triple Fan Pack RGB Radiator Fan TT Premium Edition 3 Fans Pack",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/05/Thermaltake-SWAFAN-120MM-Triple-Fan-Pack-RGB-Radiator-Fan-TT-Premium-btz-ph-2-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000001ddc",
+      "name": "ARCTIC BioniX P120 A-RGB Case Fan (3 Case Fans + Remote)",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/615zPMFoKaS._AC_SL1200_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007fb8",
+      "name": "NZXT Sentry 3 Fan Controller AC-SEN-3-B1",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/06/AC-SEN-3-B1-a__53522-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000185e",
+      "name": "Fractal Design Aspect 14 RGB PWM Chassis Fans Black FD-F-AS1-1405",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/11/Aspect14-RGB-PWM-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000027a7",
+      "name": "Deepcool FT12 SLIM 120mm Thin Profile PWM Case Fan R-FT12SLIM-BKWPN1-G",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/09/Deepcool-FT12-Slim-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000660a",
+      "name": "Fractal Design Prisma AL-12 PWM 120MM Addressable RGB LED Computer Case Fan 3-Pack",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/03/35-352-058-V01-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000005b69",
+      "name": "NZXT Color Trim for Aer F 120mm Computer Case Cooling Fan RF-ACT12-U1 Blue",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/06/41hLw4Up9L._AC_-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000000a6d",
+      "name": "NZXT Color Trim for Aer F 120mm Computer Case Cooling Fan RF-ACT12-R1 Red",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/06/41tmshPVI8L-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000004e3f",
+      "name": "Lian Li PW24 STRIMER Plus V1 | V2 24-PIN ARGB Power Extension Cable",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/11/strimer-plus-v2-300x300.jpg"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000001da0",
+      "name": "ID Cooling HA02C Fan Hub Power and ARGB Sync 8 Ports ID-HUB-HA-02C",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/12/a5ad82edd3286fb170284853e3270904.jpg_720x720q80.jpg_-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000007aab",
+      "name": "Lian Li Strimer Plus 16-8 | 16-12 Addressable RGB v2 12VHPWR GPU Power Extension Cable",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/02/Lian-Li-Strimer-Plus-16-8-16-12-Addressable-RGB-v2-12VHPWR-GPU-Power-Extension-Cable-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000003bec",
+      "name": "Lian Li Strimer Wireless 24P For Motherboard",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Strimer-Wireless-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-00000000633c",
+      "name": "Lian Li Strimer Wireless PW16 12V-2X6 For GPU",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Strimer-Wireless-gpu-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-0000000024d3",
+      "name": "Lian Li Uni Hub TL Series Controller for Uni Fan TL and TL LCD Case Fans",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/02/BFBFDDF_500x-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000001457",
+      "name": "Lian Li USB 2.0 1-to-3 Hub Type A Male Port",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/09/USB-2.0-1-to-3-Hub-Type-A-Male-Port-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-bermor-techzone-000000005ff0",
+      "name": "Lian Li USB 2.0 1-to-3 HUB",
+      "category": "cpu_cooler",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/USB-2.0-1-to-3-HUB-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "cpu_cooler-datablitz-000000007327",
+      "name": "ID-Cooling Frost X25 10.5 W/m-K 2g Thermal Paste",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ID-Cooling",
+        "SKU": "6931393303888",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/02_f0d8096b-f60d-4ece-80a8-6c38d6860857.jpg?v=1718866901"
+    },
+    {
+      "id": "cpu_cooler-datablitz-00000000592b",
+      "name": "ID-Cooling Frost X35 14.2W/m-K 4g Thermal Paste",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ID-Cooling",
+        "SKU": "6931393305363",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/fbfdxcv.jpg?v=1719108645"
+    },
+    {
+      "id": "cpu_cooler-datablitz-00000000250d",
+      "name": "ID-Cooling FS-04 ARGB 5V 3Pin 1-4 Splitter",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ID-Cooling",
+        "SKU": "6931393303567",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/bdffdb_89181e4a-1936-417a-85e9-4d1a2f894f50.jpg?v=1719102143"
+    },
+    {
+      "id": "cpu_cooler-datablitz-000000004ffc",
+      "name": "ID-Cooling Frost X25 10.5 W/m-K 4g Thermal Paste",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ID-Cooling",
+        "SKU": "6931393303895",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/04_87d4d716-7cd7-4207-9690-3d1f5c7da8c3.jpg?v=1718866901"
+    },
+    {
+      "id": "cpu_cooler-datablitz-0000000026d2",
+      "name": "ID-Cooling AM5-TPGS Thermal Paste Guard Set",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ID-Cooling",
+        "SKU": "6931393305660",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/svdvsd_a1373998-2b72-4d71-ab15-e7bd76e3fd48.jpg?v=1720666737"
+    },
+    {
+      "id": "cpu_cooler-datablitz-000000007d2e",
+      "name": "Cooler Master Hyper 212 LED Turbo White Edition CPU AirCooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Cooler Master",
+        "SKU": "0884102057113",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/hyper-212-led-trubo-white-0-min-image.jpg?v=1676883111"
+    },
+    {
+      "id": "cpu_cooler-datablitz-000000004e61",
+      "name": "Lian Li Uni Hub - TL Series Controller",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Lian Li",
+        "SKU": "0840353045019",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/BFBFDDF.gif?v=1708590290"
+    },
+    {
+      "id": "cpu_cooler-datablitz-000000001d9e",
+      "name": "Cooler Master Addressable RGB 1-TO-5 Splitter Cable",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Cooler Master",
+        "SKU": "0884102061387",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/argb-1to5-splitter-cable-gallery-1-image.jpg?v=1676919423"
+    },
+    {
+      "id": "cpu_cooler-datablitz-000000005d8e",
+      "name": "Cooler Master MM712 Wireless Lightweight Gaming Mouse With Ultraweave Cable PTFE Feet & RGB Accents (Matte Black)",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Cooler Master",
+        "SKU": "0884102092688",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/post2_65f272a4-74eb-4bf5-a1d2-31e7dc9a0892.jpg?v=1676893163"
+    },
+    {
+      "id": "cpu_cooler-datablitz-000000005593",
+      "name": "Cooler Master Devastator 3 Plus MEM-CHANICAL Gaming Keyboard And Mouse Combo With Brilliant RGB",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Cooler Master",
+        "SKU": "0884102091063",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/d3plus-1-blue-min-image.jpg?v=1676880374"
+    },
+    {
+      "id": "cpu_cooler-datablitz-0000000008da",
+      "name": "Cooler Master MM310 Lightweight Gaming Mouse (Matte Black)",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Cooler Master",
+        "SKU": "0884102090264",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/vsdx_3f14f4a7-bbe3-4075-9c95-88a3afe13f4f.jpg?v=1702522290"
+    },
+    {
+      "id": "cpu_cooler-datablitz-000000007375",
+      "name": "Cooler Master MM711 Gaming Mouse With Lightweight Honeycomb Shell, Ultraweave Cable & RGB Accents (Glossy White)",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Cooler Master",
+        "SKU": "0884102066986",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/cvxcbxbcxbcxbc.jpg?v=1736940330"
+    },
+    {
+      "id": "cpu_cooler-datablitz-000000002c7b",
+      "name": "Cooler Master MM310 Lightweight Gaming Mouse (Matte White)",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Cooler Master",
+        "SKU": "0884102090271",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/dfbx_00e2edf0-bb83-41f9-a5b5-2645c03e5d43.jpg?v=1702522225"
+    },
+    {
+      "id": "cpu_cooler-datablitz-0000000044ef",
+      "name": "Final Fantasy VII Remake Original Wall Scroll Vol.2",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Square Enix",
+        "SKU": "0662248827582",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/91Sb6XOUZ4L._AC_SL1500.jpg?v=1676887984"
+    },
+    {
+      "id": "cpu_cooler-dynaquest-pc-000000000fa2",
+      "name": "Thermalright Peerless Assassin PA 120 SE CPU Air Cooler TL-C12C",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Thermalright",
+        "SKU": "55643",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/124_e3329edd-d769-4228-8db5-63df265fa136.png?v=1705999835"
+    },
+    {
+      "id": "cpu_cooler-dynaquest-pc-000000000aec",
+      "name": "Thermalright Frozen Warframe 360 ARGB White TL-P12W-S CPU Liquid Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Thermalright",
+        "SKU": "55676",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/208_57a982e0-bf3c-423e-83c7-464f53724469.png?v=1706084554"
+    },
+    {
+      "id": "cpu_cooler-electroworld-000000005364",
+      "name": "Lenovo IdeaCentre AIO 24IRH9 F0HN00U0PH Cloud Grey",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Lenovo",
+        "SKU": "201090",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://d1rlzxa98cyc61.cloudfront.net/catalog/product/cache/b23da5967f2c9ed6d73ff4418f9ea554/2/0/201090_2026.jpg"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000000681",
+      "name": "Replacement Fan for Lenovo Legion Y545 WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO FAN LEGION Y545 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-fan-for-lenovo-legion-y545-wl-lenovo-gigahertz-640505.jpg?v=1731047490"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000000458",
+      "name": "Replacement Fan Module for Asus GL504GS WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS FAN MODULE GL504GS WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-fan-module-for-asus-gl504gs-wl-asus-gigahertz-716932.jpg?v=1732766340"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000004b09",
+      "name": "Replacement Fan for Lenovo Legion Y7000-2019 WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO FAN LEGION Y7000-2019 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-fan-for-lenovo-legion-y7000-2019-wl-lenovo-gigahertz-531480.jpg?v=1731913293"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-0000000043f5",
+      "name": "Replacement Fan for Lenovo Legion 5-15IMH05 WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO FAN LEGION 5-15IMH05 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-fan-for-lenovo-legion-5-15imh05-wl-lenovo-gigahertz-931544.jpg?v=1729760846"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000004c48",
+      "name": "Replacement for LENOVO FAN YOGA S730-13IML WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO FAN YOGA S730-13IML WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOFANYOGAS730-13IMLWL.jpg?v=1730966463"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-0000000052fa",
+      "name": "Replacement Fan for Lenovo IdeaPad Gaming 3-15ARH05 WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO FAN IDEAPAD GAMING 3-15ARH05 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-fan-for-lenovo-ideapad-gaming-3-15arh05-wl-lenovo-gigahertz-832930.jpg?v=1733192419"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-0000000075fb",
+      "name": "Lenovo Fan ThinkBook 13s-IWL WL for Lenovo ThinkBook 13s",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO FAN THINKBOOK 13S-IWL WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOFANTHINKBOOK13S-IWLWL.jpg?v=1730966376"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-00000000799f",
+      "name": "Replacement Fan For Lenovo L13 Yoga ThinkPad WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO FAN L13 YOGA THINKPAD WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOFANL13YOGATHINKPADWL.jpg?v=1731634623"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-0000000030cc",
+      "name": "Replacement CPU Fan for Asus FX502VM WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS CPU FAN FX502VM WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSCPUFANFX502VMWL.jpg?v=1731891698"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000002fb6",
+      "name": "Replacement CPU Fan for Asus GL502VS WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS CPU FAN GL502VS WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-cpu-fan-for-asus-gl502vs-wl-asus-gigahertz-871262.jpg?v=1732784011"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-00000000421c",
+      "name": "Replacement Fan for Lenovo T460 ThinkPad WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO FAN T460 THINKPAD WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOFANT460THINKPADWL.jpg?v=1731634807"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-00000000379e",
+      "name": "Replacement Fan for Asus FX504GD WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS FAN FX504GD WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-fan-for-asus-fx504gd-wl-asus-gigahertz-422212.jpg?v=1732766340"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-00000000090f",
+      "name": "Replacement CPU Cooling Fan for Acer Predator Helios 300 PH315-52",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER CPU FAN PH315-52 HH",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-cpu-cooling-fan-for-acer-predator-helios-300-ph315-52-acer-gigahertz-653633.jpg?v=1730266304"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-0000000058eb",
+      "name": "Replacement GPU Fan for Asus X502VM WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS GPU FAN FX502VM WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-gpu-fan-for-asus-x502vm-wl-asus-gigahertz-699583.jpg?v=1732766518"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000001bd5",
+      "name": "Replacement Fan for Asus S410UN WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS FAN S410UN WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSFANS410UNWL.jpg?v=1731463378"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-0000000036fe",
+      "name": "Replacement Fan for Asus GL503GE WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS FAN GL503GE WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSFANGL503GEWL.jpg?v=1731463225"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000001738",
+      "name": "Replacement GPU Fan for Asus ROG Zephyrus S GX531GM",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS GPU FAN GX531GM HH",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-gpu-fan-for-asus-rog-zephyrus-s-gx531gm-asus-gigahertz-505236.jpg?v=1732766518"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-00000000283f",
+      "name": "Replacement Fan for Asus X407MA WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS FAN X407MA WL",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSFANX407MAWL.jpg?v=1731648433"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-00000000537d",
+      "name": "Replacement GPU Fan for Acer PH315-53 WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER GPU FAN PH315-53 WL",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-gpu-fan-for-acer-ph315-53-wl-acer-gigahertz-463605.jpg?v=1730266441"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000000b40",
+      "name": "Replacement for Asus Fan X407UA WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS FAN X407UA WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-for-asus-fan-x407ua-wl-asus-gigahertz-824154.jpg?v=1732766396"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000001e8a",
+      "name": "Replacement for Asus Fan K501UX WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS FAN K501UX WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-for-asus-fan-k501ux-wl-asus-gigahertz-399760.jpg?v=1732766396"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-00000000474b",
+      "name": "Replacement Fan for Asus UX430UN WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS FAN UX430UN WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-fan-for-asus-ux430un-wl-asus-gigahertz-455344.jpg?v=1732766340"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000001ced",
+      "name": "Replacement Fan for Asus A420FA WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS FAN A420FA WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-fan-for-asus-a420fa-wl-asus-gigahertz-594546.jpg?v=1732766340"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000007a49",
+      "name": "Replacement GPU Fan For Lenovo Legion Y740-15IRHG WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO GPU FAN LEGION Y740-15IRHG WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-gpu-fan-for-lenovo-legion-y740-15irhg-wl-lenovo-gigahertz-374046.jpg?v=1731913515"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000004632",
+      "name": "Replacement Fan for Acer A514-53 WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER FAN A514-53 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-fan-for-acer-a514-53-wl-acer-gigahertz-847057.jpg?v=1730266304"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000005e83",
+      "name": "Replacement Acer CPU Fan for Acer PH315-54 WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER CPU FAN PH315-54 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-acer-cpu-fan-for-acer-ph315-54-wl-acer-gigahertz-625550.jpg?v=1730266195"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-0000000035a8",
+      "name": "Replacement Acer CPU Fan for Acer AN515-54 WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER CPU FAN AN515-54 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-acer-cpu-fan-for-acer-an515-54-wl-acer-gigahertz-114735.jpg?v=1730266195"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000004fda",
+      "name": "Replacement Fan for Acer SF314-41G WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER FAN SF314-41G WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-fan-for-acer-sf314-41g-wl-acer-gigahertz-735126.jpg?v=1730266304"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000007626",
+      "name": "Replacement Fan for Asus S433EA WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS FAN S433EA WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSFANS433EAWL.jpg?v=1731463473"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000004b74",
+      "name": "Asus Thermal Fan M409DJ WL for ASUS VivoBook M409DJ FT071T",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS M409DJ THERMAL FAN WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSM409DJTHERMALFANWL.jpg?v=1731892622"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000000800",
+      "name": "Lenovo Fan S340-14IML WL for Lenovo IdeaPad S340-14IML",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO FAN S340-14IML WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOFANS340-14IMLWL.jpg?v=1731634753"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000007c59",
+      "name": "Replacement GPU Fan for Acer AN515-54 WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER GPU FAN AN515-54 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-gpu-fan-for-acer-an515-54-wl-acer-gigahertz-862038.jpg?v=1733192552"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000004dc2",
+      "name": "Replacement Fan For Lenovo 330S-15IKB WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO FAN 330S-15IKB WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-fan-for-lenovo-330s-15ikb-wl-lenovo-gigahertz-702267.jpg?v=1731913293"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-00000000503a",
+      "name": "Asus Thermal Fan K55VJ WL for Asus K55VJ-SX074H",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS FAN K55VJ WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/asus-thermal-fan-k55vj-wl-for-asus-k55vj-sx074h-asus-gigahertz-376163.jpg?v=1732765524"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-00000000692a",
+      "name": "Acer 23.Q3HN2.001 Metal Fan for Acer Predator Helios PH315-51/PH317-52",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER 23.Q3HN2.001 METAL FAN",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-23q3hn2001-metal-fan-for-acer-predator-helios-ph315-51ph317-52-acer-gigahertz-332821.jpg?v=1730265034"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-0000000032dd",
+      "name": "Replacement for Asus CPU Fan FX503VM WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS CPU FAN FX503VM WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSCPUFANFX503VMWL.jpg?v=1731463182"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000005518",
+      "name": "Replacement Fan for Asus UX333FA WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS FAN UX333FA WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSFANUX333FAWL.jpg?v=1731463510"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-0000000002d8",
+      "name": "Lenovo Fan for E470 Laptop (ThinkPad) WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO FAN E470 Laptop (ThinkPad) WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOFANE470Laptop_ThinkPad_WL.jpg?v=1731634549"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000001183",
+      "name": "Lenovo Fan E15 HH",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO FAN E15 HH",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOFANE15HH.jpg?v=1731634484"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000002434",
+      "name": "Lenovo Fan E470 HH",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO FAN E470 HH",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOFANE470HH.jpg?v=1731480895"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000000d19",
+      "name": "Lenovo Fan S145-14IKB HH",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO FAN S145-14IKB HH",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOFANS145-14IKBHH.jpg?v=1731634709"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000007fb2",
+      "name": "Lenovo Fan Yoga 920-13IKB HH",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO FAN Yoga 920-13IKB HH",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOFANYoga920-13IKBHH.jpg?v=1730966420"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000003d7a",
+      "name": "Lenovo Fan T430 HH",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO FAN T430 HH",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOFANT430HH.jpg?v=1731481015"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000007648",
+      "name": "Lenovo Fan for Ideapad 3-14ARE05 WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO FAN IDEAPAD 3-14ARE05 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOFANIDEAPAD3-14ARE05WL.jpg?v=1731634587"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000003641",
+      "name": "Lenovo Fan for Yoga C940-14IIL WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO FAN YOGA C940-14IIL WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOFANYOGAC940-14IILWL.jpg?v=1731634843"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000006424",
+      "name": "Lenovo CPU Fan Legion 5-15IMH05H HH",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO CPU FAN Legion 5-15IMH05H HH",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOCPUFANLegion5-15IMH05HHH.jpg?v=1730966178"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000000649",
+      "name": "JisuLife PRO 1 ABS FA53",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "JisuLife",
+        "SKU": "FAN-JISULIFE PRO1 FA53 PINK",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/jisulife-pro-1-abs-fa53-jisulife-gigahertz-622756.jpg?v=1734073291"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-0000000028b3",
+      "name": "JisuLife Handheld Fan Life 9",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "JisuLife",
+        "SKU": "FAN-JISULIFE LIFE 9 3600MAH BLACK",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/jisulife-handheld-fan-life-9-jisulife-gigahertz-344139.jpg?v=1734073291"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-0000000028b3",
+      "name": "JisuLife Handheld Fan Life 7",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "JisuLife",
+        "SKU": "FAN-JISULIFE LIFE 7 3600MAH GREY",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/jisulife-handheld-fan-life-7-jisulife-gigahertz-293855.jpg?v=1734073290"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-0000000072ba",
+      "name": "JisuLife Handheld Fan Life 5 FA42 Green",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "JisuLife",
+        "SKU": "FAN-JISULIFE LIFE 5 FA42 4500MAH GREEN",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/jisulife-handheld-fan-life-5-fa42-green-jisulife-gigahertz-673446.jpg?v=1734073289"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-00000000517f",
+      "name": "JisuLife Handheld Fan Life 5 Plus",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "JisuLife",
+        "SKU": "FAN-JISULIFE LIFE 5 Plus FA43 4000MAH BROWN",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/jisulife-handheld-fan-life-5-plus-jisulife-gigahertz-626430.jpg?v=1734073290"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000005334",
+      "name": "JisuLife Handheld Fan Life 4 Pink",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "JisuLife",
+        "SKU": "FAN-JISULIFE LIFE 4 3600MAH PINK",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/jisulife-handheld-fan-life-4-pink-jisulife-gigahertz-789963.jpg?v=1734073287"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-00000000543e",
+      "name": "Replacement Asus CPU Fan G512LU WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS CPU FAN G512LU WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSCPUFANG512LUWL.jpg?v=1731891749"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-0000000070fd",
+      "name": "Replacement Asus Fan CPU+GPU GL702VS WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS FAN CPU+GPU GL702VS WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-asus-fan-cpugpu-gl702vs-wl-asus-gigahertz-876860.jpg?v=1732766180"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000005bf6",
+      "name": "Replacement Asus Fan Q524UQ WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS FAN Q524UQ WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-asus-fan-q524uq-wl-asus-gigahertz-304333.jpg?v=1732766180"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000006c5c",
+      "name": "Replacement Asus Fan S431FL WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS FAN S431FL WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSFANS431FLWL.jpg?v=1731463421"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000001812",
+      "name": "Replacement Asus Fan X409FL WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS FAN X409FL WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-asus-fan-x409fl-wl-asus-gigahertz-336052.jpg?v=1733192298"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000007d69",
+      "name": "Replacement Asus GPU FAN GA503QS WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS GPU FAN GA503QS WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-asus-gpu-fan-ga503qs-wl-asus-gigahertz-225429.jpg?v=1733192309"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-00000000115b",
+      "name": "Acer CPU Fan PH315-53 WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER CPU FAN PH315-53 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERCPUFANPH315-53WL.jpg?v=1730193400"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000006789",
+      "name": "Acer CPU Replacement Fan for PT315-51",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER CPU FAN PT315-51 HH",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-cpu-replacement-fan-for-pt315-51-acer-gigahertz-174591.jpg?v=1732765216"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-00000000740b",
+      "name": "Acer Fan A515-56G WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER FAN A515-56G WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-fan-a515-56g-wl-acer-gigahertz-263483.jpg?v=1730265152"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000004803",
+      "name": "Acer GPU Fan PH315-51 WL",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER GPU FAN PH315-51 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERGPUFANPH315-51WL.jpg?v=1730195474"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000005935",
+      "name": "Replacement GPU Fan for Acer Aspire 7 A715-42G",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER GPU FAN A715-42G HH",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERGPUFANA715-42GHH.jpg?v=1730195311"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000007307",
+      "name": "Replacement GPU Fan for Acer Predator Triton 300 PT315-51",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER GPU FAN PT315-51 HH",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERGPUFANPT315-51HH.jpg?v=1730195573"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-000000001ce3",
+      "name": "Acer Pure Cool C2",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "ACC-ACER PURE COOL C2",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-pure-cool-c2-gigahertz-gigahertz-973040.jpg?v=1733132958"
+    },
+    {
+      "id": "cpu_cooler-gigahertz-0000000055f1",
+      "name": "Acer Pure Pro P2",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Gigahertz",
+        "SKU": "ACC-ACER PURE PRO P2 (DEMO)",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-pure-pro-p2-gigahertz-gigahertz-796025.jpg?v=1733132958"
+    },
+    {
+      "id": "cpu_cooler-itech-000000006a0b",
+      "name": "Fantech P31 3 in 1 Hero Bundle Gaming Set (Wired Keyboard, Mouse & Mousepad)",
+      "category": "cpu_cooler",
+      "specs": {
+        "SKU": "6972661282061",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2024/05/Fantech-P31-3-in-1-Hero-Bundle-Gaming-Set-450x577.jpg"
+    },
+    {
+      "id": "cpu_cooler-itech-0000000073e0",
+      "name": "Fantech HQ53 Flash 7.1 Virtual Surround Sound Gaming Headset",
+      "category": "cpu_cooler",
+      "specs": {
+        "SKU": "6972661283563",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2024/05/Fantech-HQ53-450x577.jpg"
+    },
+    {
+      "id": "cpu_cooler-itech-00000000061f",
+      "name": "Thermalright TL-C12C 120mm Chassis Fan – Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "SKU": "8123456789021100",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2025/10/thermalright-argb-120mm-1-450x594.webp"
+    },
+    {
+      "id": "cpu_cooler-itech-000000006a66",
+      "name": "Arctic P12 Pro PST Single Pack 120mm PWM Fan with Cable Splitter – Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "SKU": "4895265000089",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2026/01/arctic-p12-pro-pst-_acfan00306a_-5-450x594.webp"
+    },
+    {
+      "id": "cpu_cooler-itech-000000004836",
+      "name": "Arctic P12 Pro A-RGB 3-Pack 120mm PWM Fan with Cable Splitter PC Case Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "SKU": "8123456789021070",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2025/10/arctic-p12-pro-argb-120mm-3-pack-fan-1-450x594.webp"
+    },
+    {
+      "id": "cpu_cooler-itech-000000004671",
+      "name": "Fantech K515S Shikari S RGB Wired Membrane Gaming Keyboard with Advance Anti- Ghosting",
+      "category": "cpu_cooler",
+      "specs": {
+        "SKU": "6977052252111",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2026/02/fantech-k515s-shikari-gaming-keyboard-p5_-_copy-450x450.webp"
+    },
+    {
+      "id": "cpu_cooler-itech-00000000212e",
+      "name": "Arctic P12 Pro PST 5 Pack 120 mm PWM Fan with Cable Splitter",
+      "category": "cpu_cooler",
+      "specs": {
+        "SKU": "4895265000096",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2025/08/arctic-p12-pro-pst-120mm-5-pack-fan-black-_acfan00307a_-1-450x594.jpg"
+    },
+    {
+      "id": "cpu_cooler-itech-000000007d11",
+      "name": "DarkFlash DM12F A-RGB 3-in-1 Cooling Fan with Remote Control | Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Chassis",
+        "SKU": "4710343796787",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2024/08/DarkFlash-DM12F-A-RGB-3-in-1-Cooling-Fan-with-Remote-Control-Black-450x577.jpg"
+    },
+    {
+      "id": "cpu_cooler-octagon-0000000054e3",
+      "name": "DELTA FORCE DCC-002 17 NOTEBOOK COOLER",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038370467",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_51baa7da-c78d-425e-ba75-943fa0145717.jpg?v=1745893170"
+    },
+    {
+      "id": "cpu_cooler-octagon-000000002226",
+      "name": "DELTA FORCE DCC-001 15 NOTEBOOK COOLER",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038370474",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_f14f1a40-b808-4838-aa09-5bb250e35e90.jpg?v=1745892912"
+    },
+    {
+      "id": "cpu_cooler-octagon-000000002ea1",
+      "name": "JISULIFE PRO1-FA53 3600MAH WHITE ABS HANDHELD FAN",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "6975061531418",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_9438a54b-9313-4906-ba2d-f1c2a34c170a.jpg?v=1748568567"
+    },
+    {
+      "id": "cpu_cooler-octagon-000000006cdd",
+      "name": "JISULIFE LIFE4 5000MAH PINK/BLACK HANDHELD FAN",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "6975061532866",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/00.jpg?v=1749007800"
+    },
+    {
+      "id": "cpu_cooler-octagon-000000006361",
+      "name": "JISULIFE LIFE5 2000MAH WHITE HANDHELD FAN",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "6975061532170",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_9c630d41-7fc1-45b0-ba7c-7db5715eeaf0.jpg?v=1748655812"
+    },
+    {
+      "id": "cpu_cooler-octagon-00000000747d",
+      "name": "JISULIFE LIFE5 PLUS 4000MAH GREEN HANDHELD FAN",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "6975061532200",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_a3f68d08-48dd-4f2f-b148-1bdeb3bf0c30.jpg?v=1748659471"
+    },
+    {
+      "id": "cpu_cooler-octagon-0000000065dc",
+      "name": "JISULIFE LIFE7 3600MAH PINK/GRAY/BLACK HANDHELD FAN",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "6975061532545",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_23b12339-63f0-4a17-8e4f-b9bcb1f2f8e9.jpg?v=1748675455"
+    },
+    {
+      "id": "cpu_cooler-octagon-000000003b02",
+      "name": "JISULIFE LIFE9 3600MAH GREY/BLACK HANDHELD FAN",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "6975061532613",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_b2a3a1ca-bfd7-4c8b-81f3-bd3e7b0dbfd1.jpg?v=1748836302"
+    },
+    {
+      "id": "cpu_cooler-octagon-0000000060c7",
+      "name": "JISULIFE LIFE9 5000MAH GREY/BLACK HANDHELD FAN",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "6975061532712",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_00637cde-da70-476b-8f0e-1e51e75b471d.jpg?v=1748845552"
+    },
+    {
+      "id": "cpu_cooler-octagon-00000000308a",
+      "name": "JISULIFE LIFE4 3600MAH BLACK HANDHELD FAN",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "6975061532859",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_08a72539-15f1-47db-b02d-89f0b6e0248b.jpg?v=1748848327"
+    },
+    {
+      "id": "cpu_cooler-octagon-000000001da2",
+      "name": "ACERPURE COZY F1 AIR CIRCULATOR (ZL.ACCTG.022) AF551-20W 333.4X333.4X1000MM 3D AIRFLOW TECHNOLOGY",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4710886760528",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_5e43d98a-52d0-4c36-a51f-8f98d3d1a485.jpg?v=1746767860"
+    },
+    {
+      "id": "cpu_cooler-octagon-000000001b3e",
+      "name": "ACERPURE COZY F3 WHITE AIR CIRCULATOR (ZL.ACCTG.08V) 3D AIRFLOW TECHNOLOGY",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4711121783821",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/3_3193941a-eda0-4d4b-bbef-afc6a21c1b3c.jpg?v=1746759342"
+    },
+    {
+      "id": "cpu_cooler-octagon-0000000031c4",
+      "name": "ACERPURE COZY F2 AIR CIRCULATOR AF773-20Y / AF773-20W / AF773-20P 3D AIRFLOW TECHNOLOGY",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4711121297670",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_fec2c62e-023b-464e-b7a6-a3d664fecfd4.jpg?v=1744607910"
+    },
+    {
+      "id": "cpu_cooler-octagon-000000005758",
+      "name": "SILVERTEC SMX-IFAN7-GY/WH ICE COOLING PORTABLE FAN",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038380978",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_36dc2395-3bef-475a-a3a4-ee07d47c7ca8.jpg?v=1742884542"
+    },
+    {
+      "id": "cpu_cooler-octagon-00000000730b",
+      "name": "SILVERTEC SLC780 15.6 NOTEBOOK COOLER 2X14CM FAN",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038356058",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_caa1e9f6-aebf-45d8-aff1-9736aa58672d.jpg?v=1740367169"
+    },
+    {
+      "id": "cpu_cooler-octagon-0000000027a5",
+      "name": "SILVERTEC SMX-IFAN6-WH HIGH SPEED FOLDABLE FAN 5000MAH WHITE (M86)",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038381845",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_a6602208-cade-4e65-ba2b-b14cdf41ed74.jpg?v=1760418855"
+    },
+    {
+      "id": "cpu_cooler-octagon-000000005392",
+      "name": "SILVERTEC SMX-IFAN9-GY ICE COOLING FOLDABLE FAN 3600MAH GREY (M79)",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038381838",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_1d4aaabf-966c-499a-a1bc-80076402aaeb.jpg?v=1760407908"
+    },
+    {
+      "id": "cpu_cooler-octagon-0000000047dd",
+      "name": "SILVERTEC SMX-IFAN1-GY HIGH SPEED TURBO MINI FAN 2500MAH GREY (M81)",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038381852",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_a5fe54fa-5683-4ce2-b9c1-ac1bf21ea158.jpg?v=1760405251"
+    },
+    {
+      "id": "cpu_cooler-octagon-000000004c8e",
+      "name": "SILVERTEC SMX-IFAN5 ICE COOLING PORTABLE FAN",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038380954",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/yemplatecopy.jpg?v=1742873202"
+    },
+    {
+      "id": "cpu_cooler-octagon-000000001ad0",
+      "name": "JW NCP72L NOTEBOOK COOLER BLUE LED",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038373857",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_233acec2-35f2-4950-b2c4-201a7191976a.jpg?v=1740376203"
+    },
+    {
+      "id": "cpu_cooler-octagon-0000000055c6",
+      "name": "NORGICOOL NCP01 NOTEBOOK COOLER BLUE LED 6 FAN/ 2-USB/ FAN SPEED CONTROLLER W/ PHONE STAND",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038373604",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_35f7d5a1-9993-4e8d-8346-d1fea212f2f0.jpg?v=1740375108"
+    },
+    {
+      "id": "cpu_cooler-octagon-00000000621a",
+      "name": "IMPERIO ICC-001 17 NOTEBOOK COOLER BLUE",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038370481",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_26ccf056-fa78-41bc-9c91-003d6b6166f9.jpg?v=1740364526"
+    },
+    {
+      "id": "cpu_cooler-octagon-000000001c6d",
+      "name": "TITAN TCP97 17 NOTEBOOK COOLER BLUE LED",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038365609",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_b619485e-1471-421c-a765-f48ea2f78d71.jpg?v=1740123046"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000003cce",
+      "name": "Vention PBAN0/PBBV0 USB 5V 100 Stepless Speed Control Handheld Fan Beige/Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000071171",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/vention.png?v=1761802583"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000006685",
+      "name": "Gigabyte GP-AE850PM-PG5-ICE Aorus Elite 850W 80+ Platinum Ice White PSU",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000064922",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/25SHOPIFYGigabyteGP-AE850PM-PG5-ICEAorusElite850W80_PlatinumIceWhitePSU_4.jpg?v=1763189455"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000006c24",
+      "name": "Gigabyte GP-AE1000PM-PG5 Aorus Elite 1000W 80+ Platinum PSU",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000064925",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/2SHOPIFYGigabyteGP-AE1000PM-PG5AorusElite1000W80_PlatinumPSU_7.jpg?v=1763342450"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000001d79",
+      "name": "ID-Cooling SE-226-XT Black CPU Cooler Intel/AMD CPU Air Cooler 6 Heatpipes All-Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000054518",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_8ca515e9-2f3a-4ad3-b074-0c3109f65e82.jpg?v=1742355668"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000005f13",
+      "name": "SAPPHIRE SPR-11330-02-20G PULSE AMD RADEON™ RX 7800 XT GAMING 16GB",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000066692",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/sapphire.png?v=1771382714"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000004079",
+      "name": "Gigabyte Gaming GP-GIGABYTE-GME-240I ICE AIO 3x120MM EZ-CHAIN ARGB Fan White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000069669",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_43fa9323-8cad-4a84-aadf-a7646b645020.jpg?v=1773804530"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000003874",
+      "name": "Gigabyte GP-UD750GM-PG5-V2 750W ATX 3.1 PCIe Gen 5.1 Plus Gold Fully modular",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000071806",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/25SHOPIFYGigabyteGP-UD750GM-PG5-V2750WATX3.1PCIeGen5.1PlusGoldFullymodular_7.jpg?v=1764055231"
+    },
+    {
+      "id": "cpu_cooler-pcworx-00000000606d",
+      "name": "Gigabyte GP-GIGABYTE-GME-360 AIO 360MM EZ-CHAIN ARGB FAN",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000069136",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/24SHOPIFYGigabyteGP-GIGABYTE-GME-360AIO360MMEZ-CHAINARGBFAN_2.jpg?v=1763540413"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000004af6",
+      "name": "Gigabyte GP-AORUS-WATERFORCE-X-II-240 Aorus WaterForce 240mm AIO Liquid CPU Cool",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000064215",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/25SHOPIFYGigabyteGP-AORUS-WATERFORCE-X-II-240AorusWaterForce240mmAIOLiquidCPUCool_2.jpg?v=1763111783"
+    },
+    {
+      "id": "cpu_cooler-pcworx-00000000193e",
+      "name": "Jisulife Handheld Fan Life9 3600mAh Pink | Black | Light Gray",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000066176",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/JISULIFE_2.png?v=1745826153"
+    },
+    {
+      "id": "cpu_cooler-pcworx-0000000008ec",
+      "name": "Fantech FTK801 Numeric Keypad Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000055916",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7r98o-lmgunwuzpbe99c.jpg?v=1708419746"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000007e13",
+      "name": "Fantech Echo MH82 Headset",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000040598",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/FantechEchoMH82Headset.png?v=1720368112"
+    },
+    {
+      "id": "cpu_cooler-pcworx-0000000048bb",
+      "name": "Fantech MK853 Maxpower Keyboard V2 Pink Switch Red",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000052221",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/FANTECH_7.png?v=1755143148"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000002074",
+      "name": "Fantech Tamago WHG01 Lightweight Wireless Wired Headset Detachable Pink",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000066198",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000066198.jpg?v=1741329443"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000002f41",
+      "name": "Fantech KL106 Iphone USB A to Lightning Data Cable Silver",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000058962",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000058962_2.jpg?v=1741326541"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000006f3d",
+      "name": "Fantech KL104 Iphone USB A to Lightning Data Cable Green",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000058961",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000058961_2.jpg?v=1741325495"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000005277",
+      "name": "Fantech TX1 Mithril Wireless Earphones",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000004896",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000004896.jpg?v=1739502270"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000004301",
+      "name": "Fantech MK890 V2 ATOM 96 Key Mechanical Keyboard MIZU Edition | Navy Blue | Sky Blue",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000064879",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000064879.png?v=1737769775"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000007215",
+      "name": "Fantech MK875 V2 ATOM 81 Key Mechanical Keyboard MIZU Edition Sky Blue",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000064876",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000064876.png?v=1737701241"
+    },
+    {
+      "id": "cpu_cooler-pcworx-0000000016d3",
+      "name": "Fantech MK874 V2 ATOM 63 Key Mechanical Keyboard MIZU Edition | Sky Blue | Navy Blue",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/92_e95cd88c-82e8-4fb6-8e29-188bee2b3e9a.jpg?v=1742196116"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000004f71",
+      "name": "Fantech GS301 Trifecta RGB Black Speaker",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000056554",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000056554_2.png?v=1737340624"
+    },
+    {
+      "id": "cpu_cooler-pcworx-00000000109b",
+      "name": "Fantech FB-302 Typhoon RGB 3 in 1 Fan RGB 120mm Chassis Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000045387",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000045387_3.png?v=1736582298"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000002c44",
+      "name": "Fantech MK875 V2 ATOM 81 Key Mechanical Keyboard MIZU Edition Navy Blue",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000064877",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000064877.png?v=1736580020"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000007ed1",
+      "name": "Fantech WH01 Wireless Headset Mint",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000052635",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/FantechWH01WirelessHeadsetMint.png?v=1720369359"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000002bd4",
+      "name": "Fantech HG11-PRO Captain 7.1 RGB Headset",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000049983",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/RTX50-2025-10-20T102129.459.png?v=1760926997"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000002a92",
+      "name": "Fantech K613L Fighter II Full Keyboard Sakura Pink",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000047092",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/90_25c8c43d-22d0-41a4-9d8c-9a0921abeb06.jpg?v=1742194581"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000006e89",
+      "name": "Fantech AC3001 Headset Stand Space Edition",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000042836",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7qul5-lfgrm8ljhp2736.jpg?v=1708420532"
+    },
+    {
+      "id": "cpu_cooler-pcworx-0000000039d2",
+      "name": "Fantech MCX01 Leviosa Professional Condenser Microphone RGB Illumination with Mute Control",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000060176",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7r98o-lmgunwv9owwff6.jpg?v=1708419510"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000002f1d",
+      "name": "Fantech GS302 Alegro RGB Gaming Speaker 5.0 Bluetooth and Wired Connection with Spectrum Mode",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000052746",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7r98t-llnc2demkx7qbf.jpg?v=1708419373"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000006d83",
+      "name": "Fantech GS-203 Wired USB 2.0 Speaker Space Edition White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000042669",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/MSI-2025-09-24T085338.706.png?v=1758675519"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000000312",
+      "name": "Fantech K210 USB Keyboard Multimedia Office Keyboard",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000039979",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7qul6-lg2cla4ne6pkec.jpg?v=1708416773"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000005e06",
+      "name": "DARKFLASH C6 Single Fan A-RGB Single Mode CPU Cooler Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000052752",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_54501e16-bd02-42f4-ab22-6d563b828add.jpg?v=1742349275"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000002aa0",
+      "name": "Darkflash C6 3 in1 Fan Aurora Spectrum RGB Light DarkFlash 3 in 1 Cooling Fan CPU Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000053031",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_e17f0de1-d5a6-4de2-a410-fd20767d6ca3.png?v=1732613250"
+    },
+    {
+      "id": "cpu_cooler-pcworx-0000000071fc",
+      "name": "Darkflash GAUSS G24 3IN1 ARGB Magnetic Case Fan Black/White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000075231",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000075231_3.jpg?v=1776674817"
+    },
+    {
+      "id": "cpu_cooler-pcworx-0000000015ef",
+      "name": "DarkFlash Explore DO-240 240mm AIO Liquid CPU Cooler Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000071812",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/27SHOPIFYDarkFlashExploreDO-240240mmAIOLiquidCPUCoolerBlack.jpg?v=1764055721"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000007ad1",
+      "name": "DarkFlash Twister DX360 V2.6 AIO ARGB Liquid CPU Cooler Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000058165",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_0801603e-7ad7-4e5b-8241-9399dde479fd.jpg?v=1742352643"
+    },
+    {
+      "id": "cpu_cooler-pcworx-00000000264a",
+      "name": "Darkflash Nebula DN-360 ARGB AIO Liquid CPU Cooler White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000064703",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_f7619f83-ac36-4cf2-9389-0d7f606f4c31.jpg?v=1744103926"
+    },
+    {
+      "id": "cpu_cooler-pcworx-0000000004ca",
+      "name": "Darkflash INFINITY 24R A-RGB REVERSE BLADE COOLING FAN WHITE",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000061907",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/DARKFLASH_8.png?v=1736152689"
+    },
+    {
+      "id": "cpu_cooler-pcworx-0000000045a7",
+      "name": "Darkflash DX360 AIO ARGB Liquid Cooler Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000054378",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_0801603e-7ad7-4e5b-8241-9399dde479fd.jpg?v=1742352643"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000001c35",
+      "name": "Darkflash Darkair 120mm rainbow led fan White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000048654",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000053026.jpg?v=1737334905"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000007a5f",
+      "name": "DARKFLASH C6 Single Fan A-RGB Single Mode CPU Cooler Neomint",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000052753",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_54501e16-bd02-42f4-ab22-6d563b828add.jpg?v=1742349275"
+    },
+    {
+      "id": "cpu_cooler-pcworx-00000000581f",
+      "name": "DARKFLASH DM12R F A-RGB REVERSIBLE BLADE COOLING FAN WHITE",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000061904",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000061904_2.jpg?v=1739934710"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000000898",
+      "name": "Darkflash C6 3in1 Fan Aurora Spectrum RGB Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000053030",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000053030.jpg?v=1739781958"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000006223",
+      "name": "Darkflash Darkair Plus (LT) Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000053023",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000053023.jpg?v=1739781448"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000006937",
+      "name": "Darkflash C6 3in1 Fan Aurora Spectrum RGB Neo Mint",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000053035",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000053035_2.jpg?v=1737340094"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000004051",
+      "name": "Darkflash C6 Single Fan ARGB White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000053025",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000053025.jpg?v=1737339526"
+    },
+    {
+      "id": "cpu_cooler-pcworx-00000000622c",
+      "name": "Darkflash Darkair 120mm rainbow led fan Pink",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000053026",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000053026.jpg?v=1737334905"
+    },
+    {
+      "id": "cpu_cooler-pcworx-0000000005f0",
+      "name": "Darkflash INFINITY 24R A-RGB REVERSE BLADE COOLING FAN BLACK",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000061906",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/DARKFLASH_8.png?v=1736152689"
+    },
+    {
+      "id": "cpu_cooler-pcworx-0000000058be",
+      "name": "Darkflash DM12R F A-RGB REVERSIBLE BLADE COOLING FAN BLACK",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000061903",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/adata_32.png?v=1735976669"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000000cb6",
+      "name": "Darkflash DM12F Single Fan 120mm CPU Cooler White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000059743",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_dd9193a9-872f-4468-865e-8b0878502e34.jpg?v=1742348899"
+    },
+    {
+      "id": "cpu_cooler-pcworx-0000000036cc",
+      "name": "DARKFLASH C6 Single Fan A-RGB Single Mode CPU Cooler Pink",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000052751",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_54501e16-bd02-42f4-ab22-6d563b828add.jpg?v=1742349275"
+    },
+    {
+      "id": "cpu_cooler-pcworx-0000000015ae",
+      "name": "Darkflash G50 Mobile Phone Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000049998",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/sg-11134201-22110-avz5vbb8nfjvaf.jpg?v=1708421947"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000001d35",
+      "name": "Darkflash DM12F Single Fan 120mm CPU Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000059742",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7qukx-ljxsyyq292zw53.jpg?v=1708419758"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000002899",
+      "name": "DarkFlash DR11 120mm Rainbow Colour Casing Fans Molex 4pin Power",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000043359",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7qul4-lhmth9l0ox6xf0.jpg?v=1708419487"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000004cbc",
+      "name": "Darkflash DM12F 3in1 Combo 120mm CPU Cooler White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000059741",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/3_98186429-0c91-4c17-9c74-e88a35eae3f2.jpg?v=1742357868"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000001065",
+      "name": "Darkflash DM12F 3in1 Combo 120mm Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000059740",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7qul3-ljxsyyps5abz7f.jpg?v=1708418093"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000007fd6",
+      "name": "Darkflash DR12 PRO 3 in 1 120mm Addressable RGB LED Case Fan",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000044004",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/Untitleddesign_14_1f752c8e-aac1-4a3d-97b4-2a0af2cf8fe9.png?v=1761614475"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000004fe0",
+      "name": "Deepcool R-AG620-BKANMN-G-1 Gammaxx AG620 ARGB 120mm Air CPU Cooler Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000057827",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_8b081707-b3da-493c-a08b-cec4ba28b125.jpg?v=1742346765"
+    },
+    {
+      "id": "cpu_cooler-pcworx-0000000055c8",
+      "name": "Deepcool R-AG620-BKNNMN-G-1 Gammaxx AG620 Dual-Tower 120mm Air CPU Cooler Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000057831",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_d6e40e42-4a75-46ab-98e4-47b2538115b2.jpg?v=1742346061"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000003fa0",
+      "name": "Deepcool R-AK500-BKADMN-G High Performance 120mm Cpu Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000059858",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_58866b66-6641-49a4-b617-e5c056189894.jpg?v=1742345278"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000000fa7",
+      "name": "Deepcool R-AK620-BKNNMT-G AK620 High Performance Dual Tower CPU Cooler 2x120mm",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000053141",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000053141.jpg?v=1738651028"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000005785",
+      "name": "ID Cooler Space SL 360 LCD Aio Cooler White CPU Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000062848",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000062848.jpg?v=1737699319"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000004e77",
+      "name": "ID Cooling Space SL 360 LCD Aio Cooler Black CPU Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000062847",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000062847.jpg?v=1738828956"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000006541",
+      "name": "ID-Cooling FROZN A620 aRGB White / Black, Twin Tower 6 heatpipe, 2x120mm | aRGB CPU Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000062841",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_ddff4a38-5071-4477-87e8-c1ea34be8a6d.jpg?v=1742351512"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000000639",
+      "name": "Tecware Mirage 240 ARGB AIO Liquid CPU Cooler Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000048270",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000048270.jpg?v=1742909891"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000000513",
+      "name": "Tecware Mirage 240 ARGB AIO Liquid CPU Cooler White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000052705",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000052705.jpg?v=1742909891"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000005775",
+      "name": "Asus NVIDIA® GeForce RTX™5080 TUF-RTX 5080-O16G-GAMING 16GB OC GDDR7 Graphics Card",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000068860",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/RTX_44.png?v=1774257525"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000006af6",
+      "name": "Tecware Omni P12 ARGB 3-pack Fan Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000054524",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000054524.jpg?v=1742909535"
+    },
+    {
+      "id": "cpu_cooler-pcworx-0000000069d0",
+      "name": "Tecware Omni P12 ARGB 3-pack Fan White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000054523",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000054523.jpg?v=1742909535"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000007a0f",
+      "name": "Tecware VXL Evo 4x120 120mm Omni link aRGB fans ATX Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000064738",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000064738.jpg?v=1739253465"
+    },
+    {
+      "id": "cpu_cooler-pcworx-0000000039ee",
+      "name": "Tecware Infinity M2 mATX 3x 120mm aRGB Fans White",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000062385",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000062385_2.jpg?v=1739246211"
+    },
+    {
+      "id": "cpu_cooler-pcworx-0000000024e1",
+      "name": "Jisulife Handheld Fan Pro1 FA53 ABS version",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000066157",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/4_4c6a9ab5-298c-4be6-880b-3509ff57b04b.jpg?v=1771552096"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000000948",
+      "name": "Redragon Ingrid GCP511 Gaming Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000054672",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000054672_3.png?v=1737423556"
+    },
+    {
+      "id": "cpu_cooler-pcworx-000000003751",
+      "name": "Redragon GCP500 Ivy Gaming Laptop Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000048300",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/RTX50-2025-10-27T154516.385.png?v=1761551368"
+    },
+    {
+      "id": "cpu_cooler-pcworx-0000000007c6",
+      "name": "Rapoo CF300 Laptop Cooling Pad",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000072154",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/26SHOPIFYRapooCF300LaptopCoolingPad.jpg?v=1764139002"
+    },
+    {
+      "id": "cpu_cooler-pc-express-000000007db9",
+      "name": "ANTEC SYMPHONY 240 ARGB (2 X 120MM FANS) All-In-One CPU Liquid Cooler",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "Antec",
+        "SKU": "FAN-ANTEC-000003",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/FAN-ANTEC-SYMPHONY-240-ARGB-AIO-1.jpg?v=1696929601"
+    },
+    {
+      "id": "cpu_cooler-pc-express-000000000b9c",
+      "name": "VENTION Adjustable Handheld High-Speed Fan Electroplated LED Digital Display (PBDV0) - Purple",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "VENTION",
+        "SKU": "ACC-VENTION-000033",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/VENTIONAdjustableHandheldHigh-SpeedFanElectroplatedLEDDigitalDisplay_PBDV0_-Purple1.jpg?v=1772441100"
+    },
+    {
+      "id": "cpu_cooler-pc-express-000000004d27",
+      "name": "VENTION Handheld High Speed Fan Digital Display (PBBV0) - Purple",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "VENTION",
+        "SKU": "ACC-VENTION-000027",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/VENTIO_1.jpg?v=1772438793"
+    },
+    {
+      "id": "cpu_cooler-pc-express-000000007358",
+      "name": "VENTION Handheld High Speed Fan Digital Display (PBAN0) - Beige",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "VENTION",
+        "SKU": "ACC-VENTION-000028",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/ACC-VE_1.jpg?v=1772436898"
+    },
+    {
+      "id": "cpu_cooler-pc-express-000000005f60",
+      "name": "JISULIFE 9 5000 mAh Handheld Fan - Gray",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "JisuLife",
+        "SKU": "ACC-JISULIFE-000019",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/ACC-FAN-JISULIFE95000MAHGRAY1.jpg?v=1761795500"
+    },
+    {
+      "id": "cpu_cooler-pc-express-000000007392",
+      "name": "JISULIFE 9 5000 mAh Handheld Fan - Black",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "JisuLife",
+        "SKU": "ACC-JISULIFE-000018",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/ACC-FAN-JISULIFE95000MAHBLK1.jpg?v=1761792201"
+    },
+    {
+      "id": "cpu_cooler-pc-express-0000000008d2",
+      "name": "JISULIFE 10 4000 mAh Handheld Fan - Blue",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "JisuLife",
+        "SKU": "ACC-JISULIFE-000040",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/ACC-FANJISULIFE104000MAHBLUE.jpg?v=1756257321"
+    },
+    {
+      "id": "cpu_cooler-pc-express-0000000008d0",
+      "name": "JISULIFE 10 4000 mAh Handheld Fan - Grey",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "JisuLife",
+        "SKU": "ACC-JISULIFE-000041",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/ACC-FAN-JISULIFE104000MAHGREY.jpg?v=1756258280"
+    },
+    {
+      "id": "cpu_cooler-pc-express-000000003246",
+      "name": "JISULIFE 10S 5000 mAh Handheld Fan - Blue",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "JisuLife",
+        "SKU": "ACC-JISULIFE-000042",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/ACC-FAN-JISULIFE10S5000MAHBLUE.jpg?v=1756259115"
+    },
+    {
+      "id": "cpu_cooler-pc-express-000000003248",
+      "name": "JISULIFE 10S 5000 mAh Handheld Fan - Grey",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "JisuLife",
+        "SKU": "ACC-JISULIFE-000043",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/ACC-FAN-JISULIFE10S5000MAHGREY.jpg?v=1756259959"
+    },
+    {
+      "id": "cpu_cooler-pc-express-00000000684d",
+      "name": "JISULIFE ULTRA 2 9000 mAh Handheld Fan - Gray",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "JisuLife",
+        "SKU": "ACC-JISULIFE-000045",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/ACC-FAN-JISULIFEULTRA29000MAHGRAY.jpg?v=1756263273"
+    },
+    {
+      "id": "cpu_cooler-pc-express-000000005e4e",
+      "name": "JISULIFE ULTRA 2 9000 mAh Handheld Fan - Brown",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "JisuLife",
+        "SKU": "ACC-JISULIFE-000046",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/ACC-FAN-JISULIFEULTRA29000MAHBROWN.jpg?v=1756262277"
+    },
+    {
+      "id": "cpu_cooler-pc-express-0000000079a1",
+      "name": "JISULIFE 9 5000 mAh Handheld Fan - Chrome Edition",
+      "category": "cpu_cooler",
+      "specs": {
+        "Brand": "JisuLife",
+        "SKU": "ACC-JISULIFE-000044",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/ACC-FAN-JISULIFE95000MAHCHROME.jpg?v=1756261165"
+    }
+  ]
+}

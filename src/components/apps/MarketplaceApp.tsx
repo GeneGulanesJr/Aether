@@ -61,9 +61,19 @@ function retailerFromPartId(partId: string): string {
 
 /** Store website URLs for "Visit store" links */
 const STORE_URLS: Record<string, string> = {
-  'PC Express': 'https://www.pcexpress.com.ph',
+  'Bermor Techzone': 'https://bermorzone.com.ph',
   'EasyPC': 'https://www.easypc.com.ph',
-  'Villman': 'https://villman.com',
+  'PC Express': 'https://www.pcexpress.com.ph',
+  'VillMan': 'https://villman.com',
+  'PCWORX': 'https://pcworx.com.ph',
+  'DataBlitz': 'https://datablitz.com.ph',
+  'DynQuest PC': 'https://dynaquestpc.com',
+  'Silicon Valley': 'https://siliconvalley.com.ph',
+  'Octagon': 'https://octagon.com.ph',
+  'Electroworld': 'https://electroworld.com.ph',
+  'Ben Store': 'https://benstore.com.ph',
+  'Gigahertz': 'https://gigahertz.com.ph',
+  'iTech': 'https://itech.com.ph',
 }
 
 function groupByModelKey(parts: Part[], priceEntries: PriceEntry[]): Map<string, PartWithOffers> {
