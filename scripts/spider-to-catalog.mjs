@@ -268,15 +268,15 @@ function main() {
 
     const entry = catMap.get(nameKey)
 
-    // Track this as a store offer
-    entry.storeOffers.push({
-      partId: makePartId(category, store, name),
+    // Track this as a store offer (no partId yet - will use consolidated ID)
+    const storeOffer = {
       retailer: store,
       amountPhp: parseFloat(item.price) || 0,
       originalAmountPhp: item.original_price ? parseFloat(item.original_price) : null,
       productUrl: item.product_url || null,
       observedAt: item.scraped_at || null,
-    })
+    }
+    entry.storeOffers.push(storeOffer)
 
     // Pick "best" item as the catalog entry (prefer in_stock, then lowest price)
     const currentAvail = (entry.best.availability || '').toLowerCase()
@@ -361,10 +361,10 @@ function main() {
 
       items.push(item)
 
-      // Add all store offers as price entries
+      // Add all store offers as price entries (using consolidated partId)
       for (const offer of storeOffers) {
         allPriceEntries.push({
-          partId: offer.partId,
+          partId: partId,
           amountPhp: offer.amountPhp,
           retailer: offer.retailer,
           productUrl: offer.productUrl,

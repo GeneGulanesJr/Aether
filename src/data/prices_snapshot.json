@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generated": "2026-04-23T06:49:29.992Z",
+  "generated": "2026-04-23T07:01:12.446Z",
   "entries": [
     {
       "partId": "cpu-bermor-techzone-000000004df9",
@@ -45,14 +45,14 @@
       "observedAt": "2026-04-23T04:05:19.407676+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-000000004de2",
+      "partId": "cpu-pc-express-000000006ddf",
       "amountPhp": 7995,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/processors/intel-processor/intel-core-i3-12100-12th-gen-4-core-8-thread-3-3-to-4-3-ghz-lga1700-desktop-processor/",
       "observedAt": "2026-04-23T04:05:19.407765+00:00"
     },
     {
-      "partId": "cpu-easypc-000000005e14",
+      "partId": "cpu-pc-express-000000006ddf",
       "amountPhp": 9085,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i3-12100-alder-lake-socket-1700-4-30ghz-processor-mpk",
@@ -66,7 +66,7 @@
       "observedAt": "2026-04-23T05:57:00.922285+00:00"
     },
     {
-      "partId": "cpu-villman-000000007213",
+      "partId": "cpu-pc-express-000000006ddf",
       "amountPhp": 7499,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/intel_core-i3-12100-12mb-cache-up-to-430ghz",
@@ -178,14 +178,14 @@
       "observedAt": "2026-04-23T04:05:19.408977+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-0000000062c2",
+      "partId": "cpu-easypc-000000007080",
       "amountPhp": 7999,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/processors/intel-processor/intel-core-i5-10400-6-core-2-9-ghz-lga-1200-65w-desktop-processor-bx8070110400/",
       "observedAt": "2026-04-23T04:05:19.409068+00:00"
     },
     {
-      "partId": "cpu-easypc-000000004279",
+      "partId": "cpu-easypc-000000007080",
       "amountPhp": 9795,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i5-10400-comet-lake-socket-1200-2-9ghz-4k-support-at-60hz-processor-ttp",
@@ -199,28 +199,28 @@
       "observedAt": "2026-04-23T05:15:04.703014+00:00"
     },
     {
-      "partId": "cpu-pcworx-000000006e94",
+      "partId": "cpu-easypc-000000007080",
       "amountPhp": 8328,
       "retailer": "PCWORX",
       "productUrl": "https://pcworx.ph/products/intel®-core™-i5-10400-processor-12m-cache-up-to-4-30-ghz",
       "observedAt": "2026-04-23T05:45:47.301047+00:00"
     },
     {
-      "partId": "cpu-pc-express-000000003a37",
+      "partId": "cpu-easypc-000000007080",
       "amountPhp": 7800,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/intel-core-i5-10400-processor-12m-cache-up-to-4-30-ghz",
       "observedAt": "2026-04-23T05:57:00.922098+00:00"
     },
     {
-      "partId": "cpu-villman-000000004dda",
+      "partId": "cpu-easypc-000000007080",
       "amountPhp": 11499,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/intel_-core-i5-10400-processor-290-ghz-12m-cache-up-to-430-ghz-14nm-desktop-processor",
       "observedAt": "2026-04-23T06:07:32.632264+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-0000000001c9",
+      "partId": "cpu-datablitz-000000005469",
       "amountPhp": 5495,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/processors/intel-processor/intel-core-i3-10100-comet-lake-quad-core-3-6-ghz-lga-1200-65w-bx8070110100-desktop-processor/",
@@ -234,21 +234,21 @@
       "observedAt": "2026-04-23T05:05:54.249516+00:00"
     },
     {
-      "partId": "cpu-easypc-00000000758a",
+      "partId": "cpu-datablitz-000000005469",
       "amountPhp": 5444.44,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i3-10100-1200-3-60ghz-intel-r-uhd-graphics-630-8-threads-and-4-cores-4k-support-comet-lake-socket-processor",
       "observedAt": "2026-04-23T05:15:04.701922+00:00"
     },
     {
-      "partId": "cpu-easypc-000000002c45",
+      "partId": "cpu-datablitz-000000005469",
       "amountPhp": 7195,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i3-10100-comet-lake-socket-1200-3-60ghz-intel-r-uhd-graphics-630-processor-ttp",
       "observedAt": "2026-04-23T05:15:04.701980+00:00"
     },
     {
-      "partId": "cpu-easypc-000000005a78",
+      "partId": "cpu-datablitz-000000005469",
       "amountPhp": 5375,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i3-10100-comet-lake-socket-1200-3-60ghz-processor-mpk",
@@ -276,7 +276,7 @@
       "observedAt": "2026-04-23T04:05:19.409382+00:00"
     },
     {
-      "partId": "cpu-easypc-000000004ab5",
+      "partId": "cpu-bermor-techzone-0000000040bd",
       "amountPhp": 6295,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i5-12400f-alder-lake-2-5ghz-max-turbo-frequency-4-40-ghz-performance-cores-6-socket-1700-desktop-processor",
@@ -304,70 +304,70 @@
       "observedAt": "2026-04-23T04:05:21.528849+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-000000005a5f",
+      "partId": "cpu-bermor-techzone-000000001d61",
       "amountPhp": 11140,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/motherboard/amd-motherboards/amd-ryzen-5-5600ggigabyte-b550m-ds3h-processor-motherboard-bundle/",
       "observedAt": "2026-04-23T04:05:21.530857+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-0000000076ca",
+      "partId": "cpu-bermor-techzone-000000001d61",
       "amountPhp": 13995,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/motherboard/amd-motherboards/amd-ryzen-5-5600gasrock-b550m-pro-4-processor-motherboard-bundle/",
       "observedAt": "2026-04-23T04:06:04.422375+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000003f73",
+      "partId": "cpu-bermor-techzone-000000001d61",
       "amountPhp": 7850,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-5600g-processor",
       "observedAt": "2026-04-23T04:44:24.059232+00:00"
     },
     {
-      "partId": "cpu-easypc-00000000514a",
+      "partId": "cpu-bermor-techzone-000000001d61",
       "amountPhp": 6550,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-5600g-socket-am4-3-9ghz-with-radeon-vega-7-processor-ttp",
       "observedAt": "2026-04-23T05:17:29.925761+00:00"
     },
     {
-      "partId": "cpu-easypc-000000003f56",
+      "partId": "cpu-bermor-techzone-000000001d61",
       "amountPhp": 7188,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-5600g-socket-am4-3-9ghz-with-radeon-vega-7-processor-with-amd-fan-v2-mpk",
       "observedAt": "2026-04-23T05:19:35.650517+00:00"
     },
     {
-      "partId": "cpu-pc-express-000000006657",
+      "partId": "cpu-bermor-techzone-000000001d61",
       "amountPhp": 6950,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-5-5600g-3-9ghz-processor",
       "observedAt": "2026-04-23T05:56:57.723515+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-000000004711",
+      "partId": "cpu-datablitz-0000000018e3",
       "amountPhp": 6695,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/processors/amd-processors/amd-ryzen-5-5600-6-core-3-5-ghz-socket-am4-65w-100-100000927box-desktop-processor/",
       "observedAt": "2026-04-23T04:05:21.529132+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-0000000063ff",
+      "partId": "cpu-datablitz-0000000018e3",
       "amountPhp": 13490,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/motherboard/amd-motherboards/amd-ryzen-5-5600g-processor-gigabyte-b550m-aorus-pro-ax-motherboard/",
       "observedAt": "2026-04-23T04:05:21.530330+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-000000006a38",
+      "partId": "cpu-datablitz-0000000018e3",
       "amountPhp": 11945,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/motherboard/amd-motherboards/amd-ryzen-5-5600gigabyte-b550m-ds3h-processor-motherboard-bundle/",
       "observedAt": "2026-04-23T04:05:21.530753+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000005389",
+      "partId": "cpu-datablitz-0000000018e3",
       "amountPhp": 6795,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-5600-processor",
@@ -381,49 +381,49 @@
       "observedAt": "2026-04-23T04:44:30.094939+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-00000000339a",
+      "partId": "cpu-datablitz-0000000018e3",
       "amountPhp": 7430,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-5-5600-processor-4-40ghz-6-core-tray",
       "observedAt": "2026-04-23T05:10:30.533731+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000066d3",
+      "partId": "cpu-datablitz-0000000018e3",
       "amountPhp": 6895,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-5600-socket-am4-3-5ghz-processor-with-wraith-stealth-cooler-mpk",
       "observedAt": "2026-04-23T05:15:53.333810+00:00"
     },
     {
-      "partId": "cpu-easypc-000000007d8e",
+      "partId": "cpu-datablitz-0000000018e3",
       "amountPhp": 8411.11,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-5600-or-5500-socket-am4-3-5ghz-processor",
       "observedAt": "2026-04-23T05:16:25.843844+00:00"
     },
     {
-      "partId": "cpu-pcworx-00000000105a",
+      "partId": "cpu-datablitz-0000000018e3",
       "amountPhp": 6382.5,
       "retailer": "PCWORX",
       "productUrl": "https://pcworx.ph/products/amd-ryzen-5-5600-3-5ghz-65w-am4-processor-no-built-in-graphics",
       "observedAt": "2026-04-23T05:45:47.300980+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-00000000724e",
+      "partId": "cpu-easypc-000000007256",
       "amountPhp": 7495,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/processors/amd-processors/amd-ryzen-5-5600x-6-core-3-7-ghz-socket-am4-65w-100-100000065box-desktop-processor/",
       "observedAt": "2026-04-23T04:05:21.529258+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000005c43",
+      "partId": "cpu-easypc-000000007256",
       "amountPhp": 8895,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-5600x-processor",
       "observedAt": "2026-04-23T04:44:24.058885+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-0000000037b7",
+      "partId": "cpu-easypc-000000007256",
       "amountPhp": 8140,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-5-5600x-4-60ghz-6-core-processor-tray-type-must-be-bought-with-compatible-motherboard",
@@ -437,7 +437,7 @@
       "observedAt": "2026-04-23T05:15:53.331463+00:00"
     },
     {
-      "partId": "cpu-pc-express-000000005298",
+      "partId": "cpu-easypc-000000007256",
       "amountPhp": 9050,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-5-5600x-3-7ghz-processor",
@@ -451,35 +451,35 @@
       "observedAt": "2026-04-23T04:05:21.529369+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000007c53",
+      "partId": "cpu-bermor-techzone-000000001662",
       "amountPhp": 13395,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-7700-processor-tray",
       "observedAt": "2026-04-23T04:44:24.060361+00:00"
     },
     {
-      "partId": "cpu-datablitz-0000000021d8",
+      "partId": "cpu-bermor-techzone-000000001662",
       "amountPhp": 17895,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-7700-processor",
       "observedAt": "2026-04-23T04:44:24.066601+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-00000000604c",
+      "partId": "cpu-bermor-techzone-000000001662",
       "amountPhp": 12590,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-7-7700-am5-processor-3-80-5-30ghz-8-core-16-threads-tray",
       "observedAt": "2026-04-23T05:10:30.533665+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-0000000057c6",
+      "partId": "cpu-bermor-techzone-000000001662",
       "amountPhp": 18150,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-7-7700-am5-processor-3-80-5-30ghz-8-core-16-threads-boxed",
       "observedAt": "2026-04-23T05:10:30.536220+00:00"
     },
     {
-      "partId": "cpu-pc-express-000000002f7f",
+      "partId": "cpu-bermor-techzone-000000001662",
       "amountPhp": 17500,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-7-7700-desktop-processor-up-to-3-8ghz",
@@ -493,56 +493,56 @@
       "observedAt": "2026-04-23T04:05:21.529477+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000000a2b",
+      "partId": "cpu-bermor-techzone-000000005be5",
       "amountPhp": 8495,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-7500f-6-cores-12-threads-3-9ghz-65w-am5-cpu-with-fan",
       "observedAt": "2026-04-23T04:44:24.058514+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000003a27",
+      "partId": "cpu-bermor-techzone-000000005be5",
       "amountPhp": 8290,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-5-7500f-3-70-5-0ghz-6-core-12threads-processor-tray-1",
       "observedAt": "2026-04-23T05:10:30.533413+00:00"
     },
     {
-      "partId": "cpu-easypc-000000006780",
+      "partId": "cpu-bermor-techzone-000000005be5",
       "amountPhp": 8095,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-7500f-socket-am5-3-7ghz-processor-mpk",
       "observedAt": "2026-04-23T05:17:29.925037+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-0000000030de",
+      "partId": "cpu-easypc-000000006de2",
       "amountPhp": 10595,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/processors/amd-processors/amd-ryzen-7-5700g-8-core-3-8-ghz-socket-am4-65w-amd-radeon-graphics-desktop-processor/",
       "observedAt": "2026-04-23T04:05:21.529588+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000003660",
+      "partId": "cpu-easypc-000000006de2",
       "amountPhp": 13295,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-5700g-processor",
       "observedAt": "2026-04-23T04:44:24.062644+00:00"
     },
     {
-      "partId": "cpu-datablitz-00000000089a",
+      "partId": "cpu-easypc-000000006de2",
       "amountPhp": 11550,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-5700g-processor-tray",
       "observedAt": "2026-04-23T04:44:24.081304+00:00"
     },
     {
-      "partId": "cpu-datablitz-0000000007fa",
+      "partId": "cpu-easypc-000000006de2",
       "amountPhp": 12895,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-5700g-processor-mpk",
       "observedAt": "2026-04-23T04:44:35.947677+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000001870",
+      "partId": "cpu-easypc-000000006de2",
       "amountPhp": 11390,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-7-5700g-3-8-4-6ghz-8-core-processor-tray-type-with-heatsink-fan",
@@ -556,21 +556,21 @@
       "observedAt": "2026-04-23T05:15:53.344854+00:00"
     },
     {
-      "partId": "cpu-easypc-00000000359d",
+      "partId": "cpu-easypc-000000006de2",
       "amountPhp": 12063,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-7-5700g-socket-am4-3-8ghz-with-radeon-vega-8-processor",
       "observedAt": "2026-04-23T05:16:57.556127+00:00"
     },
     {
-      "partId": "cpu-pcworx-000000003cc4",
+      "partId": "cpu-easypc-000000006de2",
       "amountPhp": 11879.5,
       "retailer": "PCWORX",
       "productUrl": "https://pcworx.ph/products/amd-ryzen-7-5700g-3-8ghz-65w-am4-processor",
       "observedAt": "2026-04-23T05:45:47.301709+00:00"
     },
     {
-      "partId": "cpu-pc-express-000000000849",
+      "partId": "cpu-easypc-000000006de2",
       "amountPhp": 14100,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-7-5700g-3-8ghz-processor",
@@ -584,35 +584,35 @@
       "observedAt": "2026-04-23T04:05:21.529694+00:00"
     },
     {
-      "partId": "cpu-datablitz-0000000013ef",
+      "partId": "cpu-bermor-techzone-000000006370",
       "amountPhp": 26995,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-7800x3d-processor",
       "observedAt": "2026-04-23T04:44:24.058599+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000002ef7",
+      "partId": "cpu-bermor-techzone-000000006370",
       "amountPhp": 20295,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-7800x3d-tray-processor",
       "observedAt": "2026-04-23T04:44:24.058813+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-0000000016a2",
+      "partId": "cpu-bermor-techzone-000000006370",
       "amountPhp": 18995,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-7-7800x3d-4-2-5-0ghz-8-core-16threads-processor-tray",
       "observedAt": "2026-04-23T05:10:30.533796+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000053b5",
+      "partId": "cpu-bermor-techzone-000000006370",
       "amountPhp": 29095,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-7-7800x3d-lga-am5-d5-5-0ghz-with-radeon-graphics-processor",
       "observedAt": "2026-04-23T05:18:00.857586+00:00"
     },
     {
-      "partId": "cpu-pc-express-000000004a4f",
+      "partId": "cpu-bermor-techzone-000000006370",
       "amountPhp": 29900,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-7-7800x3d-4-2ghz-gaming-desktop-processor",
@@ -626,49 +626,49 @@
       "observedAt": "2026-04-23T04:05:21.529803+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000007031",
+      "partId": "cpu-bermor-techzone-0000000057a8",
       "amountPhp": 12650,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-7600-processor",
       "observedAt": "2026-04-23T04:44:24.058669+00:00"
     },
     {
-      "partId": "cpu-datablitz-00000000004e",
+      "partId": "cpu-bermor-techzone-0000000057a8",
       "amountPhp": 11250,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-7600-processor-tray",
       "observedAt": "2026-04-23T04:44:24.078226+00:00"
     },
     {
-      "partId": "cpu-datablitz-00000000420e",
+      "partId": "cpu-bermor-techzone-0000000057a8",
       "amountPhp": 11550,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-7600-processor-mpk",
       "observedAt": "2026-04-23T04:44:24.085251+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-0000000026c7",
+      "partId": "cpu-bermor-techzone-0000000057a8",
       "amountPhp": 11095,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-5-7600-am5-processor-3-80-5-10ghz-6-core-12-threads-tray",
       "observedAt": "2026-04-23T05:10:30.534151+00:00"
     },
     {
-      "partId": "cpu-easypc-000000002f49",
+      "partId": "cpu-bermor-techzone-0000000057a8",
       "amountPhp": 13050,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-7600-lga-am5-ddr5-processor",
       "observedAt": "2026-04-23T05:20:03.666463+00:00"
     },
     {
-      "partId": "cpu-pcworx-000000007d61",
+      "partId": "cpu-bermor-techzone-0000000057a8",
       "amountPhp": 13696.5,
       "retailer": "PCWORX",
       "productUrl": "https://pcworx.ph/products/amd-ryzen-5-7600-5-1ghz-ddr5-am5-pcie-5-0-processor",
       "observedAt": "2026-04-23T05:45:47.301415+00:00"
     },
     {
-      "partId": "cpu-pc-express-00000000608b",
+      "partId": "cpu-bermor-techzone-0000000057a8",
       "amountPhp": 13050,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-5-7600-3-8ghz-desktop-processor",
@@ -682,49 +682,49 @@
       "observedAt": "2026-04-23T04:05:21.529908+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-000000005dc8",
+      "partId": "cpu-bermor-techzone-000000004523",
       "amountPhp": 8990,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/motherboard/amd-motherboards/amd-ryzen-5-5500gigabyte-b550m-ds3h-processor-motherboard-bundle/",
       "observedAt": "2026-04-23T04:06:04.420845+00:00"
     },
     {
-      "partId": "cpu-datablitz-00000000420c",
+      "partId": "cpu-bermor-techzone-000000004523",
       "amountPhp": 5695,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-5500-processor",
       "observedAt": "2026-04-23T04:44:24.059994+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000002103",
+      "partId": "cpu-bermor-techzone-000000004523",
       "amountPhp": 5495,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-5500-processor-mpk",
       "observedAt": "2026-04-23T04:44:30.096331+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000007e11",
+      "partId": "cpu-bermor-techzone-000000004523",
       "amountPhp": 5175,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-5-5500-processor-4-60ghz-6-core-12-threads-tray",
       "observedAt": "2026-04-23T05:10:30.534094+00:00"
     },
     {
-      "partId": "cpu-easypc-000000005e3e",
+      "partId": "cpu-bermor-techzone-000000004523",
       "amountPhp": 4950,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-5500-socket-am4-3-6ghz-mpk-processor-with-amd-wraith-cooler",
       "observedAt": "2026-04-23T05:15:53.347422+00:00"
     },
     {
-      "partId": "cpu-easypc-00000000107a",
+      "partId": "cpu-bermor-techzone-000000004523",
       "amountPhp": 4621,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/copy-of-amd-ryzen-5-5500-socket-am4-3-6ghz-processor",
       "observedAt": "2026-04-23T05:16:25.856798+00:00"
     },
     {
-      "partId": "cpu-pcworx-000000001562",
+      "partId": "cpu-bermor-techzone-000000004523",
       "amountPhp": 4761,
       "retailer": "PCWORX",
       "productUrl": "https://pcworx.ph/products/amd-ryzen-5-5500-3-6ghz-65w-am4-processor-full-specs",
@@ -738,56 +738,56 @@
       "observedAt": "2026-04-23T04:05:21.530017+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-000000003ca2",
+      "partId": "cpu-bermor-techzone-0000000053e1",
       "amountPhp": 26445,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/motherboard/amd-motherboards/amd-ryzen-5-7600x-gigabyte-b650-aero-g-motherboard-and-processor-bundle/",
       "observedAt": "2026-04-23T04:06:06.920298+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-000000002365",
+      "partId": "cpu-bermor-techzone-0000000053e1",
       "amountPhp": 37695,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/motherboard/amd-motherboards/amd-ryzen-5-7600x-gigabyte-x670-aorus-elite-ax-gigabyte-2x16gb-ddr5-5200mhz-bundle/",
       "observedAt": "2026-04-23T04:07:25.209853+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000005772",
+      "partId": "cpu-bermor-techzone-0000000053e1",
       "amountPhp": 14250,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-7600x-processor",
       "observedAt": "2026-04-23T04:44:24.059163+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000000d84",
+      "partId": "cpu-bermor-techzone-0000000053e1",
       "amountPhp": 12595,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-7600x-processor-tray",
       "observedAt": "2026-04-23T04:44:35.948697+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000003bdc",
+      "partId": "cpu-bermor-techzone-0000000053e1",
       "amountPhp": 11685,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-5-7600x-am5-processor-4-70-5-30ghz-6-core-12-threads",
       "observedAt": "2026-04-23T05:10:30.534265+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000001f22",
+      "partId": "cpu-bermor-techzone-0000000053e1",
       "amountPhp": 11395,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-5-7600x-am5-processor-4-70-5-30ghz-6-core-12-threads-tray",
       "observedAt": "2026-04-23T05:10:30.534510+00:00"
     },
     {
-      "partId": "cpu-easypc-000000002657",
+      "partId": "cpu-bermor-techzone-0000000053e1",
       "amountPhp": 14650,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-7600x-lga-am5-d5-4-7ghz-with-radeon-graphics-processor",
       "observedAt": "2026-04-23T05:20:03.725898+00:00"
     },
     {
-      "partId": "cpu-villman-000000004465",
+      "partId": "cpu-bermor-techzone-0000000053e1",
       "amountPhp": 15999,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/amd_ryzen-5-7600x-53ghz-cores-6-threads-12-am5-processor",
@@ -801,56 +801,56 @@
       "observedAt": "2026-04-23T04:05:21.530120+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000004abc",
+      "partId": "cpu-bermor-techzone-00000000466b",
       "amountPhp": 31695,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-9800x3d-processor",
       "observedAt": "2026-04-23T04:44:24.058417+00:00"
     },
     {
-      "partId": "cpu-datablitz-0000000021eb",
+      "partId": "cpu-bermor-techzone-00000000466b",
       "amountPhp": 28995,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-9800x3d-tray-processor",
       "observedAt": "2026-04-23T04:44:24.060570+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000001690",
+      "partId": "cpu-bermor-techzone-00000000466b",
       "amountPhp": 29350,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-7-9800x3d-am5-processor-8-core-16-threads-tray",
       "observedAt": "2026-04-23T05:10:30.534385+00:00"
     },
     {
-      "partId": "cpu-easypc-000000007d18",
+      "partId": "cpu-bermor-techzone-00000000466b",
       "amountPhp": 37000,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-7-9800x3d-lga-am5-d5-5-2ghz-with-radeon-graphics-processor",
       "observedAt": "2026-04-23T05:20:19.468927+00:00"
     },
     {
-      "partId": "cpu-pc-express-0000000026d5",
+      "partId": "cpu-bermor-techzone-00000000466b",
       "amountPhp": 32800,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-7-9800x3d-desktop-processor",
       "observedAt": "2026-04-23T05:56:57.724329+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-000000001371",
+      "partId": "cpu-dynaquest-pc-000000005f67",
       "amountPhp": 17500,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/processors/amd-processors/amd-ryzen-7-9700x-8-cores-5-5-ghz-enthusiast-am5-desktop-processor-100-100001404wof/",
       "observedAt": "2026-04-23T04:05:21.530227+00:00"
     },
     {
-      "partId": "cpu-datablitz-0000000071a4",
+      "partId": "cpu-dynaquest-pc-000000005f67",
       "amountPhp": 21950,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-9700x-processor",
       "observedAt": "2026-04-23T04:44:24.060433+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000001f2c",
+      "partId": "cpu-dynaquest-pc-000000005f67",
       "amountPhp": 18250,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-9700x-processor-tray",
@@ -864,7 +864,7 @@
       "observedAt": "2026-04-23T05:10:30.534036+00:00"
     },
     {
-      "partId": "cpu-easypc-000000006b9c",
+      "partId": "cpu-dynaquest-pc-000000005f67",
       "amountPhp": 23150,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-7-9700x-3-8ghz-am5-socket-ddr5-processor",
@@ -878,84 +878,84 @@
       "observedAt": "2026-04-23T04:05:21.530431+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-000000005b50",
+      "partId": "cpu-bermor-techzone-00000000387d",
       "amountPhp": 6390,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/motherboard/amd-motherboards/amd-ryzen-3-3200g-processorgigabyte-b450m-ds3h-motherboard/",
       "observedAt": "2026-04-23T04:05:21.531377+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-00000000760e",
+      "partId": "cpu-bermor-techzone-00000000387d",
       "amountPhp": 23425,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-3-3200g-4-core-a520m-16gb-ddr4-ram-500gb-nvme-ssd-650w-bronze-psu-pccooler-matx-case-cpu-package",
       "observedAt": "2026-04-23T05:10:30.534447+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-00000000025c",
+      "partId": "cpu-bermor-techzone-00000000387d",
       "amountPhp": 3445,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-3-3200g-processor-4-core-4-thread-3-60-4-0ghz-4mb-65w-mpk-tray",
       "observedAt": "2026-04-23T05:10:30.536520+00:00"
     },
     {
-      "partId": "cpu-easypc-000000006aae",
+      "partId": "cpu-bermor-techzone-00000000387d",
       "amountPhp": 4413,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-3-3200g-processor-socket-am4-3-6ghz-with-radeon-vega-8",
       "observedAt": "2026-04-23T05:15:53.332689+00:00"
     },
     {
-      "partId": "cpu-easypc-000000003357",
+      "partId": "cpu-bermor-techzone-00000000387d",
       "amountPhp": 3750,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-3-3200g-socket-am4-3-6ghz-with-radeon-vega-8-processor-mpk",
       "observedAt": "2026-04-23T05:16:25.863965+00:00"
     },
     {
-      "partId": "cpu-easypc-00000000221a",
+      "partId": "cpu-bermor-techzone-00000000387d",
       "amountPhp": 7850,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-3-3200g-socket-am4-3-6ghz-processor-ttp",
       "observedAt": "2026-04-23T05:16:57.549588+00:00"
     },
     {
-      "partId": "cpu-pcworx-000000006319",
+      "partId": "cpu-bermor-techzone-00000000387d",
       "amountPhp": 8510,
       "retailer": "PCWORX",
       "productUrl": "https://pcworx.ph/products/amd-ryzen-3-3200g-3-6ghz-am4-processor-tray-type-1",
       "observedAt": "2026-04-23T05:45:47.301885+00:00"
     },
     {
-      "partId": "cpu-pcworx-000000006319",
+      "partId": "cpu-bermor-techzone-00000000387d",
       "amountPhp": 5736,
       "retailer": "PCWORX",
       "productUrl": "https://pcworx.ph/products/amd-ryzen-3-3200g-3-6ghz-am4-processor-tray-type",
       "observedAt": "2026-04-23T05:45:47.301946+00:00"
     },
     {
-      "partId": "cpu-pcworx-000000003990",
+      "partId": "cpu-bermor-techzone-00000000387d",
       "amountPhp": 3588,
       "retailer": "PCWORX",
       "productUrl": "https://pcworx.ph/products/amd-ryzen-3-3200g-3-6ghz-am4-4-core-4mb-cpu-processor",
       "observedAt": "2026-04-23T05:45:47.302007+00:00"
     },
     {
-      "partId": "cpu-pcworx-0000000013e7",
+      "partId": "cpu-bermor-techzone-00000000387d",
       "amountPhp": 7877.5,
       "retailer": "PCWORX",
       "productUrl": "https://pcworx.ph/products/amd-ryzen-3-3200g-3-6ghz-am4-4-core-4mb-cpu-w-o-fan",
       "observedAt": "2026-04-23T05:50:48.431436+00:00"
     },
     {
-      "partId": "cpu-pc-express-00000000456c",
+      "partId": "cpu-bermor-techzone-00000000387d",
       "amountPhp": 3800,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-3-3200g-3-6ghz-unlocked-processor",
       "observedAt": "2026-04-23T05:56:57.723320+00:00"
     },
     {
-      "partId": "cpu-villman-000000001103",
+      "partId": "cpu-bermor-techzone-00000000387d",
       "amountPhp": 4499,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/amd_ryzen_3_3200g",
@@ -969,49 +969,49 @@
       "observedAt": "2026-04-23T04:05:21.530534+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-000000004f80",
+      "partId": "cpu-bermor-techzone-000000006f68",
       "amountPhp": 30990,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/motherboard/amd-motherboards/amd-ryzen-7-7700x-gigabyte-b650-aero-g-motherboard-and-processor-bundle/",
       "observedAt": "2026-04-23T04:08:05.045729+00:00"
     },
     {
-      "partId": "cpu-datablitz-00000000255b",
+      "partId": "cpu-bermor-techzone-000000006f68",
       "amountPhp": 19495,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-7700x-processor",
       "observedAt": "2026-04-23T04:44:24.060843+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000001220",
+      "partId": "cpu-bermor-techzone-000000006f68",
       "amountPhp": 17195,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-7700x-processor-tray",
       "observedAt": "2026-04-23T04:44:24.085456+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000004b9a",
+      "partId": "cpu-bermor-techzone-000000006f68",
       "amountPhp": 14680,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-7-7700x-am5-processor-4-50-5-40ghz-8-core-16-threads-tray",
       "observedAt": "2026-04-23T05:10:30.534862+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000027b7",
+      "partId": "cpu-bermor-techzone-000000006f68",
       "amountPhp": 22025,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-7-7700x-lga-am5-d5-4-5ghz-with-radeon-graphics-processor",
       "observedAt": "2026-04-23T05:20:19.477549+00:00"
     },
     {
-      "partId": "cpu-pc-express-000000007282",
+      "partId": "cpu-bermor-techzone-000000006f68",
       "amountPhp": 21650,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-7-7700x-desktop-processor-4-5ghz",
       "observedAt": "2026-04-23T05:56:57.724028+00:00"
     },
     {
-      "partId": "cpu-villman-00000000710e",
+      "partId": "cpu-bermor-techzone-000000006f68",
       "amountPhp": 22999,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/amd_ryzen-7-7700x-cores-8-threads-16-am5-processor",
@@ -1025,35 +1025,35 @@
       "observedAt": "2026-04-23T04:05:21.530650+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000000b29",
+      "partId": "cpu-bermor-techzone-000000007859",
       "amountPhp": 14850,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-9600x-processor",
       "observedAt": "2026-04-23T04:44:24.061329+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000001a90",
+      "partId": "cpu-bermor-techzone-000000007859",
       "amountPhp": 13250,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-9600x-processor-tray",
       "observedAt": "2026-04-23T04:44:24.061404+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000007023",
+      "partId": "cpu-bermor-techzone-000000007859",
       "amountPhp": 12265,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-5-9600x-am5-processor-3-90-5-40ghz-6-core-12-threads-tray",
       "observedAt": "2026-04-23T05:10:30.533856+00:00"
     },
     {
-      "partId": "cpu-easypc-000000002cd3",
+      "partId": "cpu-bermor-techzone-000000007859",
       "amountPhp": 17995,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-9600x-3-9ghz-am5-socket-ddr5-processor",
       "observedAt": "2026-04-23T05:20:19.470482+00:00"
     },
     {
-      "partId": "cpu-pc-express-000000005f1d",
+      "partId": "cpu-bermor-techzone-000000007859",
       "amountPhp": 15400,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-5-9600x-desktop-processor",
@@ -1067,14 +1067,14 @@
       "observedAt": "2026-04-23T04:05:21.530959+00:00"
     },
     {
-      "partId": "cpu-easypc-000000002565",
+      "partId": "cpu-bermor-techzone-0000000035bf",
       "amountPhp": 4866.67,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-4500-socket-am4-3-8ghz-box-processor",
       "observedAt": "2026-04-23T05:16:57.568970+00:00"
     },
     {
-      "partId": "cpu-easypc-00000000159c",
+      "partId": "cpu-bermor-techzone-0000000035bf",
       "amountPhp": 3888.89,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-4500-socket-am4-3-8ghz-with-wraith-stealth-cooler-mpk-processor",
@@ -1088,21 +1088,21 @@
       "observedAt": "2026-04-23T04:05:21.531065+00:00"
     },
     {
-      "partId": "cpu-easypc-000000001430",
+      "partId": "cpu-bermor-techzone-000000006c07",
       "amountPhp": 6215,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-3-4100-socket-am4-3-8ghz-with-wraith-stealth-cooler-processor-mpk",
       "observedAt": "2026-04-23T05:18:00.860304+00:00"
     },
     {
-      "partId": "cpu-easypc-00000000215d",
+      "partId": "cpu-bermor-techzone-000000006c07",
       "amountPhp": 5444.44,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-3-4100-socket-am4-3-8ghz-box-processor",
       "observedAt": "2026-04-23T05:20:05.696835+00:00"
     },
     {
-      "partId": "cpu-pcworx-000000003c09",
+      "partId": "cpu-bermor-techzone-000000006c07",
       "amountPhp": 4358.5,
       "retailer": "PCWORX",
       "productUrl": "https://pcworx.ph/products/amd-ryzen™-3-4100-4-core-8-thread-unlocked-desktop-processor-with-wraith-stealth-cooler",
@@ -1116,28 +1116,28 @@
       "observedAt": "2026-04-23T04:05:21.531169+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000003256",
+      "partId": "cpu-bermor-techzone-000000004a03",
       "amountPhp": 22750,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-9-7900x-processor",
       "observedAt": "2026-04-23T04:44:24.064590+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000004af4",
+      "partId": "cpu-bermor-techzone-000000004a03",
       "amountPhp": 21980,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-9-7900x-am5-processor-4-70-5-60ghz-12-core-24-threads",
       "observedAt": "2026-04-23T05:10:30.534630+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000004cc5",
+      "partId": "cpu-bermor-techzone-000000004a03",
       "amountPhp": 21620,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-9-7900x-am5-processor-4-70-5-60ghz-12-core-24-threads-tray",
       "observedAt": "2026-04-23T05:10:30.534744+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000039ae",
+      "partId": "cpu-bermor-techzone-000000004a03",
       "amountPhp": 25648,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-9-7900x-lga-am5-ddr5-processor",
@@ -1151,14 +1151,14 @@
       "observedAt": "2026-04-23T04:05:21.531271+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000001040",
+      "partId": "cpu-bermor-techzone-0000000056a8",
       "amountPhp": 10995,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-8400f-processor-with-wraith-stealth-cooler",
       "observedAt": "2026-04-23T04:44:22.122441+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000001f6e",
+      "partId": "cpu-bermor-techzone-0000000056a8",
       "amountPhp": 7195,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-8400f-processor-with-wraith-stealth-cooler-mpk",
@@ -1172,35 +1172,35 @@
       "observedAt": "2026-04-23T04:05:21.531479+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000059da",
+      "partId": "cpu-bermor-techzone-000000000ea2",
       "amountPhp": 7499,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-2400g-processor-socket-am4-3-6ghz-with-radeon-rx-vega-11",
       "observedAt": "2026-04-23T05:16:07.639257+00:00"
     },
     {
-      "partId": "cpu-easypc-000000003b25",
+      "partId": "cpu-bermor-techzone-000000000ea2",
       "amountPhp": 4063,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-2400g-socket-am4-3-6ghz-with-radeon-rx-vega-11-processor-mpk",
       "observedAt": "2026-04-23T05:19:35.639642+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-00000000055d",
+      "partId": "cpu-dynaquest-pc-000000001796",
       "amountPhp": 16250,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/processors/amd-processors/amd-ryzen-7-8700g-4-2ghz-up-to-5-1ghz-socket-am5-processor-100-100001236box/",
       "observedAt": "2026-04-23T04:05:21.531589+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000005150",
+      "partId": "cpu-dynaquest-pc-000000001796",
       "amountPhp": 17750,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-8700g-processor",
       "observedAt": "2026-04-23T04:44:24.065032+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000002dc5",
+      "partId": "cpu-dynaquest-pc-000000001796",
       "amountPhp": 17550,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-8700g-processor-mpk",
@@ -1214,28 +1214,28 @@
       "observedAt": "2026-04-23T05:10:30.535226+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-0000000023bf",
+      "partId": "cpu-dynaquest-pc-000000001796",
       "amountPhp": 16985,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-7-8700g-4-20-5-10ghz-8-core-16-threads-w-cooler-processor-boxed",
       "observedAt": "2026-04-23T05:10:30.536148+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000057e6",
+      "partId": "cpu-dynaquest-pc-000000001796",
       "amountPhp": 17588.89,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-7-8700g-4-2ghz-am5-socket-ddr5-processor",
       "observedAt": "2026-04-23T05:20:19.470811+00:00"
     },
     {
-      "partId": "cpu-pcworx-000000006c65",
+      "partId": "cpu-dynaquest-pc-000000001796",
       "amountPhp": 18204.5,
       "retailer": "PCWORX",
       "productUrl": "https://pcworx.ph/products/amd-ryzen-7-8700g-4-2ghz-45-65w-am5-processor",
       "observedAt": "2026-04-23T05:45:47.301592+00:00"
     },
     {
-      "partId": "cpu-pc-express-000000004cf5",
+      "partId": "cpu-dynaquest-pc-000000001796",
       "amountPhp": 18350,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-7-8700g-desktop-processor-4-2-up-to-5-1ghz",
@@ -1249,28 +1249,28 @@
       "observedAt": "2026-04-23T04:05:21.531692+00:00"
     },
     {
-      "partId": "cpu-datablitz-0000000031e1",
+      "partId": "cpu-bermor-techzone-000000000870",
       "amountPhp": 11950,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-8600g-processor",
       "observedAt": "2026-04-23T04:44:24.065772+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-00000000748c",
+      "partId": "cpu-bermor-techzone-000000000870",
       "amountPhp": 11450,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-5-8600g-4-30-5-0ghz-6-core-12-threads-w-cooler-processor-boxed",
       "observedAt": "2026-04-23T05:10:30.536645+00:00"
     },
     {
-      "partId": "cpu-easypc-00000000191d",
+      "partId": "cpu-bermor-techzone-000000000870",
       "amountPhp": 14500,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-8600g-4-3ghz-am5-socket-ddr5-processor",
       "observedAt": "2026-04-23T05:20:19.470882+00:00"
     },
     {
-      "partId": "cpu-pc-express-00000000288e",
+      "partId": "cpu-bermor-techzone-000000000870",
       "amountPhp": 12500,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-5-8600g-desktop-processor-4-3-up-tp-5-0ghz",
@@ -1284,14 +1284,14 @@
       "observedAt": "2026-04-23T04:05:21.531793+00:00"
     },
     {
-      "partId": "cpu-datablitz-0000000020ca",
+      "partId": "cpu-bermor-techzone-0000000061a9",
       "amountPhp": 14650,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-7500x3d-processor-tray",
       "observedAt": "2026-04-23T04:44:35.946032+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-00000000218f",
+      "partId": "cpu-bermor-techzone-0000000061a9",
       "amountPhp": 14590,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-5-7500x3d-am5-processor-4-40-5-0ghz-6-core-12-threads-tray",
@@ -1305,35 +1305,35 @@
       "observedAt": "2026-04-23T04:05:21.531895+00:00"
     },
     {
-      "partId": "cpu-datablitz-0000000013bf",
+      "partId": "cpu-bermor-techzone-00000000676e",
       "amountPhp": 9595,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-8500g-processor",
       "observedAt": "2026-04-23T04:44:24.065708+00:00"
     },
     {
-      "partId": "cpu-datablitz-0000000035e1",
+      "partId": "cpu-bermor-techzone-00000000676e",
       "amountPhp": 9295,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-8500g-processor-mpk",
       "observedAt": "2026-04-23T04:44:24.080339+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-0000000075ca",
+      "partId": "cpu-bermor-techzone-00000000676e",
       "amountPhp": 9150,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-5-8500g-3-50ghz-up-to-5-0ghz-processor-boxed",
       "observedAt": "2026-04-23T05:10:30.535168+00:00"
     },
     {
-      "partId": "cpu-easypc-000000004c63",
+      "partId": "cpu-bermor-techzone-00000000676e",
       "amountPhp": 11798.41,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-8500g-3-5ghz-am5-socket-ddr5-processor",
       "observedAt": "2026-04-23T05:20:19.470943+00:00"
     },
     {
-      "partId": "cpu-pc-express-000000006ab6",
+      "partId": "cpu-bermor-techzone-00000000676e",
       "amountPhp": 9900,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-5-8500g-desktop-processor-3-5-up-to-5-0ghz",
@@ -1347,28 +1347,28 @@
       "observedAt": "2026-04-23T04:05:21.531998+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000006406",
+      "partId": "cpu-bermor-techzone-000000003424",
       "amountPhp": 38250,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-9-9950x-processor",
       "observedAt": "2026-04-23T04:44:24.063704+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000004975",
+      "partId": "cpu-bermor-techzone-000000003424",
       "amountPhp": 31650,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-9-9950x-processor-tray",
       "observedAt": "2026-04-23T04:44:24.083603+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-0000000057f4",
+      "partId": "cpu-bermor-techzone-000000003424",
       "amountPhp": 30550,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-9-9950x-16-cores-32-threads-80mb-cache-desktop-processor-tray",
       "observedAt": "2026-04-23T05:10:30.536344+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000033fc",
+      "partId": "cpu-bermor-techzone-000000003424",
       "amountPhp": 36941,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-9-9950x-4-3ghz-am5-socket-ddr5-processor",
@@ -1382,21 +1382,21 @@
       "observedAt": "2026-04-23T04:05:21.532112+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000003bf9",
+      "partId": "cpu-bermor-techzone-000000003926",
       "amountPhp": 16395,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-8700f-processor-with-wraith-stealth-cooler",
       "observedAt": "2026-04-23T04:44:22.122295+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000002452",
+      "partId": "cpu-bermor-techzone-000000003926",
       "amountPhp": 10950,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-8700f-processor-with-wraith-stealth-cooler-mpk",
       "observedAt": "2026-04-23T04:44:24.068798+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000006d58",
+      "partId": "cpu-bermor-techzone-000000003926",
       "amountPhp": 9380,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-7-8700f-am5-processor-8-core-16-threads-mpk",
@@ -1431,21 +1431,21 @@
       "observedAt": "2026-04-23T04:06:02.124167+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-000000001b42",
+      "partId": "cpu-easypc-0000000021ac",
       "amountPhp": 17950,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/processors/intel-processor/intel-core-i7-12700-up-to-4-90-ghz-12th-gen-alder-lake-12-core-lga-1700-125w-desktop-processor/",
       "observedAt": "2026-04-23T04:06:02.124278+00:00"
     },
     {
-      "partId": "cpu-easypc-000000001192",
+      "partId": "cpu-easypc-0000000021ac",
       "amountPhp": 16800,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i7-12700-alder-lake-socket-lga-1700-4-90ghz-processor",
       "observedAt": "2026-04-23T05:15:04.702553+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000066c3",
+      "partId": "cpu-easypc-0000000021ac",
       "amountPhp": 16915,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i7-12700-4-9ghz-lga1700-socket-ddr4-processor-ttp",
@@ -1459,14 +1459,14 @@
       "observedAt": "2026-04-23T05:15:04.705634+00:00"
     },
     {
-      "partId": "cpu-pc-express-00000000100c",
+      "partId": "cpu-easypc-0000000021ac",
       "amountPhp": 20350,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/intel-core-i7-12700-processor",
       "observedAt": "2026-04-23T05:57:00.926901+00:00"
     },
     {
-      "partId": "cpu-villman-000000006456",
+      "partId": "cpu-easypc-0000000021ac",
       "amountPhp": 17799,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/intel_core-i7-12700-processor-25m-cache-up-to-490-ghz-processor",
@@ -1480,7 +1480,7 @@
       "observedAt": "2026-04-23T04:06:02.124384+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000000f9",
+      "partId": "cpu-bermor-techzone-000000004123",
       "amountPhp": 11829.63,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i5-12500-alder-lake-3-0ghz-intel-uhd-graphics-770-max-turbo-frequency-4-60-ghz-socket-1700-desktop-processor",
@@ -1508,14 +1508,14 @@
       "observedAt": "2026-04-23T04:06:02.124715+00:00"
     },
     {
-      "partId": "cpu-easypc-00000000128d",
+      "partId": "cpu-bermor-techzone-000000004862",
       "amountPhp": 4995,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i3-10105f-4-core-comet-lake-socket-1200-3-70ghz-processor",
       "observedAt": "2026-04-23T05:15:04.707963+00:00"
     },
     {
-      "partId": "cpu-villman-000000007f36",
+      "partId": "cpu-bermor-techzone-000000004862",
       "amountPhp": 5299,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/intel_core-i3-10105f-up-tp-440ghz-6m-cache-processor",
@@ -1529,7 +1529,7 @@
       "observedAt": "2026-04-23T04:06:02.124819+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000048fc",
+      "partId": "cpu-bermor-techzone-000000005b8b",
       "amountPhp": 4478.61,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i3-10100f-comet-lake-socket-1200-3-60ghz-processor",
@@ -1571,7 +1571,7 @@
       "observedAt": "2026-04-23T04:06:02.125361+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000014a4",
+      "partId": "cpu-bermor-techzone-000000003274",
       "amountPhp": 14000,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i5-12600-alder-lake-3-30ghz-intel-uhd-graphics-770-max-turbo-frequency-4-80-ghz-socket-1700-desktop-processor",
@@ -1634,7 +1634,7 @@
       "observedAt": "2026-04-23T04:06:02.134407+00:00"
     },
     {
-      "partId": "cpu-easypc-000000002e19",
+      "partId": "cpu-bermor-techzone-000000006817",
       "amountPhp": 12299,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i5-10500-comet-lake-socket-1200-3-10ghz-processor",
@@ -1711,35 +1711,35 @@
       "observedAt": "2026-04-23T04:06:04.420699+00:00"
     },
     {
-      "partId": "cpu-datablitz-00000000322a",
+      "partId": "cpu-bermor-techzone-000000000335",
       "amountPhp": 37995,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-9-9900x3d-gaming-and-content-creation-processor",
       "observedAt": "2026-04-23T04:44:24.079004+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000000764",
+      "partId": "cpu-bermor-techzone-000000000335",
       "amountPhp": 35895,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-9-9900x3d-processor-tray",
       "observedAt": "2026-04-23T04:44:24.085389+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-0000000037c7",
+      "partId": "cpu-bermor-techzone-000000000335",
       "amountPhp": 35615,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-9-9900x3d-4-40ghz-5-50ghz-12core-24threads-processor-tray",
       "observedAt": "2026-04-23T05:10:30.534688+00:00"
     },
     {
-      "partId": "cpu-easypc-000000005b4a",
+      "partId": "cpu-bermor-techzone-000000000335",
       "amountPhp": 40995,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-9-9900x3d-4-4ghz-am5-socket-ddr5-processor",
       "observedAt": "2026-04-23T05:20:19.470075+00:00"
     },
     {
-      "partId": "cpu-pc-express-000000004c32",
+      "partId": "cpu-bermor-techzone-000000000335",
       "amountPhp": 41000,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-9-9900x3d-gaming-and-content-creation-processor",
@@ -1753,42 +1753,42 @@
       "observedAt": "2026-04-23T04:06:04.420980+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000000c95",
+      "partId": "cpu-bermor-techzone-000000002c7f",
       "amountPhp": 26750,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-9-9900x-processor",
       "observedAt": "2026-04-23T04:44:24.061250+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000003061",
+      "partId": "cpu-bermor-techzone-000000002c7f",
       "amountPhp": 25650,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-9-9900x-processor-tray",
       "observedAt": "2026-04-23T04:44:24.085175+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000000cc4",
+      "partId": "cpu-bermor-techzone-000000002c7f",
       "amountPhp": 24490,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-9-9900x-am5-processor-upto-5-60ghz-12-core-24-threads-tray",
       "observedAt": "2026-04-23T05:10:30.536403+00:00"
     },
     {
-      "partId": "cpu-easypc-00000000594e",
+      "partId": "cpu-bermor-techzone-000000002c7f",
       "amountPhp": 22995,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-9-9900x-4-4ghz-am5-socket-ddr5-processor-ttp-1",
       "observedAt": "2026-04-23T05:20:19.468863+00:00"
     },
     {
-      "partId": "cpu-easypc-000000001093",
+      "partId": "cpu-bermor-techzone-000000002c7f",
       "amountPhp": 27275,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-9-9900x-4-4ghz-am5-socket-ddr5-processor",
       "observedAt": "2026-04-23T05:20:19.470312+00:00"
     },
     {
-      "partId": "cpu-pc-express-000000004534",
+      "partId": "cpu-bermor-techzone-000000002c7f",
       "amountPhp": 27700,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-9-9900x-desktop-processor",
@@ -1802,14 +1802,14 @@
       "observedAt": "2026-04-23T04:06:04.421097+00:00"
     },
     {
-      "partId": "cpu-datablitz-00000000310b",
+      "partId": "cpu-bermor-techzone-000000003e47",
       "amountPhp": 8950,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-7400-processor-tray",
       "observedAt": "2026-04-23T04:44:24.086507+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000003ff1",
+      "partId": "cpu-bermor-techzone-000000003e47",
       "amountPhp": 8960,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-5-7400-am5-processor-3-30-4-30ghz-6-core-12-threads-tray",
@@ -1823,7 +1823,7 @@
       "observedAt": "2026-04-23T04:06:04.421188+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000003bb5",
+      "partId": "cpu-bermor-techzone-000000007d37",
       "amountPhp": 12650,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-9500f-processor-tray",
@@ -1844,21 +1844,21 @@
       "observedAt": "2026-04-23T04:06:04.421324+00:00"
     },
     {
-      "partId": "cpu-easypc-000000000bc0",
+      "partId": "cpu-bermor-techzone-000000005bb7",
       "amountPhp": 61995,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-9-9950x3d2-dual-edition-desktop-processor",
       "observedAt": "2026-04-23T05:20:19.470010+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-0000000008c1",
+      "partId": "cpu-dynaquest-pc-0000000022ff",
       "amountPhp": 7995,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/processors/amd-processors/amd-ryzen-7-5700x-8-core-3-4-ghz-socket-am4-65w-100-100000926wof-desktop-processor/",
       "observedAt": "2026-04-23T04:06:04.421426+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000005e1d",
+      "partId": "cpu-dynaquest-pc-0000000022ff",
       "amountPhp": 10195,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-5700-processor",
@@ -1872,42 +1872,42 @@
       "observedAt": "2026-04-23T05:10:30.534985+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000003838",
+      "partId": "cpu-dynaquest-pc-0000000022ff",
       "amountPhp": 52495,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-7-5700-8-core-b550m-16gb-ddr4-ram-1tb-nvme-ssd-750w-bronze-psu-pccooler-matx-case-120mm-air-cooler-cpu-package",
       "observedAt": "2026-04-23T05:10:30.535313+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000006f7",
+      "partId": "cpu-dynaquest-pc-0000000022ff",
       "amountPhp": 10877.78,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-7-5700-3-7ghz-am4-socket-ddr4-processor",
       "observedAt": "2026-04-23T05:20:03.659840+00:00"
     },
     {
-      "partId": "cpu-pcworx-000000006da7",
+      "partId": "cpu-dynaquest-pc-0000000022ff",
       "amountPhp": 11258.5,
       "retailer": "PCWORX",
       "productUrl": "https://pcworx.ph/products/amd-ryzen-7-5700-3-7ghz-65w-am4-processor",
       "observedAt": "2026-04-23T05:45:47.301769+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-000000007a5b",
+      "partId": "cpu-dynaquest-pc-000000005661",
       "amountPhp": 39950,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/processors/amd-processors/amd-ryzen-9-9950x3d-4-3-ghz-up-to-5-7-ghz-socket-am5-gaming-and-content-creation-desktop-processor/",
       "observedAt": "2026-04-23T04:06:04.421613+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000000c8c",
+      "partId": "cpu-dynaquest-pc-000000005661",
       "amountPhp": 45650,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-9-9950x3d-gaming-and-content-creation-processor",
       "observedAt": "2026-04-23T04:44:24.062122+00:00"
     },
     {
-      "partId": "cpu-datablitz-0000000057ff",
+      "partId": "cpu-dynaquest-pc-000000005661",
       "amountPhp": 43950,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-9-9950x3d-processor-tray",
@@ -1921,42 +1921,42 @@
       "observedAt": "2026-04-23T05:10:30.534800+00:00"
     },
     {
-      "partId": "cpu-pc-express-000000003986",
+      "partId": "cpu-dynaquest-pc-000000005661",
       "amountPhp": 62950,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-9-9950x3d-gaming-and-content-creation-processor",
       "observedAt": "2026-04-23T05:56:57.724572+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-000000001d50",
+      "partId": "cpu-silicon-valley-0000000032f7",
       "amountPhp": 5850,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/processors/amd-processors/amd-ryzen-5-3600-6-core-12-thread-3-6-4-2-ghz-35mb-65w-am4/",
       "observedAt": "2026-04-23T04:06:04.421796+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000001745",
+      "partId": "cpu-silicon-valley-0000000032f7",
       "amountPhp": 5995,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-3600-processor",
       "observedAt": "2026-04-23T04:44:24.078164+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000020fd",
+      "partId": "cpu-silicon-valley-0000000032f7",
       "amountPhp": 5990.38,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-3600-processor-socket-am4-4-2ghz-with-wraith-stealth-cooler",
       "observedAt": "2026-04-23T05:15:53.328032+00:00"
     },
     {
-      "partId": "cpu-easypc-000000001e88",
+      "partId": "cpu-silicon-valley-0000000032f7",
       "amountPhp": 4388.89,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-3600-socket-am4-4-2ghz-base-clock-3-6ghz-6-cpu-cores-up-to-3200mhz-processor",
       "observedAt": "2026-04-23T05:15:53.349543+00:00"
     },
     {
-      "partId": "cpu-easypc-000000007031",
+      "partId": "cpu-silicon-valley-0000000032f7",
       "amountPhp": 4375,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/copy-of-amd-ryzen-5-3600-socket-am4-4-2ghz-processor-with-wraith-stealth-cooler-mpk",
@@ -1977,35 +1977,35 @@
       "observedAt": "2026-04-23T04:06:04.421898+00:00"
     },
     {
-      "partId": "cpu-datablitz-0000000066b0",
+      "partId": "cpu-bermor-techzone-000000005a96",
       "amountPhp": 6495,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-4600g-processor",
       "observedAt": "2026-04-23T04:44:24.079517+00:00"
     },
     {
-      "partId": "cpu-easypc-000000004d41",
+      "partId": "cpu-bermor-techzone-000000005a96",
       "amountPhp": 6000,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-4600g-socket-am4-3-7ghz-with-radeon-graphics-processor-with-cpu-cooler-q100v2-mpk",
       "observedAt": "2026-04-23T05:17:29.925369+00:00"
     },
     {
-      "partId": "cpu-pc-express-000000004aeb",
+      "partId": "cpu-bermor-techzone-000000005a96",
       "amountPhp": 6150,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-5-4600g-desktop-processor-up-to-4-2ghz",
       "observedAt": "2026-04-23T05:56:57.723389+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-0000000075d3",
+      "partId": "cpu-dynaquest-pc-0000000026eb",
       "amountPhp": 10995,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/processors/amd-processors/amd-ryzen-7-5800x-8-core-3-8-ghz-socket-am4-105w-100-100000063wof-desktop-processor/",
       "observedAt": "2026-04-23T04:06:04.422015+00:00"
     },
     {
-      "partId": "cpu-datablitz-0000000008cb",
+      "partId": "cpu-dynaquest-pc-0000000026eb",
       "amountPhp": 14395,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-5800x-processor",
@@ -2019,14 +2019,14 @@
       "observedAt": "2026-04-23T05:10:30.535955+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000033eb",
+      "partId": "cpu-dynaquest-pc-0000000026eb",
       "amountPhp": 12645,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-7-5800x-socket-am4-3-8ghz-processor-mpk",
       "observedAt": "2026-04-23T05:20:19.476867+00:00"
     },
     {
-      "partId": "cpu-pcworx-000000005ae2",
+      "partId": "cpu-dynaquest-pc-0000000026eb",
       "amountPhp": 14892.5,
       "retailer": "PCWORX",
       "productUrl": "https://pcworx.ph/products/amd-ryzen-7-5800x-4-7ghz-105w-am4-processor",
@@ -2040,14 +2040,14 @@
       "observedAt": "2026-04-23T04:06:04.422158+00:00"
     },
     {
-      "partId": "cpu-datablitz-00000000729b",
+      "partId": "cpu-bermor-techzone-000000002d75",
       "amountPhp": 20950,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-5800x3d-processor",
       "observedAt": "2026-04-23T04:44:24.060220+00:00"
     },
     {
-      "partId": "cpu-easypc-000000003a66",
+      "partId": "cpu-bermor-techzone-000000002d75",
       "amountPhp": 21495,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-7-5800x3d-3-6ghz-am4-processor",
@@ -2068,14 +2068,14 @@
       "observedAt": "2026-04-23T04:06:04.422451+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000007403",
+      "partId": "cpu-bermor-techzone-000000002917",
       "amountPhp": 18895,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-9-5900x-processor",
       "observedAt": "2026-04-23T04:44:24.062258+00:00"
     },
     {
-      "partId": "cpu-easypc-000000004fdd",
+      "partId": "cpu-bermor-techzone-000000002917",
       "amountPhp": 18550,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-9-5900x-socket-am4-3-7ghz-processor-1",
@@ -2089,21 +2089,21 @@
       "observedAt": "2026-04-23T04:06:04.422538+00:00"
     },
     {
-      "partId": "cpu-easypc-000000004796",
+      "partId": "cpu-bermor-techzone-000000007d72",
       "amountPhp": 31650,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-9-5950x-socket-am4-3-7ghz-processor-1",
       "observedAt": "2026-04-23T05:20:19.468734+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-000000000e9f",
+      "partId": "cpu-datablitz-00000000251a",
       "amountPhp": 32695,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/processors/amd-processors/amd-ryzen-9-7950x-4-5ghz-up-to-5-7ghz-socket-am5-processor-100-100000514wof/",
       "observedAt": "2026-04-23T04:06:04.422607+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-000000001699",
+      "partId": "cpu-datablitz-00000000251a",
       "amountPhp": 56640,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/motherboard/amd-motherboards/amd-ryzen-9-7950x-gigabyte-x670-gaming-x-gigabyte-2x16gb-ddr5-5200mhz-bundle/",
@@ -2117,21 +2117,21 @@
       "observedAt": "2026-04-23T04:44:24.065459+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000006f8a",
+      "partId": "cpu-datablitz-00000000251a",
       "amountPhp": 33150,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-9-7950x-am5-processor-4-50-5-70ghz-16-core-32-threads-boxed",
       "observedAt": "2026-04-23T05:10:30.536584+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000025b5",
+      "partId": "cpu-datablitz-00000000251a",
       "amountPhp": 34950,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-9-7950x-lga-am5-ddr5-processor",
       "observedAt": "2026-04-23T05:20:19.476955+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-000000006626",
+      "partId": "cpu-datablitz-000000003dfd",
       "amountPhp": 20795,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/processors/amd-processors/amd-ryzen-9-7900-3-7ghz-up-to-5-4ghz-socket-am5-processor-100-100000590box/",
@@ -2145,7 +2145,7 @@
       "observedAt": "2026-04-23T04:44:24.078024+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000007172",
+      "partId": "cpu-datablitz-000000003dfd",
       "amountPhp": 22780,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-9-7900-am5-processor-3-70-5-40ghz-12-core-24-threads-must-be-purchased-with-b650-or-higher-motherboard",
@@ -2159,7 +2159,7 @@
       "observedAt": "2026-04-23T04:06:04.422760+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000054c6",
+      "partId": "cpu-bermor-techzone-000000004b57",
       "amountPhp": 3800,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-3500-am4-socket-3-6ghz-with-wraith-stealth-cpu-core-6-processor",
@@ -2173,7 +2173,7 @@
       "observedAt": "2026-04-23T04:06:04.422853+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000030d7",
+      "partId": "cpu-bermor-techzone-000000003be4",
       "amountPhp": 7995,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-3-3300x-socket-am4-3-8ghz-with-wraith-stealth-cooler-processor",
@@ -2187,7 +2187,7 @@
       "observedAt": "2026-04-23T04:06:04.422975+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-0000000031a5",
+      "partId": "cpu-easypc-000000003de0",
       "amountPhp": 13750,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/processors/amd-processors/amd-ryzen-5-3600x-6-core-3-8-ghz-4-4-ghz-max-boost-socket-am4-95w-desktop-processor/",
@@ -2215,7 +2215,7 @@
       "observedAt": "2026-04-23T04:06:04.423293+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-000000003805",
+      "partId": "cpu-datablitz-00000000521f",
       "amountPhp": 37795,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/processors/amd-processors/amd-ryzen-9-7950x3d-4-2ghz-up-to-5-7ghz-socket-am5-processor-100-100000908wof/",
@@ -2229,7 +2229,7 @@
       "observedAt": "2026-04-23T04:44:24.062719+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-0000000005ed",
+      "partId": "cpu-datablitz-00000000521f",
       "amountPhp": 41115,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-9-7950x3d-am5-processor-5-70ghz-16-core-boxed-must-be-purchased-with-b650-or-higher-motherboard",
@@ -2243,14 +2243,14 @@
       "observedAt": "2026-04-23T04:06:04.423491+00:00"
     },
     {
-      "partId": "cpu-easypc-000000003a45",
+      "partId": "cpu-bermor-techzone-000000000e1a",
       "amountPhp": 8399,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-3500x-processor-socket-am4-3-6ghz-with-wraith-spire-cooler",
       "observedAt": "2026-04-23T05:16:25.835498+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000011b5",
+      "partId": "cpu-bermor-techzone-000000000e1a",
       "amountPhp": 12399,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-3500x-socket-am4-3-6ghz-processor-with-wraith-stealth-cooler-mpk-overclocking-unlock-pcie-4-0-processor",
@@ -2264,14 +2264,14 @@
       "observedAt": "2026-04-23T04:06:04.423587+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000006f29",
+      "partId": "cpu-bermor-techzone-000000005171",
       "amountPhp": 30550,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-9-7900x3d-processor",
       "observedAt": "2026-04-23T04:44:24.067155+00:00"
     },
     {
-      "partId": "cpu-easypc-000000002ca4",
+      "partId": "cpu-bermor-techzone-000000005171",
       "amountPhp": 28495,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-9-7900x3d-lga-am5-ddr5-processor",
@@ -2313,14 +2313,14 @@
       "observedAt": "2026-04-23T04:06:42.592313+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000079a3",
+      "partId": "cpu-bermor-techzone-000000000fc4",
       "amountPhp": 5759,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-3-3100-socket-am4-3-6ghz-with-wraith-stealth-cooler-processor",
       "observedAt": "2026-04-23T05:15:53.349159+00:00"
     },
     {
-      "partId": "cpu-villman-0000000029fc",
+      "partId": "cpu-bermor-techzone-000000000fc4",
       "amountPhp": 5999,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/amd_ryzen-3-3100",
@@ -2341,7 +2341,7 @@
       "observedAt": "2026-04-23T04:06:42.592622+00:00"
     },
     {
-      "partId": "cpu-easypc-00000000645c",
+      "partId": "cpu-bermor-techzone-000000004489",
       "amountPhp": 17099,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-7-3700x-processor-socket-am4-3-6ghz-with-wraith-prism-rgb-cooler",
@@ -2362,14 +2362,14 @@
       "observedAt": "2026-04-23T04:06:42.592759+00:00"
     },
     {
-      "partId": "cpu-datablitz-00000000768c",
+      "partId": "cpu-bermor-techzone-000000005d41",
       "amountPhp": 33095,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-9850x3d-processor",
       "observedAt": "2026-04-23T04:44:35.938997+00:00"
     },
     {
-      "partId": "cpu-pc-express-000000006632",
+      "partId": "cpu-bermor-techzone-000000005d41",
       "amountPhp": 34250,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-7-9850x3d-desktop-processor",
@@ -2390,7 +2390,7 @@
       "observedAt": "2026-04-23T04:06:42.592985+00:00"
     },
     {
-      "partId": "cpu-easypc-000000004d79",
+      "partId": "cpu-bermor-techzone-0000000067a7",
       "amountPhp": 9050,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-3-5300g-am4-radeon-vega-8-graphics-processor",
@@ -2418,14 +2418,14 @@
       "observedAt": "2026-04-23T04:06:44.802641+00:00"
     },
     {
-      "partId": "cpu-easypc-000000004574",
+      "partId": "cpu-bermor-techzone-000000006019",
       "amountPhp": 6730,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i5-10400f-comet-lake-socket-1200-2-9ghz-processor",
       "observedAt": "2026-04-23T05:15:04.702385+00:00"
     },
     {
-      "partId": "cpu-villman-00000000433c",
+      "partId": "cpu-bermor-techzone-000000006019",
       "amountPhp": 8999,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/intel_core-i5-10400f-processor-290-ghz-12m-cache-up-to-430-ghz",
@@ -2579,7 +2579,7 @@
       "observedAt": "2026-04-23T04:12:34.601058+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000052ba",
+      "partId": "cpu-bermor-techzone-00000000078a",
       "amountPhp": 1305,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/darkflash-darkair-cpu-air-cooler-white",
@@ -3034,7 +3034,7 @@
       "observedAt": "2026-04-23T04:13:25.804394+00:00"
     },
     {
-      "partId": "cpu-villman-0000000002cf",
+      "partId": "cpu-bermor-techzone-000000002049",
       "amountPhp": 2999,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/deepcool_as500-cpu-air-cooler-",
@@ -3587,7 +3587,7 @@
       "observedAt": "2026-04-23T04:14:28.527315+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-0000000010c4",
+      "partId": "cpu-bermor-techzone-0000000011ea",
       "amountPhp": 4400,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/cooling-systems/aio-liquid-cooling-system/id-cooling-fx360-lcd-1-48-display-argb-cpu-aio-liquid-cooler-white/",
@@ -4140,7 +4140,7 @@
       "observedAt": "2026-04-23T04:15:36.001509+00:00"
     },
     {
-      "partId": "cpu-easypc-000000003c9e",
+      "partId": "cpu-bermor-techzone-0000000076f0",
       "amountPhp": 1965,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/arctic-freezer-36-multi-compatible-tower-cpu-air-cooler",
@@ -4469,7 +4469,7 @@
       "observedAt": "2026-04-23T04:15:55.425369+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-0000000043e2",
+      "partId": "cpu-bermor-techzone-0000000042bb",
       "amountPhp": 6250,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/cooling-systems/aio-liquid-cooling-system/darkflash-explore-de240-2-88-ips-display-argb-cpu-aio-liquid-cooler-white/",
@@ -4483,7 +4483,7 @@
       "observedAt": "2026-04-23T04:15:55.425547+00:00"
     },
     {
-      "partId": "cpu-bermor-techzone-000000005069",
+      "partId": "cpu-bermor-techzone-00000000518f",
       "amountPhp": 9545,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/cooling-systems/aio-liquid-cooling-system/lian-li-hydroshift-ii-lcd-s-360mm-with-cl-wireless-fans-3-4-ips-lcd-display-aio-liquid-cpu-cooler-white/",
@@ -4539,14 +4539,14 @@
       "observedAt": "2026-04-23T04:15:55.432855+00:00"
     },
     {
-      "partId": "cpu-datablitz-0000000064f9",
+      "partId": "cpu-datablitz-0000000052ac",
       "amountPhp": 6950,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-5500gt-processor",
       "observedAt": "2026-04-23T04:38:20.771719+00:00"
     },
     {
-      "partId": "cpu-datablitz-00000000367f",
+      "partId": "cpu-datablitz-0000000052ac",
       "amountPhp": 7750,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-5500gt-mpk-processor",
@@ -4560,63 +4560,63 @@
       "observedAt": "2026-04-23T04:44:24.081447+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000006ee4",
+      "partId": "cpu-datablitz-0000000052ac",
       "amountPhp": 7480,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-5-5500gt-3-60-4-40ghz-6-core-12-thread-processor-mpk-tray",
       "observedAt": "2026-04-23T05:10:30.534326+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-0000000068cc",
+      "partId": "cpu-datablitz-0000000052ac",
       "amountPhp": 10840,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-5-5500gt-6-core-processor-mpk-asus-prime-a520m-k-csm-motherboard",
       "observedAt": "2026-04-23T05:10:30.534919+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000001282",
+      "partId": "cpu-datablitz-0000000052ac",
       "amountPhp": 29620,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-5-5500gt-6-core-b550m-16gb-ddr4-ram-1tb-nvme-ssd-650w-bronze-psu-sting-pro-n24-case-cpu-package",
       "observedAt": "2026-04-23T05:10:30.535849+00:00"
     },
     {
-      "partId": "cpu-easypc-000000001973",
+      "partId": "cpu-datablitz-0000000052ac",
       "amountPhp": 7395,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-5500gt-3-6ghz-am4-socket-ddr4-processor-mpk",
       "observedAt": "2026-04-23T05:17:29.924524+00:00"
     },
     {
-      "partId": "cpu-pcworx-000000001504",
+      "partId": "cpu-datablitz-0000000052ac",
       "amountPhp": 8188,
       "retailer": "PCWORX",
       "productUrl": "https://pcworx.ph/products/amd-ryzen-5-5500gt-3-6ghz-65w-am4-processor",
       "observedAt": "2026-04-23T05:45:47.301827+00:00"
     },
     {
-      "partId": "cpu-pc-express-0000000008fa",
+      "partId": "cpu-datablitz-0000000052ac",
       "amountPhp": 8250,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-5-5500gt-desktop-processor-3-6-up-to-4-4ghz",
       "observedAt": "2026-04-23T05:56:57.723452+00:00"
     },
     {
-      "partId": "cpu-villman-000000000414",
+      "partId": "cpu-datablitz-0000000052ac",
       "amountPhp": 6999,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/amd_ryzen-5-5500gt-mpk-tray-with-fan",
       "observedAt": "2026-04-23T06:07:32.631769+00:00"
     },
     {
-      "partId": "cpu-datablitz-00000000412b",
+      "partId": "cpu-datablitz-000000005810",
       "amountPhp": 8350,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-5600gt-processor",
       "observedAt": "2026-04-23T04:38:20.771777+00:00"
     },
     {
-      "partId": "cpu-datablitz-0000000035d2",
+      "partId": "cpu-datablitz-000000005810",
       "amountPhp": 8495,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-5600gt-mpk-processor",
@@ -4630,49 +4630,49 @@
       "observedAt": "2026-04-23T04:44:24.080602+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000007d4f",
+      "partId": "cpu-datablitz-000000005810",
       "amountPhp": 8890,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-5-5600gt-3-60-4-60ghz-6-core-processor-tray",
       "observedAt": "2026-04-23T05:10:30.534208+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000002733",
+      "partId": "cpu-datablitz-000000005810",
       "amountPhp": 12250,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-5-5600gt-6-core-processor-mpk-asus-prime-a520m-k-csm-motherboard",
       "observedAt": "2026-04-23T05:10:30.536023+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000054f8",
+      "partId": "cpu-datablitz-000000005810",
       "amountPhp": 8395,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-5600gt-3-6ghz-am4-socket-ddr4-processor-mpk",
       "observedAt": "2026-04-23T05:16:57.624010+00:00"
     },
     {
-      "partId": "cpu-easypc-000000007e9c",
+      "partId": "cpu-datablitz-000000005810",
       "amountPhp": 9377.78,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-5600gt-3-6ghz-am4-socket-ddr4-processor",
       "observedAt": "2026-04-23T05:20:19.471056+00:00"
     },
     {
-      "partId": "cpu-pcworx-0000000036f2",
+      "partId": "cpu-datablitz-000000005810",
       "amountPhp": 9408,
       "retailer": "PCWORX",
       "productUrl": "https://pcworx.ph/products/amd-ryzen-5-5600gt-3-6ghz-65w-am4-processor-tray-type",
       "observedAt": "2026-04-23T05:45:47.300897+00:00"
     },
     {
-      "partId": "cpu-pc-express-000000000178",
+      "partId": "cpu-datablitz-000000005810",
       "amountPhp": 9400,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-5-5600gt-desktop-processor-3-6-up-to-4-6ghz",
       "observedAt": "2026-04-23T05:56:57.723582+00:00"
     },
     {
-      "partId": "cpu-villman-000000005d6a",
+      "partId": "cpu-datablitz-000000005810",
       "amountPhp": 8299,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/amd_ryzen-5-5600gt-mpk-tray-with-fan",
@@ -4686,21 +4686,21 @@
       "observedAt": "2026-04-23T04:44:20.209811+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000053c3",
+      "partId": "cpu-datablitz-0000000068d0",
       "amountPhp": 22750,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-9-5900xt-socket-am4-3-7ghz-processor",
       "observedAt": "2026-04-23T05:20:19.470197+00:00"
     },
     {
-      "partId": "cpu-datablitz-0000000071e5",
+      "partId": "cpu-dynaquest-pc-000000001377",
       "amountPhp": 15895,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-5800xt-am4-processor",
       "observedAt": "2026-04-23T04:44:20.209990+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000007c0d",
+      "partId": "cpu-dynaquest-pc-000000001377",
       "amountPhp": 13995,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-5800xt-am4-processor-without-fan",
@@ -4714,28 +4714,28 @@
       "observedAt": "2026-04-23T05:10:30.536462+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000027c4",
+      "partId": "cpu-dynaquest-pc-000000001377",
       "amountPhp": 16150,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-7-5800xt-socket-am4-3-8ghz-processor",
       "observedAt": "2026-04-23T05:20:19.470255+00:00"
     },
     {
-      "partId": "cpu-datablitz-0000000026ed",
+      "partId": "cpu-easypc-0000000053a3",
       "amountPhp": 12750,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-5700x-processor",
       "observedAt": "2026-04-23T04:44:24.058740+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000000515",
+      "partId": "cpu-easypc-0000000053a3",
       "amountPhp": 9150,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-5700x-processor-tray",
       "observedAt": "2026-04-23T04:44:24.060291+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000004cc6",
+      "partId": "cpu-easypc-0000000053a3",
       "amountPhp": 9450,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-7-5700x-3-4-4-6ghz-8-core-am4-processor-tray",
@@ -4749,28 +4749,28 @@
       "observedAt": "2026-04-23T05:14:07.825072+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000071cb",
+      "partId": "cpu-easypc-0000000053a3",
       "amountPhp": 11895,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-7-5700x-socket-am4-3-7ghz-processor",
       "observedAt": "2026-04-23T05:15:53.348446+00:00"
     },
     {
-      "partId": "cpu-pcworx-0000000022b5",
+      "partId": "cpu-easypc-0000000053a3",
       "amountPhp": 11327.5,
       "retailer": "PCWORX",
       "productUrl": "https://pcworx.ph/products/amd-ryzen-7-5700x-3-4ghz-65w-am4-processor-no-built-in-graphics-fan",
       "observedAt": "2026-04-23T05:45:47.301356+00:00"
     },
     {
-      "partId": "cpu-pc-express-0000000032d4",
+      "partId": "cpu-easypc-0000000053a3",
       "amountPhp": 10550,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/amd-ryzen-7-5700x-3-4ghz-processor",
       "observedAt": "2026-04-23T05:56:57.723904+00:00"
     },
     {
-      "partId": "cpu-datablitz-000000006ef5",
+      "partId": "cpu-dynaquest-pc-000000003c98",
       "amountPhp": 15995,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-7-5700x3d-processor",
@@ -4784,7 +4784,7 @@
       "observedAt": "2026-04-23T05:10:30.534567+00:00"
     },
     {
-      "partId": "cpu-easypc-000000000bf3",
+      "partId": "cpu-dynaquest-pc-000000003c98",
       "amountPhp": 16150,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-7-5700x3d-3-0ghz-am4-socket-ddr4-processor",
@@ -4805,7 +4805,7 @@
       "observedAt": "2026-04-23T04:44:24.077743+00:00"
     },
     {
-      "partId": "cpu-datablitz-00000000009b",
+      "partId": "cpu-datablitz-00000000121c",
       "amountPhp": 3650,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/amd-ryzen-5-3400g-processor-mpk-with-fan",
@@ -4819,21 +4819,21 @@
       "observedAt": "2026-04-23T04:44:35.955783+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000005f60",
+      "partId": "cpu-datablitz-00000000121c",
       "amountPhp": 3690,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/amd-ryzen-5-3400g-up-to-4-2ghz-4-core-8-thread-with-radeon-rx-vega-11-desktop-processor-tray",
       "observedAt": "2026-04-23T05:10:30.536280+00:00"
     },
     {
-      "partId": "cpu-easypc-000000006d6a",
+      "partId": "cpu-datablitz-00000000121c",
       "amountPhp": 12295,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-ryzen-5-3400g-processor-socket-am4-3-7ghz-with-radeon-vega-11",
       "observedAt": "2026-04-23T05:15:53.332568+00:00"
     },
     {
-      "partId": "cpu-pcworx-00000000568b",
+      "partId": "cpu-datablitz-00000000121c",
       "amountPhp": 3703,
       "retailer": "PCWORX",
       "productUrl": "https://pcworx.ph/products/amd-ryzen-5-3400g-3-7ghz-am4-4-core-4mb-cpu",
@@ -4868,7 +4868,7 @@
       "observedAt": "2026-04-23T05:05:54.322079+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000059f0",
+      "partId": "cpu-datablitz-000000004cea",
       "amountPhp": 11444.44,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i5-13400f-raptor-lake-lga-1700-5-80ghz-processor",
@@ -4889,7 +4889,7 @@
       "observedAt": "2026-04-23T05:05:54.323026+00:00"
     },
     {
-      "partId": "cpu-easypc-000000006774",
+      "partId": "cpu-datablitz-00000000678b",
       "amountPhp": 18023.7,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i5-13600kf-raptor-lake-socket-lga-1700-5-00ghz-processor",
@@ -4903,14 +4903,14 @@
       "observedAt": "2026-04-23T05:05:54.323091+00:00"
     },
     {
-      "partId": "cpu-easypc-000000005a28",
+      "partId": "cpu-datablitz-00000000774a",
       "amountPhp": 19715,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i5-13600k-raptor-lake-socket-lga-1700-5-10ghz-processor",
       "observedAt": "2026-04-23T05:15:04.703851+00:00"
     },
     {
-      "partId": "cpu-villman-000000000fa8",
+      "partId": "cpu-datablitz-00000000774a",
       "amountPhp": 20999,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/intel_core-i5-13600k-13th-gen-processor",
@@ -4924,14 +4924,14 @@
       "observedAt": "2026-04-23T05:05:54.323157+00:00"
     },
     {
-      "partId": "cpu-easypc-000000006c89",
+      "partId": "cpu-datablitz-000000006ea3",
       "amountPhp": 24841,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i7-13700kf-raptor-lake-socket-lga-1700-4-90ghz-processor",
       "observedAt": "2026-04-23T05:15:04.706438+00:00"
     },
     {
-      "partId": "cpu-villman-000000007c51",
+      "partId": "cpu-datablitz-000000006ea3",
       "amountPhp": 24999,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/intel_core-i7-13700kf-13th-gen-processor",
@@ -4959,42 +4959,42 @@
       "observedAt": "2026-04-23T05:10:28.360933+00:00"
     },
     {
-      "partId": "cpu-easypc-000000001d6f",
+      "partId": "cpu-dynaquest-pc-000000003c01",
       "amountPhp": 26222.22,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i7-14700k-raptor-lake-socket-lga-1700-5-20ghz-processor",
       "observedAt": "2026-04-23T05:15:04.706095+00:00"
     },
     {
-      "partId": "cpu-pc-express-000000003ac5",
+      "partId": "cpu-dynaquest-pc-000000003c01",
       "amountPhp": 25600,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/intel-core-i7-14700k-processor-33m-cache-up-to-5-60-ghz",
       "observedAt": "2026-04-23T05:57:00.926644+00:00"
     },
     {
-      "partId": "cpu-villman-000000002d87",
+      "partId": "cpu-dynaquest-pc-000000003c01",
       "amountPhp": 26999,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/intel_core-i7-processor-14700k-33m-cache-up-to-560-ghz",
       "observedAt": "2026-04-23T06:07:32.635083+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-0000000003e6",
+      "partId": "cpu-pc-express-000000005e0c",
       "amountPhp": 15900,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/intel-core-i5-14400-20m-cache-up-to-4-70ghz-lga-1700-processor",
       "observedAt": "2026-04-23T05:10:28.361086+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000004d7b",
+      "partId": "cpu-pc-express-000000005e0c",
       "amountPhp": 14950,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/intel-core-i5-14400-20m-cache-up-to-4-70ghz-lga-1700-processor-tray",
       "observedAt": "2026-04-23T05:10:28.361252+00:00"
     },
     {
-      "partId": "cpu-easypc-000000004beb",
+      "partId": "cpu-pc-express-000000005e0c",
       "amountPhp": 12688,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i5-14400-4-7ghz-lga-1700-processor",
@@ -5015,42 +5015,42 @@
       "observedAt": "2026-04-23T05:10:28.361186+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000003875",
+      "partId": "cpu-dynaquest-pc-000000000a0c",
       "amountPhp": 14770,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/intel-core-i5-13400-up-to-4-60ghz-10-core-lga-1700-processor-boxed",
       "observedAt": "2026-04-23T05:10:28.361385+00:00"
     },
     {
-      "partId": "cpu-easypc-000000006706",
+      "partId": "cpu-dynaquest-pc-000000000a0c",
       "amountPhp": 14375,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i5-13400-raptor-lake-socket-lga-1700-2-50ghz-processor",
       "observedAt": "2026-04-23T05:15:04.706665+00:00"
     },
     {
-      "partId": "cpu-pc-express-00000000176d",
+      "partId": "cpu-dynaquest-pc-000000000a0c",
       "amountPhp": 11500,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/intel-core-i5-13400-processor-20m-cache-up-to-4-60-ghz",
       "observedAt": "2026-04-23T05:57:00.922405+00:00"
     },
     {
-      "partId": "cpu-villman-000000001983",
+      "partId": "cpu-dynaquest-pc-000000000a0c",
       "amountPhp": 13999,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/intel_core-i5-13400-13th-gen-processor-",
       "observedAt": "2026-04-23T06:07:32.632510+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-000000003ee5",
+      "partId": "cpu-pc-express-000000002e8a",
       "amountPhp": 15990,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/intel-core-i5-14600k-24mb-5-30ghz-lga-1700-processor",
       "observedAt": "2026-04-23T05:10:28.361323+00:00"
     },
     {
-      "partId": "cpu-easypc-000000001323",
+      "partId": "cpu-pc-express-000000002e8a",
       "amountPhp": 20018.52,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i5-14600k-raptor-lake-socket-lga-1700-2-50ghz-processor",
@@ -5071,14 +5071,14 @@
       "observedAt": "2026-04-23T05:10:28.361444+00:00"
     },
     {
-      "partId": "cpu-easypc-000000003c74",
+      "partId": "cpu-dynaquest-pc-000000005c7a",
       "amountPhp": 9100,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i3-14100-4-7ghz-lga-1700-processor",
       "observedAt": "2026-04-23T05:15:04.705287+00:00"
     },
     {
-      "partId": "cpu-pc-express-0000000053a6",
+      "partId": "cpu-dynaquest-pc-000000005c7a",
       "amountPhp": 9900,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/intel-core-i3-14100-processor-12m-cache-up-to-4-70-ghz",
@@ -5099,21 +5099,21 @@
       "observedAt": "2026-04-23T05:10:28.361560+00:00"
     },
     {
-      "partId": "cpu-easypc-000000007050",
+      "partId": "cpu-dynaquest-pc-00000000606c",
       "amountPhp": 23000,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i7-14700f-5-4ghz-lga-1700-processor",
       "observedAt": "2026-04-23T05:15:04.703475+00:00"
     },
     {
-      "partId": "cpu-pc-express-0000000060ef",
+      "partId": "cpu-dynaquest-pc-00000000606c",
       "amountPhp": 22950,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/intel-core-i7-14700f-desktop-processor",
       "observedAt": "2026-04-23T05:57:00.926957+00:00"
     },
     {
-      "partId": "cpu-villman-000000002527",
+      "partId": "cpu-dynaquest-pc-00000000606c",
       "amountPhp": 24999,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/intel_core-i7---14700f-33m-cache-up-to-540-ghz--processor",
@@ -5127,21 +5127,21 @@
       "observedAt": "2026-04-23T05:10:28.361622+00:00"
     },
     {
-      "partId": "cpu-easypc-000000002eb1",
+      "partId": "cpu-dynaquest-pc-000000004799",
       "amountPhp": 24460,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i7-14700-5-4ghz-lga-1700-processor",
       "observedAt": "2026-04-23T05:15:04.702843+00:00"
     },
     {
-      "partId": "cpu-pc-express-000000005e8a",
+      "partId": "cpu-dynaquest-pc-000000004799",
       "amountPhp": 24100,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/intel-core-i7-14700-processor-33m-cache-up-to-5-40-ghz",
       "observedAt": "2026-04-23T05:57:00.922224+00:00"
     },
     {
-      "partId": "cpu-villman-0000000035d0",
+      "partId": "cpu-dynaquest-pc-000000004799",
       "amountPhp": 25999,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/intel-core-_i7-14700-up-to-540ghz-33m-cache-processor",
@@ -5155,28 +5155,28 @@
       "observedAt": "2026-04-23T05:10:28.361679+00:00"
     },
     {
-      "partId": "cpu-easypc-000000005e77",
+      "partId": "cpu-dynaquest-pc-000000005474",
       "amountPhp": 8888.89,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i5-12400-alder-lake-2-5ghz-intel-uhd-graphics-730-max-turbo-frequency-4-40-ghz-socket-1700-desktop-processor",
       "observedAt": "2026-04-23T05:15:04.701865+00:00"
     },
     {
-      "partId": "cpu-easypc-000000004b8f",
+      "partId": "cpu-dynaquest-pc-000000005474",
       "amountPhp": 10824,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i5-12400-alder-lake-socket-1700-2-5ghz-processor-mpk",
       "observedAt": "2026-04-23T05:15:04.702211+00:00"
     },
     {
-      "partId": "cpu-pc-express-0000000068f6",
+      "partId": "cpu-dynaquest-pc-000000005474",
       "amountPhp": 13000,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/intel-core-i5-12400-processor",
       "observedAt": "2026-04-23T05:57:00.922344+00:00"
     },
     {
-      "partId": "cpu-villman-000000003dc6",
+      "partId": "cpu-dynaquest-pc-000000005474",
       "amountPhp": 9999,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/intel_core-i5-12400-processor-18m-cache-up-to-440-ghz-",
@@ -5253,7 +5253,7 @@
       "observedAt": "2026-04-23T05:10:28.362270+00:00"
     },
     {
-      "partId": "cpu-dynaquest-pc-00000000401b",
+      "partId": "cpu-pc-express-000000004a18",
       "amountPhp": 35870,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/intel-core-i9-14900-36m-cache-2-10ghz-lga-1700-processor",
@@ -5274,7 +5274,7 @@
       "observedAt": "2026-04-23T05:10:28.362387+00:00"
     },
     {
-      "partId": "cpu-easypc-000000006ab3",
+      "partId": "cpu-dynaquest-pc-00000000397b",
       "amountPhp": 35950,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i9-14900kf-3-2ghz-lga1700-processor",
@@ -5288,14 +5288,14 @@
       "observedAt": "2026-04-23T05:10:28.362445+00:00"
     },
     {
-      "partId": "cpu-easypc-000000006c59",
+      "partId": "cpu-dynaquest-pc-000000002152",
       "amountPhp": 32409,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i9-14900k-raptor-lake-socket-lga-1700-3-20ghz-processor",
       "observedAt": "2026-04-23T05:15:04.705981+00:00"
     },
     {
-      "partId": "cpu-pc-express-000000002a63",
+      "partId": "cpu-dynaquest-pc-000000002152",
       "amountPhp": 35700,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/intel-core-i9-14900k-processor-36m-cache-up-to-6-00-ghz",
@@ -5309,7 +5309,7 @@
       "observedAt": "2026-04-23T05:10:28.362515+00:00"
     },
     {
-      "partId": "cpu-villman-000000006f4a",
+      "partId": "cpu-dynaquest-pc-00000000561c",
       "amountPhp": 26499,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/intel-core-_i7-14700kf-33m-cache-up-to-560-ghz-processor",
@@ -5330,7 +5330,7 @@
       "observedAt": "2026-04-23T05:10:28.362637+00:00"
     },
     {
-      "partId": "cpu-easypc-000000003856",
+      "partId": "cpu-dynaquest-pc-000000000820",
       "amountPhp": 5170.37,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i3-12100f-alder-lake-socket-1700-3-30ghz-max-turbo-frequency-4-cores-12th-generation-intel-processor",
@@ -5372,7 +5372,7 @@
       "observedAt": "2026-04-23T05:14:14.708851+00:00"
     },
     {
-      "partId": "cpu-easypc-000000001fda",
+      "partId": "cpu-easypc-000000001eb4",
       "amountPhp": 8865,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/lian-li-galahad-ii-trinity-performance-360mm-liquid-cooling-black",
@@ -5484,7 +5484,7 @@
       "observedAt": "2026-04-23T05:14:26.553931+00:00"
     },
     {
-      "partId": "cpu-easypc-00000000307d",
+      "partId": "cpu-easypc-000000004729",
       "amountPhp": 2925,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/amd-athlon-3000g-vega-3-socket-am4-graphic-processor-box-type-or-with-amd-fan-mpk",
@@ -5617,7 +5617,7 @@
       "observedAt": "2026-04-23T05:15:04.701356+00:00"
     },
     {
-      "partId": "cpu-octagon-000000004734",
+      "partId": "cpu-easypc-000000000243",
       "amountPhp": 3650,
       "retailer": "Octagon",
       "productUrl": "https://octagon.com.ph/products/intel-core-i3-9100f-3-6ghz",
@@ -5631,14 +5631,14 @@
       "observedAt": "2026-04-23T05:15:04.701537+00:00"
     },
     {
-      "partId": "cpu-easypc-0000000032a8",
+      "partId": "cpu-octagon-000000004632",
       "amountPhp": 3631.11,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i5-9400-coffee-lake-socket-1151-2-9ghz-9m-processor-ttp",
       "observedAt": "2026-04-23T05:15:04.701683+00:00"
     },
     {
-      "partId": "cpu-easypc-000000003928",
+      "partId": "cpu-octagon-000000004632",
       "amountPhp": 8799,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i5-9400-coffee-lake-processor-socket-1151-2-9ghz-9m",
@@ -5673,7 +5673,7 @@
       "observedAt": "2026-04-23T05:15:04.702269+00:00"
     },
     {
-      "partId": "cpu-villman-000000003ccc",
+      "partId": "cpu-easypc-000000002bb0",
       "amountPhp": 16999,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/intel_core-i7-10700-processor-290-ghz-16m-cache-up-to-480-ghz",
@@ -5694,7 +5694,7 @@
       "observedAt": "2026-04-23T05:15:04.702615+00:00"
     },
     {
-      "partId": "cpu-villman-00000000128c",
+      "partId": "cpu-easypc-000000003eb3",
       "amountPhp": 8999,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/intel_core-i5-11400f-processor-12m-cache-up-to-440-ghz",
@@ -5750,7 +5750,7 @@
       "observedAt": "2026-04-23T05:15:04.704505+00:00"
     },
     {
-      "partId": "cpu-villman-000000001a7e",
+      "partId": "cpu-easypc-00000000261b",
       "amountPhp": 26999,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/intel_core-i7-13700k-13th-gen-processor",
@@ -5764,7 +5764,7 @@
       "observedAt": "2026-04-23T05:15:04.704561+00:00"
     },
     {
-      "partId": "cpu-easypc-00000000527a",
+      "partId": "cpu-octagon-000000002e66",
       "amountPhp": 21595,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i7-10700k-comet-lake-socket-1200-3-8ghz-processor",
@@ -5778,7 +5778,7 @@
       "observedAt": "2026-04-23T05:41:47.684555+00:00"
     },
     {
-      "partId": "cpu-villman-000000007b20",
+      "partId": "cpu-octagon-000000002e66",
       "amountPhp": 22499,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/intel_core-i7-10700k-processor-380ghz-16m-cache-up-to-510-ghz-lga1200",
@@ -5806,7 +5806,7 @@
       "observedAt": "2026-04-23T05:15:04.705231+00:00"
     },
     {
-      "partId": "cpu-villman-000000005713",
+      "partId": "cpu-easypc-000000006dce",
       "amountPhp": 12999,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/intel-core-_i5-processor-14400f-20m-cache-up-to-470-ghz",
@@ -5820,7 +5820,7 @@
       "observedAt": "2026-04-23T05:15:04.705345+00:00"
     },
     {
-      "partId": "cpu-easypc-000000001287",
+      "partId": "cpu-pc-express-000000000b95",
       "amountPhp": 7594.44,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i3-10105-comet-lake-socket-1200-3-70ghz-processor-mpk",
@@ -5841,7 +5841,7 @@
       "observedAt": "2026-04-23T05:15:04.706208+00:00"
     },
     {
-      "partId": "cpu-pcworx-000000001cc5",
+      "partId": "cpu-easypc-000000001ea9",
       "amountPhp": 17040,
       "retailer": "PCWORX",
       "productUrl": "https://pcworx.ph/products/intel®-core™-i7-11700-desktop-processor-8-cores-up-to-4-9-ghz-lga1200",
@@ -5869,7 +5869,7 @@
       "observedAt": "2026-04-23T05:15:04.706603+00:00"
     },
     {
-      "partId": "cpu-villman-00000000178b",
+      "partId": "cpu-easypc-000000002ce9",
       "amountPhp": 9499,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/intel_core-i3-13100-processor-12m-cache-up-to-450-ghz",
@@ -5932,7 +5932,7 @@
       "observedAt": "2026-04-23T05:15:04.707277+00:00"
     },
     {
-      "partId": "cpu-villman-000000006365",
+      "partId": "cpu-easypc-0000000023c8",
       "amountPhp": 20999,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/intel_core-i5-12600k-processor-",
@@ -5960,7 +5960,7 @@
       "observedAt": "2026-04-23T05:15:04.708096+00:00"
     },
     {
-      "partId": "cpu-easypc-000000001139",
+      "partId": "cpu-octagon-000000003977",
       "amountPhp": 18995,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/i10th-generation-intel-core-i7-10700ka-1200-3-8ghz-cpu",
@@ -6037,7 +6037,7 @@
       "observedAt": "2026-04-23T05:15:04.719749+00:00"
     },
     {
-      "partId": "cpu-easypc-000000001c55",
+      "partId": "cpu-octagon-0000000001c5",
       "amountPhp": 17995,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/intel-core-i7-9700-coffee-lake-processor-socket-1151-3-0ghz-12m",
@@ -7549,7 +7549,7 @@
       "observedAt": "2026-04-23T05:18:17.076133+00:00"
     },
     {
-      "partId": "cpu-easypc-000000005e16",
+      "partId": "cpu-easypc-000000005f3c",
       "amountPhp": 3033.33,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/ovation-acc-240mm-liquid-cooling-rgb-with-digital-temp-display-white",
@@ -7570,7 +7570,7 @@
       "observedAt": "2026-04-23T05:18:17.076516+00:00"
     },
     {
-      "partId": "cpu-easypc-000000006e8f",
+      "partId": "cpu-easypc-000000006fb5",
       "amountPhp": 3465,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/nzxt-f120-rgb-core-triple-pack-3in1-hub-mounted-rgb-fans-controller-chassis-fan-white",
@@ -7696,7 +7696,7 @@
       "observedAt": "2026-04-23T05:18:17.080895+00:00"
     },
     {
-      "partId": "cpu-easypc-000000006e74",
+      "partId": "cpu-easypc-000000006f9b",
       "amountPhp": 3475,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/jungle-leopard-astrobeat-360-digital-argb-aio-liquid-cooler-white",
@@ -7990,7 +7990,7 @@
       "observedAt": "2026-04-23T05:18:17.099839+00:00"
     },
     {
-      "partId": "cpu-easypc-00000000630b",
+      "partId": "cpu-easypc-0000000012bc",
       "amountPhp": 9555.56,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/corsair-icue-h100i-elite-capellix-xt-240mm-radiator-liquid-cpu-cooler-white-cs-cw-9060072-ww",
@@ -8018,7 +8018,7 @@
       "observedAt": "2026-04-23T05:18:17.100149+00:00"
     },
     {
-      "partId": "cpu-easypc-000000005119",
+      "partId": "cpu-easypc-00000000075e",
       "amountPhp": 11166.67,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/corsair-icue-h150i-elite-capellix-xt-360mm-radiator-liquid-cpu-cooler-white-cs-cw-9060073-ww",
@@ -8137,7 +8137,7 @@
       "observedAt": "2026-04-23T05:18:19.496641+00:00"
     },
     {
-      "partId": "cpu-easypc-000000005794",
+      "partId": "cpu-easypc-0000000058bb",
       "amountPhp": 2900,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/jungle-leopard-astrobeat-240-digital-argb-aio-liquid-cooler-white",
@@ -8158,7 +8158,7 @@
       "observedAt": "2026-04-23T05:18:19.497383+00:00"
     },
     {
-      "partId": "cpu-easypc-000000003092",
+      "partId": "cpu-easypc-0000000031b8",
       "amountPhp": 3666.67,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/1stplayer-mothra-mt240-infinite-space-argb-aio-liquid-cpu-cooler-white",
@@ -8802,7 +8802,7 @@
       "observedAt": "2026-04-23T05:20:19.477976+00:00"
     },
     {
-      "partId": "cpu-villman-000000000af5",
+      "partId": "cpu-easypc-000000007043",
       "amountPhp": 24999,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/amd_ryzen-9-3900xt-38ghz-up-to-47ghz-12-core-24-threads",
@@ -10391,7 +10391,7 @@
       "observedAt": "2026-04-23T04:08:00.718384+00:00"
     },
     {
-      "partId": "motherboard-dynaquest-pc-00000000323f",
+      "partId": "motherboard-bermor-techzone-00000000323f",
       "amountPhp": 4750,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/asus-prime-b550m-k-argb-am4-motherboard",
@@ -12218,7 +12218,7 @@
       "observedAt": "2026-04-23T05:10:49.584414+00:00"
     },
     {
-      "partId": "motherboard-easypc-000000006ed2",
+      "partId": "motherboard-dynaquest-pc-0000000041bd",
       "amountPhp": 20350,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/asus-prime-x870-p-wifi-csm-ddr5-am5-motherboard",
@@ -19596,7 +19596,7 @@
       "observedAt": "2026-04-23T04:11:07.026539+00:00"
     },
     {
-      "partId": "ram-bermor-techzone-0000000040c6",
+      "partId": "ram-bermor-techzone-000000004a3f",
       "amountPhp": 4850,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/memory-modules/desktop-memory/corsair-vengeance-rgb-rt-16gb-2x8gb-ddr4-3600-cl18-amd-optimized-desktop-memory-model-cs-cmn16gx4m2z3600c18-black/",
@@ -19701,7 +19701,7 @@
       "observedAt": "2026-04-23T04:36:03.645682+00:00"
     },
     {
-      "partId": "ram-datablitz-000000007a8e",
+      "partId": "ram-datablitz-000000005087",
       "amountPhp": 11095,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/agi-turbojet-ud858-rgb-32gb-16gbx2-ddr5-8000mhz-cl38-1-5v-gaming-memory-modules-rose-gold-agi8api16ud858-dc",
@@ -19715,7 +19715,7 @@
       "observedAt": "2026-04-23T04:36:05.129074+00:00"
     },
     {
-      "partId": "ram-datablitz-0000000044b6",
+      "partId": "ram-datablitz-000000003c50",
       "amountPhp": 10195,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/agi-turbojet-ud858-rgb-32gb-16gbx2-ddr5-7600mhz-cl36-1-5v-gaming-memory-modules-black-white",
@@ -19778,7 +19778,7 @@
       "observedAt": "2026-04-23T04:36:07.491987+00:00"
     },
     {
-      "partId": "ram-datablitz-000000004f49",
+      "partId": "ram-datablitz-00000000340f",
       "amountPhp": 8195,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/agi-turbojet-ud858-rgb-32gb-16gbx2-ddr5-6000mhz-cl30-1-35v-gaming-memory-modules-rose-gold-agi6api16ud858-dc",
@@ -19827,7 +19827,7 @@
       "observedAt": "2026-04-23T04:36:07.493037+00:00"
     },
     {
-      "partId": "ram-datablitz-000000000f6b",
+      "partId": "ram-datablitz-000000004248",
       "amountPhp": 8550,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/agi-turbojet-ud858-rgb-32gb-16gbx2-ddr5-6400mhz-cl36-1-4v-gaming-memory-modules-rose-gold-agi6ipi16ud858-dc",
@@ -19876,7 +19876,7 @@
       "observedAt": "2026-04-23T04:36:07.494057+00:00"
     },
     {
-      "partId": "ram-datablitz-000000000d25",
+      "partId": "ram-datablitz-0000000042dd",
       "amountPhp": 9395,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/agi-turbojet-ud858-rgb-32gb-16gbx2-ddr5-7200mhz-cl34-1-4v-gaming-memory-modules-black-white",
@@ -19890,7 +19890,7 @@
       "observedAt": "2026-04-23T04:36:07.494172+00:00"
     },
     {
-      "partId": "ram-datablitz-000000005613",
+      "partId": "ram-datablitz-00000000281f",
       "amountPhp": 9250,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/agi-turbojet-ud858-rgb-32gb-16gbx2-ddr5-6800mhz-cl34-1-4v-gaming-memory-modules-rose-gold-agi6jpi16ud858-dc",
@@ -20023,7 +20023,7 @@
       "observedAt": "2026-04-23T04:36:37.855702+00:00"
     },
     {
-      "partId": "ram-datablitz-000000004eca",
+      "partId": "ram-datablitz-000000004693",
       "amountPhp": 14195,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/adata-xpg-spectrix-d50-32gb-2x16gb-ddr4-rgb-3600mhz-pc4-28800-cl18-22-22-1-35v-desktop-memory-white-ax4u360016g18i-dw50",
@@ -20058,7 +20058,7 @@
       "observedAt": "2026-04-23T04:36:37.860273+00:00"
     },
     {
-      "partId": "ram-datablitz-00000000172d",
+      "partId": "ram-datablitz-000000007a54",
       "amountPhp": 5550,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/adata-xpg-spectrix-d50-16gb-1x16gb-ddr4-rgb-3600mhz-pc4-28800-cl18-22-22-1-35v-desktop-memory-tungsten-grey-ax4u360016g18i-st50",
@@ -20079,7 +20079,7 @@
       "observedAt": "2026-04-23T04:36:37.861754+00:00"
     },
     {
-      "partId": "ram-datablitz-000000001f1c",
+      "partId": "ram-datablitz-000000002e8b",
       "amountPhp": 5950,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/adata-xpg-spectrix-d50-16gb-2x8gb-ddr4-rgb-3600mhz-pc4-28800-cl18-22-22-1-35v-desktop-memory-white-ax4u36008g18i-dw50",
@@ -20100,7 +20100,7 @@
       "observedAt": "2026-04-23T04:36:37.863131+00:00"
     },
     {
-      "partId": "ram-datablitz-00000000497c",
+      "partId": "ram-datablitz-000000003dcd",
       "amountPhp": 3095,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/adata-xpg-spectrix-d50-8gb-1x8gb-ddr4-rgb-3200mhz-pc4-25600-cl16-20-20-1-35v-desktop-memory-tungsten-grey-ax4u32008g16a-st50",
@@ -20527,7 +20527,7 @@
       "observedAt": "2026-04-23T04:46:40.821868+00:00"
     },
     {
-      "partId": "ram-datablitz-000000005bb5",
+      "partId": "ram-datablitz-000000002604",
       "amountPhp": 19295,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/corsair-vengeance-rgb-64gb-2x32gb-ddr5-dram-6000mt-s-cl30-amd-expo-intel-xmp-memory-kit-white-cmh64gx5m2b6000z30w",
@@ -20996,7 +20996,7 @@
       "observedAt": "2026-04-23T04:52:20.355293+00:00"
     },
     {
-      "partId": "ram-datablitz-000000002b84",
+      "partId": "ram-datablitz-000000002b85",
       "amountPhp": 1150,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/sandisk-extreme-256gb-190mb-s-uhs-1-microsdxc-card-for-mobile-gaming-sdsqxav-256g-gn6gn",
@@ -21808,7 +21808,7 @@
       "observedAt": "2026-04-23T05:03:16.395439+00:00"
     },
     {
-      "partId": "ram-datablitz-0000000012e0",
+      "partId": "ram-datablitz-000000002e2a",
       "amountPhp": 30495,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/g-skill-trident-z5-royal-neo-ddr5-48gb-2x24gb-6000-mt-s-cl28-36-36-96-1-35v-amd-expo-desktop-memory-silver-f5-6000j2836f24gx2-tr5ns",
@@ -21864,7 +21864,7 @@
       "observedAt": "2026-04-23T05:03:22.625919+00:00"
     },
     {
-      "partId": "ram-datablitz-000000002121",
+      "partId": "ram-datablitz-0000000027af",
       "amountPhp": 13995,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/g-skill-trident-z5-neo-rgb-32gb-2x16gb-ddr5-6000-mt-s-cl28-36-36-96-1-40v-amd-expo-desktop-memory-matte-white-f5-6000j2836g16gx2-tz5nrw",
@@ -22116,7 +22116,7 @@
       "observedAt": "2026-04-23T05:03:34.111818+00:00"
     },
     {
-      "partId": "ram-datablitz-000000001473",
+      "partId": "ram-datablitz-000000006231",
       "amountPhp": 10295,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/g-skill-trident-z5-royal-neo-32gb-2x16gb-ddr5-6400-mt-s-cl30-39-39-102-1-40v-amd-expo-desktop-memory-gold-f5-6400j3039g16gx2-tr5ng",
@@ -22130,7 +22130,7 @@
       "observedAt": "2026-04-23T05:03:34.111923+00:00"
     },
     {
-      "partId": "ram-datablitz-000000005e50",
+      "partId": "ram-datablitz-00000000025b",
       "amountPhp": 11150,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/g-skill-trident-z5-royal-neo-32gb-2x16gb-ddr5-6000-mt-s-cl28-36-36-96-1-40v-amd-expo-desktop-memory-gold-f5-6000j2836g16gx2-tr5ng",
@@ -22158,7 +22158,7 @@
       "observedAt": "2026-04-23T05:03:34.112694+00:00"
     },
     {
-      "partId": "ram-datablitz-000000003ec3",
+      "partId": "ram-datablitz-0000000051f3",
       "amountPhp": 7795,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/g-skill-trident-z5-rgb-32gb-2x16gb-ddr5-intel-xmp-6400mhz-cl32-39-39-102-1-40v-desktop-memory-matte-white-f5-6400j3239g16gx2-tz5rw",
@@ -22228,7 +22228,7 @@
       "observedAt": "2026-04-23T05:03:34.113503+00:00"
     },
     {
-      "partId": "ram-datablitz-00000000115d",
+      "partId": "ram-datablitz-00000000248d",
       "amountPhp": 64050,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/g-skill-trident-z5-rgb-64gb-2x32gb-ddr5-intel-xmp-6000mhz-cl36-36-36-96-1-35v-desktop-memory-matte-white-f5-6000j3636f32gx2-tz5rw",
@@ -22340,7 +22340,7 @@
       "observedAt": "2026-04-23T05:03:34.116309+00:00"
     },
     {
-      "partId": "ram-datablitz-0000000023c7",
+      "partId": "ram-datablitz-000000000250",
       "amountPhp": 43450,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/g-skill-trident-z5-neo-rgb-ddr5-48gb-2x24gb-6000-mt-s-cl28-36-36-96-1-35v-amd-expo-desktop-memory-matte-black-f5-6000j2836f24gx2-tz5nr",
@@ -22375,7 +22375,7 @@
       "observedAt": "2026-04-23T05:03:34.116673+00:00"
     },
     {
-      "partId": "ram-datablitz-000000005a47",
+      "partId": "ram-datablitz-000000006d77",
       "amountPhp": 15495,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/g-skill-trident-z5-rgb-64gb-2x32gb-ddr5-intel-xmp-6400mhz-cl32-39-39-102-1-40v-desktop-memory-matte-black-f5-6400j3239g32gx2-tz5rk",
@@ -22466,7 +22466,7 @@
       "observedAt": "2026-04-23T05:03:34.118797+00:00"
     },
     {
-      "partId": "ram-datablitz-000000005295",
+      "partId": "ram-datablitz-00000000275c",
       "amountPhp": 7050,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/g-skill-trident-z5-32gb-2x16gb-ddr5-intel-xmp-5600mhz-cl36-36-36-89-1-20v-desktop-memory-silver-f5-5600j3636c16gx2-tz5s",
@@ -22508,7 +22508,7 @@
       "observedAt": "2026-04-23T05:03:34.120055+00:00"
     },
     {
-      "partId": "ram-datablitz-000000002c0e",
+      "partId": "ram-datablitz-0000000043b7",
       "amountPhp": 6995,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/g-skill-ripjaws-s5-32gb-2x16gb-ddr5-5600mhz-cl36-36-36-89-1-20v-intel-xmp-desktop-memory-matte-white-f5-5600j3636c16gx2-rs5w",
@@ -23341,7 +23341,7 @@
       "observedAt": "2026-04-23T05:11:30.310196+00:00"
     },
     {
-      "partId": "ram-dynaquest-pc-000000000a42",
+      "partId": "ram-dynaquest-pc-000000002d3c",
       "amountPhp": 28550,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/g-skill-flare-x5-32gb-2x16gb-ddr5-6000mt-s-ram-desktop-memory-black-kit-of-2-f5-6000j3038f16gx2-fx5",
@@ -23446,7 +23446,7 @@
       "observedAt": "2026-04-23T05:11:30.311070+00:00"
     },
     {
-      "partId": "ram-dynaquest-pc-000000004fb1",
+      "partId": "ram-dynaquest-pc-000000004ce4",
       "amountPhp": 51350,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/gskill-flare-x5-64gb-32gbx2-ddr5-6000mt-s-cl36-36-36-96-1-35v-intel-xmp-amd-expo-desktop-memory-f5-6000j3636f32gx2-fx5w",
@@ -23754,7 +23754,7 @@
       "observedAt": "2026-04-23T05:11:30.315661+00:00"
     },
     {
-      "partId": "ram-dynaquest-pc-000000004049",
+      "partId": "ram-dynaquest-pc-00000000371f",
       "amountPhp": 18720,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/g-skill-trident-z5-neo-rgb-48gb-dual-ddr5-6400mt-s-cl32-amd-expo-f5-6400j3239f24gx2-tz5nr",
@@ -24013,7 +24013,7 @@
       "observedAt": "2026-04-23T05:11:30.325308+00:00"
     },
     {
-      "partId": "ram-dynaquest-pc-000000001507",
+      "partId": "ram-dynaquest-pc-000000000b3b",
       "amountPhp": 6550,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/g-skill-ripjaws-m5-rgb-32gb-16gx2-ddr5-6400mt-s-desktop-memory-f5-6400j3648f16gx2-rm5rw",
@@ -25665,7 +25665,7 @@
       "observedAt": "2026-04-23T05:15:43.363204+00:00"
     },
     {
-      "partId": "ram-easypc-000000002e1f",
+      "partId": "ram-easypc-000000006d68",
       "amountPhp": 8012.05,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/g-skill-trident-z5-32gb-2x16-f5-5600j3636c16gx2-tz5rs-5600mhz-ddr5-rgb-memory-silver-intel-xmp",
@@ -27114,7 +27114,7 @@
       "observedAt": "2026-04-23T05:29:36.817502+00:00"
     },
     {
-      "partId": "ram-villman-0000000059ce",
+      "partId": "ram-gigahertz-0000000059ce",
       "amountPhp": 13999,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/team-group_elite-16gb-ddr5-5600-sodimm",
@@ -28549,7 +28549,7 @@
       "observedAt": "2026-04-23T05:47:30.183228+00:00"
     },
     {
-      "partId": "ram-pcworx-000000002e1f",
+      "partId": "ram-pcworx-000000006fee",
       "amountPhp": 7241,
       "retailer": "PCWORX",
       "productUrl": "https://pcworx.ph/products/adata-xpg-spectrix-d50-rgb-16gb-2x8gb-ddr4-3200mhz-ram-tungstem-gray-white-copy",
@@ -30936,7 +30936,7 @@
       "observedAt": "2026-04-23T04:05:02.464746+00:00"
     },
     {
-      "partId": "gpu-pc-express-0000000057dc",
+      "partId": "gpu-bermor-techzone-000000003e93",
       "amountPhp": 36400,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/sapphire-nitro-amd-radeon-rx-9060-xt-16gb-gddr6-graphics-card",
@@ -39140,7 +39140,7 @@
       "observedAt": "2026-04-23T05:45:32.401030+00:00"
     },
     {
-      "partId": "gpu-pcworx-000000005330",
+      "partId": "gpu-pcworx-000000000a5c",
       "amountPhp": 32399,
       "retailer": "PCWORX",
       "productUrl": "https://pcworx.ph/products/msi-rtx5060ti-ventus-2x-oc-plus-16gb-gddr7-gpu-1",
@@ -40316,7 +40316,7 @@
       "observedAt": "2026-04-23T05:56:10.928708+00:00"
     },
     {
-      "partId": "gpu-pc-express-000000000371",
+      "partId": "gpu-pc-express-000000001bd3",
       "amountPhp": 24150,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/gigabyte-geforce-rtx-5060-gaming-oc-8gb-gddr7-128-bit-graphics-card",
@@ -44824,7 +44824,7 @@
       "observedAt": "2026-04-23T04:38:48.309378+00:00"
     },
     {
-      "partId": "storage-datablitz-0000000007ca",
+      "partId": "storage-datablitz-0000000066ec",
       "amountPhp": 15995,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/transcend-esd420-usb-20gbps-2000mb-s-read-write-type-c-magnetic-portable-ssd-champagne-gold-1tb-2tb-4tb",
@@ -45181,7 +45181,7 @@
       "observedAt": "2026-04-23T04:49:21.012039+00:00"
     },
     {
-      "partId": "storage-datablitz-000000002d45",
+      "partId": "storage-datablitz-000000007b86",
       "amountPhp": 33550,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/wd-black-sn850x-2tb-nvme-m-2-2280-pcie-gen4-internal-gaming-ssd-compatible-w-ps5-w-heatsink-wds200t2xhe",
@@ -48884,7 +48884,7 @@
       "observedAt": "2026-04-23T05:29:27.802313+00:00"
     },
     {
-      "partId": "storage-gigahertz-000000006632",
+      "partId": "storage-pc-express-000000006588",
       "amountPhp": 3609,
       "retailer": "Gigahertz",
       "productUrl": "https://gigahertz.com.ph/products/western-digital-480gb-green-2-5-wds480g3g0a-solid-state-drive",
@@ -51684,7 +51684,7 @@
       "observedAt": "2026-04-23T05:57:54.601444+00:00"
     },
     {
-      "partId": "storage-villman-000000001ad7",
+      "partId": "storage-pc-express-000000007c96",
       "amountPhp": 22288,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/seagate-_12tb-sata-ironwolf-st12000vn0008-nas-hard-drive",
@@ -53714,7 +53714,7 @@
       "observedAt": "2026-04-23T04:05:31.809172+00:00"
     },
     {
-      "partId": "psu-bermor-techzone-00000000536e",
+      "partId": "psu-bermor-techzone-00000000532f",
       "amountPhp": 5395,
       "retailer": "Bermor Techzone",
       "productUrl": "https://bermorzone.com.ph/shop/power-sources/power-supply-unit/seasonic-core-gx-atx-3-2024-650w-750w-850w-80-plus-gold-atx-3-1-pcie-5-1-fully-modular-power-supply-white-edition/",
@@ -56297,7 +56297,7 @@
       "observedAt": "2026-04-23T05:14:30.141505+00:00"
     },
     {
-      "partId": "psu-easypc-0000000022e5",
+      "partId": "psu-easypc-000000004fdd",
       "amountPhp": 12750,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/seasonic-prime-ultra-ssr-1000pd-1000-watts-fully-modular-80-plus-power-supply-platinum-sess1302-4jtp",
@@ -64648,7 +64648,7 @@
       "observedAt": "2026-04-23T05:20:03.641470+00:00"
     },
     {
-      "partId": "case-easypc-0000000050ea",
+      "partId": "case-easypc-000000004fc4",
       "amountPhp": 3570.45,
       "retailer": "EasyPC",
       "productUrl": "https://easypc.com.ph/products/silverstone-fara-r1-pro-mid-tower-atx-tempered-glass-with-4-argb-fans-controller-gaming-pc-case-white",
@@ -69198,7 +69198,7 @@
       "observedAt": "2026-04-23T04:47:26.799362+00:00"
     },
     {
-      "partId": "cpu_cooler-datablitz-000000007ed0",
+      "partId": "cpu_cooler-datablitz-000000005d8e",
       "amountPhp": 2650,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/cooler-master-mm712-wireless-lightweight-gaming-mouse-with-ultraweave-cable-ptfe-feet-rgb-accents-matte-white",
@@ -72460,7 +72460,7 @@
       "observedAt": "2026-04-23T04:38:54.438525+00:00"
     },
     {
-      "partId": "monitor-datablitz-000000000545",
+      "partId": "monitor-datablitz-000000003279",
       "amountPhp": 87940,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/asus-rog-swift-oled-pg34wcdm-34-uwqhd-3440x1440-240hz-0-03ms-gtg-ultra-wide-curved-gaming-monitor-asus-ax1800-dual-band-smart-wifi-6-router-rt-ax53u-bundle",
@@ -72621,14 +72621,14 @@
       "observedAt": "2026-04-23T04:39:03.760925+00:00"
     },
     {
-      "partId": "monitor-datablitz-0000000005a5",
+      "partId": "monitor-dynaquest-pc-000000002340",
       "amountPhp": 89650,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/samsung-49-odyssey-oled-g9-g95sc-gaming-monitor",
       "observedAt": "2026-04-23T04:39:03.762690+00:00"
     },
     {
-      "partId": "monitor-datablitz-000000002340",
+      "partId": "monitor-dynaquest-pc-000000002340",
       "amountPhp": 89650,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/samsung-odyssey-oled-g9-g95sc-ls49cg954sexxp-49-neo-quantum-processor-pro-0-03ms-240hz-gtg-5120x1440-dual-qhd-curved-smart-gaming-monitor",
@@ -73195,7 +73195,7 @@
       "observedAt": "2026-04-23T04:42:01.398691+00:00"
     },
     {
-      "partId": "monitor-dynaquest-pc-000000007164",
+      "partId": "monitor-datablitz-000000007164",
       "amountPhp": 22250,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/asus-tuf-gaming-series-5-vg34wqml5a-34-wqhd-3440x1440-250hz-0-5ms-ultra-wide-curved-gaming-monitor",
@@ -73727,7 +73727,7 @@
       "observedAt": "2026-04-23T04:42:33.956507+00:00"
     },
     {
-      "partId": "monitor-dynaquest-pc-000000004bb2",
+      "partId": "monitor-datablitz-000000004bb2",
       "amountPhp": 8595,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/asus-tuf-gaming-vg249q3r-23-8-fhd-1920x1080-180hz-1ms-gtg-freesync-fast-ips-monitor",
@@ -73783,7 +73783,7 @@
       "observedAt": "2026-04-23T04:42:34.033860+00:00"
     },
     {
-      "partId": "monitor-datablitz-0000000007aa",
+      "partId": "monitor-dynaquest-pc-0000000007aa",
       "amountPhp": 28295,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/asus-zenscreen-go-mb16awp-15-6-fhd-wireless-portable-monitor",
@@ -73902,7 +73902,7 @@
       "observedAt": "2026-04-23T04:42:37.453755+00:00"
     },
     {
-      "partId": "monitor-datablitz-000000005ba3",
+      "partId": "monitor-dynaquest-pc-000000005ba3",
       "amountPhp": 12995,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/asus-be279qsk-27-fhd-ips-60hz-video-conferencing-monitor",
@@ -74154,7 +74154,7 @@
       "observedAt": "2026-04-23T04:43:39.741961+00:00"
     },
     {
-      "partId": "monitor-dynaquest-pc-000000001279",
+      "partId": "monitor-datablitz-000000001279",
       "amountPhp": 11495,
       "retailer": "DynaQuest PC",
       "productUrl": "https://dynaquestpc.com/products/asus-vt169he-15-6-fhd-1920x1080-60hz-5msgtg-ips-touch-monitor-with-tilt-adjustment",
@@ -74714,7 +74714,7 @@
       "observedAt": "2026-04-23T04:52:20.338356+00:00"
     },
     {
-      "partId": "monitor-datablitz-000000005ff6",
+      "partId": "monitor-dynaquest-pc-000000005ff6",
       "amountPhp": 5650,
       "retailer": "DataBlitz",
       "productUrl": "https://ecommerce.datablitz.com.ph/products/lg-27mr400-b-27-fhd-3-side-borderless-ips-100hz-monitor-with-amd-freesync",
@@ -82162,7 +82162,7 @@
       "observedAt": "2026-04-23T05:30:15.497618+00:00"
     },
     {
-      "partId": "monitor-pc-express-000000001214",
+      "partId": "monitor-gigahertz-000000001214",
       "amountPhp": 8600,
       "retailer": "PC Express",
       "productUrl": "https://pcx.com.ph/products/aoc-27-27g11e-180hz-ips-gaming-monitor",
@@ -83639,7 +83639,7 @@
       "observedAt": "2026-04-23T05:45:39.217260+00:00"
     },
     {
-      "partId": "monitor-villman-000000003b4f",
+      "partId": "monitor-pcworx-000000003b4f",
       "amountPhp": 4199,
       "retailer": "VillMan",
       "productUrl": "https://villman.com/Product-Detail/msi_led-monitor-it---2202--20-inch-hd-display-20inch",
