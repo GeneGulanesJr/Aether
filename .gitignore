@@ -54,8 +54,7 @@ Thumbs.db
 
 
 # Scrapper
-scrapper/
-.scrapper/
+
 
 # Docs (local spreadsheets / exports)
 docs/**/*.csv
