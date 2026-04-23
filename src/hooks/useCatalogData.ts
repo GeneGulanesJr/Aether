@@ -11,23 +11,34 @@ import { useQuery } from '@tanstack/react-query'
 import { fetchPrices } from '../lib/apiClient'
 import { buildPriceMap } from '../lib/priceUtils'
 import { getDataSourceMode } from '../lib/env'
-import { parsePriceFixture } from '../lib/catalogParsers'
 import { getErrorMessage } from '../lib/errors'
-import type { Part, PriceEntry, PriceListFile } from '../lib/types'
+import type { Part, PriceEntry } from '../lib/types'
 
 // ── Dynamic catalog imports (deferred off critical path) ──
 // These JSON files total ~3 MB — loaded asynchronously after first paint.
 
 async function loadStaticParts(): Promise<Part[]> {
-  const [cpu, motherboard, gpu] = await Promise.all([
+  const [cpu, motherboard, gpu, ram, storage, psu, pcCase, cooler, monitor] = await Promise.all([
     import('../data/catalog_cpu.json'),
     import('../data/catalog_motherboard.json'),
     import('../data/catalog_gpu.json'),
+    import('../data/catalog_ram.json'),
+    import('../data/catalog_storage.json'),
+    import('../data/catalog_psu.json'),
+    import('../data/catalog_case.json'),
+    import('../data/catalog_cpu_cooler.json'),
+    import('../data/catalog_monitor.json'),
   ])
   return [
     ...(cpu as unknown as { items: Part[] }).items,
     ...(motherboard as unknown as { items: Part[] }).items,
     ...(gpu as unknown as { items: Part[] }).items,
+    ...(ram as unknown as { items: Part[] }).items,
+    ...(storage as unknown as { items: Part[] }).items,
+    ...(psu as unknown as { items: Part[] }).items,
+    ...(pcCase as unknown as { items: Part[] }).items,
+    ...(cooler as unknown as { items: Part[] }).items,
+    ...(monitor as unknown as { items: Part[] }).items,
   ]
 }
 
@@ -80,16 +91,18 @@ export function useCatalogData(): CatalogData {
   // Load JSON chunks asynchronously — keeps ~3 MB off the critical path
   useEffect(() => {
     let cancelled = false
-    Promise.all([loadStaticParts(), loadSnapshotPrices()]).then(
-      ([parts, snapshot]) => {
+    Promise.all([loadStaticParts(), loadSnapshotPrices()])
+      .then(([parts, snapshot]) => {
         if (!cancelled) {
           setStaticParts(parts)
           setSnapshotEntries(snapshot.entries)
           setSnapshotPriceMap(snapshot.map)
           setDataLoading(false)
         }
-      },
-    )
+      })
+      .catch(() => {
+        if (!cancelled) setDataLoading(false)
+      })
     return () => { cancelled = true }
   }, [])
 
@@ -116,11 +129,11 @@ export function useCatalogData(): CatalogData {
         loadingState: 'loading' as const,
       }
     }
-    const prices: PriceListFile = parsePriceFixture()
+    // Use loaded snapshot data, not parsePriceFixture() which uses old sample data
     return {
       parts: staticParts,
-      priceByPartId: buildPriceMap(prices),
-      priceEntries: prices.entries,
+      priceByPartId: snapshotPriceMap,
+      priceEntries: snapshotEntries,
       livePriceByPartId: undefined,
       livePriceEntries: [],
       livePriceState: 'idle' as const,
@@ -128,7 +141,7 @@ export function useCatalogData(): CatalogData {
       fetchLivePrices: () => {},
       isLivePriceLoading: false,
       statusMessage:
-        'Fixture mode — parts bundled, prices from sample data.',
+        'Fixture mode — parts bundled, prices from spider data.',
       mode,
       loadingState: 'success' as const,
     }
