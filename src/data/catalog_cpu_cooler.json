@@ -3,26 +3,6 @@
   "category": "cpu_cooler",
   "items": [
     {
-      "id": "cpu_cooler-ben-store-000000007e0b",
-      "name": "Fantech CHIMERA GM241AC 23.6\" Curved Gaming Monitor [144Hz]",
-      "category": "cpu_cooler",
-      "specs": {
-        "SKU": "5478",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://benstore.com.ph/30097-home_default/fantech-chimera-gm241ac-236-curved-gaming-monitor-144-hz-.jpg"
-    },
-    {
-      "id": "cpu_cooler-ben-store-0000000029ba",
-      "name": "Fantech CHIMERA GM242AC 23.6\" Curved Gaming Monitor",
-      "category": "cpu_cooler",
-      "specs": {
-        "SKU": "5477",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://benstore.com.ph/30089-home_default/fantech-chimera-gm242ac-236-curved-gaming-monitor.jpg"
-    },
-    {
       "id": "cpu_cooler-ben-store-000000002616",
       "name": "OPOLAR Laptop Fan Cooler with Temperature Display",
       "category": "cpu_cooler",
@@ -4727,17 +4707,6 @@
         "Availability": "in_stock"
       },
       "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/dfbx_00e2edf0-bb83-41f9-a5b5-2645c03e5d43.jpg?v=1702522225"
-    },
-    {
-      "id": "cpu_cooler-datablitz-0000000044ef",
-      "name": "Final Fantasy VII Remake Original Wall Scroll Vol.2",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "Square Enix",
-        "SKU": "0662248827582",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/91Sb6XOUZ4L._AC_SL1500.jpg?v=1676887984"
     },
     {
       "id": "cpu_cooler-dynaquest-pc-000000002bbf",
@@ -17789,26 +17758,6 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-pure-pro-p2-gigahertz-gigahertz-796025.jpg?v=1733132958"
     },
     {
-      "id": "cpu_cooler-itech-000000006a0b",
-      "name": "Fantech P31 3 in 1 Hero Bundle Gaming Set (Wired Keyboard, Mouse & Mousepad)",
-      "category": "cpu_cooler",
-      "specs": {
-        "SKU": "6972661282061",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2024/05/Fantech-P31-3-in-1-Hero-Bundle-Gaming-Set-450x577.jpg"
-    },
-    {
-      "id": "cpu_cooler-itech-0000000073e0",
-      "name": "Fantech HQ53 Flash 7.1 Virtual Surround Sound Gaming Headset",
-      "category": "cpu_cooler",
-      "specs": {
-        "SKU": "6972661283563",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2024/05/Fantech-HQ53-450x577.jpg"
-    },
-    {
       "id": "cpu_cooler-itech-00000000061f",
       "name": "Thermalright TL-C12C 120mm Chassis Fan – Black",
       "category": "cpu_cooler",
@@ -17837,16 +17786,6 @@
         "Availability": "in_stock"
       },
       "imageUrl": "https://www.itech.ph/wp-content/uploads/2025/10/arctic-p12-pro-argb-120mm-3-pack-fan-1-450x594.webp"
-    },
-    {
-      "id": "cpu_cooler-itech-000000004671",
-      "name": "Fantech K515S Shikari S RGB Wired Membrane Gaming Keyboard with Advance Anti- Ghosting",
-      "category": "cpu_cooler",
-      "specs": {
-        "SKU": "6977052252111",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2026/02/fantech-k515s-shikari-gaming-keyboard-p5_-_copy-450x450.webp"
     },
     {
       "id": "cpu_cooler-itech-00000000212e",
@@ -18222,17 +18161,6 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/25SHOPIFYGigabyteGP-AORUS-WATERFORCE-X-II-240AorusWaterForce240mmAIOLiquidCPUCool_2.jpg?v=1763111783"
     },
     {
-      "id": "cpu_cooler-pcworx-000000002318",
-      "name": "Gigabyte GP-UD750GM-PG5 750WATTS 80 PLUS GOLD PCIE GEN 5.0 ATX 3.0 MODULAR",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000062617",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/14.4SHOPIFYGigabyteGP-UD750GM-PG5750WATTS80PLUSGOLDPCIEGEN5.0ATX3.0MODULAR_7.jpg?v=1763083179"
-    },
-    {
       "id": "cpu_cooler-pcworx-000000001036",
       "name": "Gigabyte GP-C301GW V2 TG w/ 4 pcs Fan Mid Tower Casing White",
       "category": "cpu_cooler",
@@ -18242,39 +18170,6 @@
         "Availability": "out_of_stock"
       },
       "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/17SHOPIFYGigabyteGP-C301GWV2TGw_4pcsFanMidTowerCasingWhite.jpg?v=1762930338"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000005e02",
-      "name": "Gigabyte GP-AORUS-WATERFORCE-II-360I ICE AIO W/ FAN EZ CHAIN 3X120MM ARGB FAN",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000062616",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/5_315a7b2f-6113-42c8-bccc-9ce43d041d54.jpg?v=1775636733"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000006696",
-      "name": "Gigabyte GP-AORUS-WATERFORCE-II-360 AIO W/ FAN EZ CHAIN 3X120MM ARGB FAN",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000062615",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000062615_2.jpg?v=1737449631"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000003148",
-      "name": "Gigabyte GP-AORUS-WATERFORCE-II-240 AIO W/ FAN EZ CHAIN 2X120MM ARGB FAN",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000062614",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000062614_2.jpg?v=1737448594"
     },
     {
       "id": "cpu_cooler-pcworx-00000000193e",
@@ -18288,126 +18183,6 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/JISULIFE_2.png?v=1745826153"
     },
     {
-      "id": "cpu_cooler-pcworx-0000000008ec",
-      "name": "Fantech FTK801 Numeric Keypad Black",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "My Store",
-        "SKU": "0000055916",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7r98o-lmgunwuzpbe99c.jpg?v=1708419746"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000007e13",
-      "name": "Fantech Echo MH82 Headset",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000040598",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/FantechEchoMH82Headset.png?v=1720368112"
-    },
-    {
-      "id": "cpu_cooler-pcworx-0000000048bb",
-      "name": "Fantech MK853 Maxpower Keyboard V2 Pink Switch Red",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000052221",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/FANTECH_7.png?v=1755143148"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000002074",
-      "name": "Fantech Tamago WHG01 Lightweight Wireless Wired Headset Detachable Pink",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000066198",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000066198.jpg?v=1741329443"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000002f41",
-      "name": "Fantech KL106 Iphone USB A to Lightning Data Cable Silver",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000058962",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000058962_2.jpg?v=1741326541"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000006f3d",
-      "name": "Fantech KL104 Iphone USB A to Lightning Data Cable Green",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000058961",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000058961_2.jpg?v=1741325495"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000005277",
-      "name": "Fantech TX1 Mithril Wireless Earphones",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000004896",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000004896.jpg?v=1739502270"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000004301",
-      "name": "Fantech MK890 V2 ATOM 96 Key Mechanical Keyboard MIZU Edition | Navy Blue | Sky Blue",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000064879",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000064879.png?v=1737769775"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000007215",
-      "name": "Fantech MK875 V2 ATOM 81 Key Mechanical Keyboard MIZU Edition Sky Blue",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000064876",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000064876.png?v=1737701241"
-    },
-    {
-      "id": "cpu_cooler-pcworx-0000000016d3",
-      "name": "Fantech MK874 V2 ATOM 63 Key Mechanical Keyboard MIZU Edition | Sky Blue | Navy Blue",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/92_e95cd88c-82e8-4fb6-8e29-188bee2b3e9a.jpg?v=1742196116"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000004f71",
-      "name": "Fantech GS301 Trifecta RGB Black Speaker",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000056554",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000056554_2.png?v=1737340624"
-    },
-    {
       "id": "cpu_cooler-pcworx-00000000109b",
       "name": "Fantech FB-302 Typhoon RGB 3 in 1 Fan RGB 120mm Chassis Fan",
       "category": "cpu_cooler",
@@ -18417,105 +18192,6 @@
         "Availability": "out_of_stock"
       },
       "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000045387_3.png?v=1736582298"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000002c44",
-      "name": "Fantech MK875 V2 ATOM 81 Key Mechanical Keyboard MIZU Edition Navy Blue",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000064877",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000064877.png?v=1736580020"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000007ed1",
-      "name": "Fantech WH01 Wireless Headset Mint",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000052635",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/FantechWH01WirelessHeadsetMint.png?v=1720369359"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000002bd4",
-      "name": "Fantech HG11-PRO Captain 7.1 RGB Headset",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "My Store",
-        "SKU": "0000049983",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/RTX50-2025-10-20T102129.459.png?v=1760926997"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000002a92",
-      "name": "Fantech K613L Fighter II Full Keyboard Sakura Pink",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "My Store",
-        "SKU": "0000047092",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/90_25c8c43d-22d0-41a4-9d8c-9a0921abeb06.jpg?v=1742194581"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000006e89",
-      "name": "Fantech AC3001 Headset Stand Space Edition",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "My Store",
-        "SKU": "0000042836",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7qul5-lfgrm8ljhp2736.jpg?v=1708420532"
-    },
-    {
-      "id": "cpu_cooler-pcworx-0000000039d2",
-      "name": "Fantech MCX01 Leviosa Professional Condenser Microphone RGB Illumination with Mute Control",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "My Store",
-        "SKU": "0000060176",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7r98o-lmgunwv9owwff6.jpg?v=1708419510"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000002f1d",
-      "name": "Fantech GS302 Alegro RGB Gaming Speaker 5.0 Bluetooth and Wired Connection with Spectrum Mode",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "My Store",
-        "SKU": "0000052746",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7r98t-llnc2demkx7qbf.jpg?v=1708419373"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000006d83",
-      "name": "Fantech GS-203 Wired USB 2.0 Speaker Space Edition White",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "My Store",
-        "SKU": "0000042669",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/MSI-2025-09-24T085338.706.png?v=1758675519"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000000312",
-      "name": "Fantech K210 USB Keyboard Multimedia Office Keyboard",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "My Store",
-        "SKU": "0000039979",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7qul6-lg2cla4ne6pkec.jpg?v=1708416773"
     },
     {
       "id": "cpu_cooler-pcworx-000000005e06",
@@ -18562,17 +18238,6 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/27SHOPIFYDarkFlashExploreDO-240240mmAIOLiquidCPUCoolerBlack.jpg?v=1764055721"
     },
     {
-      "id": "cpu_cooler-pcworx-0000000079ab",
-      "name": "DarkFlash Twister DX360 V2.6 AIO ARGB Liquid CPU Cooler White",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000058166",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_0801603e-7ad7-4e5b-8241-9399dde479fd.jpg?v=1742352643"
-    },
-    {
       "id": "cpu_cooler-pcworx-000000007ad1",
       "name": "DarkFlash Twister DX360 V2.6 AIO ARGB Liquid CPU Cooler Black",
       "category": "cpu_cooler",
@@ -18595,17 +18260,6 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_f7619f83-ac36-4cf2-9389-0d7f606f4c31.jpg?v=1744103926"
     },
     {
-      "id": "cpu_cooler-pcworx-00000000177c",
-      "name": "Darkflash Nebula DN240 ARGB AIO Liquid CPU Cooler White",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000064739",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_6503c727-c539-47b3-8943-ba32a1136674.jpg?v=1742348506"
-    },
-    {
       "id": "cpu_cooler-pcworx-0000000004ca",
       "name": "Darkflash INFINITY 24R A-RGB REVERSE BLADE COOLING FAN WHITE",
       "category": "cpu_cooler",
@@ -18615,17 +18269,6 @@
         "Availability": "out_of_stock"
       },
       "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/DARKFLASH_8.png?v=1736152689"
-    },
-    {
-      "id": "cpu_cooler-pcworx-0000000046cd",
-      "name": "Darkflash DX360 AIO ARGB Liquid Cooler White",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000045533",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/printer_5.png?v=1770272345"
     },
     {
       "id": "cpu_cooler-pcworx-0000000045a7",
@@ -18670,17 +18313,6 @@
         "Availability": "in_stock"
       },
       "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000061904_2.jpg?v=1739934710"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000004b78",
-      "name": "DarkFlash Twister DX240 V2.6 AIO ARGB Liquid CPU Cooler White",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000057306",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/2_ce857a6b-10ee-4c5d-a8bd-e0d1f32828e9.jpg?v=1742277128"
     },
     {
       "id": "cpu_cooler-pcworx-000000000898",
@@ -18736,50 +18368,6 @@
         "Availability": "out_of_stock"
       },
       "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000053026.jpg?v=1737334905"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000004a52",
-      "name": "DarkFlash Twister DX240 V2.6 AIO ARGB Liquid CPU Cooler Black",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000057305",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_adf79928-7045-4411-bdf4-5a61e2bc844f.jpg?v=1742347424"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000005437",
-      "name": "DarkFlash Radiant DC360 AIO ARGB Liquid CPU Cooler White",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000057304",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_308fa947-b7ce-45a7-bd07-61bbd9ef573b.jpg?v=1742347984"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000002770",
-      "name": "Darkflash Nebula DN-360 ARGB AIO Liquid CPU Cooler Black",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000064704",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_0ce6dcfd-6827-4ee8-8eaf-b2e54dd4edae.jpg?v=1742348330"
-    },
-    {
-      "id": "cpu_cooler-pcworx-0000000018a3",
-      "name": "Darkflash Nebula DN240 ARGB AIO Liquid CPU Cooler Black",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000064740",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_6503c727-c539-47b3-8943-ba32a1136674.jpg?v=1742348506"
     },
     {
       "id": "cpu_cooler-pcworx-0000000005f0",
@@ -18914,105 +18502,6 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/Untitleddesign_15_f80f6723-db0d-42b6-b79a-73f574d81a14.png?v=1761614657"
     },
     {
-      "id": "cpu_cooler-pcworx-000000005311",
-      "name": "DarkFlash Radiant DC360 AIO ARGB Liquid CPU Cooler Black",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000057303",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_933bfeb4-2b78-4d4f-8a4f-50a8c79afd7f.jpg?v=1742358369"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000007548",
-      "name": "Darkflash DC120 120mm AIO Liquid CPU Cooler Black",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000058516",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_2b959e4d-ea69-4ba4-864c-d53250201e9d.jpg?v=1742358644"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000003f5b",
-      "name": "Asus Rog Strix Lc Ii 240 Argb All-In-One Liquid CPU Cooler With Aura Sync Radiator Fans",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000042825",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_b2affb1f-7c7c-4be4-9227-30849a49e9af.jpg?v=1742356244"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000007849",
-      "name": "Cooler master CM RR-2V2L-18PA-R1 Hyper 212 ARGB CPU Cooler",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000049107",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_678dd980-94c6-43f1-80aa-a782ff453532.jpg?v=1742355987"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000004b1d",
-      "name": "Cooler Master RR-212TK-18PA-R1 Hyper 212 LED Turbo ARGB CPU Cooler",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000034439",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_3cd21f60-9a3c-41fc-a1f0-dc26c41db92d.jpg?v=1742353732"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000003c32",
-      "name": "Cooler Master RR-S4KK-20PA-R1 Hyper 212 Halo ARGB (w/o controller) 120mm CPU Cooler",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000063909",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_7eeca349-25f6-45e3-94b4-d6325671d63e.jpg?v=1742354026"
-    },
-    {
-      "id": "cpu_cooler-pcworx-0000000056c6",
-      "name": "Cooler Master RR-S4NA-17PA-R1 Hyper 212 Spectrum V3 120mm CPU Cooler",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000059118",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_7914123c-729f-4220-a1ec-c9d8e5412112.jpg?v=1742362182"
-    },
-    {
-      "id": "cpu_cooler-pcworx-0000000033bb",
-      "name": "DEEPCOOL DP-MCH4-GMX-GT-ARGB Gammax GT ARGB CPU Cooler",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000049160",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_f0df69f9-06a7-4b00-bf5d-dae13996a6a3.jpg?v=1742346391"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000006101",
-      "name": "Deepcool Ice Edge Mini Fs V2.0 CPU Cooler",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000001528",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_8967bfdf-af5e-4160-bfae-9a3ab308f733.jpg?v=1742358670"
-    },
-    {
       "id": "cpu_cooler-pcworx-0000000070df",
       "name": "Deepcool LT720 Mirror Design Pump Head, 14.2 inches (360 mm) Radiator, All-in-One Water Cooling CPU Cooler",
       "category": "cpu_cooler",
@@ -19044,17 +18533,6 @@
         "Availability": "out_of_stock"
       },
       "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_d6e40e42-4a75-46ab-98e4-47b2538115b2.jpg?v=1742346061"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000005159",
-      "name": "Deepcool R-AK400-BKADMN-G High Performance Cpu Cooler",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000059859",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000059859.jpg?v=1737353388"
     },
     {
       "id": "cpu_cooler-pcworx-000000007eb6",
@@ -19101,17 +18579,6 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000053141.jpg?v=1738651028"
     },
     {
-      "id": "cpu_cooler-pcworx-000000006dfa",
-      "name": "Deepcool R-AS500-BKNLMP-G AS500 Plus w/ 5 heatpipes 2x140mm Tower Cooler",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000049519",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000049519_2.png?v=1738043866"
-    },
-    {
       "id": "cpu_cooler-pcworx-000000003a0d",
       "name": "Deepcool R-LS520-WHAMMM-G-1 LS520 SE 240mm AIO ARGB Liquid CPU Cooler White",
       "category": "cpu_cooler",
@@ -19121,17 +18588,6 @@
         "Availability": "out_of_stock"
       },
       "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000058570.jpg?v=1738651875"
-    },
-    {
-      "id": "cpu_cooler-pcworx-000000007316",
-      "name": "Deepcool R-LS720-WHAMNT-G-1 LS720 360mm AIO ARGB Liquid CPU Cooler White",
-      "category": "cpu_cooler",
-      "specs": {
-        "Brand": "PCWORX",
-        "SKU": "0000058613",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_e520d69c-c682-47a0-8d35-c1fd2f8393e1.jpg?v=1742347187"
     },
     {
       "id": "cpu_cooler-pcworx-000000005785",

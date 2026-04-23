@@ -133,6 +133,24 @@
       "imageUrl": "https://benstore.com.ph/27025-home_default/crucial-16gb-kit-16gbx1-ddr4-3200-sodimm-laptop-memory.jpg"
     },
     {
+      "id": "ram-bermor-techzone-000000002365",
+      "name": "AMD Ryzen 5 7600X + Gigabyte X670 Aorus Elite AX + Gigabyte 2x16GB DDR5 5200Mhz Bundle",
+      "category": "ram",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/300859263_1079846969402821_2112140386502722984_n-e1664424253580-300x300.jpg"
+    },
+    {
+      "id": "ram-bermor-techzone-000000001699",
+      "name": "AMD Ryzen 9 7950X + Gigabyte X670 Gaming X + Gigabyte 2x16GB DDR5 5200Mhz Bundle",
+      "category": "ram",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/10/ryzen-9-x670-gaming-x-e1664956647719-300x300.webp"
+    },
+    {
       "id": "ram-bermor-techzone-0000000005fd",
       "name": "Crucial 16GB | 32GB DDR5 5600 Mhz CL46 SODIMM Laptop Memory",
       "category": "ram",

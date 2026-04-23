@@ -39,50 +39,52 @@ for (let i = 0; i < process.argv.length; i++) {
 
 // ── Category normalization ─────────────────────────────────────────────
 // Mirrors spider-to-d1.mjs category rules. ORDER MATTERS - more specific first!
+// Use word boundaries (\b) to prevent partial matches (e.g., "fan" in "Fantech")
 
 const CATEGORY_RULES = [
   // CPU Cooler (check BEFORE CPU to avoid misclassification)
-  [/cooler|cooling/i, 'cpu_cooler'],
-  [/fan/i, 'cpu_cooler'],
-  [/liquid\s*cool/i, 'cpu_cooler'],
-  [/aio/i, 'cpu_cooler'],
-  [/heatsink|heat sink/i, 'cpu_cooler'],
-  // CPU
-  [/processor/i, 'cpu'],
-  [/cpus?/i, 'cpu'],
-  [/ryzen/i, 'cpu'],
-  [/intel.*core/i, 'cpu'],
+  [/\b(coolers?|cooling|aircool)\b/i, 'cpu_cooler'], // coolers? = cooler or coolers
+  [/\bcpu\s+(coolers?|aircooling|fan)\b/i, 'cpu_cooler'],
+  [/\bfan\b/i, 'cpu_cooler'],
+  [/\bliquid\s*cool/i, 'cpu_cooler'],
+  [/\baio\b/i, 'cpu_cooler'],
+  [/\bheat\s*sink\b/i, 'cpu_cooler'],
+  [/\bwater\s*cool/i, 'cpu_cooler'],
+  // CPU (but NOT CPU Cooler - checked above!)
+  [/\bprocessor\b/i, 'cpu'],
+  [/\bcpu\b/i, 'cpu'],
+  [/\bryzen\b/i, 'cpu'],
+  [/\bintel\s*core\b/i, 'cpu'],
   // GPU
-  [/video\s*card/i, 'gpu'],
-  [/graphic\s*card/i, 'gpu'],
-  [/gpu/i, 'gpu'],
-  [/graphics\s*card/i, 'gpu'],
-  [/vga/i, 'gpu'],
+  [/\bvideo\s*card\b/i, 'gpu'],
+  [/\bgraphic\s*card\b/i, 'gpu'],
+  [/\bgpu\b/i, 'gpu'],
+  [/\bvga\b/i, 'gpu'],
   // Motherboard
-  [/motherboard/i, 'motherboard'],
-  [/mobo/i, 'motherboard'],
+  [/\bmotherboard\b/i, 'motherboard'],
+  [/\bmobo\b/i, 'motherboard'],
   // RAM
-  [/memory/i, 'ram'],
-  [/ram/i, 'ram'],
-  [/ddr[345]/i, 'ram'],
-  [/so-?dimm/i, 'ram'],
+  [/\bmemory\b/i, 'ram'],
+  [/\bram\b/i, 'ram'],
+  [/\bddr[345]\b/i, 'ram'],
+  [/\bso-?dimm\b/i, 'ram'],
   // Storage
-  [/ssd/i, 'storage'],
-  [/hdd/i, 'storage'],
-  [/hard\s*drive/i, 'storage'],
-  [/nvme/i, 'storage'],
-  [/storage/i, 'storage'],
+  [/\bssd\b/i, 'storage'],
+  [/\bhdd\b/i, 'storage'],
+  [/\bhard\s*drive\b/i, 'storage'],
+  [/\bnvme\b/i, 'storage'],
+  [/\bstorage\b/i, 'storage'],
   // PSU
-  [/psu/i, 'psu'],
-  [/power\s*supply/i, 'psu'],
-  [/power\s*unit/i, 'psu'],
+  [/\bpsu\b/i, 'psu'],
+  [/\bpower\s*supply\b/i, 'psu'],
+  [/\bpower\s*unit\b/i, 'psu'],
   // Case
-  [/case/i, 'case'],
-  [/chassis/i, 'case'],
-  [/casing/i, 'case'],
+  [/\bcase\b/i, 'case'],
+  [/\bchassis\b/i, 'case'],
+  [/\bcasing\b/i, 'case'],
   // Monitor
-  [/monitor/i, 'monitor'],
-  [/display/i, 'monitor'],
+  [/\bmonitor\b/i, 'monitor'],
+  [/\bdisplay\b/i, 'monitor'],
 ]
 
 // Categories the frontend cares about
