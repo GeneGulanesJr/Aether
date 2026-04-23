@@ -60,3 +60,4 @@ Thumbs.db
 docs/**/*.csv
 docs/**/*.xlsx
 docs/**/*.xls
+.pi/
