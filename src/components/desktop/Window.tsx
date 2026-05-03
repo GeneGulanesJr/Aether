@@ -185,7 +185,7 @@ export function Window({ window: win, children }: WindowProps) {
 
     document.addEventListener('pointermove', onMove)
     document.addEventListener('pointerup', onUp)
-  }, [win.id, win.maximized, win.width, win.height, focusWindow, updateSize])
+  }, [win.id, win.maximized, win.width, win.height, focusWindow, updateSize]) // eslint-disable-line react-hooks/exhaustive-deps -- win.x/y intentionally omitted: resize handler reads position at invoke time
 
   // ── Focus on click ──
 

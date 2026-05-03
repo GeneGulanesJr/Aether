@@ -153,7 +153,7 @@ export function BuilderPage() {
   // Close mobile quest log when modal closes
   useEffect(() => {
     if (!modalOpen && mobileQuestOpen) {
-      setMobileQuestOpen(false)
+      setMobileQuestOpen(false) // eslint-disable-line react-hooks/set-state-in-effect
     }
   }, [modalOpen, mobileQuestOpen])
 

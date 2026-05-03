@@ -6,7 +6,7 @@
  * Used by Desktop.tsx when opening the "Build Wizard" window.
  */
 
-import { useState, useCallback, useMemo, useEffect, lazy, Suspense } from 'react'
+import { useState, useCallback, useMemo, lazy, Suspense } from 'react'
 import type { Part, BuildSlotCategory } from '../../lib/types'
 import type { WizardState, Platform, BudgetTier, UseCase, SocketOption } from '../../lib/buildWizard'
 import {

@@ -21,7 +21,7 @@ interface TerminalLine {
 
 export function TerminalApp({ parts, priceByPartId, priceEntries, build }: TerminalAppProps) {
   const [lines, setLines] = useState<TerminalLine[]>([
-    { type: 'output', text: 'Aether Terminal v1.0' },,
+    { type: 'output', text: 'Aether Terminal v1.0' },
     { type: 'output', text: 'Type "help" for available commands.' },
     { type: 'output', text: '' },
   ])

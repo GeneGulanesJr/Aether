@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 /**
  * Compatibility checker — warns about build conflicts.
  * xAI theme: warn/error with semantic functional tokens.

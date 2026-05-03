@@ -1,4 +1,4 @@
-import { useState, useEffect, lazy, Suspense } from 'react'
+import { useSyncExternalStore, lazy, Suspense } from 'react'
 import { AppShell } from './components/layout/AppShell'
 import { ErrorBoundary } from './components/ErrorBoundary'
 import { BuilderPage } from './pages/BuilderPage'
@@ -11,17 +11,14 @@ const Desktop = lazy(() => import('./components/desktop/Desktop').then(m => ({ d
 const DESKTOP_BREAKPOINT = 768
 
 function useIsDesktop() {
-  const [isDesktop, setIsDesktop] = useState(() => window.innerWidth >= DESKTOP_BREAKPOINT)
-
-  useEffect(() => {
-    const mq = window.matchMedia(`(min-width: ${DESKTOP_BREAKPOINT}px)`)
-    const handler = (e: MediaQueryListEvent) => setIsDesktop(e.matches)
-    mq.addEventListener('change', handler)
-    setIsDesktop(mq.matches)
-    return () => mq.removeEventListener('change', handler)
-  }, [])
-
-  return isDesktop
+  return useSyncExternalStore(
+    (callback) => {
+      const mq = window.matchMedia(`(min-width: ${DESKTOP_BREAKPOINT}px)`)
+      mq.addEventListener('change', callback)
+      return () => mq.removeEventListener('change', callback)
+    },
+    () => window.innerWidth >= DESKTOP_BREAKPOINT,
+  )
 }
 
 export function App() {

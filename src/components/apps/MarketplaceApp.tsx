@@ -182,16 +182,14 @@ export function MarketplaceApp({
   )
 
   // ── Companion: auto-navigate to highlighted part ──
-
   useEffect(() => {
     if (!highlightPartId) return
     const part = parts.find(p => p.id === highlightPartId)
-    if (!part) return
-    const pwo = partsWithOffers.get(part.id)
-    if (!pwo) return
-    setSelectedCategory(part.category)
-    setSelectedPartId(part.id)
-  }, [highlightPartId, partsWithOffers, parts])
+    if (part && partsWithOffers.has(part.id)) {
+      setSelectedCategory(part.category) // eslint-disable-line react-hooks/set-state-in-effect
+      setSelectedPartId(part.id)
+    }
+  }, [highlightPartId, parts, partsWithOffers])
 
   // ── Category parts ──
 

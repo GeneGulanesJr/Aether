@@ -12,6 +12,7 @@ interface TopBarProps {
 }
 
 export function TopBar(_props: TopBarProps) {
+  void _props
   const [searchQuery, setSearchQuery] = useState('')
   const inputRef = useRef<HTMLInputElement>(null)
   const { openWindow } = useWindowManager()

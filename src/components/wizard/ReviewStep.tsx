@@ -1,6 +1,5 @@
 import { useMemo } from 'react'
 import type { WizardState } from '../../lib/buildWizard'
-import type { Part } from '../../lib/types'
 import {
   PART_STEPS,
   buildScore,

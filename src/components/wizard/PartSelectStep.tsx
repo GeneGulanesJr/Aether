@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useCallback } from 'react'
 import type { Part } from '../../lib/types'
 import type { StepInfo, Platform, SocketOption } from '../../lib/buildWizard'
 import { isPartCompatible } from '../../lib/buildWizard'
@@ -61,11 +61,11 @@ export function PartSelectStep({
   const filters = usePartFilters(sourceParts, { priceByPartId, deduplicate: true })
 
   // Budget helper: extract numeric price from string like "₱12,345"
-  const getPartPrice = (part: Part): number => {
+  const getPartPrice = useCallback((part: Part): number => {
     const raw = priceByPartId?.[part.id]
     if (!raw) return 0
     return parsePrice(raw, part.id) || 0
-  }
+  }, [priceByPartId])
 
   // Local sort state
   const [sortField, setSortField] = useState<SortField>('name')
@@ -120,7 +120,7 @@ export function PartSelectStep({
       if (ba !== bb) return ba - bb
       return 0
     })
-  }, [sortedParts, budgetLimit])
+  }, [sortedParts, budgetLimit, getPartPrice])
 
   const toggleSort = (field: SortField) => {
     if (sortField === field) {

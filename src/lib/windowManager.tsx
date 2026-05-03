@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 /**
  * Window Manager — React Context + useReducer for desktop window state.
  * 

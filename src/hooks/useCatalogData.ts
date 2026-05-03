@@ -111,46 +111,51 @@ export interface CatalogData {
 // ── Hook ──
 
 export function useCatalogData(): CatalogData {
-  const [staticParts, setStaticParts] = useState<Part[]>([])
-  const [snapshotEntries, setSnapshotEntries] = useState<PriceEntry[]>([])
-  const [snapshotPriceMap, setSnapshotPriceMap] = useState<Record<string, string>>({})
-  const [loadingState, setLoadingState] = useState<LoadingState>('idle')
+  const [data, setData] = useState<{
+    parts: Part[]
+    priceEntries: PriceEntry[]
+    priceByPartId: Record<string, string>
+    loadingState: LoadingState
+  }>({ parts: [], priceEntries: [], priceByPartId: {}, loadingState: 'idle' })
 
   useEffect(() => {
     let cancelled = false
-    setLoadingState('loading')
 
     Promise.all([loadStaticParts(), loadSnapshotPrices()])
       .then(([parts, snapshot]) => {
         if (!cancelled) {
-          setStaticParts(parts)
-          setSnapshotEntries(snapshot.entries)
-          setSnapshotPriceMap(snapshot.map)
-          setLoadingState('success')
+          setData({
+            parts,
+            priceEntries: snapshot.entries,
+            priceByPartId: snapshot.map,
+            loadingState: 'success',
+          })
         }
       })
       .catch(() => {
-        if (!cancelled) setLoadingState('error')
+        if (!cancelled) {
+          setData(prev => ({ ...prev, loadingState: 'error' }))
+        }
       })
 
     return () => { cancelled = true }
   }, [])
 
-  if (loadingState !== 'success') {
+  if (data.loadingState !== 'success') {
     return {
       parts: [],
       priceByPartId: {},
       priceEntries: [],
-      statusMessage: loadingState === 'loading' ? 'Loading catalog data…' : 'Error loading catalog data.',
-      loadingState,
+      statusMessage: data.loadingState === 'loading' ? 'Loading catalog data…' : 'Error loading catalog data.',
+      loadingState: data.loadingState,
     }
   }
 
   return {
-    parts: staticParts,
-    priceByPartId: snapshotPriceMap,
-    priceEntries: snapshotEntries,
-    statusMessage: `${staticParts.length} parts, ${snapshotEntries.length} prices.`,
+    parts: data.parts,
+    priceByPartId: data.priceByPartId,
+    priceEntries: data.priceEntries,
+    statusMessage: `${data.parts.length} parts, ${data.priceEntries.length} prices.`,
     loadingState: 'success' as const,
   }
 }

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /**
  * Compatibility rule engine — reads normalized fields and returns
  * a list of compatibility issues for a build.
@@ -17,7 +18,7 @@ function getNormalized(slots: BuildSlot[], category: string): NormalizedData | n
 
 /** Helper to get the .data field with type narrowing. */
 function data<T>(norm: NormalizedData): T | null {
-  return (norm as any).data as T
+  return ((norm as Record<string, unknown>).data ?? null) as T | null
 }
 
 export function checkBuildCompatibility(slots: BuildSlot[]): CompatibilityIssue[] {

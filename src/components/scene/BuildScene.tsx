@@ -7,7 +7,7 @@
  * - Falls back gracefully when WebGL is unavailable
  */
 
-import { useRef, Component, type ReactNode } from 'react'
+import { useRef, useEffect, Component, type ReactNode } from 'react'
 import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { ContactShadows, Environment } from '@react-three/drei'
 import * as THREE from 'three'
@@ -48,10 +48,12 @@ function SceneContent({ build }: BuildSceneProps) {
 
   // Invalidate on build changes to trigger re-render
   const prevFilledCount = useRef(build.selectedCount)
-  if (build.selectedCount !== prevFilledCount.current) {
-    prevFilledCount.current = build.selectedCount
-    invalidate()
-  }
+  useEffect(() => {
+    if (build.selectedCount !== prevFilledCount.current) {
+      prevFilledCount.current = build.selectedCount
+      invalidate()
+    }
+  }, [build.selectedCount, invalidate])
 
   return (
     <group ref={groupRef}>

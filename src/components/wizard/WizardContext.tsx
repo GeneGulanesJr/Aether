@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import { createContext, useContext, useState, useCallback, useMemo, useEffect } from 'react'
 import type { Part, BuildSlotCategory } from '../../lib/types'
 import type { WizardState, Platform, BudgetTier, UseCase, SocketOption } from '../../lib/buildWizard'
@@ -171,7 +172,7 @@ export function WizardProvider({ children }: { children: React.ReactNode }) {
 
   // Close mobile quest drawer when modal closes
   useEffect(() => {
-    if (!modalOpen) setMobileQuestOpen(false)
+    if (!modalOpen) setMobileQuestOpen(false) // eslint-disable-line react-hooks/set-state-in-effect
   }, [modalOpen])
 
   // ═════════════════════════════════════════════════════════════════════════

@@ -103,7 +103,7 @@ export function PartPropertiesApp({ part, priceByPartId, priceEntries, build }: 
   /** Flat spec list for non-CPU parts */
   const flatSpecs = useMemo(() => {
     if (isCpu) return []
-    return Object.entries(part.specs ?? {}).filter(([_, v]) => v !== '' && v !== 'N/A')
+    return Object.entries(part.specs ?? {}).filter(([, v]) => v !== '' && v !== 'N/A')
   }, [isCpu, part.specs])
 
   return (
