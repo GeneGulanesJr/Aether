@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "1.0",
+  "category": "cleaning-solution",
+  "items": [
+    {
+      "id": "cleaning-solution-dynaquest-pc-000000001a1e",
+      "name": "Lion ALSHB-700W 520 Watt Electric Blower",
+      "category": "cleaning-solution",
+      "specs": {
+        "Brand": "Lion",
+        "SKU": "5081",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/Lion_Blower.jpg?v=1571552573"
+    },
+    {
+      "id": "cleaning-solution-dynaquest-pc-000000007b9a",
+      "name": "Handboss Universal Foam Cleaning Agent",
+      "category": "cleaning-solution",
+      "specs": {
+        "Brand": "Handboss",
+        "SKU": "8148",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/192_9cd9c64d-1815-4eef-9263-e947c035e8c2.png?v=1754989527"
+    },
+    {
+      "id": "cleaning-solution-dynaquest-pc-000000007ea4",
+      "name": "Vacmaster VQ1115S",
+      "category": "cleaning-solution",
+      "specs": {
+        "Brand": "Vacmaster",
+        "SKU": "10895",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/Vacmaster-2019-hot-product-1100W-motor-new_1.png?v=1579746007"
+    },
+    {
+      "id": "cleaning-solution-dynaquest-pc-000000005d36",
+      "name": "Falcon 530 Contact Cleaner 550ml",
+      "category": "cleaning-solution",
+      "specs": {
+        "Brand": "Falcon",
+        "SKU": "5061",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/Falcon-530.jpg?v=1571552573"
+    },
+    {
+      "id": "cleaning-solution-octagon-000000002cd9",
+      "name": "UNISO KCL-1028 2-IN-1 120ML SOLUTION/ MICROFIBER 20X20CM/ LCD SCREEN CLEANING KIT",
+      "category": "cleaning-solution",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038374977",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_661d947f-cfff-4fa2-b9e6-4e1487db42b7.jpg?v=1750311245"
+    },
+    {
+      "id": "cleaning-solution-octagon-000000003cca",
+      "name": "UNISO KCL-1018 3-IN-1 60ML SOLUTION/ MICROFIBER 16X18CM/ BRUSH LCD SCREEN CLEANING KIT",
+      "category": "cleaning-solution",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038374960",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_b11354ae-fbaa-4143-b3bb-b3afab8e979e.jpg?v=1750310439"
+    },
+    {
+      "id": "cleaning-solution-octagon-000000003187",
+      "name": "UNISO CK-3021 BLUE GEL CLEANER 160GRAMS IN BOTTLE",
+      "category": "cleaning-solution",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038371921",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_c2e1c4cb-670d-44d6-86f1-0b2ac2ba315c.jpg?v=1750229146"
+    },
+    {
+      "id": "cleaning-solution-octagon-000000002793",
+      "name": "UNISO CK-1088 GRAY 2-IN-1 SCREEN CLEANER SPRAY 10ML MICROFIBER CLOTH COVER",
+      "category": "cleaning-solution",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038371914",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_aa4f5c1f-e712-45e0-9af8-685ccbf6307f.jpg?v=1750227727"
+    },
+    {
+      "id": "cleaning-solution-octagon-000000006864",
+      "name": "UNISO KCL-1036 2-IN-1 200ML SOLUTION/ CLOTH 16X18CM LCD SCREEN CLEANING KIT",
+      "category": "cleaning-solution",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038374991",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_67fccb9a-0982-4f1f-a5e6-31f71a04dd2b.jpg?v=1741401720"
+    },
+    {
+      "id": "cleaning-solution-octagon-00000000001b",
+      "name": "HYTAC HGY-509 (NEW) NTBK CLEANING KIT",
+      "category": "cleaning-solution",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "9555440816403",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_b71c379a-02ad-44bc-a957-c6345dae7019.jpg?v=1741144670"
+    }
+  ]
+}

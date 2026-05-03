@@ -133,294 +133,6 @@
       "imageUrl": "https://benstore.com.ph/27025-home_default/crucial-16gb-kit-16gbx1-ddr4-3200-sodimm-laptop-memory.jpg"
     },
     {
-      "id": "ram-bermor-techzone-000000002365",
-      "name": "AMD Ryzen 5 7600X + Gigabyte X670 Aorus Elite AX + Gigabyte 2x16GB DDR5 5200Mhz Bundle",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/300859263_1079846969402821_2112140386502722984_n-e1664424253580-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-000000001699",
-      "name": "AMD Ryzen 9 7950X + Gigabyte X670 Gaming X + Gigabyte 2x16GB DDR5 5200Mhz Bundle",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/10/ryzen-9-x670-gaming-x-e1664956647719-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000005fd",
-      "name": "Crucial 16GB | 32GB DDR5 5600 Mhz CL46 SODIMM Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/11/crucial-sodimm-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-000000005865",
-      "name": "Crucial 8GB | 16GB | 32GB DDR5 4800 Mhz SODIMM Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/11/crucial-sodimm-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000016f7",
-      "name": "TeamGroup Create 8GB | 16GB | 32GB DDR4 3200MHz SODIMM with Heatspreader for Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/btz-tcreate-philippines-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-00000000198e",
-      "name": "Adata 8GB | 16GB | 32GB DDR5 4800 Mhz SODIMM Laptop Memory Module",
-      "category": "ram",
-      "specs": {
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/10/ADATA-DDR5-4800-SODIMM-BTZ-PH4-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000007300",
-      "name": "Adata 8GB | 16GB | 32GB DDR5 5600 Mhz SODIMM Laptop Memory Module",
-      "category": "ram",
-      "specs": {
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/07/5600-sodimm-memory-module-btz-ph-1-1-1-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000038d6",
-      "name": "Klevv 8GB | 16GB CL19 DDR4 2666MHz SODIMM Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/10/CL19-Sodimm.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-000000006d0d",
-      "name": "HIKVISION 8GB DDR4 3200Mhz SODIMM Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/11/hikvision-8gb-3200mhz-6549d19e92b40-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000004f42",
-      "name": "AGI SD238 DDR5 5600mHz 8GB | 16GB | 32GB CL46 Single Pack Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/07/SD238-DDR5-SODIMM-5600MHz-btz-1-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000006bac",
-      "name": "AGI SD138 DDR4 3200MHz 8GB | 16GB CL22 1.2V Single Pack Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2026/01/SD138-DDR4-SODIMM-1-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000023be",
-      "name": "Crucial 16GB | 32GB DDR4 3200 SODIMM Laptop RAM",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/02/Crucial-16GB-32GB-DDR4-3200-SODIMM-Laptop-RAM-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-00000000723a",
-      "name": "Crucial 8GB DDR4-3200 SODIMM Laptop RAM",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/02/crucial-btz-ph-ddr4-sodimm-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000005e6",
-      "name": "TeamGroup Elite 8GB | 16GB | 32GB DDR4 3200MHz SODIMM CL22 Unbuffered Non-ECC 1.2V Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/6aba57ff877622e0a5e5742ae845a9ab-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-00000000673a",
-      "name": "Adata SODIMM 8GB | 16GB | 32GB DDR4 3200MHz Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2019/04/7eacf9de98beadb68b2e0af4ccc54d55-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-000000004757",
-      "name": "Gskill 16GB SODIMM DDR4 3200 Mhz Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2018/09/productGallery5394-3-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-000000004b98",
-      "name": "TeamGroup 8GB | 16GB DDR5 4800 Mhz CL40 SODIMM Memory Module",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/07/teamgroup-ddr54-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-00000000753d",
-      "name": "Crucial 16GB | 32GB DDR5 5200 CL42 SODIMM Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/11/crucial-sodimm-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-00000000702b",
-      "name": "ADDLINK N4 16GB DDR4 3200MT/S SO-DIMM Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/08/ADDLINK-N4-16GB-DDR4-3200MTS-SO-DIMM-Laptop-Memory-btz.ph_.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000047cd",
-      "name": "Lexar® 4GB DDR4-2666 MHz SODIMM Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2019/04/26f49671a7827ebe7901c0dbd5f93d73-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-000000004add",
-      "name": "Adata 8GB DDR5 5600 Mhz SODIMM Laptop Memory Module",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/07/adata-8gb-sodimm-ddr5-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-000000000178",
-      "name": "TRANSCEND 16GB JM DDR4 2666MHZ SO-DIMM 1RX8 1.2V Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/08/TRANSCEND-16GB-JM-DDR4-2666MHZ-SO-DIMM-1RX8-1.2V-Laptop-Memory-btz.ph_-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000002948",
-      "name": "Crucial 32GB Kit 2 x 16GB DDR4-2400 MAC SODIMM Memory for Mac",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/Crucial-16GB-Kit-2-x-8GB-DDR4-2400-SODIMM-Memory-for-Mac-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-00000000763f",
-      "name": "Gskill Ripjaws 8GB | 16GB SODIMM DDR4 3200 Mhz Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2018/09/productGallery5394-4-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-000000001e37",
-      "name": "Lexar 16GB | 32GB DDR4 3200MHz SODIMM Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/ef26d89f7785567e98cafa1f0e90ac82-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-000000002ffc",
-      "name": "Lexar 8GB DDR4 3200MHz SODIMM Laptop Memory LD4AS008G-R3200GSST",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/ef26d89f7785567e98cafa1f0e90ac82-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-000000001a2a",
-      "name": "TRANSCEND 8GB JM DDR4 2666MHZ U-DIMM 1RX8 1GX8 CL19 1.2V Desktop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/08/TRANSCEND-8GB-JM-DDR4-2666MHZ-U-DIMM-1RX8-1GX8-CL19-1.2V-Desktop-Memory-btz.ph_-1.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000003c9f",
-      "name": "PNY XLR8 Gaming 8GB | 16GB DDR4 3200MHz SODIMM Notebook Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/05/XLR8-Sodimm-btz-ph-1-copy-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000005486",
-      "name": "Adata 32GB DDR5 5600 Mhz Sodimm Laptop Memory Module",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/10/Adata-32GB-DDR5-5600-Mhz-Sodimm-Laptop-Memory-Module-btz.ph_-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000007487",
-      "name": "Gskill Ripjaws 32GB SODIMM DDR4 3200 Mhz Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2018/09/productGallery5394-3-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-000000006ed0",
-      "name": "HIKVISION 8GB DDR4 2666MHZ SODIMM Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/08/HIKVISION-8GB-DDR4-2666MHZ-SODIMM-Laptop-Memory-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000000a72",
-      "name": "AGI SD238 DDR5 4800MHz 8GB | 16GB CL46 1.1V Single Pack Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/07/SD238-DDR5-SODIMM-5600MHz-btz-1-300x300.webp"
-    },
-    {
       "id": "ram-bermor-techzone-00000000299e",
       "name": "Lexar THOR 8GB DDR4 3200MHz CL16 Heatsink Gaming Desktop Memory Black | White",
       "category": "ram",
@@ -689,159 +401,6 @@
         "Availability": "in_stock"
       },
       "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/08/Battle-AX-DDR4-8G-3200-Pure-WhiteBlack-OC-btz-ph-0-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000003dbc",
-      "name": "Teamgroup Elite 8GB | 16GB | 32GB DDR5-4800 CL40 SODIMM Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/EliteBTZ1-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000001cd",
-      "name": "Synology 16GB DDR4-2666 ECC SODIMM RAM Module",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/08/415227388_1054744209186191_3298970970981869256_n-2-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000001837",
-      "name": "Crucial 16GB Kit 2 x 8GB DDR4-2400 MAC SODIMM Memory for Mac",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/Crucial-16GB-Kit-2-x-8GB-DDR4-2400-SODIMM-Memory-for-Mac-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-00000000618c",
-      "name": "TRANSCEND 4GB JM DDR4 3200 SO-DIMM Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/08/TRANSCEND-4GB-JM-DDR4-3200-SO-DIMM-Laptop-Memory-300x264.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000005c41",
-      "name": "TRANSCEND 8GB 3200MHZ DDR4 SO-DIMM 1RX16 1.2V Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/08/TRANSCEND-8GB-3200MHZ-DDR4-SO-DIMM-1RX16-1.2V-Laptop-Memory-300x253.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-00000000410c",
-      "name": "Silicon Power 8GB | 32GB 3200Mhz CL22 SODIMM Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/03/silicon-power-sodimm-ph-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000007d6",
-      "name": "HP S1 Series 8GB | 16GB SODIMM 2666MHz Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/06/51yJnhyHOML._SX679_-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-00000000072e",
-      "name": "HP S1 Series 8GB | 16GB SODIMM 3200MHz Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/06/HP-S1-Series-8GB-16GB-SODIMM-3200MHz-Laptop-Memory-btz.ph_.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000001f7d",
-      "name": "Klevv CL22 8GB | 16GB | 32GB DDR4 3200MHz SODIMM Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/10/CL22-Sodimm-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000027ff",
-      "name": "G.SKILL Ripjaws S5 16GB DDR5 4800 Intel XMP 3.0 Laptop Memory Model F5-4800S4039A16GX1-RS CL40-39-39-76 1.1V",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/11/F5-4800S4039A16GX1-RS-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-00000000059e",
-      "name": "Corsair Dominator® Platinum RGB 64GB (2X32GB) DDR5-6000 C40 Intel XMP Box – Black",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/07/415227388_1054744209186191_3298970970981869256_n-45-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-00000000533e",
-      "name": "Synology 4GB X2 DDR3L-1600 SODIMM RAM Module",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/08/415227388_1054744209186191_3298970970981869256_n-10-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000001e90",
-      "name": "Synology 4GB DDR3L-1866 SODIMM RAM Module",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/08/415227388_1054744209186191_3298970970981869256_n-13-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000004f88",
-      "name": "Patriot SL SIG DDR4 8GB | 16GB 3200Mhz CL22 1.2V SO-DIMM Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Patriot-SL-SIG-DDR4-8GB-16GB-3200Mhz-CL22-1.2V-SODIMM-Desktop-Memory-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000001d3e",
-      "name": "Teamgroup Elite DDR5-5600 CL46 1x8GB | 1x16GB Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/EliteBTZ1-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000003c27",
-      "name": "Acer SD100 8GB | 16GB | 32GB CL22 DDR4 3200Mhz SODIMM Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Acer-SD100-DDR4-3200mHz-8GBx1-CL22-Laptop-Memory-btx.ph_-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000038ca",
-      "name": "Gskill Ripjaws DDR5 SO-DIMM 5600 CL46 16GB | 32GB Laptop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/08/Ripjaws-DDR5-SO-DIMM-btz-ph-0-300x300.webp"
     },
     {
       "id": "ram-bermor-techzone-000000001ee8",
@@ -1285,15 +844,6 @@
       "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/08/kingston-argb-fury-beast-rgb-67dafc081df6d-300x300.webp"
     },
     {
-      "id": "ram-bermor-techzone-000000004de6",
-      "name": "Patriot Viper ELITE 5 TUF Gaming RGB DDR5 6000 CL36 32GB 2x16GB Kit Desktop Memory",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/PATRIOT-VIPER-ELITE-5-TUF-GAMING-RGB-DDR5-6000-CL36-32GB-2x16GB-Kit.jpg-300x300.webp"
-    },
-    {
       "id": "ram-bermor-techzone-000000005ee0",
       "name": "G.Skill Trident Z5 Neo RGB DDR5 6000 CL34 128GB 2x64GB Intel XMP/AMD EXPO Desktop Memory Black F5-6000J3444F64GX2-TZ5NR",
       "category": "ram",
@@ -1382,276 +932,6 @@
         "Availability": "out_of_stock"
       },
       "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/03/AH5U16G52C5029BAA-1-btz-e1677766857631-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000026c2",
-      "name": "Lexar® Professional USB 3.0 Dual-Slot Reader",
-      "category": "ram",
-      "specs": {
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/card-reader-btz-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000007847",
-      "name": "AGI Supreme TF138 128GB Micro SDXC Memory Card for Action Camera, Drone, CCTV and 4K Recording",
-      "category": "ram",
-      "specs": {
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/TF-138-BTZ1-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000007203",
-      "name": "AGI TF138 32GB | 64GB Micro SDXC Memory Card Action Camera, Drone, CCTV and 4K Recording",
-      "category": "ram",
-      "specs": {
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/TF-138-BTZ1.jpg-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000000fc8",
-      "name": "Lexar Professional Workflow HR1 Hub USB 3.0",
-      "category": "ram",
-      "specs": {
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/LRWHR1RBNA-ph-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-000000002146",
-      "name": "AGI SE238 128GB | 256GB Extreme up to 520Mbps SDXC Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/AGI-238-BTZ1-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000002b2",
-      "name": "Kingston Canvas Select Plus SD Card 64GB | 128GB | 256GB",
-      "category": "ram",
-      "specs": {
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/04/Kingston-SDS2-BTZ-PH-1-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000007ee3",
-      "name": "Vention USB 2.0 C Male to C Male 3A 1M Cable – Black | White",
-      "category": "ram",
-      "specs": {
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/07/MAIN-87-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000007260",
-      "name": "Biwin MS100 32GB UHS-I C10/U1/V10/A1 microSD Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/07/Biwin-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000065cb",
-      "name": "Lexar® M1 microSD™ Reader LRWMUSBBAP",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/Lexar®-M1-microSD™-Reader-LRWMUSBBAP-ph-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000007f5c",
-      "name": "Lexar® Lightning Card Reader",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/bermor-card-reader-ph-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000006fed",
-      "name": "Sandisk Gameplay 256GB MicroSD Memory Card SDSQXAV-512G-GN6XNw",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Sandisk-Gameplay-256GB-MicroSD-Memory-Card--300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000065e4",
-      "name": "Sandisk Extreme Pro 32GB MICROSDHC UHS-1 Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Sandisk-Extreme-Pro-32GB-MICROSDHC-UHS-1-Memory-Card-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000005e20",
-      "name": "Sandisk High Endurance 128GB MicroSDXC Memory Card White",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/btz-1-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000000c67",
-      "name": "Sandisk Nintendo Cobranded microSDXC 256GB Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Sandisk-Nintendo-Cobranded-microSDXC256GB-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000003566",
-      "name": "Sandisk Extreme SDXC SDXV2 64GB SD Memory Card SDSDXV2-064G-GNCIN",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Sandisk-ExtremeSDXCSDXV264GB-SDSDXV2-064G-GNCIN3-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000007a0",
-      "name": "SanDisk Ultra Class 10 16GB | 32GB | 64GB | 128GB | 256GB microSDHC™/microSDXC™ UHS-I card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/SDSQUNS-016G-GN3MN-ph-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000016e7",
-      "name": "Samsung 64GB | 128GB | 256GB | 512GB EVO Plus microSD Card White",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/08/au-evo-plus-microsd-card-2021-model-mb-mc64ka-apc-492686849-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000006772",
-      "name": "Lexar Professional 1000x UHS-II SDXC Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/03/61VnomE9SL._SL1040_-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-000000001680",
-      "name": "Lexar 16GB 633x Class 10 95MB/s Micro SD Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/LSD16GBBAP633A-P1-500x500-1-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-000000006c91",
-      "name": "Lexar 16GB High-Performance C10 MicroSDHC UHS-I, Up To 80MB/S Read",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/11/k-1-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000003ac",
-      "name": "Lexar 633x Class 10 32GB | 64GB | 128GB | 256GB 100MB/s MicroSD Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/F1261736-01-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-000000006dbf",
-      "name": "SanDisk Extreme 32GB | 64GB | 128GB | 256GB | 400GB | 512GB | 1TB up to 190MB/s microSDXC™ UHS-I Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/04/SDSQXA1-400G-GN6MN-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000035bf",
-      "name": "SanDisk Extreme PRO 32GB | 64GB | 128GB | 256GB | 400GB | 512GB | 1TB 200MB/S microSDXC UHS-I Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/04/SanDisk-Extreme-PRO-microSDXC™-UHS-I-CARD-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000004071",
-      "name": "SanDisk Extreme PRO SD 32GB | 64GB | 128GB | 256GB | 512GB 200MB/S SDHC And SDXC UHS-I Card Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/04/SDSDXXO-032G-GN4IN-ph-btz-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000006ea9",
-      "name": "Lexar Professional 667X 64GB SDXC UHS-I/U3 Card LSD64GBNA667",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2019/04/asdafsdasdfafsd-300x300.png"
-    },
-    {
-      "id": "ram-bermor-techzone-000000004626",
-      "name": "SanDisk Extreme SD 16GB | 32GB | 64GB | 128GB | 256GB | 512GB up to 170MB/s SD UHS-I Card Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/04/SDSDXV2-064G-GNCIN-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000004933",
-      "name": "Lexar High-Performance 800x SDHC/SDXC 32GB | 64GB | 128GB | 256GB UHS-I Blue Series Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/04/Lexar-800x-Main-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000000cc5",
-      "name": "Lexar® High-Performance 633x 32GB SDHC™/SDXC™ UHS-I Cards BLUE Series SD Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/03/lexar_lsd32gcb1nl633_32gb_professional_uhs_i_sdhc_1245340-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000028d3",
-      "name": "Lexar Professional 633x 128GB SDXC UHS-I/U1 Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2019/04/61rr4J4alML._SL1099_-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-000000002c1e",
-      "name": "Dahua C100 microSD Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/01/Dahua-c100-sd-card-btz-ph-1-copy-300x300.webp"
     },
     {
       "id": "ram-bermor-techzone-000000003185",
@@ -1924,276 +1204,6 @@
       "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/teamgroup-tforce-delta-ddr5-300x300.webp"
     },
     {
-      "id": "ram-bermor-techzone-000000006582",
-      "name": "Lexar 128GB Professional 1000x UHS-II SDXC Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/03/61jiV7TqgL._SL1200_-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000043dd",
-      "name": "Sandisk Ultra microSDXC 256GB Memory Card SDSQUAC-256G-GN6MN",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Sandisk-Ultra-microSDXC256GBSDSQUAC-256G-GN6MN3-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-00000000089f",
-      "name": "Kingston Canvas Go! Plus 64GB | 128GB | 256GB | 512GB | 1TB MicroSD Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/04/Kingston-Go-Plus-BTZ-PH-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000003390",
-      "name": "SanDisk Ultra SD 16GB | 32GB | 64GB | 128GB | 256GB SDHC And SDXC UHS-I up to 100MB/S Card Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/04/SDSDUNS-016G-GN3INph-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000000813",
-      "name": "Lexar Professional 633x 32GB SDHC UHS-I/U1 Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2019/04/61GN0SLotL._SL1099_-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-000000007a93",
-      "name": "Samsung 32GB | 64GB | 128GB | 256GB Pro Endurance MicroSD Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/08/samsung-pro-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000007e69",
-      "name": "Lexar® Lexar® Professional 1667x SDXC™ UHS-II Card SILVER Series SD Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2019/04/1667sd_slider_256GB_1-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000027d1",
-      "name": "ADATA 32GB microSDHC/SDXC UHS-I U1 Class 10 Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2019/04/31RRObm8fCL-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-000000003335",
-      "name": "Lexar High Speed USB 3.0 Card Reader for CF SD TF XD M2 25-in-1 Multi-Function Card Reader",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2020/01/41iWcNacntL._SL1200_-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-000000003bc2",
-      "name": "Lexar® C1 microSD™ Reader Type C LRWMCBAP",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/Lexar®-M1-microSD™-Reader-LRWMUSBBAP-ph-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000005e85",
-      "name": "Transcend USD3450S USH-I U3 Ultra Perfromance W/ Adapter Micro SD Card – 64GB | 128GB | 256GB | 512GB",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/08/Transcend-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-00000000381e",
-      "name": "Transcend USD300S USH-1 w/o Adapter Micro SD – 8GB | 16GB | 32GB | 64GB | 128GB",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/08/Transcend-2-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000003c2e",
-      "name": "SanDisk Extreme PRO SD 32GB | 64GB | 128GB 300MB/S SDHC And SDXC UHS-I Card Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/04/SDSDXDK-064G-GN4IN-ph-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000003d9a",
-      "name": "UGreen CM184 USB-C +USB-A To TF/SD 3.1 Card Reader",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/02/65c468a8b5a38-btz-ph-1.webp-1-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000003b62",
-      "name": "UGreen CM264 USB 3.0 Card Reader For TF/SD",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/02/UGreen-CM264-USB-3.0-Card-Reader-For-TF-SD-bermor-ph-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000006587",
-      "name": "Lexar Professional 1066x SDXC UHS-I Card SILVER Series Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Lexar-Professional-1066x-SDXC-UHS-I-Card-SILVER-Series-1TB-btz-ph-22-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000007652",
-      "name": "Kioxia Exceria G2 microSD Memory Card 128GB | 256GB Micro SD Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/01/Exceria-G2-microSD-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000005989",
-      "name": "SanDisk Nintendo Cobranded 64GB | 128GB | 26GB | 512GB | 1TB MICROSDXC UHS-1 For Nintendo Switch Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/sdsqxao-128g-gn3zn-ph-btz-67d64180b9822-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000076f6",
-      "name": "Lexar Professional 633x UHS-I SDXC 1TB Memory Card LSD1TCB633",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Lexar-Professional-633x-1TB-BTZ-PH-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000005804",
-      "name": "Lexar High Performance 633x SDXC UHS-I 64GB Blue Memory Card LSD64GCB633",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Lexar-High-Performance-633x-Memory-Cards-Blue-BTZ-PH-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000002344",
-      "name": "Lexar Professional 667x SDXC 64GB 100MB/s Read UHS-I Memory Card LSD0667064G-BNNNG",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Lexar-Professional-667x-64gb-Memory-Card-BTZ-PH-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-00000000416d",
-      "name": "Lexar Professional Silver Plus SDXC UHS-I 205MB/s Read 100-150MB/s Write Class 10 U3 V30 64GB | 128GB | 256GB | 512GB | 1TB Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Lexar-Professional-SILVER-PLUS-MEMORY-CARD-BTZ-PH-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000007b3c",
-      "name": "Lexar Professional 1800x SDXC UHS-II Gold 280MB/s Read 205-210MB/s Write Class 10 U3 V60 64GB | 128GB | 256GB | 512GB | 1TB Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Lexar-Professional-1800x-SDXC-UHS-II-Card-GOLD-BTZ-PH-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000005ce2",
-      "name": "Lexar Fly MicroSDXC UHS-I Class 10 U3 V30 A2 160MB/s Read 60-90MB/s Write 64GB | 128GB | 256GB Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Lexar-FLY-MICROSD-BTZ-PH-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000001a8b",
-      "name": "Lexar Play MicroSDXC UHS-I Class 10 U1 V10 A1160MB/s Read 50-100MB/s Write 128GB | 256GB | 512GB | 1TB Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Lexar-PLAY-microSDXC-BTZ-PH-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000003172",
-      "name": "Kingston Canvas Select Plus 64GB | 128GB | 256GB | 512GB MicroSD Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/04/Kingston-Select-Plus-BTZ-PH-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000007178",
-      "name": "Lexar Professional 2000x 32GB | 64GB | 128GB | 256GB SDHC/SDXC UHS-II GOLD Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/04/Lexar-Professional-Gold-Series-main-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-000000003c6e",
-      "name": "Lexar High-Performance 633x BLUE microSDHC/ microSDXC UHS-I W/SD Adapter Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/04/Lexar-High-Performance-633x-MicroSD-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-00000000716f",
-      "name": "Kioxia Exceria Plus G2 Micro SDXC UHS-I 128GB | 256GB | 1TB Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/07/Kioxia-1TB-btz-1-300x300.webp"
-    },
-    {
-      "id": "ram-bermor-techzone-0000000072e7",
-      "name": "Kioxia Exceria High Endurance G2 Micro SDXC UHS-I 128GB | 256GB | 512GB Memory Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/07/Kioxia-high-endurance-g2-512gb-btz-300x300.webp"
-    },
-    {
       "id": "ram-bermor-techzone-000000007f72",
       "name": "Crucial Pro Overclocking 32GB Kit 16GBx2 DDR5-6000 MHz UDIMM CL36 Intel XMP 3.0 & AMD Expo Support Desktop Memory",
       "category": "ram",
@@ -2453,15 +1463,6 @@
         "Availability": "out_of_stock"
       },
       "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/11/AD-AX5U5200C3816G-DCLA-300x300.jpg"
-    },
-    {
-      "id": "ram-bermor-techzone-000000000717",
-      "name": "Samsung Micro SD Pro Plus Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/10/PRO-Plus-microSDXC™-UHS-I-Card-1-TB-btz-ph-0-300x300.webp"
     },
     {
       "id": "ram-datablitz-000000005087",
@@ -9734,446 +8735,6 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/Team_Elite_8GB_DDR3_1600.jpg?v=1571553262"
     },
     {
-      "id": "ram-dynaquest-pc-0000000035a4",
-      "name": "Sandisk Extreme Pro 64GB 200MB/S MICROSDXC UHS-1 Card With Adapter SDSQXCU-064G-GN6MA",
-      "category": "ram",
-      "specs": {
-        "Brand": "SanDisk",
-        "SKU": "PR000688",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/398_c6660a90-e971-4fc3-ba93-6494e835a604.png?v=1773804053"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000005c5b",
-      "name": "LEXAR 633x microSDXC 128GB CLASS10 UHS-I Micro SD Card w/ ADAPTER LSDMI128BB633A / LSDMI128BBEU63",
-      "category": "ram",
-      "specs": {
-        "Brand": "Lexar",
-        "SKU": "52121",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/348_c0c8caef-0f5b-4864-8d64-055ce6b6036d.png?v=1750835846"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000006ddc",
-      "name": "Samsung Pro Endurance ( 128GB MB-MJ128KA / 256GB MB-MJ256KA / 64GB MB-MJ64KA ) MICROSDXC UHS-I Card With Adapter",
-      "category": "ram",
-      "specs": {
-        "Brand": "Samsung",
-        "SKU": "51312",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/SamsungProEndurance128GBMICROSDXCUHS-ICardWithAdapterMB-MJ128KA.jpg?v=1687319171"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000002c11",
-      "name": "SanDisk Ultra microSDXC 64GB C10 UHS-1 100MB/s R, 3x5 SDSQUNR-064G-GN3MN",
-      "category": "ram",
-      "specs": {
-        "Brand": "SanDisk",
-        "SKU": "12169",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/SanDiskUltra64GB.jpg?v=1622180110"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000006b77",
-      "name": "SANDISK Extreme Pro 128GB 200MB/S MICROSDXC UHS-1 Card With Adapter SDSQXCD-128G-GN6MA",
-      "category": "ram",
-      "specs": {
-        "Brand": "SanDisk",
-        "SKU": "PR000689",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/405_ed631285-a01b-4445-8f85-9b02e3fa3693.png?v=1773804746"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000007a53",
-      "name": "Kingston Canvas Go! Plus 64GB SDCG4/64GB 170MB/s Read MicroSD Memory Card with SD Adapter",
-      "category": "ram",
-      "specs": {
-        "Brand": "Kingston",
-        "SKU": "PR001809",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/204_868dcaa2-9601-4d56-935f-21090b6fad2b.png?v=1770870455"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000007b76",
-      "name": "Sandisk Ultra 256GB Micro SDXC A1 UP TO 150MB/S SDSQUAC-256G-GN6MN",
-      "category": "ram",
-      "specs": {
-        "Brand": "SanDisk",
-        "SKU": "PR001561",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/6_a050ef18-5107-4291-a73e-ef1d8c5baf8c.png?v=1763774579"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000007a02",
-      "name": "Kingston SDCS3/128GB Canvas Select Plus 128GB 100mb/s MicroSD Memory Card with Android A1 Performance Class",
-      "category": "ram",
-      "specs": {
-        "Brand": "Kingston",
-        "SKU": "PR001507",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/57_c7e2ec24-7d59-4edf-b414-20f3dffb9280.png?v=1761359135"
-    },
-    {
-      "id": "ram-dynaquest-pc-0000000008fa",
-      "name": "Kingston SDCS3/64GB Canvas Select Plus 64GB 100mb/s MicroSD Memory Card with Android A1 Performance Class",
-      "category": "ram",
-      "specs": {
-        "Brand": "kingston",
-        "SKU": "PR001508",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/50_696d7f81-1377-4272-ab52-9dc11d695666.png?v=1761358584"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000003051",
-      "name": "Hiksemi High Speed HS-TF-D1 (STD) 64GB Micro SD TF Card | Hiksemi MicroSD Memory Card",
-      "category": "ram",
-      "specs": {
-        "Brand": "Hiksemi",
-        "SKU": "PR000416",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/288_cfcd43d3-1b42-4cc4-a9e2-f3f1e4be2109.png?v=1752121343"
-    },
-    {
-      "id": "ram-dynaquest-pc-0000000049c2",
-      "name": "Kingston SDCS2/128GB Canvas Select Plus 128GB 100mb/s MicroSD Memory Card with Android A1 Performance Class",
-      "category": "ram",
-      "specs": {
-        "Brand": "Kingston",
-        "SKU": "6584",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/280_d2647ad9-2ad3-4d10-8f68-de5c19396574.png?v=1752119678"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000005c2e",
-      "name": "Hiksemi 128GB MICRO SDXC V30 CLASS 10 NEO HOME (HS-TF-D1 128G)",
-      "category": "ram",
-      "specs": {
-        "Brand": "Hiksemi",
-        "SKU": "PR001070",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/417_48906da4-bf99-4087-8681-a4ae64026303.png?v=1748935581"
-    },
-    {
-      "id": "ram-dynaquest-pc-0000000012a7",
-      "name": "SanDisk Ultra microSDXC 256GB C10 UHS-1 100MB/s SDSQUNR-256G-GN3MN",
-      "category": "ram",
-      "specs": {
-        "Brand": "SanDisk",
-        "SKU": "PR000997",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/280_f089ea9c-05c7-4083-87c0-032c596212e7.png?v=1748316670"
-    },
-    {
-      "id": "ram-dynaquest-pc-00000000642c",
-      "name": "Samsung EVO Plus microSDXC w/ SD Adapter ( 64GB / 128GB / 256GB / 512GB )",
-      "category": "ram",
-      "specs": {
-        "Brand": "Samsung",
-        "SKU": "16247",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/163_379297a8-2c44-4f18-9bbc-5a9d7eacb95c.png?v=1721198349"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000006a9c",
-      "name": "Lexar Professional 1066x SDXC 64GB CLASS10 Micro SD Card w/ Adapter LMS1066064G-BNANG",
-      "category": "ram",
-      "specs": {
-        "Brand": "Lexar",
-        "SKU": "52123",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/217_ef2deeb0-4729-413f-89c1-3fe9a466297f.png?v=1710831925"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000000fd7",
-      "name": "Lexar High Performance 633x SDXC CLASS10 Micro SD Card w/ adapter",
-      "category": "ram",
-      "specs": {
-        "Brand": "Lexar",
-        "SKU": "52119",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/209_bce9a923-278c-4535-bc3c-1b78600d8eaf.png?v=1710829509"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000004f10",
-      "name": "Samsung Pro Plus Micro SD Card ( 128GB MB-MD128SA / 256GB MB-MD256SA )",
-      "category": "ram",
-      "specs": {
-        "Brand": "Samsung",
-        "SKU": "PR000930",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/SamsungProPlusMicroSDCard_128GBMB-MD128SA.jpg?v=1695352737"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000004a00",
-      "name": "Adata MicroSDHC 32G Class10 w/ Adapter AUSDH32GUICL10A1-RA1",
-      "category": "ram",
-      "specs": {
-        "Brand": "Adata",
-        "SKU": "15444",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/AdataMicroSDHC32GClass10wAdapterAUSDH32GUICL10A1-RA1.jpg?v=1690606763"
-    },
-    {
-      "id": "ram-dynaquest-pc-00000000112e",
-      "name": "Samsung Evo Plus ( 256GB MB-MC256KA / 512GB MB-MC512KA ) MICROSDXC UHS-I Card With Adapter",
-      "category": "ram",
-      "specs": {
-        "Brand": "Samsung",
-        "SKU": "17923",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/SamsungEvoPlus256GBMICROSDXCUHS-ICardWithAdapterMB-MC256KA.jpg?v=1687319390"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000000af0",
-      "name": "Samsung EVO PLUS V5 NAND 64GB microSD w/ SD ADAPTER MB-MC64KA",
-      "category": "ram",
-      "specs": {
-        "Brand": "Samsung",
-        "SKU": "13847",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/SamsungEVOPLUSV5NAND64GBmicroSDwSDADAPTERMBMC64KA.jpg?v=1653989824"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000004eae",
-      "name": "SanDisk Ultra microSDXC 128GB C10 UHS-1 100MB/s R, 4x6 SDSQUNR-128G-GN3MN",
-      "category": "ram",
-      "specs": {
-        "Brand": "SanDisk",
-        "SKU": "16905",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/SanDiskUltra128GB.jpg?v=1622180327"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000007658",
-      "name": "SanDisk Ultra microSDHC 32GB C10 UHS-1 100MB/s R, 3x5 SDSQUNR-032G-GN3MN",
-      "category": "ram",
-      "specs": {
-        "Brand": "SanDisk",
-        "SKU": "12168",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/SandiskUltra32.jpg?v=1622179415"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000003eb9",
-      "name": "Kingston DataTraveler Exodia 128GB USB3.2 DTX/128GB USB Flash Drive",
-      "category": "ram",
-      "specs": {
-        "Brand": "Kingston",
-        "SKU": "70076",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/Exodia_84a5e03a-3117-4ac6-9276-e88c591f0cbf.jpg?v=1636601827"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000005682",
-      "name": "Kingston DataTraveler MicroDuo 3 Gen2 + microUSB (Android/OTG) USB3.0 DTDUO3G2/64GB Flash Drive",
-      "category": "ram",
-      "specs": {
-        "Brand": "Kingston",
-        "SKU": "14006",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/DTDUO3G264GB.jpg?v=1632513153"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000004306",
-      "name": "Lexar JumpDrive V400 USB 3.0 up to 100MB/s Compact Flash Drive With Key Ring Loop ( 64GB | 128GB )",
-      "category": "ram",
-      "specs": {
-        "Brand": "Lexar",
-        "SKU": "PR001464",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/134_8e395421-937f-4c9b-a215-ac2480adf9c5.png?v=1760512350"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000005846",
-      "name": "Lexar JumpDrive Dual Drive D400 32GB | 64GB | 128GB | 256GB USB 3.1 Type-C Metal Housing Flash Drive",
-      "category": "ram",
-      "specs": {
-        "Brand": "Lexar",
-        "SKU": "PR001180",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/213_71c9f4f6-f92f-4df0-a087-d5b0e30ddccf.png?v=1752029644"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000005a3f",
-      "name": "Teamgroup C211 64GB USB3.2 Flash Drive TC211364GL01",
-      "category": "ram",
-      "specs": {
-        "Brand": "TeamGroup",
-        "SKU": "PR001883",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/58_57cf1cfc-7ca8-4908-b614-f18ed37894e1.png?v=1774258503"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000006595",
-      "name": "Netac U505 16GB USB 3.2 Flash Drive Metal Housing Swivel Type",
-      "category": "ram",
-      "specs": {
-        "Brand": "Netac",
-        "SKU": "56020",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/94_5f369e6f-f267-4ffb-9a80-f77e3db6fd28.png?v=1772610466"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000004f65",
-      "name": "Netac U351 32GB USB 3.2 Flash Drive Aluminum Alloy",
-      "category": "ram",
-      "specs": {
-        "Brand": "Netac",
-        "SKU": "PR001846",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/87_fd56a9e9-6536-4b6f-8d55-f8315ebf14fa.png?v=1772609512"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000007fdd",
-      "name": "Netac UA31 64GB USB 3.2 Flash Drive Sky Blue NT03UA31N-064G-32BL",
-      "category": "ram",
-      "specs": {
-        "Brand": "Netac",
-        "SKU": "PR001845",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/80_db5fb08b-681c-4ec4-a133-93a9d0b9399a.png?v=1772608089"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000001300",
-      "name": "Lexar JumpDrive Dual Drive D300 32GB | 64GB | 128GB | 256GB USB 3.1 Type-C Flash Drive",
-      "category": "ram",
-      "specs": {
-        "Brand": "LEXAR",
-        "SKU": "PR001804",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/185_8e3db365-c359-4aad-a200-86c3bbda3e2b.png?v=1770864704"
-    },
-    {
-      "id": "ram-dynaquest-pc-0000000005d5",
-      "name": "Lexar JumpDrive V40 32GB USB 2.0 Flash Drive LJDV40-32GAB",
-      "category": "ram",
-      "specs": {
-        "Brand": "LEXAR",
-        "SKU": "PR001704",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/301_0a9c4832-0729-42ef-80c8-399a27f37630.png?v=1768375795"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000007c32",
-      "name": "Lexar JumpDrive V400 256GB USB 3.0 up to 100MB/s Compact Flash Drive With Key Ring Loop",
-      "category": "ram",
-      "specs": {
-        "Brand": "Lexar",
-        "SKU": "PR001411",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/125_560416fd-0888-42ea-be14-052095c8fdd4.png?v=1759484751"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000003bc8",
-      "name": "Kingston DataTraveler microDUO 3C Type-C OTG USB 3.2 Gen 1 ( 64GB | 128GB )",
-      "category": "ram",
-      "specs": {
-        "Brand": "Kingston",
-        "SKU": "PR000419",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/269_d4f6614c-5385-4be8-b50a-b0fee0816c4e.png?v=1752115202"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000007cf1",
-      "name": "Lexar JumpDrive V400 32GB USB 3.0 up to 100MB/s Compact Flash Drive With Key Ring Loop",
-      "category": "ram",
-      "specs": {
-        "Brand": "Lexar",
-        "SKU": "PR001117",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/453_204c05a6-f682-447a-9191-c1be75942fa3.png?v=1750215450"
-    },
-    {
-      "id": "ram-dynaquest-pc-00000000548f",
-      "name": "Kingston DataTraveler Exodia 128GB USB3.2 DTXM/128GB USB Flash Drive",
-      "category": "ram",
-      "specs": {
-        "Brand": "Kingston",
-        "SKU": "PR000153",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/272_ab1453c3-0aa8-49e9-8966-4efeb638db0b.png?v=1744769838"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000001799",
-      "name": "Sandisk Ultra 64GB 3.0 Flashdrive SDCZ48-064G-U46R",
-      "category": "ram",
-      "specs": {
-        "Brand": "SanDisk",
-        "SKU": "PR000107",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/41.png?v=1740731721"
-    },
-    {
-      "id": "ram-dynaquest-pc-0000000073aa",
-      "name": "Kingston DataTraveler Exodia M 256GB USB3.2 Gen1 DTXM/256GB USB Flash Drive",
-      "category": "ram",
-      "specs": {
-        "Brand": "Kingston",
-        "SKU": "15764",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/KingstonDataTravelerExodiaM256GBUSB3.2Gen1DTXM256GBUSBFlashDrive.jpg?v=1699682682"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000007997",
-      "name": "Kingston Data Traveler 64GB USB3.1 DT100G3/64GB",
-      "category": "ram",
-      "specs": {
-        "Brand": "Kingston",
-        "SKU": "11540",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/kingston_dt100g3_64gb_64gb_data_traveler_100_1366296478000_964345.jpg?v=1571553333"
-    },
-    {
-      "id": "ram-dynaquest-pc-000000007aa5",
-      "name": "SanDisk Ultra 64GB USB 3.0 Flash Drive SDCZ48-064G-U46",
-      "category": "ram",
-      "specs": {
-        "Brand": "Sandisk",
-        "SKU": "10024",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/1_036b2692-2fe3-41ca-90cf-72d733e23f1d.jpg?v=1571552641"
-    },
-    {
       "id": "ram-easypc-000000003d0d",
       "name": "Klevv Cras X 16gb 2x8 3600mhz Ddr4 RGB Gaming Memory",
       "category": "ram",
@@ -13804,17 +12365,6 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/TeamGroupElite16GBDDR55600SODIMM.jpg?v=1734052791"
     },
     {
-      "id": "ram-gigahertz-000000003ae9",
-      "name": "G-Skill Ripjaws 8GB PC2666 DDR4",
-      "category": "ram",
-      "specs": {
-        "Brand": "G-Skill",
-        "SKU": "SODIMM-G-SKILL RIPJAW 8GB PC2666 DDR4",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/g-skill-ripjaws-8gb-pc2666-ddr4-g-skill-gigahertz-937607.jpg?v=1744768681"
-    },
-    {
       "id": "ram-gigahertz-0000000067f4",
       "name": "Transcend 8GB DDR5 PC5600",
       "category": "ram",
@@ -13859,17 +12409,6 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/g-skill-32gb-pc3200-g-skill-gigahertz-330215.jpg?v=1746438206"
     },
     {
-      "id": "ram-gigahertz-00000000135e",
-      "name": "Transcend 16GB DDR5-5600 SO-DIMM",
-      "category": "ram",
-      "specs": {
-        "Brand": "Gigahertz",
-        "SKU": "SODIMM-TRANSCEND 16GB DDR5 PC5600",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/transcend-16gb-ddr5-5600-so-dimm-gigahertz-gigahertz-977204.jpg?v=1732766801"
-    },
-    {
       "id": "ram-gigahertz-0000000063e7",
       "name": "Team Elite 8GB DDR4 RAM",
       "category": "ram",
@@ -13892,17 +12431,6 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/adata-ddr4-pc2666-lv-gigahertz-gigahertz-224023.jpg?v=1734424255"
     },
     {
-      "id": "ram-gigahertz-000000007502",
-      "name": "Transcend DDR4 PC2666 RAM",
-      "category": "ram",
-      "specs": {
-        "Brand": "Gigahertz",
-        "SKU": "SODIMM-TRANSCEND 4GB DDR4 PC2666 LV",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/final_transcend_frame.jpg?v=1774000136"
-    },
-    {
       "id": "ram-gigahertz-0000000046da",
       "name": "Sandisk Ultra microSD Card",
       "category": "ram",
@@ -13923,236 +12451,6 @@
         "Availability": "in_stock"
       },
       "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/transcend-4gb-pc2400-gigahertz-gigahertz-269063.jpg?v=1733192836"
-    },
-    {
-      "id": "ram-itech-000000007fa5",
-      "name": "Seagate 2TB One Touch External HDD Slim [Blue]",
-      "category": "ram",
-      "specs": {
-        "SKU": "4123456679288",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2021/12/Seagate-2TB-One-Touch-External-HDD-Slim-Blue-450x577.jpg"
-    },
-    {
-      "id": "ram-itech-000000000a0a",
-      "name": "SAMSUNG T7 Shield 1TB Portable External SSD [Black]",
-      "category": "ram",
-      "specs": {
-        "SKU": "8806092299108",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2022/08/SAMSUNG-T7-Shield-1TB-Black-450x577.jpg"
-    },
-    {
-      "id": "ram-itech-0000000033cf",
-      "name": "Seagate 4TB One Touch External HDD [Black]",
-      "category": "ram",
-      "specs": {
-        "SKU": "4123456679289",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2021/12/Seagate-4TB-One-Touch-External-HDD-Black-450x577.jpg"
-    },
-    {
-      "id": "ram-itech-0000000007a2",
-      "name": "Lexar SL500 USB 3.2 Gen 2×2 Portable SSD",
-      "category": "ram",
-      "specs": {
-        "SKU": "843367133024",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2025/11/SL500_Portable_SSD_Photo4-450x577.jpg"
-    },
-    {
-      "id": "ram-itech-00000000692a",
-      "name": "Hiksemi Elite 1TB USB 3.2 Gen2x2 Portable External SSD",
-      "category": "ram",
-      "specs": {
-        "SKU": "6976695090579",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2025/11/hiksemi-elite-1tb-portable-ssd-_hs-essd-elite-1tb-grey_-01-450x594.webp"
-    },
-    {
-      "id": "ram-itech-000000000d35",
-      "name": "Samsung T9 2TB USB 3.2 Gen 2×2 Portable External SSD | Black",
-      "category": "ram",
-      "specs": {
-        "SKU": "8806094489118",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2024/12/Samsung-T9-2TB-USB-450x577.jpg"
-    },
-    {
-      "id": "ram-itech-000000000485",
-      "name": "SAMSUNG T7 Shield 2TB Portable External SSD [Blue]",
-      "category": "ram",
-      "specs": {
-        "SKU": "8806092309951",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2022/08/SAMSUNG-T7-Shield-1TB-Blue-450x577.jpg"
-    },
-    {
-      "id": "ram-itech-00000000529d",
-      "name": "Seagate 1TB One Touch External HDD Slim | Silver",
-      "category": "ram",
-      "specs": {
-        "SKU": "4123456679530",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2023/11/Seagate-1TB-One-Touch-External-HDD-Slim-Silver-jpg-450x577.webp"
-    },
-    {
-      "id": "ram-itech-000000004072",
-      "name": "WD 4TB My Passport Portable External Hard Drive HDD USB 3.0 – Black",
-      "category": "ram",
-      "specs": {
-        "SKU": "718037869438",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2023/03/WD-4TB-My-Passport-Portable-External-Hard-Drive-HDD-USB-3.0-Black-jpg-450x577.webp"
-    },
-    {
-      "id": "ram-itech-00000000734a",
-      "name": "SAMSUNG T7 Shield 1TB Portable External SSD [Blue]",
-      "category": "ram",
-      "specs": {
-        "SKU": "8806092310131",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2022/08/SAMSUNG-T7-Shield-1TB-Blue-450x577.jpg"
-    },
-    {
-      "id": "ram-itech-00000000751e",
-      "name": "Seagate 2TB One Touch External HDD Slim [Black]",
-      "category": "ram",
-      "specs": {
-        "SKU": "4123456679284",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2021/12/Seagate-2TB-One-Touch-External-HDD-Slim-Black-450x577.jpg"
-    },
-    {
-      "id": "ram-itech-000000003e1f",
-      "name": "Seagate 1TB One Touch External HDD Slim [Black]",
-      "category": "ram",
-      "specs": {
-        "SKU": "4123456679281",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2021/12/Seagate-1TB-One-Touch-External-HDD-Slim-Black-450x577.jpg"
-    },
-    {
-      "id": "ram-itech-000000006e1e",
-      "name": "Lexar SL600 USB 3.2 Type-C Portable External SSD (LSL600X001T-RNBNG) -1TB",
-      "category": "ram",
-      "specs": {
-        "SKU": "4123456761469",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2026/03/lexar-sl600-1tb-usb-3.2-portable-ssd-_lsl600x001t-rnbng_-front-1-450x450.jpg"
-    },
-    {
-      "id": "ram-itech-00000000120c",
-      "name": "Hiksemi Elite 2TB USB 3.2 Gen2x2 Portable External SSD",
-      "category": "ram",
-      "specs": {
-        "SKU": "6976695090586",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2025/11/hiksemi-elite-1tb-portable-ssd-_hs-essd-elite-1tb-grey_-01-450x594.webp"
-    },
-    {
-      "id": "ram-itech-000000001752",
-      "name": "Lexar 2TB SL300 USB 3.2 Gen 2 Portable External SSD (LSL300002T-RNBNG) – Black",
-      "category": "ram",
-      "specs": {
-        "SKU": "4123456760640",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2025/03/Lexar-1TB-SL300-450x577.jpg"
-    },
-    {
-      "id": "ram-itech-0000000015b8",
-      "name": "Lexar 1TB SL300 USB 3.2 Gen 2 Portable External SSD (LSL300001T-RNBNG) – Black",
-      "category": "ram",
-      "specs": {
-        "SKU": "843367137978",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2025/03/Lexar-1TB-SL300-450x577.jpg"
-    },
-    {
-      "id": "ram-itech-000000004ffc",
-      "name": "Samsung 2 TB USB 3.0 M3 Slimline Portable External HDD | Black",
-      "category": "ram",
-      "specs": {
-        "SKU": "4123652637540",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2024/12/Samsung-2-TB-USB-3.0-450x577.jpg"
-    },
-    {
-      "id": "ram-itech-0000000073cd",
-      "name": "SAMSUNG T7 Shield 2TB Portable External SSD [Black]",
-      "category": "ram",
-      "specs": {
-        "SKU": "8806092299115",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2022/08/SAMSUNG-T7-Shield-1TB-Black-450x577.jpg"
-    },
-    {
-      "id": "ram-itech-00000000353c",
-      "name": "WD – My Passport 1TB External USB Type-C Portable SSD [Gray]",
-      "category": "ram",
-      "specs": {
-        "SKU": "619659184001",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2023/04/WD-My-Passport-1TB-External-USB-Type-C-Portable-SSD-Gray7-jpg-450x577.webp"
-    },
-    {
-      "id": "ram-itech-000000003ae8",
-      "name": "Seagate One Touch SSD 1TB [Blue]",
-      "category": "ram",
-      "specs": {
-        "SKU": "4123456679355",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2022/03/SEAGATE-500GB-ONE-TOUCH-SSD-BLUE-450x577.jpg"
-    },
-    {
-      "id": "ram-itech-000000001fa9",
-      "name": "Seagate 5TB 3.0 One Touch External HDD [Black]",
-      "category": "ram",
-      "specs": {
-        "SKU": "4123456679529",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2021/12/Seagate-5TB-One-Touch-External-HDD-Black-450x577.jpg"
-    },
-    {
-      "id": "ram-itech-000000000b23",
-      "name": "Seagate 2TB One Touch External HDD Slim [Space Gray]",
-      "category": "ram",
-      "specs": {
-        "SKU": "4123456679287",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2021/12/Seagate-2TB-One-Touch-External-HDD-Slim-Space-Gray-450x577.jpg"
-    },
-    {
-      "id": "ram-itech-000000001f07",
-      "name": "Seagate 1TB One Touch External HDD Slim [Blue]",
-      "category": "ram",
-      "specs": {
-        "SKU": "4123456679282",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://www.itech.ph/wp-content/uploads/2021/12/Seagate-1TB-One-Touch-External-HDD-Slim-Blue-450x577.jpg"
     },
     {
       "id": "ram-pcworx-00000000553e",
@@ -17196,6 +15494,17 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-TEAMGROUP-16GB-DDR4-3200MHZ-ELITE-SODIMM-CL22-1.jpg?v=1752569667"
     },
     {
+      "id": "ram-pc-express-00000000283a",
+      "name": "TEAMGROUP 8GB DDR4 3200MHz ELITE Desktop Memory - Red/Black",
+      "category": "ram",
+      "specs": {
+        "Brand": "TEAM GROUP",
+        "SKU": "RAM-TEAMGROUP-000035",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-TEAMGROUP-8GB-DDR4-3200MHZ-ELITE-RED-1.jpg?v=1752570425"
+    },
+    {
       "id": "ram-pc-express-00000000136e",
       "name": "TEAMGROUP 8GB DDR4 3200MHz (TED48G3200C22-S01) ELITE SODIMM Laptop Memory",
       "category": "ram",
@@ -17205,6 +15514,138 @@
         "Availability": "out_of_stock"
       },
       "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-TEAMGROUP-8GB-DDR4-PC3200MHZ-ELITE-SODIMM-CL22-1.jpg?v=1752570159"
+    },
+    {
+      "id": "ram-pc-express-000000004ca6",
+      "name": "TEAMGROUP 16GB (2x8GB) DDR4 3600MHz VULCAN Z Desktop Memory - Gray",
+      "category": "ram",
+      "specs": {
+        "Brand": "TEAM GROUP",
+        "SKU": "RAM-TEAMGROUP-000042",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-TEAMGROUP-16GB-DDR4-3600MHZ-VULCAN-Z-_2X8_-1.jpg?v=1752561429"
+    },
+    {
+      "id": "ram-pc-express-000000001079",
+      "name": "TEAMGROUP 16GB DDR4 3200MHz (TPD416G3200HC22BK) ELITE Desktop Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "TEAM GROUP",
+        "SKU": "RAM-TEAMGROUP-000037",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-TEAMGROUP-16GB-DDR4-3200MHZ-ELITE-1_e9ad0b7d-1530-4aa4-aee0-45d735d8a37c.jpg?v=1752573146"
+    },
+    {
+      "id": "ram-pc-express-000000006296",
+      "name": "TEAMGROUP 16GB (2x 8GB) DDR4 3600MHZ VULCAN TUF Gaming Alliance Desktop Memory - Yellow",
+      "category": "ram",
+      "specs": {
+        "Brand": "TEAM GROUP",
+        "SKU": "RAM-TEAMGROUP-000044",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-TEAMGROUP-16GB-DDR4-3600MHZ-VULCAN-TUF-_2X8_-1.jpg?v=1752561850"
+    },
+    {
+      "id": "ram-pc-express-000000003eec",
+      "name": "TEAMGROUP 8GB DDR4 3200MHz (TPD48G3200HC22BK) ELITE Desktop Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "TEAM GROUP",
+        "SKU": "RAM-TEAMGROUP-000047",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-TEAMGROUP-16GB-DDR4-3200MHZ-ELITE-1.jpg?v=1752573078"
+    },
+    {
+      "id": "ram-pc-express-000000002975",
+      "name": "TEAMGROUP 16GB (2x 8GB) DDR4 3200MHz VULCAN Z Desktop Memory - Gray",
+      "category": "ram",
+      "specs": {
+        "Brand": "TEAM GROUP",
+        "SKU": "RAM-TEAMGROUP-000040",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-TEAMGROUP-16GB-DDR4-3200MHZ-VULCAN-Z-_2X8_-1.jpg?v=1752562693"
+    },
+    {
+      "id": "ram-pc-express-000000001378",
+      "name": "TEAMGROUP 8GB DDR4 3600MHz VULCAN Z Desktop Memory - Gray",
+      "category": "ram",
+      "specs": {
+        "Brand": "TEAM GROUP",
+        "SKU": "RAM-TEAMGROUP-000041",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-TEAMGROUP-8GB-DDR4-3600MHZ-VULCAN-Z-1_6e5fc7d0-c272-4fc4-a6f0-a7cd0fed0c6d.jpg?v=1752558840"
+    },
+    {
+      "id": "ram-pc-express-00000000399f",
+      "name": "TEAMGROUP 64GB DDR5 6000MHZ DELTA RGB ECO Desktop Memory (Silver)",
+      "category": "ram",
+      "specs": {
+        "Brand": "TEAM GROUP",
+        "SKU": "RAM-TEAMGROUP-000025",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-TEAMGROUP-64GB-DDR5-6000MHZ-DELTA-RGB-ECO-1.jpg?v=1736230400"
+    },
+    {
+      "id": "ram-pc-express-000000000e96",
+      "name": "TEAMGROUP 16GB DDR5 6000MHz (FF3D516G6000HC38J01) T-FORCE DELTA RGB Desktop Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "TEAM GROUP",
+        "SKU": "RAM-TEAMGROUP-000050",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-TEAMGROUP-16GB-DDR5-6000MHZ-T-FORCE-DELTA-RGB.jpg?v=1765333072"
+    },
+    {
+      "id": "ram-pc-express-000000005470",
+      "name": "TEAMGROUP 64GB (2x 32GB) DDR5 6000MHz DELTA RGB Desktop Memory - White",
+      "category": "ram",
+      "specs": {
+        "Brand": "TEAM GROUP",
+        "SKU": "RAM-TEAMGROUP-000049",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-TEAMGROUP-64GB-DDR5-6000MHZ-DELTA-RGB-WH_2X32_-1.jpg?v=1759215619"
+    },
+    {
+      "id": "ram-pc-express-00000000534a",
+      "name": "TEAMGROUP 64GB (2x 32GB) DDR5 6000MHz DELTA RGB Desktop Memory - Black",
+      "category": "ram",
+      "specs": {
+        "Brand": "TEAM GROUP",
+        "SKU": "RAM-TEAMGROUP-000048",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-TEAMGROUP-64GB-DDR5-6000MHZ-DELTA-RGB-BK_2X32_-1_d06834e5-af4d-46ad-9ccb-cef281f6f1d0.jpg?v=1759215198"
+    },
+    {
+      "id": "ram-pc-express-000000007642",
+      "name": "TEAMGROUP 16GB DDR4 3200MHz ELITE Desktop Memory - Red",
+      "category": "ram",
+      "specs": {
+        "Brand": "TEAM GROUP",
+        "SKU": "RAM-TEAMGROUP-000036",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-TEAMGROUP-16GB-DDR4-3200MHZ-ELITE-RED-1.jpg?v=1752568669"
+    },
+    {
+      "id": "ram-pc-express-00000000125c",
+      "name": "TEAMGROUP 8GB DDR4 3600MHz VULCAN TUF Gaming Alliance Desktop Memory - Yellow",
+      "category": "ram",
+      "specs": {
+        "Brand": "TEAM GROUP",
+        "SKU": "RAM-TEAMGROUP-000038",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-TEAMGROUP-8GB-DDR4-3600MHZ-VULCAN-TUF-1.jpg?v=1752559267"
     },
     {
       "id": "ram-pc-express-000000001799",
@@ -17251,6 +15692,17 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-ADATA-8GB-DDR5-PC5600MHZ-SODIMM-1.jpg?v=1751614414"
     },
     {
+      "id": "ram-pc-express-00000000600d",
+      "name": "ADATA 16GB (2x 8GB) DDR4 3200MHz (AX4U32008G16A-DTBKD35) XPG GAMMIX D35 Desktop Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "ADATA",
+        "SKU": "RAM-ADATA-000019",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-ADATA-16GB-DDR4-3200MHZ-XPG-GAMMIX-D35.jpg?v=1764922041"
+    },
+    {
       "id": "ram-pc-express-000000000e98",
       "name": "ADATA 16GB DDR5 PC5600MHZ (AD5S560016G-S) CL46 SODIMM Laptop Memory",
       "category": "ram",
@@ -17262,15 +15714,268 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/ADATA16GBDDR5PC5600MHZ_AD5S560016G-S_CL46SODIMMMEMORY.jpg?v=1768467828"
     },
     {
-      "id": "ram-pc-express-0000000034c9",
-      "name": "SANDISK Micro SD 512GB (SDSQUAC-GN6MN) 100MB/s CL10 Without Adapter Memory Card",
+      "id": "ram-pc-express-000000005995",
+      "name": "ADATA 32GB (2x 16GB) DDR5 5200MHz (AX5U5200C3816G-DCLARBK) XPG LANCER RGB Desktop Memory",
       "category": "ram",
       "specs": {
-        "Brand": "Sandisk",
-        "SKU": "MEM-SANDISK-000012",
+        "Brand": "ADATA",
+        "SKU": "RAM-ADATA-000023",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/SANDISKMICROSD512GB_SDSQUAC-GN6MN_CL10100MBSWOADAPTOR.jpg?v=1773212090"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-ADATA-32GB-DDR5-5200MHZ-XPG-LANCER-RGB.jpg?v=1764922809"
+    },
+    {
+      "id": "ram-pc-express-0000000060ae",
+      "name": "AGI Gear 16GB DDR4 3200MHz (2x 8GB) CL22 UDIMM Desktop Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "AGI",
+        "SKU": "RAM-AGI-000001",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-AGI-16GB-DDR4-3200MHZ-GEAR-1_f92afe49-ce93-405b-87fc-30b285b10deb.jpg?v=1751882647"
+    },
+    {
+      "id": "ram-pc-express-000000006e58",
+      "name": "AGI Gear 16GB DDR4 3200MHz CL22 UDIMM Desktop Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "AGI",
+        "SKU": "RAM-AGI-000003",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-AGI-16GB-DDR4-3200MHZ-GEAR-1_f6336f14-231f-4364-8429-f73a70957b55.jpg?v=1751882592"
+    },
+    {
+      "id": "ram-pc-express-000000006d05",
+      "name": "AGI Gear 8GB DDR4 3200MHz CL22 UDIMM Desktop Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "AGI",
+        "SKU": "RAM-AGI-000002",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-AGI-8GB-DDR4-3200MHZ-GEAR-1.jpg?v=1751882493"
+    },
+    {
+      "id": "ram-pc-express-000000001055",
+      "name": "APACER 16GB DDR4 3200MHz (2X8GB) (RP-K2 AH4U16G32C28Y7GAA-2) PANTHER GOLDEN Memory Module",
+      "category": "ram",
+      "specs": {
+        "Brand": "Apacer",
+        "SKU": "RAM-APACER-000002",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-APACER-16GB-DDR4-3200MHZ-PANTHER-GOLDEN-1.png?v=1750925338"
+    },
+    {
+      "id": "ram-pc-express-0000000039c5",
+      "name": "APACER 8GB DDR4 3200MHz (AH4U08G32C28Y7GAA-1) PANTHER GOLDEN Memory Module",
+      "category": "ram",
+      "specs": {
+        "Brand": "Apacer",
+        "SKU": "RAM-APACER-000003",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-APACER-8GB-DDR4-3200MHZ-PANTHER-GOLDEN.png?v=1754894660"
+    },
+    {
+      "id": "ram-pc-express-0000000062f7",
+      "name": "APACER Panther 16GB DDR5 6000MHz W/ Heatsink (AH5U16G60C6227BAA-1) Desktop Memory - Black",
+      "category": "ram",
+      "specs": {
+        "Brand": "Apacer",
+        "SKU": "RAM-APACER-000005",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-APACER-16GB-DDR5-6000MHZ-PANTHER-W-HS.jpg?v=1762414169"
+    },
+    {
+      "id": "ram-pc-express-000000006c6b",
+      "name": "APACER Panther 32GB (2x 16GB) DDR5 6000MHz RGB W/ Heatsink (AH5U32G60C6229BAA-2) Desktop Memory - Black",
+      "category": "ram",
+      "specs": {
+        "Brand": "Apacer",
+        "SKU": "RAM-APACER-000004",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-APACER-32GB-DDR5-6000MHZ-PANTHER-W-HS-RGB.jpg?v=1762415045"
+    },
+    {
+      "id": "ram-pc-express-0000000058b0",
+      "name": "GSKILLS 16GB (2x 8GB) DDR4 3200MHz Ripjaws V (F4-3200C16D-16GVKB) Desktop Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "G.SKILL",
+        "SKU": "RAM-GSKILLS-000013",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-GSKILLS-16GB-DDR4-3200MHZ-_2X8GB_-1.jpg?v=1752565511"
+    },
+    {
+      "id": "ram-pc-express-0000000038d6",
+      "name": "GSKILLS 16GB DDR4 3200MHz Ripjaws V (F4-3200C16S-16GVK) Desktop Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "G.SKILL",
+        "SKU": "RAM-GSKILLS-000014",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-GSKILLS-16GB-DDR4-3200MHZ-_1X16GB_-1.jpg?v=1752565061"
+    },
+    {
+      "id": "ram-pc-express-0000000045dd",
+      "name": "GSKILLS Trident Z5 RGB 32GB (2x 16GB) DDR5 6000MT/s Desktop Memory - Black",
+      "category": "ram",
+      "specs": {
+        "Brand": "G.SKILL",
+        "SKU": "RAM-GSKILLS-000005",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-GSKILLS-32GB-DDR5-6000MTS-TRIDENT-Z5-RGB-CL36-1.jpg?v=1747643449"
+    },
+    {
+      "id": "ram-pc-express-000000000daf",
+      "name": "DAHUA 16GB DDR4 3200MHz C300 (DHI-DDR-C300U16G32) Desktop Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "Dahua",
+        "SKU": "RAM-DAHUA-000001",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-DAHUA-16GB-DDR4-3200MHZ-C300-1.jpg?v=1751615052"
+    },
+    {
+      "id": "ram-pc-express-000000004e26",
+      "name": "DAHUA 16GB DDR4 3600MHz C600 (DHI-DDR-C600UHD16G36) Desktop Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "Dahua",
+        "SKU": "RAM-DAHUA-000002",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-DAHUA-16GB-DDR4-3600MHZ-C600-1.jpg?v=1751615650"
+    },
+    {
+      "id": "ram-pc-express-000000000b74",
+      "name": "DAHUA 32GB DDR4 3200MHz C300 (1x 32GB) (DHI-DDR-C300U32G32) Udimm Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "Dahua",
+        "SKU": "RAM-DAHUA-000005",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-DAHUA-32GB-DDR4-3200MHZ-C300-1.png?v=1750924415"
+    },
+    {
+      "id": "ram-pc-express-0000000040b1",
+      "name": "DAHUA 8GB DDR4 3200MHz C300 (1x 8GB) (DHI-DDR-C300U8G32) Udimm Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "Dahua",
+        "SKU": "RAM-DAHUA-000004",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-DAHUA-8GB-DDR4-3200MHZ-C300-1.jpg?v=1750923819"
+    },
+    {
+      "id": "ram-pc-express-00000000517c",
+      "name": "DAHUA 8GB DDR5 5600Mhz C500 UDIMM Desktop Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "Dahua",
+        "SKU": "RAM-DAHUA-000007",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-DAHUA8GBDDR55600MHZC5001.jpg?v=1763428272"
+    },
+    {
+      "id": "ram-pc-express-000000003058",
+      "name": "GSKILLS 64GB DDR5 6000MT/S TRIDENT Z5 RGB (F5-6000J3636F32GX2-TZ5RK) Desktop Memory - Black",
+      "category": "ram",
+      "specs": {
+        "Brand": "G.SKILL",
+        "SKU": "RAM-GSKILLS-000011",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-GSKILLS-64GB-DDR5-6000MTS-TRIDENT-Z5-RGB-1.jpg?v=1761634139"
+    },
+    {
+      "id": "ram-pc-express-000000002431",
+      "name": "GSKILLS 32GB DDR5 6000MT/S Trident Z5 RGB (F5-6000J3636F32GX1-TZ5RK) Desktop Memory - Black",
+      "category": "ram",
+      "specs": {
+        "Brand": "G.SKILL",
+        "SKU": "RAM-GSKILLS-000019",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-GSKILLS-32GB-DDR5-6000MTS-TRIDENT-Z5-RGB.jpg?v=1762397520"
+    },
+    {
+      "id": "ram-pc-express-000000000214",
+      "name": "KINGSTON 32GB DDR5 6000MT/s FURY™ Beast (1x 32GB) (KF560C40BW-32) Desktop Memory - White",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000098",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-000098.jpg?v=1771984444"
+    },
+    {
+      "id": "ram-pc-express-000000004fd4",
+      "name": "KINGSTON 32GB DDR5 6000MT/s FURY™ Beast (1x 32GB) (KF560C30BBE-32) Desktop Memory - Black",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000140",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-000140.jpg?v=1771983950"
+    },
+    {
+      "id": "ram-pc-express-000000006bf0",
+      "name": "KINGSTON 16GB DDR5 6000MT/s FURY™ Beast (1x 16GB) (KF560C30BBE-16) Desktop Memory - Black",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000139",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-000139.jpg?v=1771983439"
+    },
+    {
+      "id": "ram-pc-express-0000000038c0",
+      "name": "KINGSTON Fury Beast 16GB (1X16GB) (KF560C40BW-16) 6000MT/S DDR5 UDIMM Memory - White",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000128",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/KINGSTON16GBDDR56000MTSFURYBEAST_1X16GB_KF560C40BW-16_XMPWHITECL40UDIMMMEMORY3.jpg?v=1771571002"
+    },
+    {
+      "id": "ram-pc-express-000000000292",
+      "name": "KINGSTON Fury Beast 16GB (1X16GB) (KF560C40BBA-16) 6000MT/S RGB DDR5 UDIMM Memory - Black",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000129",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-16GBDDR56000MTSFURYBEAST_1X16GB_KF560C40BBA-16_RGBXMPBLACKCL40UDIMMMEMORY1.jpg?v=1771569131"
+    },
+    {
+      "id": "ram-pc-express-000000005fea",
+      "name": "KINGSTON 16GB DDR4 3200MHz Fury Beast (2X8GB) (KF432C16BBAK2/16) RGB Desktop Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000002",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-000002.jpg?v=1771220628"
     },
     {
       "id": "ram-pc-express-000000003c2e",
@@ -17306,26 +16011,290 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-DAHUA-16GB-DDR5-PC5600MHZ-C500-SODIMM.jpg?v=1763779363"
     },
     {
-      "id": "ram-pc-express-00000000449b",
-      "name": "DAHUA MICRO SD 128GB C100 - Memory Card",
+      "id": "ram-pc-express-000000000e9e",
+      "name": "GSKILLS 16GB DDR5 6000MT/S (F5-6000J3636F16GX1-TZ5RK) TRIDENT Z5 RGB Desktop Memory",
       "category": "ram",
       "specs": {
-        "Brand": "Dahua",
-        "SKU": "MEM-DAHUA-000002",
-        "Availability": "out_of_stock"
+        "Brand": "GSKILLS",
+        "SKU": "RAM-GSKILLS-000018",
+        "Availability": "in_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/MEM-DAHUAMICROSD128GBC100.jpg?v=1754287781"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-GSKILLS-16GB-DDR5-6000MTS-TRIDENT-Z5-RGB.jpg?v=1765333784"
     },
     {
-      "id": "ram-pc-express-000000004a3a",
-      "name": "DAHUA MICRO SD 64GB C100 - Memory Card",
+      "id": "ram-pc-express-000000005cc4",
+      "name": "GSKILLS Ripjaws M5 Neo RGB 32GB (2X16GB) 6000Mhz DDR5 Desktop Memory - Black",
       "category": "ram",
       "specs": {
-        "Brand": "Dahua",
-        "SKU": "MEM-DAHUA-000001",
+        "Brand": "GSKILLS",
+        "SKU": "RAM-GSKILLS-000020",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/MEM-DAHUAMICROSD64GBC100.jpg?v=1754286648"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-GSKILLS32GBDDR56000MHZRIPJAWSM5NEORGB1.jpg?v=1763366136"
+    },
+    {
+      "id": "ram-pc-express-000000006b53",
+      "name": "HIKSEMI 16GB DDR4 3200Mhz Armor (HSC416U32E2) Desktop Memory - White",
+      "category": "ram",
+      "specs": {
+        "Brand": "HIKSEMI",
+        "SKU": "RAM-HIKSEMI-000007",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-HIKSEMI16GBDDR43200MHZARMORWHT1.jpg?v=1762326208"
+    },
+    {
+      "id": "ram-pc-express-000000002161",
+      "name": "HIKSEMI 16GB DDR4 3200MHz ARMOR Udimm Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "HIKSEMI",
+        "SKU": "RAM-HIKSEMI-000002",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-HIKSEMI-16GB-DDR4-3200MHZ-ARMOR-1.jpg?v=1750907480"
+    },
+    {
+      "id": "ram-pc-express-0000000010a6",
+      "name": "HIKSEMI 8GB DDR4 3200MHz ARMOR Udimm Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "HIKSEMI",
+        "SKU": "RAM-HIKSEMI-000001",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-HIKSEMI-8GB-DDR4-3200MHZ-ARMOR-1.jpg?v=1750906867"
+    },
+    {
+      "id": "ram-pc-express-000000002572",
+      "name": "HIKSEMI Armor 8GB DDR4 3200Mhz (1X8GB) (HSC408U32E2) UDIMM Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "HIKSEMI",
+        "SKU": "RAM-HIKSEMI-000009",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/HIKSEMI8GBDDR43200MHZARMOR_1X8GB_HSC408U32E2_UDIMMMEMORY.jpg?v=1769494786"
+    },
+    {
+      "id": "ram-pc-express-0000000025f8",
+      "name": "KINGSTON 16GB DDR4 3600MHz FURY Beast RGB (KF436C18BB2A/16) Desktop Memory - Black",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000101",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-16GB-DDR4-3600MHZ-FURY-BEAST-RGB-BLK-1.jpg?v=1761889585"
+    },
+    {
+      "id": "ram-pc-express-000000000395",
+      "name": "KINGSTON 16GB DDR5 5600MT/s Fury Beast (KF556C40BBA-16) Desktop Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000123",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-000123.jpg?v=1769154230"
+    },
+    {
+      "id": "ram-pc-express-0000000034a9",
+      "name": "KINGSTON 16GB DDR5 6000MT/S (KF560C30BWEA-16) FURY Beast RGB RAM (White)",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000084",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-16GB-DDR5-6000MTS-FURY-BEAST-WHT-RGB---1.jpg?v=1695882587"
+    },
+    {
+      "id": "ram-pc-express-000000002a05",
+      "name": "KINGSTON 16GB DDR5 6000MT/S (KF560C36BBE2A-16) FURY Beast RGB Desktop Memory - Black",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000114",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-16GB-DDR5-6000MTS-FURY-BEAST-BLK-RGB.jpg?v=1764920789"
+    },
+    {
+      "id": "ram-pc-express-000000000ab3",
+      "name": "KINGSTON 32GB DDR5 5600MT/S Fury Beast (KF556C40BB-32) Desktop Memory - Black",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000093",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-32GB-DDR5-5600MTS-FURY-BEAST-1.jpg?v=1761267744"
+    },
+    {
+      "id": "ram-pc-express-000000000c64",
+      "name": "KINGSTON 32GB DDR5 6000MT/s Fury Renegade (KF560C32RWA-32) Desktop Memory - White",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000014",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-32GB-DDR5-6000MTS-RENEGADE-WHT_1X32_-1.jpg?v=1751518093"
+    },
+    {
+      "id": "ram-pc-express-000000004365",
+      "name": "KINGSTON 8GB DDR5 5600MT/S (1x 8GB) (KVR56U46BS6/8) Desktop Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000104",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-8GB-DDR5-5600MTS-1.jpg?v=1760408611"
+    },
+    {
+      "id": "ram-pc-express-000000006060",
+      "name": "KINGSTON FURY 32GB DDR5 RGB 6000MT/S (2X16GB) UDIMM Desktop Memory - Black",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000116",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON32GBDDR56000MTSFURYRGB_2X16GB_2.jpg?v=1760772439"
+    },
+    {
+      "id": "ram-pc-express-00000000409e",
+      "name": "KINGSTON FURY Beast 16GB (1x 16GB) DDR5 5600MHz Desktop Memory - Black",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000099",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-16GB-DDR5-5600MHZ-FURY-BEAST-CL36-1.jpg?v=1747641682"
+    },
+    {
+      "id": "ram-pc-express-000000004f18",
+      "name": "KINGSTON FURY Beast 8GB DDR5 5600MT/s Desktop Memory - Black",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000107",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON8GBDDR55600MTZFURYBEASTBLK1.jpg?v=1753239008"
+    },
+    {
+      "id": "ram-pc-express-0000000043d6",
+      "name": "KINGSTON FURY Renegade 16GB (1x 16GB) DDR5 6400MT/s Desktop Memory - Silver",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000091",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-16GB-DDR5-6400MTS-RENEGADE-SLR-1.jpg?v=1747640607"
+    },
+    {
+      "id": "ram-pc-express-000000003e49",
+      "name": "KINGSTON FURY Renegade 32GB (1x 32GB) DDR5 6400MT/s Desktop Memory - Silver",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000092",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-32GB-DDR5-6400MTS-RENEGADE-SLR_1X32_-1.jpg?v=1747639792"
+    },
+    {
+      "id": "ram-pc-express-000000007c6c",
+      "name": "KINGSTON FURY Renegade 32GB (2X16) DDR5 6400MT/S UDIMM Desktop Memory - Black",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000117",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON32GBDDR56400MTSRENEGADEBLK_2X16_1.jpg?v=1759803157"
+    },
+    {
+      "id": "ram-pc-express-000000005b95",
+      "name": "KINGSTON FURY Renegade 32GB DDR5 6000MT/s (2X16) RGB Memory (White)",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000078",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-32GB-DDR5-6000MHZ-RENEGADE-_2X16_-1.jpg?v=1733293626"
+    },
+    {
+      "id": "ram-pc-express-000000007255",
+      "name": "KINGSTON FURY Renegade 32GB DDR5 6400MT/s RGB Desktop Memory - White",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000100",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-32GB-DDR5-6400MTS-RENEGADE-WHT-1.jpg?v=1753258469"
+    },
+    {
+      "id": "ram-pc-express-00000000680a",
+      "name": "KINGSTON FURY Renegade 64GB (2x 32GB) DDR5 6000MT/S UDIMM Desktop Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000083",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-64GB-DDR5-6000MTS-FURY-RENEGADE-1.jpg?v=1752131119"
+    },
+    {
+      "id": "ram-pc-express-000000003fe0",
+      "name": "KINGSTON FURY™ Beast 16GB (1x 16GB) 5600MHz DDR5 Desktop Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000086",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-16GB-DDR5-5600MHZ-FURY-BEAST-CL40-1.jpg?v=1743992278"
+    },
+    {
+      "id": "ram-pc-express-000000005507",
+      "name": "KINGSTON FURY™ Beast 32GB DDR4 3200MT/S Desktop Memory",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000087",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-32GB-DDR4-3200MTS-FURY-BEAST-1.jpg?v=1750995825"
+    },
+    {
+      "id": "ram-pc-express-0000000025b4",
+      "name": "KINGSTON FURY™ Beast 8GB DDR4 3600MHz RGB Memory - Black",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000102",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-8GB-DDR4-3600MHZ-FURY-BEAST-RGB-BLK-1.jpg?v=1750990595"
+    },
+    {
+      "id": "ram-pc-express-0000000026da",
+      "name": "KINGSTON FURY™ Beast 8GB DDR4 3600MHz RGB Memory - White",
+      "category": "ram",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "RAM-KINGSTON-000103",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-KINGSTON-8GB-DDR4-3600MHZ-FURY-BEAST-RGB-WHT-1.jpg?v=1750991508"
     },
     {
       "id": "ram-pc-express-000000007fc8",
@@ -17438,125 +16407,48 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-LEXAR16GBDDR4PC3200MHZSODIMM1.jpg?v=1762832641"
     },
     {
-      "id": "ram-pc-express-0000000058c5",
-      "name": "KINGSTON Micro SD 128GB CS Flash Memory Class 10 with Adapter",
+      "id": "ram-pc-express-00000000234a",
+      "name": "STORM 8GB DDR4 2666MHz (VXSTUD4) Desktop Memory",
       "category": "ram",
       "specs": {
-        "Brand": "Kingston",
-        "SKU": "MEM-KINGSTON-000002",
+        "Brand": "Storm",
+        "SKU": "RAM-STORM-000001",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/MEM-KINGSTON-MICRO-SD-128GB-CS-CL10-W-ADPTR-1.jpg?v=1708495163"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-STORM-8GB-DDR4-2666MHZ.png?v=1754979373"
     },
     {
-      "id": "ram-pc-express-000000007694",
-      "name": "KINGSTON Micro SD 256GB CS Flash Memory Class 10 with Adapter",
+      "id": "ram-pc-express-000000005d14",
+      "name": "STORM 8GB DDR4 3200MHz (VXSTUD4/VSSTUD4) Desktop Memory",
       "category": "ram",
       "specs": {
-        "Brand": "Kingston",
-        "SKU": "MEM-KINGSTON-000003",
+        "Brand": "Storm",
+        "SKU": "RAM-STORM-000002",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/MEM-KINGSTON-MICRO-SD-256GB-CS-CL10-W-ADPTR-1_03123d3d-1fcc-4f67-83b2-41fe6484b479.jpg?v=1752498936"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-STORM-8GB-DDR4-3200MHZ.png?v=1754979687"
     },
     {
-      "id": "ram-pc-express-00000000794f",
-      "name": "KINGSTON Micro-SD 64GB CL10 with Adapter",
+      "id": "ram-pc-express-000000006321",
+      "name": "STORM 8GB DDR4 3200MHz with Heat Sink (VXSTUBGHD4/VSSTBGHUD4) Desktop Memory",
       "category": "ram",
       "specs": {
-        "Brand": "Kingston",
-        "SKU": "MEM-KINGSTON-000001",
+        "Brand": "Storm",
+        "SKU": "RAM-STORM-000003",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/MEM-KINGSTON-MICRO-SD-64GB-CL10-W-ADPTR-1.jpg?v=1701674062"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-STORM-8GB-DDR4-3200MHZ-WHS-1.png?v=1754980531"
     },
     {
-      "id": "ram-pc-express-000000001349",
-      "name": "LEXAR Micro-SD 256GB LX-633A Flash Memory",
+      "id": "ram-pc-express-000000001701",
+      "name": "SUPERSONIC 16GB DDR4 3200MHz (SU2G6541G0732SC) Desktop Memory",
       "category": "ram",
       "specs": {
-        "Brand": "Lexar",
-        "SKU": "MEM-LEXAR-000024",
+        "Brand": "Supersonic",
+        "SKU": "RAM-Supersonic-000001",
         "Availability": "out_of_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/MEM-LEXAR-MICRO-SD-256GB-LX-633A256GB-1_0fd5aef2-b1de-4c11-a488-0169c2ba2408.jpg?v=1752498946"
-    },
-    {
-      "id": "ram-pc-express-000000002a60",
-      "name": "LEXAR MICRO SD 128GB LX-633X/128GB Memory Card",
-      "category": "ram",
-      "specs": {
-        "Brand": "Lexar",
-        "SKU": "MEM-LEXAR-000023",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/1a_d5c4c16d-f603-483b-8999-47038139d774.jpg?v=1752498941"
-    },
-    {
-      "id": "ram-pc-express-000000002694",
-      "name": "LEXAR MICRO SD 64GB LX-633X/64GB Memory Card",
-      "category": "ram",
-      "specs": {
-        "Brand": "Lexar",
-        "SKU": "MEM-LEXAR-000022",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/2_3a9046c9-8201-4d7e-b0a1-adf26b7faf31.jpg?v=1736219238"
-    },
-    {
-      "id": "ram-pc-express-000000001a39",
-      "name": "SANDISK 128GB (SDSQXCD-128G-GN6MA) Extreme PRO microSDXC™ UHS-I CARD",
-      "category": "ram",
-      "specs": {
-        "Brand": "Sandisk",
-        "SKU": "MEM-SANDISK-000005",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/MEM-SANDISK-MICRO-SD-128GB-EXTREME-PRO-SDXC-WADAP-1.jpg?v=1720140065"
-    },
-    {
-      "id": "ram-pc-express-00000000015c",
-      "name": "SANDISK 256GB GamePlay microSD™ Card for Mobile and Handheld Console Gaming",
-      "category": "ram",
-      "specs": {
-        "Brand": "Sandisk",
-        "SKU": "MEM-SANDISK-000007",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/MEM-SANDISK-MICRO-SD-256GB-4K-ULTRA-HD-GAMEPLAY-1.jpg?v=1724125248"
-    },
-    {
-      "id": "ram-pc-express-000000003158",
-      "name": "SANDISK Micro SD 256GB Class 10 Ultra A1 Flash Memory Without Adapter",
-      "category": "ram",
-      "specs": {
-        "Brand": "Sandisk",
-        "SKU": "MEM-SANDISK-000002",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/MEM-SANDISK-MICRO-SD-256GB-CL10-ULTRAA1-WO-ADPTR-1.jpg?v=1708501708"
-    },
-    {
-      "id": "ram-pc-express-000000006149",
-      "name": "SANDISK ULTRA® 128GB microSDXC UHS-I CARD",
-      "category": "ram",
-      "specs": {
-        "Brand": "Sandisk",
-        "SKU": "MEM-SANDISK-000001",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/1.MEM-SANDISK-MICRO-SD-128GB-CL10-ULTRA-WO-ADPTR.jpg?v=1694161613"
-    },
-    {
-      "id": "ram-pc-express-0000000027ae",
-      "name": "SANDISK ULTRA® 64GB microSDXC UHS-I CARD",
-      "category": "ram",
-      "specs": {
-        "Brand": "Sandisk",
-        "SKU": "MEM-SANDISK-000004",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/MEM-SANDISK-MICRO-SD-64GB-CL10-ULTRA-WO-ADPTR-1.jpg?v=1702083283"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/RAM-SUPERSONIC-16GB-DDR4-3200MHZ.png?v=1754980770"
     },
     {
       "id": "ram-pc-express-000000004bd5",
@@ -18125,339 +17017,6 @@
     {
       "id": "ram-villman-000000001ab0",
       "name": "TRANSCEND 32GB DDR5 4800 SODIMM (JM4800ASE)",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000005b45",
-      "name": "Dahua DHI-TF-C100 32GB MicroSD Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000001c01",
-      "name": "SanDisk 16GB (SDSQUNC-016G-GN6MA) MicroSD Class 10 Ultra with Adapter 80MB/s",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-0000000034f3",
-      "name": "Samsung 16GB Class 10 MB-MPAGCA Micro SDHC UHS-I Card w/ Adapter",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000001066",
-      "name": "Dahua DHI-TF-C100 64GB MicroSD Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000006d41",
-      "name": "SanDisk Ultra 32GB microSDHC UHS-I card with Adapter - 98MB/s U1 A1 - SDSQUAR-032G-GN6MA",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-0000000048ea",
-      "name": "SanDisk 32GB (SDSQUNC-032G-GN6MA) MicroSD Class 10 Ultra with Adapter 80MB/s",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-0000000038df",
-      "name": "Netac P500 EXTREME PRO microSDXC w/ adapter NT02P500PRO-064G-R",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000005a49",
-      "name": "Samsung 32GB Class 10 MB-MPBGCA Micro SDHC UHS-I Card w/ Adapter",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000002fb2",
-      "name": "Sandisk 32GB SDSDB-O32G SDHC Secure Digital Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000003ab9",
-      "name": "SanDisk Extreme 32GB MicroSD UHS-I Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-00000000470e",
-      "name": "SanDisk EXTREME PRO 32GB microSDXC UHS-II CARD",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-0000000006a7",
-      "name": "SanDisk 64GB ULTRA MICROSDXC Class 10 UHS-1 SDSQUNR-064G-GN3MN",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000001b95",
-      "name": "Dahua DHI-TF-C100 128GB MicroSD Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-0000000026e7",
-      "name": "SanDisk 64GB (SDSQUNC-064G-GN6MA) MicroSD Class 10 Ultra with Adapter 80MB/s",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000003a5e",
-      "name": "Netac P500 EXTREME PRO microSDXC w/ adapter NT02P500PRO-128G-R",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-00000000393b",
-      "name": "SanDisk 128GB ULTRA MICROSDXC Class 10 UHS-1 SDSQUNR-128G-GN3MN",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-00000000494f",
-      "name": "Samsung 64GB Class 10 MB-MGCGBA Micro SDXC UHS-I PRO Card w/ Adapter",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000002659",
-      "name": "SanDisk Extreme 64GB MicroSD UHS-I Card",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-0000000021e1",
-      "name": "Sandisk 64GB EXTREME MICROSDXC SDSQXHA V30 U3 C10 A2 UHS-I",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-0000000066fe",
-      "name": "SanDisk 64GB EXTREME MICROSDXC SDSQXAH UHS-I CARD SDSQXAH-064G-GN6MN",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000005ce7",
-      "name": "SanDisk 128GB MICROSDXC GAMEPLAY UHS-I SDSQXAA-128G-GN6XN",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000001845",
-      "name": "SanDisk 128GB EXTREME MICROSDXC SDSQXAA UHS-I CARD SDSQXAA-128G-GN6MN",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000006b5e",
-      "name": "SanDisk 64GB EXTREME PRO MICROSDXC SDSQXCU-064G-GN6MA V30/U3/C10/A2/UHS-I 200MB/s R/90MB/S W/4X6",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000006021",
-      "name": "SanDisk EXTREME 128GB microSDXC UHS-I CARD",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000006208",
-      "name": "Sandisk 64GB Extreme PRO microSDXC UHS-I CARD",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-00000000737a",
-      "name": "SanDisk 128GB EXTREME PRO MICRO SDXC SDSQXCD-128G-GN6MA V30/U3/C10/A2/UHS-I/200MBs R/140MBs W/4x6",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-0000000075fd",
-      "name": "Samsung MicroSDXC 128GB EVO (MB-MP128DA/AM) Memory Card with Adapter",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000002951",
-      "name": "Samsung (MB-MC256GA/APC) 256GB MICROSDXC EVO PLUS with adapter Class 10",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-00000000054a",
-      "name": "SanDisk 256GB ULTRA MICROSDXC Class 10 UHS-1 SDSQUNR-256G-GN3MN",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-0000000002a6",
-      "name": "SanDisk 256GB EXTREME MICROSDXC SDSQXAV UHS-I CARD SDSQXAV-256G-GN6MN",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000002b49",
-      "name": "SanDisk 256GB EXTREME PRO MICRO SDXC SDSQXCD-256G-GN6MA V30/U3/C10/A2/UHS-I/200MBs R/140MBs W/4x6",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000002342",
-      "name": "SanDisk 512GB ULTRA MICROSDXC C10 UHS-1 100MB/s R 4x6 SDSQUNR-512G-GN3MN",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-0000000041e5",
-      "name": "SanDisk 512GB EXTREME MICROSDXC SDSQXAV UHS-I CARD SDSQXAV-512G-GN6MN",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000007b41",
-      "name": "SanDisk 512GB Extreme PRO microSDXC UHS-I SDSQXCD-512G-GN6MA",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-0000000048b1",
-      "name": "Lexar 1TB PLAY PRO High-Performance microSDXC up to 900MB/s read and 600MB/s write (LMSXPS0001T-BNNCU)",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000002632",
-      "name": "UGREEN USB-C/USB-A TO TF/SD 3.0 Card Reader With USB Power (Gray) (CM185/50706)",
-      "category": "ram",
-      "specs": {
-        "Availability": "unknown"
-      },
-      "imageUrl": null
-    },
-    {
-      "id": "ram-villman-000000006d14",
-      "name": "Apacer Mega Steno AM250",
       "category": "ram",
       "specs": {
         "Availability": "unknown"

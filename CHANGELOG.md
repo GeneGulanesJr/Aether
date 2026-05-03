@@ -12,6 +12,9 @@
 - Cloudflare-oriented docs: `README.md`, `docs/scaffold-checklist.md`, `wrangler.toml`, `.env.example`
 - GitHub Actions: `ci.yml` (lint, typecheck, schema validate, build), `publish-r2.yml` (disabled until configured)
 - SPA routing fallback via `public/_redirects`
+- **Vitest test runner** with `@testing-library/react`, `@testing-library/jest-dom`, and `happy-dom` (jsdom)
+  - Added `vitest.config.ts`, `src/test/setup.ts`, and test scripts (`test`, `test:watch`, `coverage`)
+  - First unit tests for `priceUtils` (15 tests across `priceUtils.test.ts` and `catalogParsers.test.ts`)
 
 ### Changed
 

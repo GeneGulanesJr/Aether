@@ -33,7 +33,7 @@ export function App() {
     return (
       <div className="flex min-h-dvh flex-col items-center justify-center bg-xai-bg">
         <p className="font-mono text-[0.625rem] text-xai-text-4 uppercase tracking-[0.2em] mb-6">
-          PC Builder PH
+          Aether
         </p>
         <div className="w-40 h-0.5 bg-xai-border overflow-hidden relative">
           <div

@@ -52,6 +52,9 @@ tmp/
 # OS
 Thumbs.db
 
+# Doom benchmark — fetched on demand via scripts/fetch-doom.mjs
+public/doom/
+
 
 # Scrapper
 

@@ -84,6 +84,16 @@ export function WizardModal({ isOpen, onClose, children }: WizardModalProps) {
 
     return () => {
       document.removeEventListener('keydown', handleKeyDown)
+
+      // Restore body scroll in case component unmounts while open
+      const scrollY = document.body.style.top
+      document.body.style.position = ''
+      document.body.style.top = ''
+      document.body.style.left = ''
+      document.body.style.right = ''
+      if (scrollY) {
+        window.scrollTo(0, parseInt(scrollY || '0', 10) * -1)
+      }
     }
   }, [isOpen, handleKeyDown])
 

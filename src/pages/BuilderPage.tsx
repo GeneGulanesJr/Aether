@@ -8,23 +8,22 @@ import {
   USECASE_OPTIONS,
   nextGuidedStep,
   prevGuidedStep,
-  nextCustomStep,
-  prevCustomStep,
   buildScore,
   getSocketsForPlatform,
+  resolveSocketForGuided,
 } from '../lib/buildWizard'
 import { useCatalogData } from '../hooks/useCatalogData'
 import { useSound } from '../hooks/useSound'
 import { PcScene } from '../components/scene/PcScene'
 import { WizardModal } from '../components/wizard/WizardModal'
+import { formatPhp } from '../lib/format'
+import { parsePrice } from '../lib/priceUtils'
 // Lazy-load wizard step components — only fetched when the wizard opens
-const CompareStep = lazy(() => import('../components/wizard/CompareStep').then(m => ({ default: m.CompareStep })))
 const PartSelectStep = lazy(() => import('../components/wizard/PartSelectStep').then(m => ({ default: m.PartSelectStep })))
+const PlatformStep = lazy(() => import('../components/wizard/PlatformStep').then(m => ({ default: m.PlatformStep })))
 const ReviewStep = lazy(() => import('../components/wizard/ReviewStep').then(m => ({ default: m.ReviewStep })))
 const QuestLog = lazy(() => import('../components/wizard/QuestLog').then(m => ({ default: m.QuestLog })))
-const CustomPlatformSelect = lazy(() => import('../components/wizard/CustomBuildFlow').then(m => ({ default: m.CustomPlatformSelect })))
 const CustomSocketSelect = lazy(() => import('../components/wizard/CustomBuildFlow').then(m => ({ default: m.CustomSocketSelect })))
-const CustomPartsSelect = lazy(() => import('../components/wizard/CustomBuildFlow').then(m => ({ default: m.CustomPartsSelect })))
 
 export function BuilderPage() {
   const [state, setState] = useState<WizardState>(INITIAL_STATE)
@@ -33,18 +32,8 @@ export function BuilderPage() {
   const {
     parts,
     priceByPartId,
-    livePriceByPartId,
-    livePriceState,
-    livePriceError,
-    fetchLivePrices,
   } = useCatalogData()
   const sound = useSound()
-
-  // Resolve the active socket object when in custom mode
-  const activeSocket = useMemo(() => {
-    if (!state.socket || !state.platform) return null
-    return getSocketsForPlatform(state.platform).find((s) => s.id === state.socket) ?? null
-  }, [state.socket, state.platform])
 
   // ─── Modal open/close ───────────────────────────────────────────────────
 
@@ -60,7 +49,7 @@ export function BuilderPage() {
 
   const chooseCustom = useCallback(() => {
     sound.pop()
-    setState((prev) => ({ ...prev, mode: 'custom', step: 'custom_platform' }))
+    setState((prev) => ({ ...prev, mode: 'guided', step: 'platform', budget: null, useCase: null }))
   }, [sound])
 
   // ─── Guided: back / next ────────────────────────────────────────────────
@@ -68,17 +57,6 @@ export function BuilderPage() {
   const guidedNext = useCallback(() => {
     setState((prev) => {
       const n = nextGuidedStep(prev.step)
-      if (!n) return prev
-      const completedAt = n === 'review' ? Date.now() : prev.completedAt
-      return { ...prev, step: n, completedAt }
-    })
-  }, [])
-
-  // ─── Custom: back / next ────────────────────────────────────────────────
-
-  const customNext = useCallback(() => {
-    setState((prev) => {
-      const n = nextCustomStep(prev.step)
       if (!n) return prev
       const completedAt = n === 'review' ? Date.now() : prev.completedAt
       return { ...prev, step: n, completedAt }
@@ -94,12 +72,15 @@ export function BuilderPage() {
 
   const selectUseCase = useCallback((useCase: UseCase) => {
     sound.pop()
-    setState((prev) => ({ ...prev, useCase, step: 'compare' }))
+    setState((prev) => ({ ...prev, useCase, step: 'platform' }))
   }, [sound])
 
   const selectPlatform = useCallback((platform: Platform) => {
     sound.pop()
-    setState((prev) => ({ ...prev, platform, step: 'cpu' }))
+    setState((prev) => {
+      const socket = resolveSocketForGuided(platform, prev.budget ?? 'mid')
+      return { ...prev, platform, socket: socket?.id ?? null, step: 'socket' }
+    })
   }, [sound])
 
   const selectPart = useCallback((category: BuildSlotCategory, part: Part) => {
@@ -119,15 +100,10 @@ export function BuilderPage() {
     })
   }, [sound])
 
-  // Custom-specific: platform + socket
-  const selectCustomPlatform = useCallback((platform: Platform) => {
-    sound.pop()
-    setState((prev) => ({ ...prev, platform, step: 'custom_socket' }))
-  }, [sound])
-
+  // Custom-specific: socket
   const selectSocket = useCallback((socket: SocketOption) => {
     sound.pop()
-    setState((prev) => ({ ...prev, socket: socket.id, step: 'custom_parts' }))
+    setState((prev) => ({ ...prev, socket: socket.id, step: 'cpu' }))
   }, [sound])
 
   const restart = useCallback(() => {
@@ -144,15 +120,12 @@ export function BuilderPage() {
       if (prev.step === 'mode') {
         return { ...INITIAL_STATE }
       }
-      // If on first step of guided/custom, go back to mode picker
-      if (prev.step === 'budget' || prev.step === 'custom_platform') {
-        return { ...prev, step: 'mode' }
-      }
-      // Otherwise use mode-appropriate back
-      if (prev.mode === 'custom') {
-        const p = prevCustomStep(prev.step)
-        return p ? { ...prev, step: p } : prev
-      }
+      // Back navigation for unified flow
+      if (prev.step === 'budget') return { ...prev, step: 'mode' }
+      if (prev.step === 'usecase') return { ...prev, step: 'budget' }
+      if (prev.step === 'platform') return { ...prev, step: 'budget' }
+      if (prev.step === 'socket') return { ...prev, step: 'platform' }
+      // Part steps go back through the guided step sequence
       const p = prevGuidedStep(prev.step)
       return p ? { ...prev, step: p } : prev
     })
@@ -161,41 +134,28 @@ export function BuilderPage() {
   // ─── Derived ────────────────────────────────────────────────────────────
 
   const currentPartStepIndex = useMemo(() => {
-    if (!state.step || state.step === 'review' || state.step === 'compare') return -1
+    if (!state.step || state.step === 'review' || state.step === 'platform' || state.step === 'socket') return -1
     return PART_STEPS.findIndex((s) => s.id === state.step)
   }, [state.step])
 
   const score = useMemo(() => buildScore(state.selectedParts), [state.selectedParts])
 
-  // Budget-aware part filtering for guided mode
+  // Budget-aware part filtering for guided mode.
+  // Returns [withinBudget, overBudget] — both are shown, but over-budget parts
+  // are tagged with a visual indicator so users can decide.
   const budgetFilter = useMemo(() => {
     const tier = state.budget
-    if (tier === 'low') return 15000
-    if (tier === 'mid') return 40000
-    return Infinity // high = no filter
+    if (tier === 'low') return { hard: 15000, stretch: 18000 }
+    if (tier === 'mid') return { hard: 40000, stretch: 50000 }
+    return { hard: Infinity, stretch: Infinity } // high = no filter
   }, [state.budget])
-
-  const guidedParts = useMemo(() => {
-    if (budgetFilter === Infinity) return parts
-    return parts.filter((p) => {
-      const raw = priceByPartId?.[p.id]
-      if (!raw) return true // no price info — include by default
-      const num = Number(raw.replace(/[^0-9.]/g, ''))
-      return isNaN(num) || num <= budgetFilter
-    })
-  }, [parts, priceByPartId, budgetFilter])
 
   // Close mobile quest log when modal closes
   useEffect(() => {
-    if (!modalOpen) setMobileQuestOpen(false)
-  }, [modalOpen])
-
-  // Auto-fetch live prices when reaching review step
-  useEffect(() => {
-    if (state.step === 'review') {
-      fetchLivePrices()
+    if (!modalOpen && mobileQuestOpen) {
+      setMobileQuestOpen(false)
     }
-  }, [state.step, fetchLivePrices])
+  }, [modalOpen, mobileQuestOpen])
 
   return (
     <main className="relative flex flex-1 flex-col">
@@ -203,6 +163,17 @@ export function BuilderPage() {
       <div className="absolute inset-0 z-0" aria-hidden="true">
         <PcScene selectedParts={state.selectedParts} />
       </div>
+
+      {/* ══════════ Post-Wizard Overlay (mobile dead-end fix) ══════════ */}
+      {!modalOpen && (
+        <PostWizardOverlay
+          state={state}
+          score={score}
+          priceByPartId={priceByPartId}
+          onOpenWizard={() => setModalOpen(true)}
+          onRestart={() => { restart(); setModalOpen(true) }}
+        />
+      )}
 
       {/* ══════════ Wizard Modal ══════════ */}
       <WizardModal isOpen={modalOpen} onClose={closeModal}>
@@ -212,10 +183,15 @@ export function BuilderPage() {
           {state.step === 'mode' && 'Choose your build mode'}
           {state.step === 'budget' && 'Select your budget'}
           {state.step === 'usecase' && 'Select your use case'}
-          {state.step === 'compare' && 'Compare AMD vs Intel builds'}
-          {state.step === 'custom_platform' && 'Choose your platform'}
-          {state.step === 'custom_socket' && 'Choose your socket'}
-          {state.step === 'custom_parts' && 'Select your parts'}
+          {state.step === 'platform' && 'Choose your platform'}
+          {state.step === 'socket' && 'Select your socket'}
+          {state.step === 'cpu' && 'Select your CPU'}
+          {state.step === 'motherboard' && 'Select your motherboard'}
+          {state.step === 'ram' && 'Select your memory'}
+          {state.step === 'gpu' && 'Select your graphics card'}
+          {state.step === 'storage' && 'Select your storage'}
+          {state.step === 'psu' && 'Select your power supply'}
+          {state.step === 'case' && 'Select your case'}
           {state.step === 'review' && 'Review your build'}
         </div>
 
@@ -238,8 +214,8 @@ export function BuilderPage() {
             {state.step === 'usecase' && (
               <UseCaseStep onSelect={selectUseCase} onBack={goBackFromModeOrFirstStep} />
             )}
-            {state.step === 'compare' && state.budget && state.useCase && (
-              <CompareStep
+            {state.step === 'platform' && (
+              <PlatformStep
                 budget={state.budget}
                 useCase={state.useCase}
                 onSelect={selectPlatform}
@@ -249,13 +225,19 @@ export function BuilderPage() {
             {currentPartStepIndex >= 0 && state.platform && (() => {
               const stepInfo = PART_STEPS[currentPartStepIndex]
               const category = stepInfo.category!
+              // Resolve socket whenever platform + socket id are known
+              const guidedSocket = state.socket
+                ? getSocketsForPlatform(state.platform).find(s => s.id === state.socket) ?? null
+                : null
               return (
                 <PartSelectStep
                   step={stepInfo}
                   platform={state.platform}
-                  parts={state.mode === 'guided' ? guidedParts : parts}
+                  socket={guidedSocket}
+                  parts={parts}
                   selectedPart={state.selectedParts[category] ?? null}
                   priceByPartId={priceByPartId}
+                  budgetLimit={state.budget ? budgetFilter : undefined}
                   onSelect={(part) => selectPart(category, part)}
                   onRemove={() => removePart(category)}
                   onNext={guidedNext}
@@ -264,30 +246,10 @@ export function BuilderPage() {
                 />
               )
             })()}
-
-            {/* ── Custom Path ── */}
-            {state.step === 'custom_platform' && (
-              <CustomPlatformSelect
-                onSelect={selectCustomPlatform}
-                onBack={goBackFromModeOrFirstStep}
-              />
-            )}
-            {state.step === 'custom_socket' && state.platform && (
+            {state.step === 'socket' && state.platform && (
               <CustomSocketSelect
                 platform={state.platform}
                 onSelect={selectSocket}
-                onBack={goBackFromModeOrFirstStep}
-              />
-            )}
-            {state.step === 'custom_parts' && activeSocket && (
-              <CustomPartsSelect
-                state={state}
-                socket={activeSocket}
-                parts={parts}
-                priceByPartId={priceByPartId}
-                onSelectPart={selectPart}
-                onRemovePart={removePart}
-                onReview={customNext}
                 onBack={goBackFromModeOrFirstStep}
               />
             )}
@@ -297,11 +259,11 @@ export function BuilderPage() {
               <ReviewStep
                 state={state}
                 onRestart={restart}
-                priceByPartId={livePriceByPartId ?? priceByPartId}
-                isEstimated={livePriceByPartId === undefined}
-                livePriceState={livePriceState}
-                livePriceError={livePriceError}
-                onFetchLivePrices={fetchLivePrices}
+                priceByPartId={priceByPartId}
+                isEstimated={true}
+                livePriceState={undefined}
+                livePriceError={undefined}
+                onFetchLivePrices={() => {}}
               />
             )}
           </div>
@@ -394,8 +356,7 @@ function ModePicker({
             Guided Build
           </p>
           <p className="text-xai-text-3 text-xs mt-1.5 leading-snug">
-            Answer a few questions — budget, use case — then compare
-            AMD vs Intel side-by-side.
+            Answer a few questions — budget, use case — then pick your platform and parts.
           </p>
           <div className="mt-3 flex flex-wrap gap-1.5" aria-hidden="true">
             <span className="xai-tag text-[0.5625rem]">Budget Pick</span>
@@ -492,6 +453,108 @@ function UseCaseStep({ onSelect, onBack }: { onSelect: (u: UseCase) => void; onB
             </div>
           </button>
         ))}
+      </div>
+    </div>
+  )
+}
+
+// ═════════════════════════════════════════════════════════════════════════════
+// Post-Wizard Overlay — shown when wizard modal is closed on mobile
+// ═════════════════════════════════════════════════════════════════════════════
+
+function PostWizardOverlay({
+  state,
+  score,
+  priceByPartId,
+  onOpenWizard,
+  onRestart,
+}: {
+  state: WizardState
+  score: number
+  priceByPartId: Record<string, string> | undefined
+  onOpenWizard: () => void
+  onRestart: () => void
+}) {
+  const filledCount = Object.keys(state.selectedParts).length
+  const hasParts = filledCount > 0
+  const isComplete = filledCount === PART_STEPS.length
+
+  const totalPrice = priceByPartId
+    ? Object.values(state.selectedParts).reduce((sum, part) => {
+        const raw = priceByPartId[part.id]
+        if (!raw) return sum
+        const num = parsePrice(raw, part.id)
+        return sum + (isNaN(num) ? 0 : num)
+      }, 0)
+    : 0
+
+  return (
+    <div className="relative z-10 flex flex-col items-center justify-center min-h-0 flex-1 px-6 py-12">
+      <div className="absolute inset-0 bg-xai-bg/80" aria-hidden="true" />
+      <div className="relative z-10 flex flex-col items-center max-w-sm w-full">
+        {hasParts ? (
+          <>
+            <span className="text-3xl mb-4 block" aria-hidden="true">
+              {isComplete ? '🏆' : '🔧'}
+            </span>
+            <h2 className="xai-heading text-xai-text text-center">
+              {isComplete ? 'Build Complete' : 'Build In Progress'}
+            </h2>
+            <div className="flex items-center gap-4 mt-4">
+              <div className="text-center">
+                <p className="font-mono text-xl text-xai-text">{score}</p>
+                <p className="font-mono text-[0.5rem] text-xai-text-4 uppercase tracking-wider">Score</p>
+              </div>
+              <div className="w-px h-8 bg-xai-border" aria-hidden="true" />
+              <div className="text-center">
+                <p className="font-mono text-xl text-xai-text">{filledCount}/{PART_STEPS.length}</p>
+                <p className="font-mono text-[0.5rem] text-xai-text-4 uppercase tracking-wider">Parts</p>
+              </div>
+              {totalPrice > 0 && (
+                <>
+                  <div className="w-px h-8 bg-xai-border" aria-hidden="true" />
+                  <div className="text-center">
+                    <p className="font-mono text-xl text-xai-text">{formatPhp(totalPrice)}</p>
+                    <p className="font-mono text-[0.5rem] text-xai-text-4 uppercase tracking-wider">Total</p>
+                  </div>
+                </>
+              )}
+            </div>
+            <div className="w-full mt-6 xai-card max-h-48 overflow-y-auto">
+              <ul className="list-none p-0 m-0">
+                {PART_STEPS.map((step) => {
+                  const part = step.category ? state.selectedParts[step.category] : null
+                  if (!part) return null
+                  return (
+                    <li key={step.id} className="flex items-center gap-2 border-b border-xai-border py-1.5 last:border-0">
+                      <span className="text-xs" aria-hidden="true">{step.icon}</span>
+                      <span className="font-mono text-[0.625rem] text-xai-text-3 truncate flex-1">{part.name}</span>
+                    </li>
+                  )
+                })}
+              </ul>
+            </div>
+            <div className="flex flex-col gap-2 mt-6 w-full">
+              <button onClick={onOpenWizard} className="xai-btn xai-btn-primary w-full">
+                {isComplete ? 'VIEW FULL REVIEW →' : 'CONTINUE BUILDING →'}
+              </button>
+              <button onClick={onRestart} className="xai-btn xai-btn-ghost w-full">
+                START OVER
+              </button>
+            </div>
+          </>
+        ) : (
+          <>
+            <span className="text-3xl mb-4 block" aria-hidden="true">🖥️</span>
+            <h2 className="xai-heading text-xai-text text-center">Build Your Dream PC</h2>
+            <p className="font-mono text-xs text-xai-text-3 text-center mt-2">
+              Answer questions or hand-pick every part — your call.
+            </p>
+            <button onClick={onOpenWizard} className="xai-btn xai-btn-primary mt-6">
+              START BUILDING →
+            </button>
+          </>
+        )}
       </div>
     </div>
   )

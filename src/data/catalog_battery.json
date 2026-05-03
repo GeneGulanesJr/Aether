@@ -1,0 +1,3762 @@
+{
+  "schemaVersion": "1.0",
+  "category": "battery",
+  "items": [
+    {
+      "id": "battery-dynaquest-pc-000000005f8c",
+      "name": "Joyroom D-M219 Plus 20000mAh Power Bank (Black | White)",
+      "category": "battery",
+      "specs": {
+        "Brand": "Joyroom",
+        "SKU": "11042103",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/DM219_B.jpg?v=1636018115"
+    },
+    {
+      "id": "battery-dynaquest-pc-000000000518",
+      "name": "Canon LK-72 Battery Pack for Canon TR150 TR160 Printer",
+      "category": "battery",
+      "specs": {
+        "Brand": "Canon",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/97_6c7b6ecb-c7ec-46c5-9967-3b25e3d11270.png?v=1776239416"
+    },
+    {
+      "id": "battery-dynaquest-pc-0000000076d3",
+      "name": "Vention 10000mAh 35W Compact and Portable Air Travel Friendly Power Bank USB-C ( FHEH0-TY )",
+      "category": "battery",
+      "specs": {
+        "Brand": "Vention",
+        "SKU": "PR000700",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/166_70c59023-ba1b-436c-83ee-c8918a04822c.png?v=1775117511"
+    },
+    {
+      "id": "battery-dynaquest-pc-000000004dc6",
+      "name": "Vention 20000mAh 45W Compact and Portable Air Travel Friendly Power Bank USB-C/USB-A (FHGH0-TY)",
+      "category": "battery",
+      "specs": {
+        "Brand": "Vention",
+        "SKU": "PR000701",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/159_e57555f2-9897-401b-8817-917e65912c53.png?v=1775116402"
+    },
+    {
+      "id": "battery-dynaquest-pc-000000003cd7",
+      "name": "HUAWEI AP08Q 10000mAh POWER BANK BLACK",
+      "category": "battery",
+      "specs": {
+        "Brand": "Huawei",
+        "SKU": "56021",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/107_c1a0f301-4a6f-4ff6-aa72-e86219252c70.png?v=1774683525"
+    },
+    {
+      "id": "battery-dynaquest-pc-000000005f20",
+      "name": "UGreen 25000mAH PD 145W Fast Charging Power Bank PB205/90597A",
+      "category": "battery",
+      "specs": {
+        "Brand": "Ugreen",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/368_1662de0b-4121-42af-ab19-001434561960.png?v=1770021306"
+    },
+    {
+      "id": "battery-dynaquest-pc-000000007c1e",
+      "name": "Vention 165W 20000mAh Laptop Powerbank Fast Charging Power Bank FKFH0",
+      "category": "battery",
+      "specs": {
+        "Brand": "Vention",
+        "SKU": "PR000592",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/292_b6e4a77c-81b3-437c-91f6-4420a66b65da.png?v=1765267819"
+    },
+    {
+      "id": "battery-dynaquest-pc-000000001fc0",
+      "name": "Vention 200W 27000mAh Laptop Powerbank Fast Charging Power Bank FKGH0",
+      "category": "battery",
+      "specs": {
+        "Brand": "Vention",
+        "SKU": "PR000593",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/285_740f13e6-6f0a-48b7-8370-a577ce201f93.png?v=1765266639"
+    },
+    {
+      "id": "battery-dynaquest-pc-0000000030af",
+      "name": "Voltme Hypercore Rollz 10K 10000mAh 22.5W USB-C Powerbank",
+      "category": "battery",
+      "specs": {
+        "Brand": "Voltme",
+        "SKU": "PR001639",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/319_a875cb89-9e81-4830-9ca2-1ad53f26304d.png?v=1766453186"
+    },
+    {
+      "id": "battery-dynaquest-pc-0000000000a5",
+      "name": "Voltme Hypercore Sling 10K 10000mAh 22.5W Powerbank B3027",
+      "category": "battery",
+      "specs": {
+        "Brand": "Voltme",
+        "SKU": "PR001638",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/313_edacf82d-51c3-4d9a-acce-08ff5a9be75c.png?v=1766366392"
+    },
+    {
+      "id": "battery-dynaquest-pc-000000006d5f",
+      "name": "Voltme Hypercore 10K TRIO Power Bank 10000mAh | 35W Fast Charging | USB-C/USB-A/Dual Port | Built-in Cable | Slim & Compact",
+      "category": "battery",
+      "specs": {
+        "Brand": "Voltme",
+        "SKU": "56003",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/299_25871bba-b742-44a3-87f9-f012a13bdd7b.png?v=1766313492"
+    },
+    {
+      "id": "battery-dynaquest-pc-0000000070f5",
+      "name": "Hydance 8800mAh Travaeller Mobile Power Bank",
+      "category": "battery",
+      "specs": {
+        "Brand": "Hydance",
+        "SKU": "1483",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/180_02286a0a-11a2-4cf8-9a4c-b997aa5b5b7b.png?v=1750386972"
+    },
+    {
+      "id": "battery-dynaquest-pc-000000003875",
+      "name": "HAVIT PB5215 10,000mAh | PD20W Powerbank with USB-C & Lightning Cable | ABS Material",
+      "category": "battery",
+      "specs": {
+        "Brand": "Havit",
+        "SKU": "PR000993",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/292.png?v=1746671684"
+    },
+    {
+      "id": "battery-dynaquest-pc-000000004556",
+      "name": "QICENT 4 Port USB Charger ( Black DA-4U-US-BK / White DA-4U-US-WH )",
+      "category": "battery",
+      "specs": {
+        "Brand": "Qicent",
+        "SKU": "4938",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/51Soy7cbF7L._SX425.jpg?v=1571552361"
+    },
+    {
+      "id": "battery-dynaquest-pc-0000000005f3",
+      "name": "UGreen GaN X 65W Wall Charger 3C1A US",
+      "category": "battery",
+      "specs": {
+        "Brand": "Ugreen",
+        "SKU": "70090",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500x_a0337a66-ea4d-411b-bfa6-64354f3d2995.jpg?v=1642060410"
+    },
+    {
+      "id": "battery-dynaquest-pc-0000000003bb",
+      "name": "UGreen CD275/90495 65W 3-Port 2C1A GAN Fast Charger White",
+      "category": "battery",
+      "specs": {
+        "Brand": "Ugreen",
+        "SKU": "55607",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/UGreenCD2759049565W3-Port2C1AGANFastChargerWhite.jpg?v=1698639938"
+    },
+    {
+      "id": "battery-dynaquest-pc-0000000065bf",
+      "name": "UGREEN Fast Charger Adapter w/ PD 20W White CD137/60449",
+      "category": "battery",
+      "specs": {
+        "Brand": "Ugreen",
+        "SKU": "12906",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/UGREENFASTCHARGERADAPTERwPD20WWHITECD137-60449.jpg?v=1645521130"
+    },
+    {
+      "id": "battery-dynaquest-pc-000000001166",
+      "name": "TPLink TL-PB10000 10000mAh Power Bank Black",
+      "category": "battery",
+      "specs": {
+        "Brand": "TPLink",
+        "SKU": "10453",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500x_390cd1f0-e2f9-4e43-be22-767cae74147d.jpg?v=1636361281"
+    },
+    {
+      "id": "battery-dynaquest-pc-000000002aca",
+      "name": "Super Charge Travel Charger with Wireless Power Bank 6700mAh",
+      "category": "battery",
+      "specs": {
+        "Brand": "DynaQuest PC",
+        "SKU": "12693",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/0753da91c79c5c54502f30f38dc24ab4_jpg_720x720q80_jpg.png?v=1636360523"
+    },
+    {
+      "id": "battery-dynaquest-pc-0000000013c9",
+      "name": "Yoobao W10 10000mAh Wireless Power Bank (Black)",
+      "category": "battery",
+      "specs": {
+        "Brand": "Yoobao",
+        "SKU": "12691",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500x_5a12daaa-6c6c-486e-a003-17afe95e7e0f.jpg?v=1636358054"
+    },
+    {
+      "id": "battery-dynaquest-pc-000000003f94",
+      "name": "Romoss Sense 4 Plus LCD 10000mAh Fast Charge Power Bank (White)",
+      "category": "battery",
+      "specs": {
+        "Brand": "Romoss",
+        "SKU": "12690",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500x_e62ae119-ed9c-4678-97b5-9ba977429900.jpg?v=1636357566"
+    },
+    {
+      "id": "battery-dynaquest-pc-000000002325",
+      "name": "Romoss Lite Solit 5 10000MaH (Black / White)",
+      "category": "battery",
+      "specs": {
+        "Brand": "Romoss",
+        "SKU": "126879",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500x_6d80520e-af7d-4a3b-8bf2-e0b0e672fddc.jpg?v=1636356877"
+    },
+    {
+      "id": "battery-dynaquest-pc-00000000316b",
+      "name": "Joyroom D-T199 2in1 10000mAh Combo Wireless Charger Power Bank (White)",
+      "category": "battery",
+      "specs": {
+        "Brand": "Joyroom",
+        "SKU": "12689",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500x_006f6945-9256-4193-b041-c85b918e594e.jpg?v=1636354700"
+    },
+    {
+      "id": "battery-dynaquest-pc-000000002c38",
+      "name": "Joyroom D-QP183 15W 10000mAh Wireless Power Bank with Suction",
+      "category": "battery",
+      "specs": {
+        "Brand": "Joyroom",
+        "SKU": "12688",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500x_13538b43-20af-4e02-9381-61e1b0221a7c.jpg?v=1636354213"
+    },
+    {
+      "id": "battery-dynaquest-pc-000000006aff",
+      "name": "Joyroom D-M219 10000mAh Power Bank (Black | White)",
+      "category": "battery",
+      "specs": {
+        "Brand": "Joyroom",
+        "SKU": "12685",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/DM219B.jpg?v=1636017971"
+    },
+    {
+      "id": "battery-dynaquest-pc-000000006ab5",
+      "name": "Prolink PPB721 Powerbank Energiepak Pastel 7200mAH",
+      "category": "battery",
+      "specs": {
+        "Brand": "Prolink",
+        "SKU": "6061",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/ProlinkPPB721.jpg?v=1608891518"
+    },
+    {
+      "id": "battery-dynaquest-pc-000000000dc2",
+      "name": "Belkin Micro USB 3.0 Car Charger w/Charge and Sync Cable",
+      "category": "battery",
+      "specs": {
+        "Brand": "Belkin",
+        "SKU": "61103",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/372.jpg?v=1571552361"
+    },
+    {
+      "id": "battery-dynaquest-pc-000000002d5d",
+      "name": "Huntkey 65w Slim new edition Notebook Adapter",
+      "category": "battery",
+      "specs": {
+        "Brand": "Huntkey",
+        "SKU": "1481",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/Huntkey_65w_Slim_new_edition_Notebook_Adapter.jpg?v=1571552737"
+    },
+    {
+      "id": "battery-dynaquest-pc-000000003224",
+      "name": "Huntkey 65w ES III Universal Notebook Adapter",
+      "category": "battery",
+      "specs": {
+        "Brand": "Huntkey",
+        "SKU": "56465465419816",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/Huntkey65wESIIIUniversalNotebookAdapter.jpg?v=1676251180"
+    },
+    {
+      "id": "battery-dynaquest-pc-00000000603b",
+      "name": "Battery FM 1270 12v 7.0Ah",
+      "category": "battery",
+      "specs": {
+        "Brand": "Unbranded",
+        "SKU": "6220",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/UPSes-Battery.jpg?v=1571552891"
+    },
+    {
+      "id": "battery-gigahertz-0000000029cf",
+      "name": "Lenovo Battery Legion Y7000-1060 WL for replacement - Legion Y7000",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY LEGION Y7000-1060 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-battery-legion-y7000-1060-wl-for-replacement-legion-y7000-lenovo-gigahertz-292402.jpg?v=1732765865"
+    },
+    {
+      "id": "battery-gigahertz-000000002f9f",
+      "name": "Replacement Battery for Asus UX580GE WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY UX580GE WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYUX580GEWL.jpg?v=1731462106"
+    },
+    {
+      "id": "battery-gigahertz-000000003de2",
+      "name": "Lenovo Battey ThinkBook 14-IML WL for Replacement - ThinkBook 14-IML",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY THINKBOOK 14-IML WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-battey-thinkbook-14-iml-wl-for-replacement-thinkbook-14-iml-lenovo-gigahertz-341406.jpg?v=1732765866"
+    },
+    {
+      "id": "battery-gigahertz-000000006a7b",
+      "name": "Lenovo Battery E15 Gen 2 WL for replacement - ThinkPad E15 Gen 2",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY E15 GEN 2 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-battery-e15-gen-2-wl-for-replacement-thinkpad-e15-gen-2-lenovo-gigahertz-378989.jpg?v=1731912368"
+    },
+    {
+      "id": "battery-gigahertz-000000003a6b",
+      "name": "Lenovo Battery IdeaPad S340-15IIL WL for Lenovo IdeaPad S340-15IIL",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART LENOVO BATTERY IDEAPAD S340-15IIL WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-battery-ideapad-s340-15iil-wl-for-lenovo-ideapad-s340-15iil-lenovo-gigahertz-431716.jpg?v=1732765865"
+    },
+    {
+      "id": "battery-gigahertz-000000007da0",
+      "name": "Replacement for Asus Battery PU401LA WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY PU401LA WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYPU401LAWL.jpg?v=1731461954"
+    },
+    {
+      "id": "battery-gigahertz-000000007bee",
+      "name": "Replacement Battery for Lenovo IdeaPad 3-15IMH05 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY IDEAPAD GAMING 3-15IMH05 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-ideapad-3-15imh05-a1-lenovo-gigahertz-979988.jpg?v=1732766336"
+    },
+    {
+      "id": "battery-gigahertz-000000006b4c",
+      "name": "Lenovo 02DL007 BATTERY WL for Lenovo Thinkpad T490",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO 02DL007 BATTERY WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-02dl007-battery-wl-for-lenovo-thinkpad-t490-lenovo-gigahertz-445938.jpg?v=1734424740"
+    },
+    {
+      "id": "battery-gigahertz-0000000069f2",
+      "name": "Replacement Battery for Lenovo Legion Y730-15ICH A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY LEGION Y730-15ICH A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-legion-y730-15ich-a1-lenovo-gigahertz-661217.jpg?v=1732766337"
+    },
+    {
+      "id": "battery-gigahertz-000000006d94",
+      "name": "Replacement Battery for Asus UM325UA A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY UM325UA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-um325ua-a1-asus-gigahertz-177527.jpg?v=1729561125"
+    },
+    {
+      "id": "battery-gigahertz-0000000045ad",
+      "name": "Acer Battery PH315-51 WL for Acer Predator Helios PH315-51-74V4",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY PH315-51 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-battery-ph315-51-wl-for-acer-predator-helios-ph315-51-74v4-acer-gigahertz-930356.jpg?v=1730265151"
+    },
+    {
+      "id": "battery-gigahertz-000000002260",
+      "name": "Lenovo Battery Legion Y530-15ICH A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY LEGION Y530-15ICH A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYLEGIONY530-15ICHA1.jpg?v=1730965351"
+    },
+    {
+      "id": "battery-gigahertz-000000004bd1",
+      "name": "Lenovo Battery Legion 5-15IMH05H A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY Legion 5-15IMH05H A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYLegion5-15IMH05HA1.jpg?v=1731478521"
+    },
+    {
+      "id": "battery-gigahertz-0000000071e0",
+      "name": "Asus Battery FX505DY A1 for Asus TUF Gaming FX505DY",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY FX505DY A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYFX505DYA1.jpg?v=1731649124"
+    },
+    {
+      "id": "battery-gigahertz-00000000357c",
+      "name": "Replacement for Asus Battery G731GV A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY G731GV A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-for-asus-battery-g731gv-a1-asus-gigahertz-222041.jpg?v=1732766396"
+    },
+    {
+      "id": "battery-gigahertz-000000000b12",
+      "name": "Replacement Battery for Lenovo S540-13IML A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY S540-13IML A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-s540-13iml-a1-lenovo-gigahertz-996854.jpg?v=1732766337"
+    },
+    {
+      "id": "battery-gigahertz-000000007786",
+      "name": "Acer Battery PH315-51 A1 for Acer Predator Helios 300 PH315-51",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY PH315-51 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-battery-ph315-51-a1-for-acer-predator-helios-300-ph315-51-acer-gigahertz-921790.jpg?v=1730265151"
+    },
+    {
+      "id": "battery-gigahertz-0000000000f0",
+      "name": "Lenovo Battery Yoga C640-13IML WL for replacement - Yoga C640-13IML",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY YOGA C640-13IML WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-battery-yoga-c640-13iml-wl-for-replacement-yoga-c640-13iml-lenovo-gigahertz-841928.jpg?v=1732765866"
+    },
+    {
+      "id": "battery-gigahertz-0000000043c1",
+      "name": "Lenovo Battery V15-ADA A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY V15-ADA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-battery-v15-ada-a1-lenovo-gigahertz-898956.jpg?v=1731046724"
+    },
+    {
+      "id": "battery-gigahertz-000000001edf",
+      "name": "Lenovo Battery T480 Thinkpad WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY T480 Thinkpad WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-battery-t480-thinkpad-wl-lenovo-gigahertz-688073.jpg?v=1730962061"
+    },
+    {
+      "id": "battery-gigahertz-00000000468c",
+      "name": "Lenovo Battery Legion 5-15ITH6 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERTY Legion 5-15ITH6 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERTYLegion5-15ITH6A1.jpg?v=1731478053"
+    },
+    {
+      "id": "battery-gigahertz-000000004efa",
+      "name": "Lenovo Battery Legion 5 -15ACH6 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY LEGION 5-15ACH6 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYLEGION5-15ACH6A1.jpg?v=1730964385"
+    },
+    {
+      "id": "battery-gigahertz-000000002bc7",
+      "name": "Lenovo Battery Ideapad Gaming 3-15IHU6 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY IDEAPAD GAMING 3-15IHU6 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYIDEAPADGAMING3-15IHU6A1.jpg?v=1731478353"
+    },
+    {
+      "id": "battery-gigahertz-000000003abc",
+      "name": "Acer Battery PH315-52 WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY PH315-52 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERBATTERYPH315-52WL.jpg?v=1730192007"
+    },
+    {
+      "id": "battery-gigahertz-000000002ad6",
+      "name": "Acer Battery A514-52KG A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY A514-52KG A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERBATTERYA514-52KGA1.jpg?v=1730188279"
+    },
+    {
+      "id": "battery-gigahertz-000000006303",
+      "name": "Replacement Battery for Lenovo IdeaPad 3-15ITL6 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY IDEAPAD 3-15ITL6 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-ideapad-3-15itl6-a1-lenovo-gigahertz-926465.jpg?v=1732766337"
+    },
+    {
+      "id": "battery-gigahertz-00000000330e",
+      "name": "Replacement Battery for Asus UX533FD A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY UX533FD A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYUX533FDA1.jpg?v=1731462069"
+    },
+    {
+      "id": "battery-gigahertz-0000000019fd",
+      "name": "Replacement Battery for Acer G3-571 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY G3-571 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-g3-571-a1-acer-gigahertz-401927.jpg?v=1730266197"
+    },
+    {
+      "id": "battery-gigahertz-00000000690a",
+      "name": "Replacement Battery for Acer AN515-54 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY AN515-54 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-an515-54-a1-acer-gigahertz-537201.jpg?v=1730266196"
+    },
+    {
+      "id": "battery-gigahertz-0000000010da",
+      "name": "Replacement Battery for Lenovo ThinkBook 15-IML A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY THINKBOOK 15-IML A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-thinkbook-15-iml-a1-lenovo-gigahertz-899678.jpg?v=1732766338"
+    },
+    {
+      "id": "battery-gigahertz-000000004f6c",
+      "name": "Replacement Battery for Asus GL704GW A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY GL704GW A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-gl704gw-a1-asus-gigahertz-919304.jpg?v=1731913169"
+    },
+    {
+      "id": "battery-gigahertz-00000000402f",
+      "name": "Replacement Battery for Acer PH315-53 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY PH315-53 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-ph315-53-a1-acer-gigahertz-500864.jpg?v=1730266198"
+    },
+    {
+      "id": "battery-gigahertz-0000000002f7",
+      "name": "Replacement Battery for Lenovo Legion Y520-15IKBN WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY LEGION Y520-15IKBN WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-legion-y520-15ikbn-wl-lenovo-gigahertz-296561.jpg?v=1731913170"
+    },
+    {
+      "id": "battery-gigahertz-00000000402f",
+      "name": "Replacement Battery for Acer PH315-53 WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY PH315-53 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-ph315-53-wl-acer-gigahertz-430201.jpg?v=1732766264"
+    },
+    {
+      "id": "battery-gigahertz-000000000c86",
+      "name": "Asus Battery X540UA A1 for Asus VivoBook 15 X540UA",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X540UA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/asus-battery-x540ua-a1-for-asus-vivobook-15-x540ua-asus-gigahertz-792898.jpg?v=1732765412"
+    },
+    {
+      "id": "battery-gigahertz-0000000038c3",
+      "name": "Asus Battery GM501GM A1 for Asus ROG Zephyrus M GM501",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY GM501GM A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYGM501GMA1.jpg?v=1731647761"
+    },
+    {
+      "id": "battery-gigahertz-000000000d3c",
+      "name": "Asus Battery UX530U A1 for Asus ZenBook UX530",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS UX530U BATTERY A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSUX530UBATTERYA1.jpg?v=1731892747"
+    },
+    {
+      "id": "battery-gigahertz-000000005d7c",
+      "name": "Acer Battery VX5-591G A1 for Acer Aspire VX 15 VX5-591G",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY VX5-591G A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-battery-vx5-591g-a1-for-acer-aspire-vx-15-vx5-591g-acer-gigahertz-609251.jpg?v=1730265152"
+    },
+    {
+      "id": "battery-gigahertz-0000000032a6",
+      "name": "Replacement Asus Battery Zenfone X01BDA A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY ZENFONE X01BDA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-asus-battery-zenfone-x01bda-a1-asus-gigahertz-742865.jpg?v=1733192297"
+    },
+    {
+      "id": "battery-gigahertz-0000000078c8",
+      "name": "Replacement Asus Battery ZS661KS ROG3 WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY ZS661KS ROG3 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYZS661KSROG3WL.jpg?v=1731891453"
+    },
+    {
+      "id": "battery-gigahertz-000000002550",
+      "name": "Replacement Asus Battery ZU680KL A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY ZU680KL A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYZU680KLA1.jpg?v=1731891481"
+    },
+    {
+      "id": "battery-gigahertz-000000006e1f",
+      "name": "Replacement Asus Battery ZC554KL A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY ZC554KL A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYZC554KLA1.jpg?v=1731891425"
+    },
+    {
+      "id": "battery-gigahertz-00000000191f",
+      "name": "Replacement Asus Battery Z01QD A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY Z01QD A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYZ01QDA1.jpg?v=1731890978"
+    },
+    {
+      "id": "battery-gigahertz-000000006f61",
+      "name": "Replacement Asus Battery X550DP A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X550DP A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYX550DPA1.jpg?v=1731650819"
+    },
+    {
+      "id": "battery-gigahertz-000000002d2e",
+      "name": "Replacement Asus Battery ZB631KL A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY ZB631KL A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYZB631KLA1.jpg?v=1731648309"
+    },
+    {
+      "id": "battery-gigahertz-000000005ace",
+      "name": "Replacement Asus Battery X560UD A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X560UD A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYX560UDA1.jpg?v=1731890940"
+    },
+    {
+      "id": "battery-gigahertz-000000003c7d",
+      "name": "Replacement Asus Battery X415EP A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X415EP A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYX415EPA1.jpg?v=1731650440"
+    },
+    {
+      "id": "battery-gigahertz-00000000213d",
+      "name": "Replacement Asus Battery X530U A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X530U A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-asus-battery-x530u-a1-asus-gigahertz-538536.jpg?v=1731913036"
+    },
+    {
+      "id": "battery-gigahertz-000000002ac8",
+      "name": "Replacement Asus Battery X441UA A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X441UA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYX441UAA1.jpg?v=1731650510"
+    },
+    {
+      "id": "battery-gigahertz-00000000383a",
+      "name": "Replacement Asus Battery X412UB A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X412UB A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYX412UBA1.jpg?v=1731650407"
+    },
+    {
+      "id": "battery-gigahertz-00000000631b",
+      "name": "Replacement Asus Battery X00TDB A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X00TDB A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYX00TDBA1.jpg?v=1731650279"
+    },
+    {
+      "id": "battery-gigahertz-0000000013e2",
+      "name": "Lenovo Battery Yoga 520-14IKB A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY YOGA 520-14IKB ALT A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-battery-yoga-520-14ikb-a1-lenovo-gigahertz-563913.jpg?v=1731912410"
+    },
+    {
+      "id": "battery-gigahertz-000000002bf2",
+      "name": "Lenovo Battery Xiaoxin Air-14 WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY Lenovo Xiaoxin Air-14 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYLenovoXiaoxinAir-14WL.jpg?v=1730879179"
+    },
+    {
+      "id": "battery-gigahertz-000000002b74",
+      "name": "Lenovo Battery T480s Thinkpad WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY T480s THINKPAD WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYT480sTHINKPADWL.jpg?v=1730964618"
+    },
+    {
+      "id": "battery-gigahertz-000000003674",
+      "name": "Lenovo Battery U410 WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY U410 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYU410WL.jpg?v=1730964663"
+    },
+    {
+      "id": "battery-gigahertz-000000000e8a",
+      "name": "Lenovo Battery T480s THINKPAD A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY T480s THINKPAD A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYT480sTHINKPADA1.jpg?v=1731479107"
+    },
+    {
+      "id": "battery-gigahertz-0000000038dc",
+      "name": "Lenovo Battery T460s A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY T460s A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYT460sA1.jpg?v=1730879327"
+    },
+    {
+      "id": "battery-gigahertz-000000007c30",
+      "name": "Lenovo Battery S340-13IML WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY S340-13IML WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYS340-13IMLWL.jpg?v=1730964564"
+    },
+    {
+      "id": "battery-gigahertz-000000002b81",
+      "name": "Lenovo Battery P52 (Type 20M9, 20MA) WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY P52 (Type 20M9, 20MA) WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYP52_Type20M9_20MA_WL.jpg?v=1730879245"
+    },
+    {
+      "id": "battery-gigahertz-000000003a01",
+      "name": "Lenovo Battery Legion Y7000-2019 WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY LEGION Y7000-2019 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYLEGIONY7000-2019WL.jpg?v=1731478683"
+    },
+    {
+      "id": "battery-gigahertz-00000000169d",
+      "name": "Lenovo Battery Legion Y540-15IRH-PG0 WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY LEGION Y540-15IRH-PG0 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYLEGIONY540-15IRH-PG0WL.jpg?v=1731478640"
+    },
+    {
+      "id": "battery-gigahertz-00000000751a",
+      "name": "Lenovo Battery Legion 5-15ITH6H WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY LEGION 5-15ITH6H WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-battery-legion-5-15ith6h-wl-lenovo-gigahertz-252620.jpg?v=1731046724"
+    },
+    {
+      "id": "battery-gigahertz-000000005aa2",
+      "name": "Lenovo Battery L460 WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY L460 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-battery-l460-wl-lenovo-gigahertz-191510.jpg?v=1731912373"
+    },
+    {
+      "id": "battery-gigahertz-000000007cc5",
+      "name": "Lenovo Battery Ideapad 5-14ALC05 WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY IDEAPAD 5-14ALC05 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYIDEAPAD5-14ALC05WL.jpg?v=1730964236"
+    },
+    {
+      "id": "battery-gigahertz-000000006e59",
+      "name": "Lenovo Battery Ideapad Gaming 3-15ARH05 HH",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY IDEAPAD GAMING 3-15ARH05 HH",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYIDEAPADGAMING3-15ARH05HH.jpg?v=1730964311"
+    },
+    {
+      "id": "battery-gigahertz-00000000659c",
+      "name": "Lenovo Battery Ideapad 720S-13ARR A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY IDEAPAD 720S-13ARR A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYIDEAPAD720S-13ARRA1.jpg?v=1730964275"
+    },
+    {
+      "id": "battery-gigahertz-000000002616",
+      "name": "Lenovo Battery Ideapad 3-14ITL6 WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTAERY IDEAPAD 3-14ITL6 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-battery-ideapad-3-14itl6-wl-lenovo-gigahertz-682950.jpg?v=1731046724"
+    },
+    {
+      "id": "battery-gigahertz-0000000062f9",
+      "name": "Lenovo Battery Ideapad 3-14ITL05 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY IDEAPAD 3-14ITL05 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYIDEAPAD3-14ITL05A1.jpg?v=1730962558"
+    },
+    {
+      "id": "battery-gigahertz-000000001a26",
+      "name": "Lenovo Battery E460 Thinkpad WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY E460 THINKPAD WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYE460THINKPADWL.jpg?v=1731633643"
+    },
+    {
+      "id": "battery-gigahertz-00000000156e",
+      "name": "Lenovo Battery G40-80 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY G40-80 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-battery-g40-80-a1-lenovo-gigahertz-160518.jpg?v=1731912373"
+    },
+    {
+      "id": "battery-gigahertz-00000000159c",
+      "name": "Lenovo Battery E14 GEN 2 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY E14 GEN 2 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-battery-e14-gen-2-a1-lenovo-gigahertz-774012.jpg?v=1731912368"
+    },
+    {
+      "id": "battery-gigahertz-000000002f7b",
+      "name": "Lenovo Battery C340-14IML A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY C340-14IML A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYC340-14IMLA1.jpg?v=1731478217"
+    },
+    {
+      "id": "battery-gigahertz-00000000676d",
+      "name": "Asus Battery UX550VE A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY UX550VE A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/asus-battery-ux550ve-a1-asus-gigahertz-646862.jpg?v=1731911492"
+    },
+    {
+      "id": "battery-gigahertz-00000000087a",
+      "name": "Asus Battery T304UA WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY T304UA WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/asus-battery-t304ua-wl-asus-gigahertz-691846.jpg?v=1731911492"
+    },
+    {
+      "id": "battery-gigahertz-0000000000d4",
+      "name": "Asus Battery T300FA HH",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY T300FA HH",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYT300FAHH.jpg?v=1731649900"
+    },
+    {
+      "id": "battery-gigahertz-000000002422",
+      "name": "Asus Battery S530UN A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY S530UN A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYS530UNA1.jpg?v=1731649843"
+    },
+    {
+      "id": "battery-gigahertz-000000003351",
+      "name": "Acer Replacement Battery for Acer Aspire 3 A314-35 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY A314-35 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-replacement-battery-for-acer-aspire-3-a314-35-a1-acer-gigahertz-471038.jpg?v=1730265207"
+    },
+    {
+      "id": "battery-gigahertz-000000004fa3",
+      "name": "Acer Battery SP111-32N A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY SP111-32N A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERBATTERYSP111-32NA1.jpg?v=1730192603"
+    },
+    {
+      "id": "battery-gigahertz-0000000029fc",
+      "name": "Acer Battery TMP214-53 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY TMP214-53 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERBATTERYTMP214-53A1.jpg?v=1730192652"
+    },
+    {
+      "id": "battery-gigahertz-000000005f71",
+      "name": "Acer Battery SF314-41G A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY SF314-41G A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERBATTERYSF314-41GA1.jpg?v=1730192313"
+    },
+    {
+      "id": "battery-gigahertz-0000000070f9",
+      "name": "Acer Battery E5-575G A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY E5-575G A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERBATTERYE5-575GA1.jpg?v=1730191165"
+    },
+    {
+      "id": "battery-gigahertz-0000000070f9",
+      "name": "Acer Battery E5-575G WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY E5-575G WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERBATTERYE5-575GWL.jpg?v=1730191227"
+    },
+    {
+      "id": "battery-gigahertz-00000000768c",
+      "name": "Acer Battery E5-47G A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY E5-47G A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERBATTERYE5-47GA1.jpg?v=1730190273"
+    },
+    {
+      "id": "battery-gigahertz-00000000639a",
+      "name": "Acer Battery AN515-58 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY AN515-58 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERBATTERYAN515-58A1.jpg?v=1730189447"
+    },
+    {
+      "id": "battery-gigahertz-000000006399",
+      "name": "Acer Battery AN515-57 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY AN515-57 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERBATTERYAN515-57A1.jpg?v=1730189386"
+    },
+    {
+      "id": "battery-gigahertz-000000004c4d",
+      "name": "Acer Battery A515-57 HH",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY A515-57 HH",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERBATTERYA515-57HH.jpg?v=1730188770"
+    },
+    {
+      "id": "battery-gigahertz-000000005322",
+      "name": "Acer Battery E5-432G A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY E5-432G A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERBATTERYE5-432GA1.jpg?v=1730190360"
+    },
+    {
+      "id": "battery-gigahertz-000000004c4d",
+      "name": "Acer Battery A515-57 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY A515-57 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERBATTERYA515-57A1.jpg?v=1730188700"
+    },
+    {
+      "id": "battery-gigahertz-000000003d32",
+      "name": "Acer Battery A515-52G WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY A515-52G WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERBATTERYA515-52GWL.jpg?v=1730188464"
+    },
+    {
+      "id": "battery-gigahertz-000000003d4e",
+      "name": "Acer Battery A515-54G A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY A515-54G A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERBATTERYA515-54GA1.jpg?v=1730188536"
+    },
+    {
+      "id": "battery-gigahertz-000000000b68",
+      "name": "Acer Aspire Battery V3-575G WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY ASPIRE V3-575G WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERBATTERYASPIREV3-575GWL.jpg?v=1730190222"
+    },
+    {
+      "id": "battery-gigahertz-000000004078",
+      "name": "Replacement Battery for Asus X455L A",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY K555UB WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-x455l-a-asus-gigahertz-529774.jpg?v=1732766267"
+    },
+    {
+      "id": "battery-gigahertz-000000001432",
+      "name": "Lenovo Battery BL-217",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PARTS-LENOVO BATT BL-217",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PARTS-LENOVOBATTBL-217.jpg?v=1731487460"
+    },
+    {
+      "id": "battery-gigahertz-000000001fea",
+      "name": "LENOVO BATTERY BL-169",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PARTS-LENOVO BATT BL-169",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PARTS-LENOVOBATTBL-169.jpg?v=1731642035"
+    },
+    {
+      "id": "battery-gigahertz-000000001432",
+      "name": "Lenovo Battery BL-194",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PARTS-LENOVO BATT BL-194",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PARTS-LENOVOBATTBL-194.jpg?v=1731487362"
+    },
+    {
+      "id": "battery-gigahertz-000000001432",
+      "name": "Lenovo Battery BL-205",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PARTS-LENOVO BATT BL-205",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PARTS-LENOVOBATTBL-205.jpg?v=1731487422"
+    },
+    {
+      "id": "battery-gigahertz-00000000738d",
+      "name": "Replacement Battery for Lenovo Flex 4-1480 WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY Flex 4-1480 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-flex-4-1480-wl-lenovo-gigahertz-587165.jpg?v=1732766335"
+    },
+    {
+      "id": "battery-gigahertz-000000004920",
+      "name": "Replacement Battery for Asus VivoBook X540NV A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X540NV A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYX540NVA1.jpg?v=1731462245"
+    },
+    {
+      "id": "battery-gigahertz-00000000088e",
+      "name": "Replacement Battery for Asus Battery FX705GM A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY FX705GM A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYFX705GMA1.jpg?v=1731649315"
+    },
+    {
+      "id": "battery-gigahertz-0000000024d9",
+      "name": "Replacement for Asus Battery X515EA A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X515EA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYX515EAA1.jpg?v=1731650731"
+    },
+    {
+      "id": "battery-gigahertz-000000004742",
+      "name": "Replacement for Asus Battery X455LD A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X455LD A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-for-asus-battery-x455ld-a1-asus-gigahertz-911082.jpg?v=1732766396"
+    },
+    {
+      "id": "battery-gigahertz-000000002b6f",
+      "name": "Replacement for Acer Battery A315-58 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY A315-58 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-for-acer-battery-a315-58-a1-acer-gigahertz-435094.jpg?v=1732766341"
+    },
+    {
+      "id": "battery-gigahertz-000000002db1",
+      "name": "ASUS 0B200-03150000 BATTERY",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS 0B200-03150000 BATTERY",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/asus-0b200-03150000-battery-asus-gigahertz-165875.jpg?v=1733133031"
+    },
+    {
+      "id": "battery-gigahertz-00000000725a",
+      "name": "Replacement for Lenovo Battery 730-13IKB A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY 730-13IKB A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-for-lenovo-battery-730-13ikb-a1-lenovo-gigahertz-804925.jpg?v=1732784152"
+    },
+    {
+      "id": "battery-gigahertz-000000007aef",
+      "name": "Replacement for Asus Battery M433IA A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY M433IA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-for-asus-battery-m433ia-a1-asus-gigahertz-750532.jpg?v=1733192476"
+    },
+    {
+      "id": "battery-gigahertz-00000000021c",
+      "name": "Replacement for Asus Battery G512LI A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY G512LI A1",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYG512LIA1.jpg?v=1731649347"
+    },
+    {
+      "id": "battery-gigahertz-000000001065",
+      "name": "Replacement for Asus Battery FX706IU A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY FX706IU A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-for-asus-battery-fx706iu-a1-asus-gigahertz-230432.jpg?v=1732766396"
+    },
+    {
+      "id": "battery-gigahertz-000000006af6",
+      "name": "Replacement Battery for Lenovo X220 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PARTS-LENOVO A1 BATTERY X220",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-x220-a1-lenovo-gigahertz-503773.jpg?v=1732766338"
+    },
+    {
+      "id": "battery-gigahertz-0000000073da",
+      "name": "Replacement Battery for Lenovo 100-14IBD A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PARTS-LENOVO A1 BATTERY 100-14IBD",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-100-14ibd-a1-lenovo-gigahertz-351801.jpg?v=1733192329"
+    },
+    {
+      "id": "battery-gigahertz-00000000706c",
+      "name": "Replacement Battery for Lenovo Yoga 910-13IKB A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY YOGA 910-13IKB A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-yoga-910-13ikb-a1-lenovo-gigahertz-974182.jpg?v=1732766338"
+    },
+    {
+      "id": "battery-gigahertz-000000007730",
+      "name": "Replacement Battery for Lenovo V14 G2-ALC A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY V14 G2-ALC A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-v14-g2-alc-a1-lenovo-gigahertz-180052.jpg?v=1732766338"
+    },
+    {
+      "id": "battery-gigahertz-000000005047",
+      "name": "Replacement Battery for Lenovo T470P ThinkPad A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY T470P THINKPAD A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-t470p-thinkpad-a1-lenovo-gigahertz-446186.jpg?v=1732766338"
+    },
+    {
+      "id": "battery-gigahertz-000000003d01",
+      "name": "Replacement Battery for Lenovo S145-14API A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY S145-14API A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-s145-14api-a1-lenovo-gigahertz-691997.jpg?v=1732766337"
+    },
+    {
+      "id": "battery-gigahertz-0000000029a7",
+      "name": "Replacement Battery for Lenovo P51s ThinkPad A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY P51s THINKPAD A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-p51s-thinkpad-a1-lenovo-gigahertz-825267.jpg?v=1732766337"
+    },
+    {
+      "id": "battery-gigahertz-00000000041a",
+      "name": "Replacement Battery for Lenovo L3-15IML05 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY L3-15IML05 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-l3-15iml05-a1-lenovo-gigahertz-486345.jpg?v=1731047428"
+    },
+    {
+      "id": "battery-gigahertz-00000000751b",
+      "name": "Replacement Battery for Lenovo IdeaPad 3-15IML05 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY IDEAPAD 3-15IML05 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-ideapad-3-15iml05-a1-lenovo-gigahertz-344440.jpg?v=1732766336"
+    },
+    {
+      "id": "battery-gigahertz-0000000004dd",
+      "name": "Replacement Battery for Lenovo IdeaPad 3-14ITL6 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY IDEAPAD 3-14ITL6 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-ideapad-3-14itl6-a1-lenovo-gigahertz-118094.jpg?v=1732766336"
+    },
+    {
+      "id": "battery-gigahertz-0000000046c5",
+      "name": "Replacement Battery for Lenovo IdeaPad 3-14IGL05 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY IDEAPAD 3-14IGL05 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-ideapad-3-14igl05-a1-lenovo-gigahertz-372683.jpg?v=1732766336"
+    },
+    {
+      "id": "battery-gigahertz-0000000000eb",
+      "name": "Replacement Battery for Lenovo G40-70 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY G40-70 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-g40-70-a1-lenovo-gigahertz-668784.jpg?v=1732766335"
+    },
+    {
+      "id": "battery-gigahertz-00000000738d",
+      "name": "Replacement Battery for Lenovo Flex 4-1480 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY FLEX 4-1480 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-flex-4-1480-a1-lenovo-gigahertz-252241.jpg?v=1732766335"
+    },
+    {
+      "id": "battery-gigahertz-0000000069eb",
+      "name": "Replacement Battery for Lenovo Flex 2-14 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY FLEX 2-14 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-flex-2-14-a1-lenovo-gigahertz-682040.jpg?v=1732766335"
+    },
+    {
+      "id": "battery-gigahertz-0000000032cc",
+      "name": "Replacement Battery for Lenovo C340-14IWL A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY C340-14IWL A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-c340-14iwl-a1-lenovo-gigahertz-595648.jpg?v=1732766335"
+    },
+    {
+      "id": "battery-gigahertz-0000000024c2",
+      "name": "Replacement Battery for Lenovo C340-14API A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY C340-14API A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-c340-14api-a1-lenovo-gigahertz-227461.jpg?v=1732784010"
+    },
+    {
+      "id": "battery-gigahertz-000000002dd6",
+      "name": "Replacement Battery for Lenovo 710S-13IKB A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY 710S-13IKB A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-710s-13ikb-a1-lenovo-gigahertz-126256.jpg?v=1732766334"
+    },
+    {
+      "id": "battery-gigahertz-000000002111",
+      "name": "Replacement Battery for Lenovo 110-14IBR A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY 110-14IBR A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-110-14ibr-a1-lenovo-gigahertz-752433.jpg?v=1730962467"
+    },
+    {
+      "id": "battery-gigahertz-0000000021fd",
+      "name": "Replacement Battery for Lenovo 110-14ISK A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY 110-14ISK A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-110-14isk-a1-lenovo-gigahertz-450900.jpg?v=1732766268"
+    },
+    {
+      "id": "battery-gigahertz-000000000549",
+      "name": "Replacement Battery for Lenovo 320-15IKB A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY 320-15IKB A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-320-15ikb-a1-lenovo-gigahertz-147201.jpg?v=1732766268"
+    },
+    {
+      "id": "battery-gigahertz-00000000408c",
+      "name": "Replacement Battery for Asus ZE620KL WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY ZF5 ZE620KL A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYZE620KLWL.jpg?v=1731462385"
+    },
+    {
+      "id": "battery-gigahertz-000000006324",
+      "name": "Replacement Battery for Asus X555QG A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X555QG A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYX555QGA1.jpg?v=1731890844"
+    },
+    {
+      "id": "battery-gigahertz-00000000626d",
+      "name": "Replacement Battery for Asus X555DG A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X555DG A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-x555dg-a1-asus-gigahertz-177022.jpg?v=1732766268"
+    },
+    {
+      "id": "battery-gigahertz-000000005b1a",
+      "name": "Replacement Battery for Asus X550ZE A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X550ZE A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYX550ZEA1.jpg?v=1731648213"
+    },
+    {
+      "id": "battery-gigahertz-0000000027a0",
+      "name": "Replacement Battery for Asus X541UA A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X541UA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-x541ua-a1-asus-gigahertz-535012.jpg?v=1732783879"
+    },
+    {
+      "id": "battery-gigahertz-000000003162",
+      "name": "Replacement Battery for Asus X455L A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X455LF A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-x455l-a1-asus-gigahertz-311925.jpg?v=1732766267"
+    },
+    {
+      "id": "battery-gigahertz-0000000021f3",
+      "name": "Replacement Battery for Asus X412FL A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X412FL A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-x412fl-a1-asus-gigahertz-207061.jpg?v=1732766267"
+    },
+    {
+      "id": "battery-gigahertz-000000000cfe",
+      "name": "Replacement Battery for Asus X405UQ A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS X405UQ BATTERY A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-x405uq-a1-asus-gigahertz-949256.jpg?v=1731913169"
+    },
+    {
+      "id": "battery-gigahertz-000000005ee3",
+      "name": "Replacement Battery for Asus UX510UX A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY UX510UX A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-ux510ux-a1-asus-gigahertz-165243.jpg?v=1732766267"
+    },
+    {
+      "id": "battery-gigahertz-0000000066c9",
+      "name": "Replacement Battery for Asus UX434FL A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY UX434FL A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYUX434FLA1.jpg?v=1731650057"
+    },
+    {
+      "id": "battery-gigahertz-000000003648",
+      "name": "Replacement Battery for Asus UX390UA A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY UX390UA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-ux390ua-a1-asus-gigahertz-283305.jpg?v=1732783879"
+    },
+    {
+      "id": "battery-gigahertz-000000000118",
+      "name": "Replacement Battery for Asus UX334FL A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY UX334FL A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-ux334fl-a1-asus-gigahertz-305222.jpg?v=1732766267"
+    },
+    {
+      "id": "battery-gigahertz-0000000002cc",
+      "name": "Replacement Battery for Asus UX333FN A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY UX333FN A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYUX333FNA1.jpg?v=1731650022"
+    },
+    {
+      "id": "battery-gigahertz-00000000071d",
+      "name": "Replacement Battery for Asus UX330UA A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY UX330UA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-ux330ua-a1-asus-gigahertz-477996.jpg?v=1732766266"
+    },
+    {
+      "id": "battery-gigahertz-000000005c2b",
+      "name": "Replacement Battery for Asus S430UN A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY S430UN A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYS430UNA1.jpg?v=1731649796"
+    },
+    {
+      "id": "battery-gigahertz-00000000150a",
+      "name": "Replacement Battery for Asus R556LA A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY R556LA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-r556la-a1-asus-gigahertz-878834.jpg?v=1732766266"
+    },
+    {
+      "id": "battery-gigahertz-00000000241e",
+      "name": "Replacement Battery for Asus K555UB A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY K555UB A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-k555ub-a1-asus-gigahertz-655845.jpg?v=1731913169"
+    },
+    {
+      "id": "battery-gigahertz-000000004988",
+      "name": "Replacement Battery for Asus GL752VL A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY GL752VL A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-gl752vl-a1-asus-gigahertz-690262.jpg?v=1732766266"
+    },
+    {
+      "id": "battery-gigahertz-000000004f6c",
+      "name": "Replacement Battery for Asus GL704GV A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY GL704GV A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-gl704gv-a1-asus-gigahertz-745756.jpg?v=1732766266"
+    },
+    {
+      "id": "battery-gigahertz-000000001945",
+      "name": "Replacement Battery for Asus GL552VX A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY GL552VX A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYGL552VXA1.jpg?v=1731461852"
+    },
+    {
+      "id": "battery-gigahertz-000000002018",
+      "name": "Replacement Battery for Asus GL503VD A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY GL503VD A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-gl503vd-a1-asus-gigahertz-611155.jpg?v=1732766265"
+    },
+    {
+      "id": "battery-gigahertz-0000000021c9",
+      "name": "Replacement Battery for Asus GL502VM A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY GL502VM A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYGL502VMA1.jpg?v=1731461770"
+    },
+    {
+      "id": "battery-gigahertz-000000005586",
+      "name": "Replacement Battery for Asus G752VM A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY G752VM A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-g752vm-a1-asus-gigahertz-548795.jpg?v=1732766265"
+    },
+    {
+      "id": "battery-gigahertz-000000007bec",
+      "name": "Replacement Battery for Asus G551VW A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY G551VW A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-g551vw-a1-asus-gigahertz-677038.jpg?v=1732783879"
+    },
+    {
+      "id": "battery-gigahertz-000000007aae",
+      "name": "Replacement Battery for Asus G51JX A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY G51JX A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-g51jx-a1-asus-gigahertz-899062.jpg?v=1732766265"
+    },
+    {
+      "id": "battery-gigahertz-000000001a21",
+      "name": "Replacement Battery for Asus FX507ZC A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY FX507ZC A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-fx507zc-a1-asus-gigahertz-469957.jpg?v=1732766265"
+    },
+    {
+      "id": "battery-gigahertz-000000001e92",
+      "name": "Replacement Battery for Asus FX505GM A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY FX505GM A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-fx505gm-a1-asus-gigahertz-332690.jpg?v=1731913169"
+    },
+    {
+      "id": "battery-gigahertz-000000001e96",
+      "name": "Replacement Battery for Asus FX505GD A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY FX505GD A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-fx505gd-a1-asus-gigahertz-802693.jpg?v=1732766264"
+    },
+    {
+      "id": "battery-gigahertz-0000000042b9",
+      "name": "Replacement Battery for Asus F750LB A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY F750LB A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-f750lb-a1-asus-gigahertz-128009.jpg?v=1732766264"
+    },
+    {
+      "id": "battery-gigahertz-0000000009f4",
+      "name": "Replacement Battery for Asus F555LA A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY F555LA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-f555la-a1-asus-gigahertz-413485.jpg?v=1732766264"
+    },
+    {
+      "id": "battery-gigahertz-000000000d4f",
+      "name": "Replacement Battery for Asus F553MA A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY F553MA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYF553MAA1.jpg?v=1731649047"
+    },
+    {
+      "id": "battery-gigahertz-0000000011e5",
+      "name": "Replacement Battery for Asus F550VX A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "PART-ASUS BATTERY F550VX A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYF550VXA1.jpg?v=1731648996"
+    },
+    {
+      "id": "battery-gigahertz-000000001e48",
+      "name": "Replacement Battery for Asus E203MA A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY E203MA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-e203ma-a1-asus-gigahertz-456412.jpg?v=1731913036"
+    },
+    {
+      "id": "battery-gigahertz-0000000012f0",
+      "name": "Replacement Battery for Asus A556UQ A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY A556UQ A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYA556UQA1.jpg?v=1731648850"
+    },
+    {
+      "id": "battery-gigahertz-0000000012eb",
+      "name": "Replacement Battery for Asus A556UF A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY A556UF A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYA556UFA1.jpg?v=1731648810"
+    },
+    {
+      "id": "battery-gigahertz-000000001e9b",
+      "name": "Replacement Battery for Acer SF314-54 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY SF314-54 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-sf314-54-a1-acer-gigahertz-166236.jpg?v=1730266198"
+    },
+    {
+      "id": "battery-gigahertz-000000001eaa",
+      "name": "Replacement Battery for Acer SF314-42 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY SF314-42 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-sf314-42-a1-acer-gigahertz-766243.jpg?v=1730266198"
+    },
+    {
+      "id": "battery-gigahertz-000000004c60",
+      "name": "Replacement Battery for Acer PT315-51 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY PT315-51 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-pt315-51-a1-acer-gigahertz-803171.jpg?v=1730266198"
+    },
+    {
+      "id": "battery-gigahertz-000000003ec8",
+      "name": "Replacement Battery for Acer E5-573 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY E5-573 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-e5-573-a1-acer-gigahertz-798527.jpg?v=1730266197"
+    },
+    {
+      "id": "battery-gigahertz-00000000690b",
+      "name": "Replacement Battery for Acer AN515-55 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY AN515-55 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-an515-55-a1-acer-gigahertz-742464.jpg?v=1730266197"
+    },
+    {
+      "id": "battery-gigahertz-0000000068fc",
+      "name": "Replacement Battery for Acer AN515-43 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY AN515-43 A1",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-an515-43-a1-acer-gigahertz-287825.jpg?v=1730266196"
+    },
+    {
+      "id": "battery-gigahertz-0000000042dd",
+      "name": "Replacement Battery for Acer A515-56G A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY A515-56G A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERBATTERYA515-56GA1.jpg?v=1730188634"
+    },
+    {
+      "id": "battery-gigahertz-000000005a58",
+      "name": "Replacement Battery for Acer A315-57G A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY A315-57G A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-a315-57g-a1-acer-gigahertz-152786.jpg?v=1732766264"
+    },
+    {
+      "id": "battery-gigahertz-000000005a30",
+      "name": "Replacement Battery for Acer A315-54K A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY A315-54K A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERBATTERYA315-54KA1.jpg?v=1730188036"
+    },
+    {
+      "id": "battery-gigahertz-000000000575",
+      "name": "Replacement Battery for Acer A315-35 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY A315-35 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-a315-35-a1-acer-gigahertz-499461.jpg?v=1732766263"
+    },
+    {
+      "id": "battery-gigahertz-0000000011b7",
+      "name": "Replacement Battery for Acer A514-54 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER A514-54 BATTERY A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-a514-54-a1-acer-gigahertz-666646.jpg?v=1732783879"
+    },
+    {
+      "id": "battery-gigahertz-00000000647d",
+      "name": "Replacement Battery for Asus GM501GS-EI002T A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PARTS-ASUS A1 BATTERY GM501GS-EI002T",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-gm501gs-ei002t-a1-asus-gigahertz-103249.jpg?v=1733192329"
+    },
+    {
+      "id": "battery-gigahertz-000000000f33",
+      "name": "Replacement Battery for Lenovo Yoga S730-13IML A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY YOGA S730-13IML A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-yoga-s730-13iml-a1-lenovo-gigahertz-310183.jpg?v=1732766339"
+    },
+    {
+      "id": "battery-gigahertz-000000001e6e",
+      "name": "Replacement Battery for Lenovo Yoga C940-14IIL A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY Yoga C940-14IIL A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-yoga-c940-14iil-a1-lenovo-gigahertz-293443.jpg?v=1732766339"
+    },
+    {
+      "id": "battery-gigahertz-000000000ab3",
+      "name": "Replacement Battery for Lenovo Yoga 730-15IWL A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY YOGA 730-15IWL A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-yoga-730-15iwl-a1-lenovo-gigahertz-578365.jpg?v=1732766338"
+    },
+    {
+      "id": "battery-gigahertz-000000006fe4",
+      "name": "Replacement Battery for Lenovo Yoga 260 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY YOGA 260 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-yoga-260-a1-lenovo-gigahertz-102694.jpg?v=1732766338"
+    },
+    {
+      "id": "battery-gigahertz-000000007dfd",
+      "name": "Replacement Battery for Lenovo ThinkBook 13S-IWL A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY THINKBOOK 13S-IWL A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-thinkbook-13s-iwl-a1-lenovo-gigahertz-551198.jpg?v=1731047428"
+    },
+    {
+      "id": "battery-gigahertz-0000000001d3",
+      "name": "Replacement Battery for Lenovo Legion Y7000-2019 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY LEGION Y7000-2019 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-legion-y7000-2019-a1-lenovo-gigahertz-314821.jpg?v=1732766337"
+    },
+    {
+      "id": "battery-gigahertz-00000000391a",
+      "name": "Replacement Battery for Lenovo IdeaPad Gaming 3-15ARH05 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY IDEAPAD GAMING 3-15ARH05 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-ideapad-gaming-3-15arh05-a1-lenovo-gigahertz-920037.jpg?v=1732766337"
+    },
+    {
+      "id": "battery-gigahertz-000000004868",
+      "name": "Replacement Battery for Lenovo IdeaPad 3-15ARE05 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY IDEAPAD 3-15ARE05 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-ideapad-3-15are05-a1-lenovo-gigahertz-867383.jpg?v=1732766336"
+    },
+    {
+      "id": "battery-gigahertz-000000005253",
+      "name": "Replacement Battery for Lenovo IdeaPad 3-15ALC6 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY IDEAPAD 3-15ALC6 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-ideapad-3-15alc6-a1-lenovo-gigahertz-407025.jpg?v=1732766336"
+    },
+    {
+      "id": "battery-gigahertz-00000000095f",
+      "name": "Replacement Battery for Lenovo IdeaPad 3-14IML05 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY IDEAPAD 3-14IML05 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-ideapad-3-14iml05-a1-lenovo-gigahertz-813774.jpg?v=1732766336"
+    },
+    {
+      "id": "battery-gigahertz-000000002c41",
+      "name": "Replacement Battery for Lenovo Flex 5-14ARE05 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY FLEX 5-14ARE05 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-flex-5-14are05-a1-lenovo-gigahertz-632903.jpg?v=1732784011"
+    },
+    {
+      "id": "battery-gigahertz-0000000069eb",
+      "name": "Replacement Battery for Lenovo Flex 2-14 WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY FLEX 2-14 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-flex-2-14-wl-lenovo-gigahertz-539047.jpg?v=1732766335"
+    },
+    {
+      "id": "battery-gigahertz-000000001f3a",
+      "name": "Replacement Battery for Lenovo 500-15ISK A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY 500-15ISK A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-500-15isk-a1-lenovo-gigahertz-609821.jpg?v=1732766334"
+    },
+    {
+      "id": "battery-gigahertz-0000000060f8",
+      "name": "Replacement Battery for Lenovo 305-14IBD A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY 305-14IBD A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-lenovo-305-14ibd-a1-lenovo-gigahertz-765016.jpg?v=1732766268"
+    },
+    {
+      "id": "battery-gigahertz-000000003f0a",
+      "name": "Replacement Battery for Asus X507 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS X507 BATTERY A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-x507-a1-asus-gigahertz-847979.jpg?v=1731913169"
+    },
+    {
+      "id": "battery-gigahertz-000000005204",
+      "name": "Replacement Battery for Asus GL702VS A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS GL702VS BATTERY A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSGL702VSBATTERYA1.jpg?v=1731648467"
+    },
+    {
+      "id": "battery-gigahertz-000000003a69",
+      "name": "Replacement Battery for Asus X571GT A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X571GT A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-x571gt-a1-asus-gigahertz-290778.jpg?v=1732783879"
+    },
+    {
+      "id": "battery-gigahertz-000000006516",
+      "name": "Replacement Battery for Asus X556UR A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X556UR A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-x556ur-a1-asus-gigahertz-919941.jpg?v=1732766268"
+    },
+    {
+      "id": "battery-gigahertz-00000000650f",
+      "name": "Replacement Battery for Asus X556UB A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X556UB A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYX556UBA1.jpg?v=1731462275"
+    },
+    {
+      "id": "battery-gigahertz-000000006255",
+      "name": "Replacement Battery for Asus X555BP A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X555BP A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYX555BPA1.jpg?v=1731648245"
+    },
+    {
+      "id": "battery-gigahertz-0000000070af",
+      "name": "Replacement Battery for Asus X515MA A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X515MA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-x515ma-a1-asus-gigahertz-626852.jpg?v=1732766268"
+    },
+    {
+      "id": "battery-gigahertz-0000000021f2",
+      "name": "Replacement Battery for Asus X412FJ A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X412FJ A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYX412FJA1.jpg?v=1731650312"
+    },
+    {
+      "id": "battery-gigahertz-000000000a0d",
+      "name": "Replacement Battery for Asus X407MA A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X407MA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-x407ma-a1-asus-gigahertz-410440.jpg?v=1732783879"
+    },
+    {
+      "id": "battery-gigahertz-000000006515",
+      "name": "Replacement Battery for Asus UX433FN A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY UX433FN A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYUX433FNA1.jpg?v=1731462025"
+    },
+    {
+      "id": "battery-gigahertz-0000000060c9",
+      "name": "Replacement Battery for Asus UX430UN A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY UX430UN A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-ux430un-a1-asus-gigahertz-653012.jpg?v=1732766267"
+    },
+    {
+      "id": "battery-gigahertz-000000000c95",
+      "name": "Replacement Battery for Asus S531FL A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY S531FL A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-s531fl-a1-asus-gigahertz-193795.jpg?v=1731913169"
+    },
+    {
+      "id": "battery-gigahertz-000000003a07",
+      "name": "Replacement Battery for Asus S410UN A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY S410UN A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYS410UNA1.jpg?v=1731649756"
+    },
+    {
+      "id": "battery-gigahertz-0000000003fc",
+      "name": "Replacement Battery for Asus K513EA A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY K513EA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYK513EAA1.jpg?v=1731647804"
+    },
+    {
+      "id": "battery-gigahertz-000000001216",
+      "name": "Replacement Battery for Asus GU501GM A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY GU501GM A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-gu501gm-a1-asus-gigahertz-989440.jpg?v=1732766266"
+    },
+    {
+      "id": "battery-gigahertz-000000001799",
+      "name": "Replacement Battery for Asus GL553VD A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY GL553VD A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-gl553vd-a1-asus-gigahertz-846894.jpg?v=1732766266"
+    },
+    {
+      "id": "battery-gigahertz-000000007ea2",
+      "name": "Replacement Battery for Asus GL533VW A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY GL533VW A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-gl533vw-a1-asus-gigahertz-193268.jpg?v=1732766265"
+    },
+    {
+      "id": "battery-gigahertz-000000005327",
+      "name": "Replacement Battery for Asus G751JL A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY G751JL A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-g751jl-a1-asus-gigahertz-547094.jpg?v=1732766265"
+    },
+    {
+      "id": "battery-gigahertz-000000001e8f",
+      "name": "Replacement Battery for Asus FX505GT A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY FX505GT A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-asus-fx505gt-a1-asus-gigahertz-357273.jpg?v=1732766265"
+    },
+    {
+      "id": "battery-gigahertz-000000001eb9",
+      "name": "Replacement Battery for Asus FX505DU A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY FX505DU A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYFX505DUA1.jpg?v=1731649082"
+    },
+    {
+      "id": "battery-gigahertz-0000000023d7",
+      "name": "Replacement Battery for Acer PT515-51 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY PT515-51 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERBATTERYPT515-51A1.jpg?v=1730192249"
+    },
+    {
+      "id": "battery-gigahertz-00000000402e",
+      "name": "Replacement Battery for Acer PH315-52 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY PH315-52 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-ph315-52-a1-acer-gigahertz-213187.jpg?v=1730266197"
+    },
+    {
+      "id": "battery-gigahertz-000000004703",
+      "name": "Replacement Battery for Acer ES1-432 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY ES1-432 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-es1-432-a1-acer-gigahertz-289019.jpg?v=1732766264"
+    },
+    {
+      "id": "battery-gigahertz-000000005fd0",
+      "name": "Replacement Battery for Acer Aspire ES1-131 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY ASPIRE ES1-131 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-aspire-es1-131-a1-acer-gigahertz-260314.jpg?v=1730266197"
+    },
+    {
+      "id": "battery-gigahertz-000000006e6d",
+      "name": "Replacement Battery for Acer AN715-51 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY AN715-51 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-an715-51-a1-acer-gigahertz-259978.jpg?v=1730266197"
+    },
+    {
+      "id": "battery-gigahertz-000000006909",
+      "name": "Replacement Battery for Acer AN515-52 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY AN515-52 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-an515-52-a1-acer-gigahertz-968749.jpg?v=1730266196"
+    },
+    {
+      "id": "battery-gigahertz-0000000068fd",
+      "name": "Replacement Battery for Acer AN515-45 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY AN515-45 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-an515-45-a1-acer-gigahertz-940548.jpg?v=1730266196"
+    },
+    {
+      "id": "battery-gigahertz-0000000068fc",
+      "name": "Replacement Battery for Acer AN515-44 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY AN515-44 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-an515-44-a1-acer-gigahertz-460935.jpg?v=1730266196"
+    },
+    {
+      "id": "battery-gigahertz-000000000558",
+      "name": "Replacement Battery for Acer A315-56 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY A315-56 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/replacement-battery-for-acer-a315-56-a1-acer-gigahertz-718276.jpg?v=1730266196"
+    },
+    {
+      "id": "battery-gigahertz-000000002b57",
+      "name": "Asus Battery A542UF A1 for Asus VivoBook 15 A542UF",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY A542UF A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYA542UFA1.jpg?v=1731648736"
+    },
+    {
+      "id": "battery-gigahertz-000000000df7",
+      "name": "Asus Battery X550LN A1 for Asus X550LN",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X550LN A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYX550LNA1.jpg?v=1731890809"
+    },
+    {
+      "id": "battery-gigahertz-000000000125",
+      "name": "Asus Battery TP410UF A1 for Asus VivoBook Flip 14 TP410UF",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY TP410UF A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYTP410UFA1.jpg?v=1731647954"
+    },
+    {
+      "id": "battery-gigahertz-00000000753b",
+      "name": "Asus Battery X541UA A1 for Asus VivoBook Max X541UA",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X541UA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/asus-battery-x541ua-a1-for-asus-vivobook-max-x541ua-asus-gigahertz-537787.jpg?v=1731911494"
+    },
+    {
+      "id": "battery-gigahertz-00000000148f",
+      "name": "Asus Battery X442UQ A1 for Asus VivoBook 14 X442UQ",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X442UQ A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYX442UQA1.jpg?v=1731648076"
+    },
+    {
+      "id": "battery-gigahertz-0000000002ed",
+      "name": "Asus Battery N550JK A1 for Asus N550JK",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY N550JK A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYN550JKA1.jpg?v=1731649597"
+    },
+    {
+      "id": "battery-gigahertz-000000003e52",
+      "name": "Asus Battery K55VD A1 for Asus K55VD",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY K55VD A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYK55VDA1.jpg?v=1731649454"
+    },
+    {
+      "id": "battery-gigahertz-000000002787",
+      "name": "Asus Battery X442UR A1 for Asus Vivobook 14 X442UR",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X442UR A1",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYX442URA1.jpg?v=1731648134"
+    },
+    {
+      "id": "battery-gigahertz-0000000007b9",
+      "name": "Asus Battery X441UR A1 for Asus Vivobook Max X441UR",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X441UR A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYX441URA1.jpg?v=1731650539"
+    },
+    {
+      "id": "battery-gigahertz-000000002d6c",
+      "name": "Asus Battery K501UX A1 for Asus K501UX",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY K501UX A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYK501UXA1.jpg?v=1731649526"
+    },
+    {
+      "id": "battery-gigahertz-00000000195f",
+      "name": "Asus Battery X540UP A1 for Asus VivoBook X540UP",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X540UP A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/asus-battery-x540up-a1-for-asus-vivobook-x540up-asus-gigahertz-853590.jpg?v=1732765412"
+    },
+    {
+      "id": "battery-gigahertz-0000000038aa",
+      "name": "ASUS Battery GL752VL A1 for Asus ROG GL752VL",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY GL752VL A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/asus-battery-gl752vl-a1-for-asus-rog-gl752vl-asus-gigahertz-195694.jpg?v=1731911491"
+    },
+    {
+      "id": "battery-gigahertz-000000005656",
+      "name": "Asus Battery A412UF A1 for Asus Vivobook 14 A412UF",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY A412UF A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYA412UFA1.jpg?v=1731648704"
+    },
+    {
+      "id": "battery-gigahertz-000000004a2d",
+      "name": "Asus Battery UX303U A1 for Asus ZenBook UX303U",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY UX303U A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYUX303UA1.jpg?v=1731649966"
+    },
+    {
+      "id": "battery-gigahertz-000000007288",
+      "name": "Asus Battery X454LJ A1 for Asus X454LJ",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X454LJ A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYX454LJA1.jpg?v=1731650610"
+    },
+    {
+      "id": "battery-gigahertz-000000003a70",
+      "name": "Asus Battery X453SA A1 for Asus X453SA",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X453SA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/asus-battery-x453sa-a1-for-asus-x453sa-asus-gigahertz-756700.jpg?v=1732765412"
+    },
+    {
+      "id": "battery-gigahertz-000000007cd6",
+      "name": "Asus Battery X452CP A1 for Asus X452CP",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X452CP A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYX452CPA1.jpg?v=1731650574"
+    },
+    {
+      "id": "battery-gigahertz-00000000052d",
+      "name": "Asus Battery UX430UN A1 for Asus ZenBook UX430UN",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY UX430UN A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/asus-battery-ux430un-a1-for-asus-zenbook-ux430un-asus-gigahertz-988832.jpg?v=1731911492"
+    },
+    {
+      "id": "battery-gigahertz-000000007914",
+      "name": "Asus Battery TP500L A1 for Asus Transformer Book Flip TP500L",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY TP500L A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYTP500LA1.jpg?v=1731649924"
+    },
+    {
+      "id": "battery-gigahertz-000000002689",
+      "name": "Asus Battery G552VW A1 for Asus G552VW",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY G552VW A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYG552VWA1.jpg?v=1731649373"
+    },
+    {
+      "id": "battery-gigahertz-000000004258",
+      "name": "Asus Battery FX553VD A1 for Asus FX553VD",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY FX553VD A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYFX553VDA1.jpg?v=1731649226"
+    },
+    {
+      "id": "battery-gigahertz-000000007161",
+      "name": "Asus Battery F541UV A1 for Asus F541UV",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY F541UV A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYF541UVA1.jpg?v=1731648956"
+    },
+    {
+      "id": "battery-gigahertz-0000000004af",
+      "name": "Asus Battery X430U A1 for Asus Zenbook 14 UX430",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X430U A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYX430UA1.jpg?v=1731650467"
+    },
+    {
+      "id": "battery-gigahertz-0000000042a4",
+      "name": "Lenovo Battery Yoga S730-13IWL A1 for Replacement - Lenovo YOGA S730-13IWL",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY YOGA S730-13IWL A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYYOGAS730-13IWLA1.jpg?v=1730879477"
+    },
+    {
+      "id": "battery-gigahertz-000000004fd6",
+      "name": "Lenovo Battery V320-17IKB",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY V320-17IKB A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-battery-v320-17ikb-lenovo-gigahertz-958678.jpg?v=1730962062"
+    },
+    {
+      "id": "battery-gigahertz-000000006f41",
+      "name": "Lenovo Battery IdeaPad S340-13I9ML A1 for Replacement - Lenovo IdeaPad S340-13IML",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY IDEAPAD S340-13I9ML A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYIDEAPADS340-13I9MLA1.jpg?v=1731478385"
+    },
+    {
+      "id": "battery-gigahertz-000000002e55",
+      "name": "Asus Battery UX305LA A1 for Asus Zenbook UX305LA",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY UX305LA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYUX305LAA1.jpg?v=1731649993"
+    },
+    {
+      "id": "battery-gigahertz-000000006b7a",
+      "name": "Lenovo Battery 300-15ISK A1 for Replacement - Lenovo IdeaPad 300-15ISK",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY 300-15ISK A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERY300-15ISKA1.jpg?v=1731478094"
+    },
+    {
+      "id": "battery-gigahertz-0000000005d8",
+      "name": "Asus Battery X407MA A1 for Asus Vivobook X407MA",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X407MA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/asus-battery-x407ma-a1-for-asus-vivobook-x407ma-asus-gigahertz-640244.jpg?v=1731911493"
+    },
+    {
+      "id": "battery-gigahertz-000000006e26",
+      "name": "Asus Battery X455L A1 for Asus X455L",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY X455L A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/asus-battery-x455l-a1-for-asus-x455l-asus-gigahertz-667067.jpg?v=1731911493"
+    },
+    {
+      "id": "battery-gigahertz-0000000061cd",
+      "name": "Lenovo 5B10T83738 Battery WL for Lenovo Yoga S740-15IRH",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO 5B10T83738 BATTERY WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-5b10t83738-battery-wl-for-lenovo-yoga-s740-15irh-lenovo-gigahertz-153430.jpg?v=1733191936"
+    },
+    {
+      "id": "battery-gigahertz-0000000008b0",
+      "name": "Lenovo 5B10X49072 BATTERY WL for Lenovo IdeaPad Flex 5 14IIL05",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO 5B10X49072 BATTERY WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-5b10x49072-battery-wl-for-lenovo-ideapad-flex-5-14iil05-lenovo-gigahertz-731768.jpg?v=1732765796"
+    },
+    {
+      "id": "battery-gigahertz-000000007586",
+      "name": "Asus GX531GS Battery A1 for Replacement - Asus GX531GS",
+      "category": "battery",
+      "specs": {
+        "Brand": "Gigahertz",
+        "SKU": "PART-ASUS BATTERY GX531GS WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/asus-gx531gs-battery-a1-for-replacement-asus-gx531gs-gigahertz-gigahertz-369514.jpg?v=1732765412"
+    },
+    {
+      "id": "battery-gigahertz-000000001894",
+      "name": "Lenovo Battery X250 WL for replacement - Thinkpad X250",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY X250 WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-battery-x250-wl-for-replacement-thinkpad-x250-lenovo-gigahertz-293628.jpg?v=1730962061"
+    },
+    {
+      "id": "battery-gigahertz-00000000528a",
+      "name": "Lenovo Batter IdeaPad 3-14IIL05 A1 for Replacement - Asus IdeaPad 3-14IIL05",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY IDEAPAD 3-14IIL05 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYIDEAPAD3-14IIL05A1.jpg?v=1731478323"
+    },
+    {
+      "id": "battery-gigahertz-00000000422d",
+      "name": "Acer Battery TMP249-G2 A1 for Acer TravelMate P249-G2",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY TMP249-G2 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-battery-tmp249-g2-a1-for-acer-travelmate-p249-g2-acer-gigahertz-609267.jpg?v=1730265152"
+    },
+    {
+      "id": "battery-gigahertz-000000005e32",
+      "name": "Replacement for Asus Battery G752VM WL",
+      "category": "battery",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "PART-ASUS BATTERY G752VM WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYG752VMWL.jpg?v=1731461671"
+    },
+    {
+      "id": "battery-gigahertz-000000000f86",
+      "name": "Asus Battery G501VW A1 for Replacement - Asus ROG G501VW",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY G501VW A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYG501VWA1.jpg?v=1731647652"
+    },
+    {
+      "id": "battery-gigahertz-000000007a55",
+      "name": "Acer Battery E5-476G A1 for Acer Aspire E5-476G",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY E5-476G A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-battery-e5-476g-a1-for-acer-aspire-e5-476g-acer-gigahertz-404411.jpg?v=1730265093"
+    },
+    {
+      "id": "battery-gigahertz-000000001fd6",
+      "name": "Lenovo Battery G40 A1 for Replacement - Lenovo IdeaPad G480",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY G40-80 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-battery-g40-a1-for-replacement-lenovo-ideapad-g480-lenovo-gigahertz-595735.jpg?v=1732765865"
+    },
+    {
+      "id": "battery-gigahertz-000000006860",
+      "name": "Acer Battery E5-475G A1 for Acer Aspire E5-475",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY E5-475G A1",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-battery-e5-475g-a1-for-acer-aspire-e5-475-acer-gigahertz-444937.jpg?v=1730265093"
+    },
+    {
+      "id": "battery-gigahertz-000000005274",
+      "name": "Asus Battery GL503VM WL for Asus Rog STRIX GL503VM-0121E7700HQ",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY GL503VM WL",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYGL503VMWL.jpg?v=1731649418"
+    },
+    {
+      "id": "battery-gigahertz-00000000576e",
+      "name": "Lenovo Battery Lenovo Air 15IKBR A1 for Replacement - Lenovo Air 15IKBR",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY LENOVO AIR 15IKBR A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYLENOVOAIR15IKBRA1.jpg?v=1730879081"
+    },
+    {
+      "id": "battery-gigahertz-0000000026e1",
+      "name": "Lenovo Battery 310-15IKB A1 for Replacement - Lenovo IdeaPad 310-15IKB",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY 310-15IKB A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERY310-15IKBA1.jpg?v=1731478174"
+    },
+    {
+      "id": "battery-gigahertz-0000000017d5",
+      "name": "Lenovo Battery Yoga 530-14ARR A1 for Replacement - Lenovo Yoga 530-14ARR",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY YOGA 530-14ARR A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYYOGA530-14ARRA1.jpg?v=1730964857"
+    },
+    {
+      "id": "battery-gigahertz-00000000385e",
+      "name": "Acer Battery ES1-432 A1 for Acer Aspire ES1-432",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY ES1-432 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-battery-es1-432-a1-for-acer-aspire-es1-432-acer-gigahertz-387334.jpg?v=1730265151"
+    },
+    {
+      "id": "battery-gigahertz-000000007685",
+      "name": "Acer Battery E5-476 A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY E5-476 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-battery-e5-476-a1-acer-gigahertz-857974.jpg?v=1730265094"
+    },
+    {
+      "id": "battery-gigahertz-000000000c15",
+      "name": "Lenovo Battery S145-14IGM A1 for Replacement - Lenovo IdeaPad S145-14IGM",
+      "category": "battery",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "PART-LENOVO BATTERY S145-14IGM A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-LENOVOBATTERYS145-14IGMA1.jpg?v=1731478775"
+    },
+    {
+      "id": "battery-gigahertz-000000005a04",
+      "name": "Acer Battery E5-473G A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY E5-473G A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-battery-e5-473g-a1-acer-gigahertz-549787.jpg?v=1730265093"
+    },
+    {
+      "id": "battery-gigahertz-000000000490",
+      "name": "Acer Battery V3-575G A1 for Acer Aspire V3-575G",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY ASPIRE V3-575G A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-battery-v3-575g-a1-for-acer-aspire-v3-575g-acer-gigahertz-151272.jpg?v=1730265151"
+    },
+    {
+      "id": "battery-gigahertz-000000002364",
+      "name": "Acer Battery 4743G A1 for Acer Aspire 4743G",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY ASPIRE 4743G A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-battery-4743g-a1-for-acer-aspire-4743g-acer-gigahertz-607829.jpg?v=1730265093"
+    },
+    {
+      "id": "battery-gigahertz-000000003bfe",
+      "name": "Acer Battery A315-42 A1 for Acer Aspire 3 A315-42",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY A315-42 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ACERBATTERYA315-42A1.jpg?v=1730187820"
+    },
+    {
+      "id": "battery-gigahertz-000000007597",
+      "name": "Acer Aspire 5 A515-52G A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY A515-52G A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-aspire-5-a515-52g-a1-acer-gigahertz-389262.jpg?v=1730265093"
+    },
+    {
+      "id": "battery-gigahertz-0000000068c7",
+      "name": "Acer Battery SF314-57 A1 for Acer Swift 3 SF314-57",
+      "category": "battery",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "PART-ACER BATTERY SF314-57 A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/acer-battery-sf314-57-a1-for-acer-swift-3-sf314-57-acer-gigahertz-302294.jpg?v=1730265151"
+    },
+    {
+      "id": "battery-gigahertz-000000001f2d",
+      "name": "Asus BATTERY F512JA A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY F512JA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYF512JAA1.jpg?v=1731648923"
+    },
+    {
+      "id": "battery-gigahertz-000000007abc",
+      "name": "Asus Battery Q524UQ A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY Q524UQ A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/PART-ASUSBATTERYQ524UQA1.jpg?v=1731649650"
+    },
+    {
+      "id": "battery-gigahertz-000000007c5d",
+      "name": "Asus Battery R540SA A1",
+      "category": "battery",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "PART-ASUS BATTERY R540SA A1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/asus-battery-r540sa-a1-asus-gigahertz-752572.jpg?v=1731911492"
+    },
+    {
+      "id": "battery-villman-000000003ab2",
+      "name": "Promate Glint-4 High Power Home Charger With Night LED Light 4 USB 4.4A Charging Ports",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000003b5f",
+      "name": "Xiaomi Mi 20W Charger Type C",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000000f5b",
+      "name": "PYXiS T5 Li-Ion 5200mAh Power Bank",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-0000000013f4",
+      "name": "Vention TAVHF 1M TYPE-C PD 100W 5A QC Fast Charger Cable",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000000b36",
+      "name": "Cabstone USB Car Charger 2x USB, 2,1 Ampere car power supply for up to two tablets/smartphones",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-0000000053c2",
+      "name": "UGREEN DP 1.4 Male To Male Plastic Case Braided Cable 2M (DP114/80392)",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000000f42",
+      "name": "PYXiS S1 5000mAh Li-Polymer Slim PowerBank Black/Gold/Silver/Pink/Blue",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-0000000050c1",
+      "name": "Cabstone USB Car Charger 2x USB, 3,1 Ampere car power supply for up to two tablets/smartphones",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000006867",
+      "name": "UGREEN Mini Robot Nexode 30W USB-C PD GAN Fast Charger (Space Grey) (CD359/15550)",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-0000000038da",
+      "name": "UGREEN Mini Robot Nexode 30W USB-C PD Gan Fast Charger (Purple) (CD359/25036)",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-0000000015a6",
+      "name": "UGREEN Mini Robot Nexode 30W USB-C PD GaN Fast Charger (Pink Blue) (CD359/45089)",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-0000000063d2",
+      "name": "PYXiS T10 Li-Ion 10400mAh Power Bank",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000006627",
+      "name": "UGREEN USB-C TO 4 USB 3.0 Hub (Grey) (CM473/20841)",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-00000000464a",
+      "name": "UGREEN USB-C To HDMI Cable 1.5M (Gray Black) (MM142/50570)",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-0000000049d5",
+      "name": "Vention FERB0-US 65W USB C 3 Ports GaN Wall Charger PD 3.0 Fast Charger USB C Power Adapter",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000003f36",
+      "name": "UGREEN 10000MAH Mini Quick Charging 20W Power Bank (Black) (PB311/25742)",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-00000000555e",
+      "name": "Silvertec TP02 6600mAh Black/White 2 USB Output 2.1A",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000005954",
+      "name": "Promate Voltag-10 10000mAh Ultra-Fast Lithium Polymer Power Bank (Blue/Pink/Black)",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000007639",
+      "name": "Apple 20W USB-C POWER ADAPTER MHJA3AM/A",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-00000000229f",
+      "name": "UGREEN Nexode 5000mAh 20W Power Bank with Built-in USB-C Connector (PB503/35338)",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-00000000198d",
+      "name": "UGREEN Mini Robot 65W 3-Port PD GAN Fast Charger (Space Grey) (CD361/15570)",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000002980",
+      "name": "Rapoo P300 10,400mAH PowerBank",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-0000000069cd",
+      "name": "Anker 24W Dual-Port USB Car Charger with PowerIQ Technology",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000006a52",
+      "name": "Vention FHEH0 10000mAh Power Bank 35W",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-0000000022e6",
+      "name": "Cooler Master POWER FORT 6000 mAh - Rechargeable Power Backup Battery Pack",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000002a9c",
+      "name": "Cabstone PocketPower 5.2 Compact USB PowerBank with 5,200 mAh Capacity",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-0000000002f8",
+      "name": "FSP AD65 65watts Adapter (Dedicated Acer)",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000005a75",
+      "name": "UGREEN Uno 10000mAh Quick Charging 30W Power Bank With Build-in USB-C Cable (Grey) (PB511/35603B)",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000000446",
+      "name": "UGREEN Uno 10000mAh Quick Charging 30W Power Bank With Build-in USB-C Cable (Purple) (PB511/35604B)",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000000a2d",
+      "name": "Belkin Power Pack 2000 Battery",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-0000000035e8",
+      "name": "FSP AD90 90watts Adapter (Dedicated Acer)",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000005078",
+      "name": "Promate PowerPod-10 (Black/Blue/White) Ultra Compact 35W SuperSpeed Power Bank with Built-In USB-C Cable",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000000aa7",
+      "name": "UGREEN Nexode 4-Port Gan Fast Charger 100w (Black) (CD226/40737)",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000002c1e",
+      "name": "DJI Mavic Mini Intelligent Flight Battery",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000007b15",
+      "name": "Anker 2nd Gen. Astro2 6000mAh External Battery Charger with PowerIQ Technology",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-0000000048f1",
+      "name": "AcBel AD65 65watts Universal Slim Adapter",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000003b8a",
+      "name": "Promate Quantum-20 (Black/White/Blue) Ultra-Compact Power Bank w/ 20,000mAh High-Capacity & Dual USB Ports",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-0000000023c1",
+      "name": "Vention FHYB0 20000mAh Power Bank 65W",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-00000000423a",
+      "name": "Promate Powermag-Trio 10000MAH Supercharge Magsafe Compatible And Apple Watch Wireless Charging Power Bank (Black, White)",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000007fa9",
+      "name": "UGREEN 20000MAH PD 100W Fast Charging Power Bank (PB720/25188)",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000007b0c",
+      "name": "Anker 2nd Gen Astro2 9000mAh External Battery Charger with PowerIQ Technology",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000006e9c",
+      "name": "UGREEN 25000MAH PD 145W Fast Charging Power Bank (PB205/90597A)",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000002b09",
+      "name": "Anker 2nd Gen Astro3 12000mAh External Battery Charger with PowerIQ Technology",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-000000001aa0",
+      "name": "Anker 2nd Gen Astro Pro2 20000mAh Quad-Port External Battery with PowerIQ Technology",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-00000000477f",
+      "name": "Huawei Back-Up ST310-s 1TB",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "battery-villman-0000000012dd",
+      "name": "Canon LK-72 Battery Pack",
+      "category": "battery",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    }
+  ]
+}

@@ -5,11 +5,11 @@
  * Z-index normalizes when max exceeds 100.
  */
 
-import { createContext, useContext, useReducer, useCallback, type ReactNode } from 'react'
+import { createContext, useReducer, useCallback, type ReactNode } from 'react'
 
 // ── Types ──
 
-export type AppType = 'marketplace' | 'my-rig' | 'part-properties' | 'terminal' | 'doom-game'
+export type AppType = 'marketplace' | 'my-rig' | 'part-properties' | 'terminal' | 'doom-game' | 'wizard'
 
 export interface WindowState {
   id: string
@@ -55,6 +55,7 @@ function getDefaultSize(appType: AppType): { width: number; height: number } {
     'part-properties': { vw: 0.40, vh: 0.60, minW: 500, minH: 450 },
     terminal:       { vw: 0.45, vh: 0.50, minW: 560, minH: 360 },
     'doom-game':    { vw: 0.75, vh: 0.80, minW: 640, minH: 480 },
+    wizard:         { vw: 0.80, vh: 0.85, minW: 540, minH: 600 },
   }
 
   const s = sizes[appType]
@@ -192,7 +193,7 @@ interface WindowManagerContextValue {
   getWindowByType: (appType: AppType) => WindowState | undefined
 }
 
-const WindowManagerContext = createContext<WindowManagerContextValue | null>(null)
+export const WindowManagerContext = createContext<WindowManagerContextValue | null>(null)
 
 // ── Provider ──
 
@@ -274,8 +275,3 @@ export function WindowManagerProvider({ children }: { children: ReactNode }) {
   )
 }
 
-export function useWindowManager() {
-  const ctx = useContext(WindowManagerContext)
-  if (!ctx) throw new Error('useWindowManager must be used within WindowManagerProvider')
-  return ctx
-}

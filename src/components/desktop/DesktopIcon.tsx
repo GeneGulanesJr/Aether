@@ -4,7 +4,7 @@
  */
 
 import { useCallback } from 'react'
-import { useWindowManager, type AppType } from '../../lib/windowManager'
+import { useWindowManager, type AppType } from '../../lib/useWindowManager'
 
 interface DesktopIconProps {
   icon: string

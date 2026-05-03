@@ -19,7 +19,7 @@ export function AppShell({ children }: AppShellProps) {
       <header className="border-b border-xai-border">
         <nav aria-label="Main navigation" className="mx-auto max-w-7xl flex items-center justify-between px-4 py-3 sm:px-6">
           <p className="font-mono text-sm text-xai-text uppercase tracking-wider">
-            PC Builder PH
+            Aether
           </p>
           <div className="flex items-center gap-4">
             <span className="font-mono text-[0.625rem] text-xai-text-4 uppercase tracking-wider hidden sm:block">
@@ -41,7 +41,7 @@ export function AppShell({ children }: AppShellProps) {
       >
         <div className="mx-auto max-w-7xl flex items-center justify-between px-4 py-3 sm:px-6">
           <p className="font-mono text-[0.625rem] text-xai-text-4 uppercase tracking-wider">
-            PC Builder PH · {new Date().getFullYear()}
+            Aether · {new Date().getFullYear()}
           </p>
           <p className="font-mono text-[0.625rem] text-xai-text-4 uppercase tracking-wider hidden sm:block">
             Rotate or widen for desktop experience

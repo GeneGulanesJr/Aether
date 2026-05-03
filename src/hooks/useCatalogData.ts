@@ -1,24 +1,26 @@
 /**
- * Catalog data hook — static parts + snapshot prices + optional live prices.
+ * Catalog data hook — static parts + snapshot prices.
  *
- * Parts (CPU, Motherboard, GPU) are bundled at build time from src/data/*.json.
- * Prices default to a bundled snapshot (src/data/prices_snapshot.json) — zero network calls.
- * Live prices are fetched on demand from the Worker API (D1) via fetchLivePrices().
+ * All data is bundled at build time from src/data/*.json — zero network calls.
+ * Parts and prices are loaded asynchronously after first paint to keep the
+ * initial bundle small.
  */
 
-import { useState, useCallback, useEffect } from 'react'
-import { useQuery } from '@tanstack/react-query'
-import { fetchPrices } from '../lib/apiClient'
+import { useState, useEffect } from 'react'
 import { buildPriceMap } from '../lib/priceUtils'
-import { getDataSourceMode } from '../lib/env'
-import { getErrorMessage } from '../lib/errors'
 import type { Part, PriceEntry } from '../lib/types'
 
 // ── Dynamic catalog imports (deferred off critical path) ──
-// These JSON files total ~3 MB — loaded asynchronously after first paint.
+// These JSON files total ~many MB — loaded asynchronously after first paint.
 
 async function loadStaticParts(): Promise<Part[]> {
-  const [cpu, motherboard, gpu, ram, storage, psu, pcCase, cooler, monitor] = await Promise.all([
+  const [
+    cpu, motherboard, gpu, ram, storage, psu, pcCase, cooler, monitor,
+    laptop, desktop, keyboard, mouse, headset, speaker, tablet,
+    printer, camera, network, ups, software, table, chair,
+    projector, microphone, powerBank, externalStorage, cable, controller,
+    fans, other
+  ] = await Promise.all([
     import('../data/catalog_cpu.json'),
     import('../data/catalog_motherboard.json'),
     import('../data/catalog_gpu.json'),
@@ -28,6 +30,28 @@ async function loadStaticParts(): Promise<Part[]> {
     import('../data/catalog_case.json'),
     import('../data/catalog_cpu_cooler.json'),
     import('../data/catalog_monitor.json'),
+    import('../data/catalog_laptop.json'),
+    import('../data/catalog_desktop.json'),
+    import('../data/catalog_keyboard.json'),
+    import('../data/catalog_mouse.json'),
+    import('../data/catalog_headset.json'),
+    import('../data/catalog_speaker.json'),
+    import('../data/catalog_tablet.json'),
+    import('../data/catalog_printer.json'),
+    import('../data/catalog_camera.json'),
+    import('../data/catalog_network.json'),
+    import('../data/catalog_ups.json'),
+    import('../data/catalog_software.json'),
+    import('../data/catalog_table.json'),
+    import('../data/catalog_chair.json'),
+    import('../data/catalog_projector.json'),
+    import('../data/catalog_microphone.json'),
+    import('../data/catalog_power-bank.json'),
+    import('../data/catalog_external-storage.json'),
+    import('../data/catalog_cable.json'),
+    import('../data/catalog_controller.json'),
+    import('../data/catalog_fans.json'),
+    import('../data/catalog_other.json'),
   ])
   return [
     ...(cpu as unknown as { items: Part[] }).items,
@@ -39,6 +63,28 @@ async function loadStaticParts(): Promise<Part[]> {
     ...(pcCase as unknown as { items: Part[] }).items,
     ...(cooler as unknown as { items: Part[] }).items,
     ...(monitor as unknown as { items: Part[] }).items,
+    ...(laptop as unknown as { items: Part[] }).items,
+    ...(desktop as unknown as { items: Part[] }).items,
+    ...(keyboard as unknown as { items: Part[] }).items,
+    ...(mouse as unknown as { items: Part[] }).items,
+    ...(headset as unknown as { items: Part[] }).items,
+    ...(speaker as unknown as { items: Part[] }).items,
+    ...(tablet as unknown as { items: Part[] }).items,
+    ...(printer as unknown as { items: Part[] }).items,
+    ...(camera as unknown as { items: Part[] }).items,
+    ...(network as unknown as { items: Part[] }).items,
+    ...(ups as unknown as { items: Part[] }).items,
+    ...(software as unknown as { items: Part[] }).items,
+    ...(table as unknown as { items: Part[] }).items,
+    ...(chair as unknown as { items: Part[] }).items,
+    ...(projector as unknown as { items: Part[] }).items,
+    ...(microphone as unknown as { items: Part[] }).items,
+    ...(powerBank as unknown as { items: Part[] }).items,
+    ...(externalStorage as unknown as { items: Part[] }).items,
+    ...(cable as unknown as { items: Part[] }).items,
+    ...(controller as unknown as { items: Part[] }).items,
+    ...(fans as unknown as { items: Part[] }).items,
+    ...(other as unknown as { items: Part[] }).items,
   ]
 }
 
@@ -50,168 +96,61 @@ async function loadSnapshotPrices(): Promise<{ entries: PriceEntry[]; map: Recor
 
 // ── Types ──
 
-export type DataSourceMode = 'fixture' | 'api'
-export type LivePriceState = 'idle' | 'loading' | 'success' | 'error'
+export type LoadingState = 'idle' | 'loading' | 'error' | 'success'
 
 export interface CatalogData {
   parts: Part[]
-  /** Snapshot prices (always available, estimated) */
+  /** Price map from bundled snapshot */
   priceByPartId: Record<string, string>
   /** Raw snapshot price entries */
   priceEntries: PriceEntry[]
-  /** Live prices from Worker API (undefined until fetchLivePrices is called) */
-  livePriceByPartId: Record<string, string> | undefined
-  /** Raw live price entries */
-  livePriceEntries: PriceEntry[]
-  /** Status of live price fetch */
-  livePriceState: LivePriceState
-  /** Error message if live fetch failed */
-  livePriceError: string | undefined
-  /** Trigger live price fetch */
-  fetchLivePrices: () => void
-  /** Whether live prices are being fetched */
-  isLivePriceLoading: boolean
   statusMessage: string
-  mode: DataSourceMode
-  loadingState: 'idle' | 'loading' | 'error' | 'success'
+  loadingState: LoadingState
 }
 
 // ── Hook ──
 
 export function useCatalogData(): CatalogData {
-  const mode = getDataSourceMode() === 'api' ? 'api' : 'fixture'
-  const [liveEnabled, setLiveEnabled] = useState(false)
-
-  // ── Async data state (populated after initial paint) ──
   const [staticParts, setStaticParts] = useState<Part[]>([])
   const [snapshotEntries, setSnapshotEntries] = useState<PriceEntry[]>([])
   const [snapshotPriceMap, setSnapshotPriceMap] = useState<Record<string, string>>({})
-  const [dataLoading, setDataLoading] = useState(true)
+  const [loadingState, setLoadingState] = useState<LoadingState>('idle')
 
-  // Load JSON chunks asynchronously — keeps ~3 MB off the critical path
   useEffect(() => {
     let cancelled = false
+    setLoadingState('loading')
+
     Promise.all([loadStaticParts(), loadSnapshotPrices()])
       .then(([parts, snapshot]) => {
         if (!cancelled) {
           setStaticParts(parts)
           setSnapshotEntries(snapshot.entries)
           setSnapshotPriceMap(snapshot.map)
-          setDataLoading(false)
+          setLoadingState('success')
         }
       })
       .catch(() => {
-        if (!cancelled) setDataLoading(false)
+        if (!cancelled) setLoadingState('error')
       })
+
     return () => { cancelled = true }
   }, [])
 
-  const fetchLivePrices = useCallback(() => {
-    setLiveEnabled(true)
-  }, [])
-
-  // ─── Fixture mode (offline / dev) ──────────────────────────────────────
-
-  if (mode === 'fixture') {
-    if (dataLoading) {
-      return {
-        parts: [],
-        priceByPartId: {},
-        priceEntries: [],
-        livePriceByPartId: undefined,
-        livePriceEntries: [],
-        livePriceState: 'idle' as const,
-        livePriceError: undefined,
-        fetchLivePrices: () => {},
-        isLivePriceLoading: false,
-        statusMessage: 'Loading catalog data…',
-        mode,
-        loadingState: 'loading' as const,
-      }
-    }
-    // Use loaded snapshot data, not parsePriceFixture() which uses old sample data
-    return {
-      parts: staticParts,
-      priceByPartId: snapshotPriceMap,
-      priceEntries: snapshotEntries,
-      livePriceByPartId: undefined,
-      livePriceEntries: [],
-      livePriceState: 'idle' as const,
-      livePriceError: undefined,
-      fetchLivePrices: () => {},
-      isLivePriceLoading: false,
-      statusMessage:
-        'Fixture mode — parts bundled, prices from spider data.',
-      mode,
-      loadingState: 'success' as const,
-    }
-  }
-
-  // ─── API mode — snapshot prices by default, live on demand ─────────────
-
-  const livePricesQuery = useQuery({
-    queryKey: ['api', 'prices', 'live'],
-    queryFn: async () => {
-      const response = await fetchPrices()
-      return response.entries
-    },
-    enabled: liveEnabled,
-  })
-
-  // Live price state
-  let livePriceState: LivePriceState = 'idle'
-  let livePriceByPartId: Record<string, string> | undefined = undefined
-  let livePriceEntries: PriceEntry[] = []
-  let livePriceError: string | undefined = undefined
-  const isLivePriceLoading = livePricesQuery.isLoading
-
-  if (liveEnabled) {
-    if (livePricesQuery.isError) {
-      livePriceState = 'error'
-      livePriceError = getErrorMessage(livePricesQuery.error)
-    } else if (livePricesQuery.data) {
-      livePriceState = 'success'
-      livePriceEntries = livePricesQuery.data
-      livePriceByPartId = buildPriceMap({
-        schemaVersion: '1.0',
-        entries: livePriceEntries,
-      })
-    } else if (isLivePriceLoading) {
-      livePriceState = 'loading'
-    }
-  }
-
-  // Return loading state while JSON chunks are being fetched
-  if (dataLoading) {
+  if (loadingState !== 'success') {
     return {
       parts: [],
       priceByPartId: {},
       priceEntries: [],
-      livePriceByPartId: undefined,
-      livePriceEntries: [],
-      livePriceState: 'idle' as const,
-      livePriceError: undefined,
-      fetchLivePrices,
-      isLivePriceLoading: false,
-      statusMessage: 'Loading catalog data…',
-      mode,
-      loadingState: 'loading' as const,
+      statusMessage: loadingState === 'loading' ? 'Loading catalog data…' : 'Error loading catalog data.',
+      loadingState,
     }
   }
 
-  // Always return snapshot prices — never undefined in API mode
   return {
     parts: staticParts,
     priceByPartId: snapshotPriceMap,
     priceEntries: snapshotEntries,
-    livePriceByPartId,
-    livePriceEntries,
-    livePriceState,
-    livePriceError,
-    fetchLivePrices,
-    isLivePriceLoading,
-    statusMessage: `${staticParts.length} parts (bundled), ${snapshotEntries.length} estimated prices.`,
-    mode,
+    statusMessage: `${staticParts.length} parts, ${snapshotEntries.length} prices.`,
     loadingState: 'success' as const,
   }
 }

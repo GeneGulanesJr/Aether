@@ -1,0 +1,200 @@
+{
+  "schemaVersion": "1.0",
+  "category": "office-furniture",
+  "items": [
+    {
+      "id": "office-furniture-dynaquest-pc-00000000296e",
+      "name": "Sting Origin Gaming Table with RGB remote control",
+      "category": "office-furniture",
+      "specs": {
+        "Brand": "DynaQuest PC",
+        "SKU": "10869",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/Sting_0101.jpg?v=1659294790"
+    },
+    {
+      "id": "office-furniture-dynaquest-pc-0000000071a7",
+      "name": "InPlay EF90-B Black Ergonomic Computer Chair",
+      "category": "office-furniture",
+      "specs": {
+        "Brand": "Inplay",
+        "SKU": "PR000118",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/361_0af7f3fd-3138-4a86-a42d-2572fdb0d854.png?v=1740535185"
+    },
+    {
+      "id": "office-furniture-dynaquest-pc-000000000488",
+      "name": "InPlay EF100-B V2 Black Ergonomic Computer Chair with Footrest",
+      "category": "office-furniture",
+      "specs": {
+        "Brand": "Inplay",
+        "SKU": "PR001200",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/4_3dd5abd8-7cce-404f-b717-c848d8a1d45c.png?v=1752723150"
+    },
+    {
+      "id": "office-furniture-dynaquest-pc-00000000520f",
+      "name": "Cougar E-Star 120 Electric Gaming Desk White",
+      "category": "office-furniture",
+      "specs": {
+        "Brand": "Cougar",
+        "SKU": "888245",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/168_b9935ffc-e6a6-41dc-95ae-8baebbc2debd.png?v=1776498909"
+    },
+    {
+      "id": "office-furniture-dynaquest-pc-00000000231c",
+      "name": "Cougar Speeder One Gaming Chair White",
+      "category": "office-furniture",
+      "specs": {
+        "Brand": "Cougar",
+        "SKU": "888145",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/172_c054fac3-193a-4124-8426-8099c889478d.png?v=1776499093"
+    },
+    {
+      "id": "office-furniture-dynaquest-pc-000000004e93",
+      "name": "Cougar Stryder Ergonomic Gaming Chair ( Black | Gray )",
+      "category": "office-furniture",
+      "specs": {
+        "Brand": "Cougar",
+        "SKU": "PR001463",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/68_f2f5b0c3-9cc6-4dfe-a07f-8199d9ca5666.png?v=1760408210"
+    },
+    {
+      "id": "office-furniture-dynaquest-pc-000000007c01",
+      "name": "Asus ROG Chariot X Core Gaming Chair SL301C ( Black | Grey | White )",
+      "category": "office-furniture",
+      "specs": {
+        "Brand": "Asus",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/232_ae61262f-0ab2-4cea-b024-0df85c2d8302.png?v=1749529239"
+    },
+    {
+      "id": "office-furniture-dynaquest-pc-000000003e4b",
+      "name": "Asus ROG Chariot X Gaming Chair SL301 ( Black | Grey )",
+      "category": "office-furniture",
+      "specs": {
+        "Brand": "Asus",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/227_b5fb1eab-4c58-4b65-b4c6-00410c420491.png?v=1749528472"
+    },
+    {
+      "id": "office-furniture-dynaquest-pc-000000005c18",
+      "name": "Asus ROG Destrier Core Black Gaming Chair SL400C",
+      "category": "office-furniture",
+      "specs": {
+        "Brand": "Asus",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/222_831e6a99-3534-49a8-b9da-bc109836a1ef.png?v=1749527805"
+    },
+    {
+      "id": "office-furniture-dynaquest-pc-00000000101e",
+      "name": "Asus ROG Destrier Ergonomic Black Gaming Chair SL400",
+      "category": "office-furniture",
+      "specs": {
+        "Brand": "Asus",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/218_7314519f-7109-4a61-b7de-63befb9a7f0d.png?v=1749527462"
+    },
+    {
+      "id": "office-furniture-dynaquest-pc-00000000664d",
+      "name": "TTRacing Duo V3 Gaming Chair Red",
+      "category": "office-furniture",
+      "specs": {
+        "Brand": "TTRacing Duo",
+        "SKU": "55953",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/431_e48c830b-ce1c-412f-b4bf-4f877b3327cb.png?v=1747819791"
+    },
+    {
+      "id": "office-furniture-dynaquest-pc-0000000040ce",
+      "name": "Asus SL201C ROG Aethon Fabric Gaming Chair",
+      "category": "office-furniture",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "52199",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/88_7fdc35f0-d54a-4d96-b9c9-4e062c16a8ff.png?v=1714631773"
+    },
+    {
+      "id": "office-furniture-dynaquest-pc-000000003f4d",
+      "name": "Asus SL201 ROG Aethon Black Gaming Chair",
+      "category": "office-furniture",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "51221",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/AsusSL201ROGAethonGamingChairBlack.jpg?v=1699500012"
+    },
+    {
+      "id": "office-furniture-dynaquest-pc-000000000937",
+      "name": "TTRacing Duo V3 Gaming Chair Black",
+      "category": "office-furniture",
+      "specs": {
+        "Brand": "TTRacing Duo",
+        "SKU": "5577",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/TTRacingDuoV3GamingChairBlack.jpg?v=1671768767"
+    },
+    {
+      "id": "office-furniture-dynaquest-pc-00000000723e",
+      "name": "CORSAIR T3 RUSH (Charcoal / Grey Charcoal / Grey White) Gaming Chair",
+      "category": "office-furniture",
+      "specs": {
+        "Brand": "Corsair",
+        "SKU": "14169",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/CORSAIRT3RUSHCharcoal.jpg?v=1671767477"
+    },
+    {
+      "id": "office-furniture-dynaquest-pc-000000000013",
+      "name": "Sharkoon Skiller SGS20 Leather Gaming Chair (Black/Grey | Black/Orange | Black/Red)",
+      "category": "office-furniture",
+      "specs": {
+        "Brand": "Sharkoon",
+        "SKU": "14315",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/503x_c7d8f1b7-f9b2-4c1f-bbda-2358071ad0ea.jpg?v=1640142971"
+    },
+    {
+      "id": "office-furniture-dynaquest-pc-000000002d20",
+      "name": "Havit HV-GD905 Gaming Table",
+      "category": "office-furniture",
+      "specs": {
+        "Brand": "Havit",
+        "SKU": "10838",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/table.jpg?v=1600455170"
+    },
+    {
+      "id": "office-furniture-dynaquest-pc-000000000e6b",
+      "name": "ThunderX3 TGC12 Black-Blue Gaming Chair",
+      "category": "office-furniture",
+      "specs": {
+        "Brand": "ThunderX3",
+        "SKU": "5965",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/ThunderX3_TGC12_Black-Blue_Gaming_Chair.jpg?v=1571553041"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
  */
 
 import { Suspense, lazy, useCallback, useState } from 'react'
-import { WindowManagerProvider, useWindowManager } from '../../lib/windowManager'
+import { WindowManagerProvider, useWindowManager } from '../../lib/useWindowManager'
 import { DesktopIcon } from './DesktopIcon'
 import { Window } from './Window'
 import { WindowErrorBoundary } from './WindowErrorBoundary'
@@ -23,6 +23,7 @@ const TerminalApp = lazy(() => import('../apps/TerminalApp').then(m => ({ defaul
 const DoomGameApp = lazy(() => {
   return import('../apps/DoomGameApp').then(m => ({ default: m.DoomGameApp }))
 })
+const WizardApp = lazy(() => import('../wizard/WizardApp').then(m => ({ default: m.WizardApp })))
 
 // Lazy-load R3F scene (only on desktop)
 const BuildScene = lazy(() => import('../scene/BuildScene').then(m => ({ default: m.BuildScene })))
@@ -107,6 +108,8 @@ function DesktopInner({ parts, priceByPartId, priceEntries, build }: DesktopProp
         )
       case 'doom-game':
         return <DoomGameApp slots={build.slots} />
+      case 'wizard':
+        return <WizardApp />
       default:
         return <div className="p-4 text-xai-text-4 font-mono text-xs">Unknown app</div>
     }
@@ -139,6 +142,12 @@ function DesktopInner({ parts, priceByPartId, priceEntries, build }: DesktopProp
       <div id="desktop-icons" tabIndex={-1} className="absolute inset-0 z-[2] pt-9 pb-10">
         {/* Desktop Icons — top-left column */}
         <div className="absolute top-12 left-2 flex flex-col gap-1">
+          <DesktopIcon
+            icon="🧙"
+            label="Build Wizard"
+            appType="wizard"
+            windowTitle="Build Wizard"
+          />
           <DesktopIcon
             icon="🖥️"
             label="New Build"

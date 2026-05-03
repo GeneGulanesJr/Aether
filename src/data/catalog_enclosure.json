@@ -1,0 +1,224 @@
+{
+  "schemaVersion": "1.0",
+  "category": "enclosure",
+  "items": [
+    {
+      "id": "enclosure-ben-store-0000000024c9",
+      "name": "Razer Core X Chroma External Graphic Enclosure [eGPU]",
+      "category": "enclosure",
+      "specs": {
+        "SKU": "4162",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/21964-home_default/razer-core-x-external-graphic-enclosure.jpg"
+    },
+    {
+      "id": "enclosure-ben-store-000000006dfb",
+      "name": "Razer Core",
+      "category": "enclosure",
+      "specs": {
+        "SKU": "2917",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/13095-home_default/razer-core.jpg"
+    },
+    {
+      "id": "enclosure-dynaquest-pc-000000002c7d",
+      "name": "Asus ROG Strix Arion M.2 NVMe SSD Enclosure USB3.2 Gen 2 Type-C",
+      "category": "enclosure",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "12001",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/96_3ee9607a-6e65-4991-9669-946f817a1a9c.png?v=1746245147"
+    },
+    {
+      "id": "enclosure-dynaquest-pc-0000000009bd",
+      "name": "Lenovo ThinkPlus K02 NVMe SSD Enclosure",
+      "category": "enclosure",
+      "specs": {
+        "Brand": "Lenovo",
+        "SKU": "55939",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/34_80f965b3-6473-4573-9b7f-a4339a82b9a1.png?v=1743236214"
+    },
+    {
+      "id": "enclosure-dynaquest-pc-000000005dc9",
+      "name": "Orico M.2 NVMe SSD Enclosure Black PWM2-G2",
+      "category": "enclosure",
+      "specs": {
+        "Brand": "Orico",
+        "SKU": "55940",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/41_4958a9e8-9b6b-4496-991d-4a5f9d2c4b01.png?v=1743237237"
+    },
+    {
+      "id": "enclosure-dynaquest-pc-000000007e3b",
+      "name": "Asus TUF Gaming A2 M.2 NVMe SSD Enclosure USB3.2 Gen 2x2 Type-C",
+      "category": "enclosure",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "PR000350",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/103_63a2ca4b-3aa1-4b8e-82f1-5ea23fbb2f44.png?v=1746247232"
+    },
+    {
+      "id": "enclosure-dynaquest-pc-000000005010",
+      "name": "Asus Cobble USB-C Gen2 ESD-A1A Black SSD Enclosure",
+      "category": "enclosure",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "PR000941",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/164_181c4605-d74b-4b5b-abcb-0cb76469deca.png?v=1745821704"
+    },
+    {
+      "id": "enclosure-dynaquest-pc-0000000032f1",
+      "name": "Orico 2520US3 USB3.0 2.5 Inch SATA HDD Enclosure ( Black / White )",
+      "category": "enclosure",
+      "specs": {
+        "Brand": "Orico",
+        "SKU": "55560",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/2.5-InchPortableHardDriveEnclosureBlack.jpg?v=1688620212"
+    },
+    {
+      "id": "enclosure-dynaquest-pc-000000002b0e",
+      "name": "Orico 2139C3 Type-C 2.5 Inch Transparent SATA to USB 3.1 HDD Enclosure",
+      "category": "enclosure",
+      "specs": {
+        "Brand": "Orico",
+        "SKU": "55559",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/2.5inchTransparentType-CHardDriveEnclosure.jpg?v=1688620032"
+    },
+    {
+      "id": "enclosure-dynaquest-pc-000000007120",
+      "name": "Asus TUF Gaming A1 M.2 SSD Enclosure USB-C 3.2 Gen 2x1",
+      "category": "enclosure",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "15578",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/AsusTUFGamingA1M.2SSDEnclosureUSB-C3.2Gen2x11.jpg?v=1674101660"
+    },
+    {
+      "id": "enclosure-dynaquest-pc-000000005ffe",
+      "name": "Transcend Bracket 2.5\" - 3.5\" SSD / HDD Black",
+      "category": "enclosure",
+      "specs": {
+        "Brand": "Transcend",
+        "SKU": "20030",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500x_e7f96741-77b7-4abd-9c8f-670d87bd3e78.jpg?v=1623053207"
+    },
+    {
+      "id": "enclosure-dynaquest-pc-000000003799",
+      "name": "Sandisk Htm Bracket SSD / HDD 2.5\" - 3.5\"",
+      "category": "enclosure",
+      "specs": {
+        "Brand": "SanDisk",
+        "SKU": "9166",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/oem-mounting-bracket-hdd-ssd-2-5-inch-to-3-5-inch-metal-comtalk-1801-15-comtalk_1.jpg?v=1619426299"
+    },
+    {
+      "id": "enclosure-dynaquest-pc-0000000028e2",
+      "name": "ORICO L95SS Hard Drive SSD Caddy for Laptop 7mm and 9.5mm",
+      "category": "enclosure",
+      "specs": {
+        "Brand": "Orico",
+        "SKU": "10769",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/Orico.jpg?v=1582969493"
+    },
+    {
+      "id": "enclosure-dynaquest-pc-000000004e00",
+      "name": "M.2 NGFF to USB3.0 Enclosure / Adapter Converter",
+      "category": "enclosure",
+      "specs": {
+        "Brand": "Unbranded",
+        "SKU": "9634",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/fc2850d276b146938d356c4e5a539331.jpg_q80.jpg?v=1601691143"
+    },
+    {
+      "id": "enclosure-dynaquest-pc-000000000064",
+      "name": "M.2 NGFF to Sata3 Enclosure / Adapter Converter",
+      "category": "enclosure",
+      "specs": {
+        "Brand": "Unbranded",
+        "SKU": "9633",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/M.2_NGFF.jpg?v=1571553260"
+    },
+    {
+      "id": "enclosure-dynaquest-pc-000000005639",
+      "name": "Hdd Tray Second HDD Caddy 9.5 / 12.7",
+      "category": "enclosure",
+      "specs": {
+        "Brand": "Second HDD Caddy",
+        "SKU": "101017101",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/IMG_6100_zpsufhqbph2.jpg?v=1571552361"
+    },
+    {
+      "id": "enclosure-gigahertz-0000000010fb",
+      "name": "Orico M.2 NVME SSD Enclosure",
+      "category": "enclosure",
+      "specs": {
+        "Brand": "Orico",
+        "SKU": "IO-ORICO PWDM2 M.2 NVMe PCIe SSD ENCLOSURE",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/orico-m2-nvme-ssd-enclosure-orico-gigahertz-324707.jpg?v=1731047266"
+    },
+    {
+      "id": "enclosure-gigahertz-0000000073e9",
+      "name": "Vention 2.5 Inch SATA Hard Drive Enclosure (USB 3.0 Micro-B) Black",
+      "category": "enclosure",
+      "specs": {
+        "Brand": "Vention",
+        "SKU": "IO-VENTION ENCLOSURE 2.5 SATA USB 3.0",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/vention-25-inch-sata-hard-drive-enclosure-usb-30-micro-b-black-vention-gigahertz-699109.jpg?v=1744768682"
+    },
+    {
+      "id": "enclosure-gigahertz-000000005118",
+      "name": "Ugreen CM400",
+      "category": "enclosure",
+      "specs": {
+        "Brand": "UGREEN",
+        "SKU": "IO-UGREEN CM400 M.2 NVME HARD DRIVE ENCLOSURE 10902",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/ugreen-cm400-gigahertz-gigahertz-867030.jpg?v=1733192843"
+    },
+    {
+      "id": "enclosure-gigahertz-000000001f13",
+      "name": "Orico M.2 NVMe SATA SSD Enclosure Adapter Tool-Free, USB C 3.2 Gen 2",
+      "category": "enclosure",
+      "specs": {
+        "Brand": "Orico",
+        "SKU": "IO-ORICO SSD ENCLOSURE M.2 NVMe USB 3.2",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/orico-m2-nvme-sata-ssd-enclosure-adapter-tool-free-usb-c-32-gen-2-orico-gigahertz-373066.jpg?v=1731047265"
+    }
+  ]
+}

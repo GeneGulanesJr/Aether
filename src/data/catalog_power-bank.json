@@ -1,0 +1,1047 @@
+{
+  "schemaVersion": "1.0",
+  "category": "power-bank",
+  "items": [
+    {
+      "id": "power-bank-easypc-000000001b8d",
+      "name": "Promate Titan-130 Sleek 130W Multi-Port Power Delivery Power Bank with TFT LCD Screen",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PROMATE",
+        "SKU": "9566",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/PromateTitan-130Sleek130WMulti-PortPowerDeliveryPowerBankwithTFTLCDScreen_2.png?v=1731656551"
+    },
+    {
+      "id": "power-bank-easypc-00000000483d",
+      "name": "Promate Titan-160 Ultra-Compact 160W Multi-Port PD 3.1 Power Bank with TFT LCD Screen",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PROMATE",
+        "SKU": "9567",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/PromateTitan-160Ultra-Compact160WMulti-PortPD3.1PowerBankwithTFTLCDScreen_2.png?v=1731657233"
+    },
+    {
+      "id": "power-bank-easypc-000000004b66",
+      "name": "Romoss PEA40 and Pro 40000 mAh or PEA60 60000 mAh LED Display Powerbank Black",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "ROMOSS",
+        "SKU": "6532",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Romoss_PEA40_40000_mAh-a.jpg?v=1702882426"
+    },
+    {
+      "id": "power-bank-easypc-000000003894",
+      "name": "Promate Bolt-20Pro 20000mAh Compact Smart Charging Power Bank with Dual USB-A & USB-C Output Black",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PROMATE",
+        "SKU": "8598",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Promate_Bolt-20Pro_20000mAh_Compact_Smart_Charging_Power_Bank_with_Dual_USB-A_USB-C_Output_Black-a.png?v=1713505725"
+    },
+    {
+      "id": "power-bank-easypc-000000000856",
+      "name": "Promate Bolt-10Pro 10000mAh Compact Smart Charging Power Bank with Dual USB-A & USB-C Output Black",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PROMATE",
+        "SKU": "8597",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Promate_Bolt-10Pro_10000mAh_Compact_Smart_Charging_Power_Bank_with_Dual_USB-A_USB-C_Output_Black-b.png?v=1713505670"
+    },
+    {
+      "id": "power-bank-easypc-000000003faf",
+      "name": "Promate TransPack-10 Transparent 15W MagSafe wireless charging power bank Black",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PROMATE",
+        "SKU": "8600",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Promate_TransPack-10_Transparent_15W_MagSafe_wireless_charging_power_bank_Black-a.png?v=1713505841"
+    },
+    {
+      "id": "power-bank-easypc-0000000007d7",
+      "name": "Promate PowerMag-Trio SuperCharge MagSafe Compatible & Apple Watch Wireless Charging Power Bank Black",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PROMATE",
+        "SKU": "8599",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Promate_PowerMag-Trio_SuperCharge_MagSafe_Compatible_Apple_Watch_Wireless_Charging_Power_Bank_Black-b.png?v=1713505793"
+    },
+    {
+      "id": "power-bank-easypc-000000001300",
+      "name": "Promate VolTag-5 5000mAh Super-Slim Power Bank with Dual 2A USB Ports Black",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PROMATE",
+        "SKU": "8596",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Promate_VolTag-5_5000mAh_Super-Slim_Power_Bank_with_Dual_2A_USB_Ports_Black-c.png?v=1713505456"
+    },
+    {
+      "id": "power-bank-easypc-000000004039",
+      "name": "Promate BOLT-10 10000 mAh Powerbank White",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PROMATE",
+        "SKU": "7320",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/PromateBOLT-10-a_d26f3865-3225-4f03-b269-70cfc7c3dc98.png?v=1691741975"
+    },
+    {
+      "id": "power-bank-easypc-000000002771",
+      "name": "Romoss Coeus 20/ PPD20 20000 mAh White and Black Powerbank",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "ROMOSS",
+        "SKU": "6531",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Romoss_Coeus_20_20000_mAh_White-a.jpg?v=1702881615"
+    },
+    {
+      "id": "power-bank-easypc-000000006c74",
+      "name": "Romoss Sense 8p+ 30000 LED Display for Status Fast Charging Powerbank White",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "ROMOSS",
+        "SKU": "4715",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Romoss_Sense_8p_30000_Powerbank_White-a.jpg?v=1702881133"
+    },
+    {
+      "id": "power-bank-easypc-000000003b08",
+      "name": "Romoss Pulse 10 10000 mAh Powerbank",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Romoss",
+        "SKU": "4713",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Romoss_Pulse_10_10000_mAh_Powerbank-a.jpg?v=1702880824"
+    },
+    {
+      "id": "power-bank-easypc-00000000280b",
+      "name": "Promate BOLT-10 10000 mAh Powerbank",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PROMATE",
+        "SKU": "7307",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/PromateBOLT-10-a.png?v=1691135036"
+    },
+    {
+      "id": "power-bank-gigahertz-0000000015c2",
+      "name": "Realme Power Bank 3i 10000mAh",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "REALME",
+        "SKU": "Realme Power Bank 3i",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/realme-power-bank-3i-10000mah-realme-gigahertz-547081.jpg?v=1732766180"
+    },
+    {
+      "id": "power-bank-gigahertz-000000007347",
+      "name": "Xiaomi 10000 mAh Redmi Power Bank",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Xiaomi",
+        "SKU": "PB-Xiaomi Redmi Power Bank 10000mAh White",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/xiaomi-10000-mah-redmi-power-bank-xiaomi-gigahertz-978721.jpg?v=1731914159"
+    },
+    {
+      "id": "power-bank-gigahertz-000000005f42",
+      "name": "Samsung EB-PG950CNEGWW Charging Battery Pack Power Bank (5.1A)",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Gigahertz",
+        "SKU": "ACC-SAMSUNG EB-PG950CNEGWW CHARGING BATTERY PACK (5.1A) NAVY BLUE",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/samsung-eb-pg950cnegww-charging-battery-pack-power-bank-51a-gigahertz-gigahertz-964518.jpg?v=1733192743"
+    },
+    {
+      "id": "power-bank-gigahertz-000000006911",
+      "name": "Xiaomi 33W Magnetic Power Bank 10000mAh (Integrated Cable)",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Xiaomi",
+        "SKU": "PB-XIAOMI 10000mAh MAGNETIC POWER BANK 33W INTEGRATED CABLE GRAY",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/Xiaomi_33W_Magnetic_Power_Bank_10000mAh.jpg?v=1758273769"
+    },
+    {
+      "id": "power-bank-octagon-000000000872",
+      "name": "VERBATIM CHARGE N GO 10000MAH 5IN1 MAGNETIC WIRELESS W/ STAND PD 20W MWC 15W TYPE C AND NON-MFI VERSION CABLE (32221 GREY)(32233 TITANIUM)(32222 PURPLE)",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "023942322337",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_f39489ec-0faa-44b4-adca-69460160da0e.jpg?v=1769479756"
+    },
+    {
+      "id": "power-bank-octagon-000000001974",
+      "name": "VERBATIM 32240 MAGNETIC WL 5000 MAH",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "023942322405",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_31cdde8d-d609-48aa-bc37-7c692aedbdc9.jpg?v=1769485168"
+    },
+    {
+      "id": "power-bank-octagon-000000006afb",
+      "name": "VERBATIM CHARGE N GO 10000MAH 5IN1 MAGNETIC WIRELESS CHARGER W/ STAND PD20W MWC15W TYPE 2 X2 VERSION CABLE (32254 GREY)(32271TITANIUM)(32270PURPLE)",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "023942322542",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_8fd5f011-f50e-4508-966f-fc94ccd2be99.jpg?v=1769565306"
+    },
+    {
+      "id": "power-bank-octagon-000000004aee",
+      "name": "VERBATIM 32247 MAGNETIC WL 10000 MAH POWER PACK MCP - PD 20W MWC 15W BLUE",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "023942322474",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_f0e45aa7-7bf5-4e09-9a4b-31cb7e44e607.jpg?v=1769563495"
+    },
+    {
+      "id": "power-bank-octagon-00000000574a",
+      "name": "VERBATIM 67001 WHITE CHARGENGO 10K MAH 22.5W POWERBANK W/ BUILT-IN LIGHTNING & TYPE-C CABLE + DIGITAL DISPLAY PD20W / QC3.0 18W / SUPERCHARGE 22.5W",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4895117970010",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_14bea9b4-cf31-4df9-8264-e093266e1ba1.jpg?v=1769739892"
+    },
+    {
+      "id": "power-bank-octagon-000000001a03",
+      "name": "VERBATIM 66972 BLACK CHARGENGO 10K MAH 22.5W POWERBANK W/ BUILT-IN LIGHTNING & TYPE-C CABLE + DIGITAL DISPLAY PD20W / QC3.0 18W / SUPERCHARGE 22.5W",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4895117969724",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_443b2210-b345-40a8-b313-d433a26e410e.jpg?v=1769739760"
+    },
+    {
+      "id": "power-bank-octagon-0000000021a2",
+      "name": "VERBATIM 66439 10000MAH LIGHTWEIGHT POWER PACK PD 18W + QC 3.0 18W (GREY)",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4895117964392",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_ed3fdea0-f05e-48af-b965-618f28f9b04c.jpg?v=1769566519"
+    },
+    {
+      "id": "power-bank-octagon-000000007836",
+      "name": "VERBATIM 32245 MAGNETIC WL 10000 MAH POWER PACK MCP - PD 20W MWC 15W BLACK",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "023942322450",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_f7ae4171-ef49-4089-95ce-d1a2cee28320.jpg?v=1769490856"
+    },
+    {
+      "id": "power-bank-octagon-000000007824",
+      "name": "VERBATIM 66547 GRID PATTERN POWER BANK DUAL 10000 MAH INPUT/OUTPUT (TYPE-C AND MICRO USB POWER INPUT) BLACK",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4895117965474",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_e1e713ba-5d44-43ee-8daa-3ee0921d13a4.jpg?v=1769569268"
+    },
+    {
+      "id": "power-bank-octagon-000000007f7f",
+      "name": "VERBATIM 66628 POWER BANK 20000MAH / 22.5W ALUMINIUM - PD + QC3.0 (GREY)",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4895117966280",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_68d61ed7-8922-414b-a011-dde57dfabec9.jpg?v=1769647382"
+    },
+    {
+      "id": "power-bank-octagon-000000003803",
+      "name": "VERBATIM 66699 POWER BANK PD3.0 (100W) W/ DISPLAY 20000MAH (PD100 + QC3.0 18W / USB-A 12W / CHARGE LAPTOP) BLACK",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4895117966990",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_8c7b0840-b45c-4f4c-b549-3cfd644018d4.jpg?v=1769648028"
+    },
+    {
+      "id": "power-bank-octagon-000000000130",
+      "name": "VERBATIM 66908 POWER PACK 5000MAH MAGNETIC WIRELESS CHARGING (GREY)",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4895117969083",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_6d46018a-48ff-466f-9013-46ec5c1d4272.jpg?v=1769739567"
+    },
+    {
+      "id": "power-bank-octagon-000000005717",
+      "name": "VERBATIM 66907 POWER PACK 5000MAH MAGNETIC WIRELESS CHARGING (BLACK)",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4895117969076",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_d06a359c-68f1-4432-9c08-69b43550676e.jpg?v=1769739403"
+    },
+    {
+      "id": "power-bank-octagon-0000000018ce",
+      "name": "VERBATIM 66440 10000MAH LIGHTWEIGHT POWER PACK PD 18W + QC 3.0 18W (GREEN)",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4895117964408",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_4031734f-b76d-427d-a9e5-17c2fc435f86.jpg?v=1769567512"
+    },
+    {
+      "id": "power-bank-octagon-000000003ee4",
+      "name": "VERBATIM 32249 MAGNETIC WL 10000 MAH POWER PACK MCP - PD 20W MWC 15W GRAY",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "023942322498",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_4f02aa48-e1b8-4b4b-8d39-96e422f200fe.jpg?v=1769565002"
+    },
+    {
+      "id": "power-bank-octagon-0000000032f5",
+      "name": "VERBATIM 32246 MAGNETIC WL 10000 MAH POWER PACK MCP - PD 20W MWC 15W GREEN",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "023942322467",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_faa68095-42e3-44ba-a986-4936cce84bf6.jpg?v=1769562711"
+    },
+    {
+      "id": "power-bank-octagon-000000007738",
+      "name": "VERBATIM 66441 10000MAH LIGHTWEIGHT POWER PACK PD 18W + QC 3.0 18W (PURPLE)",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4895117964415",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_465b1fef-1d89-49b6-82a0-cabe092a699f.jpg?v=1769567865"
+    },
+    {
+      "id": "power-bank-octagon-0000000044e4",
+      "name": "VERBATIM 32248 MAGNETIC WL 10000 MAH POWER PACK MCP - PD 20W MWC 15W PINK",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "023942322481",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_0f7239d7-42de-472d-a644-6d14044639d5.jpg?v=1769564837"
+    },
+    {
+      "id": "power-bank-octagon-0000000058c1",
+      "name": "VERBATIM 66548 GRID PATTERN POWER BANK DUAL 10000 MAH INPUT/OUTPUT (TYPE-C AND MICRO USB POWER INPUT) WHITE",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4895117965481",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_db7ad3e8-e72a-4a3f-9295-fb8d419c62d0.jpg?v=1769569385"
+    },
+    {
+      "id": "power-bank-octagon-000000002325",
+      "name": "VERBATIM 66906 POWER PACK 10000MAH MAGNETIC WIRELESS CHARGING (BLACK)",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4895117969069",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_9e9fc88d-9af0-4111-80fe-0f7389270316.jpg?v=1769739259"
+    },
+    {
+      "id": "power-bank-octagon-000000004590",
+      "name": "VERBATIM 66905 POWER PACK 10000MAH MAGNETIC WIRELESS CHARGING (WHITE)",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4895117969052",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_0ce9bc44-4b14-4eb2-b65b-94106bb660b9.jpg?v=1769738982"
+    },
+    {
+      "id": "power-bank-octagon-000000007cea",
+      "name": "SILVERTEC SRT-MP50-PP ULTRA-SLIM MAGNETIC WIRELESS PD20W POWERBANK 5000MAH",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038380756",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_775f9d92-6f18-4dda-a3c6-31ae443cc477.jpg?v=1757055912"
+    },
+    {
+      "id": "power-bank-octagon-00000000089f",
+      "name": "UNISO UK-PB10 10000MAH POWER BANK",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038374595",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_62ad1516-f039-4afb-a665-181e79b0a5a0.jpg?v=1756966784"
+    },
+    {
+      "id": "power-bank-octagon-000000000d65",
+      "name": "SILVERTEC SRT-MP50-SG ULTRA-SLIM MAGNETIC WIRELESS PD20W POWERBANK 5000MAH (SPACE GRAY)",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038380749",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_5a631b76-1519-438c-9264-a5659d448e64.jpg?v=1756189368"
+    },
+    {
+      "id": "power-bank-octagon-0000000012c3",
+      "name": "ANKER ZOLO A1685H51 PINK 10K POWERBANK 30W BUILT-IN USB-C CABLE",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "194644212070",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_34ead761-adbb-4f8d-9ed5-b813b115dd27.jpg?v=1754444523"
+    },
+    {
+      "id": "power-bank-octagon-0000000041f8",
+      "name": "ANKER ZOLO A1680H21 WHITE 10K POWERBANK 30W BUILT-IN USB-C CABLE + LIGHTNING CABLE",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "194644201722",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_4eedc875-8960-4eef-bc9b-b2e174c567e9.jpg?v=1754442282"
+    },
+    {
+      "id": "power-bank-octagon-000000007e71",
+      "name": "SILVERTEC SRT-MP100-BL ULTRA-SLIM MAGNETIC WIRELESS PD20W POWERBANK 10000MAH (NAVY BLUE)",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038380794",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_6b8b065e-fbf2-4e4e-a4a6-2dd772fa6d48.jpg?v=1754114361"
+    },
+    {
+      "id": "power-bank-octagon-000000000412",
+      "name": "NORGICOOL NP026-BL PD20W 10000MAH W/ TYPE C AND LIGHTNING POWER BANK BLUE",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038380374",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_165f98ba-89fc-432a-8186-2541a4bf6d32.jpg?v=1754116771"
+    },
+    {
+      "id": "power-bank-octagon-000000003559",
+      "name": "SILVERTEC SRT-MP100-SG ULTRA-SLIM MAGNETIC WIRELESS PD20W POWERBANK 10000MAH (SPACE GRAY)",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038380770",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_6cefed1a-8fef-42e1-aaf5-eff1556a8ab7.jpg?v=1754105564"
+    },
+    {
+      "id": "power-bank-octagon-000000002b69",
+      "name": "ANKER ZOLO A1685H31 BLUE 10K POWERBANK 30W BUILT-IN USB-C CABLE",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "194644209674",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_7845e172-ae4f-4f2c-9f65-489c4ca9b539.jpg?v=1755054773"
+    },
+    {
+      "id": "power-bank-octagon-00000000670e",
+      "name": "UGREEN PB311/25742 10000MAH POWERBANK 20W - SPACE GRAY",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "6941876227426",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_be8aa15b-08ca-40d7-bc5f-d1c6d8a6037f.jpg?v=1772157634"
+    },
+    {
+      "id": "power-bank-octagon-000000006d7f",
+      "name": "UGREEN PB205/90597A 25000MAH POWERBANK 145W TWO-WAY FAST CHARGING - SPACE GRAY",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "6941876213528",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_b771c493-cad8-4b0d-9fd9-153949c564b2.jpg?v=1772156691"
+    },
+    {
+      "id": "power-bank-octagon-000000001768",
+      "name": "HYTAC HPB235 BLUE PD 22.5W MINI POWER BANK 10000MAH W/ LIGHTNING & TYPE C CABLE",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "9555440829823",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_97d00f9a-6c18-44c8-b04a-1fcb981c2edd.jpg?v=1772085174"
+    },
+    {
+      "id": "power-bank-octagon-000000000a70",
+      "name": "HYTAC HPB230 BLACK 10000 MAH FAST CHARGING POWER BANK WITH LIGHTNING & PD 22.5W TYPE C CABLE",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "9555440829809",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_39ef28a6-f688-4549-abed-b5bf88a0b94d.jpg?v=1772083716"
+    },
+    {
+      "id": "power-bank-octagon-000000001efd",
+      "name": "ANKER A1638H11 NANO BLACK POWERBANK 10000MAH 45W BUILT-IN RETRACTABLE USB-C CABLE",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "194644209599",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_7754bd9d-c89b-468d-ace5-b26fb0159661.jpg?v=1768436265"
+    },
+    {
+      "id": "power-bank-octagon-000000001ae1",
+      "name": "UGREEN PB511/35603B 10000MAH POWERBANK WITH BUILT-IN TYPE C CABLE",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "6941876246830",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_48bdc373-487c-44d5-83c4-afbf846f64a5.jpg?v=1756519260"
+    },
+    {
+      "id": "power-bank-octagon-0000000031c5",
+      "name": "ANKER ZOLO A1695H41 SILVER 25K POWERBANK 165W BUILT-IN USB-C CABLE",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "194644286217",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_7fe2af51-4c63-4eb0-bd2d-42100dca0518.jpg?v=1755055649"
+    },
+    {
+      "id": "power-bank-octagon-000000004996",
+      "name": "SILVERTEC SRT-MP100-PP ULTRA-SLIM MAGNETIC WIRELESS PD20W POWERBANK 10000MAH (LIGHT PURPLE)",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038380787",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_3117ac80-42b3-47f6-ae67-754074daf80e.jpg?v=1754037023"
+    },
+    {
+      "id": "power-bank-octagon-000000004676",
+      "name": "NORGICOOL NP026-PL PD20W 10000MAH W/ TYPE C AND LIGHTNING POWER BANK PURPLE",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038380367",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_2af57355-1ff7-4a2e-b148-3f628f3e5d64.jpg?v=1754035734"
+    },
+    {
+      "id": "power-bank-octagon-000000007c10",
+      "name": "NORGICOOL NP026-WH PD20W 10000MAH W/ TYPE C AND LIGHTNING POWER BANK WHITE",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038380350",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_8e419883-cb19-4320-be95-2029cef79608.jpg?v=1754038261"
+    },
+    {
+      "id": "power-bank-octagon-000000005c33",
+      "name": "NORGICOOL NP026-BK PD20W 10000MAH W/ TYPE C AND LIGHTNING POWER BANK BLACK",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "4897038380343",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_e72ffd25-ed34-4421-b84c-a88922617600.jpg?v=1753861198"
+    },
+    {
+      "id": "power-bank-octagon-000000004780",
+      "name": "UGREEN PB720/25188 20000MAH POWERBANK 100W TWO-WAY FAST CHARGING - SPACE GRAY",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "6941876221868",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_308e8116-09c2-479f-975e-e3919c3915c3.jpg?v=1743561298"
+    },
+    {
+      "id": "power-bank-octagon-000000001045",
+      "name": "ANKER A1617H11 POWERBANK 10000MAH",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "194644023065",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_585e81eb-cc0b-4912-9fe7-984449f2c068.jpg?v=1761010372"
+    },
+    {
+      "id": "power-bank-octagon-000000007154",
+      "name": "ANKER A1245013 POWERBANK 10000MAH",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "194644063122",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_112006a7-f405-457a-8115-4b2c24c39457.jpg?v=1761115059"
+    },
+    {
+      "id": "power-bank-octagon-0000000043e9",
+      "name": "ANKER MAGGO POWERBANK 10K B2B BLACK",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "194644173111",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_cd3cf7f9-f7b6-45dd-a5f6-4884bca4f41e.jpg?v=1759559059"
+    },
+    {
+      "id": "power-bank-octagon-0000000073fd",
+      "name": "ANKER PRIME 12000MAH 130W POWERBANK",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "194644130916",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_20c417c0-1b4c-4ecd-ac43-9d9b9a34a5d8.jpg?v=1760667797"
+    },
+    {
+      "id": "power-bank-octagon-000000002ac5",
+      "name": "ANKER A1611H11 POWERBANK 5000MAH",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "194644082888",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_eb94e467-9524-4b66-bf1c-df0ee04e96d8.jpg?v=1760666022"
+    },
+    {
+      "id": "power-bank-octagon-000000006ff3",
+      "name": "ANKER A1247H11-N POWERBANK 10000MAH",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "194644075385",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_4accfe5a-7f23-4f72-b4b3-2ebf550ee66f.jpg?v=1760686336"
+    },
+    {
+      "id": "power-bank-octagon-000000003d4f",
+      "name": "ANKER A1647H11 POWERBANK 20000MAH 22.5W",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "194644155421",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_2461ec8b-9817-4e6b-9b67-18ab8f7de325.jpg?v=1759719481"
+    },
+    {
+      "id": "power-bank-octagon-0000000023bb",
+      "name": "ANKER A1334H11 323 USB-C POWERBANK 10000",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "194644123796",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_9f803bab-943f-4b46-b8da-8b9e575f1633.jpg?v=1761103632"
+    },
+    {
+      "id": "power-bank-octagon-000000000c64",
+      "name": "ANKER A1287H12 POWERBANK 20000MAH PD",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "194644049331",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_df622499-c523-4954-bdc1-e63c8e5c1a49.jpg?v=1761102478"
+    },
+    {
+      "id": "power-bank-pcworx-000000007f83",
+      "name": "Vention I15WB 20,000mAh Powerbank White",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000069654",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/33SHOPIFYVentionI15WB20_000mAhPowerbankWhite_2.jpg?v=1763714403"
+    },
+    {
+      "id": "power-bank-pcworx-00000000574c",
+      "name": "Vention I13WB 10,000mAh Powerbank White",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000065149",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/6SHOPIFYVentionI13WB10_000mAhPowerbankWhite_2.jpg?v=1763344695"
+    },
+    {
+      "id": "power-bank-pcworx-0000000006b8",
+      "name": "Mcdodo MC-0231 33W Built-in Cables Digital Display 10000mAh Power Bank Black",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000074062",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/2_05524f6c-424e-4189-a9a8-ec333015f2ac.jpg?v=1768800992"
+    },
+    {
+      "id": "power-bank-pcworx-000000007d25",
+      "name": "Mcdodo MC-0241 22.5W Built-in Cables Digital Display 10000mAh Power Bank Black",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000074061",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_0928e458-5023-42c9-a4ca-323f6b09e5aa.jpg?v=1768796684"
+    },
+    {
+      "id": "power-bank-pcworx-000000004138",
+      "name": "Apacer APB120W-1 B120 6600mah Power bank White",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000001591",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7qul6-lgcfuvd270c00a.jpg?v=1708421073"
+    },
+    {
+      "id": "power-bank-pcworx-000000004ff0",
+      "name": "Ugreen PB720/25188 20000MAH 100W Power Bank",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000067539",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000025188_3.jpg?v=1745564179"
+    },
+    {
+      "id": "power-bank-pcworx-00000000590e",
+      "name": "Ugreen PB561 25208 10000mAh Mini Magnetic Wireless 20W Power Bank Beige",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000067584",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000025208_2.jpg?v=1744775269"
+    },
+    {
+      "id": "power-bank-pcworx-000000003d8c",
+      "name": "Mcdodo MC-4260, MC-4261 20W Magnetic Wireless Charging 10000mAh 1C Power Bank White, Black",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000074065",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/6MC-4260.jpg?v=1768802787"
+    },
+    {
+      "id": "power-bank-pcworx-000000003735",
+      "name": "Mcdodo MC-3781 20W Metal Ultra-Thin 10000mAh 2C Power Bank Black",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000074063",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/4_d3983e83-ffc3-445a-b1df-69f29d10c894.jpg?v=1768802337"
+    },
+    {
+      "id": "power-bank-pcworx-00000000122d",
+      "name": "Mcdodo MC-4220 22.5W Large LED Display 10000mAh 1C+2A Power Bank Black",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000074060",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/4_a8e40672-b080-4a2c-bba3-b631e7b5980d.jpg?v=1768795381"
+    },
+    {
+      "id": "power-bank-pcworx-000000007019",
+      "name": "Mcdodo MC-4460 65W Digital Display 20000mAh 1C+2A Power Bank Dark Gray",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000074059",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1MC-4460.jpg?v=1768791799"
+    },
+    {
+      "id": "power-bank-pcworx-000000000982",
+      "name": "Mcdodo MC-7810, MC-7811 30W Qi2 Magnetic Wireless Charging 10000mAh 1C Power Bank Khaki, Black",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000074057",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/2_25b3d5a8-4c1b-4772-a373-2794bff23033.jpg?v=1768788005"
+    },
+    {
+      "id": "power-bank-pcworx-000000001017",
+      "name": "Mcdodo MC-5930 30W Magnetic Wireless Charging 10000mAh 1C Power Bank White, Black",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000074055",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/2_f05fb14c-fa91-4a39-8859-312ef31e5d48.jpg?v=1768783891"
+    },
+    {
+      "id": "power-bank-pcworx-00000000522e",
+      "name": "Mcdodo MC-4651 20W Magnetic Wireless Metal Ultra-Thin 10000mAh 1C Power Bank Black",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000074054",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/4_552b8dd3-7ce9-4715-af3e-b0fb40201ba4.jpg?v=1768783541"
+    },
+    {
+      "id": "power-bank-pcworx-000000000c5b",
+      "name": "Mcdodo MC-4641 20W Magnetic Wireless Metal Ultra-Thin 5000mAh 1C Power Bank Black",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000074053",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/MC-4641_2.jpg?v=1768557195"
+    },
+    {
+      "id": "power-bank-pcworx-000000003982",
+      "name": "Mcdodo MC-4631 10.5W 10000mAh 2A Power Bank Black",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000072238",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/MC-4631.jpg?v=1768556664"
+    },
+    {
+      "id": "power-bank-pcworx-00000000677c",
+      "name": "Ugreen PB503/35338 5000mAh Power Bank with Built-in USB-C Connector",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000067778",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000067778.jpg?v=1745560642"
+    },
+    {
+      "id": "power-bank-pc-express-000000006434",
+      "name": "ECOFLOW River 3 Plus Portable Power Station",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "EcoFlow",
+        "SKU": "HS-STEELSERIES-000005",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PSTN-ECOFLOW-RIVER3PLUSPORTABLEPOWERSTATION6.jpg?v=1776215088"
+    },
+    {
+      "id": "power-bank-pc-express-000000004c1f",
+      "name": "ECOFLOW River 3 Max Portable Power Station",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "EcoFlow",
+        "SKU": "PSTN-ECOFLOW-000003",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/ECOFLOW-RIVER-3-MAX.jpg?v=1776414594"
+    },
+    {
+      "id": "power-bank-pc-express-00000000277b",
+      "name": "ECOFLOW River 3 UPS Portable Power Station",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "EcoFlow",
+        "SKU": "PSTN-ECOFLOW-000001",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PSTN-ECOFLOW-000001-1.jpg?v=1776413593"
+    },
+    {
+      "id": "power-bank-pc-express-000000003d88",
+      "name": "BLUETTI AC180P Solar Portable Power Station | 1,800W",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "BLUETTI",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/BLUETTIAC180PSolarPortablePowerStation1_800W1.jpg?v=1761624094"
+    },
+    {
+      "id": "power-bank-pc-express-000000004b09",
+      "name": "BLUETTI AC2P Portable Power Station | 300W",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "BLUETTI",
+        "SKU": "PSTN-BLUETTI-000001",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/BLUETTIAC2PPortablePowerStation300W1.jpg?v=1761618773"
+    },
+    {
+      "id": "power-bank-pc-express-000000004bb7",
+      "name": "BLUETTI AC50P Portable Power Station | 700W",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "BLUETTI",
+        "SKU": "PSTN-BLUETTI-000002",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/BLUETTIAC50PPortablePowerStation700W1.jpg?v=1761620530"
+    },
+    {
+      "id": "power-bank-pc-express-000000004ebd",
+      "name": "BLUETTI AC70P Portable Power Station | 1000W",
+      "category": "power-bank",
+      "specs": {
+        "Brand": "BLUETTI",
+        "SKU": "PSTN-BLUETTI-000003",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/BLUETTIAC70PPortablePowerStation1000W1.jpg?v=1761622166"
+    },
+    {
+      "id": "power-bank-silicon-valley-0000000041f7",
+      "name": "Anker Prime 12000mAh 130W 2-Port USB-C Power Bank Black",
+      "category": "power-bank",
+      "specs": {
+        "SKU": "ANKER PRIME 12000MAH 130W BLACK ITERATION",
+        "Availability": "in_stock"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "power-bank-silicon-valley-00000000601b",
+      "name": "Anker 622 MagGo 5000mAh Magnetic Wireless Power Bank Black",
+      "category": "power-bank",
+      "specs": {
+        "SKU": "ANKER 622 MAGNETIC BATTERY MAGGO BLACK",
+        "Availability": "in_stock"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "power-bank-silicon-valley-000000006841",
+      "name": "Anker 622 MagGo 5000mAh Magnetic Wireless Power Bank Blue",
+      "category": "power-bank",
+      "specs": {
+        "SKU": "ANKER 622 MAGNETIC BATTERY MAGGO BLUE",
+        "Availability": "in_stock"
+      },
+      "imageUrl": null
+    }
+  ]
+}

@@ -55,6 +55,8 @@
   --color-xai-error-border: rgba(248, 113, 113, 0.4);
   --color-xai-warn: #fbbf24;
   --color-xai-warn-border: rgba(251, 191, 36, 0.4);
+  --color-xai-success: #10b981;
+  --color-xai-success-border: rgba(16, 185, 129, 0.4);
 
   /* ─── Platform colors ─── */
   --color-amd: #ed1c24;
@@ -331,6 +333,9 @@ select.xai-input option:disabled {
   stroke-width: 4;
   stroke-linecap: square;
   transition: stroke-dashoffset var(--duration-emphasis) var(--ease-default);
+}
+.score-ring-error {
+  stroke: var(--color-xai-error);
 }
 
 /* ────────────────── Scrollbar ─────────────────────────────────────────────── */

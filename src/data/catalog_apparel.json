@@ -1,0 +1,71 @@
+{
+  "schemaVersion": "1.0",
+  "category": "apparel",
+  "items": [
+    {
+      "id": "apparel-dynaquest-pc-000000001720",
+      "name": "Kieslect Calling Watch Ks Pro Watch | Smart Watch | Black 2.01\" AMOLED",
+      "category": "apparel",
+      "specs": {
+        "Brand": "Kieslect",
+        "SKU": "16783",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/86_7314d6fd-de27-4ccd-9774-432113eddae9.png?v=1719656953"
+    },
+    {
+      "id": "apparel-dynaquest-pc-0000000074c0",
+      "name": "Kieslect Calling Watch Kr Pro Ltd | Smart Watch | Silver 1.43\" Amoled IP68 Waterproof",
+      "category": "apparel",
+      "specs": {
+        "Brand": "Kieslect",
+        "SKU": "17183",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/108_15ad16bd-6a92-40be-b2f7-79930a0fe29f.png?v=1719806723"
+    },
+    {
+      "id": "apparel-dynaquest-pc-000000007fe0",
+      "name": "Kieslect Calling Watch Ks2 l Smart Watch | 2.01\" Amoled",
+      "category": "apparel",
+      "specs": {
+        "Brand": "Kieslect",
+        "SKU": "16792",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/101_c4e0841c-e814-475e-951c-901f95bbf5f0.png?v=1719802976"
+    },
+    {
+      "id": "apparel-dynaquest-pc-000000000503",
+      "name": "Kieslect 20mm Magnetic Strap For LORA 2 Pink + Violet + Khaki",
+      "category": "apparel",
+      "specs": {
+        "Brand": "Kieslect",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/125_eca3768a-97bc-4778-970f-a950c6a75d9c.png?v=1719820831"
+    },
+    {
+      "id": "apparel-dynaquest-pc-000000003e5c",
+      "name": "Kieslect 20mm Magnetic Strap For K Series Yellow + Blue + Black",
+      "category": "apparel",
+      "specs": {
+        "Brand": "Kieslect",
+        "SKU": "16208",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/116_872fa3ea-f360-4066-9893-33e915b84563.png?v=1719816461"
+    },
+    {
+      "id": "apparel-dynaquest-pc-000000000715",
+      "name": "Kieslect Lady Watch Lora 2 | Smart Watch | 1.3\" Amoled",
+      "category": "apparel",
+      "specs": {
+        "Brand": "Kieslect",
+        "SKU": "16793",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/93_bccf7b20-7b2e-4be8-ac5c-19b489077f6c.png?v=1719798250"
+    }
+  ]
+}

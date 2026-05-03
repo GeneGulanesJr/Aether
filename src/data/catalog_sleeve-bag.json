@@ -1,0 +1,626 @@
+{
+  "schemaVersion": "1.0",
+  "category": "sleeve-bag",
+  "items": [
+    {
+      "id": "sleeve-bag-ben-store-00000000605b",
+      "name": "ASUS ROG VOYAGER Gaming Backpack",
+      "category": "sleeve-bag",
+      "specs": {
+        "SKU": "3606",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/17127-home_default/asus-rog-voyager-gaming-backpack.jpg"
+    },
+    {
+      "id": "sleeve-bag-ben-store-000000004396",
+      "name": "MSI Carry Bag",
+      "category": "sleeve-bag",
+      "specs": {
+        "SKU": "4881",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/26767-home_default/msi-carry-bag.jpg"
+    },
+    {
+      "id": "sleeve-bag-ben-store-000000005fec",
+      "name": "MSI Prestige Topload Bag",
+      "category": "sleeve-bag",
+      "specs": {
+        "SKU": "4850",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/26587-home_default/msi-prestige-topload-bag.jpg"
+    },
+    {
+      "id": "sleeve-bag-ben-store-00000000052d",
+      "name": "ASUS BP340 Atlas Backpack",
+      "category": "sleeve-bag",
+      "specs": {
+        "SKU": "4501",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/23966-home_default/asus-bp340-atlas-14-backpack.jpg"
+    },
+    {
+      "id": "sleeve-bag-ben-store-000000007791",
+      "name": "MSI Urban Raider Gaming Laptop Backpack",
+      "category": "sleeve-bag",
+      "specs": {
+        "SKU": "4496",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/23937-home_default/msi-urban-raider-gaming-laptop-backpack.jpg"
+    },
+    {
+      "id": "sleeve-bag-datablitz-00000000527d",
+      "name": "Dobe NSW Protective Pack TNS-18110 NEW",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "Dobe",
+        "SKU": "6912808181109",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6912808181109.jpg?v=1735811803"
+    },
+    {
+      "id": "sleeve-bag-datablitz-000000005196",
+      "name": "Dobe Storage Bag for Meta Quest 3 TY-3817",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "Dobe",
+        "SKU": "6972520256585",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/zxcc_565552d5-1e8b-4814-93d0-f6f868d9dc7a.jpg?v=1699679050"
+    },
+    {
+      "id": "sleeve-bag-datablitz-000000000cc7",
+      "name": "Dobe Storage Case For Steam Deck TY-2816",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "Dobe",
+        "SKU": "6972520255694",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/1669771849_1.jpg?v=1676922493"
+    },
+    {
+      "id": "sleeve-bag-datablitz-0000000015d8",
+      "name": "Asus ROG Slash Hard Case Luggage (BT3700)",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "0197105219373",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/h732_5a1e72ea-8f2c-422f-ae58-73ebe9c2e241.jpg?v=1724984638"
+    },
+    {
+      "id": "sleeve-bag-datablitz-0000000003c9",
+      "name": "DeltaHub Formo Laptop Sleeve - Black (13 inches, 14 inches, 16 inches)",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "DeltaHub",
+        "SKU": "3830076063589",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/00_2d26afa6-5745-410f-b075-4974e227dd1b.jpg?v=1748223524"
+    },
+    {
+      "id": "sleeve-bag-datablitz-0000000071d9",
+      "name": "Dobe NSW Silicon Case Silicon Material Turquoise For N-Switch Lite TNS-19073",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "Dobe",
+        "SKU": "1000000005866",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/1567158678_7abb6b02-47c4-4a48-ab7e-c8c10a6a820b.jpg?v=1676773266"
+    },
+    {
+      "id": "sleeve-bag-datablitz-00000000495f",
+      "name": "Dobe Double-Layer Storage Case for Nintendo Switch 2 (Dark Grey) TNS-3175",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "Dobe",
+        "SKU": "6972520258817",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/ECOM-Banner_SKU6972520258817.jpg?v=1749637508"
+    },
+    {
+      "id": "sleeve-bag-datablitz-000000006046",
+      "name": "IINE One Piece Monkey D. Luffy EVA Storage Bag for Switch/ Switch OLED (L900)",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641042948",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6974641042948.jpg?v=1716259734"
+    },
+    {
+      "id": "sleeve-bag-datablitz-0000000016ec",
+      "name": "Dobe NSW Crystal Case Console & Joy-Con Blue TNS-1710",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "Dobe",
+        "SKU": "6912917717107",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/gckdftmuerd.jpg?v=1718340090"
+    },
+    {
+      "id": "sleeve-bag-datablitz-000000003ddf",
+      "name": "Dobe NSW Crystal Case Console & Joy-Con Transparent TNS-1710",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "Dobe",
+        "SKU": "1000000006299",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/1000000006299.jpg?v=1735807063"
+    },
+    {
+      "id": "sleeve-bag-datablitz-000000003d30",
+      "name": "Dobe NSW Silicon Case Pro Controller Blue TNS-1709",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "Dobe",
+        "SKU": "6912917717091",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6912917717091.jpg?v=1735812708"
+    },
+    {
+      "id": "sleeve-bag-datablitz-000000007235",
+      "name": "Dobe NSW Silicon Case Silicon Material Dark Gray For N-Switch Lite TNS-19073",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "Dobe",
+        "SKU": "6972520250194",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6972520250194.jpg?v=1735812969"
+    },
+    {
+      "id": "sleeve-bag-datablitz-000000002010",
+      "name": "Dobe Storage Case for Eggshell Series Controller TNS-3131",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "Dobe",
+        "SKU": "6972520257674",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/bcvcbvcvbvbccbvcvbcbv.jpg?v=1734429663"
+    },
+    {
+      "id": "sleeve-bag-datablitz-000000006978",
+      "name": "IINE Carrying Storage Bag for PS5 Pro (Black) (L1054)",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641044546",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/zcdgnxf.jpg?v=1743555146"
+    },
+    {
+      "id": "sleeve-bag-datablitz-0000000078dc",
+      "name": "IINE One Piece Luffy & Chopper EVA Storage Bag for Switch/ Switch OLED (Blue) (L925)",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641043198",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/01_8b56b6b9-8225-44ef-8e77-1742280d3a16.jpg?v=1716259779"
+    },
+    {
+      "id": "sleeve-bag-datablitz-000000006ce9",
+      "name": "IINE One Piece Zoro EVA Storage Bag for Switch/ Switch (Black) OLED (L901)",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641042955",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6974641042955.jpg?v=1716259759"
+    },
+    {
+      "id": "sleeve-bag-datablitz-000000001677",
+      "name": "Nacon Protection Case XL for Nintendo Switch 2 / Nintendo Switch OLED / Nintendo Switch Lite / Nintendo Switch (Black) (SWITCHNEWPOUCHXLBLA)",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "NACON GAMING",
+        "SKU": "3665962028164",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/2_00ad27bc-0160-4a36-9140-03f8e5dba2c8.jpg?v=1749429587"
+    },
+    {
+      "id": "sleeve-bag-datablitz-000000001e57",
+      "name": "Nacon Storage Case for Nintendo Switch 2 (SWITCHNEWSTORAGECASE)",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "NACON GAMING",
+        "SKU": "3665962029123",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/3665962029123.jpg?v=1749461995"
+    },
+    {
+      "id": "sleeve-bag-datablitz-000000004d03",
+      "name": "Skull & Co. EDC Case For Nintendo Switch Lite (LTEDC2)",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "Skull & Co.",
+        "SKU": "6973289720171",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/sysyrgs.jpg?v=1763723688"
+    },
+    {
+      "id": "sleeve-bag-datablitz-000000004891",
+      "name": "Hercules DJControl Inpulse T7 Bag (Black) (4780978)",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "Hercules",
+        "SKU": "3362934746803",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/3362934746803.jpg?v=1733893991"
+    },
+    {
+      "id": "sleeve-bag-dynaquest-pc-00000000244e",
+      "name": "ZOTAC GAMING BACKPACK",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "Zotac",
+        "SKU": "55505",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/ZOTACGAMINGBACKPACK.jpg?v=1699328302"
+    },
+    {
+      "id": "sleeve-bag-dynaquest-pc-000000001630",
+      "name": "LAPTOP SLEEVES ( 15.6\" / 10.2\" / 9\" )",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "LAPTOP SLEEVES",
+        "SKU": "20118",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/LAPTOPSLEEVES.jpg?v=1699327735"
+    },
+    {
+      "id": "sleeve-bag-dynaquest-pc-0000000068ef",
+      "name": "Gigabyte GBP57S for 15\" and 17\" Laptops Gaming Backpack",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "Gigabyte",
+        "SKU": "5569",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/GigabyteGBP57Sfor15and17LaptopsGamingBackpack.jpg?v=1677563075"
+    },
+    {
+      "id": "sleeve-bag-pc-express-000000006686",
+      "name": "NINTENDO Switch™ 2 Carrying Case & Screen Protector",
+      "category": "sleeve-bag",
+      "specs": {
+        "Brand": "Nintendo",
+        "SKU": "ACC-NINTENDO-000004",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/ACC-NINTENDOSWITCH2CARRYINGCASE_SCREEN1.jpg?v=1758353504"
+    },
+    {
+      "id": "sleeve-bag-villman-0000000032b8",
+      "name": "Scuderia Ferrari FEPFV2BL Pouch Vertical Flap V2 Black",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-0000000076eb",
+      "name": "Scuderia Ferrari FECAMV2B Camera Bag Large V2 Black",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-000000006b5b",
+      "name": "Acer 7-inch Bumper Case for Iconia One 7 (B1-730)",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-000000004488",
+      "name": "Targus CCLS002 CityLite 12 Speedbag (Slip Case)",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-000000006890",
+      "name": "AViiQ AV-I5EL-CTCP Clear iPhone 5 Thin Case",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-000000005c7d",
+      "name": "HP Stream 7 Tablet Screen Protector",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-00000000120e",
+      "name": "Scuderia Ferrari FECBP4BL Hard Case Carbon Fiber (Black ) iPhone 4/4s Hard Case",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-0000000072a7",
+      "name": "Millerton Smart View Flipcover (Black/Pink/Blue) for Asus Zenfone 5",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-000000003956",
+      "name": "Mini Cooper MNCAPULASQ Camera Bag Lether Chequered Black",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-0000000024a7",
+      "name": "Scuderia Ferrari FECALV1B Shoulder Bag - Black",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-0000000070d1",
+      "name": "AViiQ AV-I5EL iPhone 5 Real California Wood Special Edition Thin Case",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-000000003880",
+      "name": "Acer Snap Case Black (NP.BAG1A.040) for Aspire Switch 10",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-0000000028f2",
+      "name": "Logitech Notebook Sleeve 15.4",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-000000004008",
+      "name": "AViiQ AV-IPMN Ju'x In Case iPad Mini Hard Case w/ Leather (Black/Grey/Blue/Green/Red/Pink)",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-000000003e1c",
+      "name": "Scuderia Ferrari FECOSV3B Modena 11-inch Laptop Sleeve",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-0000000045cc",
+      "name": "Scuderia Ferrari FECOSV1R 11-inch Laptop Sleeve",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-0000000066df",
+      "name": "Scuderia Ferrari FECOMV1B 13-inch Laptop Sleeve",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-000000004854",
+      "name": "Scuderia Ferrari FECFFLBABL California iPhone 4/4s Leather Case with Battery Black",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-00000000465d",
+      "name": "Cooler Master Yen Folio (C-IP4F-CTYF) Carbon Texture Leather with Multi-viewing Angles Stand for iPad",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-0000000038f8",
+      "name": "HP Stream 7 Tablet Case Blue/Black",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-0000000068b8",
+      "name": "Asus ROG Ally Travel Case",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-000000005f7f",
+      "name": "Targus BB004AP Beige CityLite Active 14 (Back Pack)",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-0000000054e4",
+      "name": "Targus BB00402A Maroon CityLite Active 14 (Back Pack)",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-000000006f34",
+      "name": "Targus 16-in Motor Laptop Backpack (TSB194US-70)",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-000000007f9e",
+      "name": "Apple iPad Case",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-000000001937",
+      "name": "Lenovo Legion 15.6-inch Recon Gaming Backpack (GX40S69333)",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-000000005df9",
+      "name": "Apple iPhone 6 MGR82FE/A Red Leather Case",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-000000007a43",
+      "name": "Asus TAICHI Suit Cover Black 11.6-inch Many Sided Protection and Elegance",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-0000000026a1",
+      "name": "Apple iPhone 6 Plus MGQY2ZM/A Red Leather Case",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-000000005556",
+      "name": "Insta360 GO 3 Dive Case",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-000000002fab",
+      "name": "Asus ROG Shuttle II Backpack",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-000000004a67",
+      "name": "Acer Predator Rolltop Backpack (PBG6A1)",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-000000001e86",
+      "name": "Insta360 X4 Invisible Dive Case",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "sleeve-bag-villman-000000006f50",
+      "name": "Asus ROG Suitcase",
+      "category": "sleeve-bag",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    }
+  ]
+}

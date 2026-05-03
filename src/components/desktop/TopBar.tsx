@@ -1,10 +1,10 @@
 /**
  * Top Bar — compact header replacing AppShell.
- * Shows: "PC Builder PH" | search bar | clock
+ * Shows: "Aether" | search bar | clock
  */
 
 import { useState, useCallback, useRef, type KeyboardEvent } from 'react'
-import { useWindowManager } from '../../lib/windowManager'
+import { useWindowManager } from '../../lib/useWindowManager'
 import { useClock } from '../../hooks/useClock'
 
 interface TopBarProps {
@@ -35,7 +35,7 @@ export function TopBar(_props: TopBarProps) {
     <div className="fixed top-0 left-0 right-0 h-9 bg-xai-bg border-b border-xai-border flex items-center px-3 z-50 gap-4">
       {/* Brand */}
       <span className="font-mono text-[0.625rem] uppercase tracking-wider text-xai-text-4 shrink-0">
-        PC Builder PH
+        Aether
       </span>
 
       {/* Search */}

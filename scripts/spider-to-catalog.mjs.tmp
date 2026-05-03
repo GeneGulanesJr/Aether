@@ -1,0 +1,2147 @@
+#!/usr/bin/env node
+
+/**
+ * spider-to-catalog.mjs — Convert spider JSON output → frontend catalog files.
+ *
+ * Reads scrapper/output/*.json (NDJSON from Zyte), normalizes categories,
+ * deduplicates by name, enriches with CPU specs database, adds normalized fields,
+ * and writes src/data/catalog_*.json + src/data/prices_snapshot.json.
+ *
+ * Workflow:
+ *   1. Run spiders on Zyte Cloud
+ *   2. Download JSON artifacts into scrapper/output/
+ *   3. Run this script
+ *   4. npm run build
+ *
+ * Usage:
+ *   node scripts/spider-to-catalog.mjs
+ *   node scripts/spider-to-catalog.mjs --input ./custom-output/
+ */
+
+import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs'
+import { resolve, dirname, basename } from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
+const ROOT = resolve(__dirname, '..')
+const SPIDER_DIR = resolve(ROOT, 'scrapper', 'output')
+const DATA_DIR = resolve(ROOT, 'src', 'data')
+const SPECS_DB = resolve(ROOT, 'scripts', 'cpu-specs-database.json')
+
+// ── CLI args ──────────────────────────────────────────────────────────
+
+let inputDir = SPIDER_DIR
+for (let i = 0; i < process.argv.length; i++) {
+  if (process.argv[i] === '--input' && process.argv[i + 1]) {
+    inputDir = resolve(process.argv[++i])
+  }
+}
+
+// ── Category normalization ─────────────────────────────────────────────
+// Mirrors spider-to-d1.mjs category rules. ORDER MATTERS - more specific first!
+// Use word boundaries (\b) to prevent partial matches (e.g., "fan" in "Fantech")
+
+const CATEGORY_RULES = [
+  // CPU Cooler (check BEFORE CPU to avoid misclassification)
+  [/\b(coolers?|cooling|aircool)\b/i, 'cpu_cooler'], // coolers? = cooler or coolers
+  [/\bcpu\s+(coolers?|aircooling|fan)\b/i, 'cpu_cooler'],
+  [/\bfan\b/i, 'cpu_cooler'],
+  [/\bliquid\s*cool/i, 'cpu_cooler'],
+  [/\baio\b/i, 'cpu_cooler'],
+  [/\bheat\s*sink\b/i, 'cpu_cooler'],
+  [/\bwater\s*cool/i, 'cpu_cooler'],
+  // CPU (but NOT CPU Cooler - checked above!)
+  [/\bprocessor\b/i, 'cpu'],
+  [/\bcpu\b/i, 'cpu'],
+  [/\bryzen\b/i, 'cpu'],
+  [/\bintel\s*core\b/i, 'cpu'],
+  // GPU
+  [/\bvideo\s*card\b/i, 'gpu'],
+  [/\bgraphic\s*card\b/i, 'gpu'],
+  [/\bgpu\b/i, 'gpu'],
+  [/\bvga\b/i, 'gpu'],
+  // Motherboard
+  [/\bmotherboard\b/i, 'motherboard'],
+  [/\bmobo\b/i, 'motherboard'],
+  // RAM
+  [/\bmemory\b/i, 'ram'],
+  [/\bram\b/i, 'ram'],
+  [/\bddr[345]\b/i, 'ram'],
+  [/\bso-?dimm\b/i, 'ram'],
+  // Storage
+  [/\bssd\b/i, 'storage'],
+  [/\bhdd\b/i, 'storage'],
+  [/\bhard\s*drive\b/i, 'storage'],
+  [/\bnvme\b/i, 'storage'],
+  [/\bstorage\b/i, 'storage'],
+  // PSU
+  [/\bpsu\b/i, 'psu'],
+  [/\bpower\s*supply\b/i, 'psu'],
+  [/\bpower\s*unit\b/i, 'psu'],
+  // Case
+  [/\bcase\b/i, 'case'],
+  [/\bchassis\b/i, 'case'],
+  [/\bcasing\b/i, 'case'],
+  // Monitor
+  [/\bmonitor\b/i, 'monitor'],
+  [/\bdisplay\b/i, 'monitor'],
+]
+
+// Categories the frontend cares about
+const FRONTEND_CATEGORIES = [
+  'adapter', 'apparel', 'battery', 'cable', 'camera', 'case', 'chair', 'cleaning-solution', 'controller', 'cpu', 'cpu_cooler', 'desktop', 'enclosure', 'external-storage', 'fan', 'gamepad', 'gpu', 'headset', 'hub', 'keyboard', 'laptop', 'media-player', 'memory-card', 'microphone', 'monitor', 'motherboard', 'mouse', 'network', 'office-furniture', 'other', 'powerbank', 'printer', 'projector', 'psu', 'ram', 'sleeve-bag', 'software', 'speaker', 'storage', 'table', 'tablet', 'ups'
+]
+
+
+const STORE_RULES = {
+  "Ben Store": {
+    "Ultra Short Throw Projectors": "projector",
+    "Audio Visual": "speaker",
+    "Samsung": "other",
+    "Fantech": "other",
+    "Lg": "other",
+    "Gigabyte": "other",
+    "Aorus": "other",
+    "Lenovo": "laptop",
+    "Video Capture Devices": "other",
+    "Gaming Handhelds": "other",
+    "Egpu Enclosures": "enclosure",
+    "Hp": "laptop",
+    "Laptop Fan Coolers": "cpu_cooler",
+    "Display": "monitor",
+    "Storage": "storage",
+    "Memory": "ram",
+    "Dell": "laptop",
+    "Microsoft": "laptop",
+    "Asus": "laptop",
+    "Premium Laptops": "laptop",
+    "Laptops": "laptop",
+    "Gaming Chairs": "other",
+    "Vr Headsets": "headset",
+    "Razer": "laptop",
+    "Gaming Bags": "sleeve-bag",
+    "Gaming Controllers": "controller",
+    "Laptop Coolers": "cpu_cooler",
+    "Aorus Gigabyte": "other",
+    "Msi": "laptop",
+    "Alienware Dell": "laptop",
+    "Acer": "laptop",
+    "Multimedia Peripherals": "other",
+    "Gaming Peripherals": "other",
+    "Gaming Keyboards": "keyboard",
+    "Gaming Mousepads": "other",
+    "Laptop Accessories": "other",
+    "Gaming Headsets": "headset",
+    "Speakers": "speaker",
+    "Gaming Mice": "mouse"
+  },
+  "Bermor Techzone": {
+    "AMD": "cpu",
+    "Intel": "cpu",
+    "Nvidia": "gpu",
+    "Nvidia Video Cards > Video Cards": "gpu",
+    "BTZ Deals > Nvidia Video Cards > Video Cards": "gpu",
+    "AMD Video Cards > Video Cards": "gpu",
+    "AMD Video Cards > BTZ Deals > Video Cards": "gpu",
+    "Solid State Drives > Storage Devices": "storage",
+    "BTZ Deals > Solid State Drives > Storage Devices": "storage",
+    "NAS Disk Station > Storage Devices": "storage",
+    "Internal Hard Drives > NAS Disk Station > Storage Devices": "storage",
+    "Monitors > NAS Disk Station": "monitor",
+    "Internal Hard Drives > Storage Devices": "storage",
+    "External Storage Drives > Storage Devices": "storage",
+    "BTZ Deals > External Storage Drives > Storage Devices": "storage",
+    "External Storage Drives > Solid State Drives > Storage Devices": "storage",
+    "BTZ Deals > Intel Processors > Processors": "cpu",
+    "Intel Processors > Processors": "cpu",
+    "AMD Processors > BTZ Deals > Processors": "cpu",
+    "AMD Processors > Processors": "cpu",
+    "AMD Motherboards > AMD Processors > Motherboards > Processors > PROMO BUNDLES": "cpu",
+    "AMD Motherboards > AMD Processors > BTZ Deals > Motherboards > Processors > PROMO BUNDLES": "cpu",
+    "Printers": "printer",
+    "Cables/Adapters > Computer Accessories > Printers": "printer",
+    "Gadgets & Accessories > Printers": "printer",
+    "Power Sources > UPS/AVR": "ups",
+    "UPS/AVR": "ups",
+    "Power Sources > Power Supply Unit": "psu",
+    "BTZ Deals > Power Sources > Power Supply Unit": "psu",
+    "Power Sources > Surge Protector | Power Extension": "other",
+    "Networking Materials > Switch/Hub": "network",
+    "Networking Materials > Router": "network",
+    "NAS Disk Station > Solid State Drives > Storage Devices": "storage",
+    "Internal Hard Drives": "storage",
+    "Computer Accessories > External Storage Drives > Others > Storage Devices": "storage",
+    "AMD Motherboards > AMD Processors > BTZ Deals > Motherboards > Processors": "cpu",
+    "AMD Motherboards > Motherboards > Processors > PROMO BUNDLES": "motherboard",
+    "Power Supply Unit": "psu",
+    "Cables/Adapters > Computer Accessories > Networking Materials > Switch/Hub": "network",
+    "Network Antennas > Networking Materials > Router": "network",
+    "Cables > Networking Materials": "network",
+    "Accessories > Cables > Networking Materials": "network",
+    "Cables > Cables/Adapters > Computer Accessories > Networking Materials": "network",
+    "Cables > CCTV & Securities > CCTV Accessories > Networking Materials": "network",
+    "BTZ Deals > Cables > Cables/Adapters > Computer Accessories > Networking Materials": "network",
+    "Accessories > BTZ Deals > Networking Materials": "network",
+    "Accessories > Computer Accessories > Networking Materials": "network",
+    "Accessories > Networking Materials": "network",
+    "Chassis > Cooling Systems > CPU AIO Liquid Cooling System > Power Sources > Power Supply Unit > PROMO BUNDLES": "cpu_cooler",
+    "BTZ Deals > Networking Materials > Router": "network",
+    "Accessories > Networking Materials > Router": "network",
+    "Video Cards": "gpu",
+    "Accessories > Cables > Computer Accessories > Networking Materials": "network",
+    "Intel Motherboards > Motherboards": "motherboard",
+    "BTZ Deals > Intel Motherboards > Motherboards": "motherboard",
+    "Computer Accessories > Lighting Accessories > Others > Storage Devices": "storage",
+    "Appliances > Storage Devices": "storage",
+    "AMD Motherboards > BTZ Deals > Motherboards": "motherboard",
+    "AMD Motherboards > Motherboards": "motherboard",
+    "AMD Motherboards > Motherboards > PROMO BUNDLES": "motherboard",
+    "AMD Motherboards > Memory Modules > Motherboards > Processors > PROMO BUNDLES": "motherboard",
+    "Accessories > Furnitures > Networking Materials": "network",
+    "Solid State Drives": "storage",
+    "Networking Materials": "network",
+    "AMD Motherboards > BTZ Deals > Motherboards > PROMO BUNDLES": "motherboard",
+    "Monitors": "monitor",
+    "BTZ Deals > Monitors": "monitor",
+    "Computer Accessories > Printers": "printer",
+    "Accessories > CCTV & Securities > CCTV Accessories > Networking Materials": "network",
+    "Accessories > Network Antennas > Networking Materials": "network",
+    "Accessories > Appliances > Networking Materials > Others": "network",
+    "CCTV & Securities > CCTV Accessories > Power Sources": "camera",
+    "Power Sources": "other",
+    "Laptop Memory > Memory Modules": "laptop",
+    "BTZ Deals > Laptop Memory > Memory Modules": "laptop",
+    "BTZ Deals > Desktop Memory > Memory Modules": "ram",
+    "Desktop Memory > Memory Modules": "ram",
+    "72 Hrs Laptop Express Delivery > LAPTOP > MSI Laptop": "laptop",
+    "LAPTOP > MSI Laptop": "laptop",
+    "BTZ Deals > LAPTOP > MSI Laptop": "laptop",
+    "72 Hrs Laptop Express Delivery > LAPTOP > Lenovo or Legion Laptop": "laptop",
+    "LAPTOP > Lenovo or Legion Laptop": "laptop",
+    "LAPTOP > Parts Replacement for Laptops": "laptop",
+    "72 Hrs Laptop Express Delivery > HP or Omen Laptop > LAPTOP": "laptop",
+    "HP or Omen Laptop > LAPTOP": "laptop",
+    "Dell or Alienware Laptop > LAPTOP": "laptop",
+    "72 Hrs Laptop Express Delivery > Dell or Alienware Laptop > LAPTOP": "laptop",
+    "72 Hrs Laptop Express Delivery > Asus or ROG Laptop > LAPTOP": "laptop",
+    "Asus or ROG Laptop > LAPTOP": "laptop",
+    "Apple Macbook > LAPTOP": "laptop",
+    "72 Hrs Laptop Express Delivery > Apple Macbook > LAPTOP": "laptop",
+    "Gigabyte or Aorus Laptop > LAPTOP": "laptop",
+    "72 Hrs Laptop Express Delivery > Gigabyte or Aorus Laptop > LAPTOP": "laptop",
+    "72 Hrs Laptop Express Delivery > Acer or Predator Laptop > LAPTOP": "laptop",
+    "Acer or Predator Laptop > BTZ Deals > LAPTOP": "laptop",
+    "Acer or Predator Laptop > LAPTOP": "laptop",
+    "Laptop Memory > Memory Modules > Others": "laptop",
+    "Gadgets & Accessories > Tablet": "table",
+    "Tablet": "table",
+    "Gadgets & Accessories > Tablet > Tablet Mount": "table",
+    "Pen Tablet > Tablet": "table",
+    "Gadgets & Accessories > Powerbank/Power Station": "other",
+    "Gadgets & Accessories > Mobile Phones": "other",
+    "Mobile Phones": "other",
+    "Audio Gears and Accessories > Gadgets & Accessories > Mobile Phones": "speaker",
+    "Desktop Memory": "desktop",
+    "Furnitures > Networking Materials": "network",
+    "Tablet > Tablet Mount": "table",
+    "Gadgets & Accessories > Memory Card": "storage",
+    "Cables/Adapter > Gadgets & Accessories > Memory Card": "storage",
+    "Memory Card": "storage",
+    "Gadgets & Accessories > Mobile Phones > Mobile Phones Tripod": "other",
+    "Gadgets & Accessories > Mobile Phones > Phone Mount": "other",
+    "Mobile Phones > Mobile Phones Tripod": "other",
+    "Mobile Phones > Phone Mount": "other",
+    "Cables/Adapter > Gadgets & Accessories": "adapter",
+    "Cables/Adapter > Computer Accessories > Gadgets & Accessories > Others": "adapter",
+    "Cables/Adapter > Computer Accessories > Gadgets & Accessories": "adapter",
+    "Cables/Adapter": "adapter",
+    "Audio Gears and Accessories > Computer Accessories > Gadgets & Accessories > Speaker": "speaker",
+    "Audio Gears and Accessories > Computer Accessories > Gadgets & Accessories > Headsets": "speaker",
+    "Audio Gears and Accessories > BTZ Deals > Gadgets & Accessories": "other",
+    "Audio Gears and Accessories > Gadgets & Accessories": "speaker",
+    "Audio Gears and Accessories": "speaker",
+    "Audio Gears and Accessories > Cables/Adapter > Computer Accessories > Others": "adapter",
+    "Camera and Gears > Gadgets & Accessories > Mobile Phones Tripod > Tripod or Gimbal": "camera",
+    "HP or Omen Laptop": "laptop",
+    "Computer Accessories > Furnitures > Table": "table",
+    "Furnitures > Table": "table",
+    "Chassis > Furnitures > Table": "case",
+    "Furnitures > Gaming Chair > Table": "chair",
+    "Cables/Adapters > Computer Accessories > Gadgets & Accessories > Memory Card": "storage",
+    "Furnitures > Office Chair": "other",
+    "Furnitures > Gaming Chair > Office Chair": "chair",
+    "Office Chair": "chair",
+    "Cables/Adapter > Computer Accessories > Gadgets & Accessories > Modding Accessories": "adapter",
+    "Appliances > Audio Gears and Accessories > Computer Accessories > Gadgets & Accessories > Speaker > Speaker/Soundbar": "speaker",
+    "Audio Gears and Accessories > Cables/Adapter > Cables/Adapters > Computer Accessories > Gadgets & Accessories": "adapter",
+    "Audio Gears and Accessories > Computer Accessories > Others": "speaker",
+    "Audio Gears and Accessories > Gadgets & Accessories > Microphone": "speaker",
+    "Fashion > Gadgets & Accessories > Watch": "other",
+    "Furnitures > Gaming Chair": "chair",
+    "BTZ Deals > Furnitures > Gaming Chair": "chair",
+    "Gaming Chair": "chair",
+    "Architect PC Builds > Consumer Desktop > DESKTOP PACKAGES > Engineering PC Build > Gaming PC > Photo Editor PC Build > Video Editor PC Build": "desktop",
+    "Architect PC Builds > BTZ Deals > Consumer Desktop > DESKTOP PACKAGES > Engineering PC Build > Gaming PC > Photo Editor PC Build > Video Editor PC Build": "desktop",
+    "BTZ Deals > Consumer Desktop > DESKTOP PACKAGES > Engineering PC Build > Gaming PC > Photo Editor PC Build > Video Editor PC Build": "desktop",
+    "Consumer Desktop > DESKTOP PACKAGES > Engineering PC Build > Gaming PC > Photo Editor PC Build > Video Editor PC Build": "desktop",
+    "DESKTOP PACKAGES > Server Desktop": "desktop",
+    "Consumer Desktop > DESKTOP PACKAGES > Engineering PC Build > Gaming PC > Photo Editor PC Build": "desktop",
+    "BTZ Deals > Consumer Desktop > DESKTOP PACKAGES > Engineering PC Build > Gaming PC > Photo Editor PC Build": "desktop",
+    "Consumer Desktop > DESKTOP PACKAGES > Gaming PC > Photo Editor PC Build": "desktop",
+    "Consumer Desktop > DESKTOP PACKAGES > Engineering PC Build > Photo Editor PC Build": "desktop",
+    "Consumer Desktop > DESKTOP PACKAGES > Photo Editor PC Build": "desktop",
+    "Consumer Desktop > DESKTOP PACKAGES > Gaming PC": "desktop",
+    "Audio Gears and Accessories > Computer Accessories > Gadgets & Accessories > Microphone": "speaker",
+    "Audio Gears and Accessories > Cables/Adapters > Computer Accessories > Gadgets & Accessories": "adapter",
+    "Appliances > Audio Gears and Accessories > BTZ Deals > Gadgets & Accessories > Speaker/Soundbar": "other",
+    "Appliances > Audio Gears and Accessories > Gadgets & Accessories > Speaker/Soundbar": "speaker",
+    "LAPTOP": "laptop",
+    "Gadgets & Accessories": "other",
+    "Furnitures": "other",
+    "Cooling Systems > Watercooling Kits & Accessories": "cpu_cooler",
+    "Computer Accessories > Cooling Systems > Modding Accessories > Watercooling Kits & Accessories": "cpu_cooler",
+    "Cooling Systems > Fans/Hubs/Controller": "cpu_cooler",
+    "Computer Accessories > Cooling Systems > Fans/Hubs/Controller > Modding Accessories": "cpu_cooler",
+    "Cooling Systems > CPU Aircooling System": "cpu_cooler",
+    "BTZ Deals > Cooling Systems > CPU Aircooling System": "cpu_cooler",
+    "BTZ Deals > Consumer Desktop > DESKTOP PACKAGES > Gaming PC > Photo Editor PC Build": "desktop",
+    "Consumer Desktop > DESKTOP PACKAGES": "desktop",
+    "Cables/Adapter > Cables/Adapters > Computer Accessories > Gadgets & Accessories": "adapter",
+    "Cables/Adapter > Cables/Adapters > Computer Accessories > Gadgets & Accessories > Others": "adapter",
+    "Audio Gears and Accessories > Cables/Adapter > Gadgets & Accessories": "adapter",
+    "Cooling Systems > CPU AIO Liquid Cooling System": "cpu_cooler",
+    "BTZ Deals > Cooling Systems > CPU AIO Liquid Cooling System": "cpu_cooler",
+    "CPU AIO Liquid Cooling System": "cpu_cooler",
+    "Gadgets & Accessories > Phone Mount": "other",
+    "Gadgets & Accessories > Mobile Phones Tripod": "other",
+    "CPU Aircooling System": "cpu_cooler",
+    "Computer Accessories > Webcam": "camera",
+    "Camera > Camera and Gears > Computer Accessories > Webcam": "camera",
+    "BTZ Deals > Computer Accessories > Webcam": "camera",
+    "Computer Accessories > Cooling Systems > CPU AIO Liquid Cooling System > Fans/Hubs/Controller > Others": "cpu_cooler",
+    "Computer Accessories > Thermalpaste/Grease": "other",
+    "BTZ Deals > Computer Accessories > Thermalpaste/Grease": "other",
+    "Thermalpaste/Grease": "other",
+    "Computer Accessories > Speaker": "speaker",
+    "Appliances > Computer Accessories > Speaker > Speaker/Soundbar": "speaker",
+    "BTZ Deals > Computer Accessories > Speaker": "speaker",
+    "Computer Accessories > Speaker > Speaker/Soundbar": "speaker",
+    "DESKTOP PACKAGES > MINI PC System Units": "desktop",
+    "Computer Accessories > Softwares": "software",
+    "BTZ Deals > Computer Accessories > Softwares": "software",
+    "BTZ Deals > Computer Accessories > Others": "other",
+    "Computer Accessories > Others": "other",
+    "Cables/Adapters > Computer Accessories > Others": "adapter",
+    "Computer Accessories > Lighting Accessories > Others": "other",
+    "Computer Accessories > Modding Accessories > Others": "other",
+    "Computer Accessories > Monitor Bracket/Stand > Others": "monitor",
+    "Computer Accessories > Notebook Cooler": "cpu_cooler",
+    "Notebook Cooler": "cpu_cooler",
+    "Computer Accessories > Notebook Cooler > Others": "cpu_cooler",
+    "Computer Accessories > Mouse/Mousepad": "mouse",
+    "BTZ Deals > Computer Accessories > Mouse/Mousepad": "mouse",
+    "Computer Accessories > Keyboard > Mouse/Mousepad": "keyboard",
+    "Computer Accessories > Others > Thermalpaste/Grease": "other",
+    "DESKTOP PACKAGES": "desktop",
+    "BTZ Deals > Cooling Systems > Fans/Hubs/Controller": "cpu_cooler",
+    "Computer Accessories > Modding Accessories": "other",
+    "Modding Accessories": "other",
+    "DESKTOP PACKAGES > Gaming PC": "desktop",
+    "BTZ Deals > Consumer Desktop > DESKTOP PACKAGES > Gaming PC": "desktop",
+    "Computer Accessories > Lighting Accessories": "other",
+    "BTZ Deals > Computer Accessories > Lighting Accessories": "other",
+    "Appliances > Computer Accessories > Lighting Accessories > Others": "other",
+    "Computer Accessories > Keyboard > Others": "keyboard",
+    "Computer Accessories > Keyboard": "keyboard",
+    "BTZ Deals > Computer Accessories > Keyboard": "keyboard",
+    "Computer Accessories > Joystick/Gamepad": "controller",
+    "Computer Accessories > Cooling Systems > CPU AIO Liquid Cooling System > CPU Aircooling System > Others": "cpu_cooler",
+    "Cables/Adapters > Computer Accessories > Modding Accessories": "adapter",
+    "Computer Accessories > Headsets": "headset",
+    "BTZ Deals > Computer Accessories > Headsets": "headset",
+    "Computer Accessories > Flash Drives": "storage",
+    "Flash Drives": "storage",
+    "BTZ Deals > Computer Accessories > Flash Drives": "storage",
+    "Cables/Adapters > Computer Accessories": "adapter",
+    "Computer Accessories > Cooling Systems > Fans/Hubs/Controller > Lighting Accessories": "cpu_cooler",
+    "Cables/Adapters > Computer Accessories > Lighting Accessories": "adapter",
+    "Mouse/Mousepad": "mouse",
+    "Joystick/Gamepad": "controller",
+    "Chassis": "case",
+    "BTZ Deals > Chassis": "case",
+    "Cables/Adapters > Computer Accessories > Speaker": "speaker",
+    "Speaker": "speaker",
+    "CCTV & Securities > Package Kit": "camera",
+    "CCTV & Securities > CCTV Camera": "camera",
+    "CCTV & Securities > CCTV Accessories": "camera",
+    "Cables/Adapters > CCTV & Securities > CCTV Accessories > Computer Accessories": "camera",
+    "CCTV Accessories": "camera",
+    "Computer Accessories > Cooling Systems > CPU Aircooling System > Modding Accessories": "cpu_cooler",
+    "Computer Accessories > Headsets > Keyboard > Mouse/Mousepad": "mouse",
+    "Computer Accessories > Flash Drives > Storage Devices": "storage",
+    "Lighting Accessories": "other",
+    "Others": "other",
+    "Computer Accessories": "other",
+    "Computer Accessories > Joystick/Gamepad > Others": "controller",
+    "Computer Accessories > Gadgets & Accessories > Joystick/Gamepad": "controller",
+    "Camera and Gears > Tripod or Gimbal": "camera",
+    "Camera > Camera and Gears": "camera",
+    "Camera > Gadgets & Accessories": "other",
+    "Camera > Camera and Gears > Gadgets & Accessories": "camera",
+    "Camera > Camera Accessories": "camera",
+    "Computer Accessories > Headsets > Keyboard > Mouse/Mousepad > Projector": "mouse",
+    "Headsets": "other",
+    "Camera and Gears > Camera Light Equipments": "camera",
+    "CCTV & Securities": "camera",
+    "Camera and Gears > Camera Lenses": "camera",
+    "Computer Accessories > Keyboard > Projector": "keyboard",
+    "Camera and Gears > Camera Battery and Charger": "camera",
+    "Camera and Gears > Lapel or Shotgun": "camera",
+    "Camera Accessories > Camera and Gears": "camera",
+    "Appliances > Vacuum Cleaner": "other",
+    "Appliances > Others > Vacuum Cleaner": "other",
+    "Vacuum Cleaner": "other",
+    "Appliances > TV": "other",
+    "Appliances > Monitors > TV": "monitor",
+    "Speaker/Soundbar": "speaker",
+    "Appliances > Speaker/Soundbar": "speaker",
+    "Appliances > Computer Accessories": "other",
+    "Appliances": "other",
+    "BTZ Deals > PROMO BUNDLES": "other",
+    "CCTV & Securities > CCTV Accessories > Networking Materials": "network",
+    "CCTV & Securities > CCTV Accessories > Solar Panel": "camera",
+    "Computer Accessories > Headsets > Others": "headset",
+    "Cables/Adapters": "adapter",
+    "Appliances > Computer Accessories > Speaker/Soundbar": "speaker",
+    "Camera and Gears > Computer Accessories > Lapel or Shotgun > Microphone": "camera",
+    "Appliances > Others": "other",
+    "Camera and Gears > Tripod Ballhead": "camera",
+    "Camera and Gears": "camera",
+    "Appliances > Computer Accessories > Others": "other",
+    "Appliances > Power Sources > Surge Protector | Power Extension": "other"
+  },
+  "Complink": {
+    "Mobility": "laptop",
+    "Network Devices": "network",
+    "Peripherals": "other",
+    "Others": "other",
+    "Smartphones": "other",
+    "Printers & Scanners": "printer",
+    "Desktops": "desktop"
+  },
+  "DataBlitz": {
+    "Accessories": "other",
+    "Keyboards": "keyboard",
+    "Mobile Accessories": "other",
+    "Mouse": "mouse",
+    "Mouse Pad": "mouse",
+    "Computer Accessories": "other",
+    "NSW Games": "other",
+    "PS4 Games": "other",
+    "PS5 Games": "other",
+    "Headset": "headset",
+    "Computer RAM": "ram",
+    "Internal SSD": "storage",
+    "3DS|NDS Games": "other",
+    "Games": "other",
+    "Sega Genesis": "other",
+    "Collectibles": "other",
+    "Collectible": "other",
+    "Collectibles - Preorder": "other",
+    "PC Games": "other",
+    "Pre-Order": "other",
+    "Balance Payment": "other",
+    "Memory Card": "ram",
+    "External SSD": "storage",
+    "Flash Drive": "storage",
+    "Gaming Desktops": "other",
+    "Adapters, Cables and Hubs": "cable",
+    "PC Parts & Components": "other",
+    "Car Accessories": "other",
+    "Adapters & Cables": "cable",
+    "Game Controller Accessories": "gamepad",
+    "Adapter": "cable",
+    "Driving Peripherals": "other",
+    "Xboxone Games": "other",
+    "Xbox 360 Games": "other",
+    "Game": "other",
+    "Activision": "other",
+    "Gaming Monitor": "monitor",
+    "Non-Gaming Monitor": "monitor",
+    "Computer Gaming Laptop": "laptop",
+    "Computer Non-Gaming Laptop": "laptop",
+    "Tablet": "table",
+    "Desktop Computers": "desktop",
+    "Accessory Kits": "other",
+    "Carrying Case": "sleeve-bag",
+    "Essentials": "other",
+    "Console System": "other",
+    "Docking Station": "other",
+    "LEGACY ITEMS": "other",
+    "Game Controllers": "gamepad",
+    "Wireless Controller": "gamepad",
+    "Tools": "other",
+    "NSW Games - Balance Payment": "other",
+    "pre-order": "other",
+    "Speakers": "speaker",
+    "Computer Processors": "cpu",
+    "Gaming Chairs": "chair",
+    "Electronics": "other",
+    "Bundle": "other",
+    "Bag": "sleeve-bag",
+    "PS2 | PS3 GAMES": "other",
+    "Mini PC": "desktop",
+    "Microphone": "microphone",
+    "UPS": "ups",
+    "13kg": "other",
+    "Table": "table",
+    "Office Chair": "chair",
+    "HDD": "storage",
+    "PC Games - Balance Payment": "other",
+    "Router": "network",
+    "Mobile Phone": "other",
+    "ASUS ROG PERIPHERALS": "other",
+    "ASUS ROG Backpack": "other",
+    "ASUS Power Supply": "psu",
+    "ASUS PC Parts and Components": "other",
+    "Video Cards & Adapters": "gpu",
+    "Asus Graphics Card": "gpu",
+    "ASUS": "other",
+    "Watch": "other",
+    "Anime Fighting Games": "other",
+    "Anime Collection": "other",
+    "Collectible Trading Cards": "other",
+    "Toys & Games": "other",
+    "Clocks": "other",
+    "PSP | PSV Games": "other",
+    "Console Bundles": "other",
+    "Console Accessories": "other",
+    "Console": "other",
+    "Compile": "other",
+    "nsw": "other",
+    "CORSAIR": "other",
+    "Cooling Fans/ Systems": "cpu_cooler",
+    "Cooler Master Power Supply": "cpu_cooler",
+    "Cooler Master": "cpu_cooler",
+    "Controllers, Joysticks & Arcade Sticks": "gamepad",
+    "Controllers": "gamepad",
+    "COLORFUL IGAME GEFORCE RTX 4060": "other",
+    "Colorful Graphics Card": "gpu",
+    "Colorful": "other",
+    "Charger": "other",
+    "Category - PC Accessories": "other",
+    "Category - Nintendo Switch Games": "other",
+    "Headphone & Headset Accessories": "headset",
+    "Category - Nintendo Switch Accessories": "other",
+    "Category - Xbox One Games": "other",
+    "Capcom": "other",
+    "BOBOVR": "other",
+    "Boost All": "other",
+    "Bethesda": "other",
+    "Battery": "other",
+    "Barebones": "desktop",
+    "Ducky Switch Gateron": "other",
+    "Ducky": "other",
+    "Earphones & Earbuds": "other",
+    "Headphone Cushions & Tips": "headset",
+    "E-YOOSO Gaming Keyboards": "keyboard",
+    "E-YOOSO": "other",
+    "Dragonwar": "other",
+    "DJ Peripherals": "other",
+    "Dobe Other Accessories": "other",
+    "Disney": "other",
+    "Dobe": "other",
+    "Deepcool Power Supply": "psu",
+    "Deaths Door": "other",
+    "Datablitz": "other",
+    "Wii | WiiU Games": "other",
+    "Data Storage Systems": "storage",
+    "Corsair | Elgato": "other",
+    "Gaming Headset": "headset",
+    "Gaming Chairs, Tables & Furnitures": "chair",
+    "G.Skill": "other",
+    "FOR UNTAGGING SPECIAL OFFER": "other",
+    "Flight Simulators": "other",
+    "FINALMOUSE STARLIGHT PRO TENZ": "other",
+    "Final Fantasy Collection": "other",
+    "Filco": "other",
+    "Featured Computer Peripherals": "other",
+    "Epos Gaming Headset": "headset",
+    "Elgato": "other",
+    "Elephant": "other"
+  },
+  "DynaQuest PC": {
+    "Cooling Solutions": "cpu_cooler",
+    "Air Cooler": "cpu_cooler",
+    "PSU": "psu",
+    "Chassis": "case",
+    "Webcam": "camera",
+    "UPS": "ups",
+    "AVR": "ups",
+    "CCTV": "camera",
+    "Ink": "printer",
+    "Printing / Office Supplies": "printer",
+    "Ink Toner": "printer",
+    "Printer": "printer",
+    "Printer / Scanner": "printer",
+    "Office Furniture": "office-furniture",
+    "Mouse Pad": "mouse",
+    "Gaming Mouse Pad": "mouse",
+    "Keyboard / Mouse": "keyboard",
+    "Mouse": "mouse",
+    "Keyboard": "keyboard",
+    "Gaming Combo": "other",
+    "Gaming Headset": "headset",
+    "Gaming Mouse": "mouse",
+    "Gaming Keyboard": "keyboard",
+    "Game Controller": "controller",
+    "Display": "monitor",
+    "display": "monitor",
+    "Audio": "headset",
+    "Microphones": "microphone",
+    "Streaming Device": "media-player",
+    "Cabling Solutions": "cable",
+    "UTP Cable": "cable",
+    "Switch": "other",
+    "Router": "network",
+    "router": "network",
+    "Rack": "other",
+    "Network Attached Storage": "network",
+    "Adapter": "adapter",
+    "adapter": "adapter",
+    "Access Point / Range Extender": "network",
+    "Monitor": "monitor",
+    "Mobile": "other",
+    "Apparel | Wearable": "apparel",
+    "HDD SSD": "external-storage",
+    "March Deals": "other",
+    "Notebook": "laptop",
+    "Notebooks": "laptop",
+    "Wellness": "other",
+    "Media Player": "media-player",
+    "Mobile Accessories": "other",
+    "Digital Camera": "camera",
+    "RAM": "ram",
+    "AIO Cooler": "cpu_cooler",
+    "Software": "software",
+    "Package Desktop": "desktop",
+    "Mini-PC": "other",
+    "LAN Card": "other",
+    "Processor": "cpu",
+    "Psu": "psu",
+    "psu": "psu",
+    "Motherboard": "motherboard",
+    "Motherboards": "motherboard",
+    "ram": "ram",
+    "Ram": "ram",
+    "SSD m.2": "storage",
+    "ssd m.2": "storage",
+    "ssd m2": "storage",
+    "HDD Internal": "storage",
+    "Hdd Internal": "storage",
+    "HDD External": "external-storage",
+    "Graphics Card": "gpu",
+    "chassis": "case",
+    "casing": "case",
+    "USB Hub / Card Reader": "hub",
+    "Memory Devices": "other",
+    "Lightings | Bracket | Mod": "other",
+    "HDD Dock / Enclosure / Caddy": "enclosure",
+    "Cleaning Solutions": "cleaning-solution",
+    "Batteries & Chargers": "battery",
+    "Sleeves / Bags": "sleeve-bag"
+  },
+  "EasyPC": {
+    "LAPTOP": "laptop",
+    "KEYBOARD": "keyboard",
+    "CPU COOLING": "cpu_cooler",
+    "PC CASE": "case",
+    "DISPLAY": "monitor",
+    "UPS & AVR": "ups",
+    "MEMORY": "ram",
+    "SOLID STATE DRIVE": "storage",
+    "Memory": "ram",
+    "EXTERNAL STORAGE DEVICES": "external-storage",
+    "Solid State Drive": "storage",
+    "ACCESSORIES": "other",
+    "HEADPHONES": "other",
+    "MOUSE": "mouse",
+    "STORAGE DEVICES": "storage",
+    "POWER SUPPLY": "psu",
+    "CHASSIS FAN": "fan",
+    "TABLE": "table",
+    "PC Case": "case",
+    "KEYBOARD AND MOUSE": "keyboard",
+    "GAMING TABLE": "other",
+    "COMBO": "other",
+    "Keyboard": "keyboard",
+    "GRAPHIC CARD": "gpu",
+    "PROCESSOR AMD": "cpu",
+    "SPEAKER": "speaker",
+    "CAMERA": "camera",
+    "WEB & DIGITAL CAMERA": "camera",
+    "HEADSET": "headset",
+    "Gaming Headset": "headset",
+    "Mouse": "mouse",
+    "MICROPHONE": "microphone",
+    "GAMING KEYBOARD": "keyboard",
+    "GAMING MOUSE": "mouse",
+    "GAMING HEADSET": "headset",
+    "GAMING SURFACE": "other",
+    "Table": "table",
+    "MONITOR": "monitor",
+    "STORAGE": "storage",
+    "Laptop": "laptop",
+    "Electronics": "other",
+    "Display": "monitor",
+    "Accessories": "other",
+    "MOTHERBOARD": "motherboard",
+    "LEDTV": "other",
+    "Power Supply": "psu",
+    "HARD DISK": "storage",
+    "CHAIR": "chair",
+    "TABLET": "tablet",
+    "Branded PC": "desktop",
+    "DESKTOP PACKAGE": "desktop",
+    "Mini PC": "other",
+    "NETWORK DEVICE": "network",
+    "PRINTERS & SCANNER": "printer",
+    "CCTV": "camera",
+    "RECORDER": "other",
+    "EARPHONES": "headset",
+    "CABLE": "cable",
+    "ALL-IN-ONE": "desktop",
+    "Headset": "headset",
+    "PROCESSOR INTEL": "cpu",
+    "PC BUNDLE": "other",
+    "Graphic Card": "gpu",
+    "BUNDLES": "other",
+    "WEBCAM": "camera",
+    "OFFICE CHAIR": "chair",
+    "CPU Cooling": "cpu_cooler",
+    "Microphones": "other",
+    "SECURITY CAMERA": "camera",
+    "HEADSET ACCESSORIES": "other",
+    "KEYCAPS": "other",
+    "Processor AMD": "cpu",
+    "THERMAL GREASE": "other",
+    "GLASSES": "other",
+    "Motherboard": "motherboard",
+    "Gaming Surface": "other",
+    "GAMING DESKTOP": "desktop",
+    "DESKTOP COMPUTER": "desktop",
+    "DESKTOP BUNDLE": "desktop",
+    "Gaming chair": "chair",
+    "Microphone": "microphone",
+    "Graphics Card": "gpu",
+    "FREEBIE": "other",
+    "GRAPHICS CARD": "gpu",
+    "PRODUCTIVITY LAPTOP": "laptop",
+    "External Storage Devices": "external-storage",
+    "ANTIVIRUS": "other",
+    "PROJECTOR": "projector",
+    "POWER BANK": "powerbank",
+    "OFFICE PRODUCTIVITY": "other",
+    "Early PayDay Sale": "other",
+    "CABLES & ADAPTERS": "cable",
+    "CUSTOMIZATION": "other",
+    "GAMING CHAIR": "chair",
+    "COOLING": "cpu_cooler",
+    "Cooling": "cpu_cooler",
+    "Cable": "cable",
+    "COMBO SET": "other",
+    "Chair": "chair",
+    "memory": "ram",
+    "UPS": "ups",
+    "Monitor": "monitor",
+    "Gaming Mouse": "mouse",
+    "MINI PC": "desktop",
+    "Graphic card": "gpu",
+    "Wireless Routers": "network",
+    "PROCESSOR": "cpu",
+    "EXTERNAL SOLID STATE DRIVE": "external-storage",
+    "GAMING ACCESSORIES": "other",
+    "GAMING LAPTOP": "laptop",
+    "OPERATING SYSTEM": "software",
+    "SOFTWARE": "software",
+    "EXTERNAL STORAGE": "external-storage",
+    "NOTEBOOK LAPTOP": "laptop"
+  },
+  "Electroworld": {
+    "Lenovo Official Store > Mobile and Gadgets New Arrivals > New Arrivals > Monitors > Computers > Desktop > Condo Essentials > Desktop > Online Exclusive Deals > Electroworld | New Arrivals": "monitor",
+    "Lenovo Official Store > Mobile and Gadgets New Arrivals > Desktop > Monitors > Computers > Clearance Sale > Desktop > Bundles > New Arrivals > Online Exclusive Deals > Electroworld | New Arrivals": "monitor",
+    "Gaming Laptops > Intel Core i5 and i7 Laptops > Lenovo Official Store > Mobile and Gadgets New Arrivals > New Arrivals > Computers > Bundles > Laptops > Bestsellers > Electroworld | New Arrivals > Electroworld | Free Shipping > Add-On Deals": "laptop",
+    "Office > Lifestyle Electronics": "other",
+    "Office > Lifestyle Electronics > Bestsellers": "other",
+    "Mobile and Gadgets New Arrivals > Gaming > Computers > New Arrivals": "other",
+    "Logitech Official Store > Gaming > Lifestyle Electronics > Logitech Official Store > 2K - 2.9K > Electroworld | Deals": "other",
+    "5K - 6.9K > Output Device > Gaming > Computers > Logitech Official Store > Electroworld | Deals > Lifestyle Electronics > Headphones > 7K - 9.9K": "headset",
+    "Logitech Official Store > Input Device > Gaming > Computers > 5K - 6.9K > Logitech Official Store > Lifestyle Electronics > 7K - 9.9K": "keyboard",
+    "Logitech Official Store > Input Device > Gaming > Computers > Logitech Official Store > 1K - 1.9K > Lifestyle Electronics": "keyboard",
+    "Logitech Official Store > Output Device > Headphones > Gaming > Computers > Logitech Official Store > 2K - 2.9K > Lifestyle Electronics": "headset",
+    "3K - 4.9K > Logitech Official Store > Output Device > Headphones > Gaming > Computers > Logitech Official Store > Electroworld | Deals > Lifestyle Electronics > Home Entertainment": "headset",
+    "Logitech Official Store > Input Device > Gaming > Computers > 3K - 4.9K > Logitech Official Store > Electroworld | Deals > Lifestyle Electronics > 5K - 6.9K": "keyboard",
+    "Logitech Official Store > Input Device > Gaming > Computers > 7K - 9.9K > Lifestyle Electronics > Logitech Official Store": "keyboard",
+    "Gaming > Lifestyle Electronics > Electroworld | Deals > Best Deals > Gift Guide > Trending Gadgets > Online Exclusive Models > Bestsellers": "other",
+    "Gaming > Lifestyle Electronics > Electroworld | Deals > Best Deals > Gift Guide > Online Exclusive Models > Bestsellers": "other",
+    "Gaming > Lifestyle Electronics > Sony Official Store > 1K - 1.9K > Electroworld | Deals": "other",
+    "3K - 4.9K > Gaming > Lifestyle Electronics > Sony Official Store > Electroworld | Deals > Payday Sale > Best Deals > Online Exclusive Deals": "other",
+    "PREORDER > Mobile and Gadgets New Arrivals > New Arrivals > Gaming > Sony Official Store > Lifestyle Electronics": "other",
+    "Gaming > Lifestyle Electronics > 3K - 4.9K > Sony Official Store > Electroworld | Deals > Best Deals > Online Exclusive Deals": "other",
+    "Mobile and Gadgets New Arrivals > New Arrivals > Lifestyle Electronics > 3K - 4.9K > Gaming > Sony Official Store > Computers > Electroworld | New Arrivals": "other",
+    "Gaming > Sony Official Store > Lifestyle Electronics > Computers > 3K - 4.9K": "other",
+    "Gaming > Lifestyle Electronics > Sony Official Store > Bestsellers": "other",
+    "Acer > Productivity and Business Laptops > Computers > Electroworld | Free Shipping > Electroworld | Deals > Bundle Up > Pre-installed Microsoft Office > Bundles > Laptops > Add-On Deals": "laptop",
+    "Acer > Mobile and Gadgets New Arrivals > Productivity and Business Laptops > Computers > Pre-installed Microsoft Office > Laptops > Electroworld | Free Shipping > New Arrivals > Electroworld | New Arrivals > Add-On Deals": "laptop",
+    "Acer > Mobile and Gadgets New Arrivals > Entry Laptops > Computers > Laptops > New Arrivals > Electroworld | New Arrivals > Electroworld | Free Shipping > Add-On Deals > Best Deals": "laptop",
+    "Acer > Entry Laptops > Computers > Pre-installed Microsoft Office > Laptops > Electroworld | Free Shipping > New Arrivals > Best Deals > Electroworld | Deals > Add-On Deals": "laptop",
+    "Acer > Mobile and Gadgets New Arrivals > Entry Laptops > Computers > Pre-installed Microsoft Office > Laptops > Electroworld | Free Shipping > New Arrivals > Electroworld | New Arrivals > Add-On Deals": "laptop",
+    "Acer > Mobile and Gadgets New Arrivals > Entry Laptops > Computers > Pre-installed Microsoft Office > Laptops > Electroworld | Free Shipping > New Arrivals > Electroworld | New Arrivals > Add-On Deals > Bestsellers > Best Deals > Online Exclusive Deals": "laptop",
+    "Acer > Mobile and Gadgets New Arrivals > Entry Laptops > Laptops > Computers > New Arrivals > Electroworld | New Arrivals > Electroworld | Free Shipping > Add-On Deals": "laptop",
+    "Acer > Productivity and Business Laptops > Computers > Pre-installed Microsoft Office > Laptops > New Arrivals > Best Deals > Electroworld | Free Shipping > Online Exclusive Deals > Bestsellers > Electroworld | New Arrivals > Add-On Deals": "laptop",
+    "Acer > Entry Laptops > Computers > Bundle Up > Electroworld | Free Shipping > Bundles > Laptops > New Arrivals > Best Deals > Add-On Deals": "laptop",
+    "Acer > Mobile and Gadgets New Arrivals > New Arrivals > Productivity and Business Laptops > Hybrid Work Essentials > Computers > Bundles > Laptops > Electroworld | New Arrivals": "laptop",
+    "Acer > Productivity and Business Laptops > Computers > Bundle Up > Electroworld | Free Shipping > Bundles > Laptops > Trending Gadgets > New Arrivals > Best Deals > Online Exclusive Deals > Add-On Deals": "laptop",
+    "Acer > Mobile and Gadgets New Arrivals > New Arrivals > Computers > Laptops > Electroworld | New Arrivals > Electroworld | Free Shipping > Add-On Deals": "laptop",
+    "Acer > Productivity and Business Laptops > Computers > Pre-installed Microsoft Office > Laptops > Electroworld | Free Shipping > New Arrivals > Electroworld | Deals > Add-On Deals": "laptop",
+    "Acer > Gaming Laptops > Electroworld | Gaming Steal Deals > Computers > Electroworld | Deals > Electroworld | Free Shipping > Bundle Up > Bundles > Laptops > Add-On Deals": "laptop",
+    "Gaming Laptops > Mobile and Gadgets New Arrivals > Computers > Bundles > New Arrivals > Electroworld | New Arrivals > Electroworld | Free Shipping > Add-On Deals > Online Exclusive Deals": "laptop",
+    "Acer > Mobile and Gadgets New Arrivals > New Arrivals > Hybrid Work Essentials > Computers > Laptops > Gaming Laptops > Online Exclusive Deals > Electroworld | New Arrivals": "laptop",
+    "Acer > Mobile and Gadgets New Arrivals > New Arrivals > Laptops > Gaming Laptops > Computers > Electroworld | New Arrivals > Electroworld | Free Shipping > Add-On Deals > Online Exclusive Deals": "laptop",
+    "Gaming Laptops > Acer > Computers > Best Deals > Electroworld | Free Shipping > Electroworld | Deals > Bundle Up > Bundles > Laptops > Online Exclusive Deals > Payday Sale > Add-On Deals": "laptop",
+    "Gaming Laptops > Acer > Computers > Laptops > Electroworld | Free Shipping > Trending Gadgets > New Arrivals > Best Deals > Bestsellers > Add-On Deals": "laptop",
+    "Gaming Laptops > Acer > Computers > Laptops > Bundles > Electroworld | Free Shipping > Electroworld | New Arrivals > Add-On Deals > Online Exclusive Deals": "laptop",
+    "Acer > Productivity and Business Laptops > Computers > Electroworld | Free Shipping > Electroworld | Deals > Bundle Up > Pre-installed Microsoft Office > Bundles > Laptops > Online Exclusive Deals > Payday Sale > Add-On Deals": "laptop",
+    "Acer > Mobile and Gadgets New Arrivals > Hybrid Work Essentials > Computers > New Arrivals > Best Deals > Electroworld | New Arrivals": "other",
+    "Apple Official Store > Productivity and Business Laptops > Computers > Bundles > Laptops > Electroworld | Free Shipping > Free Delivery": "laptop",
+    "Apple Official Store > Mobile and Gadgets New Arrivals > Productivity and Business Laptops > Computers > Laptops": "laptop",
+    "Apple Official Store > Computers > Laptops > New Arrivals > Free Delivery > Best Deals > Electroworld | Free Shipping": "laptop",
+    "Gaming Laptops > ASUS > Mobile and Gadgets New Arrivals > Computers > Laptops > Electroworld | Free Shipping > New Arrivals > Electroworld | New Arrivals > Add-On Deals > Online Exclusive Deals": "laptop",
+    "Gaming Laptops > ASUS > Computers > Bundles > Laptops > Electroworld | Free Shipping > Trending Gadgets > New Arrivals > Best Deals > Add-On Deals": "laptop",
+    "ASUS > ASUS Official Store > Mobile and Gadgets New Arrivals > New Arrivals > Hybrid Work Essentials > Computers > Laptops > Electroworld | New Arrivals": "laptop",
+    "ASUS > Entry Laptops > Computers > Pre-installed Microsoft Office > Laptops > Electroworld | Free Shipping > Gift Guide > Trending Gadgets > Bundles > New Arrivals > Best Deals > Add-On Deals": "laptop",
+    "ASUS > ASUS Official Store > Mobile and Gadgets New Arrivals > New Arrivals > Productivity and Business Laptops > Hybrid Work Essentials > Computers > Laptops > Electroworld | New Arrivals": "laptop",
+    "ASUS > Productivity and Business Laptops > Computers > Electroworld | Free Shipping > Bundle Up > Pre-installed Microsoft Office > Bundles > Laptops > Trending Gadgets > Best Deals > Bestsellers > Add-On Deals": "laptop",
+    "ASUS > Mobile and Gadgets New Arrivals > Productivity and Business Laptops > Computers > Pre-installed Microsoft Office > Laptops > Electroworld | Free Shipping > New Arrivals > Electroworld | New Arrivals > Add-On Deals": "laptop",
+    "ASUS > ASUS Official Store > Mobile and Gadgets New Arrivals > New Arrivals > Productivity and Business Laptops > Computers > Laptops > Electroworld | New Arrivals": "laptop",
+    "ASUS > ASUS Official Store > Mobile and Gadgets New Arrivals > New Arrivals > Productivity and Business Laptops > Hybrid Work Essentials > Computers > Clearance Sale > Bundles > Laptops > Best Deals > Electroworld | New Arrivals": "laptop",
+    "ASUS > ASUS Official Store > Mobile and Gadgets New Arrivals > New Arrivals > Computers > Electroworld | New Arrivals": "other",
+    "Entry Laptops > HP > Computers > Pre-installed Microsoft Office > HP Official Store > Laptops > Electroworld | Free Shipping > New Arrivals > Best Deals > Trending Gadgets > Add-On Deals": "laptop",
+    "HP > Computers > Laptops > Mobile and Gadgets New Arrivals > New Arrivals > Electroworld | New Arrivals > Electroworld | Free Shipping > Add-On Deals > Best Deals": "laptop",
+    "Mobile and Gadgets New Arrivals > Productivity and Business Laptops > HP > Computers > Pre-installed Microsoft Office > HP Official Store > Laptops > Electroworld | Free Shipping > New Arrivals > Bestsellers > Electroworld | New Arrivals": "laptop",
+    "Mobile and Gadgets New Arrivals > New Arrivals > Productivity and Business Laptops > HP > Hybrid Work Essentials > Computers > HP Official Store > Laptops > Bestsellers > Electroworld | New Arrivals": "laptop",
+    "Entry Laptops > HP > Computers > Pre-installed Microsoft Office > HP Official Store > Laptops > Electroworld | Free Shipping > Trending Gadgets > New Arrivals > Electroworld | New Arrivals > Add-On Deals": "laptop",
+    "Productivity and Business Laptops > HP > Computers > Pre-installed Microsoft Office > HP Official Store > Laptops > Electroworld | Free Shipping > Trending Gadgets > New Arrivals > Best Deals > Bestsellers > Electroworld | New Arrivals": "laptop",
+    "Mobile and Gadgets New Arrivals > New Arrivals > HP > Hybrid Work Essentials > Computers > HP Official Store > Laptops > Add-On Deals > Productivity and Business Laptops": "laptop",
+    "Mobile and Gadgets New Arrivals > Entry Laptops > HP > Computers > HP Official Store > Laptops > New Arrivals > Electroworld | New Arrivals": "laptop",
+    "Mobile and Gadgets New Arrivals > New Arrivals > HP > Hybrid Work Essentials > Electroworld | New Arrivals > Computers > HP Official Store > Laptops > Add-On Deals": "laptop",
+    "Mobile and Gadgets New Arrivals > Free Delivery > New Arrivals > Productivity and Business Laptops > HP > HP Official Store > Laptops > Computers > Electroworld | New Arrivals > Electroworld | Free Shipping": "laptop",
+    "Entry Laptops > HP > Computers > HP Official Store > Bundle Up > Pre-installed Microsoft Office > Electroworld | Free Shipping > Bundles > Laptops > Add-On Deals": "laptop",
+    "Mobile and Gadgets New Arrivals > New Arrivals > Entry Laptops > HP > Hybrid Work Essentials > Computers > HP Official Store > Clearance Sale > Bundles > Laptops > Electroworld | New Arrivals": "laptop",
+    "Productivity and Business Laptops > Computers > Pre-installed Microsoft Office > Laptops > HP > HP Official Store > Electroworld | Free Shipping > Electroworld | New Arrivals > Add-On Deals > Online Exclusive Deals": "laptop",
+    "Productivity and Business Laptops > HP > Computers > Pre-installed Microsoft Office > HP Official Store > Laptops > Electroworld | Free Shipping > New Arrivals > Electroworld | New Arrivals > Add-On Deals": "laptop",
+    "Mobile and Gadgets New Arrivals > HP > Hybrid Work Essentials > Electroworld | New Arrivals > Computers > HP Official Store > Laptops > Online Exclusive Deals": "laptop",
+    "Productivity and Business Laptops > HP > Computers > HP Official Store > Bundle Up > Pre-installed Microsoft Office > Bundles > Laptops > Electroworld | Free Shipping": "laptop",
+    "Productivity and Business Laptops > HP > Computers > HP Official Store > Electroworld | Free Shipping > Bundle Up > Pre-installed Microsoft Office > Bundles > Laptops > Online Exclusive Deals": "laptop",
+    "Productivity and Business Laptops > HP > Computers > Pre-installed Microsoft Office > HP Official Store > Laptops > Electroworld | Free Shipping > New Arrivals > Best Deals > Electroworld | New Arrivals > Add-On Deals > Online Exclusive Deals": "laptop",
+    "Productivity and Business Laptops > HP > Computers > Pre-installed Microsoft Office > HP Official Store > Laptops > Electroworld | Free Shipping > Electroworld | New Arrivals > Add-On Deals > Online Exclusive Deals": "laptop",
+    "Gaming Laptops > HP > Computers > HP Official Store > Bundle Up > Pre-installed Microsoft Office > Electroworld | Free Shipping > Bundles > Laptops > Trending Gadgets > New Arrivals > Best Deals > Add-On Deals > Online Exclusive Deals": "laptop",
+    "Gaming Laptops > HP > Computers > HP Official Store > Bundle Up > Pre-installed Microsoft Office > Electroworld | Free Shipping > Bundles > Laptops > Payday Sale > New Arrivals > Best Deals > Add-On Deals": "laptop",
+    "Gaming Laptops > HP > Computers > Pre-installed Microsoft Office > HP Official Store > Electroworld | Free Shipping > Laptops > Add-On Deals": "laptop",
+    "Gaming Laptops > HP > Computers > Pre-installed Microsoft Office > HP Official Store > Electroworld | Free Shipping > Laptops > Add-On Deals > Online Exclusive Deals": "laptop",
+    "Gaming Laptops > HP > Computers > Pre-installed Microsoft Office > HP Official Store > Laptops > Electroworld | Free Shipping > Trending Gadgets > New Arrivals > Best Deals > Electroworld | New Arrivals > Add-On Deals > Bestsellers": "laptop",
+    "Productivity and Business Laptops > Huawei > Huawei Official Store > Computers > Laptops > Electroworld | Free Shipping > Trending Gadgets > Bundles > Payday Sale > New Arrivals > Best Deals > Electroworld | Deals > Online Exclusive Deals > Electroworld | New Arrivals > Add-On Deals": "laptop",
+    "Mobile and Gadgets New Arrivals > Productivity and Business Laptops > Huawei > Huawei Official Store > Computers > Laptops > Electroworld | Free Shipping > Online Exclusive Deals > New Arrivals > Bestsellers > Electroworld | New Arrivals": "laptop",
+    "Mobile and Gadgets New Arrivals > Productivity and Business Laptops > Huawei > Huawei Official Store > Computers > Laptops > Electroworld | Free Shipping > Online Exclusive Deals > New Arrivals > Bestsellers > Electroworld | New Arrivals > Add-On Deals > Best Deals": "laptop",
+    "Mobile and Gadgets New Arrivals > Laptops > Huawei Official Store > Huawei > Huawei Official Store > Computers > Electroworld | Free Shipping > New Arrivals > Bestsellers > Electroworld | New Arrivals > Add-On Deals > Best Deals > Online Exclusive Deals": "laptop",
+    "Mobile and Gadgets New Arrivals > PC and AIO > Desktop > Desktop > New Arrivals > Online Exclusive Deals > Computers > Electroworld | New Arrivals": "other",
+    "Lenovo Official Store > Entry Laptops > Computers > Pre-installed Microsoft Office > Laptops > Electroworld | Free Shipping > Gift Guide > Trending Gadgets > New Arrivals > Best Deals > Add-On Deals > Bestsellers > Online Exclusive Deals": "laptop",
+    "Lenovo Official Store > Entry Laptops > Computers > Pre-installed Microsoft Office > Laptops > Electroworld | Free Shipping > New Arrivals > Best Deals > Add-On Deals": "laptop",
+    "Lenovo Official Store > Mobile and Gadgets New Arrivals > New Arrivals > Productivity and Business Laptops > Computers > Laptops": "laptop",
+    "Lenovo Official Store > Mobile and Gadgets New Arrivals > New Arrivals > Productivity and Business Laptops > Hybrid Work Essentials > Computers > Laptops > Electroworld | New Arrivals": "laptop",
+    "Lenovo Official Store > Productivity and Business Laptops > Computers > Pre-installed Microsoft Office > Laptops > Electroworld | Free Shipping > Best Deals > Add-On Deals": "laptop",
+    "Lenovo Official Store > Productivity and Business Laptops > Computers > Pre-installed Microsoft Office > Laptops > New Arrivals > Best Deals > Electroworld | Free Shipping > Bestsellers > Electroworld | New Arrivals > Add-On Deals": "laptop",
+    "Lenovo Official Store > Productivity and Business Laptops > Computers > Pre-installed Microsoft Office > Laptops > Electroworld | Free Shipping > Trending Gadgets > Online Exclusive Deals > New Arrivals > Best Deals > Bestsellers > Electroworld | New Arrivals > Add-On Deals": "laptop",
+    "Lenovo Official Store > Mobile and Gadgets New Arrivals > New Arrivals > Hybrid Work Essentials > Computers > Laptops > Electroworld | New Arrivals": "laptop",
+    "Lenovo Official Store > Mobile and Gadgets New Arrivals > Computers > Electroworld | Free Shipping > New Arrivals > Laptops > Electroworld | New Arrivals > Add-On Deals > Bestsellers > Best Deals > Online Exclusive Deals": "laptop",
+    "Lenovo Official Store > Mobile and Gadgets New Arrivals > Productivity and Business Laptops > Computers > New Arrivals > Electroworld | New Arrivals > Electroworld | Free Shipping > Add-On Deals > Bestsellers > Online Exclusive Deals": "laptop",
+    "Lenovo Official Store > Mobile and Gadgets New Arrivals > New Arrivals > Productivity and Business Laptops > Hybrid Work Essentials > Electroworld | New Arrivals > Computers > Laptops": "laptop",
+    "Gaming Laptops > Lenovo Official Store > Computers > Pre-installed Microsoft Office > Laptops > Bundles > New Arrivals > Electroworld | New Arrivals > Electroworld | Free Shipping > Online Exclusive Deals": "laptop",
+    "Gaming Laptops > Lenovo Official Store > Computers > Pre-installed Microsoft Office > Laptops > Bundles > Online Exclusive Deals > Payday Sale > Electroworld | Free Shipping > Electroworld | New Arrivals > Add-On Deals": "laptop",
+    "Gaming Laptops > Lenovo Official Store > Mobile and Gadgets New Arrivals > Computers > Pre-installed Microsoft Office > Laptops > Electroworld | Free Shipping > New Arrivals > Electroworld | New Arrivals > Add-On Deals": "laptop",
+    "Gaming Laptops > Lenovo Official Store > Computers > Pre-installed Microsoft Office > Laptops > Bundles > Electroworld | Free Shipping > Trending Gadgets > New Arrivals > Online Exclusive Deals > Bestsellers > Electroworld | New Arrivals > Add-On Deals": "laptop",
+    "Gaming Laptops > Lenovo Official Store > Computers > Pre-installed Microsoft Office > Laptops > Trending Gadgets > Bundles > Electroworld | Free Shipping > New Arrivals > Online Exclusive Deals > Bestsellers > Electroworld | New Arrivals > Add-On Deals": "laptop",
+    "Gaming Laptops > Lenovo Official Store > Computers > Electroworld | Free Shipping > Electroworld | Deals > Bundle Up > Bundles > Laptops > Best Deals > Add-On Deals": "laptop",
+    "Lenovo Official Store > Mobile and Gadgets New Arrivals > Productivity and Business Laptops > Computers > Laptops > Electroworld | New Arrivals > Electroworld | Free Shipping > Add-On Deals": "laptop",
+    "Lenovo Official Store > Mobile and Gadgets New Arrivals > New Arrivals > Computers > Laptops > Electroworld | New Arrivals > Electroworld | Free Shipping > Add-On Deals": "laptop",
+    "Input Device > Computers > 600 - 999 > Lifestyle Electronics": "keyboard",
+    "Input Device > Computers > 599 - Below > Lifestyle Electronics": "keyboard",
+    "Input Device > Computers > 1K - 1.9K > Lifestyle Electronics": "keyboard",
+    "Desktop > Computers > Condo Essentials > Best Deals > Monitors": "monitor",
+    "Mobile Accessories > PC Accessories > Mobile > Lifestyle Electronics > Electroworld | Deals > On-The-Go Tech > Rainy Day Picks > Trending Gadgets > Power Up Solutions": "other",
+    "Desktop > Hybrid Work Essentials > Computers > 2K - 2.9K > Lifestyle Electronics > Rainy Day Picks > Power Up Solutions": "desktop",
+    "Mobile Accessories > Apple Official Store > Computers > Mobile > Electroworld | Deals > Best Deals": "other",
+    "Computers > Mobile Accessories > Mobile > Best Deals": "other",
+    "Mobile Accessories > Computers > Mobile > Electroworld | Deals > On-The-Go Tech": "other",
+    "Mobile and Gadgets New Arrivals > PC Accessories > Computers > New Arrivals > Electroworld | New Arrivals": "other",
+    "Input Device > PC Accessories > Computers > Gaming > Lifestyle Electronics > Electroworld | Deals > New Arrivals > Electroworld | New Arrivals": "keyboard",
+    "Input Device > PC Accessories > Gaming > Computers > Lifestyle Electronics > Trending Gadgets > Electroworld | Deals > New Arrivals > Electroworld | New Arrivals": "keyboard",
+    "Input Device > PC Accessories > Gaming > Computers > Lifestyle Electronics > New Arrivals > Electroworld | New Arrivals": "keyboard",
+    "Input Device > PC Accessories > Computers > Lifestyle Electronics > Best Deals > 3K - 4.9K > Electroworld | Deals": "keyboard",
+    "Input Device > PC Accessories > Gaming > Computers > Lifestyle Electronics > Electroworld | Deals > New Arrivals > Electroworld | New Arrivals": "keyboard",
+    "Input Device > PC Accessories > Computers > Lifestyle Electronics > Electroworld | Deals > Best Deals > 3K - 4.9K": "keyboard",
+    "Computers > Input Device > Gaming > Lifestyle Electronics > New Arrivals > Electroworld | New Arrivals": "keyboard",
+    "Mobile and Gadgets New Arrivals > Input Device > PC Accessories > Computers > Gaming > Lifestyle Electronics > New Arrivals > Electroworld | New Arrivals": "keyboard",
+    "Headphones > Output Device > PC Accessories > Computers > Lifestyle Electronics > 599 - Below > Home Entertainment": "headset",
+    "Mobile and Gadgets New Arrivals > PC Accessories > Computers > New Arrivals": "other",
+    "Input Device > Output Device > PC Accessories > Computers > Lifestyle Electronics > 1K - 1.9K": "keyboard",
+    "Mobile and Gadgets New Arrivals > PC Accessories > Computers > New Arrivals > Electroworld | New Arrivals > Best Deals": "other",
+    "Input Device > Gaming > Computers > Trending Gadgets > Electroworld | Deals > New Arrivals > Lifestyle Electronics > Electroworld | New Arrivals": "keyboard",
+    "Input Device > Microphone > Computers > 2K - 2.9K > Vlogging > Lifestyle Electronics > 3K - 4.9K > Home Entertainment": "keyboard",
+    "Input Device > Microphone > Computers > 3K - 4.9K > Vlogging > Lifestyle Electronics > 5K - 6.9K > Home Entertainment": "keyboard",
+    "Input Device > Microphone > Computers > 5K - 6.9K > Vlogging > Lifestyle Electronics > 7K - 9.9K > Home Entertainment": "keyboard",
+    "Output Device > Computers > Lifestyle Electronics > Epson Official Store > Best Deals > Projector > Business Best Picks > Home Entertainment": "other",
+    "Output Device > Computers > Lifestyle Electronics > Epson Official Store > Electroworld | Deals > Best Deals > Projector > Business Best Picks > Home Entertainment": "other",
+    "3K - 4.9K > Input Device > Computers > Lifestyle Electronics > Business Best Picks": "keyboard",
+    "5K - 6.9K > Wire Connectors > Computers > Lifestyle Electronics > Rainy Day Picks": "cable",
+    "5K - 6.9K > Wire Connectors > Computers > Lifestyle Electronics": "cable",
+    "Wire Connectors > Computers > 3K - 4.9K > Lifestyle Electronics": "cable",
+    "LG Official Store > Monitors > Computers > TV > Trending Gadgets > New Arrivals": "monitor",
+    "Monitors > Electroworld | Deals > Lifestyle Electronics > Computers > LG Official Store > 7K - 9.9K > Condo Essentials > Best Deals > TV": "monitor",
+    "LG Official Store > Monitors > Gaming > Business Best Picks > TV": "monitor",
+    "LG Official Store > Monitors > TV > Gaming > Business Best Picks > Gift Guide > Trending Gadgets": "monitor",
+    "TV > LG Official Store > Monitors > Computers": "monitor",
+    "LG Official Store > TV > Budget Friendly > Business Best Picks > Condo Essentials > Monitors": "monitor",
+    "LG Official Store > Monitors > Computers > TV > Smart Home > New Arrivals": "monitor",
+    "Logitech Official Store > Input Device > Computers > 599 - Below > Electroworld | Deals > Lifestyle Electronics > Best Deals": "keyboard",
+    "Logitech Official Store > Input Device > Computers > Logitech Official Store > 599 - Below > Lifestyle Electronics > Best Deals > Trending Gadgets": "keyboard",
+    "Logitech Official Store > PC Accessories > Computers > 600 - 999 > Logitech Official Store > 1K - 1.9K > Lifestyle Electronics": "other",
+    "600 - 999 > Logitech Official Store > Input Device > Computers > Logitech Official Store > 1K - 1.9K > Lifestyle Electronics > Best Deals": "keyboard",
+    "Logitech Official Store > Output Device > Headphones > Gaming > 10K - 15K > Computers > Logitech Official Store > Lifestyle Electronics > Home Entertainment": "headset",
+    "Logitech Official Store > Output Device > Headphones > Computers > Logitech Official Store > 2K - 2.9K > Lifestyle Electronics": "headset",
+    "Logitech Official Store > Output Device > Headphones > Computers > Logitech Official Store > 600 - 999 > 599 - Below > Lifestyle Electronics > Home Entertainment": "headset",
+    "Logitech Official Store > Output Device > Headphones > Computers > Logitech Official Store > 600 - 999 > 599 - Below > Lifestyle Electronics > Best Deals": "headset",
+    "Logitech Official Store > Output Device > Computers > Logitech Official Store > 2K - 2.9K > Lifestyle Electronics > Best Deals > Home Entertainment": "other",
+    "Computers > Logitech Official Store > 1K - 1.9K > Lifestyle Electronics > 2K - 2.9K > Home Entertainment": "other",
+    "Logitech Official Store > Input Device > PC Accessories > Computers > Logitech Official Store > 599 - Below > Electroworld | Deals > Lifestyle Electronics > Best Deals": "keyboard",
+    "Mobile Accessories > Logitech Official Store > Input Device > Computers > Logitech Official Store > 1K - 1.9K > Lifestyle Electronics": "keyboard",
+    "Mobile Accessories > Logitech Official Store > Input Device > Computers > 1K - 1.9K > Logitech Official Store > 2K - 2.9K > Lifestyle Electronics > Trending Gadgets": "keyboard",
+    "Mobile Accessories > Logitech Official Store > Input Device > Computers > 1K - 1.9K > Logitech Official Store > 2K - 2.9K > Lifestyle Electronics > Best Deals": "keyboard",
+    "Logitech Official Store > Input Device > Computers > Logitech Official Store > 2K - 2.9K > Electroworld | Deals > Lifestyle Electronics": "keyboard",
+    "Logitech Official Store > Input Device > Computers > Electroworld | Deals > Lifestyle Electronics > Best Deals > 600 - 999": "keyboard",
+    "Logitech Official Store > Input Device > Computers > Logitech Official Store > 600 - 999 > Electroworld | Deals > Lifestyle Electronics": "keyboard",
+    "Logitech Official Store > Computers > Logitech Official Store > 600 - 999 > Electroworld | Deals > Lifestyle Electronics": "other",
+    "Logitech Official Store > Input Device > Computers > 600 - 999 > Electroworld | Deals > Lifestyle Electronics": "keyboard",
+    "Input Device > Computers > 600 - 999 > Logitech Official Store > 1K - 1.9K > Lifestyle Electronics": "keyboard",
+    "Logitech Official Store > Input Device > PC Accessories > 600 - 999 > Computers > Logitech Official Store > 1K - 1.9K > Lifestyle Electronics": "keyboard",
+    "Logitech Official Store > Input Device > PC Accessories > 600 - 999 > Computers > Logitech Official Store > 1K - 1.9K > Lifestyle Electronics > Trending Gadgets > Gift Guide": "keyboard",
+    "600 - 999 > Logitech Official Store > Input Device > Computers > Logitech Official Store > 1K - 1.9K > Electroworld | Deals > Lifestyle Electronics": "keyboard",
+    "Logitech Official Store > Input Device > Computers > Logitech Official Store > 1K - 1.9K > Lifestyle Electronics > Electroworld | Deals": "keyboard",
+    "Logitech Official Store > Input Device > Computers > 7K - 9.9K > Logitech Official Store > Electroworld | Deals > Lifestyle Electronics": "keyboard",
+    "Logitech Official Store > Input Device > Computers > Logitech Official Store > 1K - 1.9K > Electroworld | Deals > Lifestyle Electronics": "keyboard",
+    "Logitech Official Store > Input Device > Computers > 5K - 6.9K > Logitech Official Store > Electroworld | Deals > Lifestyle Electronics": "keyboard",
+    "Logitech Official Store > Hybrid Work Essentials > Computers > 5K - 6.9K > Logitech Official Store > Electroworld | Deals > Lifestyle Electronics": "other",
+    "Logitech Official Store > Input Device > Computers > 5K - 6.9K > Logitech Official Store > Electroworld | Deals > Lifestyle Electronics > Trending Gadgets": "keyboard",
+    "Logitech Official Store > Input Device > Computers > Logitech Official Store > 1K - 1.9K > Electroworld | Deals > Lifestyle Electronics > Trending Gadgets": "keyboard",
+    "Logitech Official Store > Input Device > Hybrid Work Essentials > Computers > Logitech Official Store > 1K - 1.9K > Lifestyle Electronics > Best Deals > Trending Gadgets": "keyboard",
+    "3K - 4.9K > Softwares > Computers > Lifestyle Electronics": "software",
+    "Softwares > Computers > Lifestyle Electronics": "software",
+    "Wire Connectors > Computers > Promate Official Store > 1K - 1.9K > Lifestyle Electronics": "cable",
+    "Mobile Accessories > Wire Connectors > Computers > Promate Official Store > 600 - 999 > Lifestyle Electronics": "cable",
+    "Wire Connectors > Mobile Accessories > Computers > Promate Official Store > 599 - Below > Lifestyle Electronics": "cable",
+    "Mobile Accessories > Wire Connectors > Computers > Promate Official Store > 599 - Below > Lifestyle Electronics": "cable",
+    "Input Device > Wire Connectors > PC Accessories > Computers > Lifestyle Electronics > 5K - 6.9K > UGREEN Official Store": "keyboard",
+    "600 - 999 > Computers > On-The-Go Tech > Lifestyle Electronics > UGREEN Official Store": "cable",
+    "600 - 999 > Computers > On-The-Go Tech > Lifestyle Electronics > Electroworld | Deals > Best Deals > UGREEN Official Store": "cable",
+    "Computers > On-The-Go Tech > 1K - 1.9K > Lifestyle Electronics > UGREEN Official Store": "cable",
+    "Mobile Accessories > On-The-Go Tech > Computers > 600 - 999 > 1K - 1.9K > Electroworld | Deals > Lifestyle Electronics > Rainy Day Picks > UGREEN Official Store > Payday Sale > Gift Guide": "other",
+    "Mobile Accessories > Computers > On-The-Go Tech > 600 - 999 > 1K - 1.9K > Lifestyle Electronics > Electroworld | Deals > Rainy Day Picks > UGREEN Official Store": "other",
+    "Mobile Accessories > On-The-Go Tech > Computers > 1K - 1.9K > Electroworld | Deals > Lifestyle Electronics > Rainy Day Picks > UGREEN Official Store": "other",
+    "Mobile Accessories > PC Accessories > Mobile > Lifestyle Electronics > Electroworld | Deals > On-The-Go Tech > Rainy Day Picks > Trending Gadgets > UGREEN Official Store > Best Deals > Power Up Solutions": "other",
+    "Mobile and Gadgets New Arrivals > Output Device > Computers": "other",
+    "Mobile Accessories > Mobile > Lifestyle Electronics > Computers > 1K - 1.9K > Gift Guide > UGREEN Official Store": "other",
+    "Mobile Accessories > Mobile > Lifestyle Electronics > Computers > 1K - 1.9K > UGREEN Official Store": "other",
+    "Input Device > Output Device > PC Accessories > Computers > New Arrivals > Electroworld | New Arrivals": "keyboard",
+    "3K - 4.9K > Input Device > Computers > Lifestyle Electronics": "keyboard"
+  },
+  "Gigahertz": {
+    "Smart Band": "other",
+    "KEYBOARD": "keyboard",
+    "Mouse": "mouse",
+    "MOUSE": "mouse",
+    "LAPTOP": "laptop",
+    "PRINTER": "printer",
+    "Printer": "printer",
+    "Ink": "other",
+    "Laptop": "laptop",
+    "Router": "network",
+    "NETWORK": "network",
+    "MOBILE": "other",
+    "MONITOR": "monitor",
+    "PlayStation Incredible Deals": "other",
+    "HEADSET": "headset",
+    "SOFTWARE": "other",
+    "Top Selling": "other",
+    "Camera": "camera",
+    "The Latest iPhones Here at GigaHertz": "other",
+    "TABLET": "tablet",
+    "Storage": "storage",
+    "Speakers": "speaker",
+    "Solid State Drive": "storage",
+    "External Solid State Drive": "storage",
+    "ENCLOSURE": "enclosure",
+    "SODIMM": "ram",
+    "Memory": "storage",
+    "RAM": "ram",
+    "Snapdragon Galore at GigaHertz": "other",
+    "mobile": "other",
+    "SD Card": "other",
+    "Laptop Speaker": "laptop",
+    "LCD": "monitor",
+    "LCD Module": "monitor",
+    "LCD Cover": "other",
+    "Keyboard Module": "keyboard",
+    "Replacement Parts": "other",
+    "LCD Bezel": "other",
+    "Battery": "battery",
+    "Laptop Parts": "laptop",
+    "Fan": "cpu_cooler",
+    "BATTERY": "other",
+    "Hinge": "other",
+    "Keyboard Keys": "keyboard",
+    "BOTTOM CASE": "case",
+    "USB Board": "cable",
+    "Touch Pad": "other",
+    "Hinges": "other",
+    "FAN": "cpu_cooler",
+    "IO BOARD": "other",
+    "Hinge Cover": "other",
+    "LCD Cap": "monitor",
+    "Laptop Camera": "laptop",
+    "Power Bank": "powerbank",
+    "Monitors": "monitor",
+    "HEADPHONES": "headset",
+    "Numeric Keypad": "other",
+    "Keyboard And Mouse Combo": "other",
+    "Oppo Reno Series": "other",
+    "DESKTOP": "desktop",
+    "EDP Cable": "cable",
+    "Bottom Case": "case",
+    "Accessories": "other",
+    "Ear Buds": "headset",
+    "STRIP COVER": "other",
+    "Strip Cover": "other",
+    "WEBCAM": "camera",
+    "Controller": "gamepad",
+    "Mainboard": "other",
+    "EXTERNAL DRIVE": "storage",
+    "Adapter": "adapter",
+    "Lenovo Chinese New Year Promo 2026 at GigaHertz": "other",
+    "Laptop Adapters": "laptop",
+    "Charger": "cable",
+    "Charger Adapter": "cable",
+    "Earphone": "headset",
+    "HDD": "storage",
+    "Hub": "hub",
+    "Handheld Devices": "other",
+    "CONSOLES": "other",
+    "Gaming Console": "other",
+    "for paola marketing": "other",
+    "Flashdrive": "other",
+    "Cables": "cable",
+    "USB Cable": "cable",
+    "Type-C Cable": "cable",
+    "HDMI Cable": "cable",
+    "VGA Cable": "gpu",
+    "Network Cable": "cable",
+    "Cable": "cable",
+    "OTG Cable": "cable",
+    "Display Adapter": "monitor",
+    "Display Cable": "monitor",
+    "Printer Cable": "cable",
+    "HDMI Cable Adapter": "cable",
+    "Best Gaming Laptops in the Philippines | GigaHertz Elite Picks": "laptop",
+    "ASUS Replacement LCD": "monitor",
+    "ASUS & ROG Grand Tech Fair 2025": "other",
+    "Webcam": "camera",
+    "Electric Fan": "other",
+    "Mousepad": "other",
+    "3-Day Delivery Time": "other",
+    "Thermal Paste": "other",
+    "Television": "other",
+    "Tempered Glass": "other",
+    "Bluetooth Speaker": "speaker",
+    "Mobile Phone Case": "case",
+    "Door Bell": "other",
+    "Security Camera": "camera",
+    "Switch": "gamepad",
+    "Wireless Charger": "cable",
+    "Network Adapter": "network",
+    "Screen Cleaner": "other",
+    "Bluetooth Selfie Stick": "other",
+    "Bluetooth Audio": "headset",
+    "Lamp": "other",
+    "TV Box": "other",
+    "Microwave Oven": "other",
+    "Alarm System": "other",
+    "Face Mirror": "other",
+    "TOYS": "other",
+    "ORGANIZER TRAY": "other"
+  },
+  "iTech": {
+    "Computer Components": "other",
+    "Asus Laptops Laptops": "laptop",
+    "Gaming Laptop": "laptop",
+    "Laptops": "laptop",
+    "Asus Mobile Phones": "other",
+    "Iphone": "other",
+    "Laptop Accessories": "other",
+    "Hp Laptops": "laptop",
+    "Sd Micro Sd Card Storage": "storage",
+    "Nintendo Switch": "other",
+    "External Memory Drive": "external-storage",
+    "Flash Drives Storage": "storage",
+    "Asus Laptops": "laptop",
+    "Desktops": "other",
+    "Acer Laptops": "laptop",
+    "Preorder": "other",
+    "Gaming Mouse": "mouse",
+    "Asus": "other",
+    "Headset Gaming Peripherals": "headset",
+    "Logitech Peripherals": "other",
+    "Keyboard": "keyboard",
+    "Gaming Keyboards": "keyboard",
+    "Fantech": "other",
+    "Gamepads And Controllers": "gamepad",
+    "Home And Office Headsets": "headset",
+    "Ip Wifi Camera": "camera",
+    "Mouse Office Peripherals": "mouse",
+    "Logitech Office": "other",
+    "Others": "other",
+    "Asus Routers": "network",
+    "Networking": "network",
+    "Lg": "other",
+    "Monitors": "monitor",
+    "Lenovo Pc Components": "cpu",
+    "Asus Monitors": "monitor",
+    "Apple Accessories": "cable",
+    "Rog Phone Mobile Phones": "other",
+    "Msi Laptops": "laptop",
+    "Apple Macbook": "laptop",
+    "Digital Codes": "other",
+    "Chassis System Box": "case",
+    "Gaming Mousepads": "other",
+    "Peripherals": "other",
+    "Office Peripherals": "other",
+    "Rog Ally": "other",
+    "Ipad": "other",
+    "Chasis Fan": "cpu_cooler",
+    "Mousepads": "other",
+    "Mobile Phones": "other",
+    "Headphones": "other",
+    "Asus Peripherals": "other",
+    "Other Products": "other",
+    "Audio": "other",
+    "Hyperx Peripherals": "other"
+  },
+  "Octagon": {
+    "Keyboard": "keyboard",
+    "Laptop": "laptop",
+    "Microphone": "microphone",
+    "Mouse": "mouse",
+    "Video Adapter": "cable",
+    "Monitor": "monitor",
+    "Printer": "printer",
+    "Headphone": "headset",
+    "Ink Bottle": "other",
+    "Webcam": "camera",
+    "Keyboard and Mouse": "other",
+    "Work From Home": "other",
+    "mouse": "mouse",
+    "Headset": "headset",
+    "Head Phone": "other",
+    "Portable hard drive": "storage",
+    "Printer, Copier": "other",
+    "Cooling Fan": "cpu_cooler",
+    "Speaker": "speaker",
+    "WIFI": "network",
+    "Extension": "cable",
+    "Earphone": "headset",
+    "EARBUDS": "headset",
+    "adapter": "adapter",
+    "USB Port": "other",
+    "Smart Watch": "other",
+    "Wearable Devices": "other",
+    "Power Bank": "powerbank",
+    "Cable": "cable",
+    "Charger": "cable",
+    "ADAPTER": "other",
+    "AVR and UPS": "other",
+    "Power Supply": "psu",
+    "Tablet": "tablet",
+    "Hard Drives": "storage",
+    "SSD": "storage",
+    "Expansion portable hard drive": "storage",
+    "Duster Spray": "other",
+    "Mobile": "other",
+    "Mobile Phones": "other",
+    "Gaming Keyboard": "keyboard",
+    "Mouse Pad": "mouse",
+    "Razer": "other",
+    "Computer Processors": "cpu",
+    "Ink Cartridge": "other",
+    "Printer and Inks": "other",
+    "HP printhead": "other",
+    "POWER SYSTEM": "other",
+    "Home & Living": "other",
+    "Gaming Headset": "headset",
+    "Gaming Mouse": "mouse",
+    "Numeric Keypads": "other",
+    "m": "other",
+    "Fan": "cpu_cooler",
+    "Logitech": "other",
+    "Console": "other",
+    "laptop": "laptop",
+    "gaming laptop": "laptop",
+    "ACER ALL-IN-ONE COMPUTER": "laptop",
+    "Laptops": "laptop",
+    "Graphics Card": "gpu",
+    "Gaming Chair": "other",
+    "Cleaning kit": "cleaning-solution",
+    "CCTV": "camera",
+    "Router": "network",
+    "computer": "other"
+  },
+  "PC Express": {
+    "Console": "other",
+    "Wireless Game Controllers": "other",
+    "Office Application Software": "software",
+    "Operating Systems": "other",
+    "Database Management Software": "software",
+    "Antivirus & Security Software": "software",
+    "Smartphones": "other",
+    "Power Supplies": "psu",
+    "PC Case": "case",
+    "Server": "other",
+    "Sever": "other",
+    "External Storage Devices": "storage",
+    "3.5\" Hard Drives": "other",
+    "Surveillance Hard Drive": "storage",
+    "Graphics Cards": "gpu",
+    "Monitors": "monitor",
+    "Gaming Monitors": "monitor",
+    "Compact Desktop": "desktop",
+    "Laptops": "laptop",
+    "Headsets": "other",
+    "Webcams": "other",
+    "Gaming Laptops": "laptop",
+    "Wi-Fi Camera": "network",
+    "Speakers": "other",
+    "Wireless Routers": "other",
+    "USB WiFi Adapter": "network",
+    "Hubs & Switches": "other",
+    "Motherboards": "motherboard",
+    "Projectors": "projector",
+    "IP Camera": "camera",
+    "Tower Server": "other",
+    "Network Cards & Adapters": "network",
+    "Surveillance Kits and Accessories": "camera",
+    "Computer System Cooling Parts": "cpu_cooler",
+    "Gaming Wireless Router": "network",
+    "Wi-Fi Range Extender": "network",
+    "Pen Tablet": "tablet",
+    "Video Game Consoles": "other",
+    "Portable Game Console Screen Protectors": "sleeve-bag",
+    "UPS": "ups",
+    "SODIMM": "ram",
+    "USB Flash Drives": "cable",
+    "Thermal Grease": "other",
+    "DIMM": "other",
+    "UDIMM": "ram",
+    "Desktop PCs": "desktop",
+    "Vacuum Cleaner": "other",
+    "Solid State Drives (SSD)": "storage",
+    "Accessories": "other",
+    "Optical Drives": "other",
+    "Mini PC": "other",
+    "PCIE Wireless Adapter": "cable",
+    "Gaming Mice": "mouse",
+    "Gaming Keyboards": "other",
+    "Gaming Wireless Mice": "mouse",
+    "External Optical Drives": "other",
+    "Gaming Headset": "headset",
+    "USB WiFi": "network",
+    "Network Attached Storage (NAS)": "external-storage",
+    "Surveillance Cameras": "camera",
+    "Network Camera": "network",
+    "Surveillance Camera": "camera",
+    "Video Recorders": "other",
+    "Server Hard Drives": "other",
+    "Bluetooth Speakers": "speaker",
+    "Mice": "mouse",
+    "Processors": "other",
+    "All-in-One Liquid Cooler": "cpu_cooler",
+    "Gaming Case": "case",
+    "Wireless Access Points": "other",
+    "Mobile Hotspot": "other",
+    "Mesh Wi-Fi System": "network",
+    "Mesh Wireless Router": "network",
+    "Mobile Router": "network",
+    "Network Storage Systems": "storage",
+    "Printers": "other",
+    "Scanner": "other",
+    "Flatbed Scanner": "other",
+    "Scanners": "other",
+    "Sheetfed Scanners": "other",
+    "Wireless Mice": "mouse",
+    "Keyboard and Mouse Combos": "keyboard",
+    "Wireless Keyboard and Mouse Combos": "keyboard",
+    "Wireless Keyboards": "other",
+    "Ink Bottles": "other",
+    "Inkjet Cartridges": "other",
+    "Voltage Transformers & Regulators": "other",
+    "Batteries": "other",
+    "LED Lights": "other",
+    "UV Blacklights": "other",
+    "Headphones": "other",
+    "Wireless Earbuds": "other",
+    "Gaming Chairs": "chair",
+    "Wireless Gaming Mice": "mouse",
+    "Mechanical Gaming Keyboards": "other",
+    "Charging Docks": "other",
+    "Game Controller Accessories": "gamepad",
+    "camera": "camera",
+    "Label Makers": "other",
+    "Power Station": "powerbank",
+    "Open-Ear Headphones": "other",
+    "Flash Dual Drive": "other",
+    "Flash Memory Cards": "memory-card",
+    "Trio Speaker": "speaker",
+    "VGA Cables": "gpu",
+    "Audio & Video Cables": "other",
+    "HDMI Cables": "cable",
+    "Adapters": "cable",
+    "USB Cables": "cable",
+    "Power Adapters & Chargers": "other",
+    "Audio & Video Cable Adapters & Couplers": "cable",
+    "Power Banks": "other",
+    "Converters": "other",
+    "Bluetooth Trackers": "other",
+    "USB Adapters": "cable",
+    "converter": "cable",
+    "HDMI Splitters": "cable",
+    "XLR Cables": "other",
+    "Cables": "cable",
+    "Card Readers": "other",
+    "Adapter for Extension": "cable",
+    "Laptop Docking Stations": "laptop",
+    "Handheld Fan": "cpu_cooler",
+    "NAS Hard Drive": "storage",
+    "Open-Air Headphones": "other",
+    "Wireless Presenters": "other",
+    "Cloud Gateways": "other",
+    "Range Extender": "network",
+    "On-Ear Headphones": "other",
+    "In-Ear Headphones": "other",
+    "Over-Ear Headphones": "other",
+    "Keyboards": "other",
+    "Wired Keyboards": "other",
+    "Solar Panel": "other",
+    "Craft Cutting & Embossing Tools": "other",
+    "Craft Cutters & Embossers": "other",
+    "Cutting Machine": "other",
+    "Craft Cutting": "other",
+    "Digital Camera": "camera",
+    "Dash Camera": "camera",
+    "Time & Attendance Clocks": "other",
+    "Memory Card Readers": "ram",
+    "Mouse Pads": "mouse",
+    "Earbuds": "other",
+    "Microphones": "other",
+    "Wireless Microphones": "other",
+    "AVR": "ups",
+    "Mobile Wi-Fi": "network",
+    "Printer Ribbons": "other",
+    "2.5\" Hard Drives": "other",
+    "Android Tablets": "other",
+    "Laptop Cooling Pad": "cpu_cooler",
+    "Wireless Extender": "other",
+    "Hard Drive Enclosures & Mounts": "storage",
+    "RobotGaN Charger": "other",
+    "HDMI Adapter": "cable",
+    "HDMI to VGA": "gpu",
+    "Display Port to HDMI Cable": "monitor",
+    "Display Port Cable": "monitor",
+    "Patch Cord": "other",
+    "Multi Ports Adapter": "cable",
+    "Hard Drive": "storage",
+    "Racing Wheel Controllers": "other",
+    "Shifter Controller": "gamepad",
+    "Steering Wheel Controllers": "other",
+    "Power Strips": "other",
+    "Gaming Microphone": "microphone",
+    "Audio Mixers": "other"
+  },
+  "Silicon Valley": {
+    "Uncategorized": "other",
+    "Otg Flash Drive": "storage",
+    "Microsd Card": "memory-card",
+    "Flash Drive": "storage",
+    "External Ssd": "storage",
+    "Ups": "ups",
+    "Wireless Mouse": "mouse",
+    "Wired Mouse": "mouse",
+    "Wired Keyboard": "keyboard",
+    "Keyboard Mouse Combo": "other",
+    "Gaming Mouse": "mouse",
+    "Processor": "cpu",
+    "Motherboard": "motherboard",
+    "Internal Ssd": "storage",
+    "Dvd Writer": "other",
+    "Premium Laptop": "laptop",
+    "Mainstream Laptop": "laptop",
+    "Macbook": "laptop",
+    "Laptops": "laptop",
+    "Gaming Laptop": "laptop",
+    "Business Laptop": "laptop",
+    "Projector": "projector",
+    "Monitor": "monitor",
+    "Gaming Monitor": "monitor",
+    "Tower Desktop": "desktop",
+    "Mac": "laptop",
+    "Gaming Desktop": "desktop",
+    "Desktop Bundle": "desktop",
+    "All In One Desktop": "desktop",
+    "Wired Headset": "headset",
+    "Airpods": "headset",
+    "Wall Charger": "cable",
+    "Usb Cable": "cable",
+    "Screen Protector": "other",
+    "Power Bank": "powerbank",
+    "Magnetic Power Bank": "powerbank"
+  },
+  "VillMan": {
+    "surface": "laptop",
+    "portable external ssds": "external-storage",
+    "intel evo certified": "other",
+    "handheld gaming pcs": "other",
+    "gaming chairs": "other",
+    "cables": "cable",
+    "all in one pcs": "desktop",
+    "WebCams": "camera",
+    "USB Hubs": "hub",
+    "USB Flash Drives": "storage",
+    "UPS AVR": "ups",
+    "Toner Cartridges": "printer",
+    "Speakers": "speaker",
+    "Solid State Drive for Notebook Desktop": "storage",
+    "Software": "software",
+    "Scanners": "printer",
+    "Projectors": "projector",
+    "Processors": "cpu",
+    "Power Supplies": "psu",
+    "Power Inverters": "other",
+    "Portable External HDDs": "external-storage",
+    "PC Case": "case",
+    "Notebook RAM": "ram",
+    "Notebook PCs": "laptop",
+    "Notebook Accessories": "other",
+    "Network Switches": "network",
+    "Network Attached Storage": "external-storage",
+    "Network Adapters": "network",
+    "Network Accessories": "network",
+    "Mouse": "mouse",
+    "Motherboards": "motherboard",
+    "Monitors": "monitor",
+    "Mobile Broadband": "network",
+    "Memory Cards": "memory-card",
+    "Memory Card Readers": "storage",
+    "Laser Printers": "printer",
+    "Keyboards": "keyboard",
+    "Keyboard Mouse Combo": "other",
+    "Inkjet Printers": "printer",
+    "Ink Cartridges": "printer",
+    "IP Cameras": "other",
+    "Headphones Headsets": "headset",
+    "HDDs Notebook PCs": "storage",
+    "HDDs Desktop PCs": "desktop",
+    "GPU": "gpu",
+    "Drawing Tablets": "tablet",
+    "Dot Matrix Printers": "printer",
+    "Desktop RAM": "ram",
+    "Desktop PCs": "desktop",
+    "Desktop External HDDs": "external-storage",
+    "CPU Coolers": "cpu_cooler",
+    "Broadband Routers": "network",
+    "Batteries Chargers": "battery",
+    "Bags Sleeves Cases": "sleeve-bag",
+    "All In One Printers": "printer",
+    "Access Points": "network",
+    "2 in 1 pcs": "laptop"
+  },
+  "PCWORX": {
+    "Non CISS Printers": "printer",
+    "printer": "other",
+    "Printer": "printer",
+    "NEW ARRIVALS": "other",
+    "Laptop": "laptop",
+    "monitor": "monitor",
+    "Keyboard": "keyboard",
+    "Monitor": "monitor",
+    "Networking & Cables": "cable",
+    "HDMI": "cable",
+    "MIFI": "other",
+    "Ethernet Switch": "network",
+    "Switches": "network",
+    "WIFI Router": "network",
+    "Adapter": "cable",
+    "Mobile WIFI": "network",
+    "Mobile Router": "network",
+    "WIFI": "network",
+    "cable": "cable",
+    "NETWORKING": "cable",
+    "Camera": "camera",
+    "CCTV Camera": "camera",
+    "Earbuds": "other",
+    "Ethernet Adaptor": "network",
+    "Mesh Wi-Fi System": "network",
+    "Powerbank": "powerbank",
+    "Power Bank": "powerbank",
+    "Fan": "cpu_cooler",
+    "connector": "cable",
+    "Dongle Receiver": "adapter",
+    "Smart Switch": "network",
+    "Gigabit Switch": "network",
+    "Type C": "other",
+    "Ethernet Adapter": "cable",
+    "5 in 1 Hub": "hub",
+    "Light": "other",
+    "Light Strip": "other",
+    "Wifi Light": "network",
+    "Network-Attached Storage (NAS)": "cable",
+    "storage": "storage",
+    "desktop unit": "desktop",
+    "NAS": "other",
+    "HDD": "storage",
+    "son": "other",
+    "ssd": "storage",
+    "SSD": "storage",
+    "memory": "ram",
+    "Netac": "other",
+    "SD": "other",
+    "USB": "cable",
+    "DDR4": "ram",
+    "N-Vision": "other",
+    "GPU": "gpu",
+    "MSI": "other",
+    "gpu": "gpu",
+    "motherboard": "motherboard",
+    "laptop": "laptop",
+    "MOUSE": "mouse",
+    "Mouse": "mouse",
+    "Keyboard and Mouse": "keyboard",
+    "Motherboard": "motherboard",
+    "MOTHERBOARD": "motherboard",
+    "MONITORS UNDER 5K": "other",
+    "Monitor Light": "monitor",
+    "Quick": "other",
+    "Projector": "projector",
+    "Projectors": "projector",
+    "Professional": "other",
+    "processor": "cpu",
+    "Processor": "cpu",
+    "Graphics Card": "other",
+    "PROCESSOR": "cpu",
+    "Scanner": "other",
+    "Printers, Scanners and Projectors": "printer",
+    "Label Printer Black": "printer",
+    "PRINTERS AND MONITORS": "other",
+    "Cartridge": "other",
+    "Desk Stand": "other",
+    "Printhead": "other",
+    "Desk Mount": "other",
+    "moni": "other",
+    "INK": "other",
+    "Powered by ASUS PCBuilds": "other",
+    "Powered by Asus - System Builds": "other",
+    "case": "case",
+    "controller": "gamepad",
+    "PowerA": "other",
+    "Headset": "headset",
+    "Gamepad": "gamepad",
+    "Switch case": "network",
+    "power_supply": "other",
+    "PSU": "psu",
+    "Power Supply": "psu",
+    "cooling fan": "cpu_cooler",
+    "POWER SUPPLY": "psu",
+    "casing": "case",
+    "Casing": "case",
+    "Portable SSD": "external-storage",
+    "SDD": "other",
+    "PAYDAY SALE": "other",
+    "Palit": "other",
+    "Orico": "other",
+    "7 in 1 Hub": "hub",
+    "10 in 1 Docking": "other",
+    "4 Port Hub": "hub",
+    "6 in 1 Hub": "hub",
+    "Office Essentials": "other",
+    "headset": "headset",
+    "NVIDIA RTX30 & RTX40": "other",
+    "NVIDIA RTX AI PCs": "other",
+    "NVIDIA Holiday Collection": "other",
+    "NVIDIA GPU COLLECTION": "gpu",
+    "NVIDIA GeForce RTX 50 Series": "other",
+    "NVIDIA GeForce RTX 30 Series - 40 Series": "other",
+    "NVIDIA GeForce RTX 20 Series": "other",
+    "NVIDIA GeForce GTX 16 Series": "other",
+    "NVIDIA": "other",
+    "TV Mount Bracket": "other",
+    "North": "other",
+    "Deskmount": "other",
+    "Wall Mount": "other",
+    "Mobile Cart": "other",
+    "Sit-Stand": "other",
+    "MINI PC": "other",
+    "MICROSOFT": "other",
+    "Tablet": "tablet",
+    "Microsoft": "microphone",
+    "Micro SD": "memory-card",
+    "SD CARD": "other",
+    "MICRO SD": "memory-card",
+    "Card Reader": "other",
+    "MIC": "microphone",
+    "microphone": "microphone",
+    "Stream Microphone": "microphone",
+    "Mice": "microphone",
+    "Mouse Pad": "mouse",
+    "Mousepad": "other",
+    "MEMORY STORAGE": "ram",
+    "Desktop with Hub": "hub",
+    "Hard Disk": "other",
+    "hdd": "storage",
+    "HDD BUNDLE": "storage",
+    "MACBOOK": "other",
+    "Memory Storage": "ram",
+    "MEMORY DIMM": "ram",
+    "DDR5": "ram",
+    "Memory Components": "ram",
+    "Memory": "ram",
+    "Rotary Dimmer": "other",
+    "Presenter": "other",
+    "Wireless Presentation Remote": "other",
+    "LOGITECH": "other",
+    "Chair": "chair",
+    "Limited TIme Offer": "other",
+    "LG\u200e": "other",
+    "Lenovo LOQ": "other",
+    "LENOVO": "other",
+    "Laptops under 30k": "laptop",
+    "LAPTOP": "laptop",
+    "KINGSTON": "other",
+    "KIESLECT": "other",
+    "KEYBOARD": "keyboard",
+    "Jet Setter Travel Starter Pack (Shop Your Essentials)": "other",
+    "JBL": "speaker",
+    "INTEX": "other",
+    "UPS": "ups",
+    "TV": "other",
+    "Internal SSD": "storage",
+    "Internal Memory Storage": "ram",
+    "Intel": "other",
+    "INNO3D": "other",
+    "Thermal Paste": "other",
+    "Toner": "other",
+    "HP": "other",
+    "OmniDesk": "other",
+    "Home Essentials": "other",
+    "Vacuum": "other",
+    "HOME APPLIANCES": "other",
+    "Humidifier": "other",
+    "Steamer Iron": "other",
+    "Food Processor": "other",
+    "HIKVISION": "other",
+    "Hub": "hub",
+    "HIKSEMI": "other",
+    "HEADSET": "headset",
+    "GPU DECEMBER": "gpu",
+    "GIGABYTE": "other",
+    "cpu_cooler": "cpu_cooler",
+    "case fan": "case",
+    "GENIUS": "other",
+    "Numpad": "other",
+    "GENERIC": "other",
+    "GAMING MUST HAVES!": "other",
+    "Gaming Laptop": "laptop",
+    "GAMDIAS": "other",
+    "Gadgets & Appliances": "other",
+    "FSP": "other",
+    "Speaker": "speaker",
+    "FANTECH": "other",
+    "External Memory Storage": "ram",
+    "EPSON": "other",
+    "Ribbon Cartridge": "other",
+    "ENVIRO": "other",
+    "ELGATO": "other",
+    "Earphone": "headset",
+    "EDIFIER": "speaker",
+    "ECO": "other",
+    "DARKFLASH": "other",
+    "Panel": "other",
+    "CREATIVE": "other",
+    "CPU Cooler": "cpu_cooler",
+    "CPU": "cpu",
+    "CORSAIR": "other",
+    "COOLMAN": "other",
+    "COLORFUL": "other",
+    "CISCO": "other",
+    "CANON": "other",
+    "CAMERAS": "other",
+    "CABLES": "cable",
+    "Charger": "other",
+    "BROTHER": "other",
+    "Ribbon": "other",
+    "Best Selling Products": "other",
+    "B2S PROMO": "other",
+    "AXGON": "other",
+    "AWP": "other",
+    "AVR / UPS": "ups",
+    "AULA": "other",
+    "Headset Stand": "headset",
+    "ASUS": "other",
+    "External Drive": "external-storage",
+    "Apple Care": "other",
+    "Iphone": "tablet",
+    "IPAD": "tablet",
+    "Ipad Dock": "tablet",
+    "AMD A+A PC BUILD": "other",
+    "ADATA": "other",
+    "ACER": "other",
+    "Accessories": "other",
+    "ACCESS POINT": "network",
+    "A4TECH": "other",
+    "32\" Monitors": "other",
+    "9 in 1 USB - C": "cable",
+    "Drawing Table": "other",
+    "Xencelabs": "other",
+    "Xbox": "other",
+    "Western": "other",
+    "Wacom": "other",
+    "Wireless Extender": "other",
+    "Multifunction Adapter": "cable",
+    "2 in 1 USB C": "cable",
+    "10 in 1 Hub": "hub",
+    "Ugreen": "other",
+    "USB HUB": "cable",
+    "Fast Charger": "other",
+    "Converter": "cable",
+    "Ports Hub": "hub",
+    "Multi Adapter": "cable",
+    "4in1 USB-C": "cable",
+    "Splitter": "other",
+    "Switch box": "network",
+    "VGA": "gpu",
+    "Ugee": "other",
+    "Trendsonic": "other",
+    "Transcend": "other",
+    "Power Adaptor": "other",
+    "DrivePro": "other",
+    "Dashcam": "camera",
+    "Tecware": "other",
+    "TEAMGROUP": "other",
+    "SWITCHES": "other",
+    "SURVEILLANCE": "camera",
+    "Student Essentials \ud83c\udf92": "other",
+    "Seagate": "other",
+    "SCHNEIDER ELECTRIC": "other",
+    "Grid Plate": "other",
+    "Charger Outlet": "other",
+    "Circuit Breaker": "other",
+    "Module": "other",
+    "Plug": "cable",
+    "Socket": "cable",
+    "TV Socket": "cable",
+    "SANDISK MOBILES": "other",
+    "SANDISK FLASH": "other",
+    "USB-C Reader": "cable",
+    "Sandisk": "other",
+    "Samsung": "other",
+    "RTX50 SERIES": "other",
+    "ROUTER": "network",
+    "Romoss": "other",
+    "Redragon": "other",
+    "Sound Bar": "speaker",
+    "Soundbar": "speaker",
+    "Laptop Cooler": "laptop",
+    "Rapoo": "other"
+  }
+};
+
+function normalizeCategory(raw, store = '', name = '') {
+  if (!raw || typeof raw !== 'string') return 'other';
+  const s = raw.trim();
+  if (!s) return 'other';
+
+  // Store-specific overrides
+  if (store && STORE_RULES[store]) {
+    const direct = STORE_RULES[store][s];
+    if (direct) return direct;
+    // Uppercase normalization for stores that list categories in uppercase (e.g., EasyPC)
+    if (store === 'EasyPC') {
+      const upper = s.toUpperCase();
+      if (STORE_RULES[store][upper]) return STORE_RULES[store][upper];
+    }
+  }
+
+  // Fallback: regex rules (CATEGORY_RULES)
+  for (const [pattern, slug] of CATEGORY_RULES) {
+    if (pattern.test(s)) return slug;
+  }
+
+  // Name fallback: test product name if category didn't match
+  if (name) {
+    for (const [pattern, slug] of CATEGORY_RULES) {
+      if (pattern.test(name)) return slug;
+    }
+  }
+
+  return 'other';
+}
+
+// ── CPU Specs Database (from enrich-catalog.js) ───────────────────────
+
+let cpuSpecsDb = null
+
+function loadCpuSpecsDb() {
+  try {
+    cpuSpecsDb = JSON.parse(readFileSync(SPECS_DB, 'utf-8'))
+    console.log(`  Loaded CPU specs database: ${cpuSpecsDb.amd.length} AMD, ${cpuSpecsDb.intel.length} Intel entries`)
+  } catch (e) {
+    console.warn('  ⚠ Could not load CPU specs database')
+    cpuSpecsDb = null
+  }
+}
+
+function findCpuSpec(name, brand) {
+  if (!cpuSpecsDb) return null
+  const nameLower = name.toLowerCase().replace(/[™®]/g, '')
+  const entries = brand === 'Intel' ? cpuSpecsDb.intel : cpuSpecsDb.amd
+  let bestMatch = null
+  let bestScore = 0
+  for (const entry of entries) {
+    const key = (entry.key || '').toLowerCase()
+    if (key.length < 8) continue
+    if (nameLower.includes(key) && key.length > bestScore) {
+      bestMatch = entry
+      bestScore = key.length
+    }
+  }
+  return bestMatch
+}
+
+// ── Part ID generation ────────────────────────────────────────────────
+
+function hashStr(str) {
+  let h = 0
+  for (let i = 0; i < str.length; i++) {
+    h = ((h << 5) - h) + str.charCodeAt(i)
+    h |= 0
+  }
+  return Math.abs(h).toString(16).padStart(16, '0')
+}
+
+function makePartId(category, store, name) {
+  const slug = `${category}-${store.toLowerCase().replace(/[^a-z0-9]/g, '-').slice(0, 20)}`
+  return `${slug}-${hashStr(name).slice(0, 12)}`
+}
+
+// ── Normalization (mirrors src/lib/normalized/normalize.ts) ──────────
+
+function normalizeCpuSpecs(specs, name) {
+  const socket = specs.Socket || specs.socket || ''
+  const tdpWatts = parseInt((specs.TDP || specs.tdp || '').replace(/[^\d]/g, '')) || 0
+  const memRaw = (specs['Memory Type'] || '').toUpperCase()
+  const memoryType = memRaw.includes('DDR5') ? 'DDR5' : 'DDR4'
+  const igRaw = specs['Integrated GPU'] || ''
+  const integratedGraphics = igRaw && !/none|no|n\/a/i.test(igRaw)
+  const memoryTypesSupported = [memoryType]
+  if (['AM5', 'LGA1700', 'LGA1851'].includes(socket)) {
+    if (!memoryTypesSupported.includes('DDR5')) memoryTypesSupported.push('DDR5')
+  }
+  const warnings = []
+  if (!socket) warnings.push('cpu_socket_missing')
+  if (tdpWatts === 0) warnings.push('cpu_tdp_missing')
+  return {
+    normalized: { category: 'cpu', data: { socket: socket || 'AM4', tdpWatts, memoryTypesSupported, integratedGraphics } },
+    meta: { parserVersion: '1.0.0', confidence: warnings.length === 0 ? 1 : 0.7, warnings }
+  }
+}
+
+function normalizeMbSpecs(specs, name) {
+  const socket = specs.socket || specs.Socket || ''
+  const chipset = specs.chipset || specs.Chipset || ''
+  const ramRaw = (specs.ram || '').toUpperCase()
+  const memoryType = ramRaw.includes('DDR5') ? 'DDR5' : 'DDR4'
+  let formFactor = 'ATX'
+  const nameL = name.toLowerCase()
+  if (/mini.?itx/i.test(nameL)) formFactor = 'Mini-ITX'
+  else if (/micro.?atx|m.?atx/i.test(nameL)) formFactor = 'Micro-ATX'
+  else if (/e.?atx/i.test(nameL)) formFactor = 'E-ATX'
+  const warnings = []
+  if (!socket) warnings.push('mb_socket_missing')
+  if (!chipset) warnings.push('mb_chipset_missing')
+  return {
+    normalized: {
+      category: 'motherboard', data: {
+        socket: socket || 'AM4', chipset, formFactor, memoryType,
+        memorySlots: formFactor === 'Mini-ITX' ? 2 : 4,
+        maxMemoryGb: (formFactor === 'Mini-ITX' ? 2 : 4) * 48,
+        m2Slots: 1, sataPorts: 4, pcieX16Slots: 1,
+      }
+    },
+    meta: { parserVersion: '1.0.0', confidence: warnings.length === 0 ? 1 : 0.7, warnings }
+  }
+}
+
+function normalizeGpuSpecs(specs, name) {
+  const vram = parseInt(specs.vram || specs.VRAM || '') || 0
+  const warnings = vram === 0 ? ['gpu_vram_missing'] : []
+  const nameL = name.toLowerCase()
+  let powerDrawWatts = 200
+  if (vram >= 16) powerDrawWatts = 300
+  else if (vram >= 12) powerDrawWatts = 250
+  else if (vram >= 8) powerDrawWatts = 200
+  else if (vram >= 6) powerDrawWatts = 160
+  else powerDrawWatts = 120
+  const powerConnectors = (nameL.includes('4090') || /12vhpwr/i.test(nameL)) ? ['12VHPWR'] : ['8-pin']
+  return {
+    normalized: { category: 'gpu', data: { vramGb: vram, powerDrawWatts, powerConnectors } },
+    meta: { parserVersion: '1.0.0', confidence: warnings.length === 0 ? 1 : 0.7, warnings }
+  }
+}
+
+// ── Name deduplication ────────────────────────────────────────────────
+
+/** Simplify part name for dedup — same logic as extractModelKey in the frontend. */
+function simplifyName(name, category) {
+  const clean = name.replace(/[™®©®]|Â®/g, '').trim()
+  const cat = category.toLowerCase()
+
+  if (cat === 'cpu') {
+    let m = clean.match(/\b(Ryzen\s+\d\s+\d{4}[A-Za-z\d]*)/i)
+    if (m) return m[1].trim()
+    m = clean.match(/\b(Core\s+i[3579]-?\d{4,5}[A-Za-z\d]*)/i)
+    if (m) return m[1].trim()
+    m = clean.match(/\b(Core\s+Ultra\s+\d{2,3}[A-Za-z\d]*)/i)
+    if (m) return m[1].trim()
+    return clean.slice(0, 60)
+  }
+
+  // For everything else, strip brand prefix, trim to 60 chars
+  return clean.replace(/^(ASUS|MSI|GIGABYTE|GIGA\s*BYTE|EVGA|ZOTAC|CORSAIR| Kingston|CRUCIAL|WD|SEAGATE|SAMSUNG|THERMALTAKE|COOLER\s*MASTER|NZXT|BE\s*QUIET|FRONTIER|DEEPCOOL|ARCTIC|NOCTUA)\s*/i, '').trim().slice(0, 80) || clean.slice(0, 80)
+}
+
+// ── Main ──────────────────────────────────────────────────────────────
+
+function main() {
+  if (!existsSync(inputDir)) {
+    console.error(`❌ Spider output directory not found: ${inputDir}`)
+    process.exit(1)
+  }
+
+  console.log('🔄 spider-to-catalog: Spider JSON → Frontend catalog files\n')
+  loadCpuSpecsDb()
+
+  // ── Read all spider JSON files ─────────────────────────────────────
+
+  const jsonFiles = readdirSync(inputDir).filter(f => f.endsWith('.json') && !f.startsWith('.') && !f.includes('store_rules')).sort()
+  if (jsonFiles.length === 0) {
+    console.error('❌ No .json files found in', inputDir)
+    process.exit(1)
+  }
+
+  console.log(`📂 Reading ${jsonFiles.length} spider files from ${inputDir}`)
+
+  const allItems = []
+  for (const file of jsonFiles) {
+    const content = readFileSync(resolve(inputDir, file), 'utf-8').trim()
+    let items
+    if (content.startsWith('[')) {
+      items = JSON.parse(content)
+    } else {
+      items = content.split('\n').filter(Boolean).map(l => JSON.parse(l))
+    }
+    console.log(`   ${file}: ${items.length} items`)
+    allItems.push(...items)
+  }
+
+  console.log(`\n📊 Total raw items: ${allItems.length}`)
+
+  // ── Categorize and deduplicate ────────────────────────────────────
+
+  // { category: { nameKey: { best: item, duplicates: [] } } }
+  const byCategory = new Map()
+
+  for (const item of allItems) {
+    const name = (item.name || '').trim()
+    if (!name) continue
+
+    const category = normalizeCategory(item.category, (item.store || 'unknown').trim(), name)
+    if (!FRONTEND_CATEGORIES.includes(category)) continue
+
+    // Skip items with no price info
+    if (!item.price && item.price !== 0) continue
+
+    const store = (item.store || 'unknown').trim()
+    const brand = (item.brand || '').trim() || (name.split(/\s/)[0] || '')
+    const nameKey = simplifyName(name, category).toLowerCase()
+
+    if (!byCategory.has(category)) byCategory.set(category, new Map())
+    const catMap = byCategory.get(category)
+
+    if (!catMap.has(nameKey)) {
+      catMap.set(nameKey, { best: item, storeOffers: [] })
+    }
+
+    const entry = catMap.get(nameKey)
+
+    // Track this as a store offer (no partId yet - will use consolidated ID)
+    const storeOffer = {
+      retailer: store,
+      amountPhp: parseFloat(item.price) || 0,
+      originalAmountPhp: item.original_price ? parseFloat(item.original_price) : null,
+      productUrl: item.product_url || null,
+      observedAt: item.scraped_at || null,
+    }
+    entry.storeOffers.push(storeOffer)
+
+    // Pick "best" item as the catalog entry (prefer in_stock, then lowest price)
+    const currentAvail = (entry.best.availability || '').toLowerCase()
+    const newAvail = (item.availability || '').toLowerCase()
+    const currentPrice = parseFloat(entry.best.price) || Infinity
+    const newPrice = parseFloat(item.price) || Infinity
+
+    if (newAvail === 'in_stock' && currentAvail !== 'in_stock') {
+      entry.best = item
+    } else if (newAvail === currentAvail && newPrice < currentPrice) {
+      entry.best = item
+    }
+  }
+
+  // ── Generate catalog JSON files ────────────────────────────────────
+
+  console.log('\n📦 Generating catalog files...')
+  const allPriceEntries = []
+
+  for (const category of FRONTEND_CATEGORIES) {
+    const catMap = byCategory.get(category)
+    if (!catMap || catMap.size === 0) {
+      console.log(`   ${category}: 0 items (no spider data)`)
+      // Still write empty catalog so the frontend doesn't crash
+      writeFileSync(
+        resolve(DATA_DIR, `catalog_${category}.json`),
+        JSON.stringify({ schemaVersion: '1.0', category, items: [] }, null, 2) + '\n'
+      )
+      continue
+    }
+
+    const items = []
+    let normalized = 0
+
+    for (const [nameKey, { best, storeOffers }] of catMap) {
+      const store = (best.store || 'unknown').trim()
+      const partId = makePartId(category, store, best.name)
+
+      // Build specs
+      const specs = {}
+      if (best.brand) specs.Brand = best.brand
+      if (best.sku) specs.SKU = best.sku
+      if (best.availability) specs.Availability = best.availability
+
+      // Enrich CPU specs from database
+      let enriched = false
+      if (category === 'cpu' && cpuSpecsDb) {
+        const brand = (best.brand || '').trim()
+        const specEntry = findCpuSpec(best.name, brand === 'Intel' ? 'Intel' : 'AMD')
+        if (specEntry) {
+          Object.assign(specs, specEntry.specs)
+          enriched = true
+        }
+      }
+
+      // Build the item
+      const item = {
+        id: partId,
+        name: best.name,
+        category,
+        specs,
+        imageUrl: best.image_url || null,
+      }
+
+      // Add normalized fields
+      if (category === 'cpu') {
+        const r = normalizeCpuSpecs(specs, best.name)
+        item.normalized = r.normalized
+        item.parseMeta = r.meta
+        normalized++
+      } else if (category === 'motherboard') {
+        const r = normalizeMbSpecs(specs, best.name)
+        item.normalized = r.normalized
+        item.parseMeta = r.meta
+        normalized++
+      } else if (category === 'gpu') {
+        const r = normalizeGpuSpecs(specs, best.name)
+        item.normalized = r.normalized
+        item.parseMeta = r.meta
+        normalized++
+      }
+
+      items.push(item)
+
+      // Add all store offers as price entries (using consolidated partId)
+      for (const offer of storeOffers) {
+        allPriceEntries.push({
+          partId: partId,
+          amountPhp: offer.amountPhp,
+          retailer: offer.retailer,
+          productUrl: offer.productUrl,
+          observedAt: offer.observedAt,
+        })
+      }
+    }
+
+    const catalog = { schemaVersion: '1.0', category, items }
+    writeFileSync(
+      resolve(DATA_DIR, `catalog_${category}.json`),
+      JSON.stringify(catalog, null, 2) + '\n'
+    )
+    console.log(`   ${category}: ${items.length} items (${normalized} normalized)`)
+  }
+
+  // ── Write prices snapshot ──────────────────────────────────────────
+
+  const priceSnapshot = {
+    schemaVersion: '1.0',
+    generated: new Date().toISOString(),
+    entries: allPriceEntries,
+  }
+  writeFileSync(
+    resolve(DATA_DIR, 'prices_snapshot.json'),
+    JSON.stringify(priceSnapshot, null, 2) + '\n'
+  )
+  console.log(`\n💰 Prices: ${allPriceEntries.length} entries across all stores`)
+
+  // ── Also update STORE_URLS in MarketplaceApp ───────────────────────
+  // Collect unique store names from price entries
+  const uniqueStores = [...new Set(allPriceEntries.map(e => e.retailer).filter(Boolean))]
+  console.log(`🏪 Stores: ${uniqueStores.join(', ')}`)
+
+  // ── Summary ────────────────────────────────────────────────────────
+
+  const totalParts = [...byCategory.values()].reduce((sum, m) => sum + m.size, 0)
+  console.log(`\n✅ Done! ${totalParts} unique parts, ${allPriceEntries.length} price entries`)
+  console.log(`   Next step: npm run build`)
+}
+
+main()

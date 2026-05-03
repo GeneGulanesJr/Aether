@@ -1380,171 +1380,6 @@
       "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/12/MASTERBOX-NR200P-V2-btz-ph-1-300x300.webp"
     },
     {
-      "id": "case-datablitz-00000000527d",
-      "name": "Dobe NSW Protective Pack TNS-18110 NEW",
-      "category": "case",
-      "specs": {
-        "Brand": "Dobe",
-        "SKU": "6912808181109",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6912808181109.jpg?v=1735811803"
-    },
-    {
-      "id": "case-datablitz-000000005196",
-      "name": "Dobe Storage Bag for Meta Quest 3 TY-3817",
-      "category": "case",
-      "specs": {
-        "Brand": "Dobe",
-        "SKU": "6972520256585",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/zxcc_565552d5-1e8b-4814-93d0-f6f868d9dc7a.jpg?v=1699679050"
-    },
-    {
-      "id": "case-datablitz-000000000cc7",
-      "name": "Dobe Storage Case For Steam Deck TY-2816",
-      "category": "case",
-      "specs": {
-        "Brand": "Dobe",
-        "SKU": "6972520255694",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/1669771849_1.jpg?v=1676922493"
-    },
-    {
-      "id": "case-datablitz-0000000071d9",
-      "name": "Dobe NSW Silicon Case Silicon Material Turquoise For N-Switch Lite TNS-19073",
-      "category": "case",
-      "specs": {
-        "Brand": "Dobe",
-        "SKU": "1000000005866",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/1567158678_7abb6b02-47c4-4a48-ab7e-c8c10a6a820b.jpg?v=1676773266"
-    },
-    {
-      "id": "case-datablitz-000000006046",
-      "name": "IINE One Piece Monkey D. Luffy EVA Storage Bag for Switch/ Switch OLED (L900)",
-      "category": "case",
-      "specs": {
-        "Brand": "IINE",
-        "SKU": "6974641042948",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6974641042948.jpg?v=1716259734"
-    },
-    {
-      "id": "case-datablitz-0000000016ec",
-      "name": "Dobe NSW Crystal Case Console & Joy-Con Blue TNS-1710",
-      "category": "case",
-      "specs": {
-        "Brand": "Dobe",
-        "SKU": "6912917717107",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/gckdftmuerd.jpg?v=1718340090"
-    },
-    {
-      "id": "case-datablitz-000000003ddf",
-      "name": "Dobe NSW Crystal Case Console & Joy-Con Transparent TNS-1710",
-      "category": "case",
-      "specs": {
-        "Brand": "Dobe",
-        "SKU": "1000000006299",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/1000000006299.jpg?v=1735807063"
-    },
-    {
-      "id": "case-datablitz-000000003d30",
-      "name": "Dobe NSW Silicon Case Pro Controller Blue TNS-1709",
-      "category": "case",
-      "specs": {
-        "Brand": "Dobe",
-        "SKU": "6912917717091",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6912917717091.jpg?v=1735812708"
-    },
-    {
-      "id": "case-datablitz-000000007235",
-      "name": "Dobe NSW Silicon Case Silicon Material Dark Gray For N-Switch Lite TNS-19073",
-      "category": "case",
-      "specs": {
-        "Brand": "Dobe",
-        "SKU": "6972520250194",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6972520250194.jpg?v=1735812969"
-    },
-    {
-      "id": "case-datablitz-000000002010",
-      "name": "Dobe Storage Case for Eggshell Series Controller TNS-3131",
-      "category": "case",
-      "specs": {
-        "Brand": "Dobe",
-        "SKU": "6972520257674",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/bcvcbvcvbvbccbvcvbcbv.jpg?v=1734429663"
-    },
-    {
-      "id": "case-datablitz-0000000078dc",
-      "name": "IINE One Piece Luffy & Chopper EVA Storage Bag for Switch/ Switch OLED (Blue) (L925)",
-      "category": "case",
-      "specs": {
-        "Brand": "IINE",
-        "SKU": "6974641043198",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/01_8b56b6b9-8225-44ef-8e77-1742280d3a16.jpg?v=1716259779"
-    },
-    {
-      "id": "case-datablitz-000000006ce9",
-      "name": "IINE One Piece Zoro EVA Storage Bag for Switch/ Switch (Black) OLED (L901)",
-      "category": "case",
-      "specs": {
-        "Brand": "IINE",
-        "SKU": "6974641042955",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6974641042955.jpg?v=1716259759"
-    },
-    {
-      "id": "case-datablitz-000000001677",
-      "name": "Nacon Protection Case XL for Nintendo Switch 2 / Nintendo Switch OLED / Nintendo Switch Lite / Nintendo Switch (Black) (SWITCHNEWPOUCHXLBLA)",
-      "category": "case",
-      "specs": {
-        "Brand": "NACON GAMING",
-        "SKU": "3665962028164",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/2_00ad27bc-0160-4a36-9140-03f8e5dba2c8.jpg?v=1749429587"
-    },
-    {
-      "id": "case-datablitz-000000001e57",
-      "name": "Nacon Storage Case for Nintendo Switch 2 (SWITCHNEWSTORAGECASE)",
-      "category": "case",
-      "specs": {
-        "Brand": "NACON GAMING",
-        "SKU": "3665962029123",
-        "Availability": "in_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/3665962029123.jpg?v=1749461995"
-    },
-    {
-      "id": "case-datablitz-000000004d03",
-      "name": "Skull & Co. EDC Case For Nintendo Switch Lite (LTEDC2)",
-      "category": "case",
-      "specs": {
-        "Brand": "Skull & Co.",
-        "SKU": "6973289720171",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/sysyrgs.jpg?v=1763723688"
-    },
-    {
       "id": "case-dynaquest-pc-0000000041a7",
       "name": "FSP CMT380 TG Dual Chamber Type-C ATX Mid Tower Computer PC Case 3X120mm (Black | White)",
       "category": "case",
@@ -10216,17 +10051,6 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000067203.jpg?v=1740126144"
     },
     {
-      "id": "case-pcworx-000000002e6b",
-      "name": "PowerA Case for Nintendo Switch Protection Case Console Accessories Case Protection",
-      "category": "case",
-      "specs": {
-        "Brand": "My Store",
-        "SKU": "0000060947",
-        "Availability": "out_of_stock"
-      },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7r98s-lqacjb3livdb3e.jpg?v=1708417172"
-    },
-    {
       "id": "case-pcworx-00000000039d",
       "name": "Trendsonic Saturn SA25M w/ 700watts Power Supply",
       "category": "case",
@@ -10258,6 +10082,17 @@
         "Availability": "out_of_stock"
       },
       "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000055619.jpg?v=1738648327"
+    },
+    {
+      "id": "case-pcworx-000000001036",
+      "name": "Gigabyte GP-C301GW V2 TG w/ 4 pcs Fan Mid Tower Casing White",
+      "category": "case",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000059532",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/17SHOPIFYGigabyteGP-C301GWV2TGw_4pcsFanMidTowerCasingWhite.jpg?v=1762930338"
     },
     {
       "id": "case-pcworx-000000001f65",
@@ -10523,6 +10358,17 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/DARKFLASH_15.png?v=1742910552"
     },
     {
+      "id": "case-pcworx-000000006394",
+      "name": "DarkFlash Infinity 24 ARGB 3-in-1 Case Fan Black/White",
+      "category": "case",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000065545",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/DARKFLASH_5.png?v=1736147538"
+    },
+    {
       "id": "case-pcworx-0000000011a0",
       "name": "Darkflash DLX4000 Mesh Selection PC Case White",
       "category": "case",
@@ -10653,6 +10499,17 @@
         "Availability": "out_of_stock"
       },
       "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/Untitleddesign_16_e0e707d6-1997-4cf5-a0f3-ab0ebcd22735.png?v=1761615204"
+    },
+    {
+      "id": "case-pcworx-000000005dda",
+      "name": "Darkflash DR12 PRO Single 120mm Addressable RGB LED Case Fan",
+      "category": "case",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000044003",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/Untitleddesign_15_f80f6723-db0d-42b6-b79a-73f574d81a14.png?v=1761614657"
     },
     {
       "id": "case-pcworx-000000007d28",
@@ -10982,6 +10839,17 @@
         "Availability": "out_of_stock"
       },
       "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/RTX_50_-_2025-10-27T163351.427.png?v=1761554159"
+    },
+    {
+      "id": "case-pcworx-00000000332b",
+      "name": "Tecware VX Prism M Triple Tempered Glass MATX Case Black",
+      "category": "case",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000070460",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/20SHOPIFYTecwareVXPrismMTripleTemperedGlassMATXCaseBlack_3_ddb393d4-d47c-4643-8d31-b57781b312ef.jpg?v=1763795468"
     },
     {
       "id": "case-pcworx-000000003008",

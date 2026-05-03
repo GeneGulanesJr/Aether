@@ -1,5 +1,5 @@
 {
-  "$id": "https://pcbuilder.local/schema/prices.json",
+  "$id": "https://aether.local/schema/prices.json",
   "title": "PriceManifestOrPriceList",
   "oneOf": [
     { "$ref": "#/$defs/priceManifest" },

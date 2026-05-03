@@ -1,0 +1,2897 @@
+{
+  "schemaVersion": "1.0",
+  "category": "gamepad",
+  "items": [
+    {
+      "id": "gamepad-datablitz-0000000053d5",
+      "name": "Gulikit Wireless Controller Adapter (PC02)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gulikit",
+        "SKU": "1000000011766",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/6938463.jpg?v=1676918608"
+    },
+    {
+      "id": "gamepad-datablitz-00000000485e",
+      "name": "8Bitdo 64 Bluetooth Controller for Analogue 3D / Switch / Windows / Android (Black, White, Grey) (80NE)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621507222",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/564sdafg5sad4gs.jpg?v=1774590215"
+    },
+    {
+      "id": "gamepad-datablitz-0000000046d8",
+      "name": "8Bitdo Arcade Controller for Xbox Series X/S / XboxOne / Windows 10/11 (81JB)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621507437",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/1_f842ca3d-6cb2-4abd-b957-1ed4777fdab0.jpg?v=1754878794"
+    },
+    {
+      "id": "gamepad-datablitz-000000006890",
+      "name": "8Bitdo Pro 3 Bluetooth Gamepad for Nintendo Switch / Windows / Android (80GQ) (G Classic, Grey, Purple)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621507123",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/SKU-6922621507123.jpg?v=1756709505"
+    },
+    {
+      "id": "gamepad-datablitz-0000000033d9",
+      "name": "8BitDo Ultimate 2 Bluetooth Controller with TMR Joysticks, Switchable Hall Effect/Tactile Triggers, Vibration & Motion Control, RGB Fire Ring with Charging Dock for Nintendo Switch/Windows PC/N-Switch Pro Controller (Black, White) (80ND)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621507086",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/zdfhszxdtgn.jpg?v=1749257257"
+    },
+    {
+      "id": "gamepad-datablitz-00000000756b",
+      "name": "8BitDo Ultimate 2 Wireless Controller with TMR Joysticks, Switchable Hall Effect/Tactile Triggers, RGB Fire Ring, 8Speed Wireless Tech with Charging Dock for Windows/Android (81HE) (Black, White, Purple)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621507055",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6922621507055.jpg?v=1742817236"
+    },
+    {
+      "id": "gamepad-datablitz-000000001f90",
+      "name": "8Bitdo Ultimate 2C Bluetooth Controller For Switch (80NC) (Blue, Pink)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621506355",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6922621506355.jpg?v=1738581568"
+    },
+    {
+      "id": "gamepad-datablitz-000000001501",
+      "name": "8Bitdo Ultimate 3-Mode Controller For Xbox + Game Pass Code (81HB) (Black, White, Jade)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621505402",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/01_0f489408-a4bd-4004-9020-0e6c0810d115.jpg?v=1747456852"
+    },
+    {
+      "id": "gamepad-datablitz-0000000008c5",
+      "name": "8Bitdo Ultimate 3-Mode Controller For Xbox + Game Pass Code (Rare) (81HB)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621507680",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/SKU--6922621507680.jpg?v=1756709579"
+    },
+    {
+      "id": "gamepad-datablitz-0000000037c2",
+      "name": "8BITDO Ultimate Bluetooth Controller (Switch/Windows) (Black Edition) (80NA02)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621502487",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/post5_d0810e5d-c1f3-42b9-8eda-143b23b03300.jpg?v=1676895007"
+    },
+    {
+      "id": "gamepad-datablitz-000000002845",
+      "name": "8BITDO Ultimate Bluetooth Controller (Switch/Windows) (White Edition) (80NA01)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621502470",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/post4.jpg?v=1676895006"
+    },
+    {
+      "id": "gamepad-datablitz-000000003f13",
+      "name": "8bitdo Ultimate Bluetooth Controller 10th Anniversary Limited Edition w/ Protective Case",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621504436",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/8bitdo-mainimage_7e19a144-87a0-43bc-b00b-450bae253ef8.jpg?v=1693798408"
+    },
+    {
+      "id": "gamepad-datablitz-000000003265",
+      "name": "8Bitdo Ultimate Bluetooth Controller with Travel Case for Switch/Windows (Black) (80NA)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621505334",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6922621505334_97bc8a75-88ff-4c12-af4f-547d767623af.jpg?v=1736748063"
+    },
+    {
+      "id": "gamepad-datablitz-0000000044c7",
+      "name": "8bitdo Ultimate Controller F40-I Limited Edition For Switch/Windows (80NA)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621504450",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/as_3f9e177d-25b8-46af-b12a-baa7ac1c79ed.jpg?v=1721300889"
+    },
+    {
+      "id": "gamepad-datablitz-000000007a1c",
+      "name": "8BITDO Ultimate Controller F40-II Limited Edition For Switch/Windows (80NA)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621504474",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/8bitdo-Ultimate-Controller.jpg?v=1696823831"
+    },
+    {
+      "id": "gamepad-datablitz-0000000066ad",
+      "name": "8Bitdo Ultimate Mini Wired Controller for Xbox (82CC) (Translucent Green, Translucent Pink, Translucent White)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621507000",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6922621507000.jpg?v=1738581635"
+    },
+    {
+      "id": "gamepad-datablitz-0000000060d7",
+      "name": "8BITDO Ultimate Wired Controller For (Switch/Windows/Android (Black Edition) (82CA02)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621502739",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/6922621502739.jpg?v=1676893969"
+    },
+    {
+      "id": "gamepad-datablitz-000000003575",
+      "name": "8BITDO Ultimate Wireless 2.4G Controller (Windows/Android/Raspberry Pi) (Black Edition) (81HA02)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621502500",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/post3_dea77ddf-a6f3-4ef3-bbc2-df770e3e3c7c.jpg?v=1676894964"
+    },
+    {
+      "id": "gamepad-datablitz-00000000121e",
+      "name": "8BITDO Ultimate Wireless 2.4G Controller (Windows/Android/Raspberry Pi) (Pastel Pink Edition) (81HA03)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621503095",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/post2_1c58da92-7fa3-490f-a5aa-952fc74a609b.jpg?v=1676895007"
+    },
+    {
+      "id": "gamepad-datablitz-0000000044f2",
+      "name": "8BITDO Ultimate Wireless 2.4G Controller (Windows/Android/Raspberry Pi) (White Edition) (81HA01)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621502494",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/post1_63df930f-b38d-49d2-93f7-ce0aef3f2b4b.jpg?v=1676895007"
+    },
+    {
+      "id": "gamepad-datablitz-000000007d9e",
+      "name": "8Bitdo Arcade Controller for Nintendo Switch / Windows (80FG)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621507611",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/viber_image_2025-08-01_16-47-13-065.jpg?v=1754038376"
+    },
+    {
+      "id": "gamepad-datablitz-000000007090",
+      "name": "8Bitdo Ultimate 2C Wireless Controller for Windows/Android (Transparent Black) (81HD)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621508809",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/Layer5_c3575f45-f1f3-4f73-b1eb-8b9116696ad2.jpg?v=1766116452"
+    },
+    {
+      "id": "gamepad-datablitz-000000007483",
+      "name": "8Bitdo Ultimate Mobile Gaming Controller for Android (Black, White) (80LB)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621506096",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/PIXELPLAY-TEMPLATE_c52ca7bd-17d4-4cf0-a2b1-c253887e8413.jpg?v=1737942859"
+    },
+    {
+      "id": "gamepad-datablitz-000000003abe",
+      "name": "8Bitdo Arcade Controller for Nintendo Switch / Windows (Transparent Purple) (80FG)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621508908",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/71yplqBmlML.jpg?v=1774587195"
+    },
+    {
+      "id": "gamepad-datablitz-0000000059c7",
+      "name": "8BitDo 64 2.4G Wireless Controller for Original N64 Console / Analogue 3D / Windows (Grey) (81HK)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "8BitDo",
+        "SKU": "6922621507178",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6922621507178.jpg?v=1774951351"
+    },
+    {
+      "id": "gamepad-datablitz-000000004a72",
+      "name": "Anbernic RG P01 Tri-Mode Game Controller for PC/ Steam/ Switch/ Android/ iOS (Black, Beige White, Radiant Purple)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Anbernic",
+        "SKU": "1000000017299",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/1000000017301.jpg?v=1734151058"
+    },
+    {
+      "id": "gamepad-datablitz-00000000122d",
+      "name": "Bigbig Won Armor-X Pro Wireless Back Button for Xbox Series X/S / XboxOne / Switch / Win 10&11 (Black)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Bigbig Won",
+        "SKU": "6974051050113",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6974051050113.jpg?v=1734694742"
+    },
+    {
+      "id": "gamepad-datablitz-00000000550f",
+      "name": "Bigbig Won GALE Hall Wireless Gaming Controller with Smart Charging Stand for Win 10&11 / Switch / Android / iOS (Black, Gray)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Bigbig Won",
+        "SKU": "6974051050724",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/11_33d45486-605f-4ffd-b8f7-07803bc34bcb.jpg?v=1736929825"
+    },
+    {
+      "id": "gamepad-datablitz-000000006e8c",
+      "name": "Bigbig Won Mojhon Blitz 2 TMR Dynasty Warriors Origins Limited Edition Wireless Gaming Controller for Win 10&11 / Nintendo Switch / Android / iOS",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Bigbig Won",
+        "SKU": "6974051050823",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0_24b64fda-7542-465b-ad69-2da1bf56d1b8.jpg?v=1753672843"
+    },
+    {
+      "id": "gamepad-datablitz-000000002507",
+      "name": "Dobe Controller Grip for Nintendo N-Switch / N-Switch OLED Joy-Pad (Pink/Yellow, Red/Blue, Purple/Green, Light Green/Light Blue) TNS-2130",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Dobe",
+        "SKU": "6972520256233",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/main-all-variant.jpg?v=1734433008"
+    },
+    {
+      "id": "gamepad-datablitz-000000007955",
+      "name": "Dobe Joy-Pad (L) / (R) for Nintendo Switch / Nintendo Switch OLED (Blue/Red) TNS-1864X",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Dobe",
+        "SKU": "1000000018273",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0_c876a9f5-ccd2-4a48-8f60-f3a9866e4fd7.jpg?v=1743650860"
+    },
+    {
+      "id": "gamepad-datablitz-000000002c00",
+      "name": "Dobe JoyPad for Switch (L/R) Light Green/ Light Blue TNS-0163B",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Dobe",
+        "SKU": "1000000016352",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/DobeNSW-GreenBlue.jpg?v=1676908534"
+    },
+    {
+      "id": "gamepad-datablitz-00000000030e",
+      "name": "ASUS ROG Raikiri II Wireless Gaming Controller For XBOX (Black)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "0199291150201",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0199291150201.jpg?v=1772521646"
+    },
+    {
+      "id": "gamepad-datablitz-0000000046c8",
+      "name": "Razer Kitsune All-Button Optical Arcade Controller For PS5 & PC",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Razer",
+        "SKU": "8886419351290",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/Razer-Kitsune-All-Button-main.jpg?v=1697596033"
+    },
+    {
+      "id": "gamepad-datablitz-00000000450f",
+      "name": "Hori Street Fighter 6 Nolva Mechanical All-Button Arcade Controller for PS5 and Windows (Luke, Jamie, Chun-Li, E.Honda, Manon, Marisa, Zangief, Cammy, Rashid, Gouki)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Hori",
+        "SKU": "6975977470108",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/ssgnsrngsd.jpg?v=1764552693"
+    },
+    {
+      "id": "gamepad-datablitz-000000002f00",
+      "name": "NSW Power A Fusion Wireless Arcade Stick For Nintendo Switch",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885020476",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/81PHQl2m5EL._SL1500.jpg?v=1678257995"
+    },
+    {
+      "id": "gamepad-datablitz-0000000041de",
+      "name": "PowerA Pokemon Enhanced Wireless Controller for Nintendo Switch (Pikachu Vs Gengar) (NSGP0420-01)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885133411",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0617885133411.jpg?v=1744271285"
+    },
+    {
+      "id": "gamepad-datablitz-000000007ff6",
+      "name": "PowerA Advantage Wireless Controller for Nintendo Switch 2 (Pokemon: Mega Evolutions)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885159817",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0617885159817.jpg?v=1762936148"
+    },
+    {
+      "id": "gamepad-datablitz-000000006611",
+      "name": "Fantech x One Piece WGP15V2A EOS Pro II A Tri-Mode Multi-Platform Gamepad (Luffy, Zoro, Luffy Gear 5, Nami)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Fantech",
+        "SKU": "6977052252357",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/azsdbfsdfgns.jpg?v=1766205876"
+    },
+    {
+      "id": "gamepad-datablitz-0000000036a1",
+      "name": "SKULL & CO. Controller Carrying Case for All Controllers (Multi-Camo) (CTC-ALL-MC)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Skull & Co.",
+        "SKU": "6973289722625",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/controller-case-multi-camo.jpg?v=1676882615"
+    },
+    {
+      "id": "gamepad-datablitz-0000000032f4",
+      "name": "PS5 DualSense Wireless Controller Midnight Black (CFI-ZCT2W)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Sony Interactive Entertainment (Asia)",
+        "SKU": "0711719023227",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/g54sa65g4sd.jpg?v=1772842944"
+    },
+    {
+      "id": "gamepad-datablitz-0000000025b6",
+      "name": "PS5 Dualsense Wireless Controller Grey Camouflage (CFI-ZCT2G 06)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Sony Interactive Entertainment (Asia)",
+        "SKU": "4948872417396",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/dualsense-wireless-controller-gray-camouflage-731889.1.jpg?v=1676893427"
+    },
+    {
+      "id": "gamepad-datablitz-00000000169b",
+      "name": "Nintendo Switch 2 Pro Controller",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Nintendo",
+        "SKU": "4902370553215",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/Layer26_5009e5cd-c6f6-410a-b71c-02add03faaa6.jpg?v=1750521140"
+    },
+    {
+      "id": "gamepad-datablitz-000000001a8a",
+      "name": "GameSir X5 Lite Type-C Wired Mobile Game Controller (Black, Grey, Wasabi)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "6936685221901",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0_d3512458-dc99-4344-b3c3-8dd5da164be9.jpg?v=1765162967"
+    },
+    {
+      "id": "gamepad-datablitz-000000007aac",
+      "name": "PS5 DualSense Edge Wireless Controller (CFI-ZCP1)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Sony Interactive Entertainment (Asia)",
+        "SKU": "4948872415705",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/gfhkhvj.jpg?v=1765476669"
+    },
+    {
+      "id": "gamepad-datablitz-0000000038f7",
+      "name": "PS5 Dualsense Wireless Controller 30th Anniversary Limited Edition (CFI-ZCT1G30)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Sony Computer Entertainment",
+        "SKU": "4948872416450",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/Layer36_a87e8e15-e14d-4eb3-aff1-33a108babb8b.jpg?v=1727251729"
+    },
+    {
+      "id": "gamepad-datablitz-000000001fa5",
+      "name": "PS5 Dualsense Wireless Controller Genshin Impact Limited Edition (CFI-ZCT2G ZE)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Sony Interactive Entertainment (Asia)",
+        "SKU": "4948872417440",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/sd45g5sag.jpg?v=1768637003"
+    },
+    {
+      "id": "gamepad-datablitz-000000000e11",
+      "name": "GameSir Nova 2 Lite Multiplatform Wireless Game Controller (Midnight Gray, Luminous White)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "6936685222540",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6936685222540.jpg?v=1748493478"
+    },
+    {
+      "id": "gamepad-datablitz-000000006bb3",
+      "name": "GameSir G7 Pro Tri-Mode Gaming Controller for Xbox / Mobile / PC (Mech White, Shadow Ember)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "6936685222267",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0_a656e1b4-f355-44bf-9130-2e6ea4141ba8.jpg?v=1772332864"
+    },
+    {
+      "id": "gamepad-datablitz-0000000071df",
+      "name": "PS5 Dualsense Wireless Controller Chroma Teal (CFI-ZCT1W)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Sony Interactive Entertainment (Asia)",
+        "SKU": "0711719587569",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/vncnvccnvcnv.jpg?v=1737548201"
+    },
+    {
+      "id": "gamepad-datablitz-000000004314",
+      "name": "PS5 Dualsense Edge Wireless Controller Midnight Black (CFI-ZCP1 G01)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Sony Interactive Entertainment (Asia)",
+        "SKU": "4948872416597",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/4948872416597.jpg?v=1740020263"
+    },
+    {
+      "id": "gamepad-datablitz-00000000043e",
+      "name": "Gamesir Cyclone 2 Multi-Platform Wireless Game Controller (Black, White)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "6936685222021",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/wrqwerqwe_74ceb695-ad11-4bcf-a3ed-17fc286bed66.jpg?v=1731472217"
+    },
+    {
+      "id": "gamepad-datablitz-000000003734",
+      "name": "PS5 Dualsense Wireless Controller God Of War Ragnarok Limited Edition Asian (CFI-ZCT1G Z1)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Playstation",
+        "SKU": "4948872415637",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/GOWR-DualSense-Controller-Main.jpg?v=1676906495"
+    },
+    {
+      "id": "gamepad-datablitz-000000003263",
+      "name": "IINE Gamebrick Mini Retro Controller (Classic Grey, Retro Red) (L1161, L1162)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641045604",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/sdg4f5sda6g.jpg?v=1766143105"
+    },
+    {
+      "id": "gamepad-datablitz-000000001488",
+      "name": "Nintendo Switch 2 Joy-Con 2 (L) / (R) Light Blue / Light Red",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Nintendo",
+        "SKU": "4902370553161",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/Layer35_eccac916-367d-413e-9e22-b200012493d9.jpg?v=1750520936"
+    },
+    {
+      "id": "gamepad-datablitz-000000005107",
+      "name": "Xbox Wireless Controller Deep Pink (Asian)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Xbox",
+        "SKU": "0889842875584",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/c210925d-17f3-4c4e-8e4d-6ef3a40c4915.jpg?v=1676923349"
+    },
+    {
+      "id": "gamepad-datablitz-00000000033a",
+      "name": "Gulikit NSW Kingkong 2 Controller (Black) (NS08)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gulikit",
+        "SKU": "1000000011767",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/5860165.jpg?v=1699860222"
+    },
+    {
+      "id": "gamepad-datablitz-00000000364a",
+      "name": "PS5 DualSense Wireless Controller Ghost of Yotei Gold Limited Edition",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Sony Interactive Entertainment (Asia)",
+        "SKU": "4948872416795",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/02_e8ff0b3c-4d06-4ff9-8403-cfe221b47658.jpg?v=1758712068"
+    },
+    {
+      "id": "gamepad-datablitz-00000000396e",
+      "name": "Onikuma C1 Dual-Mode RGB Hall Effect Gaming Controller (Black, White)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Onikuma",
+        "SKU": "6972470563801",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/1_59046f21-e8a6-485f-a173-db037ef379b7.jpg?v=1732850419"
+    },
+    {
+      "id": "gamepad-datablitz-00000000237e",
+      "name": "Gamesir T4 Nova HD Rumble Wireless Controller For N-Switch (Neon Teal, Retro White)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "6936685220942",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/main_04f46caf-2c3c-4895-ae3b-288b9c97c8dc.jpg?v=1714444483"
+    },
+    {
+      "id": "gamepad-datablitz-000000006a9b",
+      "name": "Gamesir X2 Pro Gaming Controller (Midnight Black)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "6936685220508",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/6936685220508.jpg?v=1676894292"
+    },
+    {
+      "id": "gamepad-datablitz-0000000041c9",
+      "name": "Gamesir T3 Lite Wired Game Controller (Serene White, Retro Gray)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "6936685222342",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0_117870ab-d6a3-4f34-8adf-bbd65d365120.jpg?v=1748663964"
+    },
+    {
+      "id": "gamepad-datablitz-00000000324f",
+      "name": "PS5 Dualsense Wireless Controller Monster Hunter Wilds Limited Edition (CFI-ZCT1G Z5)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Sony Interactive Entertainment (Asia)",
+        "SKU": "4948872416719",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/1_e263f99e-439e-4146-ae8d-0ff53d0561a5.jpg?v=1732238116"
+    },
+    {
+      "id": "gamepad-datablitz-000000007b96",
+      "name": "Gamesir T4n Pro Super Nova Multi-Platform Wireless Game Controller (Blue/Black, Pink/White)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "6936685221994",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/gamesir-variant.jpg?v=1739506928"
+    },
+    {
+      "id": "gamepad-datablitz-000000000239",
+      "name": "Bigbig Won Blitz 2 TMR Pro Wireless Gaming Controller for Win 10&11 / Switch / Android / iOS",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Bigbig Won",
+        "SKU": "6974051050786",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6974051050786.jpg?v=1735278309"
+    },
+    {
+      "id": "gamepad-datablitz-0000000047b3",
+      "name": "Bigbig Won Choco Wireless Gaming Controller for Switch / Win 10&11 / Android / iOS (Pink, Grey, Blue, Green)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Bigbig Won",
+        "SKU": "6974051050496",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6974051050496.jpg?v=1735278239"
+    },
+    {
+      "id": "gamepad-datablitz-000000007213",
+      "name": "Bigbig Won Mojhon Aether Dual 1000Hz Polling Rate w/ Smart Display Hall Effect Wireless Game Controller for Switch / Win 10&11 / Android / iOS (Black, Grey)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Bigbig Won",
+        "SKU": "6974051050861",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0_e64174c1-897c-41f3-8d8a-dafc9f1c1550.jpg?v=1763952660"
+    },
+    {
+      "id": "gamepad-datablitz-000000002dea",
+      "name": "Bigbig Won Rainbow 2 Pro Wireless Gaming Controller with Charging Dock for Windows 10&11/ Switch/ Android/ iOS",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Bigbig Won",
+        "SKU": "6974051050380",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6974051050380.jpg?v=1734694770"
+    },
+    {
+      "id": "gamepad-datablitz-000000002720",
+      "name": "Bigbig Won Rainbow 2 SE Wireless Gaming Controller for Win 10&11 / Switch / Android / iOS (Blue, Pink, Green)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Bigbig Won",
+        "SKU": "6974051050571",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6974051050571.jpg?v=1734694796"
+    },
+    {
+      "id": "gamepad-datablitz-000000000d5f",
+      "name": "Bigbig Won Rainbow 3 Wireless Gaming Controller for Win 10&11 / Switch / Switch 2 / Android / iOS",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Bigbig Won",
+        "SKU": "6974051050793",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0.gif?v=1763949160"
+    },
+    {
+      "id": "gamepad-datablitz-000000005132",
+      "name": "Bigbig Won Rainbow Lite Wired Gaming Controller for Win 10&11 / Switch",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Bigbig Won",
+        "SKU": "6974051050267",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6974051050267.jpg?v=1736219737"
+    },
+    {
+      "id": "gamepad-datablitz-0000000031a8",
+      "name": "Bigbig Won Rainbow S Wired Gaming Controller For Win 10&11 / Switch",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Bigbig Won",
+        "SKU": "6974051050281",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6974051050281.jpg?v=1736219873"
+    },
+    {
+      "id": "gamepad-datablitz-000000000906",
+      "name": "Dobe NSW Joy-Pad (L)/(R) Green/Blue For N-Switch TNS-0163",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Dobe",
+        "SKU": "1000000011645",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/DobeNSW-GreenBlue.jpg?v=1676908534"
+    },
+    {
+      "id": "gamepad-datablitz-0000000017f0",
+      "name": "Dobe Wireless Game Controller for PS5 TP5-35137",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Dobe",
+        "SKU": "6972520824111",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/Layer7_6e5113f7-e989-42c8-8c22-c2f55f7a46b5.jpg?v=1743651094"
+    },
+    {
+      "id": "gamepad-datablitz-0000000019d5",
+      "name": "Dobe Wireless Game Controller for PS5 TP5-35137S",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Dobe",
+        "SKU": "6972520289231",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/SKU-6972520289231.jpg?v=1766062609"
+    },
+    {
+      "id": "gamepad-datablitz-00000000796b",
+      "name": "Dragonwar Wireless Gaming Controller Compatible With Switch / PC (GSW01-Black)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Dragonwar",
+        "SKU": "6972197941678",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/dfgbsdgnhsf.jpg?v=1729752013"
+    },
+    {
+      "id": "gamepad-datablitz-000000000f05",
+      "name": "EasySMX D05 Multi-Platform Gaming Controller with Charging Dock, Hall Effect Joysticks & Trigger (Black) (VG-C530)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "EasySMX",
+        "SKU": "6973771030917",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/sd5g4sda5g4.jpg?v=1761209045"
+    },
+    {
+      "id": "gamepad-datablitz-00000000226e",
+      "name": "EasySMX D10 Multi-Platform Gaming Controller with TMR Sticks, Trigger Lock & Charging Dock (Farout Purple, Space Black, Wirtanen Green)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "EasySMX",
+        "SKU": "6973771030924",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6973771030924.jpg?v=1757057524"
+    },
+    {
+      "id": "gamepad-datablitz-000000007592",
+      "name": "EasySMX M15 Mobile Game Controller (Black) (VG-C529)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "EasySMX",
+        "SKU": "6973771030887",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6973771030887.jpg?v=1776679887"
+    },
+    {
+      "id": "gamepad-datablitz-000000005fa7",
+      "name": "EasySMX M15 Mobile Gaming Controller (White) (VG-C512)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "EasySMX",
+        "SKU": "6973771030771",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6973771030771.jpg?v=1757148004"
+    },
+    {
+      "id": "gamepad-datablitz-0000000075a9",
+      "name": "EasySMX S10 Gaming Controller with TMR Sticks, HD Rumble, Swappable D-pad for Nintendo Switch/PC/iOS/Android (Midnight, White)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "EasySMX",
+        "SKU": "6973771031006",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0_67e80325-f03f-4c02-a000-56fa01b70ade.jpg?v=1757994767"
+    },
+    {
+      "id": "gamepad-datablitz-0000000068b8",
+      "name": "EasySMX S10 Lite Gaming Controller with Hall Effect Microswitch 9-Axis Precision for Nintendo Switch 2/PC/SteamDeck/iOS/Android (Black, Blue, Pink)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "EasySMX",
+        "SKU": "6972971790034",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6972971790034.jpg?v=1773119103"
+    },
+    {
+      "id": "gamepad-datablitz-0000000023d6",
+      "name": "EasySMX X05 Multi-Platform Gaming Controller with Hall Effect Joystick (Black, Lime, Oyster White)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "EasySMX",
+        "SKU": "6973771030764",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6973771030764.jpg?v=1757147955"
+    },
+    {
+      "id": "gamepad-datablitz-00000000083f",
+      "name": "EasySMX X05Pro Game Controller with Charging Base for Nintendo Switch/PC/iOS/Android (Black, White) (VG-C472, VG-C473)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "EasySMX",
+        "SKU": "6972971790164",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6972971790164.jpg?v=1776679858"
+    },
+    {
+      "id": "gamepad-datablitz-000000000d18",
+      "name": "EasySMX X05Pro Multiplatform Wireless Gaming Controller for Nintendo Switch/PC/iOS/Android (Black, White, Aurora Purple)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "EasySMX",
+        "SKU": "6973771031020",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6973771031020.jpg?v=1761105772"
+    },
+    {
+      "id": "gamepad-datablitz-000000005348",
+      "name": "EasySMX X15 RGB Wireless Controller with Hall Trigger & Hall Joystick for PC/N-Switch/Android/iOS (Black, Wukong) (VG-C516, VG-C522)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "EasySMX",
+        "SKU": "6973771030757",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6973771030757.jpg?v=1757057499"
+    },
+    {
+      "id": "gamepad-datablitz-000000004619",
+      "name": "EasySMX X20 Multi-Platform Wireless Gaming Controller with Trigger Lock & Hall Effect Sensor (White, Black) (VG-C518, VG-C548)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "EasySMX",
+        "SKU": "6973771030825",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/dryndtry.jpg?v=1776678351"
+    },
+    {
+      "id": "gamepad-datablitz-000000003958",
+      "name": "Fantech X One Piece WGP14v2 Nova Pro Wired & Bluetooth Gamepad (Luffy, Zoro, Luffy Gear 5, Nami)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Fantech",
+        "SKU": "6977052252319",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/xdgnsdfmnd.jpg?v=1766372004"
+    },
+    {
+      "id": "gamepad-datablitz-000000007ffa",
+      "name": "GameSir G7 Pro 8K PC Wireless eSports Gaming Controller for PC (Champion Edition)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "0850074931591",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/sda56g4ds5g.jpg?v=1776412350"
+    },
+    {
+      "id": "gamepad-datablitz-000000002497",
+      "name": "GameSir G7 Pro 8K PC Wireless eSports Gaming Controller for PC (Nioh 3)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "0850074931669",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/dgndxfhnmdtgh.jpg?v=1776392288"
+    },
+    {
+      "id": "gamepad-datablitz-000000005d47",
+      "name": "GameSir G7 Pro Tri-Mode Gaming Controller for Xbox / Mobile / PC (Dragons Dogma 2 Limited Edition)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "0850074931072",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/sfgnsryg.jpg?v=1776390544"
+    },
+    {
+      "id": "gamepad-datablitz-000000001abd",
+      "name": "GameSir G7 Pro Wireless Gaming Controller for Xbox / Mobile / PC (Wuchang Fallen Feathers)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "0850074931065",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/SKU-0850074931065.jpg?v=1772332882"
+    },
+    {
+      "id": "gamepad-datablitz-00000000774a",
+      "name": "GameSir G8+ Galileo MFi Wired Mobile Gaming Controller for iPhone / iPad / Android",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "0860013544065",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0860013544065.jpg?v=1769065717"
+    },
+    {
+      "id": "gamepad-datablitz-0000000025fe",
+      "name": "GameSir Nova 2 Lite Multiplatform Wireless Game Controller (Champion Edition)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "0850074931096",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/2_4a2683e1-889c-46b8-b96b-c741f1d500c6.jpg?v=1772698262"
+    },
+    {
+      "id": "gamepad-datablitz-000000001271",
+      "name": "GameSir Nova 2 Lite Multiplatform Wireless Game Controller (Iron Man)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "0850074931331",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/SKU-0850074931331.jpg?v=1764223688"
+    },
+    {
+      "id": "gamepad-datablitz-000000000c17",
+      "name": "GameSir Nova 2 Lite Multiplatform Wireless Game Controller (Panda Edition)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "6936685223127",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6936685223127_1.jpg?v=1769066388"
+    },
+    {
+      "id": "gamepad-datablitz-0000000037aa",
+      "name": "GameSir P1 Pocket Taco Vertical Game Controller",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "0850074931515",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/850074931515.jpg?v=1776246464"
+    },
+    {
+      "id": "gamepad-datablitz-000000004575",
+      "name": "GameSir x Zenless Zone Zero G7 Pro Wireless Game Controller for Xbox Series X/S / XboxOne / Windows 10/11 / Android (Black)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "0850074931058",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0850074931058.jpg?v=1772332873"
+    },
+    {
+      "id": "gamepad-datablitz-0000000033d0",
+      "name": "GameSir x Zenless Zone Zero X5 Lite Type-C Wired Mobile Game Controller (Black, White)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "6936685221437",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/SKU-6936685221437.jpg?v=1764228882"
+    },
+    {
+      "id": "gamepad-datablitz-0000000011a0",
+      "name": "GameSir x Zenless Zone Zero X5S Wireless Game Controller for iOS / PC / Android / Switch (Black, White)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "6936685222380",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0_5_f74562a1-4949-4de1-85f5-e7aa40d3aa18.jpg?v=1776332297"
+    },
+    {
+      "id": "gamepad-datablitz-000000002c24",
+      "name": "Gamesir X2 Pro Gaming Controller (Moonlight White)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "6936685220478",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/6936685220478.jpg?v=1676894292"
+    },
+    {
+      "id": "gamepad-datablitz-000000002297",
+      "name": "Gamesir X3 Pro Integrated Cooler Type-C Mobile Controller w/ Storage Case (Green)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "6936685221277",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/01_1de213ea-d926-4cd1-8b02-a88e39213d12.jpg?v=1731470676"
+    },
+    {
+      "id": "gamepad-datablitz-000000004419",
+      "name": "Gamesir X3 Pro Integrated Cooler Type-C Mobile Controller with Storage Case (DeadPool Special Edition)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "6936685222120",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6936685222120.jpg?v=1742009046"
+    },
+    {
+      "id": "gamepad-datablitz-000000004a1f",
+      "name": "Gamesir X4 Aileron Bluetooth Cloud Gaming Controller for Android (Black)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "6936685220683",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/Untitled-1_263ac7f8-7a27-4412-90e6-83cb138a479a.jpg?v=1714443104"
+    },
+    {
+      "id": "gamepad-datablitz-000000002fdc",
+      "name": "Gamesir X5S Wireless Game Controller for PC / Mobile / Nintendo Switch / Nintendo Switch 2 (Black)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "0850074931089",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0850074931089.jpg?v=1754989107"
+    },
+    {
+      "id": "gamepad-datablitz-000000007798",
+      "name": "Gulikit Elves 2 Controller (Black, Pink) (NS58)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gulikit",
+        "SKU": "6977836850212",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6977836850212.jpg?v=1760433464"
+    },
+    {
+      "id": "gamepad-datablitz-0000000018ee",
+      "name": "Gulikit ES Controller (Grey)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gulikit",
+        "SKU": "6977836850458",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6977836850458.jpg?v=1760433438"
+    },
+    {
+      "id": "gamepad-datablitz-000000000bc6",
+      "name": "Gulikit ES Pro Controller (Black, White)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gulikit",
+        "SKU": "6977836850465",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6977836850465.jpg?v=1760433450"
+    },
+    {
+      "id": "gamepad-datablitz-000000007e0e",
+      "name": "Honeycomb Aeronautical Echo Aviation Controller for Windows 10/11 / Mac",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Honeycomb Aeronautical",
+        "SKU": "4039621003981",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/4039621003981.jpg?v=1770712967"
+    },
+    {
+      "id": "gamepad-datablitz-000000002e49",
+      "name": "Gamesir T4 Cyclone Pro Multi-Platform Wireless Gamepad with Hall Effect Sticks and Triggers (Twilight, Daybreak)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "6936685221147",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/srtyndrynmsd.jpg?v=1771899035"
+    },
+    {
+      "id": "gamepad-datablitz-000000007277",
+      "name": "Power A Enhanced Wireless Controller for Nintendo Switch (Pikachu Garden)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885085512",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/01_c29d9277-c280-4b58-a1b8-b0461a78d24e.jpg?v=1715062556"
+    },
+    {
+      "id": "gamepad-datablitz-000000002ee2",
+      "name": "PS4 DUALSHOCK 4 WIRELESS CONTROLLER CRYSTAL (CUH-ZCT2G17) ASIAN",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Sony Interactive Entertainment (Asia)",
+        "SKU": "4548736068421",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/1_ef1f361d-4555-4b3d-9027-422be6f480da.jpg?v=1676771822"
+    },
+    {
+      "id": "gamepad-datablitz-000000002c9e",
+      "name": "PS4 DUALSHOCK 4 WIRELESS CONTROLLER CRYSTAL ASIAN",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Sony Interactive Entertainment (Asia)",
+        "SKU": "4548736020276",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/1_ef1f361d-4555-4b3d-9027-422be6f480da.jpg?v=1676771822"
+    },
+    {
+      "id": "gamepad-datablitz-0000000032b7",
+      "name": "XBOXONE WIRELESS CONTROLLER GREY/GREEN (US)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Microsoft",
+        "SKU": "0889842195965",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/1_3_611d9b7a-a8b9-4b6a-a97d-4912f3cf9ec4.jpg?v=1676803723"
+    },
+    {
+      "id": "gamepad-datablitz-000000003b0e",
+      "name": "PS5 DualSense Wireless Controller Astro Bot Joyful Limited Edition (CFI-ZCT1G ZC)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Sony Interactive Entertainment (Asia)",
+        "SKU": "4948872417044",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/1_e052735d-19be-4c56-a7cb-739a055a82e1.jpg?v=1761623781"
+    },
+    {
+      "id": "gamepad-datablitz-000000006869",
+      "name": "NSW Hori Split Pad Compact (Gengar) (NSW-411A)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Hori",
+        "SKU": "6931233503508",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/6931233503508.jpg?v=1676896511"
+    },
+    {
+      "id": "gamepad-datablitz-00000000544d",
+      "name": "IINE Palm-Sized Retro Chronos Controller (Vintage Grey, Classic Black) (L1031, L1032)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641044317",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/viber_image_2025-07-30_16-15-59-247.jpg?v=1753864291"
+    },
+    {
+      "id": "gamepad-datablitz-000000007441",
+      "name": "Xbox Wireless Controller Stellar Shift Special Edition (Asian)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Microsoft",
+        "SKU": "0889842875614",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/xbox-wireless-controller-stellar-shift-special-edition-747015.1.jpg?v=1678335006"
+    },
+    {
+      "id": "gamepad-datablitz-000000005d95",
+      "name": "PS4 Dualshock 4 Wireless Controller Black (CUH-ZCT2E)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Sony Computer Entertainment",
+        "SKU": "0711719870258",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/Layer3_d4971da2-90a8-4ce2-bfff-687219d20dd5.jpg?v=1737092375"
+    },
+    {
+      "id": "gamepad-datablitz-00000000650c",
+      "name": "PS5 DualSense Wireless Controller God of War 20th Anniversary Limited Edition (CFI-ZCT1G ZA)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Sony Interactive Entertainment (Asia)",
+        "SKU": "4948872416931",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/21_92f36c4e-2014-4d17-822c-1e807a079fd5.jpg?v=1761033817"
+    },
+    {
+      "id": "gamepad-datablitz-00000000215e",
+      "name": "Xbox Wireless Controller + USB-C Cable For Windows (Carbon Black)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "XBOX",
+        "SKU": "0196388518272",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/Layer3_ca7060d8-5f96-4ec5-bdd0-f99c215f5b59.jpg?v=1758255972"
+    },
+    {
+      "id": "gamepad-datablitz-000000007391",
+      "name": "Hori Wireless Controller for Steam (Black) (HPC-055A)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Hori",
+        "SKU": "6975977473062",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6975977473062.jpg?v=1738560689"
+    },
+    {
+      "id": "gamepad-datablitz-00000000287a",
+      "name": "Xbox Wireless Controller Dream Vapor Special Edition",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Xbox",
+        "SKU": "0196388141470",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/Dream-Vapor-main.jpg?v=1708742778"
+    },
+    {
+      "id": "gamepad-datablitz-000000003b29",
+      "name": "Razer Raiju V3 Pro Wireless Esports Controller for PS5 & PC (Black, White)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Razer",
+        "SKU": "0840272922057",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0840272922057.jpg?v=1764936122"
+    },
+    {
+      "id": "gamepad-datablitz-000000007a70",
+      "name": "Xbox Wireless Controller Doom The Dark Ages Limited Edition",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Microsoft",
+        "SKU": "4549576256559",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0196388431663.jpg?v=1746704503"
+    },
+    {
+      "id": "gamepad-datablitz-000000006795",
+      "name": "Xbox Wireless Controller Lunar Shift (Asian)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Xbox",
+        "SKU": "0889842765366",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/4dsg56s4gad5.jpg?v=1761205405"
+    },
+    {
+      "id": "gamepad-datablitz-0000000061a8",
+      "name": "Nintendo Switch 2 Pro Controller Resident Evil Requiem Edition",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Nintendo",
+        "SKU": "4902370553864",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/nmdhcmcvnmf.jpg?v=1772016892"
+    },
+    {
+      "id": "gamepad-datablitz-0000000048d1",
+      "name": "IINE Palm-Sized Retro Chronos Controller for Nintendo Switch (Grey, Purple) (L1194, L1195)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641045871",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/4fsd56g4sadg.jpg?v=1766120782"
+    },
+    {
+      "id": "gamepad-datablitz-000000000552",
+      "name": "PS5 DualSense Wireless Controller Rhythm Blue",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Sony Computer Entertainment",
+        "SKU": "0711719021636",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/DSrhythmblue_4.jpg?v=1773051075"
+    },
+    {
+      "id": "gamepad-datablitz-000000007e97",
+      "name": "Xbox Wireless Controller Velocity Green (Asian)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Microsoft",
+        "SKU": "0889842896497",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/3_25ab22a0-8ec5-412a-a6d4-893f104d1ed6.jpg?v=1679994997"
+    },
+    {
+      "id": "gamepad-datablitz-000000007ed7",
+      "name": "PS5 DualSense Wireless Controller Remix Green",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Sony Computer Entertainment",
+        "SKU": "0711719021629",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/DSremixgreen_1.jpg?v=1773051215"
+    },
+    {
+      "id": "gamepad-datablitz-000000003703",
+      "name": "Redragon G820 DarkFlame Wireless Gamepad Controller",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Redragon",
+        "SKU": "6950376732361",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6950376732361.jpg?v=1755768136"
+    },
+    {
+      "id": "gamepad-datablitz-0000000072a1",
+      "name": "Hori Wireless Fighting Commander OCTA Pro for PS5/PC (SPF-040A)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Hori",
+        "SKU": "6975977470085",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/Layer3_2760d675-6600-4aa0-8317-f9dc9f05e9d9.jpg?v=1751076367"
+    },
+    {
+      "id": "gamepad-datablitz-00000000300b",
+      "name": "Hori Pop & Go Game Case for Nintendo Switch 2 (Kirby & Waddle Dee) (NSX-136A)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Hori",
+        "SKU": "6975977471631",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/hori-game-case.jpg?v=1766750489"
+    },
+    {
+      "id": "gamepad-datablitz-0000000014c8",
+      "name": "Hori Wireless Horipad Turbo Controller for Nintendo Switch 2 (Kirby & Waddle Dee) (NSX-124A)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Hori",
+        "SKU": "6975977471617",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/TUR.jpg?v=1766750592"
+    },
+    {
+      "id": "gamepad-datablitz-000000006fed",
+      "name": "Hori Wireless Horipad Turbo Controller for Nintendo Switch 2 (Mist Black, Aqua Cyan, Frost White, Shine Yellow, Ruby Magenta) (NSX-126A, NSX-131A, NSX-132A, NSX-133A, NSX-134A)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Hori",
+        "SKU": "6975977471747",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6975977471747.jpg?v=1766639014"
+    },
+    {
+      "id": "gamepad-datablitz-000000004108",
+      "name": "Horipad Turbo for Nintendo Switch 2 / PC (Eevee Cottage Core) (NSX-083A)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Hori",
+        "SKU": "6975977471686",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6975977471686.jpg?v=1761031621"
+    },
+    {
+      "id": "gamepad-datablitz-0000000079ab",
+      "name": "Horipad Turbo for Nintendo Switch 2 / PC (Ghost Party) (NSX-090A)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Hori",
+        "SKU": "6975977471822",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6975977471822.jpg?v=1762329499"
+    },
+    {
+      "id": "gamepad-datablitz-0000000039da",
+      "name": "HyperX Clutch Tachi Wired Gaming Controller for Xbox (B11D9AA)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "HyperX",
+        "SKU": "0198828193759",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0198828193759.jpg?v=1775708940"
+    },
+    {
+      "id": "gamepad-datablitz-000000002be4",
+      "name": "IINE Aether Radiant Silver Wireless Controller with Charging Dock for Nintendo Switch / Nintendo Switch OLED (L1018)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641044249",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6974641044249_1.jpg?v=1767590367"
+    },
+    {
+      "id": "gamepad-datablitz-000000002376",
+      "name": "IINE Anthena Wireless Controller PC Version for Nintendo Switch / Phone / PC (Grey, White)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641044089",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6974641044089_1454a378-c4aa-4e99-be61-570d54372a41.jpg?v=1768113020"
+    },
+    {
+      "id": "gamepad-datablitz-000000005ad6",
+      "name": "IINE Aphrodites Bloom Wireless Controller with Charging Dock for Nintendo Switch / Nintendo Switch OLED (L1035)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641044355",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/gsd54gd564.jpg?v=1767591202"
+    },
+    {
+      "id": "gamepad-datablitz-00000000318f",
+      "name": "IINE Ares Zelda Wireless Pro Controller For N-Switch (L760)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641041682",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/240d74322360ea2eef66dad91a6c338a_fac23aaa-9b67-430a-887a-90a17f1fb193.jpg?v=1716276941"
+    },
+    {
+      "id": "gamepad-datablitz-000000003af2",
+      "name": "IINE Artemis Leopard Sparkle Wireless Controller with Charging Dock for Nintendo Switch (Pink) (L1021)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641044270",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6974641044270.jpg?v=1767590114"
+    },
+    {
+      "id": "gamepad-datablitz-000000007399",
+      "name": "IINE Dragonball Elite JoyPad Wireless Controller for Switch (Gohan & Trunks) (L837)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641042399",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0-2_7d23d989-ecdc-47fc-a3d6-90c8bc1e4e8b.jpg?v=1716279177"
+    },
+    {
+      "id": "gamepad-datablitz-000000006404",
+      "name": "IINE Dragonball Elite JoyPad Wireless Controller for Switch (Vegeta & Goku) (L836)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641042382",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0-3_1826aba6-939a-45cd-8223-e951b26a7459.jpg?v=1716431436"
+    },
+    {
+      "id": "gamepad-datablitz-0000000058c8",
+      "name": "IINE Jormungandr Pro Controller for Nintendo Switch / Nintendo Switch 2 (L1224)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641046175",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6974641046175.jpg?v=1771321404"
+    },
+    {
+      "id": "gamepad-datablitz-000000001221",
+      "name": "IINE Keyboard Mouse Controller (Black) (L780)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641041835",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6974641041835.jpg?v=1736415739"
+    },
+    {
+      "id": "gamepad-datablitz-000000003bb5",
+      "name": "IINE Keyboard Mouse Controller (Pink) (L781)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641041842",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6974641041842.jpg?v=1736415654"
+    },
+    {
+      "id": "gamepad-datablitz-000000000fd5",
+      "name": "IINE Macro Programming Falcon Black Wireless Controller for N-Switch / N-Switch Lite / N-Switch OLED (Black) (L844)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641042474",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0_878d9817-bbc8-4c07-8029-62a78f942afb.jpg?v=1716278492"
+    },
+    {
+      "id": "gamepad-datablitz-000000005b0c",
+      "name": "IINE Meow Kitten Controller with Tail Charging Dock for PC / Nintendo Switch (Blue, Pink) (L1049, L1050)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641044478",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/gs4gsad5gsa.jpg?v=1766145519"
+    },
+    {
+      "id": "gamepad-datablitz-0000000023e0",
+      "name": "IINE Mini Retro Ananke Controller for Nintendo Switch / PC / Android / iOS (Black, Purple) (L1042, L1013)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641044409",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/sad56g4sad5g_b8d4a323-752c-4a71-b2ea-e811a3dade33.jpg?v=1766140994"
+    },
+    {
+      "id": "gamepad-datablitz-000000003108",
+      "name": "IINE Salmon Burst Wireless Controller with Charging Dock for Nintendo Switch (L998)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641044058",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6974641044058.jpg?v=1734847863"
+    },
+    {
+      "id": "gamepad-datablitz-000000002526",
+      "name": "IINE Starfield Wireless Controller for PC / Mobile / N-Switch / Steam / iPad / Laptop (L871)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641042733",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0-2_4bfc1d5a-40b0-457b-a5e6-331bd523ab82.jpg?v=1716277913"
+    },
+    {
+      "id": "gamepad-datablitz-000000004c74",
+      "name": "IINE Wireless Controller for N-Switch / N-Switch Lite / N-Switch OLED (Luffy & Chopper) (L909)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641043037",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/7JdwBR021713857608-1000x1000.jpg?v=1716276533"
+    },
+    {
+      "id": "gamepad-datablitz-0000000013c8",
+      "name": "IINE Wireless Controller for N-Switch / N-Switch Lite / N-Switch OLED (Shanks) (L928)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641043228",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/2_243994d7-9cc3-4b57-a194-aad6297b8a0d.jpg?v=1716275712"
+    },
+    {
+      "id": "gamepad-datablitz-0000000078cb",
+      "name": "IINE Wireless Mini Controller with Suction Cup Cover (Pink, Blue)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641044133",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6974641044133-variant.jpg?v=1734847894"
+    },
+    {
+      "id": "gamepad-datablitz-00000000479a",
+      "name": "IINE Wireless Mouse-Pad Controller (Black) (L888)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "IINE",
+        "SKU": "6974641042849",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0_4ceab8d4-f6ea-4d71-b370-244e7171436a.jpg?v=1716277190"
+    },
+    {
+      "id": "gamepad-datablitz-000000000af6",
+      "name": "LeadJoy Z1 Lite Multi-Platform Wireless Game Controller for Switch/PC/Steam/iOS/Android",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Leadjoy",
+        "SKU": "6975595740140",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6975595740140.jpg?v=1736480854"
+    },
+    {
+      "id": "gamepad-datablitz-000000007ce1",
+      "name": "Moimate Rushbox Leverless Fighting Game Controller (RB001)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Moimate",
+        "SKU": "4595985518160",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/4595985518160.jpg?v=1738218832"
+    },
+    {
+      "id": "gamepad-datablitz-000000007100",
+      "name": "Nacon MG-X Pro Mobile Game Controller for Android (Black)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "NACON GAMING",
+        "SKU": "3665962010459",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/1_4798d155-1a04-47ed-a8e8-06f0d2607470.jpg?v=1737510994"
+    },
+    {
+      "id": "gamepad-datablitz-0000000000a5",
+      "name": "Nacon MG-X Pro Mobile Game Controller for iPhone (White)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "NACON GAMING",
+        "SKU": "3665962014556",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/1_973fd0d6-a851-4bfa-a348-01d498517c74.jpg?v=1737514869"
+    },
+    {
+      "id": "gamepad-datablitz-000000006811",
+      "name": "Nacon Revolution X Unlimited Controller Magnetic Hall Effect (Black) (PC/Xbox)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "NACON GAMING",
+        "SKU": "3665962029543",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/viber_image_2025-07-15_11-47-18-814.jpg?v=1752551553"
+    },
+    {
+      "id": "gamepad-datablitz-00000000050d",
+      "name": "NSW Joy-Con Charge Grip (Jap)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "DataBlitz",
+        "SKU": "4902370535723",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/joycon-charging-grip-507033.2.webp?v=1699153862"
+    },
+    {
+      "id": "gamepad-datablitz-0000000037e9",
+      "name": "PS5 Stick Module For Dualsense Edge Wireless Controller",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Playstation",
+        "SKU": "4948872415729",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/stick-module-angle.jpg?v=1676923243"
+    },
+    {
+      "id": "gamepad-datablitz-0000000073a5",
+      "name": "PS5 Dualsense Wireless Controller God Of War Ragnarok Limited Edition JPN (CFI-ZCT1J Z1)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Playstation",
+        "SKU": "4948872415620",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/GOWR-DualSense-Controller-Main_cec26a66-9bf0-4736-ad71-d4f0aac0205f.jpg?v=1676908298"
+    },
+    {
+      "id": "gamepad-datablitz-000000007442",
+      "name": "PS5 DualSense Wireless Controller Techno Red",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Sony Computer Entertainment",
+        "SKU": "0711719021612",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/DStechnored_2.jpg?v=1773051285"
+    },
+    {
+      "id": "gamepad-datablitz-000000002383",
+      "name": "NSW Pro Controller Grey (Asian)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Nintendo",
+        "SKU": "6970039041333",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/vmbvbmmvb.jpg?v=1734429905"
+    },
+    {
+      "id": "gamepad-datablitz-000000002ccc",
+      "name": "PS5 DualSense Wireless Controller Midnight Black + USB Cable for PC (CFI-ZCT2G)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Sony Interactive Entertainment (Asia)",
+        "SKU": "4948872964159",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/sdrymdthmd.jpg?v=1772842944"
+    },
+    {
+      "id": "gamepad-datablitz-0000000036d0",
+      "name": "Razer Wolverine V2 Pro Wireless Gaming Controller For PS5 & PC (Black)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Razer",
+        "SKU": "8886419351177",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/8886419351177.1.jpg?v=1677058268"
+    },
+    {
+      "id": "gamepad-datablitz-000000005a53",
+      "name": "PS5 Dualsense Wireless Controller Marathon Limited Edition",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Sony Interactive Entertainment (Asia)",
+        "SKU": "4948872417167",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0_a1eea202-2f7a-40ca-9ba5-6c7c88f7edaa.jpg?v=1772616690"
+    },
+    {
+      "id": "gamepad-datablitz-000000005b59",
+      "name": "Razer Wolverine V3 Pro 8K PC Wireless eSports Controller for PC (Black)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Razer",
+        "SKU": "0840272921814",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0840272921814.jpg?v=1756974679"
+    },
+    {
+      "id": "gamepad-datablitz-0000000006f2",
+      "name": "Redragon Rift Wired Gamepad (G710)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Redragon",
+        "SKU": "6950376725493",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/viber_image_2025-07-25_16-40-12-317.jpg?v=1753432900"
+    },
+    {
+      "id": "gamepad-datablitz-0000000050c9",
+      "name": "XBOX Wireless Controller Lunar Shift (US)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Xbox",
+        "SKU": "0889842765342",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/gf45sa6g4sda.jpg?v=1761206865"
+    },
+    {
+      "id": "gamepad-datablitz-00000000525d",
+      "name": "Omelet NSW Gaming Pro+ Wireless Gaming Controller (Snow White)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Omelet",
+        "SKU": "9555906502307",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/9555906502307.jpg?v=1676919135"
+    },
+    {
+      "id": "gamepad-datablitz-0000000023f5",
+      "name": "Xbox Wireless Controller Mineral Camo (Asian)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Xbox",
+        "SKU": "0889842823974",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/0889842823974.jpg?v=1676894770"
+    },
+    {
+      "id": "gamepad-datablitz-000000000028",
+      "name": "Xbox Wireless Controller Heart Breaker Special Edition (Asian)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Microsoft",
+        "SKU": "0196388550449",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/xgnfcxhmd.jpg?v=1760080010"
+    },
+    {
+      "id": "gamepad-datablitz-00000000756c",
+      "name": "Gulikit Elves 2 Pro Controller (NS59) (Black, SS Retro)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gulikit",
+        "SKU": "6977836850069",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0_4acaf6c4-04bf-4806-9780-f5d0f92b2def.jpg?v=1752569965"
+    },
+    {
+      "id": "gamepad-datablitz-00000000791d",
+      "name": "Hori PC Wired Controller Fighting Commander OCTA (Tekken 8) (HPC-046A)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Hori",
+        "SKU": "6975977473048",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/Untitled-1-Recovered_7622783c-0dcf-4f78-bdd2-d47a89f59928.jpg?v=1706235242"
+    },
+    {
+      "id": "gamepad-datablitz-000000004835",
+      "name": "Omelet NSW Gaming Pro+ Wireless Gaming Controller (Jet Black)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Omelet",
+        "SKU": "9555906502291",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/9555906502291.jpg?v=1676919135"
+    },
+    {
+      "id": "gamepad-datablitz-000000001719",
+      "name": "Snakebyte GamePad RGB X Precision Wired Controller for Xbox/ Xbox S|X",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Snakebyte",
+        "SKU": "4039621922350",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/Snakebyte-GamePad-RGB-X_1.jpg?v=1702951108"
+    },
+    {
+      "id": "gamepad-datablitz-0000000039bf",
+      "name": "NYXI Flexi Wireless Game Controller for Windows/Android/iOS/Nintendo Switch (NP05)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "NYXI",
+        "SKU": "1000000020978",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/srntsdrtynmtu.jpg?v=1776914030"
+    },
+    {
+      "id": "gamepad-datablitz-0000000071c6",
+      "name": "NYXI Hyperion 2 Wireless JoyPad for Nintendo Switch (NJ12)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "NYXI",
+        "SKU": "1000000020977",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/sda54gsda56g4s.jpg?v=1776911048"
+    },
+    {
+      "id": "gamepad-datablitz-000000000b5a",
+      "name": "NYXI Hyperion 3 Wireless JoyPad for Nintendo Switch 2 (NJ22)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "NYXI",
+        "SKU": "1000000020974",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/g456dsa4g5sa.jpg?v=1776912077"
+    },
+    {
+      "id": "gamepad-datablitz-000000002a4e",
+      "name": "NYXI Hyperion Pro Style Wireless Joy-Pad for Nintendo Switch/Nintendo Switch Lite/Nintendo Switch OLED (White, Lawgreen)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "NYXI",
+        "SKU": "1000000020981",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/sfgndtyhmntgu.jpg?v=1776912344"
+    },
+    {
+      "id": "gamepad-datablitz-000000004d4b",
+      "name": "NYXI Master P1 Wireless PC Controller for PC/Nintendo Switch/iOS/Android (NP01)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "NYXI",
+        "SKU": "1000000020979",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/nydtyuhmdyu.jpg?v=1776915502"
+    },
+    {
+      "id": "gamepad-datablitz-00000000757e",
+      "name": "NYXI Warrior Bluetooth Controller for NGC/Nintendo Switch/Wii/Windows (Black Style, Spice Orange, Purple Style)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "NYXI",
+        "SKU": "1000000020984",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/tnsrnsryn.jpg?v=1776908193"
+    },
+    {
+      "id": "gamepad-datablitz-0000000020af",
+      "name": "NYXI Warrior Lite Bluetooth Controller for Nintendo Switch/PC/iOS/Android (SP04L)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "NYXI",
+        "SKU": "1000000020982",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/5gsa4dg5dsa.jpg?v=1776907146"
+    },
+    {
+      "id": "gamepad-datablitz-000000004ef1",
+      "name": "NYXI Wizard 2 TMR Joy-Pad for Nintendo Switch/NGC/Wii/PC (White Special Edition, Orange Special Edition) (NJ10WH, NJ10OR)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "NYXI",
+        "SKU": "1000000020975",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/g45sda6g4dsa_284638bb-df72-46db-aea2-b24ced83eac9.jpg?v=1776908720"
+    },
+    {
+      "id": "gamepad-datablitz-000000003f90",
+      "name": "NYXI Wizard Wireless Joy-Pad for Nintendo Switch/Nintendo Switch Lite/Nintendo Switch OLED (Black Style) (SJ01BK)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "NYXI",
+        "SKU": "1000000020986",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/rtndtyntdyuh.jpg?v=1776910119"
+    },
+    {
+      "id": "gamepad-datablitz-00000000186a",
+      "name": "Power A Enhanced Wireless Controller For Nintendo Switch - Fortnite Peely (NSGP0268-01)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885087615",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/main_760d3506-92d8-4cd6-88c4-8a1144ef254d.jpg?v=1715049911"
+    },
+    {
+      "id": "gamepad-datablitz-00000000796b",
+      "name": "Power A NSW Enhanced Wired Controller Kirby For Nintendo Switch (NSGP0067-01)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885030819",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/main1_8cdbed49-3cf6-4c46-af5d-5bf8a1d839e7.jpg?v=1712117203"
+    },
+    {
+      "id": "gamepad-datablitz-00000000550b",
+      "name": "Power A NSW Enhanced Wired Controller Sonic Boost For Nintendo Switch (NSGPEWDB)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885062216",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/main1_e63e0c26-edcd-4b2b-816e-10db48762db9.jpg?v=1712117292"
+    },
+    {
+      "id": "gamepad-datablitz-000000007c82",
+      "name": "Power A NSW Enhanced Wired Controller Spectra For Nintendo Switch (1510925-01)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885020094",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/mainfinal_b7f949a1-c64f-4963-a5b4-02b6eedcb51e.jpg?v=1712210701"
+    },
+    {
+      "id": "gamepad-datablitz-000000006cf2",
+      "name": "Power A NSW Enhanced Wired Controller Zelda Master Sword Attack For Nintendo Switch (1526548-01)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885028649",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/main1_62057e49-d697-4fe9-8014-a37b80025bf0.jpg?v=1712117490"
+    },
+    {
+      "id": "gamepad-datablitz-0000000041a3",
+      "name": "Power A NSW Wired Controller White (1517033-01)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885024054",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/main1_efb44a9e-95ea-46c2-ad26-7dd861fd8028.jpg?v=1712135657"
+    },
+    {
+      "id": "gamepad-datablitz-000000002b16",
+      "name": "Power A Xbox Enhanced Wired Controller Blue Camo For Xbox (1525941-01)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885024894",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/DFBDFBFSD.jpg?v=1712136230"
+    },
+    {
+      "id": "gamepad-datablitz-000000002fec",
+      "name": "Power A Xbox Enhanced Wired Controller Nano Black For Xbox Series X|S (XBGP0024-01)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885045257",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/ASBVSDBVSDVS.jpg?v=1712135122"
+    },
+    {
+      "id": "gamepad-datablitz-000000003cde",
+      "name": "Power A Xbox Enhanced Wired Controller Purple Hex For Xbox (1524525-01)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885028366",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/bdffbdfdb_03f80c9e-61c1-4bab-8ca6-22ee2c0ac07c.jpg?v=1713066239"
+    },
+    {
+      "id": "gamepad-datablitz-0000000058df",
+      "name": "Power A Xbox Enhanced Wired Controller Red Camo For Xbox (1525942-01)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885024924",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/FDHBSFBSDVSZX.jpg?v=1712135568"
+    },
+    {
+      "id": "gamepad-datablitz-000000007e3e",
+      "name": "PowerA Advantage Wired Controller for Nintendo Switch 2 (Black) (NSGP0523-01)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885152719",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0617885152719.jpg?v=1752219982"
+    },
+    {
+      "id": "gamepad-datablitz-000000007172",
+      "name": "PowerA Advantage Wired Controller for Nintendo Switch 2 (Mario Time) (NSGP0527-01)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885153518",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0617885153518.jpg?v=1752220002"
+    },
+    {
+      "id": "gamepad-datablitz-000000002195",
+      "name": "PowerA Advantage Wired Controller for Nintendo Switch 2 (Mushroom Kingdom) (NSGP0526-01)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885153310",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0617885153310.jpg?v=1752220019"
+    },
+    {
+      "id": "gamepad-datablitz-000000005419",
+      "name": "PowerA Advantage Wireless Controller for Nintendo Switch 2 (Mario and Friends)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885159619",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0617885159619.jpg?v=1762936192"
+    },
+    {
+      "id": "gamepad-datablitz-00000000242d",
+      "name": "PowerA Battle Dragon Advanced Wireless Controller for PC & Cloud Gaming",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "4995364310697",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/4995364310697.jpg?v=1726643697"
+    },
+    {
+      "id": "gamepad-datablitz-0000000071a6",
+      "name": "PowerA Battle Dragon Wireless Controller for PC & Cloud Gaming",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "4995364310680",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/4995364310680.jpg?v=1726643308"
+    },
+    {
+      "id": "gamepad-datablitz-000000007f84",
+      "name": "PowerA Enhanced Wireless Controller for Nintendo Switch (Mushroom Kingdom Pop Art) (NSGP0341-01)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885101410",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0617885101410.jpg?v=1744271319"
+    },
+    {
+      "id": "gamepad-datablitz-000000005c65",
+      "name": "PowerA Lumectra Enhanced Wireless Controller For Nintendo Switch (Pac-Man)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885141515",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0_824a79e7-f70d-4931-b80f-29eb40fdcbf7.jpg?v=1755138512"
+    },
+    {
+      "id": "gamepad-datablitz-0000000077af",
+      "name": "PowerA Lumectra Enhanced Wireless Controller For Nintendo Switch (Zelda Wake Up link)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885106118",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0_618b2656-249b-4409-b68b-a918075d2941.jpg?v=1755140318"
+    },
+    {
+      "id": "gamepad-datablitz-00000000389d",
+      "name": "PowerA Super Mario Enhanced Wireless Controller for Nintendo Switch (Color Splash Heroes) (NSGP0287-01)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885091117",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0617885091117.jpg?v=1744271359"
+    },
+    {
+      "id": "gamepad-datablitz-0000000064e9",
+      "name": "PS5 Dualsense Edge Wireless Controller 30th Anniversary Limited Edition (CFI-ZCP1G30)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Sony Computer Entertainment",
+        "SKU": "4948872416498",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/00_079784e2-0ad9-4a3d-8607-b7a056cd0772.jpg?v=1727252285"
+    },
+    {
+      "id": "gamepad-datablitz-0000000014b8",
+      "name": "Razer Kitsune All-Button Optical Arcade Controller for PS5 & PC (2XKO Ed.)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Razer",
+        "SKU": "8887910082218",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/8887910082218.jpg?v=1764937247"
+    },
+    {
+      "id": "gamepad-datablitz-0000000030d8",
+      "name": "Razer Wolverine V3 Tournament Edition 8K PC Wired eSports Controller for PC (Black)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Razer",
+        "SKU": "0840272921838",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0840272921838.jpg?v=1756974696"
+    },
+    {
+      "id": "gamepad-datablitz-000000006681",
+      "name": "SteelSeries Nimbus Cloud Dual-Mode Cloud Gaming Controller for Apple TV / iPhone / iPad / Android (69116)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "SteelSeries",
+        "SKU": "0810164143068",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/nimbus_cloud_black_pdp_img_buy_01.jpg?v=1760062297"
+    },
+    {
+      "id": "gamepad-datablitz-000000007384",
+      "name": "Thrustmaster eSwap X 2 Controller Elden Ring Shadow of the Erdtree Edition for Xbox Series X/S / XboxOne / Windows 10/11 (4460283)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Thrustmaster",
+        "SKU": "0663296424907",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/OnlineContent-eSwapX2EldenRing-1OLP_1000x1000_5fad9ed9-4712-4eb7-8815-d3c4059197f5.jpg?v=1719832239"
+    },
+    {
+      "id": "gamepad-datablitz-000000006e55",
+      "name": "Thrustmaster HEART Controller with H.E.A.R.T. HallEffect AccuRate Technology for Xbox/ PC (4460237)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Thrustmaster",
+        "SKU": "3362934403355",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/1_OnlineContent_WhiteBackground-HeartController-1_1000x1000_862b0d78-4a86-4693-90c0-903075c7ed71.jpg?v=1731654463"
+    },
+    {
+      "id": "gamepad-datablitz-000000002385",
+      "name": "XBOX Adaptive Controller (XBOX Series S/X / XBOXONE/Windows 10/11)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Xbox",
+        "SKU": "0889842295375",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/RE1ZcPJ.jpg?v=1676873125"
+    },
+    {
+      "id": "gamepad-datablitz-000000005173",
+      "name": "Xbox Wireless Controller Ice Breaker Special Edition (Asian)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Microsoft",
+        "SKU": "0196388550463",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/xcbgnfs.jpg?v=1760079919"
+    },
+    {
+      "id": "gamepad-datablitz-0000000079d1",
+      "name": "Xbox Wireless Controller Mineral Camo (US)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Microsoft",
+        "SKU": "0889842823950",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/s-l500_39.jpg?v=1680078865"
+    },
+    {
+      "id": "gamepad-datablitz-0000000061f2",
+      "name": "Xbox Wireless Controller Pulse Cipher Special Edition (Asian)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Xbox",
+        "SKU": "0196388334193",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0196388334193.jpg?v=1740120022"
+    },
+    {
+      "id": "gamepad-datablitz-00000000606f",
+      "name": "Xbox Wireless Controller Stellar Shift Special Edition (US)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Microsoft",
+        "SKU": "0889842875607",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/xbox-wireless-controller-stellar-shift-special-edition-747015.1_003fcad9-4687-41c9-aa4e-ec55f1001862.jpg?v=1689573323"
+    },
+    {
+      "id": "gamepad-datablitz-0000000028f8",
+      "name": "Xbox Wireless Controller Storm Breaker Special Edition (Asian)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Microsoft",
+        "SKU": "0196388550425",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/xcvxcvx_3529d7b6-2e72-45b1-804e-d297d69a3206.jpg?v=1760079974"
+    },
+    {
+      "id": "gamepad-datablitz-000000000e23",
+      "name": "Xbox Wireless Controller Velocity Green (EU)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Microsoft",
+        "SKU": "0889842896480",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/3_3fd4cc63-f139-4ca7-84be-8b27e2ed4f27.jpg?v=1690359838"
+    },
+    {
+      "id": "gamepad-datablitz-000000006b5d",
+      "name": "NSW NINTENDO LABO KIT TOY-CON 01 VARIETY KIT (JPN)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Nintendo",
+        "SKU": "4902370538731",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/1_6_34cdf1b9-a1dc-4c42-bd0d-446dfca54e36.jpg?v=1676805372"
+    },
+    {
+      "id": "gamepad-datablitz-0000000046e2",
+      "name": "PowerA Protection Case for Nintendo Switch (Mushroom Kingdom Pop Art) (NSCS0342-01)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PowerA",
+        "SKU": "0617885101618",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0617885101618.jpg?v=1744271299"
+    },
+    {
+      "id": "gamepad-datablitz-000000002981",
+      "name": "GameSir T7 Pro Wired Controller For Xbox (Floral)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Gamesir",
+        "SKU": "0860013738327",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/2_a1490b6e-6205-4ed6-bc81-23e413d159f1.jpg?v=1750992269"
+    },
+    {
+      "id": "gamepad-gigahertz-0000000048af",
+      "name": "Logitech F710 Wireless Gamepad",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Logitech",
+        "SKU": "CTRL-LOGITECH WIRELESS GAMEPAD F710",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/logitech-f710-wireless-gamepad-logitech-gigahertz-542585.jpg?v=1731912909"
+    },
+    {
+      "id": "gamepad-gigahertz-00000000108d",
+      "name": "Logitech F310 Gamepad",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Logitech",
+        "SKU": "CTRL-LOGITECH F310 GAMEPAD",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/logitech-f310-gamepad-logitech-gigahertz-465455.jpg?v=1731912909"
+    },
+    {
+      "id": "gamepad-gigahertz-0000000031ea",
+      "name": "Xiaomi Mi Wireless Switch",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Xiaomi",
+        "SKU": "ACC-XIAOMI WIRELESS SWITCH",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/xiaomi-mi-wireless-switch-xiaomi-gigahertz-890485.jpg?v=1731914173"
+    },
+    {
+      "id": "gamepad-itech-000000003fa5",
+      "name": "8bitdo Ultimate 2.4G Controller for PC, Android, Steam Deck/OLED, and Apple – Genshin Impact: Chongyun Edition",
+      "category": "gamepad",
+      "specs": {
+        "SKU": "6922621504399",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2024/01/8bitdo-Ultimate-2.4G-Controller-for-PC-Android-Steam-Deck-OLED-and-Apple-Genshin-Impact-Chongyun-Edition-jpg-450x577.webp"
+    },
+    {
+      "id": "gamepad-itech-000000004615",
+      "name": "OIVO Dual Controller Charging Dock for PS5 / PS5 Edge Controller (IV-P5322B) – White",
+      "category": "gamepad",
+      "specs": {
+        "SKU": "6972861540916",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2025/11/otvo-dual-charging-dock-for-ps5-white-_-iv-p5322b_-01-450x450.jpg"
+    },
+    {
+      "id": "gamepad-itech-00000000107d",
+      "name": "8BitDo Ultimate 3-Mode Hall Effect Controller for Xbox, Windows, & Android | Black",
+      "category": "gamepad",
+      "specs": {
+        "SKU": "6922621505402",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2024/07/8BitDo-Ultimate-3-Mode-Hall-Effect-Controller-Black-450x577.jpg"
+    },
+    {
+      "id": "gamepad-itech-000000006cce",
+      "name": "8Bitdo 64 Bluetooth Controller for Analogue 3D, Switch, Switch 2, Windows, & Android (80NE)",
+      "category": "gamepad",
+      "specs": {
+        "SKU": "8123456789021000",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2025/09/8bitdo-64-bluetooth-controller-450x594.webp"
+    },
+    {
+      "id": "gamepad-itech-000000005c4f",
+      "name": "8BitDo Pro 3 Bluetooth Controller for Switch/ Switch 2/ Windows/ Android (80GQ)",
+      "category": "gamepad",
+      "specs": {
+        "SKU": "8123456756722",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2025/09/8bitdo-pro-3-bluetooth-gamepad-80gq-1-450x594.webp"
+    },
+    {
+      "id": "gamepad-itech-0000000014cc",
+      "name": "8BitDo Ultimate 2 Wireless Controller for Windows PC & Android – Wuchang: Fallen Feathers",
+      "category": "gamepad",
+      "specs": {
+        "SKU": "6922621507697",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2025/09/8bitdo-ultimate-2-wireless-controller-_fallen-feathers-wuchang_-1-450x594.webp"
+    },
+    {
+      "id": "gamepad-itech-000000003c08",
+      "name": "8Bitdo Ultimate 2 Bluetooth Controller for Switch/Switch 2, Windows PC & Switch Pro Controller with TMR Joysticks",
+      "category": "gamepad",
+      "specs": {
+        "SKU": "8123456789020760",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2025/06/8bitdo-ultimate-2-bluetooth-controller-01-450x594.jpg"
+    },
+    {
+      "id": "gamepad-itech-0000000037fe",
+      "name": "8Bitdo Ultimate 2 Wireless 2.4G Controller with Charging Dock – Hall Effect Joysticks | Purple",
+      "category": "gamepad",
+      "specs": {
+        "SKU": "6922621507062",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2025/05/8Bitdo-Ultimate-2-Wireless-11-450x577.jpg"
+    },
+    {
+      "id": "gamepad-itech-0000000043a5",
+      "name": "8BitDo Ultimate 2C Wired Controller for Windows PC & Android (Black Myth: Wukong Edition)",
+      "category": "gamepad",
+      "specs": {
+        "SKU": "6922621506348",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2024/10/8BitDo-Ultimate-2C-Wired-Controller-for-Windows-PC-Android-Black-Myth-Wukong-Edition-450x577.jpg"
+    },
+    {
+      "id": "gamepad-itech-00000000709d",
+      "name": "8Bitdo Ultimate 2C Wireless Controller for Windows PC & Android (Black Myth: Wukong Edition)",
+      "category": "gamepad",
+      "specs": {
+        "SKU": "6922621506331",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2024/10/8Bitdo-Ultimate-2C-Wireless-Controller-for-Windows-PC-Android-Black-Myth-Wukong-Edition-450x577.jpg"
+    },
+    {
+      "id": "gamepad-itech-000000005bfd",
+      "name": "8BitDo SN30 Pro Hall Effect Joystick Bluetooth Controller for Switch, PC, macOS, Android, Steam Deck & Raspberry Pi – G Classic Edition",
+      "category": "gamepad",
+      "specs": {
+        "SKU": "6922621505037",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2024/04/8BitDo-SN30-Pro-Hall-Effect-Joystick-Bluetooth-Controller-450x577.jpg"
+    },
+    {
+      "id": "gamepad-itech-000000004a4a",
+      "name": "8BitDo Ultimate C Wired USB Controller for Windows, Android, and Steam Deck – Lilac Purple",
+      "category": "gamepad",
+      "specs": {
+        "SKU": "6922621503668",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2023/10/8BitDo-Ultimate-C-Wired-USB-Controller-for-Windows-Android-and-Steam-Deck-Lilac-Purple-jpg-450x577.webp"
+    },
+    {
+      "id": "gamepad-itech-0000000053c9",
+      "name": "8BitDo Ultimate C Wired USB Controller for Windows, Android, and Steam Deck – Field Green",
+      "category": "gamepad",
+      "specs": {
+        "SKU": "6922621503675",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2023/10/8BitDo-Ultimate-C-Wired-USB-Controller-for-Windows-Android-and-Steam-Deck-Field-Green-jpg-450x577.webp"
+    },
+    {
+      "id": "gamepad-pcworx-000000001e52",
+      "name": "PowerA Nintendo Switch 1526541-01 ENWIRED CONTROLLER R ZELDA/LINK",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000061803",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000061803.jpg?v=1739934116"
+    },
+    {
+      "id": "gamepad-pcworx-000000005c5c",
+      "name": "PowerA XBOX 1525942-01 Controller Red Camo",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000061796",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000061796.jpg?v=1738908582"
+    },
+    {
+      "id": "gamepad-pcworx-00000000430b",
+      "name": "PowerA XBOX 1525941-01 ENWIRED Controller BLUE CAMO",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000061801",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000061801_2.jpg?v=1738908484"
+    },
+    {
+      "id": "gamepad-pcworx-0000000037d8",
+      "name": "PowerA XBOX 1524525-01 ENWIRED CONTROLLER - PURPLE HEX",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000061804",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000061804.jpg?v=1738908355"
+    },
+    {
+      "id": "gamepad-pcworx-000000002d8a",
+      "name": "PowerA XBOX 1518817-02 Enwired Controller Blue Hint",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000060951",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000060951.jpg?v=1738907044"
+    },
+    {
+      "id": "gamepad-pcworx-00000000779e",
+      "name": "PowerA XBOX 1518811-02 Enwired Controller Blue",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000060953",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000060953.jpg?v=1738906903"
+    },
+    {
+      "id": "gamepad-pcworx-000000003f6c",
+      "name": "PowerA XBOX 1518810-02 ENWIRED CONTROLLER RED",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000061802",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000061802.jpg?v=1738906623"
+    },
+    {
+      "id": "gamepad-pcworx-000000002b24",
+      "name": "PowerA XBOX 1518809-02 Enwired Controller Mist",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000060954",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000060954.jpg?v=1738906257"
+    },
+    {
+      "id": "gamepad-pcworx-0000000051a5",
+      "name": "PowerA Nintendo Switch and Lite 1510925-01 Enwired Controller Spectra",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000060938",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000060938_2.jpg?v=1738901447"
+    },
+    {
+      "id": "gamepad-pcworx-000000001799",
+      "name": "PowerA Nintendo Switch 1518380-02 ENWIRED CONTROLLER ZELDA MIDNIGHT",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000061800",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000061800.jpg?v=1738811669"
+    },
+    {
+      "id": "gamepad-pcworx-0000000054aa",
+      "name": "PowerA Nintendo Switch 1522654-02 ENWIRED CONTROLLER BLOOD MOON ZELD",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000061806",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000061806.jpg?v=1738810150"
+    },
+    {
+      "id": "gamepad-pcworx-00000000091b",
+      "name": "PowerA Nintendo Switch 1518804-02 ENWIRED CONTROLLER PIKACHU RETRO",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000061799",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000061799.jpg?v=1738810678"
+    },
+    {
+      "id": "gamepad-pcworx-000000007019",
+      "name": "PowerA Nintendo Switch 1523595-01 ENWIRED CONTROLLER PIKACHU VORTEX",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000061798",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000061798.jpg?v=1738809779"
+    },
+    {
+      "id": "gamepad-pcworx-000000004ed5",
+      "name": "PowerA Nintendo Switch 1501064-01 Joy CON Comfort GRIP Black",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000060939",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/Untitled_design_87246a72-1412-470e-aa79-e322d572ea9b.jpg?v=1772781520"
+    },
+    {
+      "id": "gamepad-pcworx-000000007223",
+      "name": "Redragon G808 Harrow Wireless Game Pad",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000048773",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7r98y-ln0tthxw67rb6c.jpg?v=1708418016"
+    },
+    {
+      "id": "gamepad-pcworx-000000001520",
+      "name": "Redragon G815 Bluetooth Gamepad For Nintendo Switch And Lite",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000050381",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/RTX_50_-_2025-10-27T093005.034.png?v=1761528652"
+    },
+    {
+      "id": "gamepad-pcworx-0000000055b0",
+      "name": "Redragon G817 Hoarah Game Pad",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000069085",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/6_68df5fdd-4b76-41e4-b62b-bb2a7fb20c68.jpg?v=1752050907"
+    },
+    {
+      "id": "gamepad-pcworx-000000007b9d",
+      "name": "Power A XBGP0238-01 Advantage Wired Controller Midas Fortnite Xbox Series X|S",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000067399",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000067399.jpg?v=1740125809"
+    },
+    {
+      "id": "gamepad-pcworx-000000006299",
+      "name": "Xbox Wireless Controller QAS-00014 ROBOT WHITE (Asian)",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000063514",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000063514.jpg?v=1739234457"
+    },
+    {
+      "id": "gamepad-pc-express-000000006c0c",
+      "name": "NINTENDO Switch 2 Joy-Con™ 2 Wheel (set of 2) Game Controller",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Nintendo",
+        "SKU": "ACC-NINTENDO-000009",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/ACC-NINTENDOSWITCH2JOY-CON2WHEEL_SETOF2_4.jpg?v=1758356389"
+    },
+    {
+      "id": "gamepad-pc-express-000000000296",
+      "name": "NINTENDO Joy-Con™ 2 Game Controllers - Light Blue/Light Red",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Nintendo",
+        "SKU": "ACC-NINTENDO-000002",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/ACC-NINTENDOJOY-CON2_L_R_LIGHTBLUELIGHTRED1.jpg?v=1758349256"
+    },
+    {
+      "id": "gamepad-pc-express-000000002764",
+      "name": "LOGITECH Driving For Shifter for G29 Racing Wheels",
+      "category": "gamepad",
+      "specs": {
+        "Brand": "Logitech",
+        "SKU": "GC-LOGITECH-000005",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/GC-LOGITECH-DRIVING-FORCE-SHIFTER-_FOR-G29_-1.jpg?v=1707358835"
+    }
+  ]
+}

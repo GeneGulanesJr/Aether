@@ -1,0 +1,314 @@
+{
+  "schemaVersion": "1.0",
+  "category": "media-player",
+  "items": [
+    {
+      "id": "media-player-dynaquest-pc-00000000185d",
+      "name": "Logitech BLUE YETI NANO PREMIUM USB Mic BLACKOUT 988-000452",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Logitech",
+        "SKU": "13102",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/LogitechBLUEYETINANOPREMIUMUSBMIC.jpg?v=1649042296"
+    },
+    {
+      "id": "media-player-dynaquest-pc-000000001407",
+      "name": "Elgato Wave Mic Arm EL-10AAM9901 Suspension Arm Versatile Clamp for Desk",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "12451",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500x_d8b251ed-4efe-409e-9bfe-0aef23ec1ab7.jpg?v=1629194763"
+    },
+    {
+      "id": "media-player-dynaquest-pc-000000003178",
+      "name": "Elgato Wave:3 Premium Microphone And Digital Mixing Solution EL-10MAB9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "12239",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500x_410f8c8a-123d-459d-ac5c-1b3c9f1bf6cb.jpg?v=1617255665"
+    },
+    {
+      "id": "media-player-dynaquest-pc-0000000053c5",
+      "name": "Elgato Wave 1 Microphone EL-10MAA9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "12238",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500x_97692df8-6c74-42ee-8f70-9713f3557e4e.jpg?v=1617255235"
+    },
+    {
+      "id": "media-player-dynaquest-pc-0000000071b2",
+      "name": "Elgato Green Screen MT Wall-Mounted Retractable Chroma Key Backdrop EL-10GAO9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "15234",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/ElgatoGreenScreenMTWall-MountedRetractableChromaKeyBackdropEL-10GAO9901.jpg?v=1678944763"
+    },
+    {
+      "id": "media-player-dynaquest-pc-000000000fd7",
+      "name": "Elgato Game Capture Neo EL-10GBI9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "16128",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/264_7ebc6825-2efb-4bc5-ad97-fb9171152ce7.png?v=1715154753"
+    },
+    {
+      "id": "media-player-dynaquest-pc-000000003aca",
+      "name": "Elgato Stream Deck Neo EL-10GBJ9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "16129",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/257_ec53c332-4d1e-40a1-8386-9ec4ae9fa04e.png?v=1715152562"
+    },
+    {
+      "id": "media-player-dynaquest-pc-000000004e79",
+      "name": "Elgato Game Capture 4K PRO EL-10GBK9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "53004",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/211_af2c2d9f-c71c-4bdb-9591-6879876fc36c.png?v=1715136351"
+    },
+    {
+      "id": "media-player-dynaquest-pc-000000006916",
+      "name": "Elgato Mini Mount EL-10AAP9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "15303",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/ElgatoMiniMountEL-10AAP9901.jpg?v=1665989021"
+    },
+    {
+      "id": "media-player-dynaquest-pc-000000006f58",
+      "name": "Elgato 4K X External Capture Card EL-10GBH9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "56566",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/176_62f377f0-2f1d-4dcf-a3e9-0b0a9648b869.png?v=1708654901"
+    },
+    {
+      "id": "media-player-dynaquest-pc-000000001405",
+      "name": "Elgato Stream Deck+ Live Content Controller EL-10GBD9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "55741",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/ElgatoStreamDeck_LiveContentControllerEL-10GBD9901.jpg?v=1670987808"
+    },
+    {
+      "id": "media-player-dynaquest-pc-0000000035d9",
+      "name": "Elgato Stream Deck MK.2 White EL-10GBA9911",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "13039",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/ElgatoStreamDeckMK.2WhiteEL-10GBA9911.jpg?v=1665641047"
+    },
+    {
+      "id": "media-player-dynaquest-pc-000000004c38",
+      "name": "Elgato HD60 X External Capture Card EL-10GBE9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "16898",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/ElgatoHD60XExternalCaptureCardEL-10GBE9901.jpg?v=1658549738"
+    },
+    {
+      "id": "media-player-dynaquest-pc-000000004495",
+      "name": "Elgato Stream Deck Pedal EL-10GBF9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "65467",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/ELGATOSTREAMDECKPEDALEL-10GBF9901.jpg?v=1646794654"
+    },
+    {
+      "id": "media-player-dynaquest-pc-0000000058e6",
+      "name": "Elgato Master Mount S EL-10AAI9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "12590",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/mastermountS.jpg?v=1634160611"
+    },
+    {
+      "id": "media-player-dynaquest-pc-000000004782",
+      "name": "Elgato Wall Mount EL-10AAO9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "12591",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/ElgatoWallMountEL-10AAO9901.jpg?v=1634159935"
+    },
+    {
+      "id": "media-player-dynaquest-pc-0000000047f8",
+      "name": "Elgato Stream Deck MK.2 EL-10GBA9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "12879",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/ElgatoStreamDeckMK.2.jpg?v=1630183800"
+    },
+    {
+      "id": "media-player-dynaquest-pc-000000006c1d",
+      "name": "Corsair iCue Nexus Companion Touch Screen CH-9910010-AP",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Corsair",
+        "SKU": "698575",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/CorsairiCueNexusCompanionTouchScreen1.png?v=1628070418"
+    },
+    {
+      "id": "media-player-dynaquest-pc-0000000060f4",
+      "name": "Elgato Wave Mic Arm LP EL-10AAN9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "12446",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/ElgatoWaveMicArmLPEL-10AAN99011.png?v=1628218011"
+    },
+    {
+      "id": "media-player-dynaquest-pc-000000001f92",
+      "name": "Elgato Stream Deck XL Live Content Creation Controller EL-10GAT9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "12191",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/EL-10GAT9901.jpg?v=1623257067"
+    },
+    {
+      "id": "media-player-dynaquest-pc-0000000004f5",
+      "name": "Elgato Multi Mount Heavy Base EL-10AAD9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "500098",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/540x_0ab3dd40-e4de-4d93-bdd1-72ab6df717ab.jpg?v=1619514908"
+    },
+    {
+      "id": "media-player-dynaquest-pc-000000005e2a",
+      "name": "Elgato Solid Arm Multi-Mount EL-10AAG9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "500070",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500x_899a10b9-48dd-4edd-ab40-7bd4da109e7f.jpg?v=1619165288"
+    },
+    {
+      "id": "media-player-dynaquest-pc-0000000018c5",
+      "name": "Elgato Flex Arm L EL-10AAC9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "12235",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/flex-armL1.png?v=1617256039"
+    },
+    {
+      "id": "media-player-dynaquest-pc-0000000079a6",
+      "name": "Elgato Master Mount L EL-10AAB9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "12234",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/master-mount_L-specs.jpg?v=1617255824"
+    },
+    {
+      "id": "media-player-dynaquest-pc-000000003672",
+      "name": "Elgato 4K60 S+ Game Streaming Capture Box EL-10GAP9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "200669",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/593x.jpg?v=1617256355"
+    },
+    {
+      "id": "media-player-dynaquest-pc-000000007ed3",
+      "name": "Elgato Game Capture 4K60 Pro MK.2 EL-10GAS9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "11748",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/ELGATOGAMECAPTURE4K60PROMK2EL-10GA59901.png?v=1601473534"
+    },
+    {
+      "id": "media-player-dynaquest-pc-000000004833",
+      "name": "Elgato Key Light Air LED Panel EL-10LAB9901",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Elgato",
+        "SKU": "11740",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/ElgatoKeyLightAir.jpg?v=1601395529"
+    },
+    {
+      "id": "media-player-dynaquest-pc-000000004fc4",
+      "name": "Anycast M9 Plus Wireless Display Dongle",
+      "category": "media-player",
+      "specs": {
+        "Brand": "Anycast",
+        "SKU": "10446",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/Anycast_M9_Plus_Wireless_Display_Dongle.jpg?v=1571553896"
+    }
+  ]
+}

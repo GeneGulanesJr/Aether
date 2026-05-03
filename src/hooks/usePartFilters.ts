@@ -5,7 +5,8 @@
 
 import { useState, useMemo, useCallback } from 'react'
 import type { Part } from '../lib/types'
-import { getSpec } from '../lib/types'
+import { getPartSocket, getSpec } from '../lib/types'
+import { parsePrice } from '../lib/priceUtils'
 
 /**
  * Strip descriptive suffixes from scraped part names to show only the
@@ -132,10 +133,6 @@ export function deduplicateByName(
   priceByPartId: Record<string, string>
 ): Part[] {
   const seen = new Map<string, Part>()
-  const priceToNum = (s: string | undefined): number => {
-    if (!s) return Infinity
-    return parseFloat(s.replace(/[₱,\s]/g, '')) || Infinity
-  }
   const specCount = (p: Part): number =>
     Object.values(p.specs).filter(v => v && v !== '' && v !== 'unknown').length
 
@@ -152,8 +149,8 @@ export function deduplicateByName(
         seen.set(key, part)
       } else if (newSpecs === existingSpecs) {
         // Same spec richness → keep lower price
-        const existingPrice = priceToNum(priceByPartId[existing.id])
-        const newPrice = priceToNum(priceByPartId[part.id])
+        const existingPrice = parsePrice(priceByPartId[existing.id], existing.id) || Infinity
+        const newPrice = parsePrice(priceByPartId[part.id], part.id) || Infinity
         if (newPrice < existingPrice) {
           seen.set(key, part)
         }
@@ -257,10 +254,6 @@ export function deduplicateByModelKey(
   priceByPartId: Record<string, string>
 ): Part[] {
   const seen = new Map<string, Part>()
-  const priceToNum = (s: string | undefined): number => {
-    if (!s) return Infinity
-    return parseFloat(s.replace(/[₱,\s]/g, '')) || Infinity
-  }
 
   for (const part of parts) {
     const key = extractModelKey(part)
@@ -269,8 +262,8 @@ export function deduplicateByModelKey(
     if (!existing) {
       seen.set(key, part)
     } else {
-      const existingPrice = priceToNum(priceByPartId[existing.id])
-      const newPrice = priceToNum(priceByPartId[part.id])
+      const existingPrice = parsePrice(priceByPartId[existing.id], existing.id) || Infinity
+      const newPrice = parsePrice(priceByPartId[part.id], part.id) || Infinity
       if (newPrice < existingPrice) {
         seen.set(key, part)
       }
@@ -378,11 +371,7 @@ export function usePartFilters(parts: Part[], opts?: UsePartFiltersOptions): Use
 
   const [filters, setFilters] = useState<PartFilters>({ ...EMPTY_FILTERS })
 
-  // Helper: parse formatted price to number
-  const priceToNum = useCallback((s: string | undefined): number => {
-    if (!s) return NaN
-    return parseFloat(s.replace(/[₱,\s]/g, '')) || NaN
-  }, [])
+
 
   // Sort state
   const [sort, setSortState] = useState<SortConfig>({ ...DEFAULT_SORT })
@@ -408,7 +397,7 @@ export function usePartFilters(parts: Part[], opts?: UsePartFiltersOptions): Use
       const brand = extractBrand(part)
       brandCounts.set(brand, (brandCounts.get(brand) ?? 0) + 1)
 
-      const socket = getSpec(part.specs, 'socket')
+      const socket = getPartSocket(part)
       if (socket) {
         socketCounts.set(socket, (socketCounts.get(socket) ?? 0) + 1)
       }
@@ -462,13 +451,14 @@ export function usePartFilters(parts: Part[], opts?: UsePartFiltersOptions): Use
       }
 
       // Socket filter
-      if (filters.socket && getSpec(part.specs, 'socket') !== filters.socket) {
+      const partSocket = getPartSocket(part)
+      if (filters.socket && partSocket !== filters.socket) {
         return false
       }
 
       // Price range filter
       if (priceByPartId && (!isNaN(minPrice) || !isNaN(maxPrice))) {
-        const price = priceToNum(priceByPartId[part.id])
+        const price = parsePrice(priceByPartId[part.id], part.id)
         if (!isNaN(price)) {
           if (!isNaN(minPrice) && price < minPrice) return false
           if (!isNaN(maxPrice) && price > maxPrice) return false
@@ -489,7 +479,7 @@ export function usePartFilters(parts: Part[], opts?: UsePartFiltersOptions): Use
 
       return true
     })
-  }, [sourceParts, filters, priceByPartId, priceToNum])
+  }, [sourceParts, filters, priceByPartId])
 
   // Sort filtered parts
   const sortedParts = useMemo(() => {
@@ -501,8 +491,8 @@ export function usePartFilters(parts: Part[], opts?: UsePartFiltersOptions): Use
         case 'name':
           return dir * a.name.localeCompare(b.name)
         case 'price': {
-          const pa = getPrice ? getPrice(a) : priceToNum(priceByPartId?.[a.id])
-          const pb = getPrice ? getPrice(b) : priceToNum(priceByPartId?.[b.id])
+          const pa = getPrice ? getPrice(a) : parsePrice(priceByPartId?.[a.id], a.id)
+          const pb = getPrice ? getPrice(b) : parsePrice(priceByPartId?.[b.id], b.id)
           const aVal = isNaN(pa) ? Infinity : pa
           const bVal = isNaN(pb) ? Infinity : pb
           return dir * (aVal - bVal)
@@ -517,7 +507,7 @@ export function usePartFilters(parts: Part[], opts?: UsePartFiltersOptions): Use
       }
     })
     return sorted
-  }, [filteredParts, sort, getPrice, priceByPartId, priceToNum])
+  }, [filteredParts, sort, getPrice, priceByPartId])
 
   const setFilter = useCallback((key: keyof PartFilters, value: string) => {
     setFilters((prev) => ({ ...prev, [key]: value }))

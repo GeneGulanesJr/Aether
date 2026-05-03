@@ -1,0 +1,599 @@
+{
+  "schemaVersion": "1.0",
+  "category": "tablet",
+  "items": [
+    {
+      "id": "tablet-easypc-000000005369",
+      "name": "Wacom Intuos Graphics Drawing Tablet Black 7.9\" X 6.3\" CTL-4100/K0-C BK 1ION",
+      "category": "tablet",
+      "specs": {
+        "Brand": "WACOM",
+        "SKU": "WACT2124",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/WACT2124-a.jpg?v=1629741714"
+    },
+    {
+      "id": "tablet-easypc-0000000020bf",
+      "name": "Wacom One Creative Pen Tablet 10.9\" x 7.4\"/8.3Ã“ CTL-672/K0-C 1ION",
+      "category": "tablet",
+      "specs": {
+        "Brand": "WACOM",
+        "SKU": "WACT2129",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Wacom_One_Creative_Pen_Tablet_10.9-a.jpg?v=1701829986"
+    },
+    {
+      "id": "tablet-easypc-000000006bd3",
+      "name": "Wacom Intuos Wireless Graphics Drawing Tablet 7.9\" X 6.3\" CTL-4100WL/E0-C/CTL-4100WL/P0-C PK GR Pistachio Accent/ Berry Accent 1ION",
+      "category": "tablet",
+      "specs": {
+        "Brand": "WACOM",
+        "SKU": "WACT2128",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/WACT2126-a.jpg?v=1628825957"
+    },
+    {
+      "id": "tablet-easypc-0000000061d8",
+      "name": "Wacom Intuos Wireless Graphics Drawing Tablet Black CTL-6100WL/K0-C/ CTL-4100WL/K0-C BK 1ION",
+      "category": "tablet",
+      "specs": {
+        "Brand": "WACOM",
+        "SKU": "WACT2127",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/WACT2125-a.jpg?v=1628825277"
+    },
+    {
+      "id": "tablet-easypc-000000001cd2",
+      "name": "Wacom One Creative Pen Tablet 13.3\" DTC-133W0C 1ION",
+      "category": "tablet",
+      "specs": {
+        "Brand": "WACOM",
+        "SKU": "WADT2131",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/WADT2131-a.jpg?v=1629741669"
+    },
+    {
+      "id": "tablet-easypc-000000007a3f",
+      "name": "Realme Pad 3GB/32GB WiFi Tablet Gray",
+      "category": "tablet",
+      "specs": {
+        "Brand": "REALME",
+        "SKU": "5607",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Realme_Pad_3GB_32GB_WiFi_Tablet_Gray-a.jpg?v=1703659891"
+    },
+    {
+      "id": "tablet-easypc-000000003ef9",
+      "name": "Teclast M40 6GB/128GB LTE/Wifi Tablet Black",
+      "category": "tablet",
+      "specs": {
+        "Brand": "TECLAST",
+        "SKU": "5606",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Teclast_M40_6GB_128GB_LTE_Wifi_Tablet_Black-e.jpg?v=1703659721"
+    },
+    {
+      "id": "tablet-easypc-000000001a8c",
+      "name": "Acer Iconia One 8 T2 Tablet MT8765V/WA Cortex A53 1.5GHz M32GB/2GB Ram/Android 10.0/8\" IPS multi-touch/Ideal for K-12 Segment NT.LFKSP.001 11BRI ACNT2022",
+      "category": "tablet",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "ACNT2022",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AcerIconiaOne8T2TabletMT8765VWACortexA531.5GHzM32GB2GBRamAndroid10.08IPSmulti-touchIdealforK-12SegmentNT.LFKSP.00111BRIACNT2022-a.jpg?v=1629740899"
+    },
+    {
+      "id": "tablet-easypc-000000001568",
+      "name": "Samsung Galaxy Tab A7 Lite 3GB/32GB WiFi Tablet Gray",
+      "category": "tablet",
+      "specs": {
+        "Brand": "SAMSUNG",
+        "SKU": "5605",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/5605-a.jpg?v=1660283711"
+    },
+    {
+      "id": "tablet-easypc-00000000360f",
+      "name": "Acer Iconia One 10 T4-129L Tablet MTK8765 Cortex A53 1.3GHz M32GB/3GB Ram/Android 9.0/10.1\" IPS multi-touch/SIM Slot/Ideal for K-12 Segment NT.LFHSP.001 11BRI ACNT2021",
+      "category": "tablet",
+      "specs": {
+        "Brand": "ACER",
+        "SKU": "ACNT2021",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AcerIconiaOne10T4-129LTabletMTK8765CortexA531.3GHzM32GB3GBRamAndroid9.010.1IPSmulti-touchSIMSlotIdealforK-12SegmentNT.LFHSP.00111BRIACNT2021-a.jpg?v=1629740897"
+    },
+    {
+      "id": "tablet-gigahertz-00000000240f",
+      "name": "Xiaomi Pad 7 Pro",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Xiaomi",
+        "SKU": "TAB-XIAOMI PAD 7 PRO (12+512GB) GRAY",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/xiaomi-pad-7-pro-xiaomi-gigahertz-323004.jpg?v=1744768684"
+    },
+    {
+      "id": "tablet-gigahertz-0000000003bb",
+      "name": "Lenovo S8-50 LTE",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Lenovo",
+        "SKU": "TAB-LENOVO S8-50-59429249 Z3745 1.8GHz 16GB 2GB KITKAT",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-s8-50-lte-lenovo-gigahertz-136828.jpg?v=1746439861"
+    },
+    {
+      "id": "tablet-gigahertz-000000003819",
+      "name": "Huawei MatePad 10.4 Refresh HES",
+      "category": "tablet",
+      "specs": {
+        "Brand": "HUAWEI",
+        "SKU": "TAB-HUAWEI MATEPAD 10.4 REFRESH (4+128GB) GRAY (HES)",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/TAB-HUAWEIMATEPAD10.4REFRESH_4_128GB_GRAY_HES.jpg?v=1730787289"
+    },
+    {
+      "id": "tablet-gigahertz-0000000047f0",
+      "name": "Huawei MatePad 10.4 (2020)",
+      "category": "tablet",
+      "specs": {
+        "Brand": "HUAWEI",
+        "SKU": "TAB-HUAWEI MATEPAD 10.4 (4+64) GRAY",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/TAB-HUAWEIMATEPAD10.4_4_64_GRAY.jpg?v=1730787200"
+    },
+    {
+      "id": "tablet-gigahertz-000000006515",
+      "name": "Redmi Pad Pro",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Xiaomi",
+        "SKU": "TAB-XIAOMI REDMI PAD PRO (8+128GB) WIFI GRAPHITE GRAY",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/redmi-pad-pro-xiaomi-gigahertz-771676.jpg?v=1731913034"
+    },
+    {
+      "id": "tablet-gigahertz-000000007a3a",
+      "name": "Redmi Pad Pro 5G",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Xiaomi",
+        "SKU": "TAB-XIAOMI REDMI PAD PRO 5G (8+128GB) GRAPHITE GRAY",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/redmi-pad-pro-5g-xiaomi-gigahertz-249897.jpg?v=1733808505"
+    },
+    {
+      "id": "tablet-gigahertz-000000004723",
+      "name": "Xiaomi Pad 7",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Xiaomi",
+        "SKU": "TAB-XIAOMI PAD 7 (12+256GB) GRAY",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/xiaomi-pad-7-xiaomi-gigahertz-605269.jpg?v=1744768684"
+    },
+    {
+      "id": "tablet-gigahertz-000000003c5a",
+      "name": "Lenovo IdeaPad D330-10IGM 81H300L6PH | 10.1\" HD | Pentium Silver N5000 | UHD Graphics 605 | 4GB RAM | 64GB EMMC | WIN 10",
+      "category": "tablet",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "TAB-LENOVO IDEAPAD D330-10IGM 81H300L6PH P-N5000 64GB SSD 4GB WIN10 BRONZE",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-ideapad-d330-10igm-81h300l6ph-101-hd-pentium-silver-n5000-uhd-graphics-605-4gb-ram-64gb-emmc-win-10-lenovo-gigahertz-594151.jpg?v=1726732356"
+    },
+    {
+      "id": "tablet-gigahertz-000000000f17",
+      "name": "Xiaomi Redmi Pad SE",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Xiaomi",
+        "SKU": "TAB-XIAOMI REDMI PAD SE (8+256GB) GREEN",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/xiaomi-redmi-pad-se-xiaomi-gigahertz-108400.jpg?v=1744768683"
+    },
+    {
+      "id": "tablet-gigahertz-0000000007ad",
+      "name": "Xiaomi Pad 6S Pro 12.4",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Gigahertz",
+        "SKU": "TAB-XIAOMI PAD 6S PRO 12.4 (8+256GB) GRAPHITE GRAY",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/xiaomi-pad-6s-pro-124-gigahertz-gigahertz-303672.jpg?v=1730962981"
+    },
+    {
+      "id": "tablet-gigahertz-0000000018c8",
+      "name": "Lenovo Tab M10 (3rd Gen) ZAAF0008PH",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Lenovo",
+        "SKU": "TAB-LENOVO M10 ZAAF0008PH 3RD GEN WIFI/LTE (4+64GB) STORM GREY",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/TAB-LENOVOM10ZAAF0008PH3RDGENWIFILTE_4_64GB_STORMGREY.jpg?v=1730787558"
+    },
+    {
+      "id": "tablet-gigahertz-000000007776",
+      "name": "Lenovo Phab Tablet",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Lenovo",
+        "SKU": "TAB-LENOVO PB1-750M-ZA0L0060PH PHAB QUADCORE 1.2GHZ 16GB 1GB POLAR WHITE",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-phab-tablet-lenovo-gigahertz-272723.jpg?v=1746439865"
+    },
+    {
+      "id": "tablet-gigahertz-0000000046da",
+      "name": "Lenovo Tab 2 A7-30",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Lenovo",
+        "SKU": "TAB-LENOVO A7-30-59435546 (1GB+8GB) WHITE",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-tab-2-a7-30-lenovo-gigahertz-603274.jpg?v=1746439865"
+    },
+    {
+      "id": "tablet-gigahertz-00000000356f",
+      "name": "Acer A510 Iconia Tab",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Acer",
+        "SKU": "TAB-ACER ICONIA A510 OLYMPIC BLACK",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/TAB-ACERICONIAA510OLYMPICBLACK.jpg?v=1730787128"
+    },
+    {
+      "id": "tablet-gigahertz-0000000036df",
+      "name": "Redmi Pad SE 8.7 4G | 4GB RAM + 64GB/128GB",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Xiaomi",
+        "SKU": "TAB-XIAOMI REDMI PAD SE 8.7 4G (4+128GB) SKY BLUE",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/redmi-pad-se-87-4g-4gb-ram-64gb128gb-xiaomi-gigahertz-287065.jpg?v=1730962389"
+    },
+    {
+      "id": "tablet-octagon-000000001604",
+      "name": "REAL ME TECHLIFE PAD NEO 4GB 64GB GREY",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "01RMTLPN6G",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_60056cd6-1e54-485b-8476-e994a59c9cac.jpg?v=1747721244"
+    },
+    {
+      "id": "tablet-octagon-000000001953",
+      "name": "REAL ME TECHLIFE PAD NEO 4GB 128GB BLUE",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "01RMTLPN1B",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_7bdb5185-0153-4cef-85b2-01dca4f242ec.jpg?v=1747720173"
+    },
+    {
+      "id": "tablet-octagon-000000001951",
+      "name": "REAL ME TECHLIFE PAD NEO 4GB 128GB GREY",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "01RMTLPN1G",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_f89e5c64-924a-43ec-b82c-5688924846cd.jpg?v=1747719795"
+    },
+    {
+      "id": "tablet-octagon-000000001601",
+      "name": "REAL ME TECHLIFE PAD NEO 4GB 64GB BLUE",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "01RMTLPN6B",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_a19ea166-7519-4cf7-b340-99c1b85d3853.jpg?v=1747721586"
+    },
+    {
+      "id": "tablet-octagon-000000001800",
+      "name": "APPLE IPAD AIR 11 M3 128GB WIFI PU (MCA04PP/A)",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "195949997983",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_714782ef-a234-43cb-a29c-187ebf29030e.jpg?v=1756521340"
+    },
+    {
+      "id": "tablet-octagon-000000004f03",
+      "name": "APPLE IPAD 9TH GEN 64GB WIFI SGY MK2K3PP/A",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "194252515693",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_f85ddc6b-b96e-4078-91a2-9cef162ee055.jpg?v=1754531395"
+    },
+    {
+      "id": "tablet-octagon-000000003d30",
+      "name": "APPLE IPAD AIR 11 M3 128GB WIFI BU (MC9X4PP/A)",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "195949997525",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_1a1ac8f0-0a14-4001-a481-2afa92840ad2.jpg?v=1754529225"
+    },
+    {
+      "id": "tablet-octagon-000000005850",
+      "name": "APPLE IPAD 9TH GEN 64GB WIFI SILVER",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "194252515969",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_968dbd40-ec9c-4088-95d4-eb5fad957562.jpg?v=1754528849"
+    },
+    {
+      "id": "tablet-octagon-000000005a23",
+      "name": "APPLE IPAD AIR 11 M3 128GB WIFI SGY (MC9W4PP/A)",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Octagon Computer Superstore",
+        "SKU": "195949997297",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0412/5415/8487/files/1_e6cf4f80-b2db-4a93-8a08-bd32feef4cc0.jpg?v=1753854484"
+    },
+    {
+      "id": "tablet-pcworx-000000004fc4",
+      "name": "Microsoft® Pro 12in SD P/16/256 CM SC English British Platinum Philippines 1 License",
+      "category": "tablet",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "EP2-27200",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/2_5bd9c956-1aaf-4545-a432-6086e1e87611.jpg?v=1771215959"
+    },
+    {
+      "id": "tablet-pcworx-00000000356c",
+      "name": "Microsoft® SfcPro11 Pls/16/256 CM SC English British Platinum Philippines 1 License",
+      "category": "tablet",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "ZIK-00018",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/6_96eb8b43-5882-474a-99b8-a04fcaeb1dc0.jpg?v=1771215776"
+    },
+    {
+      "id": "tablet-pcworx-0000000022a2",
+      "name": "Microsoft® Pro11 13in Intel CU7/32/512 CM SC English British Platinum Philippines 1 License",
+      "category": "tablet",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "EP2-20044",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/Microsoft_Pro1113inIntelCU7_32_512CMSCEnglishBritishPlatinumPhilippines1License_176c4f18-a6c6-4088-9adc-63e8d8bac770.jpg?v=1771215555"
+    },
+    {
+      "id": "tablet-pcworx-0000000034eb",
+      "name": "Microsoft® Pro11 13in Intel CU7/16/512 CM SC English British Platinum Philippines 1 License",
+      "category": "tablet",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "EP2-20242",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_854c54ca-b3cb-4f5f-86e7-a3b14cbbdb71.jpg?v=1771215265"
+    },
+    {
+      "id": "tablet-pcworx-000000005960",
+      "name": "Microsoft® Pro11 13in Intel CU7/16/256 CM SC English British Black Philippines 1 License",
+      "category": "tablet",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "EP2-20191",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_74f76678-96d8-478b-a965-6a0e59161ac3.jpg?v=1771215009"
+    },
+    {
+      "id": "tablet-pcworx-00000000548f",
+      "name": "Apple MPUF3ZP/A iPhone 14 128GB Midnight Black",
+      "category": "tablet",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000064620",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_b84827e8-626f-4042-b4fe-83acfe2e896d.jpg?v=1770715368"
+    },
+    {
+      "id": "tablet-pcworx-0000000050b2",
+      "name": "Apple MYEA3ZP/A Pink | MYEA3ZP/A Black iPhone 16 128GB",
+      "category": "tablet",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000066659",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_dd726c9f-4cde-40f1-9217-59233003c7b9.jpg?v=1770714393"
+    },
+    {
+      "id": "tablet-pcworx-0000000006ec",
+      "name": "Apple MFYQ4X/A iPhone 17 Pro Max 512GB Silver",
+      "category": "tablet",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000072988",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_30bccbe8-0f7a-4179-81d5-dcc1493821a8.jpg?v=1770712678"
+    },
+    {
+      "id": "tablet-pcworx-00000000237d",
+      "name": "Apple MD4A4PP/A iPad 11th Gen A16 11-Inch Wi-Fi 128GB Blue | Silver",
+      "category": "tablet",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000069587",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_d7c6f051-9dc6-4ca7-8e2f-95375ec4efc2.jpg?v=1770710795"
+    },
+    {
+      "id": "tablet-pcworx-000000003736",
+      "name": "Apple MC940ZM/A Ipad 2 Dock",
+      "category": "tablet",
+      "specs": {
+        "Brand": "PCWORX",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000003053.jpg?v=1741245074"
+    },
+    {
+      "id": "tablet-pc-express-000000004639",
+      "name": "WACOM Intuos Small without Bluetooth (CTL-4100/K0-CX) Pen Tablet (Black)",
+      "category": "tablet",
+      "specs": {
+        "Brand": "Wacom",
+        "SKU": "PENTABLET-WACOM-000005",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/1.PENTABLET-WACOMINTUOSSWithoutBLUETOOTHBLK.jpg?v=1695451714"
+    },
+    {
+      "id": "tablet-villman-000000002cc0",
+      "name": "Wacom One Small CTL-472 Creative Pen Tablet",
+      "category": "tablet",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "tablet-villman-0000000073a1",
+      "name": "Wacom One Medium CTL-672 Creative Pen Tablet",
+      "category": "tablet",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "tablet-villman-0000000061a0",
+      "name": "Wacom Intuos S w/ Bluetooth CTL-4100WL (Black/Green/Pink) Drawing Table",
+      "category": "tablet",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "tablet-villman-000000005008",
+      "name": "Garmin Nuvi 40 4.3-inch Touchscreen Car Navigation",
+      "category": "tablet",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "tablet-villman-0000000007e2",
+      "name": "Garmin NUVI 1360 4.3-inch Touchscreen Car Navigation",
+      "category": "tablet",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "tablet-villman-0000000013b5",
+      "name": "Garmin Nuvi 50 5-inch Touchscreen Car Navigation",
+      "category": "tablet",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "tablet-villman-0000000073de",
+      "name": "Wacom Intuos3 4\"x6\" Intelligent Graphics Tablet",
+      "category": "tablet",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "tablet-villman-00000000756f",
+      "name": "Wacom Intuos M w/ Bluetooth CTL-6100WL/K0-C Drawing Table",
+      "category": "tablet",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "tablet-villman-000000004c68",
+      "name": "Wacom Intuos PRO Small 12.6 x 8.2 x 0.5 inch with 2048 levels of pen pressure sensitivity (PTH 460)",
+      "category": "tablet",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "tablet-villman-0000000076d5",
+      "name": "Wacom Intuos3 6\"x8\" Intelligent Graphics Tablet",
+      "category": "tablet",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "tablet-villman-00000000095e",
+      "name": "Wacom PTH660 Intuos Pro Graphics Pen Tablet, Medium, Black",
+      "category": "tablet",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    }
+  ]
+}

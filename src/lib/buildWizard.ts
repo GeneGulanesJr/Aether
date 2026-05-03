@@ -1,11 +1,13 @@
 /**
- * Build Wizard — gamified PC builder engine.
+ * Build Wizard — gamified Aether build engine.
  *
  * Types, constants, recommendation data, and state helpers
  * for the step-by-step guided build experience.
  */
 
-import type { BuildSlotCategory, Part } from './types'
+import type { BuildSlotCategory, Part, BuildSlot } from './types'
+import { getPartSocket } from './types'
+import { checkBuildCompatibility } from './normalized/compatibility'
 
 // ─── Build Mode ──────────────────────────────────────────────────────────────
 
@@ -22,7 +24,8 @@ export type WizardStep =
   | 'mode'
   | 'budget'
   | 'usecase'
-  | 'compare'
+  | 'platform'
+  | 'socket'
   // guided part steps
   | 'cpu'
   | 'motherboard'
@@ -32,10 +35,6 @@ export type WizardStep =
   | 'psu'
   | 'case'
   | 'review'
-  // custom steps
-  | 'custom_platform'
-  | 'custom_socket'
-  | 'custom_parts'
 
 export interface WizardState {
   step: WizardStep
@@ -134,145 +133,6 @@ export const USECASE_OPTIONS: UseCaseOption[] = [
   },
 ]
 
-// ─── Recommended Builds (static comparison data) ─────────────────────────────
-
-export interface RecPart {
-  name: string
-  specs: Record<string, string>
-}
-
-export interface RecommendedBuild {
-  platform: Platform
-  label: string
-  tagline: string
-  parts: Record<string, RecPart>
-  estimatedTotal: string
-  score: number
-  highlights: string[]
-  bestFor: UseCase[]
-}
-
-const AMD_BUILDS: Record<BudgetTier, RecommendedBuild> = {
-  low: {
-    platform: 'amd',
-    label: 'AMD Entry',
-    tagline: 'Budget king — punch above your weight',
-    parts: {
-      cpu:          { name: 'Ryzen 5 5600',         specs: { cores: '6C/12T', boost: '4.4 GHz', socket: 'AM4', tdp: '65W' } },
-      motherboard:  { name: 'B550M',                 specs: { socket: 'AM4', ram: 'DDR4', form: 'Micro-ATX', pcie: 'Gen 4' } },
-      ram:          { name: '16 GB DDR4-3200',       specs: { capacity: '16 GB', speed: '3200 MHz', type: 'DDR4', sticks: '2 × 8' } },
-      gpu:          { name: 'RX 6600',               specs: { vram: '8 GB', tdp: '132W', clocks: '2491 MHz', bus: '128-bit' } },
-      storage:      { name: '500 GB NVMe SSD',      specs: { capacity: '500 GB', interface: 'NVMe', seq_read: '~3 500 MB/s', form: 'M.2' } },
-      psu:          { name: '550W 80+ Bronze',       specs: { wattage: '550W', rating: '80+ Bronze', modular: 'Non-modular' } },
-      case:         { name: 'ATX Mid Tower',         specs: { form: 'Mid Tower', fans: '2 included', glass: 'Tempered side' } },
-    },
-    estimatedTotal: '≈ ₱32 000',
-    score: 72,
-    highlights: ['Great value 1080p gaming', 'AM4 upgrade path', 'Low power draw'],
-    bestFor: ['gaming', 'productivity'],
-  },
-  mid: {
-    platform: 'amd',
-    label: 'AMD Mid-Range',
-    tagline: 'The sweet spot — performance meets value',
-    parts: {
-      cpu:          { name: 'Ryzen 7 7700X',         specs: { cores: '8C/16T', boost: '5.4 GHz', socket: 'AM5', tdp: '105W' } },
-      motherboard:  { name: 'B650',                   specs: { socket: 'AM5', ram: 'DDR5', form: 'ATX', pcie: 'Gen 4' } },
-      ram:          { name: '32 GB DDR5-6000',        specs: { capacity: '32 GB', speed: '6000 MHz', type: 'DDR5', sticks: '2 × 16' } },
-      gpu:          { name: 'RX 7800 XT',             specs: { vram: '16 GB', tdp: '263W', clocks: '2430 MHz', bus: '256-bit' } },
-      storage:      { name: '1 TB NVMe Gen4',         specs: { capacity: '1 TB', interface: 'NVMe Gen4', seq_read: '~7 000 MB/s', form: 'M.2' } },
-      psu:          { name: '750W 80+ Gold',          specs: { wattage: '750W', rating: '80+ Gold', modular: 'Semi-modular' } },
-      case:         { name: 'ATX Mid Tower',          specs: { form: 'Mid Tower', fans: '4 included', glass: 'Tempered side' } },
-    },
-    estimatedTotal: '≈ ₱62 000',
-    score: 88,
-    highlights: ['Excellent 1440p gaming', 'AM5 future-proof', 'Great multi-core'],
-    bestFor: ['gaming', 'productivity'],
-  },
-  high: {
-    platform: 'amd',
-    label: 'AMD Flagship',
-    tagline: 'No limits — raw power unleashed',
-    parts: {
-      cpu:          { name: 'Ryzen 9 7950X3D',       specs: { cores: '16C/32T', boost: '5.7 GHz', socket: 'AM5', tdp: '120W' } },
-      motherboard:  { name: 'X670E',                  specs: { socket: 'AM5', ram: 'DDR5', form: 'ATX', pcie: 'Gen 5' } },
-      ram:          { name: '32 GB DDR5-6000 CL30',   specs: { capacity: '32 GB', speed: '6000 MHz', type: 'DDR5', sticks: '2 × 16' } },
-      gpu:          { name: 'RX 7900 XTX',            specs: { vram: '24 GB', tdp: '355W', clocks: '2500 MHz', bus: '384-bit' } },
-      storage:      { name: '2 TB NVMe Gen4',         specs: { capacity: '2 TB', interface: 'NVMe Gen4', seq_read: '~7 300 MB/s', form: 'M.2' } },
-      psu:          { name: '850W 80+ Gold',          specs: { wattage: '850W', rating: '80+ Gold', modular: 'Fully modular' } },
-      case:         { name: 'Premium ATX Tower',      specs: { form: 'Full Tower', fans: '6 included', glass: 'Tempered side' } },
-    },
-    estimatedTotal: '≈ ₱135 000',
-    score: 96,
-    highlights: ['Top-tier 4K gaming', '3D V-Cache dominance', '24 GB VRAM'],
-    bestFor: ['gaming'],
-  },
-}
-
-const INTEL_BUILDS: Record<BudgetTier, RecommendedBuild> = {
-  low: {
-    platform: 'intel',
-    label: 'Intel Entry',
-    tagline: 'Reliable all-rounder at a great price',
-    parts: {
-      cpu:          { name: 'Core i5-12400F',         specs: { cores: '6C/12T', boost: '4.4 GHz', socket: 'LGA 1700', tdp: '65W' } },
-      motherboard:  { name: 'B660M',                   specs: { socket: 'LGA 1700', ram: 'DDR4', form: 'Micro-ATX', pcie: 'Gen 4' } },
-      ram:          { name: '16 GB DDR4-3200',         specs: { capacity: '16 GB', speed: '3200 MHz', type: 'DDR4', sticks: '2 × 8' } },
-      gpu:          { name: 'RTX 3060',                specs: { vram: '12 GB', tdp: '170W', clocks: '1777 MHz', bus: '192-bit' } },
-      storage:      { name: '500 GB NVMe SSD',        specs: { capacity: '500 GB', interface: 'NVMe', seq_read: '~3 500 MB/s', form: 'M.2' } },
-      psu:          { name: '550W 80+ Bronze',         specs: { wattage: '550W', rating: '80+ Bronze', modular: 'Non-modular' } },
-      case:         { name: 'ATX Mid Tower',           specs: { form: 'Mid Tower', fans: '2 included', glass: 'Tempered side' } },
-    },
-    estimatedTotal: '≈ ₱35 000',
-    score: 74,
-    highlights: ['DLSS & Ray Tracing support', '12 GB VRAM', 'Quick Sync video'],
-    bestFor: ['gaming', 'productivity'],
-  },
-  mid: {
-    platform: 'intel',
-    label: 'Intel Mid-Range',
-    tagline: 'Versatile powerhouse for work & play',
-    parts: {
-      cpu:          { name: 'Core i5-13600K',         specs: { cores: '14C/20T', boost: '5.1 GHz', socket: 'LGA 1700', tdp: '125W' } },
-      motherboard:  { name: 'Z790',                    specs: { socket: 'LGA 1700', ram: 'DDR5', form: 'ATX', pcie: 'Gen 5' } },
-      ram:          { name: '32 GB DDR5-6000',         specs: { capacity: '32 GB', speed: '6000 MHz', type: 'DDR5', sticks: '2 × 16' } },
-      gpu:          { name: 'RTX 4070',                specs: { vram: '12 GB', tdp: '200W', clocks: '2475 MHz', bus: '192-bit' } },
-      storage:      { name: '1 TB NVMe Gen4',          specs: { capacity: '1 TB', interface: 'NVMe Gen4', seq_read: '~7 000 MB/s', form: 'M.2' } },
-      psu:          { name: '750W 80+ Gold',            specs: { wattage: '750W', rating: '80+ Gold', modular: 'Semi-modular' } },
-      case:         { name: 'ATX Mid Tower',            specs: { form: 'Mid Tower', fans: '4 included', glass: 'Tempered side' } },
-    },
-    estimatedTotal: '≈ ₱68 000',
-    score: 90,
-    highlights: ['DLSS 3 Frame Gen', 'Excellent single-thread', 'Great encoding'],
-    bestFor: ['productivity', 'gaming'],
-  },
-  high: {
-    platform: 'intel',
-    label: 'Intel Flagship',
-    tagline: 'Maximum compute — no apologies',
-    parts: {
-      cpu:          { name: 'Core i9-14900K',         specs: { cores: '24C/32T', boost: '6.0 GHz', socket: 'LGA 1700', tdp: '125W' } },
-      motherboard:  { name: 'Z790',                    specs: { socket: 'LGA 1700', ram: 'DDR5', form: 'ATX', pcie: 'Gen 5' } },
-      ram:          { name: '32 GB DDR5-6400',         specs: { capacity: '32 GB', speed: '6400 MHz', type: 'DDR5', sticks: '2 × 16' } },
-      gpu:          { name: 'RTX 4090',                specs: { vram: '24 GB', tdp: '450W', clocks: '2520 MHz', bus: '384-bit' } },
-      storage:      { name: '2 TB NVMe Gen4',          specs: { capacity: '2 TB', interface: 'NVMe Gen4', seq_read: '~7 300 MB/s', form: 'M.2' } },
-      psu:          { name: '1000W 80+ Platinum',      specs: { wattage: '1000W', rating: '80+ Platinum', modular: 'Fully modular' } },
-      case:         { name: 'Premium ATX Tower',        specs: { form: 'Full Tower', fans: '6 included', glass: 'Tempered side' } },
-    },
-    estimatedTotal: '≈ ₱155 000',
-    score: 98,
-    highlights: ['DLSS 3 + Ray Tracing king', '24C/32T brute force', 'Best encoding perf'],
-    bestFor: ['productivity'],
-  },
-}
-
-export function getRecommendations(
-  budget: BudgetTier,
-  _useCase: UseCase,
-): { amd: RecommendedBuild; intel: RecommendedBuild } {
-  return { amd: AMD_BUILDS[budget], intel: INTEL_BUILDS[budget] }
-}
-
 // ─── Achievements ────────────────────────────────────────────────────────────
 
 // ─── Scoring ─────────────────────────────────────────────────────────────────
@@ -293,13 +153,26 @@ const WEIGHTED_TOTAL = STEP_WEIGHTS.reduce((a, b) => a + b, 0) // 12
  * Required slots (cpu, motherboard, ram, storage, psu) count 2× each.
  * Optional slots (gpu, case) count 1× each.
  *
- * Example — only cpu + motherboard filled:
- *   weighted_filled = 2 + 2 = 4
- *   score = Math.round((4 / 12) * 100) = 33
+/**
+ * Score a partially-filled build.
+ *
+ * Two components:
+ *   1. Slot fill (0–70 pts): Required slots (cpu, motherboard, ram, storage, psu)
+ *      count 2× each. Optional slots (gpu, case) count 1× each.
+ *   2. Compatibility (0–30 pts): Full marks when there are zero errors.
+ *      Each error severity issue costs 10 pts (capped at -30).
+ *      Warnings don't penalize the score.
+ *
+ * Example — cpu + motherboard filled, no errors:
+ *   fill = (4 / 12) * 70 = 23
+ *   compat = 30
+ *   score = 53
  */
 export function buildScore(
   selectedParts: Partial<Record<BuildSlotCategory, Part>>,
+  compatibilityErrors: number = 0,
 ): number {
+  // Slot fill component (0–70 pts)
   let weightedFilled = 0
   for (let i = 0; i < PART_STEPS.length; i++) {
     const cat = PART_STEPS[i].category!
@@ -307,48 +180,46 @@ export function buildScore(
       weightedFilled += STEP_WEIGHTS[i]
     }
   }
-  return Math.round((weightedFilled / WEIGHTED_TOTAL) * 100)
+  const fillScore = Math.round((weightedFilled / WEIGHTED_TOTAL) * 70)
+
+  // Compatibility component (0–30 pts)
+  const compatPenalty = Math.min(compatibilityErrors * 10, 30)
+  const compatScore = 30 - compatPenalty
+
+  return fillScore + compatScore
 }
 
 // ─── Step Ordering ───────────────────────────────────────────────────────────
 
 const GUIDED_STEPS: WizardStep[] = [
-  'budget', 'usecase', 'compare',
+  'budget', 'usecase', 'platform', 'socket',
   'cpu', 'motherboard', 'ram', 'gpu', 'storage', 'psu', 'case',
   'review',
 ]
 
-const CUSTOM_STEPS: WizardStep[] = [
-  'custom_platform', 'custom_socket', 'custom_parts',
-  'review',
-]
-
+/**
+ * Navigate forward through the unified build wizard.
+ * Sequence: budget → usecase → platform → socket → [cpu, motherboard, ram, gpu, storage, psu, case] → review
+ */
 export function nextGuidedStep(current: WizardStep): WizardStep | null {
   const idx = GUIDED_STEPS.indexOf(current)
   return idx >= 0 && idx < GUIDED_STEPS.length - 1 ? GUIDED_STEPS[idx + 1] : null
 }
 
+/**
+ * Navigate backward through the unified build wizard.
+ */
 export function prevGuidedStep(current: WizardStep): WizardStep | null {
   const idx = GUIDED_STEPS.indexOf(current)
   return idx > 0 ? GUIDED_STEPS[idx - 1] : null
 }
 
-export function nextCustomStep(current: WizardStep): WizardStep | null {
-  const idx = CUSTOM_STEPS.indexOf(current)
-  return idx >= 0 && idx < CUSTOM_STEPS.length - 1 ? CUSTOM_STEPS[idx + 1] : null
-}
-
-export function prevCustomStep(current: WizardStep): WizardStep | null {
-  const idx = CUSTOM_STEPS.indexOf(current)
-  return idx > 0 ? CUSTOM_STEPS[idx - 1] : null
-}
-
-// Backward compat — guided path uses these
+// Backward compat — unified path uses these
 export const nextStep = nextGuidedStep
 export const prevStep = prevGuidedStep
 
 export const INITIAL_STATE: WizardState = {
-  step: 'welcome',
+  step: 'mode',
   mode: null,
   platform: null,
   budget: null,
@@ -428,6 +299,36 @@ export function getSocketsForPlatform(platform: Platform): SocketOption[] {
 }
 
 /**
+ * Auto-pick the best default socket for a guided build.
+ *
+ * Logic:
+ *   AMD low  → AM4   (budget-friendly DDR4)
+ *   AMD mid+ → AM5   (modern platform, DDR5)
+ *   Intel    → LGA 1851 (newest gen, DDR5)
+ *
+ * Returns null if no socket matches the platform.
+ */
+export function resolveSocketForGuided(
+  platform: Platform,
+  budget: BudgetTier,
+): SocketOption | null {
+  const sockets = getSocketsForPlatform(platform)
+
+  if (platform === 'amd') {
+    if (budget === 'low') {
+      return sockets.find(s => s.id === 'am4') ?? null
+    }
+    return sockets.find(s => s.id === 'am5') ?? null
+  }
+
+  if (platform === 'intel') {
+    return sockets.find(s => s.id === 'lga1851') ?? sockets[0] ?? null
+  }
+
+  return null
+}
+
+/**
  * Compatibility filter for parts based on selected socket.
  * Uses spec fields (socket, ram_type) to determine compatibility.
  */
@@ -441,18 +342,19 @@ export function isPartCompatible(
     return true
   }
 
-  const specs = part.specs
+  // Unified socket source: enriched normalized data over raw specs
+  const partSocket = getPartSocket(part)
 
   // CPU must match socket
   if (category === 'cpu') {
-    const socketSpec = (specs.socket ?? '').toLowerCase().replace(/\s+/g, '')
+    const socketSpec = partSocket.toLowerCase().replace(/\s+/g, '')
     return socketSpec === socket.id.replace('_ddr5', '')
   }
 
   // Motherboard must match socket
   if (category === 'motherboard') {
-    const socketSpec = (specs.socket ?? '').toLowerCase().replace(/\s+/g, '')
-    const ramSpec = (specs.ram ?? specs.ram_type ?? '').toUpperCase()
+    const socketSpec = partSocket.toLowerCase().replace(/\s+/g, '')
+    const ramSpec = (part.specs.ram ?? part.specs.ram_type ?? '').toUpperCase()
     const socketMatch = socketSpec === socket.id.replace('_ddr5', '')
     const ramMatch = ramSpec === '' || ramSpec === socket.ramType
     return socketMatch && ramMatch
@@ -460,9 +362,65 @@ export function isPartCompatible(
 
   // RAM must match DDR type
   if (category === 'ram') {
-    const typeSpec = (specs.type ?? '').toUpperCase()
+    const typeSpec = (part.specs.type ?? '').toUpperCase()
     return typeSpec === '' || typeSpec === socket.ramType
   }
 
   return true
+}
+
+/**
+ * Check compatibility of a wizard build (selectedParts format).
+ * Returns a list of issues the review step can display.
+ *
+ * Delegates to the normalized compatibility engine after converting
+ * the wizard's `Partial<Record<BuildSlotCategory, Part>>` format
+ * to the desktop builder's `BuildSlot[]` format.
+ */
+export interface WizardCompatIssue {
+  code: string
+  message: string
+  severity: 'warn' | 'error'
+  categories: BuildSlotCategory[]
+}
+
+export function checkWizardCompatibility(
+  selectedParts: Partial<Record<BuildSlotCategory, Part>>,
+): WizardCompatIssue[] {
+  // Convert to BuildSlot[] — filter out empty slots
+  const slots: BuildSlot[] = (Object.entries(selectedParts) as [BuildSlotCategory, Part | undefined][])
+    .filter(([, part]) => part != null)
+    .map(([category, part]) => ({ category, part: part! }))
+
+  // Use the normalized engine
+  const normalizedIssues = checkBuildCompatibility(slots)
+
+  // Map normalized issues (slots field) → wizard issues (categories field)
+  return normalizedIssues.map((issue): WizardCompatIssue => ({
+    ...issue,
+    categories: issue.slots as BuildSlotCategory[],
+  }))
+}
+
+/**
+ * Estimate total system wattage from selected parts.
+ * Returns estimated draw in watts, or null if not enough data.
+ */
+export function estimateWattage(
+  selectedParts: Partial<Record<BuildSlotCategory, Part>>,
+): { estimated: number; psuWattage: number | null } | null {
+  const cpu = selectedParts.cpu
+  const gpu = selectedParts.gpu
+  const psu = selectedParts.psu
+
+  if (!cpu && !gpu) return null
+
+  const cpuTdp = parseFloat(cpu?.specs?.tdp ?? cpu?.specs?.tdp_w ?? '') || 0
+  const gpuTdp = parseFloat(gpu?.specs?.tdp ?? gpu?.specs?.tdp_w ?? gpu?.specs?.power ?? '') || 0
+  const psuWatt = parseFloat(psu?.specs?.wattage ?? '') || 0
+
+  // CPU+GPU ≈ 60% of system total (disks, RAM, fans, motherboard make up the rest)
+  const estimated = Math.round((cpuTdp + gpuTdp) / 0.6)
+
+  return { estimated, psuWattage: psuWatt || null }
 }

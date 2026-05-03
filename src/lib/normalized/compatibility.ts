@@ -5,7 +5,7 @@
 
 import type { BuildSlot } from '../types'
 import type { NormalizedData } from './types'
-import type { CompatibilityIssue } from '../../components/builder/CompatibilityChecker'
+import type { CompatibilityIssue } from './types'
 
 /** Get the normalized data for a slot, if available. */
 function getNormalized(slots: BuildSlot[], category: string): NormalizedData | null {
@@ -95,8 +95,23 @@ export function checkBuildCompatibility(slots: BuildSlot[]): CompatibilityIssue[
     }
   }
 
-  // ── Rule 4: GPU ↔ Case length (placeholder for when data available) ──
-  // Activates when GPU normalized includes lengthMm
+  // ── Rule 4: GPU ↔ Case length ─────────────────────────────
+
+  const gpuNorm = getNormalized(slots, 'gpu')
+  if (gpuNorm && pcCase) {
+    const gpuData = data<any>(gpuNorm)
+    const caseData = data<any>(pcCase)
+    if (gpuData?.lengthMm && caseData?.maxGpuLengthMm) {
+      if (gpuData.lengthMm > caseData.maxGpuLengthMm) {
+        issues.push({
+          code: 'gpu_case_length',
+          message: `GPU length (${gpuData.lengthMm}mm) exceeds case max GPU clearance (${caseData.maxGpuLengthMm}mm)`,
+          severity: 'error',
+          slots: ['gpu', 'case'],
+        })
+      }
+    }
+  }
 
   // ── Rule 5: CPU Cooler ↔ CPU socket ───────────────────────
 

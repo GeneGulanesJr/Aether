@@ -1,0 +1,2631 @@
+{
+  "schemaVersion": "1.0",
+  "category": "chair",
+  "items": [
+    {
+      "id": "chair-bermor-techzone-000000002c40",
+      "name": "Fantech GD914 Black Adjustable Rising Desk",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Fantech-GD914-Black-Adjustable-Rising-Desk-4-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000001f4f",
+      "name": "Cougar Argo One Ergonomic Gaming/Office Chair/3D-Armrest/Aluminum Base – Black/Black Orange",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/Cougar-Argo-One-Ergonomic-GamingOffice-Chair3D-ArmrestAluminum-Base-BlackBlack-Orange-Bermor-Ph-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000004511",
+      "name": "Fantech OC-A258 Office Chair Black | White | Grey | Pink | Green | Mint",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/FANTECH-OC-A258-OFFICE-CHAIR-BLACK-copy-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000002f2d",
+      "name": "Fantech OC-A259 Office Chair Black",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/FANTECH_OC-A259s_OFFICE_CHAIR___BLACK-copy-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-0000000040d5",
+      "name": "Fantech OC-B258 Office Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Fantech-OC-B258-Office-Chair-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000002313",
+      "name": "Fantech OC B258 Office Chair – Black | Gray",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/OCB258-OFFICE-CHAIR-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-00000000673c",
+      "name": "Aula F1007 Gaming Chair Camouflage White",
+      "category": "chair",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/05/AULA-gaming-chair-white-Camouflag-1-1-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000002e80",
+      "name": "Cougar Armor Elite Gaming Chair Steel Base 2D-Armrest PVC-Leather – White",
+      "category": "chair",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/07/ARMOR-ELITE-WHITE-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-0000000076c6",
+      "name": "Acer Predator Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/07/acer-predator-lk-8103a-btzs-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000006962",
+      "name": "MSI MAG CH120 L Premium 4D Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/11/ch120-l-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000002b60",
+      "name": "MSI MAG CH120 Premium 4D Gaming Chair Black/Red",
+      "category": "chair",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/11/ch120-chair-ph-btz-ph-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000000d26",
+      "name": "Aula F1007 Gaming Chair Camouflage Blue",
+      "category": "chair",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/05/Aula-Gaming-Chair-Blue-Camouflag-1-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-0000000022a4",
+      "name": "Doss Gaming Chair Blue",
+      "category": "chair",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2018/08/Doss-Gaming-Chair-Blue-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-00000000331a",
+      "name": "Doss Gaming Chair White",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2018/08/Doss-Gaming-Chair-White-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000004b8d",
+      "name": "Cougar Ranger PS Gaming Sofa Steel Frame/PVC – Leather Sky Blue Steel Frame/PVC – Leather Pink",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/Cougar-Ranger-PS-Gaming-Sofa-Steel-FramePVC-Leather-Sky-Blue-Steel-FramePVC-Leather-Pink-Bermor-Ph-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000006d84",
+      "name": "Cougar Terminator Gaming Chair/4D-Armrest/Hyper Dura Leather/Aluminum Base – Black/Orange CHR-CGR-TERMINATOR-BK/OR",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/Cougar-Terminator-Gaming-Chair4D-ArmrestHyper-Dura-LeatherAluminum-Base-BlackOrange-Bermor-Ph-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-0000000074a3",
+      "name": "Asus SL301C ROG Chariot X Core Grey Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Asus-SL301C-ROG-CHARIOT-X-CORE-GREY-GAMING-CHAIR-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000000226",
+      "name": "Fantech GC193 Black Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/04/CG193-Main-BTZ1-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000003318",
+      "name": "Razer Lumbar Cushion – Lumbar Support for Gaming Chairs – Hello Kitty and Friends Edition RC81-03830201-R3M1",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/MAIN-8-300x300.png"
+    },
+    {
+      "id": "chair-bermor-techzone-00000000398b",
+      "name": "COUGAR Fusion Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2020/01/51N6KPbAhVL._SL1200_-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-0000000020d6",
+      "name": "Cougar Fidom Gaming Swivel Recliner Rocker Gaming Sofa Comfort Chair Gray | Black",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/05/Cougar-fidom-blk-btz-m-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-0000000074d7",
+      "name": "Sharkoon Game Skiller SGS2 Fabric Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2019/06/SKILLER_SGS2_Black_02-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000002fa7",
+      "name": "Sharkoon Elbrus 1 Gaming Chair Breathable Fabric Cover Padded Armrests Black/Red",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/11/Elbrus1_Red_02-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000004fbc",
+      "name": "OCPC Xtreme Fabric/Steel Base/Full Recline Premium Gaming Chair Black White",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2020/11/107838509_322882145386245_263307737768661616_n-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000001d74",
+      "name": "Cougar Ranger Gaming Sofa Black/Orange",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2020/01/cougar_ranger_gaming_sofa_blackorang-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000005279",
+      "name": "Novus Maverick Gaming Chair [Black White, Black/Black Red]",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2020/01/ce6fd6ca8d2d69e831302b64de05a44c-scaled-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000005ada",
+      "name": "Cougar Armor One Royal Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2018/07/r-01-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000001e93",
+      "name": "COUGAR Fusion Gaming Chair Orange",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2020/01/61iWN3aAVrL._SL1200_-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000002d3a",
+      "name": "Gamdias Achilles E1 L RGB Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2019/05/4_E1-L_BLACK-300x300.png"
+    },
+    {
+      "id": "chair-bermor-techzone-00000000065f",
+      "name": "Cooler Master Caliber R1S Camo Edition Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/01/41iADwa7vKS-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000000b88",
+      "name": "DarkFlash RC300 Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/DarkFlash-RC300-Gaming-Chair-Bermor-Ph-300x300.png"
+    },
+    {
+      "id": "chair-bermor-techzone-00000000004d",
+      "name": "DxRacer NEX Gaming Chair Black EC-O01-N-K1-258",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/09/1a878ca29f906f7c47def40ed66fbdbd-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000005e46",
+      "name": "Cougar SPEEDER Ergonomic w/ Footrest Gaming Chair CHR-CGR-SPEEDER",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/10/Cougar-SPEEDER-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-0000000041c4",
+      "name": "Sharkoon SGS40 Fabric | PU Leather Gaming Chair Gray",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/SKILLER_SGS40_Fabric_Grey_02-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-00000000768e",
+      "name": "COUGAR Armor Pro Gaming Chair Steel Frame Breathable Premium PVC Leather and Micro Suede-Like Texture Black",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2020/01/51AQdDedocL._SL1200_-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-0000000058cf",
+      "name": "DXRacer NEX Series EC-O134-N-K3-303 Black Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/11/EC-O134-N-K3-303-2-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000007971",
+      "name": "XIGMATEK GAMING CHAIR HAIRPIN WHITE",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/03/hairpin-white-01-500x500-1-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000005176",
+      "name": "Doss Gaming Chair Red",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2018/08/Doss-Gaming-Chair-Red.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000004452",
+      "name": "Cougar Armor One Gaming Chair Black/Orange",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2018/07/07-4-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-00000000457d",
+      "name": "Cougar Armor One Eva Gaming Chair Black/Pink",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2020/01/cougar_armor_one_eva_gaming_chair_blackpink_ac2-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-00000000749e",
+      "name": "OCPC Xtreme Fabric/Steel Base/Full Recline Premium Gaming Chair Gray White",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2020/11/110191499_2240371352784391_8942015473459731728_n-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000001e7a",
+      "name": "Gamdias Achilles E1 L RGB Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2018/11/nowna-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000001b4f",
+      "name": "DXRacer OH KX28 NR",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/05/41gcTcczcL-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000000333",
+      "name": "Cougar Explore Gaming Chair Black Orange CHR-CGR-EXPLORE",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/12304757-12304757-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000003509",
+      "name": "Gigabyte Aorus AGC310 Gaming Chair Black/Orange",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/04/GC-AGC310-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-0000000027cc",
+      "name": "Cougar Armor EVO M Steel Base Gaming Chair – Orange | Gold",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/Armor-Evo-M-main-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000003283",
+      "name": "Cougar SPEEDER ONE Ergonomic Gaming Chair – Black | White",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/10/SPEEDER-ONE-btz-ph-011-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000006364",
+      "name": "Cooler Master Caliber X1 Premium Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/05/LD0005728659_1-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-00000000323d",
+      "name": "Doss Gaming Chair Green",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/11/doss-gaming-chair-2-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000007e52",
+      "name": "DXRacer Master Series Gaming Chair Black DMC-I233S-N-A2",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/05/dxracer-master-series-gaming-chair-black-1540-11439-210421073351-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-0000000024d3",
+      "name": "COUGAR ARGO Mesh Seat Ergonomic Design Aluminum Gaming Chair Orange",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/26-567-043-V03-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000007413",
+      "name": "COUGAR ARGO Mesh Seat Ergonomic Design Aluminum Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/26-567-045-V03-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000004f86",
+      "name": "Cougar Overlord Brethable PVC Leather Gaming Sofa",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/Cougar-overlord-btz-1-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000002982",
+      "name": "Thermaltake ARGENT E700 Real Leather Gaming Chair – Racing Green | Flaming Orange | Glacier White | Space Gray | Design by Studio F. A. Porsche",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/Thermaltake-ARGENT-E700-Real-Leather-Gaming-Chair-Racing-Green-Flaming-Orange-Glacier-White-Space-Gray-Design-by-Studio-F.-A.-Porsche-Bermor-Ph-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-0000000001da",
+      "name": "COUGAR HOTROD Gaming Chair CHR-CGR-HOTROD-BLACK | CHR-CGR-HOTROD-BK/O",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/10/Cougar-Hotrod-Gaming-chair-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000007d97",
+      "name": "Razer Enki Quartz Gaming Chair for All Day Gaming Comfort",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/razer-enki-quartz-gaming-chair-for-all-day-gaming-comfort-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-0000000075e9",
+      "name": "Cooler Master Caliber R2 Gaming Chair High Back Office Computer Game Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/Cooler-Master-Caliber-R2-Gaming-Chair-High-Back-Office-Computer-Game-Chair-Bermor-Ph-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-00000000395a",
+      "name": "DXRacer GD 1000 BUE/GREEN/RED",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/05/51lvtUavyuL._SL1000_-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-0000000042cc",
+      "name": "DXRacer NEX EC-O134-NR-K3-303 Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/11/ec33834b0e4030ccb1f08cc82a0a8e62.jpg_2200x2200q80.jpg_-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000003fc4",
+      "name": "Cooler Master Caliber R1S Pink Edition Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/01/89965744_5230807526-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000002d0d",
+      "name": "Corsair T3 RUSH Gaming Chair Charcoal | Gray/White | Gray/Charcoal",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/CS-CF-9010030-WW-btz-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000002bb5",
+      "name": "DarkFlash Z680C Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/10/Z680C-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000007b2f",
+      "name": "AOC AXGON AX1CVa Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/12/AX1CVA_11zon-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000005045",
+      "name": "Gamdias Aphrodite MF1 L Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/04/Gamdias-Aphrodite-MF1-L-Gaming-Chair-btz-ph-2-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000007ea5",
+      "name": "Asus ROG Destrier Ergo Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/rog-destrier-ergo-gaming-chair-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000001b3c",
+      "name": "Cooler Master Caliber R1S Purple Camo Edition Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/Cooler-Master-Caliber-R1S-Purple-Camo-Edition-Gaming-Chair-Bermor-Ph-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000001296",
+      "name": "Cougar Armor One Adjustable Design Gaming Chair- Army Green | Skyblue",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/Cougar-Armor-One-Adjustable-Design-Gaming-Chair-Army-Green-Skyblue-Bermor-Ph-300x300.png"
+    },
+    {
+      "id": "chair-bermor-techzone-0000000035be",
+      "name": "Cougar Ranger Royal Gaming Sofa Steel Frame/PVC – Leather Gold",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/Cougar-Ranger-Royal-Gaming-Sofa-Steel-FramePVC-Leather-Gold-Bermor-Ph-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-0000000007e0",
+      "name": "Cougar Ranger PS Gaming Sofa Steel Frame/PVC – Leather Sky Blue",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/Cougar-Ranger-PS-Gaming-Sofa-Steel-FramePVC-Leather-Sky-Blue-Bermor-Ph-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000002a95",
+      "name": "Cougar Ranger XB Gaming Sofa Steel Frame/PVC – Leather Green",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/Cougar-Ranger-XB-Gaming-Sofa-Steel-FramePVC-Leather-Green-Bermor-Ph-300x300.png"
+    },
+    {
+      "id": "chair-bermor-techzone-00000000205f",
+      "name": "DXRacer NEX EC-O01-NR-K1-258 – Red Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/08/EC-O01-NR-K1-258-Red-Gaming-Chair-btz-ph-2-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000006226",
+      "name": "DXRacer GC Gaming Chair Series GC-D88-N-H3",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/DXRacer-GC-Gaming-Chair-Series-GC-D88-N-H3-Bermor-Ph-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000007b49",
+      "name": "Cougar Armor S Gaming Chair Black/Orange",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/cougar-armor-s-675a2ff8db9ab-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-00000000179a",
+      "name": "Cougar Armor Evo S Gaming Chair – Orange | Gold",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/Armor-Evo-S-main-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000000dd1",
+      "name": "Cougar Armor One V2 F Steel Base Gaming Chair – Orange | Gold",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/Armor-One-V2-F-btz-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000006a9f",
+      "name": "DXRacer DRIFTING Series GC-D133-NR-J2 Black Red Size M Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/DXRacer-DRIFTING-Series-GC-D133-NR-J2-Black-Red-Size-M-Gaming-Chair-Bermor-Ph-300x300.jpg"
+    },
+    {
+      "id": "chair-bermor-techzone-000000001d75",
+      "name": "DXRacer GC Gaming Chair Series GC-D88-NR-H3",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/DXRacer-GC-Gaming-Chair-Series-GC-D88-NR-H3-Bermor-Ph-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000005765",
+      "name": "DXRacer DXRacer Tank Series Gaming Chair Black GC-T29-N-S4",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/DXRacer-DXRacer-Tank-Series-Gaming-Chair-Black-GC-T29-N-S4-Bermor-Ph-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-00000000163b",
+      "name": "Cougar Crosser Multi-use Gaming Stool – Orange | Black",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/Cougar-crosser-chair-main-btz-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-0000000000c9",
+      "name": "DXRacer Master DMC-D233S-R-A2 Gaming Chair Red",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/DXRacer-Master-DMC-D233S-R-A2-Gaming-Chair-Red-Bermor-Ph-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000006857",
+      "name": "ASUS ROG SL400 Destrier Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/05/ASUS-ROG-DESTRIER-GAMING-CHAIR-BTZ-PH-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000002437",
+      "name": "ASUS ROG SL201 Aethon Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/05/ASUS-ROG-SL201-GAMING-CHAIR-BTZ-PH-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000003dab",
+      "name": "Sharkoon Skiller SGS20 Fabric Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/05/SGS20_Fabric_Grey-1-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000001912",
+      "name": "Sharkoon Skiller SG20 PU Gaming Chair Black Orange",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/05/SGS20_Fabric_Orange-PU-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000000267",
+      "name": "Asus ROG Aethon Gaming Chair Fabric Edition",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/08/415227388_1054744209186191_3298970970981869256_n-21-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000007bfe",
+      "name": "COUGAR HOTROD Royal Gaming Chair CHR-CGR-HOTROD-ROYAL",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/10/HOTROD-ROYAL-gaming-chair-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000006bc4",
+      "name": "COUGAR NXSYS AERO ARGB Gaming Chair CHR-CGR-NXSYS-AERO-BK | CHR-CGR-NXSYS-AERO-B/O",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/10/NXSYS-AERO-gaming-chair-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000004714",
+      "name": "Razer Iskur Gaming Chair with Built in Lumbar Support Black",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Razer-Iskur-Gaming-chair-with-built-in-lumbar-support-Black-btz-ph-1-1-1-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000005b79",
+      "name": "COUGAR OUTRIDER Gaming Chair Black Orange",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/10/Cougar-OUTRIDER-gaming-chair-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000005340",
+      "name": "Razer Enki Gaming Chair for All Day Gaming Comfort",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/razer-enki-gaming-chair-for-all-day-gaming-comfort-quartz-btz-ph-1.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-00000000344f",
+      "name": "Razer Enki – Black Gaming Chair for All Day Gaming Comfort",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Razer-Enki-–-Gaming-Chair-for-All-Day-Gaming-Comfort-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000004f80",
+      "name": "Razer Iskur X Ergonomic Gaming Chair Hello Kitty and Friends Edition",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Razer-Iskur-X-Ergonomic-Gaming-Chair-Hello-Kitty-and-Friends-Edition-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-00000000188d",
+      "name": "Razer Enki X Essential Gaming Chair for Gaming Performance",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Razer-Enki-X-Essential-Gaming-Chair-for-Gaming-Performance-btz-ph-1.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-0000000018bf",
+      "name": "Cougar FUSION S Comfortable Multi-Purpose Gaming Chair Black | Black/Orange",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/11/cougar-fusion-s-ph-btz-67a68198d8ca9-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000000246",
+      "name": "Fantech GC182 Alpha Gaming Chair – Pink | White",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/GC182-PNK-copy-300x300.png"
+    },
+    {
+      "id": "chair-bermor-techzone-000000004f19",
+      "name": "Fantech GC182 ALPHA Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Fantech-GC182-ALPHA-Gaming-Chair-5-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000003691",
+      "name": "Fantech GC185S ALPHA Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/FANTECH-GC185s-ALPHA-GAMING-CHAIR-copy-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000004345",
+      "name": "Fantech GC185X ALPHA Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Fantech-GC185X-ALPHA-Gaming-Chair-4-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000000e0b",
+      "name": "Fantech GC186 Alpha Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Fantech-GC186-Alpha-Gaming-Chair-4-webp-1-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-00000000422e",
+      "name": "Fantech GC192 LEDARE Gaming Chair Black | Grey | Brown",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Fantech-GC192-Ledare-Gaming-Chair-1-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000003e82",
+      "name": "Fantech Alpha GC283 Red Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Fantech-Alpha-GC283-Red-Gaming-Chair-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-00000000410b",
+      "name": "Aula F1007 Gaming Chair (Camouflage)",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Main-chair-300x300.png"
+    },
+    {
+      "id": "chair-bermor-techzone-00000000508e",
+      "name": "Aerocool ThunderX3 TC3 Ember Red Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/05/thunderx3-tc3-btz1-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000005d8b",
+      "name": "Aerocool ThunderX3 TC5 Jet Black | Ember Red Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/05/Aerocool-TC5-BTZ-img-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-0000000066c1",
+      "name": "Razer Iskur Gaming Chair Black RZ38-02840100-R3U1",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/main-15-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-00000000651b",
+      "name": "Aerocool ThunderX3 BC3 Black-Cyan | Black Hawk Camo | Grey-Blue Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/05/ThunderX3-BC3-m-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000004745",
+      "name": "COUGAR STRYDER Low Profile Design Ergonomic Gaming Chair Gray CHR-CGR-STRYDER-GRAY",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2026/01/Stryder-Gray-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000006182",
+      "name": "Aerocool ThunderX3 BC5 Black-Cyan Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/05/BC5-Gaming-Chair-1-1-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000006184",
+      "name": "Aula F010 Gaming Chair Black/Red",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/main-53-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-0000000061be",
+      "name": "Razer Iskur Gaming Chair with Built-in Lumbar Support- RZ38-02770100-R3U1",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/main-3-1-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-000000003c9d",
+      "name": "Razer Iskur – Dark Gray Fabric – Gaming Chair With Built In Lumbar Support – RZ38-02770300-R3U1",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/main-4-1-300x300.webp"
+    },
+    {
+      "id": "chair-bermor-techzone-0000000009cb",
+      "name": "Cougar Ranger Elite Steel Frame Gold Gaming Sofa",
+      "category": "chair",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/RANGER-ELITE-Gold-btz-300x300.webp"
+    },
+    {
+      "id": "chair-datablitz-0000000045aa",
+      "name": "Asus ROG Destrier Ergonomic Gaming Chair (Black) (SL400)",
+      "category": "chair",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "0195553799546",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/cvbgverdtgr.jpg?v=1681258298"
+    },
+    {
+      "id": "chair-datablitz-000000002fe3",
+      "name": "Asus ROG Raikiri Pro Wireless PC Gaming Controller (Black) + Asus ROG Destrier Ergonomic Gaming Chair (BLACK) (SL400) Bundle",
+      "category": "chair",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "1000000015006",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/xcvccc.jpg?v=1706262801"
+    },
+    {
+      "id": "chair-datablitz-000000001ef0",
+      "name": "Asus ROG SL301 Chariot X Gaming Chair (Black, Grey)",
+      "category": "chair",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "0197105453845",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/vdsdsvvsdv.jpg?v=1727753629"
+    },
+    {
+      "id": "chair-datablitz-0000000055d0",
+      "name": "Asus ROG SL301C Chariot X Core Gaming Chair (Black, Grey, White)",
+      "category": "chair",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "0197105453623",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/01_79d5f54e-70c0-419a-8498-0bfaa852def7.jpg?v=1727835313"
+    },
+    {
+      "id": "chair-datablitz-0000000042ad",
+      "name": "Dragonwar Ergonomic Gaming Chair (Black) (GC-035)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Dragonwar",
+        "SKU": "6972197941388",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/ArquivoExibir_1.jpg?v=1676855979"
+    },
+    {
+      "id": "chair-datablitz-000000005ee6",
+      "name": "Dragonwar Ergonomic Gaming Chair (Red/Black) (GC-035)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Dragonwar",
+        "SKU": "6972197941395",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/Cadeira-Gamer-Dragon-War-Gc-035_1635963579_gg.jpg?v=1676856000"
+    },
+    {
+      "id": "chair-datablitz-000000004fba",
+      "name": "Dragonwar RGB Lighting Effect Gaming Chair (GC-015-PINK)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Dragonwar",
+        "SKU": "1000000007929",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0-02-06-113a1de7353cb574c6c530671e2d390e56f9e9aedb113a6e04803117712ed9a4_8acb4d1a6957de5f.jpg?v=1688703687"
+    },
+    {
+      "id": "chair-datablitz-000000007f36",
+      "name": "Dragonwar GC-027 Gaming & Office Chair (Black)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Dragonwar",
+        "SKU": "6972197942200",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/GC027V2-1.jpg?v=1767840844"
+    },
+    {
+      "id": "chair-datablitz-000000000fc6",
+      "name": "Dragonwar Pro Gaming Chair (Black) (GC-023)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Dragonwar",
+        "SKU": "6972197941937",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6972197941937.jpg?v=1683181280"
+    },
+    {
+      "id": "chair-datablitz-000000005e9a",
+      "name": "Razer Iskur V2 X Fabric Essential Gaming Chair with Built-in Lumbar Support (Black/Green, Light Gray)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Razer",
+        "SKU": "0840272915547",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/viber_image_2025-07-30_16-26-14-007.jpg?v=1753864348"
+    },
+    {
+      "id": "chair-datablitz-0000000038bb",
+      "name": "Fractal Design Refine Ergonomic Gaming Chair (Dark Mesh, Light Mesh)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Fractal Design",
+        "SKU": "0843276106683",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0843276106683.jpg?v=1747200256"
+    },
+    {
+      "id": "chair-datablitz-000000006df7",
+      "name": "TTRacing Duo V4 Gaming Chair - Spider-Man Edition",
+      "category": "chair",
+      "specs": {
+        "Brand": "TTracing",
+        "SKU": "1000000012541",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/dvcdg.jpg?v=1681465891"
+    },
+    {
+      "id": "chair-datablitz-000000004715",
+      "name": "Fractal Design Refine Ergonomic Gaming Chair (Dark Fabric, Light Fabric)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Fractal Design",
+        "SKU": "0843276106720",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/SKU-0843276106720.jpg?v=1761906984"
+    },
+    {
+      "id": "chair-datablitz-000000005826",
+      "name": "Dragonwar Pro-Gaming Chair (Grey) (GC-022)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Dragonwar",
+        "SKU": "6972197941951",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/thfddsd.jpg?v=1683083400"
+    },
+    {
+      "id": "chair-datablitz-00000000427e",
+      "name": "Elephant XP-15 Mesh Office Chair (Grey)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Elephant",
+        "SKU": "1000000016798",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/gfgnfxcv_53896275-e74e-4428-baf6-9c4fef758c43.jpg?v=1727154090"
+    },
+    {
+      "id": "chair-datablitz-000000005afa",
+      "name": "Asus ROG Destrier Core Ergo Gaming Chair with Futuristic Cyborg Aesthetic (Black, White)",
+      "category": "chair",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "0197105618602",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/viber_image_2025-07-21_14-28-54-806.jpg?v=1753079558"
+    },
+    {
+      "id": "chair-datablitz-000000005810",
+      "name": "Playseat Evolution Pro Nascar Edition Racing Chair (NAS.00226)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Playseat",
+        "SKU": "1000000017271",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/1_fa7eeba4-6f74-41b9-8b11-f5f5d42c32da.png?v=1733716333"
+    },
+    {
+      "id": "chair-datablitz-000000002987",
+      "name": "ProtoArc Flexer Pro Mesh Ergonomic Office Chair (Black, White) (CP016459, CP016460)",
+      "category": "chair",
+      "specs": {
+        "Brand": "ProtoArc",
+        "SKU": "1000000020116",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/1000000020116.jpg?v=1776752804"
+    },
+    {
+      "id": "chair-datablitz-000000000f1d",
+      "name": "TTRacing Maxx Air Threads Fabric Gaming Chair - Luffy Edition",
+      "category": "chair",
+      "specs": {
+        "Brand": "TTracing",
+        "SKU": "1000000015719",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/1_5fef37f2-8b6b-4e9b-b501-67a28a3e2ee6.jpg?v=1717034195"
+    },
+    {
+      "id": "chair-datablitz-000000006871",
+      "name": "Playseat Evolution Pro Forza Motorsport (RFM.00216)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Playseat",
+        "SKU": "8717496872470",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/8717496872470.jpg?v=1729251460"
+    },
+    {
+      "id": "chair-datablitz-00000000612f",
+      "name": "Fractal Design Refine Ergonomic Gaming Chair (Dark Alcantara) (FD-CH-RE1A-01)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Fractal Design",
+        "SKU": "0843276106768",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0843276106768.jpg?v=1747200214"
+    },
+    {
+      "id": "chair-datablitz-000000005652",
+      "name": "TTRacing Swift X Pro Gaming Chair - Hulk Edition",
+      "category": "chair",
+      "specs": {
+        "Brand": "TTracing",
+        "SKU": "1000000016001",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/1_f45c9f63-6c3c-4b92-9b82-f9b053658e6f.jpg?v=1724311865"
+    },
+    {
+      "id": "chair-datablitz-000000007351",
+      "name": "Marvel Gaming Chair Spider-Man (E-SPRDMV)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Paladone",
+        "SKU": "8809503320651",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/dbffdbfdbfd.jpg?v=1715226617"
+    },
+    {
+      "id": "chair-datablitz-000000000059",
+      "name": "Asus ROG Courser Gaming Chair (SL302) (Black)",
+      "category": "chair",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "0199291131835",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0199291131835.jpg?v=1774331645"
+    },
+    {
+      "id": "chair-datablitz-000000001fc9",
+      "name": "Asus ROG Courser Core Gaming Chair (SL302C) (Black)",
+      "category": "chair",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "0199291247253",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/0199291247253.jpg?v=1774331655"
+    },
+    {
+      "id": "chair-datablitz-000000005d46",
+      "name": "Playseat Formula Intelligence F1 Edition Racing Chair (PFI.00332)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Playseat",
+        "SKU": "8717496873248",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/8717496873248.jpg?v=1733712188"
+    },
+    {
+      "id": "chair-datablitz-000000006d3a",
+      "name": "Marvel Gaming Chair Iron Man (HS-IMMV-R)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Paladone",
+        "SKU": "1000000015575",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/Untitled-1_ca8bde41-5595-49c4-a46f-11ddc3be0f6a.jpg?v=1715227389"
+    },
+    {
+      "id": "chair-datablitz-00000000210e",
+      "name": "Mickey Mouse Gaming Chair (N-MKGC)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Paladone",
+        "SKU": "1000000015574",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/1_02ec1a42-a5f0-45f9-87fe-d5c05c5c5cd3.jpg?v=1715225035"
+    },
+    {
+      "id": "chair-datablitz-00000000399a",
+      "name": "ProtoArc EC200 Ergonomic Mesh Office Chair (Black, Grey) (CP016352, CP016353)",
+      "category": "chair",
+      "specs": {
+        "Brand": "ProtoArc",
+        "SKU": "1000000020999",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/1000000020999.jpg?v=1776752581"
+    },
+    {
+      "id": "chair-datablitz-000000005411",
+      "name": "Dragonwar Pro-Gamer Chair GC-003 (Black and Red)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Dragonwar",
+        "SKU": "1000000004512",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/dtgbnsrghnsd.jpg?v=1771819818"
+    },
+    {
+      "id": "chair-datablitz-000000001f7c",
+      "name": "Playseat Sensation Pro FIA Edition (FIA.00192)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Playseat",
+        "SKU": "8717496872364",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/convert_4_5c19d2d5-ea6a-4440-ac84-ef9063614bf1.jpg?v=1676906093"
+    },
+    {
+      "id": "chair-datablitz-0000000012f6",
+      "name": "Playseat Sensation Pro Sim Platform Left (R.AC.00252)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Playseat",
+        "SKU": "8717496872715",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/ProductImage-playseat-sim-platform-left.jpg?v=1721356140"
+    },
+    {
+      "id": "chair-datablitz-0000000064d2",
+      "name": "Playseat Sensation Pro Sim Platform Right (R.AC.00250)",
+      "category": "chair",
+      "specs": {
+        "Brand": "Playseat",
+        "SKU": "8717496872708",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/ProductImage-playseat-sim-platform-right.jpg?v=1721356748"
+    },
+    {
+      "id": "chair-easypc-00000000151f",
+      "name": "DXRacer Nex EC-O01-N-K1-258/EC-O01-NR-K1-258 Black, Black/Red Gaming Chair 4JTP",
+      "category": "chair",
+      "specs": {
+        "Brand": "DXRacer",
+        "SKU": "DXEC2095",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/DXEC2095-a.jpg?v=1627987280"
+    },
+    {
+      "id": "chair-easypc-0000000009ed",
+      "name": "InPlay FOX Black Grey, Beige, White Grey Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Brand": "INPLAY",
+        "SKU": "5903",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/InPlayFOXGamingChairBlackGrey-a.jpg?v=1663139419"
+    },
+    {
+      "id": "chair-easypc-000000006eaf",
+      "name": "Inplay Ti-08 Titan Series Gaming Chair Classic Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "INPLAY",
+        "SKU": "7423",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/InplayTi-08Titan-a.png?v=1693983274"
+    },
+    {
+      "id": "chair-easypc-00000000134c",
+      "name": "Inplay Race X5-B Gaming Chair Leather Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "INPLAY",
+        "SKU": "7421",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/InplayRaceX5-B-a.png?v=1693898173"
+    },
+    {
+      "id": "chair-easypc-0000000037ab",
+      "name": "Inplay Race X5-R Gaming Chair Leather Red",
+      "category": "chair",
+      "specs": {
+        "Brand": "INPLAY",
+        "SKU": "7422",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/InplayRaceX5-R-a.png?v=1693983107"
+    },
+    {
+      "id": "chair-easypc-000000002d83",
+      "name": "InPlay EF100G V2 Ergonomic Chair With Footrest",
+      "category": "chair",
+      "specs": {
+        "Brand": "INPLAY",
+        "SKU": "10876",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/10876_a.png?v=1769115180"
+    },
+    {
+      "id": "chair-easypc-000000003cd5",
+      "name": "Rakk Casap Elite Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "KIT.0137",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Casap_Elite_Chair-c_1.jpg?v=1624857929"
+    },
+    {
+      "id": "chair-easypc-0000000042f5",
+      "name": "Rakk ALO Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "259",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/710-a.jpg?v=1588506454"
+    },
+    {
+      "id": "chair-easypc-000000001694",
+      "name": "C-NL365 Black Office Chair",
+      "category": "chair",
+      "specs": {
+        "Brand": "GENERIC",
+        "SKU": "2213",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/placeholder_efc0127b-ae21-48c9-99a8-3f8a0521f48f.jpg?v=1631169696"
+    },
+    {
+      "id": "chair-easypc-0000000003fa",
+      "name": "RAKK DISNA Gaming Chair Black/Gray",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "9559",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/RAKKDISNAGamingChairBlackGray_2.png?v=1736834920"
+    },
+    {
+      "id": "chair-easypc-000000003048",
+      "name": "Gamdias Zelus E3 Weave Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "GAMDIAS",
+        "SKU": "8508",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Gamdias_Zelus_E3_Weave_Gaming_Chair_Black-a.png?v=1711522843"
+    },
+    {
+      "id": "chair-easypc-000000000b13",
+      "name": "Gamdias Achilles E1 Gaming Chair RGB Black / Blue",
+      "category": "chair",
+      "specs": {
+        "Brand": "GAMDIAS",
+        "SKU": "3149",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4784-a.jpg?v=1629734217"
+    },
+    {
+      "id": "chair-easypc-000000005b31",
+      "name": "Gamdias Achilles E1 Gaming Chair RGB Black / Red",
+      "category": "chair",
+      "specs": {
+        "Brand": "GAMDIAS",
+        "SKU": "1921",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Gamdias_Achilles_E1_Gaming_Chair_RGB_Black_Red-a.jpg?v=1700795892"
+    },
+    {
+      "id": "chair-easypc-000000004ddc",
+      "name": "Gamdias Achilles E1 Gaming Chair RGB Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "GAMDIAS",
+        "SKU": "2978",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4497-a.jpg?v=1599795139"
+    },
+    {
+      "id": "chair-easypc-0000000040cb",
+      "name": "Gamdias Zelus E2 Gaming Chair Black or Black-Red",
+      "category": "chair",
+      "specs": {
+        "Brand": "GAMDIAS",
+        "SKU": "4902",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Gamdias_Zelus_E2_Gaming_Chair_Black-a.jpg?v=1703725009"
+    },
+    {
+      "id": "chair-easypc-0000000038f6",
+      "name": "Gamdias Aphrodite EF1 Stable and Durable, Design for comfort and Style High Quality Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Brand": "GAMDIAS",
+        "SKU": "6449",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Gamdias_Aphrodite_EF1_Black-a.jpg?v=1698713638"
+    },
+    {
+      "id": "chair-easypc-0000000063ab",
+      "name": "Gamdias Aphrodite MF1 Ergonomic Race Seat Design Adjustable Backrest Black/Red Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Brand": "GAMDIAS",
+        "SKU": "6450",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Gamdias_Aphrodite_MF1_Gaming_Chair_Black_Red-a.jpg?v=1705043369"
+    },
+    {
+      "id": "chair-easypc-0000000025f8",
+      "name": "Gamdias Aphrodite ML1 BLACK Ergonomic Race Seat Design Adjustable Backrest Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Brand": "GAMDIAS",
+        "SKU": "5620",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/5620-a.jpg?v=1674541079"
+    },
+    {
+      "id": "chair-easypc-0000000070bc",
+      "name": "Gamdias Aprhodite EF1-L Gaming Chair 14BAN GAAP2104",
+      "category": "chair",
+      "specs": {
+        "Brand": "GAMDIAS",
+        "SKU": "GAAP2104",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/GAAP2104-a.jpg?v=1629741485"
+    },
+    {
+      "id": "chair-easypc-000000003ee7",
+      "name": "Gamdias Aprhodite MF1-L BR 2D Armrest, adjustable backrest, Gaming Chair Black/Red 14BAN GAAP2120",
+      "category": "chair",
+      "specs": {
+        "Brand": "GAMDIAS",
+        "SKU": "GAAP2120",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/GAAP2120-a.jpg?v=1628501660"
+    },
+    {
+      "id": "chair-easypc-000000001eef",
+      "name": "Gamdias Aprhodite ML1-L BB/BR, 2D Armrest, Adjustable Backrest Angle, Gaming Chair 14BAN",
+      "category": "chair",
+      "specs": {
+        "Brand": "GAMDIAS",
+        "SKU": "GAAP2118",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/GAAP2118-a.jpg?v=1628501831"
+    },
+    {
+      "id": "chair-easypc-000000003203",
+      "name": "Gamdias Aprhodite EF1-L BB/BR, 2d Armrest, Gaming Chair 14BAN",
+      "category": "chair",
+      "specs": {
+        "Brand": "GAMDIAS",
+        "SKU": "GAAP2116",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/GAAP2116-a.jpg?v=1628501386"
+    },
+    {
+      "id": "chair-easypc-000000000a64",
+      "name": "Gamdias Achilles P1-L RGB Black, Black/Blue Gaming Chair 14BAN",
+      "category": "chair",
+      "specs": {
+        "Brand": "GAMDIAS",
+        "SKU": "GAAC2102",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/GAAC2102-a.jpg?v=1627988024"
+    },
+    {
+      "id": "chair-easypc-000000003909",
+      "name": "Gamdias Achilles M1-L RGB Black, Black/Blue, Black/Red Gaming Chair 14BAN",
+      "category": "chair",
+      "specs": {
+        "Brand": "GAMDIAS",
+        "SKU": "GAAC2099",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/GAAC2099-a.jpg?v=1627987646"
+    },
+    {
+      "id": "chair-easypc-0000000050dc",
+      "name": "Gamdias Aprhodite ML1-L Gaming Chair 14BAN GAAP2105",
+      "category": "chair",
+      "specs": {
+        "Brand": "GAMDIAS",
+        "SKU": "GAAP2105",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/GAAP2105-a.jpg?v=1629741483"
+    },
+    {
+      "id": "chair-easypc-000000007e01",
+      "name": "Gamdias Aprhodite MF1-L Gaming Chair 14BAN GAAP2106",
+      "category": "chair",
+      "specs": {
+        "Brand": "GAMDIAS",
+        "SKU": "GAAP2106",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/GAAP2106-a.jpg?v=1629741481"
+    },
+    {
+      "id": "chair-easypc-000000005bd3",
+      "name": "Galax GC-04 Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "GALAX",
+        "SKU": "8256",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Galax_GC-04_Gaming_Chair_Black.png?v=1707199137"
+    },
+    {
+      "id": "chair-easypc-0000000026ed",
+      "name": "NOVUS Gaming Chair CGW-100 Black/Red",
+      "category": "chair",
+      "specs": {
+        "Brand": "NOVUS",
+        "SKU": "4103",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3495-a.jpg?v=1631608792"
+    },
+    {
+      "id": "chair-easypc-000000006129",
+      "name": "Rakk ALO Gaming Chair Red",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "172",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/421-a.jpg?v=1588506235"
+    },
+    {
+      "id": "chair-easypc-000000001139",
+      "name": "Fantech Alpha GC-185 Gaming Chair Red",
+      "category": "chair",
+      "specs": {
+        "Brand": "FANTECH",
+        "SKU": "828",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Fantech_Alpha_GC-185_Gaming_Chair_Red-a.jpg?v=1699501483"
+    },
+    {
+      "id": "chair-easypc-0000000054f7",
+      "name": "Fantech Alpha GC-185 Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "FANTECH",
+        "SKU": "819",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Fantech_Alpha_GC-185_Gaming_Chair_Black-a.jpg?v=1699501261"
+    },
+    {
+      "id": "chair-easypc-0000000016ce",
+      "name": "Fantech OC-A258 Office Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "FANTECH",
+        "SKU": "6222",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Fantech_OC-A258_Office_Chair_Black-a.jpg?v=1704955662"
+    },
+    {
+      "id": "chair-easypc-00000000656a",
+      "name": "Cougar Armor One Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Brand": "COUGAR",
+        "SKU": "4099",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Cougar_Armor_One_Gaming_Chair_Black_pink-a.jpg?v=1701229887"
+    },
+    {
+      "id": "chair-easypc-000000005585",
+      "name": "Cougar Armor One Royal Gaming Chair Gold",
+      "category": "chair",
+      "specs": {
+        "Brand": "COUGAR",
+        "SKU": "3182",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Cougar_Armor_One_Royal_Gaming_Chair_Gold-a.jpg?v=1701230305"
+    },
+    {
+      "id": "chair-easypc-000000004b42",
+      "name": "MSI MAG CH120 Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Brand": "MSI",
+        "SKU": "1117",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2399-a.jpg?v=1588508495"
+    },
+    {
+      "id": "chair-easypc-00000000423e",
+      "name": "Panther Eclipse Series Nylon Legs Fabric with Footrest Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "6984",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Panther_Eclipse_Series_Fabric_Black-a.jpg?v=1695364804"
+    },
+    {
+      "id": "chair-easypc-000000004e5f",
+      "name": "Rakk Takus FX Gaming Chair Red",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "210",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/579-a.jpg?v=1589543977"
+    },
+    {
+      "id": "chair-easypc-0000000079d9",
+      "name": "DarkFlash RC350 Surface Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Brand": "DARKFLASH",
+        "SKU": "6210",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/DarkFlash_RC350_Gaming_Chair-a.jpg?v=1704784280"
+    },
+    {
+      "id": "chair-easypc-000000003930",
+      "name": "Cougar Fusion S Leather Multi-Purpose Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "COUGAR",
+        "SKU": "9244",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Cougar_Fusion_S_Leather_Multi-Purpose_Gaming_Chair_Black-a.png?v=1721286086"
+    },
+    {
+      "id": "chair-easypc-000000002dab",
+      "name": "Cougar Fusion S Fabric Multi-Purpose Gaming Chair Black/Orange",
+      "category": "chair",
+      "specs": {
+        "Brand": "COUGAR",
+        "SKU": "9246",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Cougar_Fusion_S_Fabric_Multi-Purpose_Gaming_Chair_Black_Orange-a.png?v=1721286351"
+    },
+    {
+      "id": "chair-easypc-0000000070c9",
+      "name": "Cougar Explore Gaming Chair Black/Orange",
+      "category": "chair",
+      "specs": {
+        "Brand": "COUGAR",
+        "SKU": "10842",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/10842-a.png?v=1768468153"
+    },
+    {
+      "id": "chair-easypc-0000000021f5",
+      "name": "Cougar Speeder One Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "COUGAR",
+        "SKU": "10841",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/10841-a.png?v=1768468135"
+    },
+    {
+      "id": "chair-easypc-00000000622c",
+      "name": "Cougar Armor One V2 F Gaming Chair Steel Base 4D Folding Armrest Woven Fabric Black Orange",
+      "category": "chair",
+      "specs": {
+        "Brand": "COUGAR",
+        "SKU": "10166",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/10166-a.png?v=1768440943"
+    },
+    {
+      "id": "chair-easypc-000000007b27",
+      "name": "Cougar Fusion S Leather Multi-Purpose Gaming Chair Black/Orange",
+      "category": "chair",
+      "specs": {
+        "Brand": "COUGAR",
+        "SKU": "9245",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Cougar_Fusion_S_Leather_Multi-Purpose_Gaming_Chair_Black_Orange-a.png?v=1721286189"
+    },
+    {
+      "id": "chair-easypc-0000000025a0",
+      "name": "Cougar Ranger Royal Gaming Sofa Black Gold",
+      "category": "chair",
+      "specs": {
+        "Brand": "COUGAR",
+        "SKU": "7289",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/CougarRangerRoyal-a.png?v=1690537256"
+    },
+    {
+      "id": "chair-easypc-000000007854",
+      "name": "Cougar Armor PRO Gaming Chair Black Orange",
+      "category": "chair",
+      "specs": {
+        "Brand": "Cougar",
+        "SKU": "7288",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/CougarArmorPR-a.png?v=1690537130"
+    },
+    {
+      "id": "chair-easypc-00000000623f",
+      "name": "Cougar Armor PRO Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "COUGAR",
+        "SKU": "7287",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/CougarArmorPRO-a.png?v=1690536935"
+    },
+    {
+      "id": "chair-easypc-00000000723b",
+      "name": "Cougar Fusion High Comfort Gaming Chair Black Orange",
+      "category": "chair",
+      "specs": {
+        "Brand": "COUGAR",
+        "SKU": "6927",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Cougar_Fusion_Gaming_Chair-a.jpg?v=1695367981"
+    },
+    {
+      "id": "chair-easypc-0000000051fd",
+      "name": "Cougar Fusion High Comfort Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "COUGAR",
+        "SKU": "6926",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Cougar_Fusion_Black-a.jpg?v=1695371224"
+    },
+    {
+      "id": "chair-easypc-000000007f7e",
+      "name": "RAKK NAIG Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "7757",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/RAKK_NAIG_Gaming_Chair_Black.png?v=1701327915"
+    },
+    {
+      "id": "chair-easypc-0000000034a2",
+      "name": "Panther Nightfall Series Nylon Legs with Footrest Leather Gaming Chair Black White",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "7218",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Panther_Nightfall_Series_Nylon_Legs_with_Footrest_Leather_Gaming_Chair_Black_White-a.png?v=1701937292"
+    },
+    {
+      "id": "chair-easypc-000000000e2c",
+      "name": "Panther Nightfall Series Nylon Legs with Footrest Leather Gaming Chair Black Red",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "8034",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Panther_Nightfall_Series_Nylon_Legs_with_Footrest_Leather_Gaming_Chair_Black_Red-a.jpg?v=1703054869"
+    },
+    {
+      "id": "chair-easypc-000000005e08",
+      "name": "Panther Nightfall Series Nylon Legs with Footrest Leather Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "7217",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Panther_Nightfall_Series_Nylon_Legs_with_Footrest_Leather_Gaming_Chair_Black-a.png?v=1701937233"
+    },
+    {
+      "id": "chair-easypc-00000000489c",
+      "name": "Panther Nightfall Series Nylon Legs with Footrest Leather Gaming Chair Black Pink",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "7219",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Panther_Nightfall_Series_Nylon_Legs_with_Footrest_Leather_Gaming_Chair_Black_Pink-a.jpg?v=1702273241"
+    },
+    {
+      "id": "chair-easypc-000000005cb1",
+      "name": "Panther Eclipse Series Nylon Legs Fabric with Footrest Gaming Chair Black Red",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "6985",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Panther_Eclipse_Series_Fabric_Black_Red-a.jpg?v=1695364101"
+    },
+    {
+      "id": "chair-easypc-000000002301",
+      "name": "Panther Nightfall Series Nylon Legs Fabric Black and Red Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "6521",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Panther_Nightfall_Series_Nylon_Legs_Fabric_Gaming_Chair_Black-a.jpg?v=1705299942"
+    },
+    {
+      "id": "chair-easypc-000000003bf7",
+      "name": "Rakk ALO Gaming Chair Blue",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "173",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/422-a.jpg?v=1588506237"
+    },
+    {
+      "id": "chair-easypc-000000000a0d",
+      "name": "Panther Nightfall Series Nylon Legs with Footrest Fabric Gaming Chair Black White",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "7086",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Panther_Nightfall_Series_Black_White-a.jpg?v=1694155305"
+    },
+    {
+      "id": "chair-easypc-0000000035c2",
+      "name": "Panther Nightfall Series Nylon Legs Fabric Gaming Chair Black White",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "6691",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Panther_Nightfall_Series_Nylon_Legs_Fabric_Gaming_Chair_Black_White-a.jpg?v=1705653915"
+    },
+    {
+      "id": "chair-easypc-0000000012b6",
+      "name": "Raidmax Drakon DK602 Gaming Chair Yellow",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAIDMAX",
+        "SKU": "6228",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Raidmax_Drakon_DK602_Gaming_Chair_Yellow-a.png?v=1700194673"
+    },
+    {
+      "id": "chair-easypc-000000000478",
+      "name": "Panther Eclipse Series Steel Legs Fabric Adjustable Height Ergonomically Designed Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "6684",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Panther_Eclipse_Series_Steel_Legs_Fabric_Gaming_Chair_Black-a.jpg?v=1705652053"
+    },
+    {
+      "id": "chair-easypc-0000000003ab",
+      "name": "Raidmax Drakon DK709 Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAIDMAX",
+        "SKU": "6232",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Raidmax_Drakon_DK709_Gaming_Chair_Black-a.png?v=1700195674"
+    },
+    {
+      "id": "chair-easypc-000000002187",
+      "name": "Raidmax Drakon DK602 Gaming Chair White",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAIDMAX",
+        "SKU": "6230",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Raidmax_Drakon_DK602_Gaming_Chair_White-a.png?v=1700195437"
+    },
+    {
+      "id": "chair-easypc-000000007f1a",
+      "name": "Raidmax Drakon DK602 Gaming Chair Red",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAIDMAX",
+        "SKU": "6229",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Raidmax_Drakon_DK602_Gaming_Chair_Red-a.png?v=1700195117"
+    },
+    {
+      "id": "chair-easypc-000000003015",
+      "name": "Raidmax Drakon DK606 Red/ Ble/ Yellow Gaming Chair 10KEN",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAIDMAX",
+        "SKU": "RADR1921",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Raidmax_Drakon_DK602_Gaming_Chair_Red_10KEN_RADR1921_-a.jpg?v=1625550131"
+    },
+    {
+      "id": "chair-easypc-000000004093",
+      "name": "Noblechairs Hero Gaming Chair Black/ Blue/ White/ Red",
+      "category": "chair",
+      "specs": {
+        "Brand": "Noblechair",
+        "SKU": "NOIC1888",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Noblechairs_Hero_Gaming_Chair_Black-a.jpg?v=1701669416"
+    },
+    {
+      "id": "chair-easypc-000000001ae1",
+      "name": "Panther Eclipse Series Nylon Legs Leather with Footrest Gaming Chair Black White",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "6989",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Panther_Eclipse_Series_Black_White-a.jpg?v=1695363148"
+    },
+    {
+      "id": "chair-easypc-000000003650",
+      "name": "Panther Eclipse Series Nylon Legs Leather with Footrest Gaming Chair Black Red",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "6988",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Panther_Eclipse_Series_Black_Red-a.jpg?v=1695363374"
+    },
+    {
+      "id": "chair-easypc-000000000e69",
+      "name": "Panther Nightfall Series Steel Legs Fabric Adjustable Height Ergonomically Designed Gaming Chair Red",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "6682",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Panther_Nightfall_Series_Steel_Legs_Fabric_Gaming_Chair_Black_Red-a.jpg?v=1705651341"
+    },
+    {
+      "id": "chair-easypc-0000000024e9",
+      "name": "Panther Eclipse Series Nylon Legs Gaming Chair Black Red",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "6688",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Panther_Eclipse_Series_Nylon_Legs_Fabric_Gaming_Chair_Black_Red-a.jpg?v=1705652749"
+    },
+    {
+      "id": "chair-easypc-000000005be6",
+      "name": "Raidmax Drakon DK925 ARGB Red/Blue/Black/White Gaming Chair 10KEN",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAIDMAX",
+        "SKU": "RADR1906",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Raidmax_Drakon_DK925_ARGB_Red-a.jpg?v=1701756695"
+    },
+    {
+      "id": "chair-easypc-000000007d9c",
+      "name": "Rakk Takus FX Gaming Chair Blue",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "209",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/578-a.jpg?v=1588506321"
+    },
+    {
+      "id": "chair-easypc-000000006424",
+      "name": "Raidmax Drakon DK602 Gaming Chair Blue",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAIDMAX",
+        "SKU": "6231",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Raidmax_Drakon_DK602_Gaming_Chair_Blue-a.png?v=1700195574"
+    },
+    {
+      "id": "chair-easypc-000000002061",
+      "name": "Raidmax Drakon DK602 Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAIDMAX",
+        "SKU": "6227",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Raidmax_Drakon_DK602_Gaming_Chair_Black-a.png?v=1700194809"
+    },
+    {
+      "id": "chair-easypc-0000000048b6",
+      "name": "Panther Eclipse Series Nylon Legs Leather with Footrest Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "6987",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Panther_Eclipse_Series_Black-a.jpg?v=1695363614"
+    },
+    {
+      "id": "chair-easypc-0000000009a6",
+      "name": "Panther Eclipse Series Nylon Legs Fabric with Footrest Gaming Chair Black White",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "6986",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Panther_Eclipse_Series_Fabric_Black_White-a.jpg?v=1695363903"
+    },
+    {
+      "id": "chair-easypc-000000007793",
+      "name": "Panther Nightfall Series Nylon Legs Leather Gaming Chair Black Pink",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "6925",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Panther_Nightfall_Series_Black_Pink-a.jpg?v=1695371403"
+    },
+    {
+      "id": "chair-easypc-0000000022dd",
+      "name": "Panther Nightfall Series Nylon Legs Leather Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "6876",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Panther_Nightfall_Series_Nylon_Black-a.jpg?v=1695797701"
+    },
+    {
+      "id": "chair-easypc-00000000502a",
+      "name": "Panther Nightfall Series Steel Legs Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "6681",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Panther_Nightfall_Series_Steel_Legs_Fabric_Gaming_Chair_Black-a.jpg?v=1705650868"
+    },
+    {
+      "id": "chair-easypc-000000001540",
+      "name": "Panther Nightfall Series Steel Legs Gaming Chair Black White",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "6683",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Panther_Nightfall_Series_Steel_Legs_Fabric_Gaming_Chair_Black_White-a.jpg?v=1705651733"
+    },
+    {
+      "id": "chair-easypc-00000000445f",
+      "name": "Panther Eclipse Series Steel Legs Gaming Chair Black Red",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "6685",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Panther_Eclipse_Series_Steel_Legs_Fabric_Gaming_Chair_Black_Red-a.jpg?v=1705652266"
+    },
+    {
+      "id": "chair-easypc-000000005578",
+      "name": "Panther Eclipse Series Steel Legs Gaming Chair Black White",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "6686",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Panther_Eclipse_Series_Steel_Legs_Fabric_Gaming_Chair_Black_White-a.jpg?v=1705652545"
+    },
+    {
+      "id": "chair-easypc-000000004b28",
+      "name": "Panther Eclipse Series Nylon Legs Fabric Adjustable Height Ergonomically Designed Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "6687",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/6687-a.jpg?v=1680681681"
+    },
+    {
+      "id": "chair-easypc-000000007175",
+      "name": "Panther Eclipse Series Nylon Legs Gaming Chair Black White",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "6689",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Panther_Eclipse_Series_Nylon_Legs_Fabric_Gaming_Chair_Black_White-a.jpg?v=1705652965"
+    },
+    {
+      "id": "chair-easypc-000000000e9c",
+      "name": "Panther Stargazer Series Adjustable Height Ergonomically Designed Gaming Chair Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "PANTHER",
+        "SKU": "6690",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Panther_Stargazer_Series_Gaming_Chair_Black-a.jpg?v=1705653495"
+    },
+    {
+      "id": "chair-easypc-000000002119",
+      "name": "Raidmax Drakon DK709, Optical Design, Strong and Sturdy, Adjustable Pillows, Black/ Blue/ Red/ White Raidmax Gaming Chair 10KEN",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAIDMAX",
+        "SKU": "RADR1913",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Raidmax_Drakon_DK709_Gaming_Chair_Black_10KEN_RADR1913_-a.jpg?v=1625549377"
+    },
+    {
+      "id": "chair-easypc-000000005c39",
+      "name": "Raidmax Drakon DK922 , Ligiht Up your Gaming Style, Adjustable Pillow Design, 1D Moveable Armrest, 90-135 degree backwards movement RGB Blue/Orange Gaming Chair 10KEN",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAIDMAX",
+        "SKU": "RADR1910",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Raidmax_Drakon_DK922_RGB_Gaming_Chair_Blue_10KEN_RADR1910_-a.jpg?v=1625549101"
+    },
+    {
+      "id": "chair-easypc-000000000028",
+      "name": "Raidmax Drakon DK706, Sycthetic Leather, PU Cortex for Armrest, Export Grade Quality Gas Lever, Removable Headrest, Ergonomic Backrest, Adjustable Pillows, 2D Adjustable Armrest, Wrap around seat Black/ Blue/Red/ White Gaming Chair 10KEN",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAIDMAX",
+        "SKU": "RADR1917",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/genie_20210706113306163_5488834738.jpg?v=1625542553"
+    },
+    {
+      "id": "chair-easypc-000000006e35",
+      "name": "Noblechairs Epic Gaming Chair Real Leather 4D Armrest",
+      "category": "chair",
+      "specs": {
+        "Brand": "Noblechair",
+        "SKU": "NOEP1895",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Brand_New_Noblechairs_Epic_Gaming_Chair_Black_Real_Leather_Luxury_Real_Leather_Gaming_Chair_Superior_ergonomics_4D_armrest_can_hold_up_to_265_lbs_Award-winning_brand_Black_Whi-a.jpg?v=1621927017"
+    },
+    {
+      "id": "chair-easypc-00000000052c",
+      "name": "Brand New Noblechairs Epic Gaming Chair PU Leather Luxury Gaming Chair, Superior ergonomics, 4D armrest, can hold up to 265 lbs, Award-winning brand/ Blue/Gold/Red/Green/Pink/White/Black10KEN",
+      "category": "chair",
+      "specs": {
+        "Brand": "Noblechair",
+        "SKU": "NOEP1898",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Brand_New_Noblechairs_Epic_Gaming_Chair_PU_Leather_Luxury_Gaming_Chair_Superior_ergonomics_4D_armrest_can_hold_up_to_265_lbs_Award-winning_brand_BlueGoldRedGreenPinkWhiteBlack-a.jpg?v=1621927273"
+    },
+    {
+      "id": "chair-easypc-00000000073d",
+      "name": "Brand New Noblechairs Hero Gaming Chair Real Leather Premium Real Leather good for Gaming and Office Chair, Superior ergononics, 4D armrest, can hold up to 330 lbs, Award-winning brand/Black/Red/10KEN",
+      "category": "chair",
+      "specs": {
+        "Brand": "Noblechair",
+        "SKU": "NOHE1884",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Brand_New_Nobelchairs_Hero_Gaming_Chair_Real_Leather_Premium_Real_Leather_good_for_Gaming_and_Office_Chair_Superior_ergononics_4D_armrest_can_hold_up_to_330_lbs_Award-winning-a.jpg?v=1621926575"
+    },
+    {
+      "id": "chair-easypc-000000006b71",
+      "name": "ROG Chariot RGB gaming chair in racing car style featuring memory foam lumbar support, 4D armrests, tilt mechanism and durable class 4 gas lift Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Brand": "ROG",
+        "SKU": "3886",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3886-a_8efbc56d-5c79-4884-9e92-3bd682ada460.jpg?v=1629797478"
+    },
+    {
+      "id": "chair-easypc-000000004bc2",
+      "name": "Motospeed G2 Gaming Chair Black and White MOG21425 4PHIL",
+      "category": "chair",
+      "specs": {
+        "Brand": "MOTOSPEED",
+        "SKU": "MOG21425",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/MOG21425.jpg?v=1629736946"
+    },
+    {
+      "id": "chair-easypc-00000000160e",
+      "name": "Rakk Casap Gaming Chair Red",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "2218",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/538-A.jpg?v=1629730712"
+    },
+    {
+      "id": "chair-easypc-000000000d45",
+      "name": "Rakk Kusgan Gaming Chair Red",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "1850",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/541-a.jpg?v=1589654133"
+    },
+    {
+      "id": "chair-easypc-000000001110",
+      "name": "Raidmax DK922 RGB Gaming Chair Red",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAIDMAX",
+        "SKU": "1474",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3099-a.jpg?v=1588509593"
+    },
+    {
+      "id": "chair-easypc-000000004c95",
+      "name": "Acer Predator League Gaming Chair 2020",
+      "category": "chair",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "1455",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3049-a.jpg?v=1588509553"
+    },
+    {
+      "id": "chair-easypc-0000000042ac",
+      "name": "Rakk ALO Gaming Chair Green",
+      "category": "chair",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "171",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/420-a.jpg?v=1588506233"
+    },
+    {
+      "id": "chair-pcworx-000000007c94",
+      "name": "Galax GC-01 Gaming Chair",
+      "category": "chair",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000054703",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000054703.jpg?v=1737355633"
+    },
+    {
+      "id": "chair-pcworx-00000000658a",
+      "name": "TTracing TTRDUOV4PROMRVLSPDM-001 Duo V4 Pro Gaming Chair Spider Man Edition",
+      "category": "chair",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000071836",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/30SHOPIFYTTracingTTRDUOV4PROMRVLSPDM-001DuoV4ProGamingChairSpiderManEdition.jpg?v=1764056475"
+    },
+    {
+      "id": "chair-pcworx-000000004800",
+      "name": "Darkflash AK-K7012-BK Gaming Chair Red",
+      "category": "chair",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000050392",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/MSI_3_630e679c-8e5f-4dca-b16a-db1fb429d384.png?v=1758523837"
+    },
+    {
+      "id": "chair-pc-express-000000004e62",
+      "name": "ASUS ROG Aethon SL201 Gaming Chair - Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "CHAIR-ASUS-000001",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CHAIR-ASUSROGSL201AETHONBLK7.jpg?v=1763346098"
+    },
+    {
+      "id": "chair-pc-express-00000000137d",
+      "name": "COUGAR Armor S Gaming Chair - Black/Orange PVC Leather",
+      "category": "chair",
+      "specs": {
+        "Brand": "Cougar",
+        "SKU": "CHAIR-COUGAR-000003",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CHAIR-COUGARARMOR-SBLKORANGEPVCLEATHE1.jpg?v=1758166363"
+    },
+    {
+      "id": "chair-pc-express-00000000550b",
+      "name": "COUGAR Explore Gaming Chair - Black/Orange",
+      "category": "chair",
+      "specs": {
+        "Brand": "Cougar",
+        "SKU": "CHAIR-COUGAR-000004",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CHAIR-COUGAR-EXPLOREGAMINGCHAIRBLKORANGE1.jpg?v=1758163394"
+    },
+    {
+      "id": "chair-pc-express-000000005648",
+      "name": "COUGAR Explore Racing Gaming Chair - Black/Orange",
+      "category": "chair",
+      "specs": {
+        "Brand": "Cougar",
+        "SKU": "CHAIR-COUGAR-000005",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CHAIR-COUGAR-EXPLORERACINGGAMINGCHAIR_BLKO_1.jpg?v=1758164741"
+    },
+    {
+      "id": "chair-pc-express-0000000064e4",
+      "name": "COUGAR Fusion S Gaming Chair - Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "Cougar",
+        "SKU": "CHAIR-COUGAR-000006",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CHAIR-COUGAR-FUSION-SBLKGAMINGCHAIR1.jpg?v=1758158182"
+    },
+    {
+      "id": "chair-pc-express-000000006bf2",
+      "name": "COUGAR Fusion S Gaming Chair - Black/Orange",
+      "category": "chair",
+      "specs": {
+        "Brand": "Cougar",
+        "SKU": "CHAIR-COUGAR-000007",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CHAIR-COUGAR-FUSION-SGAMINGCHAIR_BLKORANGE_1.jpg?v=1758160942"
+    },
+    {
+      "id": "chair-pc-express-00000000700c",
+      "name": "TTRACING AEROFLEX Ergochair - Ashy Grey",
+      "category": "chair",
+      "specs": {
+        "Brand": "TTRacing",
+        "SKU": "CHAIR-TTRACING-000024",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CHAIR-TTRACINGAEROFLEXERGOCHAIRGREY1.jpg?v=1763349805"
+    },
+    {
+      "id": "chair-pc-express-000000003e25",
+      "name": "TTRACING AEROFLEX Ergochair - Graphite Black",
+      "category": "chair",
+      "specs": {
+        "Brand": "TTRacing",
+        "SKU": "CHAIR-TTRACING-000025",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CHAIR-TTRACINGAEROFLEXERGOCHAIRGRAPHITEBLK2.jpg?v=1763347701"
+    },
+    {
+      "id": "chair-pc-express-0000000008c8",
+      "name": "TTRacing Duo V4 Pro Air Threads Fabric Gaming Chair (Dusk Black)",
+      "category": "chair",
+      "specs": {
+        "Brand": "TTRacing",
+        "SKU": "CHAIR-TTRACING-000007",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/1_35778e4f-df34-418a-b758-71f8091c6ac1.jpg?v=1691573639"
+    },
+    {
+      "id": "chair-pc-express-0000000056a4",
+      "name": "TTRacing Duo V3 Air Threads Gaming Chair (Dawn Gray)",
+      "category": "chair",
+      "specs": {
+        "Brand": "TTRacing",
+        "SKU": "CHAIR-TTRACING-000001",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/4_d0412a2b-fc9a-46f1-9d2e-f9d53c5e0c33.jpg?v=1691565199"
+    },
+    {
+      "id": "chair-pc-express-000000000637",
+      "name": "TTRacing Duo V3 Air Threads Gaming Chair (Dusk Black)",
+      "category": "chair",
+      "specs": {
+        "Brand": "TTRacing",
+        "SKU": "CHAIR-TTRACING-000002",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/1_06f86d3c-0e40-46a1-9b48-226d1b17c938.jpg?v=1691566104"
+    },
+    {
+      "id": "chair-pc-express-0000000003fa",
+      "name": "TTRacing Duo V4 Pro Air Threads Fabric Gaming Chair (Dawn Grey)",
+      "category": "chair",
+      "specs": {
+        "Brand": "TTR",
+        "SKU": "CHAIR-TTRACING-000006",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/1_07226d0b-5f7b-4e82-8ac1-0434d479e43e.jpg?v=1691572587"
+    },
+    {
+      "id": "chair-pc-express-000000007eb7",
+      "name": "TTRACING AIRFLEX Ergochair (Graphite Black)",
+      "category": "chair",
+      "specs": {
+        "Brand": "TTRacing",
+        "SKU": "CHAIR-TTRACING-000011",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CHAIR-TTRACING-AIRFLEX-ERGO-GRAPHITE-BLACK-1_d2df775a-cd3e-4c6d-8d87-d0b522613064.jpg?v=1715652166"
+    }
+  ]
+}

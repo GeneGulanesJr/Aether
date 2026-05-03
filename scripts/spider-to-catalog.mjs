@@ -41,6 +41,38 @@ for (let i = 0; i < process.argv.length; i++) {
 // Mirrors spider-to-d1.mjs category rules. ORDER MATTERS - more specific first!
 // Use word boundaries (\b) to prevent partial matches (e.g., "fan" in "Fantech")
 
+// ── Per-store raw-category overrides ────────────────────────────────────────
+// Load from generated_store_rules.json to keep STORE_RULES in sync with spider output
+// Build case-insensitive per-store raw→slug map
+// Frontend category allow-list (moved up for STORE_MAP validation)
+const FRONTEND_CATEGORIES = ['cpu', 'motherboard', 'gpu', 'ram', 'storage', 'psu', 'case', 'cpu_cooler', 'monitor', 'laptop', 'desktop', 'keyboard', 'mouse', 'headset', 'speaker', 'tablet', 'printer', 'camera', 'network', 'ups', 'software', 'table', 'chair', 'projector', 'microphone', 'power-bank', 'external-storage', 'cable', 'controller', 'fans', 'other'];
+
+// Slug aliases for legacy/non-standard slugs found in store rules
+const SLUG_ALIASES = {
+  'powerbank': 'power-bank',
+  'fan': 'fans',
+}
+
+// Load raw store rules and construct normalized case-insensitive lookup
+const _rawStoreRules = JSON.parse(
+  readFileSync(resolve(ROOT, 'scrapper', 'generated_store_rules.json'), 'utf-8')
+)
+const STORE_MAP = {}
+for (const [store, mapping] of Object.entries(_rawStoreRules)) {
+  const normStore = store.trim().toLowerCase()
+  STORE_MAP[normStore] = {}
+  for (const [raw, slug] of Object.entries(mapping)) {
+    const normRaw = raw.trim().toLowerCase()
+    let finalSlug = SLUG_ALIASES[slug] || slug
+    // Force to frontend categories only
+    if (!FRONTEND_CATEGORIES.includes(finalSlug)) {
+      finalSlug = 'other'
+    }
+    STORE_MAP[normStore][normRaw] = finalSlug
+  }
+}
+
+
 const CATEGORY_RULES = [
   // CPU Cooler (check BEFORE CPU to avoid misclassification)
   [/\b(coolers?|cooling|aircool)\b/i, 'cpu_cooler'], // coolers? = cooler or coolers
@@ -85,18 +117,37 @@ const CATEGORY_RULES = [
   // Monitor
   [/\bmonitor\b/i, 'monitor'],
   [/\bdisplay\b/i, 'monitor'],
+  [/\bpower\s*bank\b/i, 'power-bank'],
 ]
 
-// Categories the frontend cares about
-const FRONTEND_CATEGORIES = ['cpu', 'motherboard', 'ram', 'gpu', 'storage', 'psu', 'case', 'cpu_cooler', 'monitor']
 
-function normalizeCategory(raw) {
+function normalizeCategory(raw, store, name) {
   if (!raw || typeof raw !== 'string') return 'other'
-  const s = raw.trim()
+  const s = raw.trim().toLowerCase()
   if (!s) return 'other'
-  for (const [pattern, slug] of CATEGORY_RULES) {
-    if (pattern.test(s)) return slug
+
+  // Tier 1: per-store overrides (store and raw normalized)
+  const normStore = store ? store.trim().toLowerCase() : ''
+  if (normStore) {
+    const storeMap = STORE_MAP[normStore]
+    if (storeMap) {
+      const slug = storeMap[s]
+      if (slug) return slug
+    }
   }
+
+  // Tier 2: patterns on raw category
+  for (const [pattern, slug] of CATEGORY_RULES) {
+    if (pattern.test(raw)) return slug
+  }
+
+  // Tier 3: name fallback
+  if (name) {
+    for (const [pattern, slug] of CATEGORY_RULES) {
+      if (pattern.test(name)) return slug
+    }
+  }
+
   return 'other'
 }
 
@@ -277,14 +328,14 @@ function main() {
   for (const item of allItems) {
     const name = (item.name || '').trim()
     if (!name) continue
-
-    const category = normalizeCategory(item.category)
+    const store = (item.store || 'unknown').trim()
+    const category = normalizeCategory(item.category, store, name)
     if (!FRONTEND_CATEGORIES.includes(category)) continue
 
     // Skip items with no price info
     if (!item.price && item.price !== 0) continue
 
-    const store = (item.store || 'unknown').trim()
+
     const brand = (item.brand || '').trim() || (name.split(/\s/)[0] || '')
     const nameKey = simplifyName(name, category).toLowerCase()
 

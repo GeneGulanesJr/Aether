@@ -777,13 +777,15 @@
       "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/07/SST-SX500-G-btz-2.jpg-1-300x300.webp"
     },
     {
-      "id": "psu-bermor-techzone-000000001c14",
-      "name": "Silverstone Strider SST-ST750-EF 750W 80+ True Rated Power Supply",
+      "id": "psu-pc-express-0000000056ac",
+      "name": "SILVERSTONE Strider SST-ST750-EF 750W 80+ True Rated Power Supply",
       "category": "psu",
       "specs": {
-        "Availability": "out_of_stock"
+        "Brand": "SilverStone",
+        "SKU": "PS-SILVERSTONE-000016",
+        "Availability": "in_stock"
       },
-      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/07/SST-ST750-EF-btz-1.webp-300x300.webp"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-SILVERSTONE-STRIDER-SST-ST750-EF-750W-80_-1.jpg?v=1746413729"
     },
     {
       "id": "psu-bermor-techzone-0000000005f9",
@@ -2898,15 +2900,15 @@
       "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/220_d44b6ee6-7d50-4440-bf5b-baa7017eae51.png?v=1756434805"
     },
     {
-      "id": "psu-dynaquest-pc-0000000005a1",
-      "name": "Silverstone Strider SST-ST650-EFA 650W 80+ True Rated Power Supply",
+      "id": "psu-pc-express-000000002044",
+      "name": "SILVERSTONE Strider SST-ST650-EFA 650W 80+ True Rated Power Supply",
       "category": "psu",
       "specs": {
-        "Brand": "Silverstone",
-        "SKU": "PR001264",
+        "Brand": "SilverStone",
+        "SKU": "PS-SILVERSTONE-000017",
         "Availability": "in_stock"
       },
-      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/181_5359d038-9134-44bb-aa52-c9f9cb66d6c6.png?v=1754986417"
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-SILVERSTONE-STRIDER-SST-ST650-EFA-650W-80_-5.jpg?v=1746412869"
     },
     {
       "id": "psu-dynaquest-pc-000000001b10",
@@ -7272,6 +7274,1131 @@
         "Availability": "in_stock"
       },
       "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/Secure650VA455Wattswith4Sockets.png?v=1719537360"
+    },
+    {
+      "id": "psu-pc-express-0000000077b2",
+      "name": "SILVERSTONE Triton 850Rx 850W Cybenetics 80+ Gold Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "SilverStone",
+        "SKU": "PS-SILVERSTONE-000022",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-SILVERSTONE-TRITON-850RX-850W-CYBENETICS-GOLD-1.jpg?v=1752546438"
+    },
+    {
+      "id": "psu-pc-express-000000004ed4",
+      "name": "SILVERSTONE Triton 750Rx 750W Cybenetics 80+ Gold Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "SilverStone",
+        "SKU": "PS-SILVERSTONE-000021",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-SILVERSTONE-TRITON-750RX-750W-CYBENETICS-GOLD-1.jpg?v=1752545745"
+    },
+    {
+      "id": "psu-pc-express-000000001333",
+      "name": "SILVERSTONE HELA 1200R Cybenetics 1200W Platinum ATX 3.0/3.1 Fully Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "SilverStone",
+        "SKU": "PS-SILVERSTONE-000018",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-SILVERSTONE-HELA1200R-1200W-CYBENETICS-PLATINUM-1.jpg?v=1749454378"
+    },
+    {
+      "id": "psu-pc-express-00000000161a",
+      "name": "SILVERSTONE Triton 1000Rz Cybenetics Gold 1000W Fully Modular ATX Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "SilverStone",
+        "SKU": "PS-SILVERSTONE-000020",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-SILVERSTONE-TRITON-1000RZ-1000W-CYBENETICS-GOLD-1.jpg?v=1749453603"
+    },
+    {
+      "id": "psu-pc-express-000000004bb5",
+      "name": "SILVERSTONE Strider SST-ST550-EF 550W 80+ True Rated Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "SilverStone",
+        "SKU": "PS-SILVERSTONE-000015",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-SILVERSTONE-STRIDER-SST-ST550-EF-550W-80_-1.jpg?v=1746412032"
+    },
+    {
+      "id": "psu-pc-express-0000000076df",
+      "name": "SILVERSTONE DECATHLON R GMA 850W 80+ Gold Fully Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "SilverStone",
+        "SKU": "PS-SILVERSTONE-000014",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-SILVERSTONE-DECATHLON-R-GMA-850W-80_-GOLD-FULLM-1.jpg?v=1738551874"
+    },
+    {
+      "id": "psu-pc-express-000000001f19",
+      "name": "SILVERSTONE ATTIS 750W 80+ Bronze Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "SilverStone",
+        "SKU": "PS-SILVERSTONE-000013",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-SILVERSTONE-ATTIS-750W-80_-BRNZ-NON-MOD-PCIE5.0-1_860fa01a-f972-4168-9dbb-7759b289f62b.jpg?v=1752499407"
+    },
+    {
+      "id": "psu-pc-express-000000007637",
+      "name": "SILVERSTONE ATTIS 650W 80+ Bronze Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "SilverStone",
+        "SKU": "PS-SILVERSTONE-000012",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-SILVERSTONE-ATTIS-650W-80_-BRNZ-NON-MOD-PCIE5.0-1_9a5a4846-3765-4e62-9f02-13460e40dbb0.jpg?v=1752499397"
+    },
+    {
+      "id": "psu-pc-express-000000000302",
+      "name": "SILVERSTONE SST-ST60F-ES230 600W 80+ True Rated Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "SilverStone",
+        "SKU": "PS-SILVERSTONE-000003",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-SILVERSTONE-SST-ST60F-ES230-600W-80_-1.jpg?v=1699937501"
+    },
+    {
+      "id": "psu-pc-express-000000006d68",
+      "name": "SILVERSTONE SST-ST70F-ES230 700W 80+ True Rated Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "SilverStone",
+        "SKU": "PS-SILVERSTONE-000010",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-SILVERSTONE-SST-ST70F-ES230-700W-80_-1.jpg?v=1699936834"
+    },
+    {
+      "id": "psu-pc-express-000000000640",
+      "name": "SILVERSTONE VIVA 650W 80+ Bronze Non-Modular True Rated Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "SilverStone",
+        "SKU": "PS-SILVERSTONE-000006",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-SILVERSTONE-VIVA-650W-80_-BRNZ-NON-MOD-1.jpg?v=1699931697"
+    },
+    {
+      "id": "psu-pc-express-00000000736c",
+      "name": "SILVERSTONE SST-ST50F-ES230 500W 80+ True Rated Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "SilverStone",
+        "SKU": "PS-SILVERSTONE-000002",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-SILVERSTONE-SST-ST50F-ES230-500W-80_-1.jpg?v=1699581928"
+    },
+    {
+      "id": "psu-pc-express-0000000042da",
+      "name": "COOLER MASTER MWE V2 750W 80+ GOLD ATX 3.1 Fully Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Cooler Master",
+        "SKU": "PS-COOLERMASTER-000010",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-COOLER-MASTER-MWE-V2-750W-80_-GOLD-ATX3.1-F-MOD-1_052ff25f-c565-4ed8-9ff3-f4113a2c6886.jpg?v=1752499293"
+    },
+    {
+      "id": "psu-pc-express-000000001ff7",
+      "name": "COOLER MASTER G700 700W 80+ Gold Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Cooler Master",
+        "SKU": "PS-COOLERMASTER-000008",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-COOLER-MASTER-G700-700W-80_-GOLD-NON-MODULAR-1.jpg?v=1742795397"
+    },
+    {
+      "id": "psu-pc-express-000000007750",
+      "name": "COOLER MASTER G800 800W 80+ Gold Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Cooler Master",
+        "SKU": "PS-COOLERMASTER-000009",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-COOLER-MASTER-G800-800W-80_-GOLD-NON-MODULAR-1.jpg?v=1742795817"
+    },
+    {
+      "id": "psu-pc-express-000000007d4b",
+      "name": "COOLER MASTER MWE V3 650W 80+ Bronze Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Cooler Master",
+        "SKU": "PS-COOLERMASTER-000012",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-COOLER-MASTER-MWE-V3-650W-80_-BRONZE-NON-MOD-1_d432fc1a-4224-4d44-9dc1-289be24bea72.jpg?v=1752499308"
+    },
+    {
+      "id": "psu-pc-express-00000000642a",
+      "name": "GIGABYTE 550W P550S ICE 80+ Silver Non Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Gigabyte",
+        "SKU": "PS-GIGABYTE-000008",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-GIGABYTE550WP550SICE80_SILVERNONMODULAR6.jpg?v=1759205607"
+    },
+    {
+      "id": "psu-pc-express-000000007ca5",
+      "name": "COOLER MASTER MWE V2 850W 80+ GOLD ATX 3.1 Fully Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Cooler Master",
+        "SKU": "PS-COOLERMASTER-000011",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-COOLER-MASTER-MWE-V2-850W-80_-GOLD-ATX3.1-F-MOD-1_ef27b116-1b00-4961-a982-511f7e287a9e.jpg?v=1752499301"
+    },
+    {
+      "id": "psu-pc-express-000000003689",
+      "name": "NZXT C1000 1000W 80+ Gold ATX 3.1 Fully Modular Power Supply (Black)",
+      "category": "psu",
+      "specs": {
+        "Brand": "NZXT",
+        "SKU": "PS-NZXT-000008",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-NZXT-C1000-1000W-80_-GOLD-BLACK-FULL-MOD-ATX3.1-1_a77f9f01-6ba2-4372-a310-7d28110a4511.jpg?v=1752499371"
+    },
+    {
+      "id": "psu-pc-express-00000000262d",
+      "name": "COOLER MASTER MWE V3 750W 80+ Bronze Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Cooler Master",
+        "SKU": "PS-COOLERMASTER-000013",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-COOLER-MASTER-MWE-V3-750W-80_-BRONZE-NON-MO-1_5d7bee26-296c-4b20-bb6b-bddf1935eb7b.jpg?v=1752499316"
+    },
+    {
+      "id": "psu-pc-express-00000000425f",
+      "name": "GIGABYTE 550W P550S 80+ Silver Non Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Gigabyte",
+        "SKU": "PS-GIGABYTE-000007",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-GIGABYTE550WP550S80_SILVERNONMODULAR6.jpg?v=1759205620"
+    },
+    {
+      "id": "psu-pc-express-0000000078f2",
+      "name": "THERMALTAKE TR2 SP 550W 80+ Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Thermaltake",
+        "SKU": "PS-THERMALTAKE-000018",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-THERMALTAKE-TR2-SP-550W-80_-1.jpg?v=1752126473"
+    },
+    {
+      "id": "psu-pc-express-000000002b0b",
+      "name": "THERMALTAKE Smart BX3 750W 80+ Bronze ATX 3.1 Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Thermaltake",
+        "SKU": "PS-THERMALTAKE-000023",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-THERMALTAKE-SMART-BX3-750W-80_-BRONZE-ATX-3.1-1.jpg?v=1747975256"
+    },
+    {
+      "id": "psu-pc-express-0000000064d6",
+      "name": "THERMALTAKE Smart BX3 650W 80+ Bronze ATX 3.1 Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Thermaltake",
+        "SKU": "PS-THERMALTAKE-000022",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-THERMALTAKE-SMART-BX3-650W-80_-BRONZE-ATX-3.1-1.jpg?v=1747974679"
+    },
+    {
+      "id": "psu-pc-express-00000000615f",
+      "name": "THERMALTAKE Smart BX3 550W 80+ Bronze ATX 3.1 Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Thermaltake",
+        "SKU": "PS-THERMALTAKE-000021",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-THERMALTAKE-SMART-BX3-550W-80_-BRONZE-ATX-3.1-1.jpg?v=1747973749"
+    },
+    {
+      "id": "psu-pc-express-000000007d43",
+      "name": "THERMALTAKE TR2 SP 750W 80+ Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Thermaltake",
+        "SKU": "PS-THERMALTAKE-000020",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/1.1_aadcf762-96ba-45e0-828b-099a0ac26c93.jpg?v=1752499421"
+    },
+    {
+      "id": "psu-pc-express-0000000004e4",
+      "name": "THERMALTAKE TR2 SP 650W 80+ Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Thermaltake",
+        "SKU": "PS-THERMALTAKE-000019",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-THERMALTAKE-TR2-SP-650W-80_-1.jpg?v=1725601277"
+    },
+    {
+      "id": "psu-pc-express-00000000539e",
+      "name": "THERMALTAKE Litepower 550W Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Thermaltake",
+        "SKU": "PS-THERMALTAKE-000001",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-THERMALTAKE-LITEPOWER-550W-1.jpg?v=1699928162"
+    },
+    {
+      "id": "psu-pc-express-0000000002f4",
+      "name": "THERMALTAKE Litepower 650W Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Thermaltake",
+        "SKU": "PS-THERMALTAKE-000002",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-THERMALTAKE-LITEPOWER-650W-1.jpg?v=1700530013"
+    },
+    {
+      "id": "psu-pc-express-000000006587",
+      "name": "ASUS Prime 650W 80+ Bronze Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "PS-ASUS-000019",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-ASUS-PRIME-650W-80_-BRONZE-NON-MODULAR-1.jpg?v=1753060535"
+    },
+    {
+      "id": "psu-pc-express-0000000017b6",
+      "name": "ASUS PRIME 850W 80+ Gold Full-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "PS-ASUS-000016",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-ASUS-PRIME-850W-80_-GOLD-FULL-MOD-1.jpg?v=1752633000"
+    },
+    {
+      "id": "psu-pc-express-000000001d6f",
+      "name": "ASUS ROG STRIX 1000W 80+ Platinum ATX 3.1 Fully Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "PS-ASUS-000014",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-ASUS-ROG-STRIX-1000W-80_-PLATINUM-ATX3.1-F.MOD-1.jpg?v=1741675133"
+    },
+    {
+      "id": "psu-pc-express-000000002797",
+      "name": "ASUS ROG STRIX 1200W 80+ Platinum Fully Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "PS-ASUS-000020",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-ASUS-ROG-STRIX-1200W-80_-PLATINUM-FULL-MOD-1.jpg?v=1747806542"
+    },
+    {
+      "id": "psu-pc-express-000000002490",
+      "name": "ASUS ROG THOR III 1600W 80+ Titanium Full Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "PS-ASUS-000025",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-ASUSROGTHORIII1600W80_TITANIUMFULLMOD5.jpg?v=1755504664"
+    },
+    {
+      "id": "psu-pc-express-000000002404",
+      "name": "ASUS TUF 750W 80+ Bronze Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "PS-ASUS-000002",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/1.PS-ASUS-TUF-750W-80_-BRONZE-NON-MOD.jpg?v=1695609407"
+    },
+    {
+      "id": "psu-pc-express-0000000021cc",
+      "name": "ASUS TUF GAMING 650B 650W 80+ Bronze Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "PS-ASUS-000001",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-ASUS-TUF-650W-80_-BRONZE-NON-MOD-1.jpg?v=1700532458"
+    },
+    {
+      "id": "psu-pc-express-00000000091c",
+      "name": "ASUS TUF GAMING 750W 80+ Gold Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "PS-ASUS-000008",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/1.PS-ASUS-TUF-GAMING-750W-80_-GOLD.jpg?v=1693550491"
+    },
+    {
+      "id": "psu-pc-express-000000007be7",
+      "name": "ANTEC ATOM B650 650W 80+ BRONZE Non-Modular True Rated Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Antec",
+        "SKU": "PS-ANTEC-000002",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-ANTECATOMB650650W80_BRNZ-5.jpg?v=1699579420"
+    },
+    {
+      "id": "psu-pc-express-0000000018e1",
+      "name": "ANTEC CSK550 DC 550W 80+ Bronze Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Antec",
+        "SKU": "PS-ANTEC-000015",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-ANTECCSK550DC550W80_BRONZENON-MOD5.jpg?v=1756708201"
+    },
+    {
+      "id": "psu-pc-express-000000007fb1",
+      "name": "ANTEC CSK750 DC 750W 80+ Bronze Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Antec",
+        "SKU": "PS-ANTEC-000016",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-ANTECCSK750DC750W80_BRONZENON-MOD2.jpg?v=1756710721"
+    },
+    {
+      "id": "psu-pc-express-00000000512e",
+      "name": "ANTEC CSK750H 750W 80+ BRONZE Semi-Modular True Rated Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Antec",
+        "SKU": "PS-ANTEC-000003",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-ANTEC-CSK750H-750W-80_-BRONZE-SEMI-MOD-1.jpg?v=1698457677"
+    },
+    {
+      "id": "psu-pc-express-000000003644",
+      "name": "ANTEC G650 TH 650W 80+ Gold Semi-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Antec",
+        "SKU": "PS-ANTEC-000013",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-ANTEC-G650-TH-650W-80_-GOLD-SEMI-MODULAR-1.jpg?v=1762137320"
+    },
+    {
+      "id": "psu-pc-express-000000003b67",
+      "name": "ANTEC META V550 550W ATX 12 Ver 2.31 Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Antec",
+        "SKU": "PS-ANTEC-000012",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-ANTEC-META-V550-550W-ATX12-VER2.31-1.jpg?v=1738550670"
+    },
+    {
+      "id": "psu-pc-express-000000005522",
+      "name": "ANTEC NE 650GOLD M 650W 80+ GOLD Full Modular True Rated Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Antec",
+        "SKU": "PS-ANTEC-000004",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/2_823bd509-6e85-4721-8e51-38bc9d0a650f.jpg?v=1682668170"
+    },
+    {
+      "id": "psu-pc-express-00000000447d",
+      "name": "ANTEC NE 850GOLD M 850W 80+ GOLD Full Modular True Rated Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Antec",
+        "SKU": "PS-ANTEC-000005",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/2-27.jpg?v=1682668161"
+    },
+    {
+      "id": "psu-pc-express-000000003a84",
+      "name": "ANTEC NE1000G M 1000W 80+ Gold Fully Modular ATX 3.0 Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Antec",
+        "SKU": "PS-ANTEC-000008",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-ANTEC-NE1000G-M-1000W-80_-GOLD-FULL-MOD-ATX-3.0-1.jpg?v=1705738773"
+    },
+    {
+      "id": "psu-pc-express-000000001478",
+      "name": "ANTEC NE1300G M 1300W 80+ Gold Fully Modular ATX 3.0 Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Antec",
+        "SKU": "PS-ANTEC-000018",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-ANTEC-NE1300G-M-1300W-80_-GOLD-FULL-MOD-ATX-3.0-1.png?v=1757309646"
+    },
+    {
+      "id": "psu-pc-express-00000000539e",
+      "name": "ANTEC NeoEco 750W Gold Modular 850W 80+ Gold Full Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Antec",
+        "SKU": "PS-ANTEC-000017",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-ANTECNE750GOLDM850W80_GOLDFULLMOD1.jpg?v=1756712539"
+    },
+    {
+      "id": "psu-pc-express-000000003a37",
+      "name": "GIGABYTE 650W GP-P650G 80+ Gold Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Gigabyte",
+        "SKU": "PS-GIGABYTE-000004",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/1_fb01f7b3-682f-4606-9815-21cf47e9c393.jpg?v=1752499323"
+    },
+    {
+      "id": "psu-pc-express-000000002578",
+      "name": "GIGABYTE 750W GP-UD750GM 80+ GOLD Fully Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Gigabyte",
+        "SKU": "PS-GIGABYTE-000002",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-GIGABYTE-750W-GP-UD750GM-80_-GOLD-FULLY-MODULAR-1.jpg?v=1700529928"
+    },
+    {
+      "id": "psu-pc-express-000000006b68",
+      "name": "GIGABYTE 750W GP-UD750GM-PG5 80+ Gold Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Gigabyte",
+        "SKU": "PS-GIGABYTE-000005",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-GIGABYTE-750W-GP-UD750GM-PG5-80_GOLD-MODULAR-1_264baa3f-537c-48d1-803a-7f916c7ea047.jpg?v=1752499332"
+    },
+    {
+      "id": "psu-pc-express-000000002e6d",
+      "name": "MSI 650W MAG A650BN 80+ Bronze True Rated Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "MSI",
+        "SKU": "PS-MSI-000001",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-MSI-650W-MAG-A650BN-80_-BRONZE-1.jpg?v=1699925723"
+    },
+    {
+      "id": "psu-pc-express-0000000049ae",
+      "name": "MSI 750W MAG A750GL ATX 3.1 80+ Gold Fully Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "MSI",
+        "SKU": "PS-MSI-000007",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-MSI-750W-MAG-A750GL-ATX3.1-80_-GOLD-FULL-MOD-1_3f844aeb-7f54-4ec6-a91f-971de84a02e2.jpg?v=1752499343"
+    },
+    {
+      "id": "psu-pc-express-000000003ccf",
+      "name": "MSI 750W MAG A750GN ATX 3.1 80+ Gold Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "MSI",
+        "SKU": "PS-MSI-000013",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-MSI-750W-MAG-A750GN-ATX3.1-80_-GOLD-NON-MODULAR-2_5369c3db-7f2c-44dc-b5e1-b74f820cc564.jpg?v=1752499349"
+    },
+    {
+      "id": "psu-pc-express-0000000059ee",
+      "name": "MSI 850W MAG A850GL ATX 3.1 80+ Gold Fully Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "MSI",
+        "SKU": "PS-MSI-000008",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-MSI-850W-MAG-A850GL-ATX3.1-80_-GOLD-FULL-MOD-1_e57642fd-f2f1-43a0-9c39-c9da7e448e91.jpg?v=1752499357"
+    },
+    {
+      "id": "psu-pc-express-000000002822",
+      "name": "MSI 850W MAG A850GN ATX 3.1 80+ Gold Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "MSI",
+        "SKU": "PS-MSI-000012",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-MSI-850W-MAG-A850GN-ATX3.1-80_-GOLD-NON-MODULAR-4_fc3486a8-1b8f-45bb-8c14-3dd9c30ef3d6.jpg?v=1752499363"
+    },
+    {
+      "id": "psu-pc-express-000000005ba1",
+      "name": "MSI MAG A1000GL 1000W 80+ Gold ATX 3.1 Full-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "MSI",
+        "SKU": "PS-MSI-000015",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-MSI-1000W-MAG-A1000GL-80_GOLD-ATX3.1-FULL-MOD-1.jpg?v=1751521637"
+    },
+    {
+      "id": "psu-pc-express-00000000463b",
+      "name": "ASUS TUF GAMING 850W 80+ Gold Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "PS-ASUS-000004",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/1.PS-ASUS-TUF-GAMING-850W-80_-GOLD.jpg?v=1693552228"
+    },
+    {
+      "id": "psu-pc-express-00000000435a",
+      "name": "ASUS Prime 750W 80+ Bronze Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "PS-ASUS-000024",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-ASUS-PRIME-750W-80_-BRONZE-NON-MODULAR-1.jpg?v=1757308941"
+    },
+    {
+      "id": "psu-pc-express-000000006cdf",
+      "name": "MSI MAG A500N-H 500W 1200MM Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "MSI",
+        "SKU": "PS-MSI-000016",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-MSI500WMAGA500N-HNON-MOD1_d32a9a2b-4ac3-4482-9fc7-4301917a58b1.jpg?v=1757312922"
+    },
+    {
+      "id": "psu-pc-express-000000004a86",
+      "name": "MSI MAG 550W A550BN 80+ Bronze Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "MSI",
+        "SKU": "PS-MSI-000017",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-MSI550WMAGA550BN80_BRONZE1.jpg?v=1759224308"
+    },
+    {
+      "id": "psu-pc-express-000000000854",
+      "name": "ASUS TUF Gaming EVO 750W 80+ Gold (90YE00SB-B0ZA00) ATX Power Supply - Black",
+      "category": "psu",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "PS-ASUS-000026",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/AS88BB_1.jpg?v=1774849047"
+    },
+    {
+      "id": "psu-pc-express-000000003394",
+      "name": "ASUS TUF Gaming EVO 850W 80+ Gold (90YE00SA-B0ZA00) ATX Power Supply - Black",
+      "category": "psu",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "PS-ASUS-000027",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/ASUSTUFGamingGoldEVO850W_90YE00SA-B0ZA00_ATXPowerSupply-Black1.jpg?v=1774852742"
+    },
+    {
+      "id": "psu-pc-express-00000000187d",
+      "name": "GIGABYTE 650W 80+ Gold (GP-P650G PG5) PCIe 5.1 ATX 3.1 Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Gigabyte",
+        "SKU": "PS-GIGABYTE-000010",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-GIGABYTE-0000102.jpg?v=1767841927"
+    },
+    {
+      "id": "psu-pc-express-0000000057a4",
+      "name": "HUNTKEY 750W MVP K750 80+ GOLD RATED Fully-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Huntkey",
+        "SKU": "PS-HUNTKEY-000002",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-HUNTKEY-750W-MVP-K750-80_-GOLD-FULL-MOD-1.jpg?v=1699923208"
+    },
+    {
+      "id": "psu-pc-express-0000000028ca",
+      "name": "HUNTKEY GX650 PRO Bronze 650W 80+ Power Supply Non-Modular",
+      "category": "psu",
+      "specs": {
+        "Brand": "Huntkey",
+        "SKU": "PS-HUNTKEY-000005",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-HUNTKEY-GX650-PRO-650W-80_-BRNZE-FULL-MOD-3_4e8f314f-85a2-4221-b8e3-fe914a86776f.jpg?v=1717565140"
+    },
+    {
+      "id": "psu-pc-express-00000000001a",
+      "name": "HUNTKEY WD650K 650W 80+ Gold Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Huntkey",
+        "SKU": "PS-HUNTKEY-000004",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-HUNTKEY-WD650K-650W-80_-GOLD-NON-MOD-1.jpg?v=1705890588"
+    },
+    {
+      "id": "psu-pc-express-000000006a27",
+      "name": "INPLAY GS550 Ultra 80+ Bronze Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "Inplay",
+        "SKU": "PS-INPLAY-000003",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-INPLAYGS550ULTRA80_BRNZENON-MOD3.jpg?v=1759219163"
+    },
+    {
+      "id": "psu-pc-express-00000000521e",
+      "name": "NZXT C1200 1200W 80+ Gold ATX 3.1 Fully Modular Power Supply (Black)",
+      "category": "psu",
+      "specs": {
+        "Brand": "NZXT",
+        "SKU": "PS-NZXT-000009",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/1.PS-NZXT-C1200-1200W-80_GOLD-BLACK-FULL-MOD-ATX-3.1_4a1c140b-7b73-4a01-b8df-04f5fe92ce1e.jpg?v=1752499380"
+    },
+    {
+      "id": "psu-pc-express-000000002e7d",
+      "name": "NZXT C1200 1200W 80+ Gold ATX 3.1 Fully Modular Power Supply (White)",
+      "category": "psu",
+      "specs": {
+        "Brand": "NZXT",
+        "SKU": "PS-NZXT-000010",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-NZXT-C1200-1200W-80_GOLD-WHITE-FULL-MOD-ATX-3.1-1.jpg?v=1737947891"
+    },
+    {
+      "id": "psu-pc-express-000000007874",
+      "name": "NZXT C1200 1200W 80+ Gold Fully Modular ATX 3.0 True Rated Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "NZXT",
+        "SKU": "PS-NZXT-000004",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-NZXT-C1200-1200W-80_GOLD-FULL-MOD-ATX-3.0-1.jpg?v=1699941094"
+    },
+    {
+      "id": "psu-pc-express-0000000010e7",
+      "name": "NZXT C750 750W 80+ Bronze Non-Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Brand": "NZXT",
+        "SKU": "PS-NZXT-000005",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PS-NZXT-C750-750W-80_-BRONZE-NON-MODULAR-1.jpg?v=1705891834"
+    },
+    {
+      "id": "psu-villman-0000000036e5",
+      "name": "XIGMATEK X-POWER 600W 80+ Power Supply (Matte Black)",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000000274",
+      "name": "HUNTKEY WD500K 500W 80PLUS GOLD POWER SUPPLY",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000003c57",
+      "name": "Gigabyte GP-P650B 650W 80 PLUS BRONZE POWER SUPPLY",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-0000000056b5",
+      "name": "Aerocool Rave 800W 80+ Power Supply",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000001ef8",
+      "name": "NZXT C550 Bronze Semi-Modular ATX PSU",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000007177",
+      "name": "GIGABYTE GP-P650G 650W 80 Plus Gold Power Supply",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000002cc1",
+      "name": "Corsair CV650 - 650 Watt 80 Plus Bronze Certifies PSU",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000002ab3",
+      "name": "Cooler Master MWE 750 White V2 80 Plus Standard 230V EU Certified Power Supply with DC-To-DC+LLC",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000000a10",
+      "name": "NZXT C650 Bronze Semi-Modular ATX PSU",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000003947",
+      "name": "Corsair CX550M - 550 Watt 80 PLUS Bronze Certified Modular ATX PSU (CS-CP-9020102-NA)",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000003840",
+      "name": "Asus TUF GAMING 550B 550W 80 Plus BRONZE PSU",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-00000000210e",
+      "name": "Cooler Master MWE 750 Bronze 80 PLUS Bronze Certified Power Supply",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000005408",
+      "name": "Asus TUF GAMING 750B 750W 80 PLUS BRONZE PSU",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000007343",
+      "name": "Asus TUF GAMING 650B 650W 80 Plus BRONZE PSU",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000004c04",
+      "name": "Cooler Master MWE Gold 650 Full Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000005f9d",
+      "name": "Gigabyte UD750GM 750W 80 PLUS GOLD FULLY MODULAR POWER SUPPLY",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-0000000042b3",
+      "name": "Corsair CX750M - 750 Watt 80 PLUS Bronze Certified SEMI Modular ATX PSU",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000003c8d",
+      "name": "Asus PRIME AP-750G 750W 80+ GOLD FULLY MODULAR POWER SUPPLY",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-0000000022b4",
+      "name": "Cooler Master MWE Gold 750 Full Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-0000000059b9",
+      "name": "MSI MPG A750GF 750W 80+ Gold Fully Modular ATX Power Supply",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000004061",
+      "name": "Gigabyte GP-UD850GM 850W 80 Plus Gold Fully Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000000e4f",
+      "name": "MSI MPG A850GF 850W 80+ Gold Fully Modular ATX Power Supply",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-0000000021d2",
+      "name": "MSI MAG A850GL PCIE5 850W 80 GOLD MODULAR POWER SUPPLY",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-0000000053e9",
+      "name": "Corsair RM750 - 750 Watt 80 PLUS Gold Certified Fully Modular PSU",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-0000000007da",
+      "name": "Asus ROG STRIX 650W Fully Modular Power Supply 80Plus Gold",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000005307",
+      "name": "Corsair RM850e 850 Watt ATX 3.0 80 PLUS GOLD Certified Fully Modular Power Supply",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000005ba8",
+      "name": "Cooler Master V GOLD V2 850W Black FULL MODULAR 80 PLUS GOLD Power Supply",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000001812",
+      "name": "SEASONIC FOCUS PLUS 1000 GOLD SSR-1000FX",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-0000000012e4",
+      "name": "Asus ROG STRIX 750W Fully Modular Power Supply 80Plus Gold",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000002911",
+      "name": "Asus ASUS ROG STRIX 850G BLACK 850W 80 PLUS GOLD FULLY MODULAR PSU",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-0000000061ae",
+      "name": "Asus ASUS ROG STRIX 850G WHITE 850W 80 PLUS GOLD FULLY MODULAR PSU",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000006d2d",
+      "name": "MSI MPG A1000G PCIE5 1000w Gold",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000005a68",
+      "name": "Corsair RM1000X 1000WATTS 80 PLUS GOLD CS-CP-9020253-NA FULLY MODULAR POWER SUPPLY",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-0000000059c5",
+      "name": "Asus ROG Thor 850 Certified 850W Fully-Modular RGB Power Supply with LiveDash OLED Panel",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000003fe5",
+      "name": "Asus ROG THOR 1000P V2 PSU",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-0000000041cf",
+      "name": "Asus ROG THOR-1200P2 GAMING 1200W PLATINUM II POWER SUPPLY",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "psu-villman-000000007a6a",
+      "name": "Asus TUF-GTX1660S-O6G-GAMING",
+      "category": "psu",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
     }
   ]
 }

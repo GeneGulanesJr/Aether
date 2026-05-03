@@ -1,0 +1,625 @@
+{
+  "schemaVersion": "1.0",
+  "category": "hub",
+  "items": [
+    {
+      "id": "hub-dynaquest-pc-000000007775",
+      "name": "Ugreen USB C Hub To 10/100/1000mb Ethernet Adapter 50737",
+      "category": "hub",
+      "specs": {
+        "Brand": "Ugreen",
+        "SKU": "12904",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500x_eb748a95-083f-4c6f-b752-7a16645ca5c4.jpg?v=1641299027"
+    },
+    {
+      "id": "hub-dynaquest-pc-000000003681",
+      "name": "USB 2.0 3+2 Hub Card Reader",
+      "category": "hub",
+      "specs": {
+        "Brand": "Unbranded",
+        "SKU": "10437",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/7_53e881c6-462d-43b6-b93f-1ce3ef522ca3.png?v=1571553896"
+    },
+    {
+      "id": "hub-dynaquest-pc-000000005803",
+      "name": "QICENT DO-5U-US-BK 39W 5-Port USB Charging Station",
+      "category": "hub",
+      "specs": {
+        "Brand": "Qicent",
+        "SKU": "158953",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/310_7a02a295-7820-4b8e-bf2a-14dd3685c3f0.png?v=1733192317"
+    },
+    {
+      "id": "hub-dynaquest-pc-000000004f3e",
+      "name": "TP-Link UH700 USB 3.0 7-Port Hub",
+      "category": "hub",
+      "specs": {
+        "Brand": "TPLink",
+        "SKU": "20121",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500x_4517d558-568c-496e-8745-af1483308a92.jpg?v=1625132626"
+    },
+    {
+      "id": "hub-dynaquest-pc-000000005bf2",
+      "name": "Wiwu T6 TYPE C 5-in-1 HUB",
+      "category": "hub",
+      "specs": {
+        "Brand": "wiwu",
+        "SKU": "91717",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/WiwuT6a.jpg?v=1587205265"
+    },
+    {
+      "id": "hub-dynaquest-pc-000000004a8b",
+      "name": "Wiwu Apollo A931HRT USB – C Hub",
+      "category": "hub",
+      "specs": {
+        "Brand": "Wiwu",
+        "SKU": "91715",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/WiwuApolloA931HRT.jpg?v=1587204069"
+    },
+    {
+      "id": "hub-dynaquest-pc-000000002fd6",
+      "name": "USB C 3+2 Hub Card Reader",
+      "category": "hub",
+      "specs": {
+        "Brand": "Unbranded",
+        "SKU": "10436",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/3.png?v=1571553896"
+    },
+    {
+      "id": "hub-dynaquest-pc-000000002166",
+      "name": "QICENT 2 Port USB Charger WA-2U-US (Black / White)",
+      "category": "hub",
+      "specs": {
+        "Brand": "Qicent",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/QICENT_2_Port_USB_Charger_WA-2U-US_Black_-_White.jpg?v=1571552737"
+    },
+    {
+      "id": "hub-dynaquest-pc-000000007b0a",
+      "name": "TPLink UH400 USB 3.0 4-Port Portable Hub",
+      "category": "hub",
+      "specs": {
+        "Brand": "TPLink",
+        "SKU": "9689",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/TPLink_UH400.jpg?v=1571553264"
+    },
+    {
+      "id": "hub-gigahertz-000000006712",
+      "name": "Lenovo Powered USB-C Travel Hub",
+      "category": "hub",
+      "specs": {
+        "Brand": "LENOVO",
+        "SKU": "ADA-LENOVO POWERED USB-C TRAVEL HUB",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/lenovo-powered-usb-c-travel-hub-lenovo-gigahertz-820288.jpg?v=1730266064"
+    },
+    {
+      "id": "hub-gigahertz-000000005dba",
+      "name": "REMAX USB Hub",
+      "category": "hub",
+      "specs": {
+        "Brand": "REMAX",
+        "SKU": "IO-REMAX USB HUB PURPLE",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/remax-usb-hub-gigahertz-gigahertz-809077.jpg?v=1732766180"
+    },
+    {
+      "id": "hub-gigahertz-000000003e1e",
+      "name": "UGreen 15598 UGREEN USB-C 6-In-1 Multifunction Hub",
+      "category": "hub",
+      "specs": {
+        "Brand": "UGREEN",
+        "SKU": "HUB-UGREEN 15598 USB C 6 IN 1 MULTIFUNCTION ADAPTER SPACE GREY",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/ugreen-15598-ugreen-usb-c-6-in-1-multifunction-hub-ugreen-gigahertz-645561.jpg?v=1746438194"
+    },
+    {
+      "id": "hub-gigahertz-0000000008c9",
+      "name": "UGreen 15600 9 in 1 Multifunction Adapter",
+      "category": "hub",
+      "specs": {
+        "Brand": "UGREEN",
+        "SKU": "HUB-UGREEN 15600 9 IN 1 MULTIFUNCTION ADAPTER SPACE GREY",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/ugreen-15600-9-in-1-multifunction-adapter-ugreen-gigahertz-711369.jpg?v=1746438194"
+    },
+    {
+      "id": "hub-gigahertz-000000006fbb",
+      "name": "UGreen 20841 4 in 1 Multifunction Adapter",
+      "category": "hub",
+      "specs": {
+        "Brand": "UGREEN",
+        "SKU": "HUB-UGREEN 20841 4 IN 1 MULTIFUNCTION ADAPTER GREY",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/ugreen-20841-4-in-1-multifunction-adapter-ugreen-gigahertz-184101.jpg?v=1746438194"
+    },
+    {
+      "id": "hub-gigahertz-000000001c07",
+      "name": "Vention TGKBB Hub 4-Port USB 3.0",
+      "category": "hub",
+      "specs": {
+        "Brand": "Vention",
+        "SKU": "HUB-VENTION TGKBB 4 PORTS HUB",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/vention-tgkbb-hub-4-port-usb-30-vention-gigahertz-563630.jpg?v=1746438194"
+    },
+    {
+      "id": "hub-gigahertz-000000007dd3",
+      "name": "UGreen 15596 USB-C 5-In-1 Multifunction Adapter",
+      "category": "hub",
+      "specs": {
+        "Brand": "UGREEN",
+        "SKU": "HUB-UGREEN 15596 5 IN 1 MULTIFUNCTION ADAPTER",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/ugreen-15596-usb-c-5-in-1-multifunction-adapter-ugreen-gigahertz-214834.jpg?v=1747985655"
+    },
+    {
+      "id": "hub-gigahertz-000000005339",
+      "name": "UGreen 50533 USB 3.0 To USB-C Adapter",
+      "category": "hub",
+      "specs": {
+        "Brand": "UGREEN",
+        "SKU": "HUB-UGREEN 50533  USB A TO USB C SPACE GREY",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0564/4694/3414/files/ugreen-50533-usb-30-to-usb-c-adapter-ugreen-gigahertz-374090.jpg?v=1746438195"
+    },
+    {
+      "id": "hub-pcworx-00000000455e",
+      "name": "Vention TGPBB 5in1 USB-C Hub 3.0x3/RJ45 Micro B 0.15M Black",
+      "category": "hub",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000064993",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000064993.jpg?v=1748924409"
+    },
+    {
+      "id": "hub-pcworx-0000000074d7",
+      "name": "Orico PW7U-U3-10-BK-EP 7ports USB 3.0 Hub 100cm",
+      "category": "hub",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000069186",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000069186.jpg?v=1741762141"
+    },
+    {
+      "id": "hub-pcworx-000000000af7",
+      "name": "Orico W5PH4-U3-V1-BK-BP 4ports USB3.0 Hub 30cm",
+      "category": "hub",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000069185",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000069185.jpg?v=1741761141"
+    },
+    {
+      "id": "hub-pcworx-000000005294",
+      "name": "Orico PDD4U-U3-015-GY-EP 5Gbps 4 port USB 3.0 Hub 15cm",
+      "category": "hub",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000069184",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000069184_2.jpg?v=1741758210"
+    },
+    {
+      "id": "hub-pcworx-000000004f7f",
+      "name": "Orico PW3UR-C3-015-BK-EP Type C 4port USB 3.0 Hub with 1000Mbps RJ45",
+      "category": "hub",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000069180",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000069180_2.jpg?v=1741751014"
+    },
+    {
+      "id": "hub-pcworx-000000004c27",
+      "name": "Orico MC-U501P-GY-BP 5in1 Type C 4K HDMI+USB3.0+VGA+Audio+PD",
+      "category": "hub",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000069178",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000069178.jpg?v=1741748017"
+    },
+    {
+      "id": "hub-pcworx-000000007dc9",
+      "name": "Orico WB-6TS-GY-BP 6in1 TypeC 4K USB3.0 Type-A*3 HDMI*1 TF&SD*1",
+      "category": "hub",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000069177",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000069177_2.jpg?v=1741746731"
+    },
+    {
+      "id": "hub-pcworx-000000000e7f",
+      "name": "Seagate STLC16000402 16TB One Touch Desktop w/ Hub USB3.0",
+      "category": "hub",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000070223",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_e2f2f70f-1238-482f-9600-3ea75ef34da2.jpg?v=1772012652"
+    },
+    {
+      "id": "hub-pcworx-000000002d16",
+      "name": "Hikvision HS-HUB-DS401 4 Port Hub Hiksemi 4-in-1 Multiport Adapter",
+      "category": "hub",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000059504",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_ecf2f8f0-b2e2-4ce4-9563-91f36f8d35a4.jpg?v=1772781101"
+    },
+    {
+      "id": "hub-pcworx-00000000772c",
+      "name": "Hiksemi HS-HUB-DS8 8 Port Hub",
+      "category": "hub",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000059505",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000059505_2.jpg?v=1737439842"
+    },
+    {
+      "id": "hub-pcworx-000000006792",
+      "name": "Ugreen CM498/15601 10in1 USB-C To 3USB 3.0 A+HDMI+VGA+RJ45 Gigabit+SD/TF+AUX3.5m",
+      "category": "hub",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000063872",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_df12560b-cf03-4d5a-abcd-7140a91afa04.jpg?v=1773046902"
+    },
+    {
+      "id": "hub-pcworx-0000000020e4",
+      "name": "Ugreen CM219 USB-A 3.0 A 4 Ports HUB 15CM",
+      "category": "hub",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000049406",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000049406_2.jpg?v=1745204047"
+    },
+    {
+      "id": "hub-pcworx-000000004cd5",
+      "name": "UGREEN CR113/20291 USB3.0A 4PORTHUB 1MBK",
+      "category": "hub",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000050649",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000020291_2.jpg?v=1744777167"
+    },
+    {
+      "id": "hub-pcworx-0000000063b2",
+      "name": "Ugreen CM195 70411 6in1 USB-C To HDMI+2*USB 3.0 A+SD/TF+PD Converter",
+      "category": "hub",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000048552",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_139c7a18-e249-4dbf-b3e6-2cb3449f299d.jpg?v=1774257317"
+    },
+    {
+      "id": "hub-villman-000000005334",
+      "name": "UGREEN HDMI Male To Male Cable 1M (Black) (HD104/10106)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-0000000066a7",
+      "name": "UGREEN HDMI Male To Male Cable - 1.5m (Black) (HD104/60820)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-000000005733",
+      "name": "UGREEN HDMI Male To Male Cable 2M (Black) (HD104/10107)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-0000000032dc",
+      "name": "UGREEN DP Male to VGA Female Converter (Black) (DP109/20415)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-000000000dcb",
+      "name": "UGREEN DP 1.2 Male To Male Cable 1.5M (Black) (DP102/10245)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-000000003ac2",
+      "name": "UGREEN HDMI Male To Male Flat Cable 3M (Black) (ED015/50820)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-000000001eaf",
+      "name": "UGREEN 4K HDMI Male To Male Braided Cable 2m (Black) (HD119/40101)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-000000000e26",
+      "name": "UGREEN DP to HDMI Female Converter 4Kx2K 30Hz (Black) (MM137/40363)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-000000001a29",
+      "name": "UGREEN 4K HDMI Male to Male Cable 3M (Black) (HD119/40102)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-0000000040d1",
+      "name": "UGREEN Display Port Male To HDMI Male Cable 2m (Black) (DP101/10202)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-000000005185",
+      "name": "UGREEN HDMI 2.1 Male To Male Cable - 3m (Black) (HD140/80404)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-00000000632e",
+      "name": "UGREEN HDMI Male To Male Cable 5M (Black) (HD104/10109)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-0000000011c6",
+      "name": "UGREEN USB-A 3.0 To Gigabit Ethernet Adapter 10cm (Black) (CR111/20256)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-000000004d53",
+      "name": "UGREEN USB Type-C To HDMI Cable 1.5M (White) (MM121/30841)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-000000006719",
+      "name": "UGREEN USB-A 3.0 To Gigabit Ethernet Adapter Aluminum Case 10cm (Space Gray) (CM209/50922)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-00000000223a",
+      "name": "TP-Link Archer TX10UB Nano AX900 Nano Wi-Fi 6 Bluetooth 5.3 USB Adapter",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-000000006a04",
+      "name": "UGREEN HDMI Male To Male Cable 10M (Black) (HD104/10110)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-000000006473",
+      "name": "UGREEN USB 3.0 Hub with Gigabit Ethernet Adapter (Black) (20265)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-00000000297a",
+      "name": "Promate MediaLink-H1 High Definition USB-C to HDMI Adapter",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-0000000004a9",
+      "name": "Vertux Extent Multi Purpose Mouse Bungee, Headphone Stand with LED Lights & USB Hub",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-000000000158",
+      "name": "UGREEN HDMI 2.0 Male To Male Cable - 15M (Black) (HD104/10111)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-000000002b90",
+      "name": "UGREEN USB-C 6-In-1 Multifunction Adapter - 15cm (CM512/15598)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-0000000031b1",
+      "name": "UGREEN USB-C 6-In-1 Multifunctional Adapter (Space Gray) (CM195/70411)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-00000000474f",
+      "name": "UGREEN USB-C 9-In-1 Multifunction Adapter - 15cm (CM498/15600)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-0000000042c2",
+      "name": "Promate LinkHub-C USB-C Hub, Multi-Function High Speed",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-000000006c49",
+      "name": "UGREEN USB-C to 2xUSB 3.0 + HDMI + RJ45 + SD&TF + PD Converter (7-in-1) Multifunction Adapter (CM512/60515)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-00000000541d",
+      "name": "UGREEN USB-C 10-In-1 Multifunction Adapter - 15cm (CM498/15601)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-000000007694",
+      "name": "Lenovo Powered USB-C Travel Hub (4X90S92381)/13W (Max load for USB port)/1 HDMI2.0 (support up to 4K 60Hz)",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-0000000004e9",
+      "name": "DELL DA310 USB-C MOBILE ADAPTER",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-000000007de4",
+      "name": "Dell Pro Dock WD25 - USB-C Docking Station",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "hub-villman-0000000050ea",
+      "name": "Dell Pro Smart Dock SD25 | 180W | USB-C DP Alt Mode | 2.5GbE | Quad Display Support",
+      "category": "hub",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    }
+  ]
+}

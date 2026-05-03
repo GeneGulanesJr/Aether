@@ -10,7 +10,6 @@ export function BuildSummaryPanel({ slots }: BuildSummaryPanelProps) {
   return (
     <aside
       className="xai-card flex flex-col gap-4 border border-xai-border"
-      style={{ boxShadow: 'none' }}
     >
       <p className="font-mono text-xs text-xai-text-3 uppercase tracking-wider">
         Build summary

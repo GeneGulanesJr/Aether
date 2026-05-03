@@ -1,0 +1,610 @@
+{
+  "schemaVersion": "1.0",
+  "category": "projector",
+  "items": [
+    {
+      "id": "projector-ben-store-000000003057",
+      "name": "Hisense PX3-Pro Laser Ultra Short Throw Projector [150\"][4K UHD][Dolby Vision & Atmos][3000 Lumens]",
+      "category": "projector",
+      "specs": {
+        "SKU": "6252",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/35716-home_default/hisense-px3-pro-laser-ultra-short-throw-projector-150-4k-uhd-dolby-vision-atmos-3000-lumens-.jpg"
+    },
+    {
+      "id": "projector-ben-store-00000000663e",
+      "name": "Formovie Cinema Edge Ultra Short Throw Laser Projector [150\"][4K UHD][2100 Lumens]",
+      "category": "projector",
+      "specs": {
+        "SKU": "6638",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/38947-home_default/formovie-cinema-edge-ultra-short-throw-laser-projector-150-4k-uhd-2100-lumens-.jpg"
+    },
+    {
+      "id": "projector-ben-store-00000000569a",
+      "name": "Formovie Theater Ultra Short Throw Laser Projector [150\"][4K UHD][1800 Lumens]",
+      "category": "projector",
+      "specs": {
+        "SKU": "6636",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/38927-home_default/formovie-theater-ultra-short-throw-laser-projector-150-4k-uhd-1800-lumens-.jpg"
+    },
+    {
+      "id": "projector-ben-store-0000000041d9",
+      "name": "NexiGo Aurora Pro MKII Tri-Color Laser UST Projector [150\"][4K UHD][2400 Lumens]",
+      "category": "projector",
+      "specs": {
+        "SKU": "6634",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/38915-home_default/nexigo-aurora-pro-mkii-tri-color-laser-ust-projector-150-4k-uhd-2400-lumens-.jpg"
+    },
+    {
+      "id": "projector-ben-store-00000000573d",
+      "name": "Formovie Theater Premium Ultra Short Throw 4K Triple Color Laser Projector [150\"][4K UHD][2200 Lumens]",
+      "category": "projector",
+      "specs": {
+        "SKU": "6632",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/38903-home_default/formovie-theater-premium-ultra-short-throw-4k-triple-color-laser-projector-150-4k-uhd-2200-lumens-.jpg"
+    },
+    {
+      "id": "projector-ben-store-000000007c5b",
+      "name": "AWOL Vision LTV-3500 Pro XPR 4K 3D RGB Laser Projector [150\"][4K UHD][3000 Lumens]",
+      "category": "projector",
+      "specs": {
+        "SKU": "6630",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/38901-home_default/awol-vision-ltv-3500-pro-xpr-4k-3d-rgb-laser-projector-150-4k-uhd-3000-lumens-.jpg"
+    },
+    {
+      "id": "projector-ben-store-00000000780e",
+      "name": "Hisense L9Q 5000-Lumen Ultra Short Throw Triple Laser DLP Smart Projector [200\"][4k UHD][5000 Lumens]",
+      "category": "projector",
+      "specs": {
+        "SKU": "6626",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/38889-home_default/hisense-l9q-5000-lumen-ultra-short-throw-triple-laser-dlp-smart-projector-200-4k-uhd-5000-lumens-.jpg"
+    },
+    {
+      "id": "projector-ben-store-000000005ce1",
+      "name": "Hisense PT1 Ultra Short Throw Triple-Laser DLP Smart Projector [150\"][4K UHD][2500 Lumens]",
+      "category": "projector",
+      "specs": {
+        "SKU": "6621",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/38865-home_default/hisense-pt1-ultra-short-throw-triple-laser-dlp-smart-projector-150-4k-uhd-2500-lumens-.jpg"
+    },
+    {
+      "id": "projector-ben-store-000000003eea",
+      "name": "LG CineBeam S Ultra Short Throw Triple Laser DLP Smart Projector [100\"][4K UHD][500 Lumens]",
+      "category": "projector",
+      "specs": {
+        "SKU": "6620",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/38859-home_default/lg-cinebeam-s-ultra-short-throw-triple-laser-dlp-smart-projector-100-4k-uhd-500-lumens-.jpg"
+    },
+    {
+      "id": "projector-ben-store-000000007d93",
+      "name": "Epson PowerLite 685W WXGA Ultra Short Throw 3LCD Projector [100\"][1280 x 800][3500 Lumens]",
+      "category": "projector",
+      "specs": {
+        "SKU": "6360",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/36639-home_default/epson-powerlite-685w-wxga-ultra-short-throw-3lcd-projector-100-1280-x-800-3500-lumens-.jpg"
+    },
+    {
+      "id": "projector-ben-store-000000001694",
+      "name": "Epson EpiqVision Ultra LS800 Ultra Short Throw 3LCD Projector [150\"][4K][4000 Lumens]",
+      "category": "projector",
+      "specs": {
+        "SKU": "6331",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/36392-home_default/epson-epiqvision-ultra-ls800-ultra-short-throw-3lcd-projector-150-4k-4000-lumens-.jpg"
+    },
+    {
+      "id": "projector-ben-store-000000001794",
+      "name": "Epson PowerLite 815E/810E Ultra Short Throw Laser Projector[160\"][4K][5000 Lumens]",
+      "category": "projector",
+      "specs": {
+        "SKU": "6292",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/36017-home_default/epson-powerlite-815e810e-ultra-short-throw-laser-projector-160-4k-5000-lumens-.jpg"
+    },
+    {
+      "id": "projector-ben-store-000000007f2f",
+      "name": "Epson EpiqVision Ultra LS650 Ultra Short Throw 3LCD Projector [120\"][4K][3600 Lumens]",
+      "category": "projector",
+      "specs": {
+        "SKU": "6288",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/35992-home_default/epson-epiqvision-ultra-ls650-ultra-short-throw-3lcd-projector-120-4k-3600-lumens-.jpg"
+    },
+    {
+      "id": "projector-ben-store-000000000fa5",
+      "name": "Epson PowerLite 770F Ultra Short Throw 3LCD Projector [150\"][1080][4100 Lumens]",
+      "category": "projector",
+      "specs": {
+        "SKU": "6283",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/35931-home_default/epson-powerlite-770f-ultra-short-throw-3lcd-projector-150-1080-4100-lumens-.jpg"
+    },
+    {
+      "id": "projector-ben-store-000000006a15",
+      "name": "Panasonic PT-CMZ50 WUXGA Ultra Short Throw Laser Projector [120\"][1920 x 1200][5200 Lumens][White]",
+      "category": "projector",
+      "specs": {
+        "SKU": "6281",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/35902-home_default/panasonic-pt-cmz50-wuxga-ultra-short-throw-laser-projector-120-1920-x-1200-5200-lumens-white-.jpg"
+    },
+    {
+      "id": "projector-ben-store-00000000780d",
+      "name": "NexiGo Aurora Lite Tri-Color Ultra Short Throw Projector [150\"][4K][Dolby Vision & Atoms][1900 Lumens]",
+      "category": "projector",
+      "specs": {
+        "SKU": "6269",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/35825-home_default/nexigo-aurora-lite-tri-color-ultra-short-throw-projector-150-4k-dolby-vision-atoms-1900-lumens-.jpg"
+    },
+    {
+      "id": "projector-ben-store-000000004849",
+      "name": "NexiGo Aurora Pro Tri-Color Ultra Short Throw Projector [150\"][4K][Dolby Vision & Atoms][2400 Lumens]",
+      "category": "projector",
+      "specs": {
+        "SKU": "6268",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/35821-home_default/nexigo-aurora-pro-tri-color-ultra-short-throw-projector-150-4k-dolby-vision-atoms-2400-lumens-.jpg"
+    },
+    {
+      "id": "projector-ben-store-0000000013b3",
+      "name": "SAMSUNG 130-Inch LPU9D The Premiere Ultra Short Throw Triple Laser Projector [130\"][4K][2500 Lumens][White]",
+      "category": "projector",
+      "specs": {
+        "SKU": "6260",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/35776-home_default/samsung-130-inch-lpu9d-the-premiere-ultra-short-throw-triple-laser-projector-130-4k-2500-lumens-white-.jpg"
+    },
+    {
+      "id": "projector-ben-store-000000004948",
+      "name": "SAMSUNG 120-Inch LPU7D The Premiere Ultra Short Throw Laser Projector [120\"][4K][2500 Lumens][White]",
+      "category": "projector",
+      "specs": {
+        "SKU": "6258",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/35766-home_default/samsung-120-inch-lpu7d-the-premiere-ultra-short-throw-laser-projector-120-4k-2500-lumens-white-.jpg"
+    },
+    {
+      "id": "projector-easypc-0000000050c4",
+      "name": "Epson EB-X41 XGA Projector with Tripod",
+      "category": "projector",
+      "specs": {
+        "Brand": "EPSON",
+        "SKU": "EP33561",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4181a.jpg?v=1597057976"
+    },
+    {
+      "id": "projector-easypc-000000001f5d",
+      "name": "Epson EB-E10 XGA 3LCD, 3-chip technology 1024 x 768 (XGA) Projector",
+      "category": "projector",
+      "specs": {
+        "Brand": "EPSON",
+        "SKU": "4955",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4955-a_8afaf480-dec8-4074-ac01-ded0b5cd0f9b.jpg?v=1655870199"
+    },
+    {
+      "id": "projector-easypc-000000003e90",
+      "name": "BenQ TK700STi 4K HDR Short Throw Console Gaming Projector",
+      "category": "projector",
+      "specs": {
+        "Brand": "BENQ",
+        "SKU": "7408",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/BenQTK700STi-a.png?v=1693870201"
+    },
+    {
+      "id": "projector-easypc-000000007d5f",
+      "name": "BenQ TK800M 4K UHD Home Theater Projector",
+      "category": "projector",
+      "specs": {
+        "Brand": "BENQ",
+        "SKU": "1192",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2495-a.jpg?v=1588508648"
+    },
+    {
+      "id": "projector-easypc-00000000669d",
+      "name": "Viewsonic M1 mini LED Pocket Projector with JBLÂ¨ Speaker, Built-in Battery 5NANO VIM12138",
+      "category": "projector",
+      "specs": {
+        "Brand": "VIEWSONIC",
+        "SKU": "VIM12138",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/VIM12138-a.jpg?v=1629741789"
+    },
+    {
+      "id": "projector-pcworx-000000004d04",
+      "name": "Acer X1228i Wireless XGA (1,024 x 768) 4,800 Ansi Lumens",
+      "category": "projector",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000061646",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_a92bf976-7e2b-4e3d-9d76-9590228f95ab.png?v=1733275632"
+    },
+    {
+      "id": "projector-pcworx-000000002928",
+      "name": "Acer X1328Wi WXGA (1280 x 800) 5000 Ansi Lumens",
+      "category": "projector",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000060816",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_0cdfaaa6-da97-4dbe-94b6-4142013147af.jpg?v=1719465415"
+    },
+    {
+      "id": "projector-pcworx-000000003a26",
+      "name": "Acer X1128H SVGA (800 x 600) 4800 Ansi Lumens",
+      "category": "projector",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000062188",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_ef1622af-ec4b-42cf-a02c-63a07ac736be.png?v=1733275523"
+    },
+    {
+      "id": "projector-pcworx-000000004230",
+      "name": "Viewsonic LS500WHE WXGA 3000 Ansi Lumens",
+      "category": "projector",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "000056070",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/PRODUCTPHOTOS_5.jpg?v=1718334937"
+    },
+    {
+      "id": "projector-pcworx-000000001b04",
+      "name": "Viewsonic M1 Mini Plus 300 Ansi Lumens LED Light Source Projector | Viewsonic Projector | Portable Projector",
+      "category": "projector",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000056072",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/4_b9433d36-f624-4850-b744-d605d994a1b3.png?v=1741938658"
+    },
+    {
+      "id": "projector-pcworx-0000000022ef",
+      "name": "Epson EB-S41 SVGA 3300 Ansi Lumens Projector",
+      "category": "projector",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000031108",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/EpsonEB-S41SVGA3300AnsiLumensProjector.png?v=1719565518"
+    },
+    {
+      "id": "projector-pcworx-000000001146",
+      "name": "Epson EB-L210W 4500 Ansi Lumens WXGA Standard-Throw Laser Projector Wireless",
+      "category": "projector",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000061075",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/EpsonEB-L210W.png?v=1738045865"
+    },
+    {
+      "id": "projector-pc-express-000000004cfe",
+      "name": "EPSON EB-X52 XGA 3LCD Projector",
+      "category": "projector",
+      "specs": {
+        "Brand": "Epson",
+        "SKU": "PRJCTR-EPSON-000020",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PRJCTR-EPSONEB-X52XGA3LCD1.jpg?v=1753408142"
+    },
+    {
+      "id": "projector-pc-express-000000001ead",
+      "name": "EPSON EB-E12 XGA 3LCD Projector",
+      "category": "projector",
+      "specs": {
+        "Brand": "Epson",
+        "SKU": "PRJCTR-EPSON-000019",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PRJCTR-EPSONEB-E12XGA3LCD3.jpg?v=1753405990"
+    },
+    {
+      "id": "projector-pc-express-000000007ee8",
+      "name": "ACER Meeting Room - X1328Wi DLP 5000 Projector",
+      "category": "projector",
+      "specs": {
+        "Brand": "Acer",
+        "SKU": "PRJCTR-ACER-000006",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PRJCTR-ACER-X1328WI-DLP-5000-ANSI-LUMENS-1.jpg?v=1698372950"
+    },
+    {
+      "id": "projector-pc-express-000000004fb7",
+      "name": "ACER X1128H 4800 ANSI Lumens Projector",
+      "category": "projector",
+      "specs": {
+        "Brand": "Acer",
+        "SKU": "PRJCTR-ACER-000005",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PRJCTR-ACER-X1128H-4800-ANSI-LUMENS-1.jpg?v=1706943855"
+    },
+    {
+      "id": "projector-pc-express-000000006f92",
+      "name": "ACER X1228i 4800 ANSI Lumens Projector",
+      "category": "projector",
+      "specs": {
+        "Brand": "Acer",
+        "SKU": "PRJCTR-ACER-000008",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PRJCTR-ACER-X1228I-4800-ANSI-LUMENS-1.jpg?v=1717484379"
+    },
+    {
+      "id": "projector-pc-express-000000001af3",
+      "name": "ACER X1229 DLP 4800 ANSI LUMENS Meeting Room Projector",
+      "category": "projector",
+      "specs": {
+        "Brand": "Acer",
+        "SKU": "PRJCTR-ACER-000011",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PRJCTR-ACER-X1229-DLP-4800-ANSI-LUMENS-1.jpg?v=1752127746"
+    },
+    {
+      "id": "projector-pc-express-0000000057d7",
+      "name": "ACER M511 (MR.JUU11.007) 4300 ANSI Lumens Smart Projector",
+      "category": "projector",
+      "specs": {
+        "Brand": "Acer",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/viber_image_2026-03-25_15-35-15-549.jpg?v=1774431347"
+    },
+    {
+      "id": "projector-pc-express-00000000123f",
+      "name": "EPSON CO-FH01 Projector",
+      "category": "projector",
+      "specs": {
+        "Brand": "Epson",
+        "SKU": "PRJCTR-EPSON-000013",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PRJCTR-EPSON-CO-FH01-1.jpg?v=1761892601"
+    },
+    {
+      "id": "projector-pc-express-000000002a72",
+      "name": "EPSON EB-E01 XGA 3LCD Projector",
+      "category": "projector",
+      "specs": {
+        "Brand": "Epson",
+        "SKU": "PRJCTR-EPSON-000004",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/1.PRJCTR-EPSON-EB-E01-XGA-3LCD-PROJECTOR.jpg?v=1693366912"
+    },
+    {
+      "id": "projector-pc-express-000000003ecf",
+      "name": "EPSON EB-W55 WXGA 3LCD Projector",
+      "category": "projector",
+      "specs": {
+        "Brand": "Epson",
+        "SKU": "PRJCTR-EPSON-000022",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/PRJCTR-EPSONEB-W55WXGA3LCD3.jpg?v=1758249372"
+    },
+    {
+      "id": "projector-silicon-valley-000000007f82",
+      "name": "Acer X1128H SVGA 4800 Lumens DLP 3D Projector",
+      "category": "projector",
+      "specs": {
+        "SKU": "X1128H",
+        "Availability": "in_stock"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "projector-silicon-valley-0000000061b1",
+      "name": "Acer X1228i XGA 4500 Lumens DLP Projector",
+      "category": "projector",
+      "specs": {
+        "SKU": "X1228i",
+        "Availability": "in_stock"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "projector-villman-000000006fb1",
+      "name": "Acer Projector C250i | 300 ANSI Lumens | FHD (1920 x 1080) | Contrast Ratio 5000:1 | 5W Speaker",
+      "category": "projector",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "projector-villman-00000000718e",
+      "name": "Epson EB-E12 XGA 3LCD Projector | 3LCD technology | 3,600 lumens | XGA resolution | 12,000 hours",
+      "category": "projector",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "projector-villman-000000002ec9",
+      "name": "Asus ZenBeam E2 mini LED Projector",
+      "category": "projector",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "projector-villman-00000000717e",
+      "name": "Acer X1128H Projector",
+      "category": "projector",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "projector-villman-0000000069ba",
+      "name": "Acer X1229 DLP Projector | 4800 ANSI Lumens | XGA (1,024 x 768) | WUXGA (1,920 x 1,200) | 23in ~ 300in",
+      "category": "projector",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "projector-villman-00000000123f",
+      "name": "Acer X1228i | XGA Resolution | 4,800 ANSI Lumens | 20,000:1 Contrast Ratio | Lamp Life 6,000 Hours | Wireless Projector",
+      "category": "projector",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "projector-villman-000000004a7d",
+      "name": "Acer Projector X1329 | 4800 ANSI Lumens | WXGA (1,280 x 800) | WUXGA (1,920 x 1,200) | 27in ~ 300in",
+      "category": "projector",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "projector-villman-0000000056b2",
+      "name": "Epson EB-X51 XGA 3LCD Projector | 3,800 lumens of color and white brightness | Native XGA resolution and 4:3 performance",
+      "category": "projector",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "projector-villman-00000000594a",
+      "name": "Epson EB-X52 XGA 3LCD Projector | 3LCD technology | 3,800 lumens | XGA resolution | Optional Wireless Capability",
+      "category": "projector",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "projector-villman-000000003369",
+      "name": "Acer X1328Wi | WXGA Resolution | 5,000 ANSI lumens | 20,000:1 Contrast Ratio | Lamp life 6,000 Hours | Wireless Projector",
+      "category": "projector",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "projector-villman-000000006135",
+      "name": "Epson EB-W53 WXGA 3LCD Projector",
+      "category": "projector",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "projector-villman-0000000072cf",
+      "name": "InFocus IN124x Network Projector",
+      "category": "projector",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "projector-villman-000000001f45",
+      "name": "ViewSonic PG603X 3,500 ANSI Lumens XGA Projector",
+      "category": "projector",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "projector-villman-000000004162",
+      "name": "Epson CO-FH02 Smart Full HD projector | Full HD 1080p projector | Keystone correction, built-in Android and HDMI | 3,000 lumen",
+      "category": "projector",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "projector-villman-00000000260d",
+      "name": "Epson EB-FH54 Full HD Wireless 3LCD Projector",
+      "category": "projector",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "projector-villman-000000006f64",
+      "name": "Epson EB 2065 XGA 3LCD Projector",
+      "category": "projector",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "projector-villman-000000007c9c",
+      "name": "Epson EB-2165W V11H817052 LUMENS 5,500 WXGA 3LCD Projector",
+      "category": "projector",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    }
+  ]
+}

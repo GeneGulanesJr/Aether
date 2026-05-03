@@ -6,7 +6,7 @@
  */
 
 import { useRef, useCallback, useEffect, type ReactNode } from 'react'
-import { useWindowManager, type WindowState } from '../../lib/windowManager'
+import { useWindowManager, type WindowState } from '../../lib/useWindowManager'
 
 interface WindowProps {
   window: WindowState

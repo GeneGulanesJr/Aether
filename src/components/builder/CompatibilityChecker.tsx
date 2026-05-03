@@ -3,25 +3,14 @@
  * xAI theme: warn/error with semantic functional tokens.
  */
 
-import { getSpec } from '../../lib/types'
+import { getPartSocket } from '../../lib/types'
 import { checkBuildCompatibility } from '../../lib/normalized/compatibility'
 
 import type { BuildSlot } from '../../lib/types'
 import type { WattageEstimate } from '../../lib/wattageEstimator'
+import type { CompatibilityIssue } from '../../lib/normalized/types'
 
-export type CompatibilityIssue = {
-  /** Machine-readable issue code */
-  code: 'socket_mismatch' | 'form_factor' | 'wattage_exceeded' | 'wattage_tight'
-    | 'no_psu' | 'ram_gen_mismatch' | 'ram_slot_exceeded' | 'ram_speed_downclock'
-    | 'cooler_socket_mismatch' | 'cooler_height' | 'cooler_height_tight'
-    | 'gpu_case_length' | 'generic'
-  /** Human-readable description */
-  message: string
-  /** Severity level */
-  severity: 'warn' | 'error'
-  /** The slots involved in this issue */
-  slots: string[]
-}
+export type { CompatibilityIssue }
 
 type CompatibilityCheckerProps = {
   slots: BuildSlot[]
@@ -45,8 +34,8 @@ function checkCompatibility(slots: BuildSlot[]): CompatibilityIssue[] {
   const mobo = getPart('motherboard')
 
   if (cpu && mobo) {
-    const cpuSocket = getSpec(cpu.specs ?? {}, 'socket')
-    const moboSocket = getSpec(mobo.specs ?? {}, 'socket')
+    const cpuSocket = getPartSocket(cpu)
+    const moboSocket = getPartSocket(mobo)
     if (cpuSocket && moboSocket && cpuSocket !== moboSocket) {
       issues.push({
         code: 'socket_mismatch',

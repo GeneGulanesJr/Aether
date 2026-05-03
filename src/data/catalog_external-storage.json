@@ -1,0 +1,3907 @@
+{
+  "schemaVersion": "1.0",
+  "category": "external-storage",
+  "items": [
+    {
+      "id": "external-storage-dynaquest-pc-000000006e64",
+      "name": "Synology BeeDrive 1TB Personal Backup Hub BDS70-1T",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Synology",
+        "SKU": "51242",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/SynologyBeeDrive1TBPersonalBackupHubBDS70-1T.jpg?v=1700707537"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000001c6a",
+      "name": "Seagate One Touch 500GB External SSD USB Type C (Black | Blue | Silver)",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Seagate",
+        "SKU": "600997",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500s.jpg?v=1737731027"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000006185",
+      "name": "Seagate One Touch 1TB External SSD USB Type C (Black | Blue | Silver)",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Seagate",
+        "SKU": "12318",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/1bs.jpg?v=1636167145"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000004e97",
+      "name": "Gigabyte SSD 1TB SATA 2.5\" GP-GSTFS31100TNTD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Gigabyte",
+        "SKU": "50013",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/GP-GSTFS31100TNTD.png?v=1615300111"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-00000000485f",
+      "name": "Kingston A400 SSD 960GB 2.5 Sata III SA400S37/960G",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "500071",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/SA400S37960G.jpg?v=1619282682"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000006f51",
+      "name": "Samsung 870 Evo SSD 500GB SATA MZ-77E500BW",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Samsung",
+        "SKU": "40021",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/MZ-77E250BW_001_Black_68f26375-1a36-45f1-8e1a-10e0a390fb65.jpg?v=1613384989"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000000613",
+      "name": "TeamGroup CX2 512GB 2.5\" Solid State Drive T253X6512G0C101",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "TeamGroup",
+        "SKU": "166764",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/TeamGroupCX22.5SolidStateDrive_aca7ef86-818f-4641-ac33-362be5171a29.jpg?v=1684901997"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000005435",
+      "name": "Crucial BX500 SSD 1TB 2.5inch SATA CT1000BX500SSD1",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Crucial",
+        "SKU": "632514",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500x_3fe86fd4-cbb0-438f-898f-dfd219f60b8b.jpg?v=1635472571"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000001a11",
+      "name": "TeamGroup CX2 256GB 2.5\" Solid State Drive T253X6256G0C101",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "TeamGroup",
+        "SKU": "166763",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/TeamGroupCX22.5SolidStateDrive.jpg?v=1684901924"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-0000000063eb",
+      "name": "Gigabyte 480GB SSD 2.5\" Sata SSD GP-GSTFS31480GNTD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Gigabyte",
+        "SKU": "90667",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/GP-GSTFS31480GNTD.png?v=1596030122"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000005767",
+      "name": "Samsung 870 Evo SSD 1TB SATA MZ-77E1T0BW",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Samsung",
+        "SKU": "40020",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/MZ-77E250BW_001_Black_9b448a17-0656-4d87-86c6-7bf9cdf6b55f.jpg?v=1613385250"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000004f4e",
+      "name": "Gigabyte 240GB SSD 2.5\" GP-GSTFS31240GNTD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Gigabyte",
+        "SKU": "6075",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/2018070417380375_src.png?v=1577086763"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000000df7",
+      "name": "Crucial MX500 500GB 3D NAND SATA 2.5 Inch Internal SSD, up to 560MBs - CT500MX500SSD1",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Crucial",
+        "SKU": "8439",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/CrucialMX500500GB3DNANDSATA2.5InchInternalSSD_upto560MBs-CT500MX500SSD1_954af732-51e1-4c58-9cab-a41477f7c636.jpg?v=1658974944"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000002b85",
+      "name": "Kingston A400 SSD 240GB 2.5 Sata III SA400S37/240G",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "8356",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/ktc-product-ssd-a400-sa400s37-120gb-1-zm-lg_6b665104-351c-4da3-8b4e-906e0b3c7008.png?v=1579932916"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-0000000037df",
+      "name": "Lexar NS100 256GB 2.5 Inch SATA III (6Gb/s) Easy Set Up SSD Solid State Drive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Lexar",
+        "SKU": "PR001116",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/460_cb1a6397-faa0-4bad-ab3b-62817ebc314d.png?v=1750216462"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-0000000012ee",
+      "name": "MSI Spatium S270 SSD 240GB SATA 2.5\"",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "MSI",
+        "SKU": "13954",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/MSISpatiumS270SSDSATA2.5_b455e7fe-e7c3-426d-beff-eb04ea1becf8.jpg?v=1667965239"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-0000000055e4",
+      "name": "Samsung T7 SHIELD Portable SSD 1TB BEIGE MU-PE1T0K/WW",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Samsung",
+        "SKU": "14155",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/SamsungT7SHIELDPortableSSD1TBBEIGEMU-PE1T0K-WW.jpg?v=1654138355"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000006dff",
+      "name": "Lexar NS10 Lite 120GB SATA 2.5 SSD LNS10LT-120BCN",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "LEXAR",
+        "SKU": "56014",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/29_75c70b64-5e3c-42c5-af88-d5572a8c73dd.png?v=1770198685"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000006a83",
+      "name": "TeamGroup CX2 2TB 2.5\" Solid State Drive T253X6002T0C101",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "TeamGroup",
+        "SKU": "PR000166",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/83_6d1331fe-2c36-4641-b5f9-8cb3b24dbd91.png?v=1741357090"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000006831",
+      "name": "Western Digital WD SSD Green 480GB 3D NAND SATA 3 2.5-Inch Internal SSD WDS480G3G0A",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Western Digital",
+        "SKU": "13216",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/132_75443cc7-63bb-4bc4-9f52-94da5212926c.png?v=1740189363"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000001a4a",
+      "name": "Samsung T9 Portable 1TB SSD Black USB 3.2 Gen 2X2 Read/Write Speeds of up to 2,000 MB/S MU-PG1T0B/WW",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Samsung",
+        "SKU": "15854",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/342.png?v=1705376770"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-0000000025cc",
+      "name": "MSI Spatium S270 SSD 960GB SATA 2.5\"",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "MSI",
+        "SKU": "19726",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/67_ae9ca299-3378-48f9-9c98-3ade3cf25a88.png?v=1711157631"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-00000000283f",
+      "name": "MSI Spatium S270 SSD 480GB SATA 2.5\"",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "MSI",
+        "SKU": "15443",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/MSISpatiumS270SSD480GBSATA2.5.jpg?v=1689563773"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-0000000005de",
+      "name": "Crucial MX500 2TB 3D NAND SATA 2.5 Inch Internal SSD CT2000MX500SSD1",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Crucial",
+        "SKU": "11998",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/CrucialMX5002TB3DNANDSATA2.5InchInternalSSDCT2000MX500SSD1.jpg?v=1670811698"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000005928",
+      "name": "Crucial BX500 2TB 3D NAND SATA 2.5\" SSD Solid State Drive CT2000BX500SSD1",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Crucial",
+        "SKU": "13914",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/CrucialBX5002TB3DNANDSATA2.5SSDSolidStateDriveCT2000BX500SSD1.jpg?v=1663038741"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000007af0",
+      "name": "Crucial MX500 4TB 3D NAND SATA 2.5 Inch Internal SSD, up to 560MBs Micron 3D TLC NAND Flash - CT4000MX500SSD1",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Crucial",
+        "SKU": "5544",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/CrucialMX500500GB3DNANDSATA2.5InchInternalSSD_upto560MBs-CT500MX500SSD1_010d4045-d75d-48f7-a7b5-9c9116472958.jpg?v=1658975185"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-0000000065de",
+      "name": "Kingston A400 SSD 480GB 2.5 Sata III SSD SA400S37/480G",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "90314",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/ktc-product-ssd-a400-sa400s37-120gb-1-zm-lg_d68c6aec-7a25-4b75-80fa-ae10c910b6a0.png?v=1579933018"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000001f1b",
+      "name": "Klevv Neo N400 240GB 2.5 SATA 6GB/s SSD K240GSSDS3-N40",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Klevv",
+        "SKU": "PR001864",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/256_fb88a158-fb06-44cc-b003-6a44596a5d6b.png?v=1773215570"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000002944",
+      "name": "Kingston XS1000 ( 1TB SXS1000/1000GA | 2TB SXS1000/2000GA ) External SSD Pocket-Sized USB 3.2 Gen 2 Type-C",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "PR001707",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/309_28d9ba24-5490-48d4-8d18-a870849f3158.png?v=1768376943"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000000339",
+      "name": "Lexar NQ100 480GB 2.5 SATA III SSD 6Gb/s Up to 550MB/s Read – LNQ100X480G-RNNNG",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Lexar",
+        "SKU": "PR001769",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/249_9d56ba6a-f73e-4f27-bcc3-31f3b627c3f0.png?v=1769660194"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000004522",
+      "name": "TeamGroup T-Force Vulcan Z 512GB 2.5\" SATA III 3D NAND Internal SSD T253TZ512G0C101",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "TeamGroup",
+        "SKU": "PR001668",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/263_083717cb-ee92-452b-8fe5-94f63cba5d32.png?v=1766303915"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000001f29",
+      "name": "TeamGroup T-Force Vulcan Z 256B 2.5\" SATA III 3D NAND Internal SSD T253TZ256G0C101",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "TeamGroup",
+        "SKU": "PR001667",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/263_8403355b-0719-4d89-a646-80ab64eb38bf.png?v=1766303189"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-0000000063f9",
+      "name": "Apacer Panther AS350 512GB 2.5 SATAIII 6gb/s, Up to 560/540 mb/s Solid State Drive AP512GAS350-1",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Apacer",
+        "SKU": "PR001620",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/85_b3e8e17e-43ae-46dc-9fc0-6e864bbc0b01.png?v=1766212011"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-0000000040fe",
+      "name": "Kingston XS2000 1TB USB-C 3.2 SXS2000/1000GA Portable SSD High-Performance External Drive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "PR001417",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/129_36afc2e1-ef50-43d2-98cf-639fa8a87d66.png?v=1759485900"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000000c99",
+      "name": "Western Digital WD SSD Blue 500GB SA510 WDS500G3B0A",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Western Digital",
+        "SKU": "7656",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/116_17d776c7-b23a-4a0f-87da-2e54e949be19.png?v=1740131380"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-00000000654f",
+      "name": "Western Digital WD SSD Green 240GB 3D Nand WDS240G3G0A",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Western Digital",
+        "SKU": "8865",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/112_beeb68d4-f88d-40f4-94b1-fb892f707790.png?v=1740130206"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-0000000069ca",
+      "name": "Kingston XS1000R 2TB SXS1000R/2000G External SSD Pocket-Sized USB 3.2 Gen 2 Up to 1050MBs",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "177788",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/166_6ea0a678-1bc2-45e2-9ad8-704f787fc268.png?v=1734917320"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000003f2b",
+      "name": "Crucial X10 Pro 4TB Portable SSD CT4000X10PROSSD9 (Pre Order)",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Crucial",
+        "SKU": "16205",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/218_b215ff36-11da-44ea-b630-975689a28e3e.png?v=1718848943"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000002ead",
+      "name": "Adata SC610 USB3.2 Gen2 TYPE-A External SSD ( 1TB SC610-1000G-CBK/RD - 2TB SC610-2000G-CBK/RD )",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Adata",
+        "SKU": "15794",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/AdataSC6101TBUSB3.2Gen2TYPE-AExternalSSDSC610-1000G-CBKRD.jpg?v=1700803915"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000002e38",
+      "name": "TeamGroup CX2 1TB 2.5\" Solid State Drive T253X6001T0C101",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "TeamGroup",
+        "SKU": "15828",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/111.png?v=1704877926"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000001b1d",
+      "name": "Kingston XS2000 Portable SSD High-Performance External Drive ( 1TB SXS2000/1000G - 500GB SXS2000/500G )",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "14060",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/KingstonXS2000PortableSSDHigh-performanceExternalDriv.jpg?v=1668226792"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000000457",
+      "name": "Kingston KC600 SSD 2.5\" SATA III 3D TLC NAND ( 256GB SKC600/256G | 512GB SKC600/512G - 1024GB SKC600/1024G - 2048GB SKC600/2048G )",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "14064",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/KingstonKC600SSD2.5SATAIII3DTLCNAND.jpg?v=1668226020"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-00000000572f",
+      "name": "Western Digital SSD BLUE 250GB SA510 2.5 WDS250G3B0A",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Western Digital",
+        "SKU": "16196",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/WesternDigitalSSDBLUE250GBSA5102.5WDS250G3B0A.jpg?v=1660011097"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000003649",
+      "name": "Crucial MX500 250GB 3D NAND SATA 2.5 Inch Internal SSD, up to 560MBs - CT250MX500SSD1",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Crucial",
+        "SKU": "11098",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/CrucialMX500500GB3DNANDSATA2.5InchInternalSSD_upto560MBs-CT500MX500SSD1.jpg?v=1658974838"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000002afb",
+      "name": "Samsung 870 EVO SSD 2TB SATA MZ-77E2T0BW",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Samsung",
+        "SKU": "13165",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/Samsung870EVOSSD2TBSATAMZ-77E2T0BW.jpg?v=1655346213"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000006587",
+      "name": "Samsung T7 SHIELD Portable SSD 2TB BEIGE MU-PE2T0K/WW",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Samsung",
+        "SKU": "98891",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/SamsungT7SHIELDPortableSSD1TBBEIGEMU-PE1T0K-WW_f3737d90-02c0-491a-bdaf-68b4cbc3dee4.jpg?v=1655085779"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000002fd4",
+      "name": "Samsung T7 TOUCH Portable SSD 2TB BLACK usb3.2 MU-PC2T0K/WW",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Samsung",
+        "SKU": "8773",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/SamsungT7TOUCHPortableSSD2TBBLACKusb3.2MU-PC2T0KWW.jpg?v=1653989663"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-0000000042ce",
+      "name": "Samsung T7 SHIELD Portable SSD 1TB BLUE MU-PE1T0R/WW",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Samsung",
+        "SKU": "13841",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/SamsungT7SHIELDPortableSSD1TBBLUEMU-PE1T0R-WW.jpg?v=1653989561"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000004a05",
+      "name": "Samsung T7 SHIELD Portable SSD 1TB BLACK MU-PE1T0S/WW",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Samsung",
+        "SKU": "13840",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/SamsungT7SHIELDPortableSSD1TBBLACKMU-PE1T0S-WW.jpg?v=1653989446"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-0000000069d0",
+      "name": "Samsung T7 PORTABLE SSD 1TB Black usb3.2 MU-PC1T0T/WW",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Samsung",
+        "SKU": "13790",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/SamsungT7PORTABLESSD1TBBLACKusb3.2MU-PC1T0T-WW1.jpg?v=1651197390"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-0000000015d9",
+      "name": "Seagate One Touch 4TB Silver Portable HDD STKZ4000401",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Seagate",
+        "SKU": "67677",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/SEAGATEONETOUCH4TBSILVERSTKZ4000401.jpg?v=1646018044"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000003148",
+      "name": "Kingston A400 SSD 1920G 2.5 Sata III SA400S37/1920G",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "564875",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500x_599317fa-71ce-4767-9b39-6317214e0f05.jpg?v=1634363615"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-00000000509b",
+      "name": "Lexar NQ100 240GB 2.5” SATA III 6Gb/s SSD LNQ100X240G-RNNNG",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Lexar",
+        "SKU": "13978",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/LexarNQ100.png?v=1630187587"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000003d93",
+      "name": "Western Digital WD Blue 1TB 3D NanD (WDS100T1B0A)",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Western Digital",
+        "SKU": "9162",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/wd-blue-3d-nand-sata-ssd-1tb-front.png.thumb.1280.1280_139e5c30-ce7d-4b71-8c0a-2821e7d75bf4.png?v=1612505420"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000006a17",
+      "name": "WD My Passport 1TB Portable WHITE WX42A93E1N8V (Free Silicon Case)",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Western Digital",
+        "SKU": "177791",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/33_45e63c0b-ef75-47b3-a881-42e044151875.png?v=1714465637"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000003a40",
+      "name": "Seagate One Touch 2TB External HDD USB (Black | Blue | Gray | Rose Gold | Red | Silver)",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Seagate",
+        "SKU": "12473",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/501x_9978f7d8-8c74-4e6a-a459-682667682649.jpg?v=1629371559"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-0000000076b6",
+      "name": "Seagate One Touch 1TB External HDD USB (Black | Blue | Red | Gray | Silver)",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Seagate",
+        "SKU": "12470",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500x_38525e22-1804-4284-a4b8-5660235e3dda.jpg?v=1630072063"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-0000000031aa",
+      "name": "Toshiba Canvio Basics 1TB USB 3.0 External Hard Drive DTB510",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Toshiba",
+        "SKU": "167901",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/ToshibaCanvioBasics1TBUSB3.0ExternalHardDriveDTB510.jpg?v=1697013148"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-00000000029e",
+      "name": "Western Digital Passport 2TB Black 2.5\" External HDD WDBYVG0020BBK",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Western Digital",
+        "SKU": "10690",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/WesternDigitalPassport2TBBlack2.5ExternalHDDWDBYVG0020BBK.jpg?v=1670384919"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000003330",
+      "name": "Samsung T7 Portable SSD 1TB Blue MU-PC1T0H/WW",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Samsung",
+        "SKU": "13027",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/SAMSUNGT7PORTABLESSD1TBBLUEMU-PC1T0H-WW.jpg?v=1647574060"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000007b3c",
+      "name": "Transcend ESD265C 500GB USB 10Gbps Up to 1050MB/s Type-C Portable SSD TS500GESD265C",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Transcend",
+        "SKU": "PR001903",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/1_d17e9d9b-f94f-4f51-b0f5-56164b3e78f7.png?v=1776223965"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000004f00",
+      "name": "WD My Passport 4TB Portable USB 3.0 Hard Drive ( Red - WDBPKJ0040BRD | Black - WDBPKJ0040BBK )",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Western Digital",
+        "SKU": "PR001770",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/19_f9ee08f4-4dd0-46db-8408-c9868b2585eb.png?v=1755657172"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000003227",
+      "name": "Lexar SL300 1TB USB 3.2 Gen 2 Type-C Portable SSD - Up To 1050MB/s Read & 1000MB/s Write LSL300001T-RNBNG",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Lexar",
+        "SKU": "PR001302",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/4_936d335d-ffb0-47ba-afa4-d6976d4404cb.png?v=1755654956"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000002bc3",
+      "name": "Transcend 1TB USB 3.1 Gen 2 USB Type-C ESD270C Portable Solid State Drive - TS1TESD270C",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Transcend",
+        "SKU": "55956",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/368_e5083719-b207-4fb3-9ae7-d410861fba03.png?v=1752291936"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-0000000058be",
+      "name": "Crucial X9 2TB CT2000X9SSD9 External Hard Drive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Crucial",
+        "SKU": "PR0000343",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/401_b30324ca-728b-402e-ab2b-7bfde9d33fe5.png?v=1746006249"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000004575",
+      "name": "Lexar Go SL400 1TB USB 3.2 Gen 2 Portable External SSD Solid State Drive - Up To 1050MB/s Read & 1000MB/s Write LSL400X001T-RNBNG",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Lexar",
+        "SKU": "PR000055",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/199_47c2d5f5-45fa-4252-aca4-240795069441.png?v=1738225263"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-00000000571b",
+      "name": "Lexar SL500 1TB USB 3.2 Gen 2x2 Portable SSD With Magnetic Set - Up To 2000MB/s Read & 1800MB/s Write LSL500X001T-RNBNG",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Lexar",
+        "SKU": "PR000056",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/192_edd34f61-1fbb-4f0d-a219-9e47b90268d3.png?v=1738222229"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000006c0f",
+      "name": "Seagate One Touch 5TB Black External Hard Drive STKZ5000400",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Seagate",
+        "SKU": "12952",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/SEAGATEONETOUCH5TBBLACKSTKZ5000400.jpg?v=1646018304"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-00000000192c",
+      "name": "Seagate One Touch 4TB Slim Portable HDD data recovery + password protect ( Black STKZ4000400 / Blue STKZ4000402 / Red STKZ4000403 )",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Seagate",
+        "SKU": "15511",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/SeagateOneTouch4TBSlimBlackPortableHDDSTKZ4000400.jpg?v=1691814730"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000004f65",
+      "name": "Seagate One Touch 5TB Slim Portable Hard Drive ( Red STKZ5000403 / Gray STKZ5000404 / Blue STKZ5000402 / Silver STKZ5000401 )",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Seagate",
+        "SKU": "15513",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/SeagateOneTouch5TBSlimRedPortableHardDriveSTKZ5000403.jpg?v=1691815084"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000007fd0",
+      "name": "Samsung T9 Portable 2TB SSD Black MU-PG2T0B/WW",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Samsung",
+        "SKU": "15855",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/335.png?v=1705374779"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000007053",
+      "name": "Seagate One Touch Hub External Hard Drive Desktop USB-C and USB 3.0 port ( 4TB STLC4000400 / 6TB STLC6000400 / 8TB STLC8000400 / 10TB STLC10000400 )",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Seagate",
+        "SKU": "15514",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/SeagateOneTouchHub.jpg?v=1691815418"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-00000000208f",
+      "name": "WD My Passport 1TB Portable Blue WDBYVG0010BBL Hard Drive (Free Silicon Case)",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Western Digital",
+        "SKU": "12003",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/WDMyPassport1TBPortableBlueWDBYVG0010BBL.jpg?v=1681359282"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-0000000077d1",
+      "name": "WD My Passport 1TB Portable RED WDBYGG0010BRD Hard Drive (Free Silicon Case)",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Western Digital",
+        "SKU": "9567",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/WDMyPassport1TBPortableREDWDBYGG0010BRD.jpg?v=1681359248"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000004564",
+      "name": "Seagate FireCuda External Gaming Hard Drive ( 1TB STKL1000400 | 2TB STKL2000400 )",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Seagate",
+        "SKU": "12593",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/firecudaa.jpg?v=1634164123"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-0000000042db",
+      "name": "WD My Passport 2TB Portable Blue External HDD WDBYVG0020BBL",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Western Digital",
+        "SKU": "11388",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/WDBYVG0020BBL-0B.jpg?v=1596569888"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-0000000042b6",
+      "name": "WD My Passport 2TB Portable Hard Drvie Red WDBYVG0020BRD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Western Digital",
+        "SKU": "10691",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/WDBYVG0020BRD.jpg?v=1596570667"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-000000006d03",
+      "name": "Toshiba Canvio Basics 2TB USB 3.0 External Hard Drive DTB520",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Toshiba",
+        "SKU": "15763",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500x_33bdceff-65f3-4f44-95af-342fbd7ae0d6.jpg?v=1618479475"
+    },
+    {
+      "id": "external-storage-dynaquest-pc-0000000049fc",
+      "name": "WD My Passport 1TB Portable Black WDBYNN0010BBK (Free Silicon Case)",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Western Digital",
+        "SKU": "9048",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/319_843b259c-b3c0-4602-b7db-71938b842e79.png?v=1775896688"
+    },
+    {
+      "id": "external-storage-easypc-000000003161",
+      "name": "Kingston Data Traveler DT100G3 32gb 3.0 Flashdrive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "KINGSTON",
+        "SKU": "357",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/927-a.jpg?v=1588506677"
+    },
+    {
+      "id": "external-storage-easypc-000000004a8c",
+      "name": "Kingston Data Traveler DT100G3 64gb Usb 3.0 Flashdrive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "KINGSTON",
+        "SKU": "2889",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4308-a.jpg?v=1629736846"
+    },
+    {
+      "id": "external-storage-easypc-000000007091",
+      "name": "Kingston DataTraveler Exodia 32GB, 64GB and 128GB, Quick and convenient lightweight storage solution Plug and Play Usb 3.2 Flashdrive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "KINGSTON",
+        "SKU": "4352",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4352-a_50896963-8617-4635-aeff-bbd6d917f4bf.jpg?v=1637056670"
+    },
+    {
+      "id": "external-storage-easypc-000000004360",
+      "name": "Kingston Data Traveler Metal DT50 32gb Flashdrive Red",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "KINGSTON",
+        "SKU": "1617",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/527-b.jpg?v=1589654132"
+    },
+    {
+      "id": "external-storage-easypc-000000007b35",
+      "name": "Kingston DataTraveler DTSWIVL 32GB 3.0 Flashdrive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "KINGSTON",
+        "SKU": "1257",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2572-a.jpg?v=1586260038"
+    },
+    {
+      "id": "external-storage-easypc-000000004590",
+      "name": "Kingston Data Traveler DT100G3 16gb 3.0 Flashdrive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "KINGSTON",
+        "SKU": "356",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/926-a.jpg?v=1588506675"
+    },
+    {
+      "id": "external-storage-easypc-000000000076",
+      "name": "Hikvision HS-ESSD-T100i 512GB Portable SSD Lightweight, portable, easy to carry, High-speed transmission; speed is all that matters External SSD Pink",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "HIKVISION",
+        "SKU": "3664",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/HikvisionHS-ESSD-T100i512GBPortableSSDLightweight_portable_easytocarry_High-speedtransmission_speedisallthatmattersExternalSSDPink-a.jpg?v=1629739231"
+    },
+    {
+      "id": "external-storage-easypc-000000003400",
+      "name": "Hikvision HS-ESSD-T100i 256GB Portable SSD Lightweight, portable, easy to carry, High-speed transmission; speed is all that matters External SSD Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "HIKVISION",
+        "SKU": "3663",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/HikvisionHS-ESSD-T100i256GBPortableSSDLightweight_portable_easytocarry_High-speedtransmission_speedisallthatmattersExternalSSDBlack-a.jpg?v=1629739225"
+    },
+    {
+      "id": "external-storage-easypc-0000000061c3",
+      "name": "Toshiba Canvio Basics 1tb 2.5 External Hard Disk Drive Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "TOSHIBA",
+        "SKU": "1685",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Toshiba_Canvio_Basics_1tb_2.5_External_Hard_Disk_Drive_Black-a.jpg?v=1701311626"
+    },
+    {
+      "id": "external-storage-easypc-0000000016d6",
+      "name": "Adata AUV128-32G-RBE USB 32GB Flash Drive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "ADATA",
+        "SKU": "4241",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Adata_AUV128-32G-RBE_USB_32GB_Flash_Drive-a.jpg?v=1702349848"
+    },
+    {
+      "id": "external-storage-easypc-000000002692",
+      "name": "Western Digital My Passport 2tb 2.5 External Hard Disk Drive Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "WESTERN DIGITAL",
+        "SKU": "197",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Western_Digital_My_Passport_2tb_Black-a.jpg?v=1700699244"
+    },
+    {
+      "id": "external-storage-easypc-00000000677a",
+      "name": "Western Digital My Passport 1tb 2.5 External Hard Disk Drive Blue",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "WESTERN DIGITAL",
+        "SKU": "196",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Western_Digital_My_Passport_1tb.jpg?v=1697441160"
+    },
+    {
+      "id": "external-storage-easypc-0000000029ff",
+      "name": "Sandisk Cruze Blade SDCZ50-016G-B35 16gb and 64GB USB Flashdrive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "656",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Sandisk_SDCZ50-016G-B35_Cruzer_Blade_16gb_Flashdrive-a.jpg?v=1661831499"
+    },
+    {
+      "id": "external-storage-easypc-000000000c29",
+      "name": "Sandisk Cruzer Ultra Flashdrive 32gb USB 3.0",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "649",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Sandisk_Cruzer_Ultra_Flashdrive_32gb_USB_3.0-a.jpg?v=1700540443"
+    },
+    {
+      "id": "external-storage-easypc-00000000480a",
+      "name": "Sandisk SDCZ50C-016G-B35PE Cruzer Blade 16gb Flashdrive Pink",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "868",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Sandisk_SDCZ50C-016G-B35PE_Cruzer_Blade_16gb_Flashdrive_Pink-a.jpg?v=1700550164"
+    },
+    {
+      "id": "external-storage-easypc-000000007941",
+      "name": "Western Digital My Passport 1tb 2.5 External Hard Disk Drive White",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "WESTERN DIGITAL",
+        "SKU": "195",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Western_Digital_My_Passport_1tb_White.jpg?v=1697501614"
+    },
+    {
+      "id": "external-storage-easypc-000000005590",
+      "name": "Samsung MB-MC32GA/APC 32gb and MB-MC64HA/APC 64gb MicroSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SAMSUNG",
+        "SKU": "4431",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4431-a_d303bfc0-f116-4f28-a786-4719920787e0.jpg?v=1641177702"
+    },
+    {
+      "id": "external-storage-easypc-0000000032c5",
+      "name": "Sandisk Ultra SDSQUNS-032G-GN63MN 32gb Class 10 Microsd Card",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "3005",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/837-a.jpg?v=1629733821"
+    },
+    {
+      "id": "external-storage-easypc-0000000053b4",
+      "name": "Sandisk SDCZ50-032G-B35 Cruzer Blade 32gb",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "655",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Sandisk_SDCZ50-032G-B35_Cruzer_Blade_32gb-a.jpg?v=1700782938"
+    },
+    {
+      "id": "external-storage-easypc-000000006262",
+      "name": "Sandisk SDSQXA2-064G-GN6MA Extreme MicroSD 64gb",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "651",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1617-a.jpg?v=1588507420"
+    },
+    {
+      "id": "external-storage-easypc-000000001f52",
+      "name": "Seagate Backup Slim Portable 2tb 2.5 Usb3.0 External Hard Drive Silver",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SEAGATE",
+        "SKU": "485",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/SeagateBackupSlimPortable2tb2.5Usb3.0ExternalHardDriveSilver-a.jpg?v=1629721342"
+    },
+    {
+      "id": "external-storage-easypc-000000007ef1",
+      "name": "Seagate Backup Slim Portable 1tb 2.5 Usb3.0 External Hard Drive Blue",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SEAGATE",
+        "SKU": "1170",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2464-a.jpg?v=1629724280"
+    },
+    {
+      "id": "external-storage-easypc-00000000082d",
+      "name": "Seagate Backup Slim Portable 2tb 2.5 Usb3.0 External Hard Drive Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SEAGATE",
+        "SKU": "487",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1245-a.jpg?v=1588506986"
+    },
+    {
+      "id": "external-storage-easypc-0000000021b4",
+      "name": "Sandisk SDSDUNR-GN3IN 64GB/126GB/256GB Ultra SD Card fast w/ exceptional video recording, Capture quality pictures & Full HD video Resistant to water",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "4349",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4349-a_3e208e5f-6187-420d-b0f5-bc0852ee21b7.jpg?v=1637056583"
+    },
+    {
+      "id": "external-storage-easypc-000000003d58",
+      "name": "Sandisk Ultra SDCZ48-064G-U46R 64gb Flashdrive Red",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "4348",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Sandisk_Ultra_SDCZ48-064G-U46R_64gb_Flashdrive_Red-a.jpg?v=1702437503"
+    },
+    {
+      "id": "external-storage-easypc-000000006c26",
+      "name": "Seagate Backup Plus Sthn1000401 Slim 1Tb External Storage Devices Universal",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SEAGATE",
+        "SKU": "482",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Seagate_Backup_Plus_Sthn1000401_Slim_1Tb-a.jpg?v=1697700896"
+    },
+    {
+      "id": "external-storage-easypc-000000002b6d",
+      "name": "Team Group C173 Flashdrive 16gb White",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Team Group",
+        "SKU": "4991",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4991-a.jpg?v=1656990142"
+    },
+    {
+      "id": "external-storage-easypc-0000000039e7",
+      "name": "Sandisk Ultra SDDD3-032G-G46 Dual Drive M3.0/OTG Flashdrive Transparent",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "3010",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Sandisk_Ultra_SDDD3-032G-G46_Dual_Drive_M3.0_OTG_Flashdrive_Transparent-a.jpg?v=1701224032"
+    },
+    {
+      "id": "external-storage-easypc-000000000df7",
+      "name": "Sandisk Ultra SDDD3-064G-G46 Dual Drive M3.0/OTG Flashdrive Transparent",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "3012",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Sandisk_Ultra_SDDD3-064G-G46_Dual_Drive_M3.0_OTG_Flashdrive_Transparent-a.jpg?v=1701224305"
+    },
+    {
+      "id": "external-storage-easypc-0000000058d7",
+      "name": "Sandisk Extreme SDSQXA2-064G-GN6MA 64gb A2 Up to 160MB/s read speeds, water-proof, 4K UHD and Full HD-ready MicroSD Cards",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "3721",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3721-a_7a278db2-aafc-4383-8da5-78a4197d81c2.jpg?v=1629798808"
+    },
+    {
+      "id": "external-storage-easypc-000000006a5a",
+      "name": "Toshiba Canvio Basics HDTB410AKCAA 1tb USB-C 2.5 External Hard Disk Drive Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "TOSHIBA",
+        "SKU": "4286",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Toshiba_Canvio_Basics_HDTB410AKCAA_1tb-a.jpg?v=1702426096"
+    },
+    {
+      "id": "external-storage-easypc-000000001612",
+      "name": "Western Digital My Passport 2tb 2.5 External Hard Disk Drive Red",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "WESTERN DIGITAL",
+        "SKU": "3672",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Western_Digital_My_Passport_2tb_Red-a.jpg?v=1697502277"
+    },
+    {
+      "id": "external-storage-easypc-000000006fc3",
+      "name": "Sandisk SDCZ50C-016G-B35GE Cruzer Blade 16gb Green",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "866",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Sandisk_SDCZ50C-016G-B35GE_Cruzer_Blade_16gb_Green-b.jpg?v=1700549280"
+    },
+    {
+      "id": "external-storage-easypc-0000000047dd",
+      "name": "Sandisk SDCZ48-128G-U46 Ultra 128GB Usb 3.0 Flashdrive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "1129",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Sandisk_SDCZ48-128G-U46_Ultra_128GB-a.jpg?v=1700624028"
+    },
+    {
+      "id": "external-storage-easypc-000000005869",
+      "name": "Laptop Free Gift 9",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "EasyPC",
+        "SKU": "KIT.0336",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Tier2_be563654-2630-42a8-9c00-7664d1a4c4ff.jpg?v=1681261561"
+    },
+    {
+      "id": "external-storage-easypc-000000005e5f",
+      "name": "Toshiba Canvio Slim HDTD320AK3EA 2tb Super Speed USB 3.2 External Hard Disk Drive Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "TOSHIBA",
+        "SKU": "3821",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Toshiba_Canvio_Slim_HDTD320AK3EA_2tb_Black-a.jpg?v=1697502855"
+    },
+    {
+      "id": "external-storage-easypc-000000000249",
+      "name": "Sandisk Ultra SDDD3-032G-G46GW Dual Drive M3.0/OTG Flashdrive Gold",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "3011",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4558-a.jpg?v=1629733850"
+    },
+    {
+      "id": "external-storage-easypc-0000000061f8",
+      "name": "Adata AHD330-2TU31 CBK 2tb 2.5 External Hard Disk Drive Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "ADATA",
+        "SKU": "4320",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Adata_AHD330-2TU31_CBK_2tb_2.5_External_Hard_Disk_Drive_Black-b.jpg?v=1702433821"
+    },
+    {
+      "id": "external-storage-easypc-000000007d11",
+      "name": "Western Digital My Passport 2tb 2.5 Slim External Hard Disk Drive blue",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "WESTERN DIGITAL",
+        "SKU": "3674",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Western_Digital_My_Passport_2tb_2.5_Slim_External-a.jpg?v=1701654871"
+    },
+    {
+      "id": "external-storage-easypc-000000000b59",
+      "name": "Transcend Storejet Slim Portable 2tb 2.5 Usb3.0 External Hard Drive Purple",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "TRANSCEND",
+        "SKU": "1741",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1251-b.jpg?v=1589654157"
+    },
+    {
+      "id": "external-storage-easypc-000000005f4b",
+      "name": "Seagate Backup Slim Portable 1tb 2.5 Usb3.0 External Hard Drive Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SEAGATE",
+        "SKU": "484",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1242-a.jpg?v=1588506979"
+    },
+    {
+      "id": "external-storage-easypc-000000007069",
+      "name": "Adata HD330 External Hard Drive AHD330-1TU31-CBL 2.5",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "ADATA",
+        "SKU": "6400",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Adata_HD330_External_Hard_Drive_AHD330-1TU31-CBK_2.5-a.jpg?v=1705039283"
+    },
+    {
+      "id": "external-storage-easypc-00000000109b",
+      "name": "Sandisk SDSQUAR-064G-GN6MA Ultra MicroSD 64gb",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "653",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1619-a.jpg?v=1588507425"
+    },
+    {
+      "id": "external-storage-easypc-00000000718e",
+      "name": "Sandisk Ultra SDCZ48-016G-U46 16gb Usb 3.0 Flashdrive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "4359",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Sandisk_Ultra_SDCZ48-016G-U46-a.jpg?v=1697440983"
+    },
+    {
+      "id": "external-storage-easypc-000000001b15",
+      "name": "Toshiba Canvio Basics HDTB420AK3AA 2tb 2.5 External Hard Disk Drive Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "TOSHIBA",
+        "SKU": "3748",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Toshiba_Canvio_Basics_HDTB420AK3AA_2tb-a.jpg?v=1697501431"
+    },
+    {
+      "id": "external-storage-easypc-000000001c45",
+      "name": "Seagate Stje1000400 Onetouch Portable Ssd 2.5 1Tb External Ssd Universal Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SEAGATE",
+        "SKU": "3524",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Seagate_Stje1000400_Onetouch_Portable_Ssd-a.jpg?v=1697702845"
+    },
+    {
+      "id": "external-storage-easypc-00000000016f",
+      "name": "Western Digital My Passport 4tb 2.5 External Hard Disk Drive Red",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "WESTERN DIGITAL",
+        "SKU": "1973",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Western_Digital_My_Passport_4tb_Red-a.jpg?v=1700466181"
+    },
+    {
+      "id": "external-storage-easypc-0000000059f1",
+      "name": "Seagate Backup Slim Portable 4tb 2.5 Usb3.0 External Hard Drive Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SEAGATE",
+        "SKU": "1980",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1246-a.jpg?v=1588686368"
+    },
+    {
+      "id": "external-storage-easypc-00000000534a",
+      "name": "Sandisk SDCZ48-032G-U46B Ultra 32gb Flashdrive Blue",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "870",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Sandisk_SDCZ48-032G-U46B_Ultra_32gb_Flashdrive_Blue-a.jpg?v=1700550654"
+    },
+    {
+      "id": "external-storage-easypc-000000005699",
+      "name": "Sandisk SDCZ48-032G-U46R Ultra Flashdrive 32gb Red",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "871",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Sandisk_SDCZ48-032G-U46R_Ultra_Flashdrive_32gb_Red-a.jpg?v=1700551138"
+    },
+    {
+      "id": "external-storage-easypc-000000001e8c",
+      "name": "Seagate Fast SSD STCM250400 2.5 USB3.1 Type-C 250GB Extermal SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SEAGATE",
+        "SKU": "2006",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1602-a.jpg?v=1588507395"
+    },
+    {
+      "id": "external-storage-easypc-000000006e90",
+      "name": "Sandisk SDDD2-032G-GAM46 Ultra Dual Drive OTG 32gb Usb 3.0 Flashdrive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "1114",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Sandisk_SDDD2-032G-GAM46_Ultra_Dual_Drive_OTG-a.jpg?v=1700711845"
+    },
+    {
+      "id": "external-storage-easypc-000000007e49",
+      "name": "Samsung Portable SSD T7 Shield USB 3.2 1TB or 2TB Solid State Drive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SAMSUNG",
+        "SKU": "5608",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Samsung_Portable_SSD_T7_Shield_USB_3.2_1TB_SSD_Black.jpg?v=1703733295"
+    },
+    {
+      "id": "external-storage-easypc-000000000072",
+      "name": "Adata AHD330-2TU31 2tb Best Storage for files High Performance 2.5 Red External Hard Disk Drive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "ADATA",
+        "SKU": "5641",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Adata_AHD330-2TU31_2tb_2.5_Red_External_Hard_Disk_Drive-a.jpg?v=1703729577"
+    },
+    {
+      "id": "external-storage-easypc-000000004595",
+      "name": "QNAP TS-233 2GB Memory 2-Bay NAS AI-powered image recognition DiskStation",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "QNAP",
+        "SKU": "5441",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/QNAP_TS-233_2GB_Memory-a.jpg?v=1703224488"
+    },
+    {
+      "id": "external-storage-easypc-000000003842",
+      "name": "Sandisk Ultra SDDDC3-032G-G46 Dual Drive Go Type-C OTG Flashdrive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "3016",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Sandisk_Ultra_SDDDC3-032G-G46_Dual_Drive_Go_Type-C_OTG_Flashdrive-a.jpg?v=1701225262"
+    },
+    {
+      "id": "external-storage-easypc-000000007d2e",
+      "name": "Sandisk SDSQXAF-032G-GN6MA Extreme 32g MircroSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "652",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Sandisk_SDSQXAF-032G-GN6MA_Extreme_32g_MircroSD-a.jpg?v=1699490353"
+    },
+    {
+      "id": "external-storage-easypc-000000003c8d",
+      "name": "Sandisk SDCZ50C-032G-B35BE Cruzer Blade 32gb design that fits easily into a pocket or computer bag Flashdrive Blue",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "4347",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4347-a_b201dc4e-0650-4fb9-90fe-c79e82f40ddd.jpg?v=1637056527"
+    },
+    {
+      "id": "external-storage-easypc-000000005755",
+      "name": "Samsung Portable T7 Touch 1tb USB 3.2 Portable Solid State Drive Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SAMSUNG",
+        "SKU": "2693",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2693-a_6ac3bfc4-b2d3-4743-8aa4-d652e991c43a.jpg?v=1629730708"
+    },
+    {
+      "id": "external-storage-easypc-000000004fba",
+      "name": "Samsung Portable T7 Touch 1tb USB 3.2 Portable Solid State Drive Silver",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SAMSUNG",
+        "SKU": "2692",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2692-a_87595918-f317-4e90-abdd-f5f7e6bcbe03.jpg?v=1629730701"
+    },
+    {
+      "id": "external-storage-easypc-0000000063ed",
+      "name": "Western Digital My Passport 4tb 2.5 External Hard Disk Drive Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "WESTERN DIGITAL",
+        "SKU": "1942",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Western_Digital_My_Passport_4tb-a.jpg?v=1697441342"
+    },
+    {
+      "id": "external-storage-easypc-000000006764",
+      "name": "Sandisk SDCZ50C-016G-B35BE Cruzer Blade 16gb Flashdrive Blue and White",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "869",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Sandisk_SDCZ50C-016G-B35BE_Cruzer_Blade_16gb_Flashdrive_Blue-a.jpg?v=1700549606"
+    },
+    {
+      "id": "external-storage-easypc-0000000058c1",
+      "name": "Seagate Backup Slim Portable 2tb 2.5 Usb3.0 External Hard Drive Champagne Gold",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SEAGATE",
+        "SKU": "1082",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/SeagateBackupSlimPortable2tb2.5Usb3.0ExternalHardDriveChampagneGold-a.jpg?v=1629723921"
+    },
+    {
+      "id": "external-storage-easypc-000000002520",
+      "name": "Seagate Backup Slim Portable 1tb 2.5 Usb3.0 External Hard Drive Red",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SEAGATE",
+        "SKU": "483",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1241-a.jpg?v=1588506978"
+    },
+    {
+      "id": "external-storage-easypc-000000005439",
+      "name": "Transcend TS1TSJ25H3B Shock Proof StoreJet 2.5 H3B Portable HDD 1TB Blue",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "TRANSCEND",
+        "SKU": "8480",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Transcend_TS1TSJ25H3B_Shock_Proof_StoreJet_2.5_H3B_Portable_HDD_1TB_Blue-c.png?v=1711345782"
+    },
+    {
+      "id": "external-storage-easypc-0000000019ab",
+      "name": "Transcend TS2TSJ25H3B Shock Proof StoreJet 2.5 H3B Portable HDD 2TB Blue",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "TRANSCEND",
+        "SKU": "8479",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Transcend_TS2TSJ25H3B_Shock_Proof_StoreJet_2.5_H3B_Portable_HDD_2TB_Blue-c.png?v=1711345709"
+    },
+    {
+      "id": "external-storage-easypc-000000004b35",
+      "name": "Laptop Free Gift 10",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "EasyPC",
+        "SKU": "KIT.0337",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/KIT.0337_39e8912b-c552-4be8-b997-15f6a8efbf9e.jpg?v=1664956779"
+    },
+    {
+      "id": "external-storage-easypc-0000000045ea",
+      "name": "LTS - 1x WD Neoprene Pouch and 1x Philips C254 KB Mouse Combo Freebie",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "EasyPC",
+        "SKU": "KIT.0335",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/7006_558aca2c-edb1-4b10-8c79-5e1b93959a32.jpg?v=1686722179"
+    },
+    {
+      "id": "external-storage-easypc-0000000050da",
+      "name": "Sandisk Cruzer Blade SDCZ50-128G-B35 128gb Plug N Play Compact Size Flashdrive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "3247",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/SandiskCruzerBladeSDCZ50-128G-B35128gbPlugNPlayCompactSizeFlashdrive-a.jpg?v=1661830556"
+    },
+    {
+      "id": "external-storage-easypc-000000003f18",
+      "name": "Toshiba Canvio Slim HDTD320AK3EA 2tb 2.5 Max. transfer rate: ~ 5.0 Gbit/s External Hard Drive Silver",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "TOSHIBA",
+        "SKU": "5056",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Toshiba_Canvio_Slim_HDTD320AK3EA_2tb-a.jpg?v=1697501942"
+    },
+    {
+      "id": "external-storage-easypc-000000003b2e",
+      "name": "Seagate Backup Plus Slim STDR2000301 2tb 2.5 Convenient backup, USB-C&USB 3.0 plug and play External Hard Drive Silver",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SEAGATE",
+        "SKU": "3342",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/SeagateBackupPlusSlimSTDR20003012tb2.5Convenientbackup_USB-C_USB3.0plugandplayExternalHardDriveSilver-a.jpg?v=1629740947"
+    },
+    {
+      "id": "external-storage-easypc-000000001206",
+      "name": "Sandisk SDSSDE61-500G-G25 500gb Portable Solid State Drive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "3545",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3545.jpg?v=1626080587"
+    },
+    {
+      "id": "external-storage-easypc-000000000d9d",
+      "name": "Samsung MB-MJ64GA/APC Pro Endurance Constant Recording Confidence 64gb MicroSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SAMSUNG",
+        "SKU": "4433",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4433-a_96c075dd-3d28-4b06-b848-df2756e2c757.jpg?v=1641177779"
+    },
+    {
+      "id": "external-storage-easypc-000000002e38",
+      "name": "Sandisk Ultra SDDDC3-128G-G46 Dual Drive Go Type-C OTG Flashdrive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "3018",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4565-a.jpg?v=1629733904"
+    },
+    {
+      "id": "external-storage-easypc-000000007113",
+      "name": "Sandisk Ultra SDDDC2-064G-G46 Dual Drive USB Type-C OTG Flashdrive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "3015",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4562-a.jpg?v=1629733882"
+    },
+    {
+      "id": "external-storage-easypc-000000005dcb",
+      "name": "Sandisk Ultra SDDDC2-032G-G46 Dual Drive USB Type-C OTG Flashdrive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "3014",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4561-a.jpg?v=1629733872"
+    },
+    {
+      "id": "external-storage-easypc-000000007cf9",
+      "name": "Sandisk Extreme SDSQXA1-128G-GN6MN 128gb A2 MicroSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "3007",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4554-a.jpg?v=1629733831"
+    },
+    {
+      "id": "external-storage-easypc-0000000079b4",
+      "name": "Sandisk Ultra SDDDC3-064G-G46 Dual Drive Go Type-C OTG Flashdrive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "3017",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4564-a.jpg?v=1629733898"
+    },
+    {
+      "id": "external-storage-easypc-000000005915",
+      "name": "Sandisk Extreme Pro SDSQXCY-128G-GN6MA 128gb A2 MicroSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "3009",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4555-a_d204b6e5-24d9-4b6c-abfd-5fb723da0461.jpg?v=1629733841"
+    },
+    {
+      "id": "external-storage-easypc-000000001f49",
+      "name": "Sandisk Extreme Pro SDSQXCY-064G-GN6MA 64gb A2 MicroSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "3008",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4555-a.jpg?v=1629733837"
+    },
+    {
+      "id": "external-storage-easypc-0000000066a1",
+      "name": "Samsung 870 QVO 2TB 2.5 Sata Solid State Drive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SAMSUNG",
+        "SKU": "3210",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Samsung_870_QVO_2TB_2.5_Sata_Solid_State_Drive-a.jpg?v=1701299502"
+    },
+    {
+      "id": "external-storage-easypc-00000000056e",
+      "name": "Western Digital My Passport 2tb 2.5 External Slim style, Backed up, Locked down, Super easy, Social friendly, Ongoing confidence External Hard Disk Drive white",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "WESTERN DIGITAL",
+        "SKU": "3673",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/WesternDigitalMyPassport2tb2.5ExternalSlimstyle_Backedup_Lockeddown_Supereasy_Socialfriendly_OngoingconfidenceExternalHardDiskDrivewhite-a.jpg?v=1629739253"
+    },
+    {
+      "id": "external-storage-easypc-000000000f17",
+      "name": "Seagate Stje1000402 Onetouch Portable Ssd 2.5 1Tb External Ssd Universal White",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SEAGATE",
+        "SKU": "3525",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Seagate_Stje1000402_Onetouch_Portable_Ssd_White-a.jpg?v=1697704532"
+    },
+    {
+      "id": "external-storage-easypc-00000000241e",
+      "name": "Seagate Stje500402 Onetouch Portable Ssd 2.5 500Gb External Ssd Universal White",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SEASONIC",
+        "SKU": "3523",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Seagate_Stje500402_Onetouch_Portable_White-a.jpg?v=1697703902"
+    },
+    {
+      "id": "external-storage-easypc-000000004dc1",
+      "name": "Seagate Stje500400 Onetouch Portable Ssd 2.5 500Gb External Ssd Universal Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SEAGATE",
+        "SKU": "3522",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Seagate_Stje500400_Onetouch_Portable_Ssd_2.5_500Gb-a.jpg?v=1697702132"
+    },
+    {
+      "id": "external-storage-easypc-000000004cef",
+      "name": "Seagate Stjd1000400 Exp Portable Ssd 2.5 1Tb External Ssd Universal Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SEAGATE",
+        "SKU": "3521",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Seagate_Stjd1000400_Exp_Portable_Ssd_2.5_1Tb-a.jpg?v=1697701773"
+    },
+    {
+      "id": "external-storage-easypc-000000003d63",
+      "name": "Seagate Stjd500400 Exp Portable Ssd 2.5 500Gb External Ssd Universal Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SEAGATE",
+        "SKU": "3520",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Seagate_Stjd500400_Exp_Portable_Ssd_2.5_500Gb-a.jpg?v=1697701385"
+    },
+    {
+      "id": "external-storage-easypc-000000007b7d",
+      "name": "Samsung Portable T7 MU-PC500R/WW 500gb Portable Solid State Drive Red",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SAMSUNG",
+        "SKU": "2817",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4187-a.jpg?v=1629731608"
+    },
+    {
+      "id": "external-storage-easypc-000000000a28",
+      "name": "Samsung Portable T7 Touch 500gb USB 3.2 Portable Solid State Drive Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SAMSUNG",
+        "SKU": "2691",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4019-A.jpg?v=1629730695"
+    },
+    {
+      "id": "external-storage-easypc-000000001e16",
+      "name": "Samsung Portable T7 Touch 500gb USB 3.2 Portable Solid State Drive Silver",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SAMSUNG",
+        "SKU": "2690",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/4018-A.jpg?v=1629730688"
+    },
+    {
+      "id": "external-storage-easypc-0000000023ad",
+      "name": "Transcend 32GB JetFlash 700 Flashdrive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "TRANSCEND",
+        "SKU": "1788",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/551-a.jpg?v=1589654135"
+    },
+    {
+      "id": "external-storage-easypc-000000007ed4",
+      "name": "Transcend 16GB JetFlash 590 Flashdrive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "TRANSCEND",
+        "SKU": "1699",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/545-a.jpg?v=1589654134"
+    },
+    {
+      "id": "external-storage-easypc-0000000062e9",
+      "name": "Sandisk Extreme Go Flashdrive 64GB USB 3.1",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "2025",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1995-a.jpg?v=1590146724"
+    },
+    {
+      "id": "external-storage-easypc-000000007eef",
+      "name": "Seagate Backup Slim Portable 1tb 2.5 Usb3.0 External Hard Drive Gold",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SEAGATE",
+        "SKU": "1169",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2463-a.jpg?v=1586260029"
+    },
+    {
+      "id": "external-storage-easypc-000000005f8d",
+      "name": "Sandisk Ultra SDCZ48-064G-U46 64gb Usb 3.0 Flashdrive Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "650",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Sandisk_Ultra_SDCZ48-064G-U46_64gb-a.jpg?v=1700540783"
+    },
+    {
+      "id": "external-storage-easypc-00000000492c",
+      "name": "Samsung T5 MU-PA500R/WW 500GB External SSD USB 3.1 Red",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SAMSUNG",
+        "SKU": "1889",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2616-a_8c476341-d067-4130-a56f-5530f8624c1a.jpg?v=1588508887"
+    },
+    {
+      "id": "external-storage-easypc-00000000224d",
+      "name": "Samsung T5 MU-PA500G/WW 500GB External SSD USB 3.1 Gold",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SAMSUNG",
+        "SKU": "1292",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2614-a.jpg?v=1586260041"
+    },
+    {
+      "id": "external-storage-easypc-000000007862",
+      "name": "Samsung T5 MU-PA250BWW 250GB External SSD USB 3.1",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SAMSUNG",
+        "SKU": "2060",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2614-a_72a5eae4-dd3c-4566-83e6-e81b075a5f88.jpg?v=1588508883"
+    },
+    {
+      "id": "external-storage-easypc-0000000013bc",
+      "name": "Team C171 16GB / 32GB Flashdrive Plug and Play | Fashion and minimal design Easy to Carry Black / White",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "TEAM ELITE",
+        "SKU": "4993",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/760-a_fb1df7fb-de00-49b9-b92f-fc6de5eeb2c0.jpg?v=1656991201"
+    },
+    {
+      "id": "external-storage-easypc-000000006b35",
+      "name": "Sandisk SDCZ57-032G-B35B Cruzer Dial 32gb Flashdrive Blue",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "1441",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3032-a.jpg?v=1588509522"
+    },
+    {
+      "id": "external-storage-easypc-00000000236c",
+      "name": "Apacer AH25AB Flashdrive 3.1 16GB Black Red",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "APACER",
+        "SKU": "802",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1915-a.jpg?v=1588507783"
+    },
+    {
+      "id": "external-storage-easypc-000000003c32",
+      "name": "Seagate Backup Slim Portable 2tb 2.5 Usb3.0 External Hard Drive Red",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SEAGATE",
+        "SKU": "486",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/SeagateBackupSlimPortable2tb2.5Usb3.0ExternalHardDriveRed-a.jpg?v=1629721349"
+    },
+    {
+      "id": "external-storage-easypc-00000000020f",
+      "name": "Apacer AH360A Flashdrive 3.1 32GB Gray",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "APACER",
+        "SKU": "804",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1917-a.jpg?v=1588507788"
+    },
+    {
+      "id": "external-storage-easypc-000000002d1c",
+      "name": "Apacer AH25AB Flashdrive 3.1 32GB Black Red",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "APACER",
+        "SKU": "803",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1916-a.jpg?v=1588507785"
+    },
+    {
+      "id": "external-storage-easypc-000000004de5",
+      "name": "Transcend Jetflash 790 Flashdrive 128GB USB 3.0",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "TRANSCEND",
+        "SKU": "1278",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2599-a.jpg?v=1588508854"
+    },
+    {
+      "id": "external-storage-easypc-000000002ae3",
+      "name": "Sandisk Ultra Flashdrive 64gb USB 3.0 Red",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "1019",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2271-a.jpg?v=1588508283"
+    },
+    {
+      "id": "external-storage-easypc-000000006216",
+      "name": "Asus FX Aura Sync RGB 2TB USB 3.1 External Hard Drive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "ASUS",
+        "SKU": "865",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2016-a_8393d4b7-8e62-4c5a-81dc-abdb286a97e0.jpg?v=1588507929"
+    },
+    {
+      "id": "external-storage-easypc-0000000000b6",
+      "name": "Sandisk Cruzer Dial Flashdrive 64gb",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "SANDISK",
+        "SKU": "754",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1822-a.jpg?v=1586791558"
+    },
+    {
+      "id": "external-storage-easypc-0000000025ba",
+      "name": "Adata SC750 External SSD 1TB Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "ADATA",
+        "SKU": "9417",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Adata_SC750_External_SSD_1TB_Black-c.png?v=1726472700"
+    },
+    {
+      "id": "external-storage-easypc-000000007545",
+      "name": "Team Group C175 16gb USB 3.2 Flashdrive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "TEAM GROUP",
+        "SKU": "10096",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/16gb_01_c909e37c-bc2a-464f-8538-d87838d55b6d.jpg?v=1769052199"
+    },
+    {
+      "id": "external-storage-itech-000000007fa5",
+      "name": "Seagate 2TB One Touch External HDD Slim [Blue]",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "4123456679288",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2021/12/Seagate-2TB-One-Touch-External-HDD-Slim-Blue-450x577.jpg"
+    },
+    {
+      "id": "external-storage-itech-000000000a0a",
+      "name": "SAMSUNG T7 Shield 1TB Portable External SSD [Black]",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "8806092299108",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2022/08/SAMSUNG-T7-Shield-1TB-Black-450x577.jpg"
+    },
+    {
+      "id": "external-storage-itech-0000000033cf",
+      "name": "Seagate 4TB One Touch External HDD [Black]",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "4123456679289",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2021/12/Seagate-4TB-One-Touch-External-HDD-Black-450x577.jpg"
+    },
+    {
+      "id": "external-storage-itech-0000000007a2",
+      "name": "Lexar SL500 USB 3.2 Gen 2×2 Portable SSD",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "843367133024",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2025/11/SL500_Portable_SSD_Photo4-450x577.jpg"
+    },
+    {
+      "id": "external-storage-itech-00000000692a",
+      "name": "Hiksemi Elite 1TB USB 3.2 Gen2x2 Portable External SSD",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "6976695090579",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2025/11/hiksemi-elite-1tb-portable-ssd-_hs-essd-elite-1tb-grey_-01-450x594.webp"
+    },
+    {
+      "id": "external-storage-itech-000000000d35",
+      "name": "Samsung T9 2TB USB 3.2 Gen 2×2 Portable External SSD | Black",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "8806094489118",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2024/12/Samsung-T9-2TB-USB-450x577.jpg"
+    },
+    {
+      "id": "external-storage-itech-000000000485",
+      "name": "SAMSUNG T7 Shield 2TB Portable External SSD [Blue]",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "8806092309951",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2022/08/SAMSUNG-T7-Shield-1TB-Blue-450x577.jpg"
+    },
+    {
+      "id": "external-storage-itech-00000000529d",
+      "name": "Seagate 1TB One Touch External HDD Slim | Silver",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "4123456679530",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2023/11/Seagate-1TB-One-Touch-External-HDD-Slim-Silver-jpg-450x577.webp"
+    },
+    {
+      "id": "external-storage-itech-000000004072",
+      "name": "WD 4TB My Passport Portable External Hard Drive HDD USB 3.0 – Black",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "718037869438",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2023/03/WD-4TB-My-Passport-Portable-External-Hard-Drive-HDD-USB-3.0-Black-jpg-450x577.webp"
+    },
+    {
+      "id": "external-storage-itech-00000000734a",
+      "name": "SAMSUNG T7 Shield 1TB Portable External SSD [Blue]",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "8806092310131",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2022/08/SAMSUNG-T7-Shield-1TB-Blue-450x577.jpg"
+    },
+    {
+      "id": "external-storage-itech-00000000751e",
+      "name": "Seagate 2TB One Touch External HDD Slim [Black]",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "4123456679284",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2021/12/Seagate-2TB-One-Touch-External-HDD-Slim-Black-450x577.jpg"
+    },
+    {
+      "id": "external-storage-itech-000000003e1f",
+      "name": "Seagate 1TB One Touch External HDD Slim [Black]",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "4123456679281",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2021/12/Seagate-1TB-One-Touch-External-HDD-Slim-Black-450x577.jpg"
+    },
+    {
+      "id": "external-storage-itech-000000006e1e",
+      "name": "Lexar SL600 USB 3.2 Type-C Portable External SSD (LSL600X001T-RNBNG) -1TB",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "4123456761469",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2026/03/lexar-sl600-1tb-usb-3.2-portable-ssd-_lsl600x001t-rnbng_-front-1-450x450.jpg"
+    },
+    {
+      "id": "external-storage-itech-00000000120c",
+      "name": "Hiksemi Elite 2TB USB 3.2 Gen2x2 Portable External SSD",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "6976695090586",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2025/11/hiksemi-elite-1tb-portable-ssd-_hs-essd-elite-1tb-grey_-01-450x594.webp"
+    },
+    {
+      "id": "external-storage-itech-000000001752",
+      "name": "Lexar 2TB SL300 USB 3.2 Gen 2 Portable External SSD (LSL300002T-RNBNG) – Black",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "4123456760640",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2025/03/Lexar-1TB-SL300-450x577.jpg"
+    },
+    {
+      "id": "external-storage-itech-0000000015b8",
+      "name": "Lexar 1TB SL300 USB 3.2 Gen 2 Portable External SSD (LSL300001T-RNBNG) – Black",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "843367137978",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2025/03/Lexar-1TB-SL300-450x577.jpg"
+    },
+    {
+      "id": "external-storage-itech-000000004ffc",
+      "name": "Samsung 2 TB USB 3.0 M3 Slimline Portable External HDD | Black",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "4123652637540",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2024/12/Samsung-2-TB-USB-3.0-450x577.jpg"
+    },
+    {
+      "id": "external-storage-itech-0000000073cd",
+      "name": "SAMSUNG T7 Shield 2TB Portable External SSD [Black]",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "8806092299115",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2022/08/SAMSUNG-T7-Shield-1TB-Black-450x577.jpg"
+    },
+    {
+      "id": "external-storage-itech-00000000353c",
+      "name": "WD – My Passport 1TB External USB Type-C Portable SSD [Gray]",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "619659184001",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2023/04/WD-My-Passport-1TB-External-USB-Type-C-Portable-SSD-Gray7-jpg-450x577.webp"
+    },
+    {
+      "id": "external-storage-itech-000000003ae8",
+      "name": "Seagate One Touch SSD 1TB [Blue]",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "4123456679355",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2022/03/SEAGATE-500GB-ONE-TOUCH-SSD-BLUE-450x577.jpg"
+    },
+    {
+      "id": "external-storage-itech-000000001fa9",
+      "name": "Seagate 5TB 3.0 One Touch External HDD [Black]",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "4123456679529",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2021/12/Seagate-5TB-One-Touch-External-HDD-Black-450x577.jpg"
+    },
+    {
+      "id": "external-storage-itech-000000000b23",
+      "name": "Seagate 2TB One Touch External HDD Slim [Space Gray]",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "4123456679287",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2021/12/Seagate-2TB-One-Touch-External-HDD-Slim-Space-Gray-450x577.jpg"
+    },
+    {
+      "id": "external-storage-itech-000000001f07",
+      "name": "Seagate 1TB One Touch External HDD Slim [Blue]",
+      "category": "external-storage",
+      "specs": {
+        "SKU": "4123456679282",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://www.itech.ph/wp-content/uploads/2021/12/Seagate-1TB-One-Touch-External-HDD-Slim-Blue-450x577.jpg"
+    },
+    {
+      "id": "external-storage-pcworx-000000004e9e",
+      "name": "Samsung T7 Shield Portable Solid State Drive USB 3.2 1TB 2TB, IP65 Water Resistant, External SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000053773",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/40aae6f543a6a9827c13ced6cf4bb077.jpg?v=1708418466"
+    },
+    {
+      "id": "external-storage-pcworx-0000000040c6",
+      "name": "Samsung T7 Shield 4 TB Portable SSD (Model MU-PE4T0S/WW)",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000058069",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/MSI_57.png?v=1758612557"
+    },
+    {
+      "id": "external-storage-pcworx-000000006462",
+      "name": "Samsung MU-PG T9 USB 3.2 Gen2x2 Portable SSD Black (1TB, 2TB, 4TB)",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000061630",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/MSI_59.png?v=1758613332"
+    },
+    {
+      "id": "external-storage-pcworx-0000000054fe",
+      "name": "Sandisk SDSSDE30 1TB, 2TB Portable SSD USB3.2 Gen2 Read Speed up to 520MB",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000061122",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/SandiskSDSSDE30-1T00-G261TB.png?v=1726802667"
+    },
+    {
+      "id": "external-storage-pcworx-000000002c02",
+      "name": "HikVision/HikSemi T300S 1TB USB 3.1 Type-C Up to 560MB/Read Speed, 500MB/s Write Speed Portable SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000058932",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7qul7-lj6h1i1f26fa90.jpg?v=1708420286"
+    },
+    {
+      "id": "external-storage-pcworx-000000006400",
+      "name": "Sandisk SDSSDE30-2T00-G26 2TB Portable SSD USB3.2 Gen2 Read Speed up to 800MB/S",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000063669",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_676652b9-2b47-4f4b-8464-df3d147247c1.jpg?v=1770256572"
+    },
+    {
+      "id": "external-storage-pcworx-000000007fc5",
+      "name": "Samsung MU-PC1T0T/WW 1TB T7 USB 3.1 GEN 2 Portable SSD Titan Gray",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000045614",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/SamsungMU-PC1T0TWW1TBT7USB3.1GEN2PortableSSDTitanGray_1.png?v=1719804156"
+    },
+    {
+      "id": "external-storage-pcworx-000000005786",
+      "name": "Hiksemi HS-ESSD-ELITE9 1TB USB 3.2 Type-C 2000mbs Elite Magnet Portable SSD Grey",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000070957",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/vention_45.png?v=1762507176"
+    },
+    {
+      "id": "external-storage-pcworx-0000000037da",
+      "name": "Adata SC750 1000G CCBK 1TB 1,050/1,000 MB/s External Portable SSD Black Titanium",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000065994",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/adata_17.png?v=1735975266"
+    },
+    {
+      "id": "external-storage-pcworx-000000004b1c",
+      "name": "Adata AHD710P-2TU31 Pro 2TB Portable External Hard Drive BLK",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000058605",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/24_2efefd36-cc23-4de1-9d58-1d2f73ae14a3.jpg?v=1747120683"
+    },
+    {
+      "id": "external-storage-pcworx-000000006e23",
+      "name": "Transcend TS1TESD270C 1TB USB3.1 Gen2 USB Type-C Portable SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000055110",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7r98u-lnuytljvaxk962.jpg?v=1708416632"
+    },
+    {
+      "id": "external-storage-pcworx-0000000006af",
+      "name": "Sandisk SDSSDE30-2T00-G25F 2TB Portable SSD USB3.2 800MB/S Fortnite Peely Edition",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000068456",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000068456_2.jpg?v=1750821550"
+    },
+    {
+      "id": "external-storage-pcworx-0000000013e6",
+      "name": "Sandisk SDSSDE30-1T00-G25F 1TB Fortnite Portable SSD Peely Edition",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000068732",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000068732.jpg?v=1740981502"
+    },
+    {
+      "id": "external-storage-pcworx-000000006c64",
+      "name": "Samsung MU-PH8T0S/WW T5 EVO 8TB USB 3.2 Gen 1 Portable SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000066755",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/24SHOPIFY23SHOPIFYSAPPHIRESPR-11330-02-20GPULSEAMDRADEON_RX7800XTGAMING16GB.jpg?v=1763365880"
+    },
+    {
+      "id": "external-storage-pcworx-000000002b4c",
+      "name": "Samsung MU-PC4T0T/WW 4TB T7 USB 3.2 Titan Gray Portable SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000067030",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000067030.jpg?v=1743390563"
+    },
+    {
+      "id": "external-storage-pcworx-0000000038c6",
+      "name": "HP X911S 1TB USB 3.2 USB Type-A Flash Drives Portable SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000063539",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/30_2_450e62fc-0142-488b-b864-489e1e73cd33.jpg?v=1747128526"
+    },
+    {
+      "id": "external-storage-pcworx-0000000031f2",
+      "name": "Hiksemi HS-ESSD-ELITE9 2TB USB 3.2 Type-C 2000mbs Elite Magnet Portable SSD Grey",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000071858",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/vention_45_89eef017-ed07-464d-ab53-2a0ce1f15726.png?v=1762507273"
+    },
+    {
+      "id": "external-storage-pcworx-0000000015ac",
+      "name": "Transcend TS4TESD380C 4TB Slim Portable Solid State Drive Military Green",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000058609",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/MSI_62.png?v=1758613673"
+    },
+    {
+      "id": "external-storage-pcworx-00000000306e",
+      "name": "Western Digital WDS100T3G0A-00BJG0 1TB 2.5\" SATAIII Solid State Drive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "000055316",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/PRODUCT_PHOTOS_12.jpg?v=1718254326"
+    },
+    {
+      "id": "external-storage-pcworx-000000002c87",
+      "name": "Seagate STJP1000400 2.5 1TB Firecuda Gaming SSD Seagate 1TB Gaming SSD - Solid State Drive 1TB SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000051292",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/RTX50-2025-10-27T144521.546.png?v=1768457583"
+    },
+    {
+      "id": "external-storage-pcworx-000000005244",
+      "name": "SANDISK SDCZ880-512G-G46 512GB Extreme PRO USB 3.2 Solid State Flash Drive Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000054481",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000054481.jpg?v=1739839224"
+    },
+    {
+      "id": "external-storage-pcworx-00000000018c",
+      "name": "Seagate 500GB One Touch Ultra Small USB-C Portable External Solid State Drive SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000052163",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/sg-11134201-23010-bdiyyyf30pmv56.jpg?v=1708422207"
+    },
+    {
+      "id": "external-storage-pcworx-000000006d33",
+      "name": "Kingston XS2000 / XS1000 Portable SSD High-performance External Drive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000060280",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000070175.png?v=1747374086"
+    },
+    {
+      "id": "external-storage-pcworx-000000002893",
+      "name": "Sandisk SDSSDE61 1TB/2TB/4TB Extreme Portable USB 3.2 SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000047659",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/PRODUCT_PHOTOS_e69c30cd-e9d5-4cac-994c-0804a3569265.jpg?v=1736471649"
+    },
+    {
+      "id": "external-storage-pcworx-000000004fe8",
+      "name": "Sandisk SDSSDE61-8T00-G25 8TB Kolsch Box Global Portable SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000068733",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_2fe815c8-6db2-4105-95b5-9e0a395d7c5d.jpg?v=1766030003"
+    },
+    {
+      "id": "external-storage-pcworx-000000001dc7",
+      "name": "Sandisk SDSSDE62C-1T00-G25 1TB 1000MB/S 950MB/S Extreme PRO Creator Portable SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000069929",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/vention_8.png?v=1762248229"
+    },
+    {
+      "id": "external-storage-pcworx-000000006d9e",
+      "name": "Team Group TPSEG5001T0C102 PD20 1TB USB 3.2 Gen-2 20Gbps Portable SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000069628",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/28SHOPIFYTeamGroupTPSEG5001T0C102PD201TBUSB3.2Gen-220GbpsPortableSSD_3.jpg?v=1763711192"
+    },
+    {
+      "id": "external-storage-pcworx-00000000684c",
+      "name": "Team Group TPSEG5002T0C102 PD20 2TB USB 3.2 Gen-2 20Gbps Portable SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000069629",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/28SHOPIFYTeamGroupTPSEG5001T0C102PD201TBUSB3.2Gen-220GbpsPortableSSD_3.jpg?v=1763711192"
+    },
+    {
+      "id": "external-storage-pcworx-000000000a43",
+      "name": "Transcend ESD300C 10Gbps Type C USB Portable SSD 256GB, 512GB, 1TB, 2TB",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000060164",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/FD_7.png?v=1733470548"
+    },
+    {
+      "id": "external-storage-pcworx-000000000ef4",
+      "name": "Transcend ESD310C 256GB / 512GB / 1TB / 2TB Portable SSD USB-A and USB-C",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000059405",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000058394_0e61d3c4-0606-4fc7-bb19-f5b75a2d93dd.jpg?v=1748493019"
+    },
+    {
+      "id": "external-storage-pcworx-0000000059bf",
+      "name": "Transcend ESD320A 1TB USB Type A 1050MB/s Portable SSD Black",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000062933",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/9SHOPIFYTranscendESD320A1TBUSBTypeA1050MB_sPortableSSdBlack_2.jpg?v=1763090518"
+    },
+    {
+      "id": "external-storage-pcworx-0000000011ae",
+      "name": "Transcend ESD320A 512GB USB Type A 1050MB/s Portable SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000062934",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000062934_3.jpg?v=1739954307"
+    },
+    {
+      "id": "external-storage-pcworx-0000000038ad",
+      "name": "Transcend ESD330C 2TB USB Type C 1050MB/s Portable SSD Flash Drive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000062937",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000062937.jpg?v=1739943631"
+    },
+    {
+      "id": "external-storage-pcworx-0000000071a0",
+      "name": "Transcend TS1TESD310S 1TB Portable SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000059802",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_41259458-56d6-4f9d-aef9-f6c636c7bb6d.jpg?v=1772780210"
+    },
+    {
+      "id": "external-storage-pcworx-00000000552d",
+      "name": "Transcend TS1TESD360C 1TB USB 20Gbps Up to 2000MB/s Type-C Portable SSD Gray",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000072061",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/50SHOPIFYTranscendTS1TESD360C1TBUSB20GbpsUpto2000MB_sType-CPortableSSDGray_2.jpg?v=1764062095"
+    },
+    {
+      "id": "external-storage-pcworx-000000006331",
+      "name": "Transcend TS1TESD380C 1T ESD380C Portable SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000056150",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_febbae53-a6ef-4f1a-a323-da5600026084.jpg?v=1772588620"
+    },
+    {
+      "id": "external-storage-pcworx-00000000423d",
+      "name": "Transcend TS1TESD410C 1TB ESD410C 20Gbps Type C Portable SSD Blue",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000062421",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/TranscendTS4TESD410C4TBESD410C20GbpsTypeCPortableSSDBlue_532e5515-7d38-4e33-af4a-92c15aa2f156.png?v=1720059556"
+    },
+    {
+      "id": "external-storage-pcworx-0000000050d2",
+      "name": "Transcend TS1TESD420C 1TB USB Type-C 20Gbps Magnetic Portable SSD Iron Gray",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000072007",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/45SHOPIFYTranscendTS1TESD420C1TBUSBType-C20GbpsMagneticPortableSSDIronGray_2.jpg?v=1764061128"
+    },
+    {
+      "id": "external-storage-pcworx-0000000018d5",
+      "name": "Transcend TS1TESD420G 1TB USB Type-C 20Gbps Magnetic Portable SSD Champagne Gold",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000072008",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/2_201a2181-50d2-4f31-8fce-aacec556e767.jpg?v=1764061413"
+    },
+    {
+      "id": "external-storage-pcworx-000000007cee",
+      "name": "Transcend TS250GESD260C 250GB ESD260C USB 3.2 Gen 2 Type-C Portable SSD Silver",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000056148",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/TranscendTS250GESD260C250GBESD260CUSB3.2Gen2Type-CPortableSSDSilver.png?v=1720058815"
+    },
+    {
+      "id": "external-storage-pcworx-00000000630d",
+      "name": "Transcend TS250GESD270C 250GB USB3.1 Gen2 USB Type-C Portable SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000055107",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000055107_2.png?v=1737348090"
+    },
+    {
+      "id": "external-storage-pcworx-0000000036ad",
+      "name": "Transcend TS2TESD270C 2TB USB3.1 Gen2 USB Type-C Portable SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000062980",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/11SHOPIFYTranscendTS2TESD270C2TBUSB3.1Gen2USBType-CPortableSSD.jpg?v=1763097239"
+    },
+    {
+      "id": "external-storage-pcworx-00000000550b",
+      "name": "Transcend TS2TESD310S 2TB Portable SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000059803",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_22f6d5a4-2c66-42f3-9a4d-b4593cc457ba.jpg?v=1767693172"
+    },
+    {
+      "id": "external-storage-pcworx-000000001256",
+      "name": "Transcend TS2TESD360C 2TB USB 20Gbps Up to 2000MB/s Type-C Portable SSD Gray",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000072063",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1SHOPIFYTranscendTS2TESD360C2TBUSB20GbpsUpto2000MB_sType-CPortableSSDGray.jpg?v=1764127982"
+    },
+    {
+      "id": "external-storage-pcworx-0000000055a3",
+      "name": "Transcend TS2TESD380C 2TB ESD380C Portable SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000062891",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ssd1.jpg?v=1767747822"
+    },
+    {
+      "id": "external-storage-pcworx-000000004b46",
+      "name": "Transcend TS2TESD410C 2TB ESD410C 20Gbps Type C Portable SSD Blue",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000062422",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_c6bbe360-4a67-4a52-8745-58d738eeae35.jpg?v=1767748414"
+    },
+    {
+      "id": "external-storage-pcworx-000000002ff7",
+      "name": "Transcend TS2TESD420C 2TB USB Type-C 20Gbps Magnetic Portable SSD Iron Gray",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000072009",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/47SHOPIFYTranscendTS2TESD420C2TBUSBType-C20GbpsMagneticPortableSSDIronGray_2.jpg?v=1764061548"
+    },
+    {
+      "id": "external-storage-pcworx-000000004230",
+      "name": "Transcend TS2TESD420G 2TB USB Type-C 20Gbps Magnetic Portable SSD Champagne Gold",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000072010",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/48SHOPIFYTranscendTS2TESD420G2TBUSBType-C20GbpsMagneticPortableSSDChampagneGold_2.jpg?v=1764061722"
+    },
+    {
+      "id": "external-storage-pcworx-00000000664e",
+      "name": "Transcend TS4TESD410C 4TB ESD410C 20Gbps Type C Portable SSD Blue",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000062899",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/TranscendTS4TESD410C4TBESD410C20GbpsTypeCPortableSSDBlue.png?v=1720057584"
+    },
+    {
+      "id": "external-storage-pcworx-0000000036f0",
+      "name": "Transcend TS500GESD260C 500GB ESD260C USB 3.2 Gen 2 Type-C Portable SSD Silver",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000056149",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/2_2faeb1f8-4e8e-40c2-9161-3e3801d8ea1b.jpg?v=1767749318"
+    },
+    {
+      "id": "external-storage-pcworx-000000005e61",
+      "name": "Transcend TS500GESD265C 500GB USB 10Gbps up to 1050MB/s Type-C Portable SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000072065",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/3SHOPIFYTranscendTS4TESD360C4TBUSB20GbpsUpto2000MB_sType-CPortableSSDGray.jpg?v=1764128498"
+    },
+    {
+      "id": "external-storage-pcworx-000000000541",
+      "name": "Transcend TS500GESD270C 500GB USB3.1 Gen2 USB Type-C Portable SSD Drive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000055109",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000055109.png?v=1735973844"
+    },
+    {
+      "id": "external-storage-pcworx-0000000028d7",
+      "name": "Transcend Ts500gesd370c 500gb USB3.1 Gen2 Type-C Rugged Portable SSD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000049408",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/MSI_64.png?v=1767751639"
+    },
+    {
+      "id": "external-storage-pcworx-000000002764",
+      "name": "Transcend TS512GESD310P 512GB Type C Portable SSD Pink",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000060429",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000060429.png?v=1737354330"
+    },
+    {
+      "id": "external-storage-pcworx-00000000294d",
+      "name": "Asus SDRW-08D2S-U Black External Optical Drive",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "My Store",
+        "SKU": "0000024171",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/2_37d3e57a-b33c-4d91-a069-5e87dfbade3b.jpg?v=1769499468"
+    },
+    {
+      "id": "external-storage-pc-express-0000000063ff",
+      "name": "Synology DiskStation DS223J 2-BAY 4-Core 1.7 GHz Realtek RTD1619B NAS",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Synology",
+        "SKU": "SERVER-SYNOLOGY-000002",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/1_86b8cb48-03fe-4f31-bc00-d4c8d673d178.jpg?v=1695624694"
+    },
+    {
+      "id": "external-storage-pc-express-0000000038c1",
+      "name": "SYNOLOGY DS-1621+ 6BAY Desktop NAS Server",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Synology",
+        "SKU": "SERVER-SYNOLOGY-000004",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/SERVER-SYNOLOGY-DS-1621_-6BAY-DESKTOP-NAS-1_e7d43ef5-011f-4695-9fce-bc4d1a383e5f.jpg?v=1715652384"
+    },
+    {
+      "id": "external-storage-pc-express-000000007e87",
+      "name": "SYNOLOGY 4-Bay DiskStation DS423",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Synology",
+        "SKU": "SERVER-SYNOLOGY-000015",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/SERVER-SYNOLOGY-DS423-4-BAY-NAS-1.jpg?v=1747185567"
+    },
+    {
+      "id": "external-storage-pc-express-000000002d34",
+      "name": "SYNOLOGY DiskStation DS925+ 4-BAY Network Attached Storage",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Synology",
+        "SKU": "SERVER-SYNOLOGY-000022",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/SERVER-SYNOLOGYDS925_4-BAYNAS1.jpg?v=1754549823"
+    },
+    {
+      "id": "external-storage-pc-express-000000005bed",
+      "name": "SYNOLOGY DiskStation DS225+ 2-BAY Network Attached Storage",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Synology",
+        "SKU": "SERVER-SYNOLOGY-000021",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/SERVER-SYNOLOGYDS225_2-BAYNAS1.jpg?v=1754548085"
+    },
+    {
+      "id": "external-storage-pc-express-0000000021e9",
+      "name": "SYNOLOGY DiskStation DS224+ 2-BAY Network Attached Storage",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Synology",
+        "SKU": "SERVER-SYNOLOGY-000006",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/SERVER-SYNOLOGY-DS224_-2-BAY-NAS-1.jpg?v=1706753261"
+    },
+    {
+      "id": "external-storage-pc-express-0000000055af",
+      "name": "SYNOLOGY DiskStation DS1525+ 5-BAY Network Attached Storage",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Synology",
+        "SKU": "SERVER-SYNOLOGY-000023",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/SYNOLOGY-NASDS1525_1.jpg?v=1769047968"
+    },
+    {
+      "id": "external-storage-pc-express-00000000663e",
+      "name": "SYNOLOGY 20TB HAT5310-20T 3.5 SATA HDD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Synology",
+        "SKU": "HD-SYNOLOGY-000002",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/SERVER-HD-SYNOLOGY20TBHAT5310-20T3.5SATAHDD.jpg?v=1760429172"
+    },
+    {
+      "id": "external-storage-pc-express-000000000935",
+      "name": "Synology DiskStation DS223 2-BAY 4-Core 1.7 GHZ Realtek RTD1619B NAS",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Synology",
+        "SKU": "SERVER-SYNOLOGY-000001",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/1_e6c4bb3e-9c37-4d68-916f-17eb62d75d1f.jpg?v=1695614542"
+    },
+    {
+      "id": "external-storage-pc-express-000000000498",
+      "name": "SYNOLOGY 12TB HAT3310-12T Plus Series 3.5\" SATA HDD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Synology",
+        "SKU": "SERVER-HD-SYNOLOGY-000008",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/SERVER-HD-SYNOLOGY12TBHAT3300-12T.jpg?v=1754627271"
+    },
+    {
+      "id": "external-storage-pc-express-000000000ed3",
+      "name": "SYNOLOGY 16TB HAT3310-16T Plus Series 3.5\" SATA HDD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Synology",
+        "SKU": "SERVER-HD-SYNOLOGY 16TB HAT3310-16T",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/SERVER-HD-SYNOLOGY16TBHAT3300-16T.jpg?v=1754627830"
+    },
+    {
+      "id": "external-storage-pc-express-000000001a08",
+      "name": "SYNOLOGY 2TB HAT3300-2T Plus Series 3.5\" SATA HDD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Synology",
+        "SKU": "SERVER-HD-SYNOLOGY-000007",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/SERVER-HD-SYNOLOGY2TBHAT3300-2T1.jpg?v=1754623831"
+    },
+    {
+      "id": "external-storage-pc-express-00000000561a",
+      "name": "SYNOLOGY 4TB HAT3300-4T Plus Series 3.5\" SATA HDD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Synology",
+        "SKU": "SERVER-HD-SYNOLOGY-000004",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/SERVER-HD-SYNOLOGY4TBHAT3300-4T.jpg?v=1754625014"
+    },
+    {
+      "id": "external-storage-pc-express-0000000039c3",
+      "name": "SYNOLOGY 6TB HAT3300-6T Plus Series 3.5\" SATA HDD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Synology",
+        "SKU": "SERVER-HD-SYNOLOGY-000005",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/SERVER-HD-SYNOLOGY6TBHAT3300-6T.jpg?v=1754625715"
+    },
+    {
+      "id": "external-storage-pc-express-000000000c8c",
+      "name": "SYNOLOGY 8TB HAT3320-8T Plus Series 3.5\" SATA HDD",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "Synology",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/SERVER-HD-SYNOLOGY8TBHAT3300-8T.jpg?v=1754626639"
+    },
+    {
+      "id": "external-storage-pc-express-000000001c8c",
+      "name": "UGREEN NASync DXP4800 Plus 4-BAY NAS Server",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "UGREEN",
+        "SKU": "SERVER-UGREEN-000002",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UGREENNASyncDXP4800Plus.jpg?v=1756880117"
+    },
+    {
+      "id": "external-storage-pc-express-000000002d36",
+      "name": "UGREEN NASync DXP2800 2-BAY NAS Server",
+      "category": "external-storage",
+      "specs": {
+        "Brand": "UGREEN",
+        "SKU": "SERVER-UGREEN-000001",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UGREENNASyncDXP28002-BAY.jpg?v=1756879361"
+    },
+    {
+      "id": "external-storage-villman-0000000019cf",
+      "name": "HIKSEMI SSD ENCLOSURE 10GBPS M.2 NVME HS-HUB-MD202 USB 3.2 TYPE-C",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000051c6",
+      "name": "HIKSEMI HS-HUB-MDR1 RGB M.2 NVME & SATA SSD Enclosure",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000034d1",
+      "name": "HIKSEMI 512GB E100 2.5inch SATA 3 SSD",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000001c3a",
+      "name": "HIKSEMI 1TB T300S (HS-ESSD-T300S) External Portable SSD - Black",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000000893",
+      "name": "Netac ZX10 1TB EXTERNAL SSD USB 3.2 GEN2 TYPE-C BLACK - NT01ZX10-001T-32BK",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000006c08",
+      "name": "Kingston XS2000 1TB External SSD USB 3.2 Gen 2x2 2000MB/s USB Type-C SXS2000/1000GA Pocket-Sized Drive (Black)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000001acd",
+      "name": "Lexar 1TB Professional Go Gen 2 USB3.2 Portable SSD (LSL400X001T-RNBNG) Black",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000027dc",
+      "name": "Seagate 1TB One Touch External SSD (STKG1000400 / 401 / 402)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000001612",
+      "name": "Samsung 1TB T7 USB3.2 GEN2 PORTABLE SSD (TITAN GRAY) MU-PC1T0T/WW",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000003adf",
+      "name": "Sandisk E50 1TB EXTREME GO PORTABLE SSD",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000067a0",
+      "name": "SEAGATE 2TB STKG2000400 ONETOUCH V2 BK 2.5inch SOLID STATE DRIVE",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000006b52",
+      "name": "Samsung 1TB T7 Shield USB 3.2 Portable SSD (Black) MU-PE1T0S/WW",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000007a76",
+      "name": "Sandisk E61 1TB Black Extreme Portable SSD Type-C/USB 3.2 Gen 2 (SDSSDE61-1T00-G25)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000044fa",
+      "name": "Sandisk E61 1TB Extreme Portable SSD Monterey (SDSSDE61-1T00-G25M) USB3.2 GEN2 TYPE-C/TYPE-A",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000010c4",
+      "name": "Sandisk E61 1TB Extreme Portable SSD Sky Blue (SDSSDE61-1T00-G25B) USB3.2 GEN2 TYPE-C/TYPE-A",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-00000000472a",
+      "name": "SanDisk E52 2TB EXTREME GO PORTABLE SSD (SDSSDE52-2TOO-AC)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000005ad2",
+      "name": "SanDisk E61 2TB Extreme USB3.2 SDSSDE61-2T00-G25M (Monterey)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-00000000507f",
+      "name": "HIKSEMI 2.5inch HDD ENCLOSURE USB 3.0 5GBPS HS-HUB-MHB201",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000016f1",
+      "name": "TRANSCEND 2.5 SSD/HDD ENCLOSURE KIT, ALUMINUM HOUSING (TS0GSJ25S3)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-00000000754e",
+      "name": "TRANSCEND 2.5 SSD/HDD ENCLOSURE KIT, RUBBER HOUSING (TS0GSJ25CK3)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000001ded",
+      "name": "Hitachi 500GB 2.5In Slim USB2.0 External HDD",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000034a4",
+      "name": "Sony HD-B1 (Red/Blue) USB3.1 Portable External Drive",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000003f6",
+      "name": "Seagate Backup Plus 1TB STHN100040x USB 3.0 Portable External Drive",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000005df5",
+      "name": "Adata 1TB HD330 BLACK/BLUE/RED SHOCKPROOF External Portable Hard Drive",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000002283",
+      "name": "Seagate 500GB STJD500400 EXPANSION SSD USB 3.0 ULTRA PORTABLE STORAGE",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000002e83",
+      "name": "Seagate 1TB FIRECUDA GAMING USB3.2 STKL1000400 EXTERNAL PORTABLE HDD WITH CUSTOMISABLE RGB LED",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000024ac",
+      "name": "LaCie Porsche Design Mobile Drive 1TB (LAC302000)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000005744",
+      "name": "Western Digital My Passport for Mac 1TB (WDBLUZ0010BSL) Portable Hard Drives",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-00000000391b",
+      "name": "Seagate Seven 500GB (STDZ500400) The cutting edge is 7mm 100% stainless steel enclosure",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000003163",
+      "name": "Seagate 2TB Backup Plus Slim STHN2000 (Red/Black/Silver/Blue/Gold/Rose Gold/Space Grey)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000042b8",
+      "name": "Toshiba 1TB CANVIO ADVANCE (BLACK/WHITE/RED) USB3.2 PORTABLE EXTERNAL HDD",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000002b4",
+      "name": "Western Digital My Passport AV-TV 1TB (WDBHDK0010BBK) TV Storage",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000004153",
+      "name": "Western Digital My Passport 1TB (Black/Blue/Orange/Red/White/Yellow) USB 3.0 Portable External Hard Drive",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000064ad",
+      "name": "Western Digital 1TB EHDD My Passport USB3.0 Black (WDBYVG0010BBK-WESN)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000006b5b",
+      "name": "Western Digital 1TB EHDD My Passport USB3.0 Sky (WDBYVG0010BBL-WESN)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000007fe6",
+      "name": "Western Digital 1TB EHDD My Passport USB3.0 Red (WDBYVG0010BRD-WESN)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000001dd6",
+      "name": "Transcend 480GB TS480GESD240C USB3.1 Solid State External Drive",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000003286",
+      "name": "Seagate 1TB (STEH1000300) Gold (STEH1000301) Platinum Ultra Slim USB 3.0 Hard Drive",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000002380",
+      "name": "Seagate 1TB Backup Plus Ultra Touch (Black/White) USB3.0/USB-C External Hard Drive",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000003315",
+      "name": "Seagate ONE TOUCH 1TB STKY10004 (Black/Silver/Blue/Red/SGrey) EXTERNAL HDD PORTABLE",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000006d5e",
+      "name": "Seagate STCM500401 500GB FAST SSD 2.5-inch USB 3.1 TYPE C Portable External Drive",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000002d04",
+      "name": "Western Digital My Passport Studio 1TB 2.5-inch for Mac (WDBK8A0010BBK-PESN) 2 FireWire 800, USB 2.0 port",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000002e77",
+      "name": "Sandisk 1TB (BLACK/SKY BLUE/MONTEREY) EXTREME PORTABLE USB3.2 GEN2 TYPE-C / TYPE-A SSD",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000002f12",
+      "name": "Lacie 1TB (LAC301558) Rugged Mini 2.5-inch Portable Drive",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000006f3d",
+      "name": "Western Digital 1TB My Passport Air USB 3.0 Ultra Slim. All Metal. Mac Ready",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000002463",
+      "name": "Western Digital 2TB My Passport Portable External Drive USB 3.0 (Black/Blue/Red/White/Yellow/Orange)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000028af",
+      "name": "Seagate Backup Plus Slim 2TB Portable USB 3.0 Hard Drive",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000005f86",
+      "name": "Seagate SEAGATE 500GB STKG500400 ONETOUCH V2 2.5SE USB3.1 TYPE-C SSD",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000007071",
+      "name": "Toshiba TOSHIBA 2TB CANVIO SLIM ALUMINUM (WHITE/BLACK) USB3.0 EXTERNAL HDD",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000006b47",
+      "name": "Seagate Expansion 2TB USB 3.0 (STBX2000401) Portable Hard Drive",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000000f9c",
+      "name": "Seagate 2TB Platinum/Gold Backup Plus Ultra Slim",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000005d74",
+      "name": "Seagate Backup Plus Ultra Touch 2TB (Black/White) USB-C/USB 3.0-2.0 Compatible/Woven fabric Enclosure",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000001363",
+      "name": "TRANSCEND 4TB H3P TS4TSJ25H3P PURPLE STOREJET 2.5inch PORTABLE HDD",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000004cd5",
+      "name": "TRANSCEND 4TB TS4TSJ25M3S IRON GREY STOREJET 2.5inch PORTABLE HDD",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000002221",
+      "name": "Seagate ONE TOUCH 2TB STKY20004 ( Black/Silver/Blue/Red/Space Grey/Rose Gold) EXTERNAL HDD PORTABLE",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000005e8",
+      "name": "Seagate 2TB DJI Fly Drive Portable Drive for Drone Footage (STGH2000400)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000006428",
+      "name": "Seagate 4TB STDR400030x Backup Plus Portable USB 3.0",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-00000000749a",
+      "name": "Seagate 4TB Backup Plus USB 3.0 External Hard Drive (Black, Red, Blue and Silver)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000007a66",
+      "name": "LaCie Rugged Mini 2TB External Hard Drive Potable HDD (LAC9000298)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000005917",
+      "name": "Sandisk E61 500GB Extreme Portable SSD Type-C/USB 3.2 Gen 2 (SDSSDE61-500G-G25)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000045dd",
+      "name": "Seagate 1TB Expansion SSD USB3.0 STJD1000400 Ultra Portable Storage",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000006ab",
+      "name": "LaCie USB-C and USB 3.1 2TB Porsche Design Mobile Drive (STFD2000402)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000002458",
+      "name": "LaCie Rugged USB-C and USB 3.0 2TB Portable Hard Drive (STFR2000400)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000002fa4",
+      "name": "Seagate Backup Plus 5TB External Hard Drive Portable HDD (STHP5000400/Black STHP5000401/Silver)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000000a8a",
+      "name": "Seagate ONE TOUCH 4T STKZ4000 (Black/Silver/Blue/Red/SGray)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000044e1",
+      "name": "Sandisk E30 1TB USB 3.2 Gen 2 Portable SSD USB-C (SDSSDE30-1T00-G25/G26)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000002cb6",
+      "name": "Cisco Business 150AX Wi-Fi 6 Access Point Wi-Fi 6 on both 2.4GHz and 5GHz bands",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000001b44",
+      "name": "Samsung HomeSync Android 4.2/A15 Dual Core/8GB eMMC with 1TB HDD/Cloud on the go Media Center at Home",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000006276",
+      "name": "ASUSTOR Drivestor AS1102T 2 Bay NAS",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-00000000061f",
+      "name": "SYNOLOGY DiskStation DS223J 2-BAY NAS",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000004e7",
+      "name": "SYNOLOGY DS223 DISKLESS SYSTEM 2-BAY NAS",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000004cd4",
+      "name": "Synology DiskStation DS420j 4 Bay NAS 4-core 1.4 GHz 1 GB DDR4 non-ECC",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000006dde",
+      "name": "SYNOLOGY DS224+DISKSTATION 2-BAY NAS | Intel Celeron J4125 Quad-Core 2.0 GHz | 2 GB DDR4 | Synology DSM",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000006b21",
+      "name": "Synology DiskStation SY-DS225+ 2-bay NAS",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-00000000627c",
+      "name": "ASUSTOR Drivestor 4 PRO AS3304T 4 Bay NAS",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000007ec5",
+      "name": "Synology DiskStation DS420+ 4 Bay Compact and High Performance NAS Solution",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000001e94",
+      "name": "Synology DiskStation DS425+ 4-Bay NAS Server",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-00000000275b",
+      "name": "SYNOLOGY SYNOLOGY DISKSTATION DS925+ 4-BAY",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000010a3",
+      "name": "Synology DiskStation DS1825+ 8-bay NAS",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000007b69",
+      "name": "Seagate ONE TOUCH 5TB STKZ50004 (BLACK/SILVER/RED)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000060fa",
+      "name": "Western Digital My Passport Pro 2TB Thunderbolt (WDBRMP0020DBK) Portable RAID Storage",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000005639",
+      "name": "Samsung 2TB T7 Touch MU-PC2T0K Portable Solid State Drive",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000005bba",
+      "name": "Sandisk E61 2TB Extreme Portable SSD Type-C/USB 3.2 Gen 2 (SDSSDE61-2T00-G25)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000001218",
+      "name": "Seagate 4TB STLC4000400 DT ONE TOUCH HUB, External Drive with Built-In Hub (Black)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-0000000010b0",
+      "name": "Seagate 6TB STLC6000400 ONE TOUCH DT HUB 3.5inch HARD DRIVE",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000006249",
+      "name": "Seagate 8TB STLC8000400 ONE TOUCH DT HUB 3.5inch HARD DRIVE",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000005432",
+      "name": "Seagate 10TB STLC10000400 ONE TOUCH HUB, External Drive with Built-In Hub (Black)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000003dd0",
+      "name": "Seagate 16TB One Touch Desktop with Built-In Hub, External Drive USB3 (STLC16000402)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "external-storage-villman-000000006ecf",
+      "name": "Seagate 20TB One Touch Desktop with Built-In Hub, External Drive USB3 (STLC20000400)",
+      "category": "external-storage",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    }
+  ]
+}

@@ -53,6 +53,7 @@ export interface GpuNormalized {
   vramGb: number
   powerDrawWatts: number
   powerConnectors: GpuPowerConnector[]
+  lengthMm?: number
 }
 
 // ── PSU ─────────────────────────────────────────────────────────
@@ -106,3 +107,45 @@ export type NormalizedData =
   | { category: 'case'; data: CaseNormalized }
   | { category: 'storage'; data: StorageNormalized }
   | { category: 'other'; data: null }
+
+// ── Compatibility issues ─────────────────────────────────────────────
+
+export type CompatibilitySeverity = 'warn' | 'error'
+
+export type CompatibilityCode =
+  | 'socket_mismatch'
+  | 'ram_gen_mismatch'
+  | 'ram_slot_exceeded'
+  | 'ram_speed_downclock'
+  | 'form_factor'
+  | 'gpu_case_length'
+  | 'cooler_socket_mismatch'
+  | 'cooler_height'
+  | 'cooler_height_tight'
+  | 'wattage_exceeded'
+  | 'wattage_tight'
+  | 'no_psu'
+  | 'generic'
+
+export interface CompatibilityIssue {
+  code: CompatibilityCode
+  message: string
+  severity: CompatibilitySeverity
+  slots: string[]
+}
+
+
+// ── Type guards ──────────────────────────────────────────────────────
+
+export function isCpuNormalized(
+  n: NormalizedData
+): n is { category: 'cpu'; data: CpuNormalized } {
+  return n.category === 'cpu'
+}
+
+export function isMotherboardNormalized(
+  n: NormalizedData
+): n is { category: 'motherboard'; data: MotherboardNormalized } {
+  return n.category === 'motherboard'
+}
+

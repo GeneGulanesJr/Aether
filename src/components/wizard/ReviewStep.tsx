@@ -1,16 +1,27 @@
+import { useMemo } from 'react'
 import type { WizardState } from '../../lib/buildWizard'
-import type { LivePriceState } from '../../hooks/useCatalogData'
-import { PART_STEPS, buildScore, BUDGET_OPTIONS, USECASE_OPTIONS } from '../../lib/buildWizard'
+import type { Part } from '../../lib/types'
+import {
+  PART_STEPS,
+  buildScore,
+  BUDGET_OPTIONS,
+  USECASE_OPTIONS,
+  checkWizardCompatibility,
+  estimateWattage,
+  type WizardCompatIssue,
+} from '../../lib/buildWizard'
 import { formatPhp } from '../../lib/format'
+import { parsePrice } from '../../lib/priceUtils'
 
 interface ReviewStepProps {
   state: WizardState
   onRestart: () => void
   priceByPartId?: Record<string, string>
   isEstimated: boolean
-  livePriceState: LivePriceState
-  livePriceError: string | undefined
-  onFetchLivePrices: () => void
+  isEstimated?: boolean
+  livePriceState?: unknown
+  livePriceError?: string | undefined
+  onFetchLivePrices?: () => void
 }
 
 export function ReviewStep({
@@ -18,30 +29,35 @@ export function ReviewStep({
   onRestart,
   priceByPartId,
   isEstimated,
-  livePriceState,
-  livePriceError,
-  onFetchLivePrices,
+
 }: ReviewStepProps) {
-  const score = buildScore(state.selectedParts)
+  // ── Compatibility check ──────────────────────────────────────────────────
+  const issues = useMemo(() => checkWizardCompatibility(state.selectedParts), [state.selectedParts])
+  const errorCount = issues.filter(i => i.severity === 'error').length
+  const warnCount = issues.filter(i => i.severity === 'warn').length
+  const wattage = useMemo(() => estimateWattage(state.selectedParts), [state.selectedParts])
+
+  // ── Score (now includes compatibility) ────────────────────────────────────
+  const score = buildScore(state.selectedParts, errorCount)
   const filledCount = Object.keys(state.selectedParts).length
   const allFilled = filledCount === PART_STEPS.length
   const duration = state.startedAt && state.completedAt
     ? Math.round((state.completedAt - state.startedAt) / 1000)
     : null
 
-  // Calculate total build price
+  // ── Total build price ────────────────────────────────────────────────────
   const totalBuildPrice = priceByPartId
     ? Object.values(state.selectedParts).reduce((sum, part) => {
         const priceStr = priceByPartId[part.id]
         if (priceStr) {
-          const numeric = Number(priceStr.replace(/[₱,\s]/g, ''))
+          const numeric = parsePrice(priceStr, part.id)
           return sum + (isNaN(numeric) ? 0 : numeric)
         }
         return sum
       }, 0)
     : 0
 
-  // Circle math for score ring — radius matches the actual SVG r attribute
+  // ── Circle math for score ring ───────────────────────────────────────────
   const radius = 27
   const circumference = 2 * Math.PI * radius
   const offset = circumference - (score / 100) * circumference
@@ -75,38 +91,12 @@ export function ReviewStep({
             <p className="xai-price font-mono text-3xl text-xai-text">
               {formatPhp(totalBuildPrice)}
             </p>
-            {/* Price freshness indicator */}
+            {/* Price source indicator */}
             {isEstimated ? (
-              <div className="mt-2 flex flex-col items-center gap-2">
+              <div className="mt-2">
                 <p className="font-mono text-[0.5rem] text-xai-text-4 uppercase tracking-wider">
-                  ⚠ Estimated prices · not live
+                  Estimated prices
                 </p>
-                {livePriceState === 'loading' && (
-                  <p className="font-mono text-[0.5rem] text-xai-accent uppercase tracking-wider">
-                    Fetching live prices…
-                  </p>
-                )}
-                {livePriceState === 'error' && (
-                  <div className="flex flex-col items-center gap-1">
-                    <p className="font-mono text-[0.5rem] text-red-400 uppercase tracking-wider">
-                      Live prices failed: {livePriceError}
-                    </p>
-                    <button
-                      onClick={onFetchLivePrices}
-                      className="font-mono text-[0.5rem] text-xai-accent uppercase tracking-wider hover:text-xai-text transition-colors"
-                    >
-                      Retry
-                    </button>
-                  </div>
-                )}
-                {livePriceState === 'idle' && (
-                  <button
-                    onClick={onFetchLivePrices}
-                    className="font-mono text-[0.5rem] text-xai-accent uppercase tracking-wider hover:text-xai-text transition-colors"
-                  >
-                    Fetch live prices →
-                  </button>
-                )}
               </div>
             ) : (
               <p className="font-mono text-[0.5rem] text-xai-accent uppercase tracking-wider mt-2">
@@ -117,8 +107,35 @@ export function ReviewStep({
         )}
       </div>
 
-      {/* Score + Stats */}
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 mb-10">
+      {/* ── Compatibility Warnings ───────────────────────────────────────── */}
+      {issues.length > 0 && (
+        <div className="mb-8">
+          <div className="flex items-center gap-2 mb-3">
+            <span className="font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-[0.15em]">
+              Compatibility Check
+            </span>
+            {errorCount > 0 && (
+              <span className="xai-tag" style={{ color: 'var(--color-xai-error)', borderColor: 'var(--color-xai-error)' }}>
+                {errorCount} {errorCount === 1 ? 'ERROR' : 'ERRORS'}
+              </span>
+            )}
+            {warnCount > 0 && (
+              <span className="xai-tag" style={{ color: 'var(--color-xai-warn)', borderColor: 'var(--color-xai-warn-border)' }}>
+                {warnCount} {warnCount === 1 ? 'WARNING' : 'WARNINGS'}
+              </span>
+            )}
+          </div>
+          <div className="space-y-2">
+            {issues.map((issue) => (
+              <IssueRow key={issue.code} issue={issue} />
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* ── Score + Stats + Wattage ─────────────────────────────────────── */}
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 mb-10">
+        {/* Score */}
         <div className="xai-card flex flex-col items-center py-8">
           <svg
             width="80"
@@ -130,7 +147,7 @@ export function ReviewStep({
             <circle cx="40" cy="40" r={radius} className="score-ring-track" />
             <circle
               cx="40" cy="40" r={radius}
-              className="score-ring-value"
+              className={`score-ring-value ${errorCount > 0 ? 'score-ring-error' : ''}`}
               strokeDasharray={circumference}
               strokeDashoffset={offset}
             />
@@ -138,9 +155,17 @@ export function ReviewStep({
           <p className="xai-price font-mono text-2xl text-xai-text mt-3">
             {score}
           </p>
-          <p className="font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-wider mt-1">Build Score</p>
+          <p className="font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-wider mt-1">
+            Build Score
+          </p>
+          {errorCount > 0 && (
+            <p className="font-mono text-[0.5rem] mt-1" style={{ color: 'var(--color-xai-error)' }}>
+              -{errorCount * 10} compatibility
+            </p>
+          )}
         </div>
 
+        {/* Components */}
         <div className="xai-card flex flex-col items-center justify-center py-8">
           <p className="xai-price font-mono text-2xl text-xai-text">
             {filledCount} / {PART_STEPS.length}
@@ -152,9 +177,56 @@ export function ReviewStep({
             </p>
           )}
         </div>
+
+        {/* Wattage estimate */}
+        <div className="xai-card flex flex-col items-center justify-center py-8">
+          {wattage ? (
+            <>
+              <p className="xai-price font-mono text-2xl text-xai-text">
+                ~{wattage.estimated}W
+              </p>
+              <p className="font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-wider mt-1">
+                Est. Power Draw
+              </p>
+              {wattage.psuWattage ? (
+                <p className={`font-mono text-[0.625rem] mt-2 ${
+                  wattage.estimated > wattage.psuWattage
+                    ? ''
+                    : wattage.estimated > wattage.psuWattage * 0.85
+                      ? 'text-xai-text-2'
+                      : 'text-xai-accent'
+                }`}
+                  style={wattage.estimated > wattage.psuWattage ? { color: 'var(--color-xai-error)' } : undefined}
+                >
+                  PSU: {wattage.psuWattage}W
+                  {wattage.estimated > wattage.psuWattage
+                    ? ' ⚠ INSUFFICIENT'
+                    : wattage.estimated > wattage.psuWattage * 0.85
+                      ? ' — tight margin'
+                      : ' ✓ healthy headroom'
+                  }
+                </p>
+              ) : (
+                <p className="font-mono text-[0.5625rem] text-xai-text-4 mt-2">
+                  No PSU selected
+                </p>
+              )}
+            </>
+          ) : (
+            <>
+              <p className="font-mono text-2xl text-xai-text-4">—</p>
+              <p className="font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-wider mt-1">
+                Power Draw
+              </p>
+              <p className="font-mono text-xs text-xai-text-4 mt-2">
+                Add CPU/GPU to estimate
+              </p>
+            </>
+          )}
+        </div>
       </div>
 
-      {/* Full build list */}
+      {/* ── Full build list ─────────────────────────────────────────────── */}
       <div className="xai-card mb-10">
         <p className="font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-[0.15em] mb-3">
           Your Build
@@ -163,8 +235,12 @@ export function ReviewStep({
           {PART_STEPS.map((step) => {
             const part = step.category ? state.selectedParts[step.category] : null
             const priceStr = part && priceByPartId ? priceByPartId[part.id] : undefined
+            // Highlight parts that have compatibility issues
+            const hasIssue = part && step.category && issues.some(i => i.categories.includes(step.category!))
             return (
-              <li key={step.id} className="flex flex-col gap-0.5 border-b border-xai-border py-2 last:border-0 sm:flex-row sm:items-center sm:justify-between sm:gap-3">
+              <li key={step.id} className={`flex flex-col gap-0.5 border-b border-xai-border py-2 last:border-0 sm:flex-row sm:items-center sm:justify-between sm:gap-3 ${hasIssue ? 'pl-2 border-l-2' : ''}`}
+                style={hasIssue ? { borderLeftColor: issues.find(i => i.categories.includes(step.category!))?.severity === 'error' ? 'var(--color-xai-error)' : 'var(--color-xai-warn)' } : undefined}
+              >
                 <div className="flex items-center gap-2 shrink-0">
                   <span className="text-sm" aria-hidden="true">{step.icon}</span>
                   <span className="font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-wider">
@@ -187,16 +263,49 @@ export function ReviewStep({
         </ul>
       </div>
 
-      {allFilled && (
+      {allFilled && errorCount === 0 && (
         <div className="mt-10 text-center">
           <p className="font-mono text-[0.5625rem] text-xai-text-3 uppercase tracking-[0.15em] mb-4">
-            <span aria-hidden="true">🏆 </span>Every slot filled — you are a true builder
+            <span aria-hidden="true">🏆 </span>Every slot filled — no compatibility issues
           </p>
           <button onClick={onRestart} className="xai-btn xai-btn-ghost">
             BUILD ANOTHER
           </button>
         </div>
       )}
+      {allFilled && errorCount > 0 && (
+        <div className="mt-10 text-center">
+          <p className="font-mono text-[0.5625rem] uppercase tracking-[0.15em] mb-4" style={{ color: 'var(--color-xai-error)' }}>
+            <span aria-hidden="true">⚠ </span>All slots filled but {errorCount} compatibility {errorCount === 1 ? 'issue' : 'issues'} found
+          </p>
+          <button onClick={onRestart} className="xai-btn xai-btn-ghost">
+            FIX BUILD
+          </button>
+        </div>
+      )}
+    </div>
+  )
+}
+
+// ─── Issue Row ──────────────────────────────────────────────────────────────
+
+function IssueRow({ issue }: { issue: WizardCompatIssue }) {
+  const isError = issue.severity === 'error'
+  return (
+    <div
+      className="xai-card flex items-start gap-2 py-2 px-3"
+      style={{ borderColor: isError ? 'var(--color-xai-error)' : 'var(--color-xai-warn-border)' }}
+      role="alert"
+    >
+      <span className="font-mono text-xs shrink-0 mt-0.5" style={{ color: isError ? 'var(--color-xai-error)' : 'var(--color-xai-warn)' }}>
+        {isError ? '✕' : '⚠'}
+      </span>
+      <div className="min-w-0">
+        <p className="font-mono text-xs text-xai-text leading-snug">{issue.message}</p>
+        <p className="font-mono text-[0.5rem] text-xai-text-4 mt-0.5 uppercase">
+          {issue.categories.join(' + ')}
+        </p>
+      </div>
     </div>
   )
 }

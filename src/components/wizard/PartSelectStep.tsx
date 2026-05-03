@@ -1,14 +1,20 @@
 import { useState, useMemo } from 'react'
 import type { Part } from '../../lib/types'
-import type { StepInfo, Platform } from '../../lib/buildWizard'
+import type { StepInfo, Platform, SocketOption } from '../../lib/buildWizard'
+import { isPartCompatible } from '../../lib/buildWizard'
 import { simplifyPartName, usePartFilters, type SortField } from '../../hooks/usePartFilters'
+import { parsePrice } from '../../lib/priceUtils'
 
 interface PartSelectStepProps {
   step: StepInfo
   platform: Platform
+  /** When provided (guided mode), filter parts by actual socket compatibility. */
+  socket?: SocketOption | null
   parts: Part[]
   selectedPart: Part | null
   priceByPartId?: Record<string, string>
+  /** Budget limits from guided mode — tags over-budget parts visually. */
+  budgetLimit?: { hard: number; stretch: number }
   onSelect: (part: Part) => void
   onRemove: () => void
   onNext: () => void
@@ -19,30 +25,63 @@ interface PartSelectStepProps {
 export function PartSelectStep({
   step,
   platform,
+  socket,
   parts,
   selectedPart,
   priceByPartId,
+  budgetLimit,
   onSelect,
   onRemove,
   onNext,
   onBack,
   isLast,
 }: PartSelectStepProps) {
-  // Filter parts by platform hint (name contains AMD/Intel, etc.)
-  const platformParts = parts.length > 0
-    ? parts.filter((p) => {
-        const name = p.name.toLowerCase()
-        if (platform === 'amd') return name.includes('amd') || name.includes('ryzen') || name.includes('radeon')
-        return name.includes('intel') || name.includes('core')
-      })
-    : [] // If no real data, show empty (CompareStep already guided them)
+  // Filter parts using the real compatibility engine when socket is known,
+  // otherwise fall back to a broad platform name filter (backward safety).
+  const compatibleParts = useMemo(() => {
+    if (parts.length === 0) return []
 
-  const sourceParts = platformParts.length > 0 ? platformParts : parts
+    if (socket) {
+      // Guided / custom mode with resolved socket — strict filtering
+      return parts.filter((p) => isPartCompatible(p, step.category!, socket))
+    }
+
+    // No socket resolved — broad platform filter as safety net
+    return parts.filter((p) => {
+      const name = p.name.toLowerCase()
+      if (platform === 'amd') return name.includes('amd') || name.includes('ryzen') || name.includes('radeon')
+      return name.includes('intel') || name.includes('core')
+    })
+  }, [parts, platform, socket, step.category])
+
+  // If the strict filter eliminates everything, fall back to showing all
+  // parts for the category (better empty state than a silent wall).
+  const sourceParts = compatibleParts.length > 0 ? compatibleParts : parts
+
   const filters = usePartFilters(sourceParts, { priceByPartId, deduplicate: true })
+
+  // Budget helper: extract numeric price from string like "₱12,345"
+  const getPartPrice = (part: Part): number => {
+    const raw = priceByPartId?.[part.id]
+    if (!raw) return 0
+    return parsePrice(raw, part.id) || 0
+  }
 
   // Local sort state
   const [sortField, setSortField] = useState<SortField>('name')
   const [sortDir, setSortDir] = useState<'asc' | 'desc'>('asc')
+  const [removeConfirm, setRemoveConfirm] = useState(false)
+
+  // Two-click remove: first click arms, second click confirms, auto-disarms after 3s
+  const handleRemove = () => {
+    if (!removeConfirm) {
+      setRemoveConfirm(true)
+      setTimeout(() => setRemoveConfirm(false), 3000)
+      return
+    }
+    setRemoveConfirm(false)
+    onRemove()
+  }
 
   const sortedParts = useMemo(() => {
     const sorted = [...filters.filteredParts]
@@ -51,8 +90,8 @@ export function PartSelectStep({
       switch (sortField) {
         case 'name': return dir * a.name.localeCompare(b.name)
         case 'price': {
-          const pa = parseFloat((priceByPartId?.[a.id] ?? '').replace(/[\u20b1,\s]/g, '')) || Infinity
-          const pb = parseFloat((priceByPartId?.[b.id] ?? '').replace(/[\u20b1,\s]/g, '')) || Infinity
+          const pa = parsePrice(priceByPartId?.[a.id], a.id) || Infinity
+          const pb = parsePrice(priceByPartId?.[b.id], b.id) || Infinity
           return dir * (pa - pb)
         }
         case 'cores': {
@@ -66,6 +105,23 @@ export function PartSelectStep({
     return sorted
   }, [filters.filteredParts, sortField, sortDir, priceByPartId])
 
+  // Budget-aware deprioritization: within-budget parts first, stretch next, way over last
+  const finalSorted = useMemo(() => {
+    if (!budgetLimit || budgetLimit.hard === Infinity) return sortedParts
+    const getBucket = (p: Part): number => {
+      const price = getPartPrice(p)
+      if (price === 0) return 0
+      if (price <= budgetLimit.hard) return 0
+      if (price <= budgetLimit.stretch) return 1
+      return 2
+    }
+    return [...sortedParts].sort((a, b) => {
+      const ba = getBucket(a), bb = getBucket(b)
+      if (ba !== bb) return ba - bb
+      return 0
+    })
+  }, [sortedParts, budgetLimit])
+
   const toggleSort = (field: SortField) => {
     if (sortField === field) {
       setSortDir(d => d === 'asc' ? 'desc' : 'asc')
@@ -73,6 +129,20 @@ export function PartSelectStep({
       setSortField(field)
       setSortDir('asc')
     }
+  }
+
+  // Whether the strict filter returned 0 results (we're showing fallback)
+  const isFallback = compatibleParts.length === 0 && parts.length > 0
+
+  // Budget helper: is a part over-budget?
+  const isOverBudget = (part: Part): boolean => {
+    if (!budgetLimit || budgetLimit.hard === Infinity) return false
+    const price = getPartPrice(part)
+    return price > budgetLimit.hard && price <= budgetLimit.stretch
+  }
+  const isWayOverBudget = (part: Part): boolean => {
+    if (!budgetLimit || budgetLimit.hard === Infinity) return false
+    return getPartPrice(part) > budgetLimit.stretch
   }
 
   return (
@@ -92,10 +162,27 @@ export function PartSelectStep({
           </h2>
           <p className="text-xai-text-3 text-xs mt-1">{step.subtitle}</p>
         </div>
-        <div className="xai-tag shrink-0">
-          <span aria-hidden="true">{platform === 'amd' ? '🔴' : '🔵'}</span> {platform.toUpperCase()}
+        <div className="flex items-center gap-2 shrink-0">
+          <span className="xai-tag">
+            <span aria-hidden="true">{platform === 'amd' ? '🔴' : '🔵'}</span> {platform.toUpperCase()}
+          </span>
+          {socket && (
+            <span className="xai-tag xai-tag-accent">{socket.label}</span>
+          )}
         </div>
       </div>
+
+      {/* Fallback notice — socket filter found nothing */}
+      {isFallback && socket && (
+        <div className="xai-card mb-4 border-xai-warn-border">
+          <p className="font-mono text-xs" style={{ color: 'var(--color-xai-warn)' }}>
+            No {socket.label}-compatible {step.label.toLowerCase()}s found — showing all available
+          </p>
+          <p className="font-mono text-[0.5625rem] text-xai-text-4 mt-1">
+            Catalog data for {socket.label} parts is still being added
+          </p>
+        </div>
+      )}
 
       {/* Selected part preview */}
       {selectedPart && (
@@ -114,11 +201,12 @@ export function PartSelectStep({
                 </span>
               )}
               <button
-                onClick={onRemove}
-                className="xai-btn xai-btn-ghost text-xs py-1.5 px-3"
+                onClick={handleRemove}
+                className={`xai-btn text-xs py-1.5 px-3 transition-colors ${removeConfirm ? 'xai-btn-ghost' : 'xai-btn-ghost'}`}
+                style={removeConfirm ? { color: 'var(--color-xai-error)' } : undefined}
                 aria-label={`Remove ${simplifyPartName(selectedPart.name, selectedPart.category)}`}
               >
-                REMOVE
+                {removeConfirm ? 'CONFIRM REMOVE' : 'REMOVE'}
               </button>
             </div>
           </div>
@@ -201,16 +289,18 @@ export function PartSelectStep({
       </div>
 
       {/* Parts list */}
-      {sortedParts.length > 0 ? (
+      {finalSorted.length > 0 ? (
         <div className="divide-y divide-xai-border">
-          {sortedParts.map((part) => {
+          {finalSorted.map((part) => {
             const isSelected = selectedPart?.id === part.id
+            const overBudget = isOverBudget(part)
+            const wayOver = isWayOverBudget(part)
             return (
               <button
                 key={part.id}
                 onClick={() => onSelect(part)}
                 className={`flex w-full items-center gap-3 py-2.5 px-1 text-left transition-colors hover:bg-xai-hover ${isSelected ? 'bg-xai-hover' : ''}`}
-                aria-label={`Select ${simplifyPartName(part.name, part.category)}${isSelected ? ', currently selected' : ''}`}
+                aria-label={`Select ${simplifyPartName(part.name, part.category)}${isSelected ? ', currently selected' : ''}${overBudget ? ', over budget' : ''}`}
                 aria-pressed={isSelected}
               >
                 {isSelected && (
@@ -218,15 +308,25 @@ export function PartSelectStep({
                     ✓
                   </span>
                 )}
-<p className="text-xai-text text-sm font-normal truncate flex-1">
+<p className={`text-sm font-normal truncate flex-1 ${wayOver ? 'text-xai-text-4' : 'text-xai-text'}`}>
           {simplifyPartName(part.name, part.category)}
         </p>
                 <div className="flex items-center gap-2 shrink-0">
+                  {overBudget && (
+                    <span className="font-mono text-[0.5rem] uppercase tracking-wider" style={{ color: 'var(--color-xai-warn)' }}>
+                      OVER BUDGET
+                    </span>
+                  )}
+                  {wayOver && (
+                    <span className="font-mono text-[0.5rem] uppercase tracking-wider text-xai-text-4">
+                      WAY OVER
+                    </span>
+                  )}
                   {Object.entries(part.specs)
                     .filter(([k]) => !['brand', 'sku', 'availability'].includes(k))
                     .slice(0, 2)
                     .map(([k, v]) => (
-                      <span key={k} className="font-mono text-[0.5rem] text-xai-text-4 bg-xai-bg px-1.5 py-0.5 rounded">
+                      <span key={k} className="font-mono text-[0.5rem] text-xai-text-4 bg-xai-bg px-1.5 py-0.5">
                         {v}
                       </span>
                     ))}
@@ -255,10 +355,10 @@ export function PartSelectStep({
       ) : (
         <div className="xai-card text-center py-12">
           <p className="font-mono text-xs text-xai-text-4 uppercase tracking-wider">
-            No parts available for this category yet
+            No compatible parts available yet
           </p>
-          <p className="font-mono text-xs text-xai-text-3 mt-2">
-            Catalog data is still in development — check back soon
+          <p className="font-mono text-[0.5625rem] text-xai-text-3 mt-2">
+            Catalog data for {socket?.label ?? 'this socket'} is still being added
           </p>
         </div>
       )}

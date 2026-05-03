@@ -7,14 +7,14 @@
 
 import { useState, useMemo, useCallback } from 'react'
 import type { Part, PriceEntry, BuildSlotCategory } from '../../lib/types'
-import { getSpec } from '../../lib/types'
+import { getPartSocket, getSpec } from '../../lib/types'
 import type { UseBuildResult } from '../../hooks/useBuild'
 import type { Platform } from '../../lib/buildWizard'
 import { SOCKET_OPTIONS, type SocketOption } from '../../lib/buildWizard'
 import { CompatibilityChecker, getWattageIssues } from '../builder/CompatibilityChecker'
 import { estimateWattage, type WattageEstimate } from '../../lib/wattageEstimator'
 import { usePartFilters, simplifyPartName, type SortField } from '../../hooks/usePartFilters'
-import { useWindowManager } from '../../lib/windowManager'
+import { useWindowManager } from '../../lib/useWindowManager'
 import { formatPhp } from '../../lib/format'
 
 // ── Constants ──
@@ -278,9 +278,9 @@ function SlotListView({
                             </span>
                           ))
                         }
-                        {getSpec(slot.part!.specs, 'socket') && (
+                        {slot.part && getPartSocket(slot.part) && (
                           <span className="font-mono text-[0.4375rem] text-xai-text-4 bg-xai-bg px-1 py-px">
-                            {getSpec(slot.part!.specs, 'socket')}
+                            {slot.part ? getPartSocket(slot.part) : ''}
                           </span>
                         )}
                       </div>
@@ -294,9 +294,9 @@ function SlotListView({
                     )}
                     {slot.category === 'motherboard' && (
                       <div className="flex items-center gap-1.5 mt-0.5">
-                        {getSpec(slot.part!.specs, 'socket') && (
+                        {slot.part && getPartSocket(slot.part) && (
                           <span className="font-mono text-[0.4375rem] text-xai-text-4 bg-xai-bg px-1 py-px">
-                            {getSpec(slot.part!.specs, 'socket')}
+                            {slot.part ? getPartSocket(slot.part) : ''}
                           </span>
                         )}
                         {getSpec(slot.part!.specs, 'ram') && (
@@ -355,7 +355,7 @@ function SlotListView({
               <span className={`font-mono text-xs font-bold ${
                 wattage.status === 'danger' ? 'text-xai-error' :
                 wattage.status === 'warning' ? 'text-xai-warn' :
-                wattage.status === 'ok' ? 'text-green-400' :
+                wattage.status === 'ok' ? 'text-xai-success' :
                 'text-xai-text'
               }`}>
                 {wattage.totalWatts}W
@@ -368,7 +368,7 @@ function SlotListView({
                 className={`h-full transition-all ${
                   wattage.status === 'danger' ? 'bg-xai-error' :
                   wattage.status === 'warning' ? 'bg-xai-warn' :
-                  'bg-green-400'
+                  'bg-xai-success'
                 }`}
                 style={{
                   width: wattage.selectedPsuWatts
@@ -391,7 +391,7 @@ function SlotListView({
               </span>
               {wattage.selectedPsuWatts !== null && (
                 <span className={`font-mono text-[0.5rem] ${
-                  wattage.status === 'ok' ? 'text-green-400' :
+                  wattage.status === 'ok' ? 'text-xai-success' :
                   wattage.status === 'danger' ? 'text-xai-error' :
                   'text-xai-warn'
                 }`}>
@@ -484,7 +484,7 @@ function VendorStep({
           const compatibleCount = parts.filter((p) => {
             if (p.category !== category) return false
             if (category === 'cpu') {
-              const spec = getSpec(p.specs, 'socket').toLowerCase().replace(/\s+/g, '')
+              const spec = getPartSocket(p).toLowerCase().replace(/\s+/g, '')
               return socketsForVendor.some(
                 (s) => spec === s.id.replace('_ddr5', '')
               )
@@ -571,11 +571,11 @@ function SocketStep({
           const count = parts.filter((p) => {
             if (p.category !== category) return false
             if (category === 'cpu') {
-              const spec = getSpec(p.specs, 'socket').toLowerCase().replace(/\s+/g, '')
+              const spec = getPartSocket(p).toLowerCase().replace(/\s+/g, '')
               return spec === s.id.replace('_ddr5', '')
             }
             if (category === 'motherboard') {
-              const spec = getSpec(p.specs, 'socket').toLowerCase().replace(/\s+/g, '')
+              const spec = getPartSocket(p).toLowerCase().replace(/\s+/g, '')
               return spec === s.id.replace('_ddr5', '')
             }
             if (category === 'ram') {
@@ -660,11 +660,11 @@ function PartsStep({
     return parts.filter((p) => {
       if (p.category !== category) return false
       if (category === 'cpu') {
-        const s = getSpec(p.specs, 'socket').toLowerCase().replace(/\s+/g, '')
+         const s = getPartSocket(p).toLowerCase().replace(/\s+/g, '')
         return s === socket.id.replace('_ddr5', '')
       }
       if (category === 'motherboard') {
-        const s = getSpec(p.specs, 'socket').toLowerCase().replace(/\s+/g, '')
+         const s = getPartSocket(p).toLowerCase().replace(/\s+/g, '')
         const ram = getSpec(p.specs, 'ram').toUpperCase()
         return (
           s === socket.id.replace('_ddr5', '') &&

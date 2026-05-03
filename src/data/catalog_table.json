@@ -1,0 +1,1536 @@
+{
+  "schemaVersion": "1.0",
+  "category": "table",
+  "items": [
+    {
+      "id": "table-bermor-techzone-000000001e83",
+      "name": "Realme PAD X 5G 6+128GB Tablet Gray | Green | Blue GY-18",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/12/realme-Pad-X-Wifi-btz-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000000d95",
+      "name": "Lenovo Tab M10 HD 10.1″ ZA6V0132PH 2+32 2nd Gen",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/07/Lenovo-Tab-M10-HD-10.1″-ZA6V0132PH-232-2nd-Gen-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000007806",
+      "name": "Apple 10.2″ iPad WIFI 2021 9th Gen Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/01/14961795-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-00000000031c",
+      "name": "Realme PAD X WIFI 6+128GB Tablet Gray | Green | Blue",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/12/realme-Pad-X-Wifi-btz-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000004e1b",
+      "name": "Apple iPad Air 10.9″ WIFI 2020 Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/01/ipad-air-select-wifi-spacegray-202009_FMT_WHH-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-0000000062c7",
+      "name": "Apple iPad Pro 11″ 2021 Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/01/ipad-pro-11-select-wifi-spacegray-202104_FMT_WHH-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-00000000712e",
+      "name": "Realme RMP2102 PAD LTE 6+128GB Tablet Gray | Gold",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/REALME-RMP2102-ph-1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000005d4b",
+      "name": "Acer ONE 8 T4-82L 2GB | 32GB Android Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/10/ACER-ONE-8-T4-82L-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000001cc3",
+      "name": "Apple 12.9″ iPad Pro 2021 Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/01/ipad-pro-12-select-wifi-spacegray-202104_FMT_WHH-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-0000000025e5",
+      "name": "Lenovo Smart Tab M10 FHD Plus with the Google Assistant",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/07/ZA5Y0119PH-e1658114315764-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-0000000043b8",
+      "name": "Lenovo Tab M7 LTE 7″ ZA8D0023PH 3RD GEN",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/07/Lenovo-Tab-M7-LTE-7″-ZA8D0023PH-3RD-GEN-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000007dd6",
+      "name": "Lenovo Tab M8 HD 8″ ZA5H0035PH 2GB+32GB 2ND GEN",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/07/Lenovo-Tab-M8-HD-8″-ZA5H0035PH-2GB32GB-2ND-GEN-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-0000000066cf",
+      "name": "Lenovo Tab M8 HD 10″ ZA5H0112PH 3GB+32GB 2nd Gen",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/07/Lenovo-Tab-M8-HD-10″-ZA5H0112PH-3GB32GB-2nd-Gen-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000000b0f",
+      "name": "Lenovo Smart Tab M10 FHD 10.3″ Plus with the Google Assistant",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/woocommerce-placeholder-300x300.png"
+    },
+    {
+      "id": "table-bermor-techzone-000000000d9a",
+      "name": "Realme RMP2102 PAD LTE 4+64GB Tablet Gray | Gold",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/REALME-RMP2102-ph-1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000007f85",
+      "name": "Realme Pad 2 8+256GB Table WIFI",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/09/realme-pad-2-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-0000000068c8",
+      "name": "Apple 12.9″ iPad Pro M2 6th Gen Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/09/2547650-ph-btz-650eaf64e43bb-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000003b39",
+      "name": "iPad 10.9″ 10th Gen 256GB WIFI Cellular Tablet Pink | Yellow",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/09/ipad-10th-gen-ph-650f4f4fa344d-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000001688",
+      "name": "Logitech Flip Folio for iPad Pro & Air – 11″",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/mainready-15-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-00000000797e",
+      "name": "Realme Pad Mini 3GB+32GB WIFI Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/REALME-RMP2106-PAD-MINI-WIFI-3-32gb-ph-300x300.jpeg"
+    },
+    {
+      "id": "table-bermor-techzone-000000000d92",
+      "name": "Lenovo Tab P11 Pro Tablet 11.5″ WQXGA | 4 GB RAM | 128 GB | Qualcomm Snapdragon 730G Octa-core Android 10-Slate Gray ZA7D0040PH Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/12/Lenovo-Tab-P11-Pro-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-000000006d54",
+      "name": "Lenovo 7″ Tab M7 32GB 3rd Gen Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/12/1618585529_1632745-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-000000004883",
+      "name": "Lenovo Tab P11 Plus Android Tablet, 11″ 2K Display, Wi-Fi, Octa-Core, 4GB + 128GB ZA9L0134PH Slate Grey",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/12/617Q3DbKyPL._AC_SL1500_-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-0000000075f5",
+      "name": "Lenovo Yoga Tab 11 Octa Core | 4GB | 128GB | 11″ | WIFI Storm Gray Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/12/cats-2-500x500-1-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-00000000567f",
+      "name": "Realme Pad RMP2105 4GB+64GB Mini LTE Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/03/REALME-RMP2105-ph-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-000000004c92",
+      "name": "One by Wacom Creative Pen Tablet Small",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/06/One-by-Wacom-Creative-Pen-Tablet-Small-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000005061",
+      "name": "One by Wacom Creative Pen Tablet Medium",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/06/One-by-Wacom-Creative-Pen-Tablet-Medium-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000005763",
+      "name": "Intuos Small Wireless Pen Tablet Wacom Berry Pink",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/06/Intuos-Small-Wireless-Pen-Tablet-Wacom-Berry-Pink-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-0000000057d1",
+      "name": "Wacom Intuos Pro Creative Pen Tablet Medium Black",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/06/Wacom-Intuos-Pro-Creative-Pen-Tablet-Medium-Black-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000004703",
+      "name": "Realme Pad RMP2103 3GB+32GB WIFI Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/03/RMP2103-ph-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-000000001c23",
+      "name": "Intuos Pro Creative Pen Table Small Wacom",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/06/Intuos-Pro-Creative-Pen-Table-Small-Wacom-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000003924",
+      "name": "Wacom Intuos Pro Creative Pen Tablet Large Paper Edition Black",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/06/Wacom-Intuos-Pro-Creative-Pen-Tablet-Large-Paper-Edition-Black-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-0000000073b5",
+      "name": "Wacom Cintiq 16 Creative Pen Display",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/06/Wacom-Cintiq-16-Creative-Pen-Display-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000001654",
+      "name": "JBY GripTight Tablet Pro Mount",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/06/JBY-GripTight-Tablet-Pro-Mount-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000003040",
+      "name": "Redmi Pad Pro 5G 8+128GB Smartphone",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/01/Redmi-Pad-Pro-5G-8128GB-btz-ph-copy-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000005106",
+      "name": "Xiaomi Pad 6S Pro 12.4 8+256GB",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/01/Xiaomi-Pad-6S-Pro-12.4-8256GB-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-0000000006a0",
+      "name": "Xiaomi Pad 6S Pro 12.4 8+512GB Smartphone",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/01/Xiaomi-Pad-6S-Pro-12.4-8512GB-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000007ef1",
+      "name": "Samsung Galaxy S9 FE WIFI 6GB RAM + 128GB Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/01/Galaxy-Tab-S9-FE-Wi-Fi-btz-ph-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000001b12",
+      "name": "Realme RMP2108 Pad X Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/07/main-81-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000006fac",
+      "name": "Redmi Pad Se 8.7 4G 4+64 GB",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/01/Redmi-Pad-Se-8.7-4G-464-GB-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000004e52",
+      "name": "Redmi Pad Pro 5G 8+256GB Smartphone Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/01/Redmi-Pad-Pro-5G-8256GB-btz-ph-copy-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000003188",
+      "name": "Xiaomi Pad 6 8GB+256GB Tablet Gravity Gray",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/01/xiaomi-pad-6-ph-btz-65a11d9b287f1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000002a79",
+      "name": "Redmi Pad Pro 8+256 Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Redmi-Pad-Pro-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000001ecb",
+      "name": "Xiaomi Redmi Pad SE 8+256GB Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/XiaomiBTZ1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-00000000592c",
+      "name": "Samsung Galaxy Tab A8 LTE – X205 Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/Samsung-Galaxy-Tab-A8-LTE-–-X205-Tablet-BTZ-ph-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-000000005b78",
+      "name": "Apple Magic Keyboard for iPad Pro 12.9″ 6th Generation Black",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/04/Magic-Keyboard-for-iPad-Pro-12.9‑inch-6th-Generation-US-English-Black-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-00000000664a",
+      "name": "Samsung Galaxy Tab S9 FE 5G 6+128GB Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/TAB-S9-FE-5G-1-1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-00000000413f",
+      "name": "Logitech Combo Touch for iPad Pro 11” (M4)",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/mainReady-12-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000001688",
+      "name": "Logitech Flip Folio for iPad Pro & Air – 13″",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/mainready-14-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-0000000003fd",
+      "name": "Apple Smart Keyboard Folio for iPad Pro 11″ 4th Gen and iPad Air 5th Gen – US English",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/04/MXNK2ZAA-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-000000005bf9",
+      "name": "Apple Smart Cover for iPad 9th Gen – English Lavender",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/04/MM6M3FEA-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-00000000140f",
+      "name": "Apple Magic Keyboard for iPad Pro 12.9″ 6th Generation – US English – Black",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/05/MJQK3ZA-A-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-00000000781a",
+      "name": "Logitech Rugged Folio – Graphite",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/08/Logitech-Rugged-Folio-Graphite-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-0000000035e8",
+      "name": "DOOGEE U10 9(4+5)GB+128GB Tablet – Grey | Green | Purple",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/01/DOOGEE-U10-945GB128GB-Tablet-btz.ph_-1.webp-1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000005954",
+      "name": "DOOGEE U10 PRO 20(8+12)GB + 128GB Tablet – Black | Pink | Blue",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/01/DOOGEE-U10-PRO-20812GB-128GB-Tablet-btz.ph_-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000007c1a",
+      "name": "DOOGEE T20 MINI LTE 9(4+5)GB +128GB Tablet – Black | Purple | Green",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/01/DOOGEE-T20-MINI-LTE-945GB-128GB-Tablet-btz.ph_.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000001611",
+      "name": "DOOGEE T10S LTE 11(6+5)GB + 128GB Tablet – Grey | Green | Blue",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/01/WhatsApp-Image-2023-08-03-at-1.20.43-PM-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-0000000008a6",
+      "name": "Logitech Slim Folio Ipad 7TH 8TH 9TH Gen Graphite",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/07/415227388_1054744209186191_3298970970981869256_n-3-3-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000006395",
+      "name": "Logitech Folio Touch For Ipad Air 4TH 5TH Gen",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/07/415227388_1054744209186191_3298970970981869256_n-4-2-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-0000000059cd",
+      "name": "DOOGEE T10 LTE 15(8+7)GB + 128GB Tablet – Grey | Blue | Silver",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/01/TMO0823ST0064-3_40f250e8-7610-4b3f-9c75-6dfa0d2bdf57-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000001c1c",
+      "name": "Deepcool M-DESK F3 HUB USB 3.0 Version Aluminum Monitor Stand Black",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/07/02-1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-00000000733a",
+      "name": "Deepcool M-DESK F3 HUB USB 2.0 Version Aluminum Monitor Stand Black",
+      "category": "table",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/07/798985f1bdbe3310f784453b0d33ea2a-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-000000001553",
+      "name": "1stPlayer MOTO-E 1460 Motorized Gaming Desk W/ Cup & Headset Hook",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/05/1stPlayer-MOTO-E-1460-Motorized-Gaming-Desk-W-Cup-amp-Headset-Hook-Bermor-Ph-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-000000002f44",
+      "name": "1stPlayer AZ1-1260 Rgb Gaming Desk W/ Cup Hook & Gamepad Holder",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/05/1stPlayer-AZ1-1260-Rgb-Gaming-Desk-W-Cup-Hook-amp-Gamepad-Holder-Bermor-Ph-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-0000000066ec",
+      "name": "Fantech Workingstation WS514 Adjustable Rising Gaming Desk",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/3-9-300x300.png"
+    },
+    {
+      "id": "table-bermor-techzone-000000007685",
+      "name": "Cougar Royal 150 Elite Electronic Standing Desk W/USB 3/ Type C/HDMI/DP/ 1500mm(W)*725-1225mm(H)*800mm(D)",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/05/Cougar-Royal-150-Elite-Electronic-Standing-Desk-W-USB-3-Type-C-HDMI-DP-1500mmW725-1225mmH800mmD-Beror-ph-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000007a3e",
+      "name": "Fantech WS311 Adjustable Rising Desk",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Fantech-WS311-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-00000000701c",
+      "name": "Fantech WS414 Adjustable Rising Desk",
+      "category": "table",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Fantech-WS414-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-0000000010c1",
+      "name": "Lian Li DK-05FX Dual System Desk Computer Case Black",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/02/1605566129_1566867-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-000000002e6e",
+      "name": "Deepcool Monitor Stand M-Desk F2 Monitor Stand with Anodized Aluminum for Laptop and Desktop",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/06/02-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000000cf9",
+      "name": "Blackshots GX 468 Wood Computer Table",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/10/computer-table-ph-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-00000000535c",
+      "name": "Blackshots Glass Computer Table",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/03/20120825035257b-1-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-000000000ce3",
+      "name": "COUGAR Mars Ergonomic Design RGB Gaming Desk",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/05/48-115-001-V25-300x300.jpg"
+    },
+    {
+      "id": "table-bermor-techzone-0000000003f9",
+      "name": "Cougar E-MARS Electrical Gaming Desk",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/06/010-1-1-300x300.png"
+    },
+    {
+      "id": "table-bermor-techzone-000000007533",
+      "name": "COUGAR Deimus120 RGB Gaming Desk w/ USB3 | USB-C | Cable Tray",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/05/COUGAR-Deimus120-RGB-Gaming-Desk-w-USB3-USB-C-Cable-Tray-bermor-ph-300x300.png"
+    },
+    {
+      "id": "table-bermor-techzone-000000000a70",
+      "name": "Cougar E-Star 120 Electric Motorize Gaming Desk TBL-CGR-E-STAR-120",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Cougar1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000006e69",
+      "name": "COUGAR Mars 120 Ergonomic Design RGB Gaming Desk",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/12/cougar-mars-120-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-0000000067e4",
+      "name": "Cougar Mars Pro 150 RGB Gaming Desk Height Adjustable",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/05/Cougar-Mars-Pro-150-RGB-Gaming-Desk-Height-Adjustable-bermor-ph-300x239.webp"
+    },
+    {
+      "id": "table-bermor-techzone-0000000029e4",
+      "name": "Fantech GD210 TIGRIS Black RGB Gaming Desk",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Fantech-GD210-TIGRIS-Black-RGB-Gaming-Desk-4-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000002731",
+      "name": "Fantech GD214 TIGRIS Black RGB Gaming Desk",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Fantech-GD214-TIGRIS-Black-RGB-Gaming-Desk-4-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000004d24",
+      "name": "Fantech GD512 BETA RGB Gaming Desk",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Fantech-GD512-BETA-RGB-Gaming-Desk-4-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000005a7c",
+      "name": "Fantech GD612 BETA Black RGB Gaming Desk",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Fantech-GD612-BETA-Black-RGB-Gaming-Desk-4-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-0000000009e8",
+      "name": "Fantech GD914 White Adjustable Rising Desk",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Fantech-GD914-White-Adjustable-Rising-Desk-2-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-0000000003c7",
+      "name": "Cougar E-STAR 140 Electric Motorized Gaming Desk TBL-CGR-E-STAR-140",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Cougar1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000005b73",
+      "name": "Cougar E-ODYSSEY Electric Gaming Desk",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/09/E-ODYSSEY-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-00000000330c",
+      "name": "DOOGEE T20ULTRA LTE 32(12+20)GB+256GB Tablet – Black | Grey | Blue",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/01/DOOGEE-T20ULTRA-LTE-321220GB256GB-Tablet-btz.web_.p.webp"
+    },
+    {
+      "id": "table-bermor-techzone-00000000255e",
+      "name": "Samsung Galaxy Tab A9 LTE | 4GB RAM + 64GB Storage Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/06/SAMSUNG-GALAXY-TABLET-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000004d84",
+      "name": "Logitech Combo Touch For Ipad 7TH and 8TH Gen",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/07/415227388_1054744209186191_3298970970981869256_n-6-1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000005e35",
+      "name": "Logitech Combo Touch For Ipad Air 4TH Gen",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/07/415227388_1054744209186191_3298970970981869256_n-8-2-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-0000000037fe",
+      "name": "Redmi Pad SE 8.7 4G 4+64 Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Redmi-Pad-SE-8.7-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000003e0b",
+      "name": "Redmi Pad SE 8.7 4G 4+128 Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Redmi-Pad-SE-8.7-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000004925",
+      "name": "Redmi Pad Pro 8+128 Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Redmi-Pad-Pro-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000006ff3",
+      "name": "Redmi Pad Se 8.7 4G 4+128GB",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/01/Redmi-Pad-Se-8.7-4G-4128GB-btz-ph-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000006210",
+      "name": "Redmi Pad Se 8.7 Cover (Black)GB",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/01/Redmi-Pad-Se-8.7-Cover-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-00000000217d",
+      "name": "Samsung Galaxy Tab A9+ WiFi 8GB RAM + 128GB Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/01/Galaxy-Tab-A9-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-0000000067ed",
+      "name": "Samsung Galaxy Tab A9+ 5G 8GB RAM + 128GB Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/01/Galaxy-Tab-A9-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-00000000063e",
+      "name": "Samsung Galaxy Tab S10 Ultra Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/TAB-S10-ULTRA-5-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-00000000069b",
+      "name": "Xiaomi Pad 7 8+256GB Tablet Gray | Blue",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Pad7BTZ-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000001d8e",
+      "name": "Xiaomi Pad 7 12+256 Tablet Blue | Black",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/XIAOMI-PAD-7-12256-GRAY-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000000240",
+      "name": "Xiaomi Pad 7/7 Pro Cover",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/MainBTZ1-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-00000000288c",
+      "name": "Logitech Combo Touch for iPad Pro 13” (M4)",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/mainReady-12-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000005517",
+      "name": "Logitech Combo Touch for iPad Air M2 – 11″ | 13″",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/mainReady-13-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-00000000753a",
+      "name": "Xiaomi Pad 2 6 + 128GB Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/07/REDMI-PAD-2-main-300x300.webp"
+    },
+    {
+      "id": "table-bermor-techzone-000000000fe4",
+      "name": "Xiaomi Pad 2 8 + 256 GB Tablet",
+      "category": "table",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/07/REDMI-PAD-2-main-300x300.webp"
+    },
+    {
+      "id": "table-datablitz-000000005564",
+      "name": "Acer One 8 T4-82L 3+32GB Tablet (Black)",
+      "category": "table",
+      "specs": {
+        "Brand": "Acer",
+        "SKU": "8906122613260",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/front_view_2.jpg?v=1676883094"
+    },
+    {
+      "id": "table-datablitz-000000000697",
+      "name": "AMAZON FIRE HD 10 TABLET 11TH GEN WITH ALEXA 32GB (BLACK)",
+      "category": "table",
+      "specs": {
+        "Brand": "Amazon",
+        "SKU": "0840080509594",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/240087875.jpg?v=1676856543"
+    },
+    {
+      "id": "table-datablitz-000000004266",
+      "name": "Amazon Fire HD 10 Tablet 11Th Gen with Alexa 32GB (Denim)",
+      "category": "table",
+      "specs": {
+        "Brand": "Amazon",
+        "SKU": "0840080504575",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/s-l640_d3e2bf1b-cbdc-4882-b046-163591114678.jpg?v=1676856543"
+    },
+    {
+      "id": "table-datablitz-00000000359a",
+      "name": "Amazon Fire HD 10 Tablet 11th Gen With Alexa 32GB (Lavander)",
+      "category": "table",
+      "specs": {
+        "Brand": "Amazon",
+        "SKU": "0840080502274",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/61W_vYdPNiS._AC_SL1000.jpg?v=1676859658"
+    },
+    {
+      "id": "table-datablitz-000000005fdd",
+      "name": "Amazon Fire HD 10 Tablet 11th Gen With Alexa 32GB (Olive)",
+      "category": "table",
+      "specs": {
+        "Brand": "Amazon",
+        "SKU": "0840080519647",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/619NddNz2OS._AC_SL1000.jpg?v=1676859640"
+    },
+    {
+      "id": "table-datablitz-0000000065c9",
+      "name": "AMAZON FIRE HD 10 TABLET WITH ALEXA 32GB (BLACK)",
+      "category": "table",
+      "specs": {
+        "Brand": "Amazon",
+        "SKU": "0841667182667",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/BLACK_03c7440e-f4e9-4623-aa14-930b97723677.png?v=1676849330"
+    },
+    {
+      "id": "table-datablitz-000000002e57",
+      "name": "Amazon Fire HD 10 Tablet with Alexa 32GB (Twilight Blue)",
+      "category": "table",
+      "specs": {
+        "Brand": "Amazon",
+        "SKU": "0841667195216",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/Main_285b2c27-9abf-45b1-954c-0c1caef51a5f.png?v=1676849331"
+    },
+    {
+      "id": "table-datablitz-000000007695",
+      "name": "AMAZON FIRE HD 10 TABLET WITH ALEXA 32GB (WHITE)",
+      "category": "table",
+      "specs": {
+        "Brand": "Amazon",
+        "SKU": "0841667141770",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/white_82c23d8d-f662-489c-bc55-928f15560de6.png?v=1676849331"
+    },
+    {
+      "id": "table-datablitz-000000003e38",
+      "name": "AMAZON FIRE HD 10\" TABLET WITH ALEXA 32GB (PLUM)",
+      "category": "table",
+      "specs": {
+        "Brand": "Amazon",
+        "SKU": "0841667155371",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/715mLveM2BL._AC_SL1500.jpg?v=1676849323"
+    },
+    {
+      "id": "table-datablitz-0000000056b1",
+      "name": "Amazon Fire HD 8 Tablet 10th Gen with Alexa 32GB (Black)",
+      "category": "table",
+      "specs": {
+        "Brand": "Amazon",
+        "SKU": "0840080543161",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/amazon-fire-hd-8-tablet-2020-10th-generation_1.jpg?v=1676853893"
+    },
+    {
+      "id": "table-datablitz-000000006bdb",
+      "name": "AMAZON FIRE HD 8 TABLET 10TH GEN WITH ALEXA 32GB (PLUM)",
+      "category": "table",
+      "specs": {
+        "Brand": "Amazon",
+        "SKU": "0840080533094",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/amazon-fire-hd-8-tablet-2020-10th-generation.jpg?v=1676853891"
+    },
+    {
+      "id": "table-datablitz-0000000056cd",
+      "name": "AMAZON FIRE HD 8 TABLET 10TH GEN WITH ALEXA 32GB (TWILIGHT BLUE)",
+      "category": "table",
+      "specs": {
+        "Brand": "Amazon",
+        "SKU": "0840080575100",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/Amazon-Fire-7-7-Inch-32GB-Tablet-Twilight-Blue-1.jpg?v=1676853891"
+    },
+    {
+      "id": "table-datablitz-000000001b40",
+      "name": "AMAZON FIRE HD 8 TABLET 10TH GEN WITH ALEXA 32GB (WHITE)",
+      "category": "table",
+      "specs": {
+        "Brand": "Amazon",
+        "SKU": "0840080550596",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/u_10209202.jpg?v=1676853891"
+    },
+    {
+      "id": "table-datablitz-00000000521a",
+      "name": "Elephant Dragonwar E-T015 Moving Height Computer/ Gaming Table (Wood White) (E-T015-WH)",
+      "category": "table",
+      "specs": {
+        "Brand": "Elephant",
+        "SKU": "6972197941852",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/6972197941852.jpg?v=1727174265"
+    },
+    {
+      "id": "table-datablitz-000000004e99",
+      "name": "Apple iPad Mini (A17 Pro) Wi-Fi 128GB (Space Gray, Blue, Starlight, Purple) (MXN63PP/A, MXN73PP/A, MXN83PP/A, MXN93PP/A)",
+      "category": "table",
+      "specs": {
+        "Brand": "Apple",
+        "SKU": "0195949728990",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/00_4df8bad6-52c1-4603-a060-df3fc239bb0b.jpg?v=1738976454"
+    },
+    {
+      "id": "table-datablitz-000000001416",
+      "name": "Apple iPad Mini (A17 Pro) Wi-Fi 256GB (Space Gray, Starlight) (MXNA3PP/A, MXND3PP/A)",
+      "category": "table",
+      "specs": {
+        "Brand": "Apple",
+        "SKU": "0195949729911",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/22_25629437-3fcc-4cab-a403-4133e9e9f39e.jpg?v=1738977322"
+    },
+    {
+      "id": "table-datablitz-000000003f9f",
+      "name": "Apple iPad Air M3 Wi-Fi 128GB (Blue, Purple)",
+      "category": "table",
+      "specs": {
+        "Brand": "Apple",
+        "SKU": "0195949997525",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/1_07407fc0-4c2b-48b2-9d11-8ae8588dbdba.jpg?v=1745461575"
+    },
+    {
+      "id": "table-datablitz-000000007829",
+      "name": "Apple iPad Air M3 Wi-Fi 256GB - Blue (MCA34PP/A)",
+      "category": "table",
+      "specs": {
+        "Brand": "Apple",
+        "SKU": "0195949998447",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/020.jpg?v=1745461949"
+    },
+    {
+      "id": "table-datablitz-0000000031b7",
+      "name": "Apple iPad 11th Gen A16 Wi-Fi 128GB (Blue, Silver, Pink)",
+      "category": "table",
+      "specs": {
+        "Brand": "Apple",
+        "SKU": "0195950086263",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/ghdfgdfghjdf.jpg?v=1752888461"
+    },
+    {
+      "id": "table-datablitz-0000000064b0",
+      "name": "Apple iPad 11th Gen A16 Wi-Fi 256GB (Blue, Silver, Pink)",
+      "category": "table",
+      "specs": {
+        "Brand": "Apple",
+        "SKU": "0195950087413",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/dfnxfgnfm.jpg?v=1752889264"
+    },
+    {
+      "id": "table-datablitz-00000000056a",
+      "name": "Apple 13-inch iPad Air M3 Wi-Fi 128GB (Space Gray, Blue, Starlight, Purple)",
+      "category": "table",
+      "specs": {
+        "Brand": "Apple",
+        "SKU": "0195949975370",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/001_2f00166a-299b-444a-a11e-bbfd1e628522.jpg?v=1747454149"
+    },
+    {
+      "id": "table-datablitz-000000007541",
+      "name": "Apple 13-inch iPad Air M3 Wi-Fi 256GB (Blue, Space Grey) (MCNP4PP/A, MCNN4PP/A)",
+      "category": "table",
+      "specs": {
+        "Brand": "Apple",
+        "SKU": "0195949976520",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/xbncvbn.jpg?v=1752234041"
+    },
+    {
+      "id": "table-datablitz-0000000074c5",
+      "name": "Apple 11-inch iPad Air M3 Wi-Fi 128GB (Space Gray) (MC9W4PP/A)",
+      "category": "table",
+      "specs": {
+        "Brand": "Apple",
+        "SKU": "0195949997297",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/Layer7_184b1c0c-794d-4621-aa82-25070d26e291.jpg?v=1747455251"
+    },
+    {
+      "id": "table-datablitz-000000001694",
+      "name": "Apple 11-inch iPad Air M3 Wi-Fi 256GB (Space Gray, Purple)",
+      "category": "table",
+      "specs": {
+        "Brand": "Apple",
+        "SKU": "0195949998218",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/01_b2f0be1c-11a9-4bd2-80d8-55ccf4c9ec37.jpg?v=1747455251"
+    },
+    {
+      "id": "table-datablitz-0000000055a7",
+      "name": "Amazon Kindle Paperwhite 11th Gen 16GB (Agave Green, Black, Denim)",
+      "category": "table",
+      "specs": {
+        "Brand": "Amazon",
+        "SKU": "0840268906351",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/main_84a3470b-fb65-4f9b-89bf-027f8a52999c.jpg?v=1719316222"
+    },
+    {
+      "id": "table-datablitz-0000000001f0",
+      "name": "Amazon Kindle 11th Gen 16GB (Black, Denim)",
+      "category": "table",
+      "specs": {
+        "Brand": "Amazon",
+        "SKU": "0840268954253",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/main_ff2e8376-bc9c-4b12-a256-be8a15bdc78f.jpg?v=1719480661"
+    },
+    {
+      "id": "table-datablitz-0000000035e9",
+      "name": "Amazon Fire 7 Tablet 12TH Gen With Alexa 16GB",
+      "category": "table",
+      "specs": {
+        "Brand": "Amazon",
+        "SKU": "0840080564906",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/Amazon-Fire-7-main.jpg?v=1694926797"
+    },
+    {
+      "id": "table-datablitz-000000006762",
+      "name": "Amazon Kindle Paperwhite 11th Gen 8GB (Black)",
+      "category": "table",
+      "specs": {
+        "Brand": "Amazon",
+        "SKU": "0810019527746",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/51QCk82iGcL._AC_SX679.jpg?v=1676872528"
+    },
+    {
+      "id": "table-datablitz-000000000556",
+      "name": "Amazon Fire HD 8 Tablet 12TH GEN With Alexa 32GB",
+      "category": "table",
+      "specs": {
+        "Brand": "Amazon",
+        "SKU": "0840080527987",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/new_66c5956d-740e-4fd9-a0ea-344112ba12f1.jpg?v=1696732846"
+    },
+    {
+      "id": "table-datablitz-000000005725",
+      "name": "Lenovo Smart Tab M10 FHD Plus With The Google Assistant TB-X606X 4GB+64GB (Iron Grey) ZA5Y0119PH",
+      "category": "table",
+      "specs": {
+        "Brand": "Lenovo",
+        "SKU": "0194632275896",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/files/s56g4sdgsa.jpg?v=1769585203"
+    },
+    {
+      "id": "table-easypc-000000001515",
+      "name": "Keytech GT-01 RGB Gaming Table Black",
+      "category": "table",
+      "specs": {
+        "Brand": "KEYTECH",
+        "SKU": "7393",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/KeytechGT-01RGBGamingTableBlack-a.png?v=1695711393"
+    },
+    {
+      "id": "table-easypc-00000000163b",
+      "name": "Keytech GT-01 RGB Gaming Table White",
+      "category": "table",
+      "specs": {
+        "Brand": "KEYTECH",
+        "SKU": "7394",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/KeytechGT-01RGBGamingTableWhite-a.png?v=1695711433"
+    },
+    {
+      "id": "table-easypc-000000000623",
+      "name": "LiteDesk Portable Folding Black/Wood/Blue/Pink Table",
+      "category": "table",
+      "specs": {
+        "Brand": "LITEDESK",
+        "SKU": "3798",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/LiteDesk_Portable_Folding_Black-a.jpg?v=1701737159"
+    },
+    {
+      "id": "table-easypc-00000000222f",
+      "name": "InPlay Race T2 Gaming Table",
+      "category": "table",
+      "specs": {
+        "Brand": "INPLAY",
+        "SKU": "5906",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/InPlay_Race_T2_Gaming_Table-a.jpg?v=1704434762"
+    },
+    {
+      "id": "table-easypc-000000003c54",
+      "name": "InPlay Race T2 Gaming Table white",
+      "category": "table",
+      "specs": {
+        "Brand": "INPLAY",
+        "SKU": "6997",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/InPlay_Race_T2-a.jpg?v=1695285211"
+    },
+    {
+      "id": "table-easypc-000000000485",
+      "name": "Rakk Malyari White, Ergonomic Table best for office and Work from Home set up Gaming Desk",
+      "category": "table",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "880",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/880-a.jpg?v=1635220240"
+    },
+    {
+      "id": "table-easypc-000000007267",
+      "name": "TBL GX468 BLACK WOOD COMPUTER TABLE",
+      "category": "table",
+      "specs": {
+        "Brand": "GENERIC",
+        "SKU": "986",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/TBL_GX468_BLACK_WOOD_COMPUTER_TABLE-a.jpg?v=1700783182"
+    },
+    {
+      "id": "table-easypc-000000001172",
+      "name": "Gamdias Daedalus E1 Cable Management Design, Clever Architectural Design Minimalistic Gaming Table",
+      "category": "table",
+      "specs": {
+        "Brand": "GAMDIAS",
+        "SKU": "4689",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/GamdiasDaedalusE1GamingTable-b.jpg?v=1663203217"
+    },
+    {
+      "id": "table-easypc-000000000970",
+      "name": "Gamdias Daedelus E1 Gaming Desk 14BAN GADA2107",
+      "category": "table",
+      "specs": {
+        "Brand": "GAMDIAS",
+        "SKU": "GADA2107",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/GADA2107-a.jpg?v=1629741479"
+    },
+    {
+      "id": "table-easypc-000000004b94",
+      "name": "Gamdias Daedelus M1 RGB Gaming Desk 14BAN GADA2108",
+      "category": "table",
+      "specs": {
+        "Brand": "GAMDIAS",
+        "SKU": "GADA2108",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/GADA2108-a.jpg?v=1629741476"
+    },
+    {
+      "id": "table-easypc-000000003c9b",
+      "name": "Gamdias Daedelus M2 RGB Gaming Desk 14BAN GADA2109",
+      "category": "table",
+      "specs": {
+        "Brand": "GAMDIAS",
+        "SKU": "GADA2109",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/GADA2109-a.jpg?v=1627988776"
+    },
+    {
+      "id": "table-easypc-000000003315",
+      "name": "Alpha ACT 468 Computer Table Beech",
+      "category": "table",
+      "specs": {
+        "Brand": "ALPHA",
+        "SKU": "3296",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Alpha_ACT_468_Computer_Table_Beech-a.jpg?v=1701311214"
+    },
+    {
+      "id": "table-easypc-000000001f4a",
+      "name": "TBL GX468C Beech Wood Computer Table",
+      "category": "table",
+      "specs": {
+        "Brand": "TBL",
+        "SKU": "1674",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/TBL_GX468C_Beech_Wood_Computer_Table-a.jpg?v=1700787575"
+    },
+    {
+      "id": "table-easypc-000000007dd2",
+      "name": "Deepcool DP-MS-MDF3-BKD3 M-Desk F3 USB 3.0 Table",
+      "category": "table",
+      "specs": {
+        "Brand": "DEEPCOOL",
+        "SKU": "1571",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/3292-a.jpg?v=1629734816"
+    },
+    {
+      "id": "table-easypc-0000000041dc",
+      "name": "RAKK TUKAS Electric Lifting/Height Adjustable Gaming Table 110cmX60cm Black",
+      "category": "table",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "5938",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/RAKK_TUKAS_Gaming_Table_110cmX60cm_Black-a.jpg?v=1704249371"
+    },
+    {
+      "id": "table-easypc-00000000422c",
+      "name": "RAKK TUKAS XL Electric Lifting/Height Adjustable Gaming Table 140cmX60cm White",
+      "category": "table",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "7339",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/RAKKTUKASXL-c.png?v=1695078681"
+    },
+    {
+      "id": "table-easypc-000000005e26",
+      "name": "RAKK Mabi XL Adjustable Gaming Desk Black",
+      "category": "table",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "216",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/598-a.jpg?v=1588506341"
+    },
+    {
+      "id": "table-easypc-0000000003d9",
+      "name": "Rakk iCafe Modular DIY Table 3x70cm Wood",
+      "category": "table",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "452",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1143-a.jpg?v=1588506901"
+    },
+    {
+      "id": "table-easypc-000000004edb",
+      "name": "RAKK Lagip XL Adjustable with Memory Desk Black",
+      "category": "table",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "217",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/602-a.jpg?v=1588506343"
+    },
+    {
+      "id": "table-easypc-0000000058c1",
+      "name": "RAKK Mabi XT Adjustable Gaming Desk Black",
+      "category": "table",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "198",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/513-a.jpg?v=1588506293"
+    },
+    {
+      "id": "table-easypc-000000006741",
+      "name": "Rakk iCafe Modular DIY Table 2x70cm Wood",
+      "category": "table",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "451",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1142-a.jpg?v=1588506899"
+    },
+    {
+      "id": "table-easypc-000000006f95",
+      "name": "Rakk iCafe Modular DIY Table 3x80cm Wood",
+      "category": "table",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "1648",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1144-a.jpg?v=1588686304"
+    },
+    {
+      "id": "table-easypc-000000005d00",
+      "name": "RAKK Mabi XL Adjustable Gaming Desk White",
+      "category": "table",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "1948",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "table-easypc-00000000579b",
+      "name": "RAKK Mabi XT Adjustable Gaming Desk White",
+      "category": "table",
+      "specs": {
+        "Brand": "RAKK",
+        "SKU": "1943",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/514-a.jpg?v=1588506295"
+    }
+  ]
+}

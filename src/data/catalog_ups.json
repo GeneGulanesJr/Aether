@@ -1,0 +1,2106 @@
+{
+  "schemaVersion": "1.0",
+  "category": "ups",
+  "items": [
+    {
+      "id": "ups-bermor-techzone-000000004487",
+      "name": "PROLINK PRO1501SFCU-4U 1500VA/ 900Watts, 4- Universal Socket SUPER FAST CHARGING LINE INTERACTIVE UPS with built-in AVR Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/PRO1501SFCU-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-0000000070ec",
+      "name": "APC BVX650I-PH Back-UPS AVR 650va 360 Watts 4 Sockets Backup Battery",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/Easy_UPS_BVX650I_PH_Image_FL_V_520x520-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-000000005221",
+      "name": "PROLINK PRO700SFC | PRO700SFCU 650VA/ 390Watts, 4- Nema Socket SUPER FAST CHARGING LINE INTERACTIVE UPS WITH BUILT-IN AVR Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/PROLINK-PRO700SFC-btz-300x300.webp"
+    },
+    {
+      "id": "ups-bermor-techzone-000000005cd0",
+      "name": "Powerlogic AVR-1000F Automatic Voltage Regulator",
+      "category": "ups",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/AVR-1000-plus-btz-ph-copy-300x300.webp"
+    },
+    {
+      "id": "ups-bermor-techzone-000000001ec7",
+      "name": "PROLINK PRO1250SFCU-6N 1250VA/ 936Watts, 6- Nema Socket Super-Fast Charging Line Interactive UPS with built-in AVR Uninterruptible Power Supply with Built-in AVR + USB PORT",
+      "category": "ups",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/PRO1501SFCU-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-000000004c45",
+      "name": "Hikvision DS-UPS1000/US 1000VA 600W Uninterruptible Power Supply UPS w/ AVR Backup Battery UPS for IT Equipments Computer, Printer, Router and Appliances",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/06/ds-ups1000-x-us-1000va-hikvision-66798de36b445-300x300.webp"
+    },
+    {
+      "id": "ups-bermor-techzone-0000000005c1",
+      "name": "Powerlogic AVR-1500F Automatic Voltage Regulator",
+      "category": "ups",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/AVR-1500F-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "ups-bermor-techzone-00000000732b",
+      "name": "KSTAR UPS UA60 600VA Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/01/1516595775ju-300x300.png"
+    },
+    {
+      "id": "ups-bermor-techzone-000000006d30",
+      "name": "Powerlogic AVR-1200F Automatic Voltage Regulator",
+      "category": "ups",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/AVR-1200F-btz-ph-1-copy-300x300.webp"
+    },
+    {
+      "id": "ups-bermor-techzone-000000004a6b",
+      "name": "PROLINK PRO851SFCU-4N 850VA/ 510Watts, 4- NEMA Socket, with USB Port SUPER FAST CHARGING LINE INTERACTIVE UPS WITH BUILT-IN AVR Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/PRO851SFC-300x300.webp"
+    },
+    {
+      "id": "ups-dynaquest-pc-00000000738c",
+      "name": "Eaton 5A 700I-NEMA 700VA 360W Line Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "Eaton",
+        "SKU": "55548",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/Eaton5A1500I-NEMA1500VA900WTowerSingle-PhaseLineInteractiveUPS_905f6a09-d47b-44dc-a366-ba95e818cf4e.jpg?v=1695883468"
+    },
+    {
+      "id": "ups-bermor-techzone-000000004b44",
+      "name": "Prolink PRO3000SFCU 3KVA/ 1800Watts Super-Fast Charging Line Interactive UPS with built-in AVR",
+      "category": "ups",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Prolink-Pro3000FCU-BTZ-PH-1-1-300x300.webp"
+    },
+    {
+      "id": "ups-bermor-techzone-000000000146",
+      "name": "APC BV800I-MS Back-UPS AVR 800VA 450 Watts 230V Universal Sockets Backup Battery",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/BV1000I_MS_FL_H_520x520-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-0000000032d2",
+      "name": "Eaton 5A 900I-NEMA 900VA 480W Line Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/Eaton-5A-900I-NEMA-Line-Interactive-UPS-300x300.webp"
+    },
+    {
+      "id": "ups-bermor-techzone-000000001924",
+      "name": "Eaton 5A 2200I-NEMA Line Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/Eaton-5A-2200I-NEMA-Line-Interactive-UPS-300x300.webp"
+    },
+    {
+      "id": "ups-bermor-techzone-0000000070c9",
+      "name": "PROLINK PRO851SFCU-2U 850VA/ 510Watts, 2- Universal socket, with USB Port SUPER FAST CHARGING LINE INTERACTIVE UPS WITH BUILT-IN AVR Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/PRO851SFCU-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-0000000066cc",
+      "name": "APC BGM2200B-MSX 2200VA/1320W 230V 3x Universal & 3x IEC C13 Outlets w/ RGB Lights Back-UPS Pro for Gaming – Black",
+      "category": "ups",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2026/01/BGM2200B-MSX-1-300x300.webp"
+    },
+    {
+      "id": "ups-bermor-techzone-000000004831",
+      "name": "APC BGM2200-MSX 2200VA/1320W 230V 3x Universal & 3x IEC C13 Outlets w/ RGB Lights Back-UPS Pro for Gaming – White",
+      "category": "ups",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2026/01/BGM2200-MSX-1-300x300.webp"
+    },
+    {
+      "id": "ups-bermor-techzone-000000001c9b",
+      "name": "Eaton 5A 1200I-NEMA 1200VA 650W Line Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/images.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-000000002c07",
+      "name": "Eaton 5A 1500I-NEMA Line Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/03/Eaton-5A-1500I-NEMA-Line-Interactive-UPS-300x300.webp"
+    },
+    {
+      "id": "ups-bermor-techzone-0000000070ea",
+      "name": "HIKVISION DS-UPS2000/US Uninterruptible Power Supply UPS w/ AVR Backup Battery UPS for IT Equipments Computer, Printer, Router and Appliances",
+      "category": "ups",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/07/Main-84-300x300.webp"
+    },
+    {
+      "id": "ups-bermor-techzone-0000000048d3",
+      "name": "APC BV1000I-MS Back-UPS AVR 1000VA 600 Watts 230V Universal Sockets Backup Battery",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/BV1000I_MS_FL_H_520x520-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-000000000a7a",
+      "name": "APC BVX1200LI-MS Back-UPS AVR 1200VA 650 Watts 230V Universal Sockets Backup Battery",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/Easy_UPS_BVX1200LI_Image_FL_H_520x520-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-000000003109",
+      "name": "KSTAR UPS UA100 1000VA 600W Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/01/ks-ua300-thumbnail-600x600-95-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-000000007057",
+      "name": "APC BX2200MI-MS Back-UPS AVR 2200VA 1200 Watts 230V Universal Sockets Backup Battery",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/Easy_UPS_BVX1200LI_Image_FL_H_520x520-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-00000000421e",
+      "name": "APC BX1600MI-MS Back-UPS AVR 1600VA 900 Watts 230V Universal Sockets Backup Battery",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/Easy_UPS_BVX1200LI_Image_FL_H_520x520-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-000000004003",
+      "name": "iLogic Blazer 720VA | 1000VA | 1200VA | 1500VA | 2000VA UPS Battery with AVR and Surge Protector Uninterruptible Power Supply for IT Equipments Computer, Printer, Router and Appliances",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/ilogic-720va-ph-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-000000003e4f",
+      "name": "PROLINK PRO1201SFC-4U 1200VA/ 720Watts, 4- Universal Socket Super-Fast Charging Line Interactive UPS with built-in AVR Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/PRO1201SFC-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-000000005328",
+      "name": "Powerlogic AVR-300 | AVR-500 Automatic Voltage Regulator",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/07/avr-300-ph-btz-668f854a7524b-300x300.webp"
+    },
+    {
+      "id": "ups-bermor-techzone-0000000053da",
+      "name": "Prolink PRO2000SFCU 2KVA/ 1200Watts 4 Universal Socket, with USB Port, 2 x 12V/ 10Ah Battery, Super-Fast Charging Line Interactive UPS w/ built-in AVR Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/PROLINK-PRO2000SFCU-2KVA-ph-btz-ph-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-000000002557",
+      "name": "Fortress UPS 800FP 650VA 390 Watts Uninterruptible Power System",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/fortress-650va-ph-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-00000000080a",
+      "name": "FSP iFP 1000VA 600W Uninterruptible Power System",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/03/ifp-series-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-0000000077d0",
+      "name": "PROLiNK PRO700SFC-2U 650VA/ 390Watts 2- Universal socket Super-Fast Charging Line Interactive UPS Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/01/pro701sfc-300x300.webp"
+    },
+    {
+      "id": "ups-bermor-techzone-0000000004ea",
+      "name": "KSTAR 6-FM-9 12V7AH lead-acid UPS Replacement Storage Battery",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/06/e87455b2033f324ec7be41fa41a3c410-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-00000000539c",
+      "name": "APC LINE-R LSW1200-IND 600W 1200VA AVR 3 Outlets 230V",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/02/SPD_HDIG-B5A47B_FS_V_1500x1500-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-000000006621",
+      "name": "Fortress UPS 1000FP 1000VA Uninterruptible Power System",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/fortress-650va-ph-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-000000006e93",
+      "name": "APC BV650I-MS EASY UPS BV 650VA, AVR, 230V Uninterrupted Power Supply BV650I-MS 650VA",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/08/1-300x300.webp"
+    },
+    {
+      "id": "ups-bermor-techzone-000000002a0d",
+      "name": "APC LINE-R LSW800-IND 400W 800VA AVR 3 Outlets 230V",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/02/SPD_HDIG-B5A453_FS_V_1500x1500-300x300.webp"
+    },
+    {
+      "id": "ups-bermor-techzone-000000006c72",
+      "name": "Eaton 5V 650VA | 1050VA Line interactive Tower UPS",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/05/Eaton-5V-650VA-1050VA-Line-interactive-Tower-UPS-300x300.webp"
+    },
+    {
+      "id": "ups-bermor-techzone-000000000859",
+      "name": "APC BX1400U-MS UPS 700W 1400VA 230V Universal and IEC Sockets",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2020/07/77b987a8994d65727e34dc584aaa12a5-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-000000002b74",
+      "name": "Eaton 5V 1050 VA Tower UPS 230V UPS Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/04/Eaton-5V-1050-VA-Tower-UPS-230V-UPS-Uninterruptible-Power-Supply-300x300.webp"
+    },
+    {
+      "id": "ups-bermor-techzone-00000000221a",
+      "name": "APC BVX700LUI-MS Back-UPS AVR 700VA 360 Watts 230V USB Charging Universal Sockets Backup Battery",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/Easy_UPS_BVX700LUI_Image_FL_H_520x520-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-000000005a50",
+      "name": "APC BX750MI-MS Back-UPS AVR 750VA 410 Watts 230V Universal Sockets Backup Battery",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/Easy_UPS_BVX1200LI_Image_FL_H_520x520-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-00000000407e",
+      "name": "APC BX1200MI-MS Back-UPS AVR 1200VA 650 Watts 230V Universal Sockets Backup Battery",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/Easy_UPS_BVX1200LI_Image_FL_H_520x520-300x300.jpg"
+    },
+    {
+      "id": "ups-bermor-techzone-0000000078e8",
+      "name": "APC BR1600SI BACK UPS PRO BR 1600VA",
+      "category": "ups",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/08/APCBR1600SIPro1_grande-1-300x300.webp"
+    },
+    {
+      "id": "ups-datablitz-000000005652",
+      "name": "APC BX2200MI-MS 2200VA 1200W 230V UPS AVR Universal Sockets",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "0731304410737",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/files_0933dd3a-173e-45ac-b333-dcea1365aada.jpg?v=1676909278"
+    },
+    {
+      "id": "ups-datablitz-0000000050c0",
+      "name": "Eaton 5E 1500I USB UPS With USB Cable (9C00-73003)",
+      "category": "ups",
+      "specs": {
+        "Brand": "Eaton",
+        "SKU": "3553340704048",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/Eaton-5E_743fa4ae-fdc8-4454-bb3b-1cb9ec90d497.jpg?v=1676923052"
+    },
+    {
+      "id": "ups-datablitz-000000005112",
+      "name": "Eaton 5E 1100I USB UPS With USB Cable (9C00-63011)",
+      "category": "ups",
+      "specs": {
+        "Brand": "Eaton",
+        "SKU": "3553340704031",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0355/8296/7943/products/Eaton-5E_04a08c0b-721e-476a-a93c-75dfb46c9c6d.jpg?v=1676923028"
+    },
+    {
+      "id": "ups-dynaquest-pc-0000000056d9",
+      "name": "Awp Wise AID1000 Pro LCD 1000VA / 600W UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "SKU": "10885",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/AwpWiseAID1000ProLCD1000VA600WUPS.jpg?v=1677900694"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000005a1d",
+      "name": "Awp Wise (AID1500) 1500va / 900w UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "SKU": "8386",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/1500va.jpg?v=1596860239"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000006090",
+      "name": "AWP Wise AID1500 Pro LCD 1500VA / 900W UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "SKU": "50049",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/1500vva.jpg?v=1617877800"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000004307",
+      "name": "Awp Wise (AID650) 650va / 360w UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "SKU": "8383",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/0-02-06-94e838c9e7fd9a57bb622b33b0eac22d212c4c508d644c41f1e02a700ecad3cb_b5d551f.jpg?v=1596860051"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000006488",
+      "name": "APC BVX650I-PH Back-UPS AVR 650va / 360 Watts / 4 Sockets",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "12199",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/BVX650I.jpg?v=1606490057"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000000f61",
+      "name": "Eco Power 3X220v with 1X110v AVR",
+      "category": "ups",
+      "specs": {
+        "Brand": "Eco Power",
+        "SKU": "9924",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/eco-power-500w-automatic-voltage-regulator-avr-7468-72065253-6f88b9d51bd42a57e5c631d886d006b4-catalog_233.jpg?v=1571552890"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000007c68",
+      "name": "AWP Wise AID1000 ECO 1000VA / 600W UPS with Built-in AVR",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "SKU": "PR000176",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/74_6292c5cb-c012-46bd-936b-f6a37e542e35.png?v=1756961455"
+    },
+    {
+      "id": "ups-dynaquest-pc-00000000012f",
+      "name": "AWP Wise APO2000RT 2000VA 1800W Rackmount Tower UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "SKU": "15690",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/20_6ebff6f0-e6da-4b39-b140-a30e35e57847.png?v=1704694763"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000007516",
+      "name": "AWP ARC2000RT ArcPure 1600W-2000VA UPS Rackmount Towerline Interactive",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "SKU": "15428",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/AWPARC2000RTArcPure1600W-2000VAUPSRackmountTowerlineInteractive.jpg?v=1687835967"
+    },
+    {
+      "id": "ups-dynaquest-pc-0000000017e3",
+      "name": "APC BVX1200LI-MS 1200VA 650W 230V Universal Socket UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "12277",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/AA38208_5.jpg?v=1619427484"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000003dcf",
+      "name": "APC BV800I-MS Back UPS 800VA 450W 4 Universal Outlet",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "9794",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/files_1.jpg?v=1571553415"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000004944",
+      "name": "Eaton 5A 900I-NEMA 900VA 480W Tower Single-Phase Line Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "Eaton",
+        "SKU": "55549",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/Eaton5A1500I-NEMA1500VA900WTowerSingle-PhaseLineInteractiveUPS_c2815028-c7bf-4341-b4e7-9b3d299f45fe.jpg?v=1695883709"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000003b04",
+      "name": "APC BV1000I-MS 1000VA UPS 600W 230V AVR Power Supply Unit",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "90058",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/B3529BB03E4DF1458525822400544690_JVAN_AVGL42_f_h_500x500_1.jpg?v=1571553334"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000006480",
+      "name": "Awp Wise AID1000 1000VA / 600W UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "SKU": "8229",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/AWPWISEAID10001000VA600WUPS.jpg?v=1678503151"
+    },
+    {
+      "id": "ups-dynaquest-pc-0000000051a7",
+      "name": "Awp Wise ( AID650 ECO ) 650va / 360w UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "SKU": "PR001852",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/150_fc806555-f370-4469-9cda-8af16821a839.png?v=1772961553"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000000956",
+      "name": "APC BGM2200B-MSX Back-UPS Pro for Gaming 2200VA / 1320W | Tower | 230V | 3x Universal & 3x IEC C13 Outlets | RGB Lights | Pure Sine Wave | Midnight Black",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "PR000537",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/201_b7530005-993b-4e43-ba64-727b91cdbd0d.png?v=1761647290"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000006571",
+      "name": "AWP Wise AID2000 Pro LCD 2000VA / 1200W UPS Built-in AVR",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "SKU": "256713",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/247_03397b17-776e-4f89-9be6-d6840fd6525a.png?v=1736127948"
+    },
+    {
+      "id": "ups-dynaquest-pc-0000000038f4",
+      "name": "AWP Wise (AID3000 Pro LCD) 3000VA / 220VAC / 1800W UPS with LCD Display",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "SKU": "15837",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/302_1ab5303e-0005-442b-b47c-f269d5f9592b.png?v=1705714852"
+    },
+    {
+      "id": "ups-dynaquest-pc-0000000027cf",
+      "name": "AWP Wise APO3000RT 3000VA 2700W Rackmount Tower UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "SKU": "51185",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/26.png?v=1704700239"
+    },
+    {
+      "id": "ups-dynaquest-pc-0000000056d6",
+      "name": "AWP Wise APO1000RT 1000VA 900W Rackmount Tower UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "SKU": "166784",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/12.png?v=1704685612"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000007bef",
+      "name": "Eaton 5A 1200I-NEMA 1200VA/650W Tower Single-Phase Line Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "Eaton",
+        "SKU": "55550",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/Eaton5A1500I-NEMA1500VA900WTowerSingle-PhaseLineInteractiveUPS_77140182-26f9-45d9-89b6-00f4042c03d5.jpg?v=1695883879"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000003561",
+      "name": "Eaton 5A 2200I-NEMA 2200VA 1200W Tower Single-Phase Line Interactive UPS (Pre Order)",
+      "category": "ups",
+      "specs": {
+        "Brand": "Eaton",
+        "SKU": "55552",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/Eaton5A1500I-NEMA1500VA900WTowerSingle-PhaseLineInteractiveUPS_da387f7a-b04c-428a-ab2c-f3ee13dcd27c.jpg?v=1695882756"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000003f60",
+      "name": "Eaton 5A 1500I-NEMA 1500VA 900W Tower Single-Phase Line Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "Eaton",
+        "SKU": "55551",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/Eaton5A1500I-NEMA1500VA900WTowerSingle-PhaseLineInteractiveUPS.jpg?v=1695882452"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000007155",
+      "name": "AWP ARC3000RT ArcPure 2400W-3000VA UPS Pure Sine Wave with AVR Uninterruptible Power Supply (6 Sockets)",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "SKU": "51183",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/AWPARC3000RTArcPure2400W-3000VAUPSPureSineWavewithAVRUninterruptiblePowerSupply_6Sockets.jpg?v=1695621335"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000005e64",
+      "name": "AWP ARC1500RT ArcPure 1200W-1500VA UPS Rackmount Towerline Interactive",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "SKU": "166785",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/AWPARC1500RTArcPure1200W-1500VAUPSRackmountTowerlineInteractive.jpg?v=1687835882"
+    },
+    {
+      "id": "ups-dynaquest-pc-0000000053a3",
+      "name": "AWP ARC1000RT ArcPure 800W-1000VA UPS Pure Sine Wave with AVR UPS (4 Socket)",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "SKU": "15429",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/AWPARC1000RTArcPure800W-1000VAUPSPureSineWavewithAVRUPS_4Socket.jpg?v=1687835803"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000003ae1",
+      "name": "APC Line-R LSW2000-IND 1000W 2000VA Automatic Voltage Regulator 3 Universal Outlets 230V",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "13944",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/APCLine-RLSW2000-IND1000W2000VAAutomaticVoltageRegulator3UniversalOutlets230V.jpg?v=1667963657"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000001969",
+      "name": "APC BX2200MI-MS 2200VA 1200W 230V UPS AVR, Universal Sockets",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "12367",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/Back_UPS_BX1200MI_Image_FS_V_520x520_d885155b-fb94-421c-aacd-71c2cd7834c7.jpg?v=1615371793"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000005dde",
+      "name": "APC BX1600MI-MS 1600VA 900W 230V UPS AVR, Universal Sockets",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "50034",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/Back_UPS_BX1200MI_Image_FS_V_520x520_ff62f2b5-ee4c-4d8a-a64d-dc18b8a65d9d.jpg?v=1615371290"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000002f30",
+      "name": "Awp Wise AID850 Pro+ 850VA / 510W UPS with AVR",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "SKU": "10886",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/aid850pro_d338ca64-fb88-430a-ae46-3cea0d8ac851.jpg?v=1632595851"
+    },
+    {
+      "id": "ups-dynaquest-pc-000000002213",
+      "name": "AWP Wise AID2000 2000VA / 1200W UPS with Built-in AVR",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "SKU": "99910",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/2000va.jpg?v=1596860281"
+    },
+    {
+      "id": "ups-easypc-0000000073b2",
+      "name": "KSTAR Micro UA60 600va/360 watts with AVR Boost and Buck",
+      "category": "ups",
+      "specs": {
+        "Brand": "KSTAR",
+        "SKU": "2764",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/KSTAR_Micro_UA60_600va_360_watts_with_AVR_Boost_and_Buck-a.jpg?v=1701143031"
+    },
+    {
+      "id": "ups-easypc-0000000004f6",
+      "name": "KSTAR Micro UA100 1000va/600 watts Line-Interactive AVR boost and buck, Cold start function, Built-in self-diagnostic function UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "KSTAR",
+        "SKU": "3019",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/KSTARMicroUA1001000va600wattsLine-InteractiveAVRboostandbuck_Coldstartfunction_Built-inself-diagnosticfunctionUPS-a.jpg?v=1629736900"
+    },
+    {
+      "id": "ups-easypc-000000002888",
+      "name": "InPlay LD-UPS-1500VA",
+      "category": "ups",
+      "specs": {
+        "Brand": "INPLAY",
+        "SKU": "10869",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/10869_a.png?v=1769115078"
+    },
+    {
+      "id": "ups-easypc-0000000028cf",
+      "name": "InPlay LD-UPS-1000VA",
+      "category": "ups",
+      "specs": {
+        "Brand": "INPLAY",
+        "SKU": "10868",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/10868_a.png?v=1769115068"
+    },
+    {
+      "id": "ups-easypc-000000001522",
+      "name": "InPlay IP-UPS-650VA",
+      "category": "ups",
+      "specs": {
+        "Brand": "INPLAY",
+        "SKU": "10867",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/10867_a.png?v=1769115058"
+    },
+    {
+      "id": "ups-easypc-00000000769d",
+      "name": "iLogic Blazer 720va Ups",
+      "category": "ups",
+      "specs": {
+        "Brand": "ILOGIC",
+        "SKU": "202",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/iLogic_Blazer_720va_Ups-a.jpg?v=1699413268"
+    },
+    {
+      "id": "ups-easypc-0000000070fc",
+      "name": "iLogic Blazer 1000va Ups",
+      "category": "ups",
+      "specs": {
+        "Brand": "ILOGIC",
+        "SKU": "60",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/iLogic_Blazer_1000va_Ups.jpg?v=1699407664"
+    },
+    {
+      "id": "ups-easypc-000000002e48",
+      "name": "Secure 220v Avr",
+      "category": "ups",
+      "specs": {
+        "Brand": "SECURE",
+        "SKU": "36",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Secure_220v_Avr-a.jpg?v=1700783761"
+    },
+    {
+      "id": "ups-easypc-00000000445b",
+      "name": "Eco Power Avr 220V/110V Automatic Voltage Regulator Power Supply",
+      "category": "ups",
+      "specs": {
+        "Brand": "ECO POWER",
+        "SKU": "1",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/EcoPowerAvr220V110V-b.jpg?v=1698992661"
+    },
+    {
+      "id": "ups-easypc-0000000019c2",
+      "name": "APC Back-Ups BVX650I-PH 360 Watts 650va with Avr Generator Compatible Universal Sockets Ups",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "2991",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/APC_Back-Ups_BVX650I-PH_360_Watts_650va-a.jpg?v=1701314910"
+    },
+    {
+      "id": "ups-easypc-000000002702",
+      "name": "Secure 650va Ups",
+      "category": "ups",
+      "specs": {
+        "Brand": "SECURE",
+        "SKU": "454",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Secure_650va_Ups-a.jpg?v=1704416509"
+    },
+    {
+      "id": "ups-easypc-000000007194",
+      "name": "APC Back-Ups BX650LI-MS 325Watts 650va with Avr Universal Sockets Ups",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "83",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/141-a.jpg?v=1588505991"
+    },
+    {
+      "id": "ups-easypc-000000001698",
+      "name": "PROLINK PRO700SFC 650VA UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "PROLINK",
+        "SKU": "7617",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/PROLINK_PRO700SFC_650VA_UPS-a.png?v=1697441831"
+    },
+    {
+      "id": "ups-easypc-0000000056e7",
+      "name": "Prolink PRO701SFC 650va with Built-in Avr Ups",
+      "category": "ups",
+      "specs": {
+        "Brand": "PROLINK",
+        "SKU": "743",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/Prolink_PRO701SFC_650va_with_Built-in_Avr_Ups-a.jpg?v=1700784546"
+    },
+    {
+      "id": "ups-easypc-0000000046b2",
+      "name": "APC Back UPS BX625CIMS 325Watts 625va with AVR Universal Sockets",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "101",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/APC_Back_UPS_BX625CIMS_UPS-a.jpg?v=1700455258"
+    },
+    {
+      "id": "ups-easypc-000000002015",
+      "name": "Etonix EBOX 1000 650VA/360W UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "ETONIX",
+        "SKU": "10883",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/10883-a.png?v=1772007203"
+    },
+    {
+      "id": "ups-easypc-000000004c2d",
+      "name": "Etonix EBOX 1500 850VA/480W UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "ETONIX",
+        "SKU": "10884",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/10884-a.png?v=1772007222"
+    },
+    {
+      "id": "ups-easypc-00000000411a",
+      "name": "Secure 1000va UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "Secure",
+        "SKU": "6110",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/1_7807d0d9-8dd7-4e1d-9acc-c2aa482d1e1d.jpg?v=1763453402"
+    },
+    {
+      "id": "ups-easypc-00000000365e",
+      "name": "AWP AID650 Aide 390W-650VA with AVR Universal Socket Ups",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "SKU": "5005",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/AWP_AID650_Aide_390W-650VA_with_AVR_Universal_Socket_Ups-a.jpg?v=1703204658"
+    },
+    {
+      "id": "ups-easypc-0000000014af",
+      "name": "APC Line-R Automatic Voltage Regulator Resettable circuit breaker Lightning and Surge Protection APC Line-R 1200va/ 2000va",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "3913",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/APC_Line-R_Automatic_Voltage_Regulator_Resettable_circuit_breaker_Lightning_and_Surge_Protection_APC_Line-R_1200va_UPS-a.jpg?v=1624504154"
+    },
+    {
+      "id": "ups-easypc-000000007bfd",
+      "name": "APC LSW800-IND Line-R 800va Automatic Voltage Regulator 3 Grounded Outlets, Children Safety Shutters, Extended Input Voltage Range, Power Switch with Built-in Circuit Breaker, Built-in Surge Protection UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "3773",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/APCLSW800-INDLine-R800vaAutomaticVoltageRegulator3GroundedOutlets_ChildrenSafetyShutters_ExtendedInputVoltageRange_PowerSwitchwithBuilt-inCircuitBreaker_Built-inSurgeProtec-a.jpg?v=1629740177"
+    },
+    {
+      "id": "ups-easypc-000000007b64",
+      "name": "APC Back-Ups BVX700LUI-MS 360 Watts 700va with Avr",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "4343",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/APC_Back-Ups_BVX700LUI-MS_360_Watts_700va_with_Avr-a.jpg?v=1702435466"
+    },
+    {
+      "id": "ups-easypc-0000000052af",
+      "name": "APC Easy UPS BV1000I-MS 1000VA",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "10335",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/10335.png?v=1764644167"
+    },
+    {
+      "id": "ups-easypc-0000000023d8",
+      "name": "APC Back UPS BX1100LIMS 550Watts 1100va with AVR Universal and IEC Sockets",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "237",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/656-a.jpg?v=1588506401"
+    },
+    {
+      "id": "ups-easypc-000000002b12",
+      "name": "APC Back-UPS BV800I-MS 450watts 800va with AVR Universal Sockets",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "732",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1777-a.jpg?v=1586791542"
+    },
+    {
+      "id": "ups-easypc-0000000013f9",
+      "name": "Alpha Pro Ups 650va",
+      "category": "ups",
+      "specs": {
+        "Brand": "ALPHA PRO",
+        "SKU": "288",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/776-a.jpg?v=1588506521"
+    },
+    {
+      "id": "ups-easypc-00000000627b",
+      "name": "Alpha Pro Ups 1200va",
+      "category": "ups",
+      "specs": {
+        "Brand": "ALPHA PRO",
+        "SKU": "502",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/1291-a.jpg?v=1588507026"
+    },
+    {
+      "id": "ups-easypc-000000000fb3",
+      "name": "Ablerex 650L 650VA 360W UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "ABLEREX",
+        "SKU": "9367",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Ablerex_650L_650VA_360W_UPS-a.png?v=1726558900"
+    },
+    {
+      "id": "ups-easypc-00000000611f",
+      "name": "ChargeUPS Light Series 650VA",
+      "category": "ups",
+      "specs": {
+        "Brand": "CHARGEUPS",
+        "SKU": "8411",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/ChargeUPS_Light_Series_650VA-a.png?v=1711522935"
+    },
+    {
+      "id": "ups-easypc-00000000088c",
+      "name": "Ablerex GR650 650va 330 watts with Built-in AVR, 2-6ms Transfer Time 4 Sockets UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "ABLEREX",
+        "SKU": "2780",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/2780-a_64364c96-86fe-4c8c-b4b4-d0524a73053e.jpg?v=1631612869"
+    },
+    {
+      "id": "ups-easypc-000000004603",
+      "name": "Ablerex GR650 650va 360 watts with AVR 4 Sockets UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "ABLEREX",
+        "SKU": "6606",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/6606-b.jpg?v=1678428427"
+    },
+    {
+      "id": "ups-easypc-00000000516d",
+      "name": "Etonix ENIT 1000 LCD 1000VA 480W Line Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "ETONIX",
+        "SKU": "9371",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Etonix_ENIT_1000_LCD_1000VA_480W_Line_Interactive_UPS-c.png?v=1724053556"
+    },
+    {
+      "id": "ups-easypc-000000007591",
+      "name": "Etonix ENIT 650 ECO 650VA 390W Line Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "ETONIX",
+        "SKU": "9370",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/Etonix_ENIT_650_ECO_650VA_390W_Line_Interactive_UPS-c.png?v=1724053438"
+    },
+    {
+      "id": "ups-easypc-000000005bc4",
+      "name": "Secure 1500va UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "SECURE",
+        "SKU": "6738",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/files/secure-1500va-back.webp?v=1775796815"
+    },
+    {
+      "id": "ups-easypc-0000000041e5",
+      "name": "Prolink PRO700SFT 650VA with Touchscreen Panel/Build-in Avr super fast charging line-interactive Ups Auto Restar while AC is recovering, Simulated sine wave, Off-mode charging, Cold start function, LCD User Interface UPS and AVR",
+      "category": "ups",
+      "specs": {
+        "Brand": "PROLINK",
+        "SKU": "3655",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/ProlinkPRO700SFT650VAwithTouchscreenPanelBuild-inAvrsuperfastchargingline-interactiveUpsAutoRestarwhileACisrecovering_Simulatedsinewave_Off-modecharging_Coldstartfunction_-b.jpg?v=1629739234"
+    },
+    {
+      "id": "ups-easypc-0000000058f9",
+      "name": "Orion Ups 650va",
+      "category": "ups",
+      "specs": {
+        "Brand": "ORION",
+        "SKU": "165",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0101/4864/2879/products/392-a.jpg?v=1588506211"
+    },
+    {
+      "id": "ups-pcworx-000000005c36",
+      "name": "INTEX IT-M850VA 850VA/ 480W UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000054562",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/0000054562.jpg?v=1738825633"
+    },
+    {
+      "id": "ups-pcworx-0000000070fc",
+      "name": "Eaton 5A 2200I-NEMA 2200VA/1200Watts Line Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000060027",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7r98u-lop3nf3jzr3kdb.jpg?v=1708418967"
+    },
+    {
+      "id": "ups-pcworx-00000000089a",
+      "name": "Eaton 5A 1500I-NEMA 1500VA/900Watts Line Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000060026",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7r990-lop3nf3k15o02d.jpg?v=1708418864"
+    },
+    {
+      "id": "ups-pcworx-00000000068a",
+      "name": "Eaton 5A 700VA/360Watts Tower UPS Line Interactive",
+      "category": "ups",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000060023",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7r98x-lmck6dfgco7j48.jpg?v=1708418870"
+    },
+    {
+      "id": "ups-pcworx-000000003166",
+      "name": "Eaton 5A 1200I-NEMA 1200VA/650Watts Line Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000060025",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/ph-11134207-7r98p-lop3nf3k86i8fd.jpg?v=1708418713"
+    },
+    {
+      "id": "ups-pcworx-000000007df8",
+      "name": "AWP Aid650 Aide Series Entry Level Line Interactive Ups",
+      "category": "ups",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000038628",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/1_e7fd7c10-88f7-4c69-92fd-a4880bbe3ed4.png?v=1733123247"
+    },
+    {
+      "id": "ups-pcworx-000000001e27",
+      "name": "APC BGM2200-MSX 2200VA/1320W Back-UPS Pro RGB Gaming UPS (BEST SELLER)",
+      "category": "ups",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000065840",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/65840658391.png?v=1735965142"
+    },
+    {
+      "id": "ups-pcworx-000000000fa0",
+      "name": "Secure 1000VA/ 700Watts UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000026075",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/Secure1000VA700WattsUPS.png?v=1719537666"
+    },
+    {
+      "id": "ups-pcworx-000000000dd6",
+      "name": "Noritsu Plus 4x220v Automatic Voltage Regulator | AVR",
+      "category": "ups",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000057471",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/sg-11134201-23020-py933pl9jhnv9c.jpg?v=1708418199"
+    },
+    {
+      "id": "ups-pcworx-000000006376",
+      "name": "Etonix Enit 650N 650VA/360W Line-Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "PCWORX",
+        "SKU": "0000067439",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0678/0964/0661/files/EtonixEnit650N650VA_360WLine-InteractiveUPS.jpg?v=1763434901"
+    },
+    {
+      "id": "ups-pc-express-000000007cd2",
+      "name": "APC (SRV1KI-E ) Easy UPS On-Line, 1000VA/900W, Tower, 230V, 3x IEC C13 outlets, Intelligent Card Slot, LCD",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "UPS-APC-000013",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-APC-SRV1KI-E-1.jpg?v=1737019048"
+    },
+    {
+      "id": "ups-pc-express-0000000003cc",
+      "name": "APC (SRV2KI-E) Easy UPS On-Line, 2000VA/1800W, Tower, 230V, 4x IEC C13 outlets, Intelligent Card Slot, LCD",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "UPS-APC-000015",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-APC-SRV2KI-E-1.jpg?v=1737019778"
+    },
+    {
+      "id": "ups-pc-express-00000000547b",
+      "name": "APC (SRV2KRI-E) Easy UPS On-Line, 2KVA /1800W, Rackmount 2U, Intelligent Card Slot, 230V, W/O rail kit",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "UPS-APC-000020",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-APC-SRV2KRI-E-1.jpg?v=1737076182"
+    },
+    {
+      "id": "ups-pc-express-0000000030f4",
+      "name": "APC (SRV3KI-E) Easy UPS On-Line, 3kVA/2700W, Tower, 230V, 6x IEC C13 + 1x IEC C19 outlets, Intelligent Card Slot, LCD",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "UPS-APC-000010",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-APC-SRV3KI-E-1.jpg?v=1737076929"
+    },
+    {
+      "id": "ups-pc-express-000000004ed5",
+      "name": "APC (SRV3KRI) Easy UPS On-Line, 3kVA/2400W, Rackmount 2U, 230V, 6x IEC C13 + 1x IEC C19 outlets, Intelligent Card Slot, LCD, W/O rail kit",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "UPS-APC-000014",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-APC-SRV3KRI-1.jpg?v=1737078742"
+    },
+    {
+      "id": "ups-pc-express-000000003b1a",
+      "name": "APC (SRV6KI) Easy UPS On-Line, 6kVA/6kW, Tower, 230V, Hard wire 3-wire(1P+N+E) outlet, Intelligent Card Slot, LCD",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "UPS-APC-000012",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-APC-SRV6KI-1.jpg?v=1737079255"
+    },
+    {
+      "id": "ups-pc-express-00000000514e",
+      "name": "APC (SRV6KRI) Easy UPS On-Line, 6kVA/6kW, Rackmount 4U, 230V, Hard wire 3-wire(1P+N+E) outlet, Intelligent Card Slot, LCD, W/O rail kit",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "UPS-APC SRV6KRI w/Ext Battery Pack",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-APC-SRV6KRI-wExt-Battery-Pack-1.jpg?v=1737079826"
+    },
+    {
+      "id": "ups-pc-express-000000003239",
+      "name": "APC BGM2200B-MSX 2200VA Gaming UPS (Black)",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "UPS-APC-000008",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-APC-BGM2200B-MSX-2200VA-GAMING-UPS-BLK.jpg?v=1763026615"
+    },
+    {
+      "id": "ups-pc-express-000000001b30",
+      "name": "APC EASY UPS BV 1000VA, AVR, Universal Outlet, 230V (BV1000I-MS)",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "UPS-APC-000001",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/UPS-APC-BV1000I-MS-1000VA-2.webp?v=1712991950"
+    },
+    {
+      "id": "ups-pc-express-000000004e2b",
+      "name": "APC EASY UPS BV 650VA, AVR, Universal Outlet, 230V (BV650I-MS)",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "UPS-APC-000004",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/UPS-APC-BV650I-MS-650VA-3.jpg?v=1682670158"
+    },
+    {
+      "id": "ups-pc-express-00000000191c",
+      "name": "APC EASY UPS BV 800VA, AVR, Universal Outlet, 230V (BV800I-MS)",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "UPS-APC-000002",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/UPS-APC-BV800I-MS-800VA-2.jpg?v=1682670174"
+    },
+    {
+      "id": "ups-pc-express-000000004b1f",
+      "name": "APC EASY UPS BVX 1200VA, 230V, AVR, Universal Sockets (BVX1200LI-MS)",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "UPS-APC-000003",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/UPS-APC-BVX1200LI-MS-1200VA-2.jpg?v=1682670178"
+    },
+    {
+      "id": "ups-pc-express-00000000063b",
+      "name": "APC EASY UPS BVX 650VA, AVR, 230V (BVX650I-PH)",
+      "category": "ups",
+      "specs": {
+        "Brand": "APC",
+        "SKU": "UPS-APC-000005",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/products/UPS-APC-BVX650I-PH-650VA-2.jpg?v=1682670181"
+    },
+    {
+      "id": "ups-pc-express-000000006bd3",
+      "name": "CYBERPOWER UT2200EG 2200VA/1320W Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Brand": "CyberPower",
+        "SKU": "UPS-CYBERPOWER UT2200EG 2200VA/1320W",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-CYBERPOWER_UT2200EG_2200VA_1320W-1.jpg?v=1755051974"
+    },
+    {
+      "id": "ups-pc-express-000000007ce8",
+      "name": "CYBERPOWER CP1350PFCLCD 1350VA/810W Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Brand": "CyberPower",
+        "SKU": "UPS-CYBERPOWER CP1350PFCLCD 1350VA/810W",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-CYBERPOWER_CP1350PFCLCD_1350VA_810.jpg?v=1755051811"
+    },
+    {
+      "id": "ups-pc-express-0000000011e9",
+      "name": "CYBERPOWER VP700ELCD 700VA/390W Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Brand": "CyberPower",
+        "SKU": "UPS-CYBERPOWER VP700ELCD 700VA/390W",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-CYBERPOWER_VP700ELCD_700VA_390W.jpg?v=1755051926"
+    },
+    {
+      "id": "ups-pc-express-000000004181",
+      "name": "CYBERPOWER VP1200ELCD 1200VA/720W Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Brand": "CyberPower",
+        "SKU": "UPS-CYBERPOWER-000001",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-CYBERPOWER_VP1200ELCD_1200VA_720W.jpg?v=1755054891"
+    },
+    {
+      "id": "ups-pc-express-000000007826",
+      "name": "CYBERPOWER OLS1000EC 1000VA/800W Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Brand": "CyberPower",
+        "SKU": "UPS-CYBERPOWER-000003",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-CYBERPOWER_OLS1000EC_1000VA_800W.jpg?v=1755055750"
+    },
+    {
+      "id": "ups-pc-express-000000005913",
+      "name": "CYBERPOWER OLS2000ERT2UA 2000VA/1800W Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Brand": "CyberPower",
+        "SKU": "UPS-CYBERPOWER-000004",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-CYBERPOWER_OLS2000ERT2UA_2000VA_1800W-1.jpg?v=1755057534"
+    },
+    {
+      "id": "ups-pc-express-000000002d2b",
+      "name": "CYBERPOWER OLS3000ERT2UA 3000VA/2700W Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Brand": "CyberPower",
+        "SKU": "UPS-CYBERPOWER-000002",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/CYBOLS3000ERT2UA_I0001.jpg?v=1755058342"
+    },
+    {
+      "id": "ups-pc-express-0000000077cf",
+      "name": "EATON 5A1200I-NEMA 1200VA Line-Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "Eaton",
+        "SKU": "UPS-EATON-000001",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/5A1200i-2000i-front.jpg?v=1695783237"
+    },
+    {
+      "id": "ups-pc-express-00000000133d",
+      "name": "EATON 5A700I-NEMA 700VA Line-Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "Eaton",
+        "SKU": "UPS-EATON-000004",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/1_632f78dc-3897-47ed-a6b3-99f692158f60.jpg?v=1695782760"
+    },
+    {
+      "id": "ups-pc-express-00000000270c",
+      "name": "EATON 5A900I-NEMA 900VA Line-Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "Eaton",
+        "SKU": "UPS-EATON-000005",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/1_43e3a8a1-5d69-4778-a008-85b0ab03a716.jpg?v=1695782779"
+    },
+    {
+      "id": "ups-pc-express-000000001d42",
+      "name": "SECURE 1000VA UPS (BLACK)",
+      "category": "ups",
+      "specs": {
+        "Brand": "Secure Computing",
+        "SKU": "UPS-SECURE-000001",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/secure.jpg?v=1721636760"
+    },
+    {
+      "id": "ups-pc-express-00000000760e",
+      "name": "SECURE 1500VA UPS (BLACK)",
+      "category": "ups",
+      "specs": {
+        "Brand": "Secure Computing",
+        "SKU": "UPS-SECURE-000008",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/secure_d4e68a95-9976-4903-880f-1c3b97e076ac.jpg?v=1752499536"
+    },
+    {
+      "id": "ups-pc-express-0000000058b0",
+      "name": "SECURE 2000VA UPS (BLACK)",
+      "category": "ups",
+      "specs": {
+        "Brand": "Secure Computing",
+        "SKU": "UPS-SECURE-000010",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/secure_19f5fa41-83c0-4d51-b833-64c08a66acb5.jpg?v=1752499541"
+    },
+    {
+      "id": "ups-pc-express-000000003245",
+      "name": "SECURE 4000VA UPS (Black)",
+      "category": "ups",
+      "specs": {
+        "Brand": "Secure Computing",
+        "SKU": "UPS-SECURE-000003",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/secure.jpg?v=1721636760"
+    },
+    {
+      "id": "ups-pc-express-000000003112",
+      "name": "SECURE 650VA UPS (BLACK)",
+      "category": "ups",
+      "specs": {
+        "Brand": "Secure Computing",
+        "SKU": "UPS-SECURE-000015",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/secure_05e96b73-8ca1-4d8f-942c-969ca00c2710.jpg?v=1752499548"
+    },
+    {
+      "id": "ups-pc-express-000000002772",
+      "name": "SECURE UPS-1000VA PRO (Black)",
+      "category": "ups",
+      "specs": {
+        "Brand": "Secure Computing",
+        "SKU": "UPS-SECURE-000007",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-SECURE-1000VA-PRO-WLCD-BLK-1.jpg?v=1705312221"
+    },
+    {
+      "id": "ups-pc-express-000000006bdf",
+      "name": "SECURE UPS-1500VA PRO (Black)",
+      "category": "ups",
+      "specs": {
+        "Brand": "Secure Computing",
+        "SKU": "UPS-SECURE-000009",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-SECURE-1500VA-PRO-WLCD-BLK-1.jpg?v=1705380568"
+    },
+    {
+      "id": "ups-pc-express-0000000062e0",
+      "name": "SECURE UPS-2000VA PRO (Black)",
+      "category": "ups",
+      "specs": {
+        "Brand": "Secure Computing",
+        "SKU": "UPS-SECURE-000011",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-SECURE-1500VA-PRO-WLCD-BLK-1_8d512d54-a246-4b07-a211-012e76439393.jpg?v=1705390169"
+    },
+    {
+      "id": "ups-pc-express-0000000061b1",
+      "name": "SECURE UPS-3000VA PRO (Black)",
+      "category": "ups",
+      "specs": {
+        "Brand": "Secure Computing",
+        "SKU": "UPS-SECURE-000012",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-SECURE-3000VA-PRO-WLCD-BLK1.png?v=1754463624"
+    },
+    {
+      "id": "ups-pc-express-000000002643",
+      "name": "SECURE UPS-4000VA PRO (Black)",
+      "category": "ups",
+      "specs": {
+        "Brand": "Secure Computing",
+        "SKU": "UPS-SECURE-000013",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-SECURE-4000VA-PRO-WLCD-BLK-1.jpg?v=1705399317"
+    },
+    {
+      "id": "ups-pc-express-00000000152a",
+      "name": "SECURE UPS-5000VA PRO (Black)",
+      "category": "ups",
+      "specs": {
+        "Brand": "Secure Computing",
+        "SKU": "UPS-SECURE-000014",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-SECURE-5000VA-PRO-WLCD-BLK1.png?v=1754548183"
+    },
+    {
+      "id": "ups-pc-express-000000004a1a",
+      "name": "VERTIV Liebert® PSA-PH 650VA/360W, 230V, Line Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "Vertiv",
+        "SKU": "UPS-VERTIV LIEBERT PSA650-PH",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-VERTIV-LIEBERT-PSA650-PH-1.jpg?v=1741746696"
+    },
+    {
+      "id": "ups-pc-express-00000000641b",
+      "name": "VERTIV Liebert® PSA850-SOHO ITON 850VA 230V AVR Universal Sockets",
+      "category": "ups",
+      "specs": {
+        "Brand": "Vertiv",
+        "SKU": "UPS-VERTIV LIEBERT PSA850-SOHO",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-VERTIV-LIEBERT-PSA850-SOHO-1.jpg?v=1741749696"
+    },
+    {
+      "id": "ups-pc-express-0000000038a9",
+      "name": "VERTIV Liebert® PSA1000-SOHO ITON 1000VA 230V AVR Universal Sockets",
+      "category": "ups",
+      "specs": {
+        "Brand": "Vertiv",
+        "SKU": "UPS-VERTIV LIEBERT PSA1000-SOHO",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-VERTIV-LIEBERT-PSA1000-SOHO-1.jpg?v=1741750291"
+    },
+    {
+      "id": "ups-pc-express-000000007a32",
+      "name": "VERTIV Liebert® EDGE-1000IMT UPS 1000VA/900W 230V Tower",
+      "category": "ups",
+      "specs": {
+        "Brand": "Vertiv",
+        "SKU": "UPS-VERTIV LIEBERT EDGE-1000IMT",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-VERTIV-LIEBERT-EDGE-1000IMT-1.jpg?v=1741750882"
+    },
+    {
+      "id": "ups-pc-express-000000000bc5",
+      "name": "AWP WISE 1000VA PRO W/LCD UPS- Black",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "SKU": "UPS-AWP-000001",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/UPS-AWPWISE1000VALCDPROBLK.jpg?v=1763715648"
+    },
+    {
+      "id": "ups-pc-express-0000000047da",
+      "name": "AWP APO1000RT Alpha RT 1000VA/900W On-Line Double-Conversion UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/APO1000RT.jpg?v=1769649621"
+    },
+    {
+      "id": "ups-pc-express-000000006e24",
+      "name": "AWP APO2000RT Alpha RT 2000VA/1800W On-Line Double-Conversion UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/APO2000RT.jpg?v=1769650456"
+    },
+    {
+      "id": "ups-pc-express-000000002c30",
+      "name": "AWP APO3000RT Alpha RT 3000VA/2700W On-Line Double-Conversion UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/APO3000RT-1.jpg?v=1769652288"
+    },
+    {
+      "id": "ups-pc-express-00000000348c",
+      "name": "AWP ALR6000 Alpha RT 6000VA/5400W On-line Double-Conversion UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/ALR6000.jpg?v=1769651491"
+    },
+    {
+      "id": "ups-pc-express-0000000000e2",
+      "name": "AWP ALR10000 Alpha RT 10000VA/9000W On-line Double-Conversion UPS",
+      "category": "ups",
+      "specs": {
+        "Brand": "AWP",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/ALR10000.jpg?v=1769651809"
+    },
+    {
+      "id": "ups-pc-express-000000001aa0",
+      "name": "EATON 5PX 1000i RT2U G2 Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Brand": "Eaton",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/Eaton-5PX-1000i-RT2U-G2.jpg?v=1774834627"
+    },
+    {
+      "id": "ups-pc-express-000000002da1",
+      "name": "EATON 9A 1000VA Tower Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Brand": "Eaton",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/Eaton-9A-1000VA-Tower.jpg?v=1774835868"
+    },
+    {
+      "id": "ups-pc-express-0000000045bd",
+      "name": "EATON 9A 2000VA Tower Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Brand": "Eaton",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/Eaton-9A-2000VA-Tower.jpg?v=1774836934"
+    },
+    {
+      "id": "ups-pc-express-0000000046e2",
+      "name": "EATON 9A 3000VA Tower Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Brand": "Eaton",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/Eaton-9A-3000VA-Tower.jpg?v=1774837303"
+    },
+    {
+      "id": "ups-pc-express-000000005797",
+      "name": "EATON 9PX 1000i RT2U Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Brand": "Eaton",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/Eaton-9PX-1000i-RT2U.jpg?v=1774838455"
+    },
+    {
+      "id": "ups-pc-express-00000000340e",
+      "name": "EATON 9PX 2200i RT2U Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Brand": "Eaton",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/Eaton-9PX-2200i-RT2U.jpg?v=1774838685"
+    },
+    {
+      "id": "ups-pc-express-000000003171",
+      "name": "EATON 9PX 5000i RT3U Netpack G2 Uninterruptible Power Supply",
+      "category": "ups",
+      "specs": {
+        "Brand": "Eaton",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/Eaton-9PX-5000i-RT3U-Netpack-G2.jpg?v=1774840371"
+    },
+    {
+      "id": "ups-pc-express-000000002a81",
+      "name": "SECURE 3S 500W AVR - Black",
+      "category": "ups",
+      "specs": {
+        "Brand": "Secure Computing",
+        "SKU": "AVR-SECURE-000001",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0749/0525/6234/files/AVR-SECURE-3S-500W-BLK-1.jpg?v=1761891382"
+    },
+    {
+      "id": "ups-silicon-valley-000000000a13",
+      "name": "APC Back-UPS BX625CI-MS 625VA/325W Line-Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "SKU": "BX625CI-MS",
+        "Availability": "in_stock"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-00000000738f",
+      "name": "Secure 500W AVR Automatic Voltage Regulator with 3 x 220V",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-0000000016f5",
+      "name": "Belkin Mini Travel Surge w/ USB Charger",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-000000000dcb",
+      "name": "Eaton 5A700I 700VA 360W 230VAC UPS",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-000000006fea",
+      "name": "APC Easy UPS BVX650I-PH 650VA - 230V, AVR, UPS",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-000000002998",
+      "name": "Vertiv PSA650-PH 650VA 360W L230V Line Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-000000004323",
+      "name": "AWP AID1000 ECO 1000VA Line Interactive UPS - Tower Design",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-00000000756f",
+      "name": "APC Line-R 2000VA Automatic Voltage Regulator, 3 Universal Outlets, 230V Indonesia, Input & Output Voltage 230 (LSW2000-IND)",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-000000003ee3",
+      "name": "Emerson Liebert PSA ITON 600VA 230V AVR",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-000000001daa",
+      "name": "AWP AID1000 AIDE SERIES Entry Level Line Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-000000005013",
+      "name": "AWP AID1000 Pro LCD AIDE SERIES Entry Level Line Interactive UPS",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-000000007205",
+      "name": "Eaton 5A900I-NEMA 900VA 480W UPS",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-000000000cf3",
+      "name": "APC BV800I-MS, 800VA, Floor/Wall Mount, 230V, 4x Universal outlets, AVR, UPS",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-0000000049d2",
+      "name": "APC BV1000I-MS, 1000VA, 230V, AVR, UPS",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-0000000018e1",
+      "name": "AWP AID1500 AIDE SERIES Entry Level Line Active UPS",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-0000000035c6",
+      "name": "APC BVX1200LI-MS - 1200VA, 230V, AVR, Universal Sockets UPS",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-000000006186",
+      "name": "AWP AID2000 AIDE SERIES Entry Level Line Active UPS",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-000000003e0e",
+      "name": "Eaton 5A 1500I-NEMA 1500VA 900W UPS",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-000000003b31",
+      "name": "Eaton 5A2200I-NEMA 2200VA 1200W UPS",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-00000000266d",
+      "name": "APC BX1600MI-MS, 1600VA, 230V, AVR, 4x universal outlets Back-UPS",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-000000005e94",
+      "name": "APC Back-UPS 2200VA, 230V, AVR, Universal Sockets, Input 230 voltage (BX2200MI-MS)",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-000000005d73",
+      "name": "APC SRV1KI-E - 1000VA Easy UPS On-Line | 1000VA/900W | Tower | 230V | 3x IEC C13 outlets | Intelligent Card Slot | LCD",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-000000000596",
+      "name": "APC 2200VA 1320W 230V Back-UPS Pro for Gaming BGM2200B-MSX (Midnight Black)",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-000000005e19",
+      "name": "APC 2200VA 1320W 230V Back-UPS Pro for Gaming BGM2200-MSX (Arctic White)",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-000000006a98",
+      "name": "APC Easy UPS On-Line SRV2KI-E | 2000VA/1800W | Tower | 230V | 4x IEC C13 outlets | Intelligent Card Slot | LCD",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-000000001011",
+      "name": "APC SRV3KI-E - Easy UPS On-Line | 3kVA/2700W | Tower | 230V | 6x IEC C13 + 1x IEC C19 outlets | Intelligent Card Slot | LCD",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-000000000f61",
+      "name": "APC Easy UPS On-Line | 3kVA/2700W | Rackmount 2U | 230V | 6x IEC C13+1xIEC C19 outlets | Card Slot | LCD| W/O rail",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    },
+    {
+      "id": "ups-villman-0000000043b0",
+      "name": "APC Easy UPS On-Line | 6kVA/6kW | Tower | 230V | Hard wire 3-wire(1P+N+E) outlet | Intelligent Card Slot | LCD",
+      "category": "ups",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": null
+    }
+  ]
+}

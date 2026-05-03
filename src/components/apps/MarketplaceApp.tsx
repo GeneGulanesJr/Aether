@@ -9,24 +9,53 @@
  * Each part card shows all store offers sorted cheapest-first.
  */
 
-import { useState, useMemo, useEffect } from 'react'
-import type { Part, PriceEntry, BuildSlotCategory } from '../../lib/types'
-import type { UseBuildResult } from '../../hooks/useBuild'
-import { usePartFilters, extractModelKey, simplifyPartName, type SortField } from '../../hooks/usePartFilters'
-import { formatPhp } from '../../lib/format'
+ import { useState, useMemo, useEffect } from 'react'
+ import type { Part, PriceEntry, BuildSlotCategory } from '../../lib/types'
+ import type { UseBuildResult } from '../../hooks/useBuild'
+ import { usePartFilters, simplifyPartName, type SortField } from '../../hooks/usePartFilters'
+ import { retailerFromPartId } from '../../lib/retailer'
+ import { formatPhp } from '../../lib/format'
 
 // ── Constants ──
 
 const CATEGORIES: { id: string; label: string; icon: string }[] = [
+  // Core PC build components
   { id: 'cpu', label: 'CPU', icon: '🖥️' },
   { id: 'motherboard', label: 'Motherboard', icon: '🔌' },
-  { id: 'ram', label: 'RAM', icon: '🧩' },
+  { id: 'ram', label: 'RAM', icon: '🧠' },
   { id: 'gpu', label: 'GPU', icon: '🎮' },
   { id: 'storage', label: 'Storage', icon: '💾' },
   { id: 'psu', label: 'PSU', icon: '⚡' },
-  { id: 'case', label: 'Case', icon: '🏠' },
+  { id: 'case', label: 'Case', icon: '📦' },
   { id: 'cpu_cooler', label: 'Cooling', icon: '❄️' },
   { id: 'monitor', label: 'Monitor', icon: '🖥️' },
+  // Peripherals & full systems
+  { id: 'laptop', label: 'Laptop', icon: '💻' },
+  { id: 'desktop', label: 'Desktop', icon: '🖥️' },
+  { id: 'keyboard', label: 'Keyboard', icon: '⌨️' },
+  { id: 'mouse', label: 'Mouse', icon: '🖱️' },
+  { id: 'headset', label: 'Headset', icon: '🎧' },
+  { id: 'speaker', label: 'Speaker', icon: '🔊' },
+  { id: 'tablet', label: 'Tablet', icon: '📱' },
+  // Home/office
+  { id: 'printer', label: 'Printer', icon: '🖨️' },
+  { id: 'camera', label: 'Camera', icon: '📷' },
+  { id: 'network', label: 'Network', icon: '📶' },
+  { id: 'ups', label: 'UPS', icon: '🔋' },
+  { id: 'software', label: 'Software', icon: '💿' },
+  // Furniture
+  { id: 'table', label: 'Table', icon: '🪑' },
+  { id: 'chair', label: 'Chair', icon: '💺' },
+  // Misc
+  { id: 'projector', label: 'Projector', icon: '📽️' },
+  { id: 'microphone', label: 'Microphone', icon: '🎤' },
+  { id: 'power-bank', label: 'Power Bank', icon: '🔌' },
+  { id: 'external-storage', label: 'External Storage', icon: '💾' },
+  { id: 'cable', label: 'Cable', icon: '🔗' },
+  { id: 'controller', label: 'Controller', icon: '🎮' },
+  { id: 'fans', label: 'Fans', icon: '🌬️' },
+  // Catch-all
+  { id: 'other', label: 'Other', icon: '📦' },
 ]
 
 // ── Types ──
@@ -49,16 +78,6 @@ interface PartWithOffers {
 // ── Helpers ──
 
 /** Derive store name from part ID prefix */
-function retailerFromPartId(partId: string): string {
-  const prefix = partId.split('-').slice(0, 3).join('-').toLowerCase()
-  const storeMap: Record<string, string> = {
-    'cpu-pc-express': 'PC Express',
-    'cpu-easypc': 'EasyPC',
-    'cpu-villman': 'Villman',
-  }
-  return storeMap[prefix] ?? storeMap[prefix.split('-').slice(0, 2).join('-')] ?? 'Unknown'
-}
-
 /** Store website URLs for "Visit store" links */
 const STORE_URLS: Record<string, string> = {
   'Bermor Techzone': 'https://bermorzone.com.ph',
@@ -81,7 +100,11 @@ function groupByModelKey(parts: Part[], priceEntries: PriceEntry[]): Map<string,
   const offerMap = new Map<string, StoreOffer[]>()
   for (const entry of priceEntries) {
     const list = offerMap.get(entry.partId) ?? []
-    const retailer = entry.retailer && entry.retailer !== 'Estimated' ? entry.retailer : retailerFromPartId(entry.partId)
+    const retailer = entry.retailer && entry.retailer !== 'Estimated'
+      ? entry.retailer
+      : entry.partId
+        ? retailerFromPartId(entry.partId)
+        : 'Unknown'
     list.push({
       retailer,
       amountPhp: entry.amountPhp,
@@ -92,50 +115,15 @@ function groupByModelKey(parts: Part[], priceEntries: PriceEntry[]): Map<string,
     offerMap.set(entry.partId, list)
   }
 
-  // Build a map of modelKey -> { parts, allOffers }
-  const modelMap = new Map<string, { parts: Part[]; allOffers: StoreOffer[] }>()
-  
-  for (const part of parts) {
-    const modelKey = `${part.category}:${extractModelKey(part)}`
-    const entry = modelMap.get(modelKey) ?? { parts: [], allOffers: [] }
-    
-    entry.parts.push(part)
-    const partOffers = offerMap.get(part.id) ?? []
-    entry.allOffers.push(...partOffers)
-    
-    modelMap.set(modelKey, entry)
-  }
-
-  // Convert to PartWithOffers, picking the shortest name as the display name
+  // Build result map keyed by part.id (each part is its own entry)
   const result = new Map<string, PartWithOffers>()
   
-  for (const [modelKey, { parts: modelParts, allOffers }] of modelMap) {
-    // Sort offers by price (cheapest first)
-    const sortedOffers = allOffers.sort((a, b) => a.amountPhp - b.amountPhp)
-    
-    // Pick the shortest/cleanest name as the display name
-    let displayName = modelParts[0].name
-    let displayPart = modelParts[0]
-    
-    for (const part of modelParts) {
-      // Prefer names without suffixes like "(sample)", "(boxed)", etc.
-      const name = part.name.replace(/\s*\(.*?\)\s*/g, '').trim()
-      if (name.length < displayName.length) {
-        displayName = name
-        displayPart = part
-      }
-    }
-    
-    // Use the first part as the representative, but with the clean name
-    const representativePart: Part = {
-      ...displayPart,
-      name: displayName,
-    }
-    
-    result.set(modelKey, {
-      part: representativePart,
-      offers: sortedOffers,
-      lowestPrice: sortedOffers.length > 0 ? sortedOffers[0].amountPhp : null,
+  for (const part of parts) {
+    const partOffers = (offerMap.get(part.id) ?? []).sort((a, b) => a.amountPhp - b.amountPhp)
+    result.set(part.id, {
+      part,
+      offers: partOffers,
+      lowestPrice: partOffers.length > 0 ? partOffers[0].amountPhp : null,
     })
   }
   
@@ -197,15 +185,12 @@ export function MarketplaceApp({
 
   useEffect(() => {
     if (!highlightPartId) return
-    // Find the part in the parts array
     const part = parts.find(p => p.id === highlightPartId)
     if (!part) return
-    // Find the model key for this part
-    const modelKey = `${part.category}:${extractModelKey(part)}`
-    const pwo = partsWithOffers.get(modelKey)
+    const pwo = partsWithOffers.get(part.id)
     if (!pwo) return
-    setSelectedCategory(pwo.part.category)
-    setSelectedPartId(modelKey)
+    setSelectedCategory(part.category)
+    setSelectedPartId(part.id)
   }, [highlightPartId, partsWithOffers, parts])
 
   // ── Category parts ──
@@ -410,7 +395,7 @@ export function MarketplaceApp({
                       {isCurrentlySelected && (
                         <button
                           onClick={() => build.removePart(part.category as BuildSlotCategory)}
-                          className="font-mono text-[0.5rem] text-red-400 uppercase tracking-wider hover:text-red-300 transition-colors"
+                          className="font-mono text-[0.5rem] text-xai-error uppercase tracking-wider hover:text-xai-text transition-colors"
                         >
                           Remove
                         </button>
@@ -556,8 +541,7 @@ export function MarketplaceApp({
         ) : (
           <div className="grid grid-cols-2 lg:grid-cols-3 gap-3">
             {filteredParts.map((part) => {
-              const modelKey = `${part.category}:${extractModelKey(part)}`
-              const pwo = partsWithOffers.get(modelKey)
+              const pwo = partsWithOffers.get(part.id)
               const offerCount = pwo?.offers?.length ?? 0
               const lowest = pwo?.lowestPrice
               const highest = pwo?.offers && pwo.offers.length > 0 
@@ -568,8 +552,8 @@ export function MarketplaceApp({
 
               return (
                 <button
-                  key={modelKey}
-                  onClick={() => setSelectedPartId(modelKey)}
+                  key={part.id}
+                  onClick={() => setSelectedPartId(part.id)}
                   className={[
                     'xai-card group text-left !p-2 cursor-pointer',
                     isSelected ? 'xai-card-active' : '',

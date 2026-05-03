@@ -1,5 +1,5 @@
 {
-  "$id": "https://pcbuilder.local/schema/catalog-shard.json",
+  "$id": "https://aether.local/schema/catalog-shard.json",
   "title": "CatalogShardFile",
   "type": "object",
   "additionalProperties": false,

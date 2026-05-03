@@ -7,6 +7,7 @@ import {
   PART_STEPS,
 } from '../../lib/buildWizard'
 import { simplifyPartName, type SortField } from '../../hooks/usePartFilters'
+import { parsePrice } from '../../lib/priceUtils'
 
 // ═════════════════════════════════════════════════════════════════════════════
 // Platform Selection
@@ -106,7 +107,7 @@ export function CustomSocketSelect({ platform, onSelect, onBack }: SocketSelectP
       </p>
 
       <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2">
-        {sockets.map((socket) => (
+        {sockets.length > 0 ? sockets.map((socket) => (
           <button
             key={socket.id}
             onClick={() => onSelect(socket)}
@@ -126,7 +127,22 @@ export function CustomSocketSelect({ platform, onSelect, onBack }: SocketSelectP
               ))}
             </div>
           </button>
-        ))}
+        )) : (
+          <div className="col-span-full xai-card text-center py-12">
+            <p className="font-mono text-xs text-xai-text-4 uppercase tracking-wider">
+              No sockets available for {platformLabel}
+            </p>
+            <p className="font-mono text-xs text-xai-text-3 mt-2">
+              Platform data is still being added. Try selecting the other platform.
+            </p>
+            <button
+              onClick={onBack}
+              className="xai-btn xai-btn-ghost text-xs py-1.5 px-3 mt-4"
+            >
+              ← BACK TO PLATFORM
+            </button>
+          </div>
+        )}
       </div>
     </div>
   )
@@ -196,8 +212,8 @@ export function CustomPartsSelect({
         switch (sortField) {
           case 'name': return dir * a.name.localeCompare(b.name)
           case 'price': {
-            const pa = parseFloat((priceByPartId?.[a.id] ?? '').replace(/[\u20b1,\s]/g, '')) || Infinity
-            const pb = parseFloat((priceByPartId?.[b.id] ?? '').replace(/[\u20b1,\s]/g, '')) || Infinity
+            const pa = parsePrice(priceByPartId?.[a.id], a.id) || Infinity
+            const pb = parsePrice(priceByPartId?.[b.id], b.id) || Infinity
             return dir * (pa - pb)
           }
           case 'cores': {
@@ -328,6 +344,8 @@ export function CustomPartsSelect({
                         key={part.id}
                         onClick={() => onSelectPart(category, part)}
                         className={`flex w-full items-center gap-3 py-2.5 px-1 text-left transition-colors hover:bg-xai-hover ${isSelected ? 'bg-xai-hover' : ''}`}
+                        aria-label={`Select ${simplifyPartName(part.name, part.category)}${isSelected ? ', currently selected' : ''}`}
+                        aria-pressed={isSelected}
                       >
                         {isSelected && (
                           <span className="font-mono text-[0.5625rem] text-[var(--color-xai-accent)] uppercase tracking-wider shrink-0">✓</span>
@@ -337,7 +355,7 @@ export function CustomPartsSelect({
                         </p>
                         <div className="flex items-center gap-2 shrink-0">
                           {techSpecs.map(([k, v]) => (
-                            <span key={k} className="font-mono text-[0.5rem] text-xai-text-4 bg-xai-bg px-1.5 py-0.5 rounded">
+                            <span key={k} className="font-mono text-[0.5rem] text-xai-text-4 bg-xai-bg px-1.5 py-0.5">
                               {v}
                             </span>
                           ))}

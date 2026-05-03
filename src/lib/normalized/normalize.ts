@@ -410,7 +410,7 @@ export function normalizePart(part: Part): { normalized: NormalizedData; meta: P
     return { normalized: { category: 'other', data: null }, meta: { parserVersion: PARSER_VERSION, confidence: 1, warnings: [] } }
   }
 
-  let result: { data: any; warnings: string[] } | null = null
+  let result: { data: NormalizedData['data']; warnings: string[] } | null = null
 
   switch (category) {
     case 'cpu':

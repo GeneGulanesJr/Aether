@@ -3,7 +3,7 @@
  */
 
 import { useCallback } from 'react'
-import { useWindowManager } from '../../lib/windowManager'
+import { useWindowManager } from '../../lib/useWindowManager'
 import { useClock } from '../../hooks/useClock'
 
 export function Taskbar() {

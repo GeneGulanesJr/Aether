@@ -489,7 +489,31 @@ function addNormalizedFields(items, category) {
 
 function normalizeCpuForEnrich(specs, name) {
   const warnings = []
-  const socket = specs.Socket || specs.socket || ''
+  let socket = specs.Socket || specs.socket || ''
+  // If socket still empty, try to infer from product name (brand-aware)
+  if (!socket) {
+    const upper = name.toUpperCase()
+    // Direct socket indicators
+    if (upper.includes('AM5')) socket = 'AM5'
+    else if (upper.includes('AM4')) socket = 'AM4'
+    else if (upper.includes('TR4')) socket = 'TR4'
+    else if (upper.includes('STRX4')) socket = 'sTRX4'
+    else if (upper.includes('SP3')) socket = 'SP3'
+    else if (upper.includes('SP5')) socket = 'SP5'
+    else {
+      // Intel LGA pattern
+      const lga = upper.match(/LGA\s*(\d{3,4})/i)
+      if (lga) socket = 'LGA' + lga[1]
+      else if (/AMD/i.test(name)) {
+        // AMD Ryzen generation heuristic
+        const modelMatch = name.match(/Ryzen\s+\d+\s+(\d{4,5})/i)
+        if (modelMatch) {
+          const modelNum = parseInt(modelMatch[1])
+          socket = modelNum >= 7000 ? 'AM5' : 'AM4'
+        }
+      }
+    }
+  }
   const tdpWatts = parseInt((specs.TDP || specs.tdp || '').replace(/[^\d]/g, '')) || 0
   const memRaw = (specs['Memory Type'] || '').toUpperCase()
   const memoryType = memRaw.includes('DDR5') ? 'DDR5' : 'DDR4'
@@ -504,15 +528,25 @@ function normalizeCpuForEnrich(specs, name) {
   return {
     normalized: {
       category: 'cpu',
-      data: { socket: socket || 'AM4', tdpWatts, memoryTypesSupported, integratedGraphics }
+      data: { socket: socket, tdpWatts, memoryTypesSupported, integratedGraphics }
     },
     meta: { parserVersion: '1.0.0', confidence: warnings.length === 0 ? 1 : 0.7, warnings }
   }
 }
 
+
 function normalizeMbForEnrich(specs, name) {
   const warnings = []
-  const socket = specs.socket || specs.Socket || ''
+  let socket = specs.socket || specs.Socket || ''
+  if (!socket) {
+    const upper = name.toUpperCase()
+    if (upper.includes('AM5')) socket = 'AM5'
+    else if (upper.includes('AM4')) socket = 'AM4'
+    else {
+      const lga = upper.match(/LGA\s*(\d{3,4})/i)
+      if (lga) socket = 'LGA' + lga[1]
+    }
+  }
   const chipset = specs.chipset || specs.Chipset || ''
   const ramRaw = (specs.ram || '').toUpperCase()
   const memoryType = ramRaw.includes('DDR5') ? 'DDR5' : 'DDR4'
@@ -527,7 +561,7 @@ function normalizeMbForEnrich(specs, name) {
     normalized: {
       category: 'motherboard',
       data: {
-        socket: socket || 'AM4', chipset, formFactor, memoryType,
+        socket: socket, chipset, formFactor, memoryType,
         memorySlots: formFactor === 'Mini-ITX' ? 2 : 4,
         maxMemoryGb: (formFactor === 'Mini-ITX' ? 2 : 4) * 48,
         m2Slots: 1, sataPorts: 4, pcieX16Slots: 1,
@@ -536,6 +570,7 @@ function normalizeMbForEnrich(specs, name) {
     meta: { parserVersion: '1.0.0', confidence: warnings.length === 0 ? 1 : 0.7, warnings }
   }
 }
+
 
 function normalizeGpuForEnrich(specs, name) {
   const warnings = []

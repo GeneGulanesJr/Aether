@@ -1,6 +1,6 @@
 import type { NormalizedData, ParseMeta } from './normalized/types'
 
-/** Domain types for PC Builder (PH). */
+/** Domain types for Aether. */
 
 export type BuildSlotCategory =
   | 'cpu'
@@ -61,6 +61,21 @@ export function getSpec(specs: Record<string, string>, key: string): string {
   return specs[key] ?? specs[key.toLowerCase()] ?? specs[key.charAt(0).toUpperCase() + key.slice(1)] ?? ''
 }
 
+/**
+ * Safely extract the CPU/motherboard socket from a Part, checking
+ * normalized data first (type-safe for CPU/motherboard only), then
+ * falling back to raw specs.
+ */
+export function getPartSocket(part: Part): string {
+  const { normalized, specs } = part
+  if (normalized && (normalized.category === 'cpu' || normalized.category === 'motherboard')) {
+    // TypeScript now knows normalized.data has a .socket field
+    return normalized.data.socket
+  }
+  // Fallback to raw specs
+  return getSpec(specs, 'socket')
+}
+
 export interface PriceEntry {
   partId: string
   amountPhp: number
@@ -69,7 +84,7 @@ export interface PriceEntry {
   observedAt?: string
 }
 
-/** Manifest computed from D1 — available categories and retailers. */
+/** Manifest — available categories and retailers. */
 export interface Manifest {
   categories: string[]
   retailers: string[]

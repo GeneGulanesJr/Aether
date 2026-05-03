@@ -1,6 +1,7 @@
 import type { WizardState } from '../../lib/buildWizard'
 import { PART_STEPS, buildScore } from '../../lib/buildWizard'
 import { formatPhp } from '../../lib/format'
+import { parsePrice } from '../../lib/priceUtils'
 
 type QuestLogProps = {
   state: WizardState
@@ -16,7 +17,7 @@ export function QuestLog({ state, priceByPartId }: QuestLogProps) {
     ? Object.values(state.selectedParts).reduce((sum, part) => {
         const priceStr = priceByPartId[part.id]
         if (priceStr) {
-          const numeric = Number(priceStr.replace(/[₱,\s]/g, ''))
+          const numeric = parsePrice(priceStr, part.id)
           return sum + (isNaN(numeric) ? 0 : numeric)
         }
         return sum

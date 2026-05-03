@@ -195,7 +195,7 @@ export function estimateWattage(slots: BuildSlot[]): WattageEstimate {
 
     const specs = slot.part.specs ?? {}
     let watts = 0
-    let source: 'spec' | 'estimate' = 'estimate'
+    const source: 'spec' | 'estimate' = 'estimate'
 
     switch (slot.category) {
       case 'cpu':

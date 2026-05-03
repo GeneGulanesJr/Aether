@@ -1,0 +1,896 @@
+{
+  "schemaVersion": "1.0",
+  "category": "controller",
+  "items": [
+    {
+      "id": "controller-ben-store-000000001c94",
+      "name": "Logitech G29 Driving Force Game Steering Wheel [For Playstation/PC]",
+      "category": "controller",
+      "specs": {
+        "SKU": "2577",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/10946-home_default/logitech-g29-driving-force-game-steering-wheel-for-playstationpc-.jpg"
+    },
+    {
+      "id": "controller-ben-store-0000000063dc",
+      "name": "Microsoft Xbox Wireless Controller [BLACK]",
+      "category": "controller",
+      "specs": {
+        "SKU": "4000",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/20075-home_default/microsoft-xbox-wireless-controller-black-.jpg"
+    },
+    {
+      "id": "controller-ben-store-000000002baa",
+      "name": "FANTECH GP11 WIRED GAMING CONTROLLER [GAMEPAD]",
+      "category": "controller",
+      "specs": {
+        "SKU": "3154",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/14584-home_default/fantech-gp11-wired-gaming-controller-gamepad-.jpg"
+    },
+    {
+      "id": "controller-ben-store-000000006d7a",
+      "name": "NVIDIA SHIELD Controller",
+      "category": "controller",
+      "specs": {
+        "SKU": "2831",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/12579-home_default/nvidia-shield-controller.jpg"
+    },
+    {
+      "id": "controller-ben-store-000000003c22",
+      "name": "Logitech G Driving Force Shifter [For Playstation/PC]",
+      "category": "controller",
+      "specs": {
+        "SKU": "2649",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/11647-home_default/logitech-g-driving-force-shifter-for-playstationpc-.jpg"
+    },
+    {
+      "id": "controller-ben-store-000000002a18",
+      "name": "Steam Controller",
+      "category": "controller",
+      "specs": {
+        "SKU": "2650",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://benstore.com.ph/11650-home_default/steam-controller.jpg"
+    },
+    {
+      "id": "controller-bermor-techzone-000000000a30",
+      "name": "Logitech G Dual-Motor Feedback Driving Force G29 Gaming Racing Wheel",
+      "category": "controller",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/03/61IYYoZ66VL._AC_SL1500_-300x300.jpg"
+    },
+    {
+      "id": "controller-bermor-techzone-000000001134",
+      "name": "MSI Force GC20 V2 USB Wired Controller Joystick Gamepad Black | White",
+      "category": "controller",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/LD0005906055_1-300x300.jpg"
+    },
+    {
+      "id": "controller-bermor-techzone-000000004e72",
+      "name": "Logitech G Gaming Driving Force Shifter for G29 and G920 Driving Wheels for PS4, Xbox One, and PC",
+      "category": "controller",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/03/41WV5F2DtRL._AC_SX466_-300x300.jpg"
+    },
+    {
+      "id": "controller-bermor-techzone-000000005a3e",
+      "name": "MSI Force GC30 V2 Wireless Controller Gamepad – Black | White",
+      "category": "controller",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/06/FORCE-GC30-V2-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000000e57",
+      "name": "Fantech EOS PRO II WGP15 V2 Tri Mode Wireless Gamepad – Grey | White",
+      "category": "controller",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/07/FANTECH-EOS-PRO-II-WGP15-V2-main-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000007e52",
+      "name": "Redragon G817 Hoarah Joystick Gamepad",
+      "category": "controller",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/03/Main-300x300.png"
+    },
+    {
+      "id": "controller-bermor-techzone-000000006efe",
+      "name": "Redragon G710 Rift 4 Programmable Keys Wired Gamepad – Black",
+      "category": "controller",
+      "specs": {
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/09/Redragon-Rift-Wired-Gamepad-1.webp-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000007611",
+      "name": "Fantech GP15L Eos Orion Black",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Fantech-GP15L-Eos-Orion-Black-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-0000000031c9",
+      "name": "Redragon G815 Pluto Gamepad",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/10/G815-Blue-300x253.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000007610",
+      "name": "Fantech WGP13S Shooter III Black",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Fantech-WGP13S-Shooter-III-Black-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000001ef6",
+      "name": "Fantech WGP14 V2 NOVA PRO Atomic Black Gamepad",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Fantech-WGP14-V2-NOVA-PRO-Atomic-Black-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000003302",
+      "name": "Fantech WGP14 V2 NOVA PRO Atomic Purple Gamepad",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Fantech-WGP14-V2-NOVA-PRO-Atomic-Purple-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000000dfa",
+      "name": "Fantech GP15 EOS VEGA Black Gamepad",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Fantech-GP15-EOS-VEGA-Black-Gamepad-btz-ph-1-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-0000000045cf",
+      "name": "Fantech ACGP03 Charging Dock for WGP15",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Fantech-ACGP03-Charging-Dock-for-WGP15-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000004dc8",
+      "name": "Fantech WGP13S SUPER MAXFIT SHOOTER III Pink",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Fantech-WGP13S-SUPER-MAXFIT-SHOOTER-III-Pink-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-00000000192f",
+      "name": "SteelSeries Stratus+ Wireless Controller for Android",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/08/stratus-plus-300x300.jpg"
+    },
+    {
+      "id": "controller-bermor-techzone-0000000013ca",
+      "name": "Redragon G812 Ceres Gamepad",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/10/G812-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-00000000453b",
+      "name": "Fantech WGP13S Super Maxfit Shooter III Grey",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/fantech-wgp13s-super-maxfit-shooter-iii-grey-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-0000000074ea",
+      "name": "Fantech WGP13S Shooter III White",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Fantech-WGP13S-Shooter-III-White-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000000476",
+      "name": "Fantech WGP14 V2 NOVA PRO Polaris Blue Gamepad",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Fantech-WGP14-V2-NOVA-PRO-Polaris-Blue-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000003471",
+      "name": "Fantech WGP14 V2 NOVA PRO Solaris Rainbow Gamepad",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Fantech-WGP14-V2-NOVA-PRO-Solarais-Rainbow-Btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-0000000075e5",
+      "name": "Fantech WGP14 V2 NOVA PRO Epsilon black Rainbow Gamepad",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Fantech-WGP14-V2-NOVA-PRO-Epsilon-black-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000000fac",
+      "name": "Fantech WGP14 V2 NOVA PRO White Gamepad",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Fantech-WGP14-V2-NOVA-PRO-White-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000006a76",
+      "name": "Fantech WGP14 V2 NOVA PRO Atomic Pink Gamepad",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Fantech-WGP14-V2-NOVA-PRO-Atomic-Pink-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-0000000040c2",
+      "name": "Fantech WGP15 Eos Pro Rainbow Gamepad",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Fantech-WGP15-Eos-Pro-Rainbow-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000003098",
+      "name": "Fantech WGP15 Eos Pro Blue Gamepad",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Fantech-WGP15-Eos-Pro-Blue-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-00000000236c",
+      "name": "Fantech WGP15 Eos Pro Black White Gamepad",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Fantech-WGP15-Eos-Pro-Black-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000003985",
+      "name": "Redragon G815 Pluto Pink Gamepad",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/05/Redragon-Pluto-Pink-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000003020",
+      "name": "BackBone One BB-02-B-A Lightning Apple Edition PH Black",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/BB-02-B-A-btz-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-00000000525a",
+      "name": "Backbone One BB-51-P-BA USB-C Apple Eddition PH Controller",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/BB-51-P-BA-btz-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000003ea1",
+      "name": "Backbone One BB-51-P-BR USB-C CLassic Edition Controller",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/BB-51-P-BR-btz-0-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-0000000023f0",
+      "name": "Backbone One BB-51-P-WS USB-C Playstation Edition White Controller",
+      "category": "controller",
+      "specs": {
+        "Availability": "unknown"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/BB-51-P-WS-btz-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000006d5f",
+      "name": "Redragon Harrow Gamepad Wireless",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/10/20863058_2029061490453037_8747468658067898368_n-300x300.jpg"
+    },
+    {
+      "id": "controller-bermor-techzone-000000006ae8",
+      "name": "Logitech Gamepad F710 PC Wireless Gamepad",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2019/06/71cY1dSNnL._SL1500_-1-300x300.jpg"
+    },
+    {
+      "id": "controller-bermor-techzone-00000000516f",
+      "name": "Redragon Saturn G807 Gamepad PC Controller",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/10/20862852_1466412923448411_7637197432840781824_n-300x300.jpg"
+    },
+    {
+      "id": "controller-bermor-techzone-0000000072b7",
+      "name": "Logitech Gamepad F310 PC USB Gamepad",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2019/06/71uoG-y-bEL._SL1500_-300x300.jpg"
+    },
+    {
+      "id": "controller-bermor-techzone-000000006e31",
+      "name": "Logitech Extreme 3D Pro Gaming Joystick",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2021/10/26-102-204-02-300x300.jpg"
+    },
+    {
+      "id": "controller-bermor-techzone-000000003b05",
+      "name": "Redragon GA-200 Eris Keyboard and Mouse Converter",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/10/GA200-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-0000000035a5",
+      "name": "Cooler Master STORM CONTROLLER Ergonomic Multi-host Wireless Gaming Controller",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/10/Cooler-Master-STORM-CONTROLLER-Ergonomic-Multi-host-Wireless-Gaming-Controller-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-0000000042e6",
+      "name": "Redragon Seymour Joystick",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2017/10/2049377.64220__Seymour.1920x1014-300x300.jpg"
+    },
+    {
+      "id": "controller-bermor-techzone-000000004511",
+      "name": "Logitech G29 Racing Wheel + Logitech Shifter",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/06/Logitech-G29-Racing-Wheel-Logitech-Shifter-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000003ad6",
+      "name": "SteelSeries Nimbus + Apple Arcade with free Apple Arcade Voucher Bundle 69090",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/nimbus_11zon-1-300x300.jpg"
+    },
+    {
+      "id": "controller-bermor-techzone-0000000039bb",
+      "name": "Razer Kishi V2 Gaming Controller for Android RZ06-04180100-R3M1",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2022/09/Razer-Kishi-V2-300x300.jpg"
+    },
+    {
+      "id": "controller-bermor-techzone-000000004a18",
+      "name": "Asus ROG Raikiri Wired Gaming Controllers",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/06/Asus-ROG-Raikiri-Wired-Gaming-Controllers-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-00000000369b",
+      "name": "Redragon G808-PRO Harrow Pro 2.4GHz Wireless GamePad",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2023/06/Redragon-G808-PRO-Harrow-Pro-2.4GHz-Wireless-GamePad-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000002ce4",
+      "name": "Razer Wolverine V3 Pro Wireless Gaming Controller for Xbox Series X|S PC Black",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/Razer-Wolverine-V3-Pro-Wireless-Gaming-Controller-btz-ph-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000007360",
+      "name": "Asus ROG Tessen Mobile Controller Black",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2024/12/ROG-Tessen-Mobile-Controller-btz-ph-0-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000005339",
+      "name": "Fantech WGP14 NOVA Multi Platform Gaming Controller",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/WGP14-NOVA-MULTI-PLATFORM-GAMING-CONTROLLER-BLACK-btz-ph-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-00000000370c",
+      "name": "Fantech GP11 Shooter Gamepad",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Fantech-GP11-Shooter-Gamepad-red-copy-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-0000000047e7",
+      "name": "Fantech GP12 Revolver Black Controller Gamepad",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Fantech-GP12-Revolver-Black-copy-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000003d10",
+      "name": "Fantech WGP12 Revolver Black Wireless Controller Gamepad",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Fantech-WGP12-Revolver-Black-Wireless-copy-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-00000000765f",
+      "name": "Fantech GP13 Shooter II Wired",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Fantech-GP13-Shooter-copy-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000007769",
+      "name": "Fantech WGP12 Revolver White | Green Wireless",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Fantech-WGP12-Revolver-White-copy-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000007a10",
+      "name": "Fantech WGP13 Shooter || Wireless Blue",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Fantech-WGP13-Shooter-Blue-copy-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-0000000036e7",
+      "name": "Fantech WGP13 Shooter || Wireless White",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/02/Fantech-WGP13-Shooter-White-copy-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000003cf5",
+      "name": "MSI Force Pro Wireless Stalker 2 Edition Gaming Controller",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/05/Force-Pro-W-STALKER-2-EDITION-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000006de9",
+      "name": "Razer Stream Controller – All-in-one Keypad for Streaming RZ20-04350100-R3M1",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/MAIN-12-300x300.png"
+    },
+    {
+      "id": "controller-bermor-techzone-000000000a02",
+      "name": "Razer Kishi V2 – Gaming Controller for iPhone RZ06-04190100-R3M1",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/main-8-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-0000000001fa",
+      "name": "Razer Wolverine V2 Pro RZ06-04710200-R3A1",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/Razer-Wolverine-V2-Pro_MAIN-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000006076",
+      "name": "Razer Raion Fightpad for PS4 RZ06-02940100-R3A1",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/m-5-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-0000000077f9",
+      "name": "Razer Universal Quick Charging Stand for Xbox RC21-01750800-R3M1",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/main-4-300x300.png"
+    },
+    {
+      "id": "controller-bermor-techzone-0000000018e8",
+      "name": "Razer Quick Charging Stand for PlayStation RC21-01900100-R3M1",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/m-6-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000001017",
+      "name": "Razer Universal Quick Charging Stand for Xbox RC21-01750900-R3M1",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/prof-300x300.png"
+    },
+    {
+      "id": "controller-bermor-techzone-000000004ef8",
+      "name": "Razer Quick Charging Stand for PlayStation RC21-01900200-R3M1",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/m-7-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000004d79",
+      "name": "Razer Wolverine V2 Chroma – White – Xbox Series X|S RZ06-04010200-R3M1",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/MAINPAGE-300x300.png"
+    },
+    {
+      "id": "controller-bermor-techzone-000000004926",
+      "name": "Razer Quick Charging Stand for PlayStation RC21-01900300-R3M1",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/m-8-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-00000000253d",
+      "name": "Razer Wolverine V3 Tournament Edition – Wired Gaming Controller for Xbox Series X|S & PC – White – FRML Packaging RZ06-05210200-R3M1",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/m-1-2-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000007c4a",
+      "name": "Razer Wolverine V3 Tournament Edition Wired ESports Gaming Controller for Xbox & PC RZ06-05210100-R3M1",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/main-10-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000001e92",
+      "name": "Razer Wolverine V3 Pro – Wireless Gaming Controller for Xbox Series X|S & PC – White RZ06-05200200-R3M1",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/main-1-7-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-0000000042ea",
+      "name": "Fantech R1 3in1 Steering Wheel",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/FANTECH-R1-3IN1-STEERING-WHEEL_btz_1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000007f38",
+      "name": "Fantech RS1 3in1 Force Racing Steering Wheel",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/FANTECH-RS1-3IN1-STEERING-WHEEL_btz_1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000002c39",
+      "name": "Razer Wolverine V2 Pro – Wireless PlayStation 5 & PC Gaming Controller RZ06-04710100-R3A1",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/MAIN-2-1-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000002a87",
+      "name": "Razer Kishi V2 Pro – Gaming Controller for Android RZ06-04580100-R3M1",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/06/main-40-300x300.webp"
+    },
+    {
+      "id": "controller-bermor-techzone-000000003703",
+      "name": "Redragon G820 DarkFlame Wireless Gamepad Controller",
+      "category": "controller",
+      "specs": {
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://bermorzone.com.ph/wp-content/uploads/2025/09/Redragon-G820-DarkFlame-300x300.webp"
+    },
+    {
+      "id": "controller-dynaquest-pc-000000007214",
+      "name": "MSI Force GC300 Wireless Black Controller",
+      "category": "controller",
+      "specs": {
+        "Brand": "MSI",
+        "SKU": "PR001430",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/215_cb11ba5b-49bc-4812-a8a7-dd9db2c56521.png?v=1759570908"
+    },
+    {
+      "id": "controller-dynaquest-pc-00000000636e",
+      "name": "MSI Force GC30 V2 Black Wireless Gaming Controller",
+      "category": "controller",
+      "specs": {
+        "Brand": "MSI",
+        "SKU": "12617",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500x_f17a8593-5448-4ce1-b46b-3f75c9d713a8.jpg?v=1639279942"
+    },
+    {
+      "id": "controller-dynaquest-pc-000000003710",
+      "name": "Asus ROG Tessen Mobile Gaming Controller Android",
+      "category": "controller",
+      "specs": {
+        "Brand": "Asus",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/236_70bbfade-778a-4878-9c38-e98a47ceee29.png?v=1749529581"
+    },
+    {
+      "id": "controller-dynaquest-pc-0000000079bb",
+      "name": "Backbone One V2 Playstation Edition USB-C Mobile Gaming Controller BB-51-P-WS",
+      "category": "controller",
+      "specs": {
+        "Brand": "Backbone",
+        "SKU": "PR001091",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/60_c05c7767-5a5e-4f91-9c3f-2dfff717a197.png?v=1749269584"
+    },
+    {
+      "id": "controller-dynaquest-pc-00000000740c",
+      "name": "Asus ROG Raikiri Pro Wireless Black Gaming Controller 90GC00W0",
+      "category": "controller",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "51645",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/285_58239213-b28f-48f3-a738-3c46a2dc0789.png?v=1706845872"
+    },
+    {
+      "id": "controller-dynaquest-pc-000000003e4e",
+      "name": "Asus ROG RAIKIRI Wired XBOX Gaming Controller",
+      "category": "controller",
+      "specs": {
+        "Brand": "Asus",
+        "SKU": "15759",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/AsusROGRAIKIRIWiredXBoxGamingController90GC00X0-BGP0.jpg?v=1699499294"
+    },
+    {
+      "id": "controller-dynaquest-pc-0000000046fb",
+      "name": "Razer Kishi V2 Universal Gaming Controller for ( Android RZ06-04180100-R / iPhone RZ06-04190100-R3M1 )",
+      "category": "controller",
+      "specs": {
+        "Brand": "RaZER",
+        "SKU": "51152",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/files/RazerKishiV2UniversalMobileGamingControllerForIphone.jpg?v=1761156669"
+    },
+    {
+      "id": "controller-dynaquest-pc-0000000079cd",
+      "name": "MSI Force GC20 V2 Black Gaming Controller",
+      "category": "controller",
+      "specs": {
+        "Brand": "MSI",
+        "SKU": "14122",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/MSIForceGC20V2BlackGamingController.jpg?v=1669623594"
+    },
+    {
+      "id": "controller-dynaquest-pc-0000000076b6",
+      "name": "MSI Force GC20 V2 White Gaming Controller",
+      "category": "controller",
+      "specs": {
+        "Brand": "MSI",
+        "SKU": "520123",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/500x_a5ceab64-a5c4-454d-9a58-484db3dc56ed.jpg?v=1641557949"
+    },
+    {
+      "id": "controller-dynaquest-pc-000000006c4e",
+      "name": "MSI Force GC30 V2 White Wireless Gaming Controller",
+      "category": "controller",
+      "specs": {
+        "Brand": "MSI",
+        "SKU": "5321417",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/501x_dc511910-25e1-4dfc-a09c-32e381814856.jpg?v=1639390235"
+    },
+    {
+      "id": "controller-dynaquest-pc-000000002f58",
+      "name": "HyperX Chargeplay Quad Joy-Con Charging Station KHX-CPQD-U",
+      "category": "controller",
+      "specs": {
+        "Brand": "Kingston",
+        "SKU": "10906",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/chargeplay.jpg?v=1588172030"
+    },
+    {
+      "id": "controller-dynaquest-pc-00000000545c",
+      "name": "Logitech F710 Wireless Gamepad Controller rumble 940-000119",
+      "category": "controller",
+      "specs": {
+        "Brand": "Logitech",
+        "SKU": "1945",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/f710-gaming-gamepad-images.png?v=1571552573"
+    },
+    {
+      "id": "controller-dynaquest-pc-000000003bcd",
+      "name": "Logitech F310 GamePad 940-000112",
+      "category": "controller",
+      "specs": {
+        "Brand": "Logitech",
+        "SKU": "1943",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/f310-gaming-gamepad-images.png?v=1571552572"
+    },
+    {
+      "id": "controller-dynaquest-pc-000000004787",
+      "name": "Logitech Extreme 3D Pro Gaming Joystick 942-000008",
+      "category": "controller",
+      "specs": {
+        "Brand": "Logitech",
+        "SKU": "1942",
+        "Availability": "in_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/Logitech_Extreme_3D_Pro_Gaming_Joystick.png?v=1571552572"
+    },
+    {
+      "id": "controller-dynaquest-pc-000000002a57",
+      "name": "Logitech Driving Force Shifter 941-000132",
+      "category": "controller",
+      "specs": {
+        "Brand": "Logitech",
+        "SKU": "4918",
+        "Availability": "out_of_stock"
+      },
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2227/7667/products/driving-force-shifter.png?v=1571552572"
+    }
+  ]
+}
