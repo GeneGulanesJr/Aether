@@ -52,15 +52,64 @@ tmp/
 # OS
 Thumbs.db
 
-# Doom benchmark — fetched on demand via scripts/fetch-doom.mjs
+# Doom benchmark — fetched on demand
 public/doom/
 
+# ── Excluded from repo (local only) ──
 
-# Scrapper
+# Scraper (separate repo)
+scrapper/
 
+# Audit / verification scripts & reports (local tooling)
+*.py
+!scripts/*.py
+audit_*.cjs
+audit_*.json
+check_*.mjs
+verify-*.mjs
+validate_*.mjs
+run_audit.py
+uncovered_categories.txt
+missing_items_analysis.json
+storerules_proposal.json
+top15_missing_categories.json
+skills-lock.json
+octagon_validation_*.json
+pcworx_*.json
+dynaquest_*.json
+easypc_*.json
+*_audit_report.json
+
+# Verification reports
+verification_reports/
+
+# Store rules & audit artifacts
+FINAL_STORE_RULES*.json
+MERGED_STORE_RULES*.json
+STORE_RULES_*.json
+STORE_RULES_ANALYSIS.md
+DataBlitz_Audit_Report.json
+OCTAGON_*.md
+SILICONVALLEY_*.md
+PCBUILDER_*.md
+OptimizationPlan.md
+SchemaUpdate.txt
+
+# SQL dumps
+sql/
+
+# Local documents
+Documents/
+.hermes/
 
 # Docs (local spreadsheets / exports)
 docs/**/*.csv
 docs/**/*.xlsx
 docs/**/*.xls
+docs/**/*.pdf
+docs/fonts/
+
+# Pi internal
 .pi/
+.impeccable.md
+.agents/.agents/
