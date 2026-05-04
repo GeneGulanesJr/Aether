@@ -334,10 +334,10 @@ function ModePicker({
     <div className="flex flex-col h-full min-h-0">
       <button onClick={onBack} className="xai-btn xai-btn-ghost mb-4">← BACK</button>
 
-      <p className="font-mono text-[0.625rem] text-xai-text-4 uppercase tracking-[0.2em] mb-1">
-        Step 0
+      <p className="font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-[0.2em] mb-1">
+        AETHER // BUILDSYSTEM
       </p>
-      <h2 className="xai-heading text-xai-text">
+      <h2 className="xai-heading-lg text-xai-text">
         How do you want to build?
       </h2>
       <p className="mt-1 text-xai-text-3 text-sm leading-[1.6]">
@@ -497,7 +497,7 @@ function PostWizardOverlay({
             <span className="text-3xl mb-4 block" aria-hidden="true">
               {isComplete ? '🏆' : '🔧'}
             </span>
-            <h2 className="xai-heading text-xai-text text-center">
+            <h2 className="xai-heading-lg text-xai-text text-center">
               {isComplete ? 'Build Complete' : 'Build In Progress'}
             </h2>
             <div className="flex items-center gap-4 mt-4">
@@ -546,7 +546,12 @@ function PostWizardOverlay({
         ) : (
           <>
             <span className="text-3xl mb-4 block" aria-hidden="true">🖥️</span>
-            <h2 className="xai-heading text-xai-text text-center">Build Your Dream PC</h2>
+            <p className="font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-[0.2em] mb-2">
+              AETHER // BUILDSYSTEM
+            </p>
+            <h2 className="xai-heading-lg text-xai-text text-center">
+              Build Your Dream PC
+            </h2>
             <p className="font-mono text-xs text-xai-text-3 text-center mt-2">
               Answer questions or hand-pick every part — your call.
             </p>

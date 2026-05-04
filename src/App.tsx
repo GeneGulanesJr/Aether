@@ -60,7 +60,7 @@ export function App() {
       <div className="app-loaded aether-app-enter">
         <ErrorBoundary>
         <Suspense fallback={
-          <div className="flex min-h-dvh flex-col items-center justify-center bg-xai-bg">
+          <div className="flex min-h-dvh flex-col items-center justify-center bg-xai-bg aether-loader-screen">
             <p className="font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-wider">
               Loading desktop…
             </p>

@@ -45,10 +45,13 @@ export function Onboarding() {
           ✕
         </button>
 
-        <h2 className="font-mono text-sm text-xai-text uppercase tracking-wider mb-1">
-          Aether
-        </h2>
-        <p className="font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-wider mb-6">
+        {/* Brand moment — GeistMono at display scale */}
+        <p className="aether-wordmark text-xai-text mb-2"
+          aria-hidden="true"
+        >
+          AETHER
+        </p>
+        <p className="font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-[0.2em] mb-6">
           Desktop Edition
         </p>
 
@@ -74,7 +77,7 @@ export function Onboarding() {
         {/* Actions */}
         <div className="flex flex-col gap-2">
           <button onClick={startBuild} className="xai-btn w-full">
-            Start Building
+            Start Building →
           </button>
           <button
             onClick={() => dismiss(false)}
@@ -84,7 +87,7 @@ export function Onboarding() {
           </button>
         </div>
 
-        <p className="font-mono text-[0.4375rem] text-xai-text-4 uppercase tracking-wider text-center mt-4">
+        <p className="font-mono text-[0.4375rem] text-xai-text-4 uppercase tracking-[0.2em] text-center mt-4">
           Tip: double-click icons to open apps. Drag windows by their title bar.
         </p>
       </div>

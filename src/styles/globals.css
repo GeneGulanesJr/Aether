@@ -1153,3 +1153,48 @@ select.xai-input option:disabled {
 .app-loaded {
   animation: app-fade-in 0.4s ease forwards;
 }
+
+/* ═══════════════════════════════════════════════════════════════════════════════════════ */
+/* Aether Brand Moments                                                                   */
+/* ═══════════════════════════════════════════════════════════════════════════════════════ */
+
+/* ─── Loading screen: AETHER wordmark at display scale ─── */
+.aether-loader-wordmark {
+  font-family: var(--font-mono);
+  font-size: clamp(3rem, 10vw, 7rem);
+  font-weight: 300;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--color-xai-text);
+  line-height: 1;
+  animation: aether-wordmark-in 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes aether-wordmark-in {
+  0% {
+    opacity: 0;
+    transform: translateY(12px) scale(0.97);
+    letter-spacing: 0.6em;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    letter-spacing: 0.3em;
+  }
+}
+
+/* ─── Onboarding: AETHER wordmark — statement scale ─── */
+.aether-wordmark {
+  font-family: var(--font-mono);
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-weight: 300;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--color-xai-text);
+  line-height: 1;
+}
+
+/* ─── App enter: subtle scale-up after loader ─── */
+.aether-app-enter .app-loaded {
+  animation: app-fade-in 0.4s ease forwards;
+}
