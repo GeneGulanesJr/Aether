@@ -28,11 +28,11 @@ export function App() {
 
   if (loadingState === 'loading') {
     return (
-      <div className="flex min-h-dvh flex-col items-center justify-center bg-xai-bg">
-        <p className="font-mono text-[0.625rem] text-xai-text-4 uppercase tracking-[0.2em] mb-6">
-          Aether
+      <div className="flex min-h-dvh flex-col items-center justify-center bg-xai-bg aether-loader-screen">
+        <p className="aether-loader-wordmark">
+          AETHER
         </p>
-        <div className="w-40 h-0.5 bg-xai-border overflow-hidden relative">
+        <div className="w-40 h-0.5 bg-xai-border overflow-hidden relative mt-6">
           <div
             className="absolute top-0 left-0 h-full bg-xai-text"
             style={{
@@ -57,7 +57,7 @@ export function App() {
   // Desktop OS layout (>768px)
   if (isDesktop) {
     return (
-      <div className="app-loaded">
+      <div className="app-loaded aether-app-enter">
         <ErrorBoundary>
         <Suspense fallback={
           <div className="flex min-h-dvh flex-col items-center justify-center bg-xai-bg">
@@ -87,7 +87,7 @@ export function App() {
 
   // Mobile wizard layout (<768px) — existing flow
   return (
-    <div className="app-loaded">
+    <div className="app-loaded aether-app-enter">
       <AppShell>
         <ErrorBoundary>
           <BuilderPage />

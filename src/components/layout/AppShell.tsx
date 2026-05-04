@@ -18,11 +18,11 @@ export function AppShell({ children }: AppShellProps) {
       {/* ── Header + Navigation landmarks ── */}
       <header className="border-b border-xai-border">
         <nav aria-label="Main navigation" className="mx-auto max-w-7xl flex items-center justify-between px-4 py-3 sm:px-6">
-          <p className="font-mono text-sm text-xai-text uppercase tracking-wider">
-            Aether
+          <p className="font-mono text-base text-xai-text uppercase tracking-[0.3em]">
+            AETHER
           </p>
           <div className="flex items-center gap-4">
-            <span className="font-mono text-[0.625rem] text-xai-text-4 uppercase tracking-wider hidden sm:block">
+            <span className="font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-[0.2em] hidden sm:block">
               Philippine Peso · 2025
             </span>
           </div>
@@ -40,10 +40,10 @@ export function AppShell({ children }: AppShellProps) {
         className="border-t border-xai-border"
       >
         <div className="mx-auto max-w-7xl flex items-center justify-between px-4 py-3 sm:px-6">
-          <p className="font-mono text-[0.625rem] text-xai-text-4 uppercase tracking-wider">
-            Aether · {new Date().getFullYear()}
+          <p className="font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-[0.2em]">
+            AETHER · {new Date().getFullYear()}
           </p>
-          <p className="font-mono text-[0.625rem] text-xai-text-4 uppercase tracking-wider hidden sm:block">
+          <p className="font-mono text-[0.5625rem] text-xai-text-4 uppercase tracking-[0.2em] hidden sm:block">
             Rotate or widen for desktop experience
           </p>
         </div>

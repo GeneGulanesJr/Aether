@@ -35,8 +35,8 @@ export function TopBar(_props: TopBarProps) {
   return (
     <div className="fixed top-0 left-0 right-0 h-9 bg-xai-bg border-b border-xai-border flex items-center px-3 z-50 gap-4">
       {/* Brand */}
-      <span className="font-mono text-[0.625rem] uppercase tracking-wider text-xai-text-4 shrink-0">
-        Aether
+      <span className="font-mono text-[0.6875rem] uppercase tracking-[0.25em] text-xai-text-3 shrink-0">
+        AETHER
       </span>
 
       {/* Search */}
