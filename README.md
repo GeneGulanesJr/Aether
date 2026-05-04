@@ -2,7 +2,7 @@
 
 A React + TypeScript web app for browsing PC parts and building custom computer configurations. Designed for the Philippine market with PHP pricing support.
 
-![Architecture](docs/architecture.html)
+![Architecture](docs/architecture.png)
 
 ## Quick Start
 
