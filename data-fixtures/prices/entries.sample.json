@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.0",
+  "entries": [
+    {
+      "partId": "cpu-sample-1",
+      "amountPhp": 9999,
+      "retailer": "Sample Retailer",
+      "productUrl": "https://example.com/product",
+      "observedAt": "2025-01-01T00:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "category": "cpu",
+  "items": [
+    {
+      "id": "cpu-sample-1",
+      "name": "Sample CPU",
+      "category": "cpu",
+      "specs": {
+        "cores": "6",
+        "threads": "12",
+        "baseClock": "3.6 GHz",
+        "socket": "AM4"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "updatedAt": "2025-01-01T00:00:00Z",
+  "shards": [
+    {
+      "key": "cpu",
+      "sha256": "abc123",
+      "updatedAt": "2025-01-01T00:00:00Z"
+    }
+  ]
+}
