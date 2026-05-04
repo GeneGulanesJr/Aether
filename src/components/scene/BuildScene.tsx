@@ -67,8 +67,8 @@ function SceneContent({ build }: BuildSceneProps) {
         return (
           <PartSlot
             key={slot.category}
-            slot={slot}
             color={color}
+            filled={slot.filled}
             position={pos.position}
             scale={pos.scale}
           />

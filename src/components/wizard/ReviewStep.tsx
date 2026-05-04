@@ -16,7 +16,6 @@ interface ReviewStepProps {
   state: WizardState
   onRestart: () => void
   priceByPartId?: Record<string, string>
-  isEstimated: boolean
   isEstimated?: boolean
   livePriceState?: unknown
   livePriceError?: string | undefined
