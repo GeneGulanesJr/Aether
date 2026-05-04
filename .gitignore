@@ -113,3 +113,6 @@ docs/fonts/
 .pi/
 .impeccable.md
 .agents/.agents/
+
+.dev.vars*
+!.dev.vars.example
